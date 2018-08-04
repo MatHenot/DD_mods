@@ -69,18 +69,27 @@
     <entry id="snake_charmer_armour_3"><![CDATA[Écharpe décorée]]></entry>
     <entry id="snake_charmer_armour_4"><![CDATA["La Mue"]]></entry>
     <entry id="upgrade_tree_name_snake_charmer.armour"><![CDATA[Écharpe]]></entry>
+	
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s si %s dans l'inventaire]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antidote]]></entry>
 
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[Constriction :]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Charme vicieux :]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_reptilian_plates"><![CDATA[{colour_start|neutral}DGT minimum seulement :{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_VC"><![CDATA[Ajoute une {colour_start|notable}Action{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} (de base : 100%%) 2pts/tr sur 3tr]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} (de base : 110%%) 2pts/tr sur 3tr]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} (de base : 120%%) 3pts/tr sur 3tr]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} (de base : 130%%) 3pts/tr sur 3tr]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} (de base : 140%%) 4pts/tr sur 3tr]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_VC_A"><![CDATA[Ajoute une {colour_start|notable}Action{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_VC_B"><![CDATA[-20%% de chance d'effets]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}Stress{colour_end} : -7 à -11]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_2"><![CDATA[{colour_start|stress}Stress{colour_end} : -8 à -12]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}Stress{colour_end} : -9 à -13]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}Stress{colour_end} : -10 à -14]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}Stress{colour_end} : -11 à -15]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} (de base : 100%%) 2pts/tr sur 2tr]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} (de base : 110%%) 2pts/tr sur 2tr]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} (de base : 120%%) 3pts/tr sur 2tr]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} (de base : 130%%) 3pts/tr sur 2tr]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} (de base : 140%%) 4pts/tr sur 2tr]]></entry>
 	
 		
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Ce voyage n'était que pure folie !]]></entry>
@@ -438,18 +447,18 @@
 	<entry id="snake_charmer+str_bark_reserve"><![CDATA[Oh, j'ai retrouvé ça au fond de ma boite.]]></entry>
 	<entry id="snake_charmer+str_bark_reserve"><![CDATA[Pas de panique, il me reste quelques ingrédients...]]></entry>
         
-	<entry id="acolyte+str_critbyhero"><![CDATA[Les crochets mortels frappent !]]></entry>
-    <entry id="acolyte+str_critbyhero"><![CDATA[Je te dresserai !]]></entry>
-    <entry id="acolyte+str_critbyhero"><![CDATA[kKSSSss !!!]]></entry>
-    <entry id="acolyte+str_critbyhero"><![CDATA[Le venin te consume !]]></entry>
-    <entry id="acolyte+str_critbyhero"><![CDATA[Tu es déjà mort !]]></entry>
-    <entry id="acolyte+str_critbyhero"><![CDATA[Une frappe critique !]]></entry>
+	<entry id="snake_charmer+str_critbyhero"><![CDATA[Les crochets mortels frappent !]]></entry>
+    <entry id="snake_charmer+str_critbyhero"><![CDATA[Je te dresserai !]]></entry>
+    <entry id="snake_charmer+str_critbyhero"><![CDATA[kKSSSss !!!]]></entry>
+    <entry id="snake_charmer+str_critbyhero"><![CDATA[Le venin te consume !]]></entry>
+    <entry id="snake_charmer+str_critbyhero"><![CDATA[Tu es déjà mort !]]></entry>
+    <entry id="snake_charmer+str_critbyhero"><![CDATA[Une frappe critique !]]></entry>
 	
 	<entry id="snake_charmer+str_monster_user_selected_targets_kill_pill"><![CDATA[C'est ma destinée... Je t'attends, Dévoreur !]]></entry>
-    <entry id="acolyte+str_monster_attack_unholy_smite"><![CDATA[Sa présence... est écrasante !!]]></entry>
-    <entry id="acolyte+str_monster_attack_unholy_judgement"><![CDATA[Je survivrai ! J'ai été formé pour cela !]]></entry>
-    <entry id="acolyte+str_monster_attack_unholy_curse"><![CDATA[Ma destinée s'arrête-t-elle à ça ?!]]></entry>
-    <entry id="acolyte+str_bark_deathsdoor"><![CDATA[Maître, je m'en vais vous rejoindre...]]></entry>
+    <entry id="snake_charmer+str_monster_attack_unholy_smite"><![CDATA[Sa présence... est écrasante !!]]></entry>
+    <entry id="snake_charmer+str_monster_attack_unholy_judgement"><![CDATA[Je survivrai ! J'ai été formé pour cela !]]></entry>
+    <entry id="snake_charmer+str_monster_attack_unholy_curse"><![CDATA[Ma destinée s'arrête-t-elle à ça ?!]]></entry>
+    <entry id="snake_charmer+str_bark_deathsdoor"><![CDATA[Maître, je m'en vais vous rejoindre...]]></entry>
 	
   </language>
 

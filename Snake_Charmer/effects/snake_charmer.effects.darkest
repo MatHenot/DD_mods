@@ -15,57 +15,100 @@ effect: .name "SC venomous fang 5" .target "target" .curio_result_type "negative
 
 //mamba dance
 
-effect: .name "SC mamba dance 1" .target "target" .curio_result_type "negative" .chance 100% .buff_ids blight_debuff_1 .on_hit true .on_miss false
-effect: .name "SC mamba dance 2" .target "target" .curio_result_type "negative" .chance 110% .buff_ids blight_debuff_2 .on_hit true .on_miss false
-effect: .name "SC mamba dance 3" .target "target" .curio_result_type "negative" .chance 120% .buff_ids blight_debuff_3 .on_hit true .on_miss false
-effect: .name "SC mamba dance 4" .target "target" .curio_result_type "negative" .chance 130% .buff_ids blight_debuff_4 .on_hit true .on_miss false
-effect: .name "SC mamba dance 5" .target "target" .curio_result_type "negative" .chance 140% .buff_ids blight_debuff_5 .on_hit true .on_miss false
+effect: .name "SC mamba dance A1" .target "target" .curio_result_type "negative" .chance 100% .buff_ids blight_debuff_1 .on_hit true .on_miss false
+effect: .name "SC mamba dance A2" .target "target" .curio_result_type "negative" .chance 110% .buff_ids blight_debuff_2 .on_hit true .on_miss false
+effect: .name "SC mamba dance A3" .target "target" .curio_result_type "negative" .chance 120% .buff_ids blight_debuff_3 .on_hit true .on_miss false
+effect: .name "SC mamba dance A4" .target "target" .curio_result_type "negative" .chance 130% .buff_ids blight_debuff_4 .on_hit true .on_miss false
+effect: .name "SC mamba dance A5" .target "target" .curio_result_type "negative" .chance 140% .buff_ids blight_debuff_5 .on_hit true .on_miss false
+
+effect: .name "SC mamba dance B1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 0.05 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC mamba dance B2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 0.06 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC mamba dance B3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 0.07 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC mamba dance B4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 0.08 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC mamba dance B5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 0.10 .duration 2 .on_hit true .on_miss false .queue true
+
+//feast
+
+effect: .name "SC clear_corpses" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .queue false .can_apply_on_death true
 
 //constriction
 
-effect: .name "SC constriction 1" .target "target" .curio_result_type "negative" .chance 90%  .combat_stat_buff 1 .speed_rating_add -4 .damage_low_multiply -5%  .damage_high_multiply -5%  .on_hit true .on_miss false
-effect: .name "SC constriction 2" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .speed_rating_add -4 .damage_low_multiply -7%  .damage_high_multiply -7%  .on_hit true .on_miss false
-effect: .name "SC constriction 3" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .speed_rating_add -5 .damage_low_multiply -10% .damage_high_multiply -10% .on_hit true .on_miss false
-effect: .name "SC constriction 4" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .speed_rating_add -5 .damage_low_multiply -12% .damage_high_multiply -12% .on_hit true .on_miss false
-effect: .name "SC constriction 5" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .speed_rating_add -6 .damage_low_multiply -15% .damage_high_multiply -15% .on_hit true .on_miss false
+effect: .name "SC constriction A1" .target "target" .curio_result_type "negative" .chance 90%  .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SC constriction A2" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SC constriction A3" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SC constriction A4" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SC constriction A5" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "SC constriction B1" .target "target" .curio_result_type "negative" .chance 90%  .combat_stat_buff 1 .speed_rating_add -4 .damage_low_multiply -5%  .damage_high_multiply -5%  .on_hit true .on_miss false
+effect: .name "SC constriction B2" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .speed_rating_add -4 .damage_low_multiply -7%  .damage_high_multiply -7%  .on_hit true .on_miss false
+effect: .name "SC constriction B3" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .speed_rating_add -5 .damage_low_multiply -10% .damage_high_multiply -10% .on_hit true .on_miss false
+effect: .name "SC constriction B4" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .speed_rating_add -5 .damage_low_multiply -12% .damage_high_multiply -12% .on_hit true .on_miss false
+effect: .name "SC constriction B5" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .speed_rating_add -6 .damage_low_multiply -15% .damage_high_multiply -15% .on_hit true .on_miss false
 
 //rattling trap
 
-effect: .name "SC rattling trap description 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_Description_1" .on_hit true .on_miss false
-effect: .name "SC rattling trap description 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_Description_2" .on_hit true .on_miss false
-effect: .name "SC rattling trap description 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_Description_3" .on_hit true .on_miss false
-effect: .name "SC rattling trap description 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_Description_4" .on_hit true .on_miss false
-effect: .name "SC rattling trap description 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_Description_5" .on_hit true .on_miss false
+effect: .name "SC rattling trap ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_ToolTip_1" .on_hit false .on_miss true
+effect: .name "SC rattling trap ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_ToolTip_2" .on_hit false .on_miss true
+effect: .name "SC rattling trap ToolTip 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_ToolTip_3" .on_hit false .on_miss true
+effect: .name "SC rattling trap ToolTip 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_ToolTip_4" .on_hit false .on_miss true
+effect: .name "SC rattling trap ToolTip 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_ToolTip_5" .on_hit false .on_miss true
 
-effect: .name "SC rattling trap 1"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -40%  .damage_high_multiply -50% .riposte_effect "Blight 1"  
-effect: .name "SC rattling trap 2"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -35%  .damage_high_multiply -40% .riposte_effect "Blight 2"
-effect: .name "SC rattling trap 3"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -30%  .damage_high_multiply -33% .riposte_effect "Blight 3"
-effect: .name "SC rattling trap 4"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -25%  .damage_high_multiply -25% .riposte_effect "Blight 4"
-effect: .name "SC rattling trap 5"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -20%  .damage_high_multiply -20% .riposte_effect "Blight 5"
+effect: .name "SC rattling trap 1"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50% .riposte_effect "SC rattling trap riposte 1"  
+effect: .name "SC rattling trap 2"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -45%  .damage_high_multiply -45% .riposte_effect "SC rattling trap riposte 2"
+effect: .name "SC rattling trap 3"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -40%  .damage_high_multiply -40% .riposte_effect "SC rattling trap riposte 3"
+effect: .name "SC rattling trap 4"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -35%  .damage_high_multiply -35% .riposte_effect "SC rattling trap riposte 4"
+effect: .name "SC rattling trap 5"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -30%  .damage_high_multiply -30% .riposte_effect "SC rattling trap riposte 5"
+
+effect: .name "SC rattling trap riposte 1" .target "target" .curio_result_type "negative" .chance 100% .dotPoison 2 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC rattling trap riposte 2" .target "target" .curio_result_type "negative" .chance 110% .dotPoison 2 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC rattling trap riposte 3" .target "target" .curio_result_type "negative" .chance 120% .dotPoison 3 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC rattling trap riposte 4" .target "target" .curio_result_type "negative" .chance 130% .dotPoison 3 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC rattling trap riposte 5" .target "target" .curio_result_type "negative" .chance 140% .dotPoison 4 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
 
 //vicious charm
 
-effect: .name "SC vicious charm description" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "SC_VC_Description" .on_hit true .on_miss false
+effect: .name "SC vicious charm ToolTip A" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "SC_VC_ToolTip_A" .on_hit false .on_miss true
 
 effect: .name "SC vicious charm init" .target "target" .curio_result_type "positive" .chance 100% .initiative_change 1 .on_hit true .on_miss true
 
-effect: .name "SC vicious charm 1" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_VC_DMGL_1" "SC_VC_DMGH_1" "SC_VC_Heal_1" "SC_VC_StressHeal_1" .apply_once true .on_hit true .on_miss true
-effect: .name "SC vicious charm 2" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_VC_DMGL_2" "SC_VC_DMGH_2" "SC_VC_Heal_2" "SC_VC_StressHeal_2" .apply_once true .on_hit true .on_miss true
-effect: .name "SC vicious charm 3" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_VC_DMGL_3" "SC_VC_DMGH_3" "SC_VC_Heal_3" "SC_VC_StressHeal_3" .apply_once true .on_hit true .on_miss true
-effect: .name "SC vicious charm 4" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_VC_DMGL_4" "SC_VC_DMGH_4" "SC_VC_Heal_4" "SC_VC_StressHeal_4" .apply_once true .on_hit true .on_miss true
-effect: .name "SC vicious charm 5" .target "target" .curio_result_type "negative" .chance 100% .apply_once true .on_hit true .on_miss true
+effect: .name "SC vicious charm A1" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_VC_DMGL_1" "SC_VC_DMGH_1" "SC_VC_Heal_1" "SC_VC_StressHeal_1" .apply_once true .on_hit true .on_miss true
+effect: .name "SC vicious charm A2" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_VC_DMGL_2" "SC_VC_DMGH_2" "SC_VC_Heal_2" "SC_VC_StressHeal_2" .apply_once true .on_hit true .on_miss true
+effect: .name "SC vicious charm A3" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_VC_DMGL_3" "SC_VC_DMGH_3" "SC_VC_Heal_3" "SC_VC_StressHeal_3" .apply_once true .on_hit true .on_miss true
+effect: .name "SC vicious charm A4" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_VC_DMGL_4" "SC_VC_DMGH_4" "SC_VC_Heal_4" "SC_VC_StressHeal_4" .apply_once true .on_hit true .on_miss true
+effect: .name "SC vicious charm A5" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_VC_DMGL_5" "SC_VC_DMGH_5" "SC_VC_Heal_5" "SC_VC_StressHeal_5" .apply_once true .on_hit true .on_miss true
+
+effect: .name "SC vicious charm ToolTip B" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_VC_ToolTip_B" .on_hit false .on_miss true
+
+effect: .name "SC vicious charm B" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_VC_PoisChance" "SC_VC_BleedChance" "SC_VC_StunChance" "SC_VC_DebChance" "SC_VC_MoveChance" .apply_once true .on_hit true .on_miss true .has_description false
 
 
 //calming toxin
 
-effect: .name "SC calming toxin A1" .target "target" .curio_result_type "positive" .chance 100% .healstress 9  .on_hit true .on_miss false .queue true
-effect: .name "SC calming toxin A2" .target "target" .curio_result_type "positive" .chance 100% .healstress 10 .on_hit true .on_miss false .queue true
-effect: .name "SC calming toxin A3" .target "target" .curio_result_type "positive" .chance 100% .healstress 11 .on_hit true .on_miss false .queue true
-effect: .name "SC calming toxin A4" .target "target" .curio_result_type "positive" .chance 100% .healstress 12 .on_hit true .on_miss false .queue true
-effect: .name "SC calming toxin A5" .target "target" .curio_result_type "positive" .chance 100% .healstress 13 .on_hit true .on_miss false .queue true
+effect: .name "SC calming toxin ToolTip 1" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "SC_CT_ToolTip_1" .on_hit false .on_miss true
+effect: .name "SC calming toxin ToolTip 2" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "SC_CT_ToolTip_2" .on_hit false .on_miss true
+effect: .name "SC calming toxin ToolTip 3" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "SC_CT_ToolTip_3" .on_hit false .on_miss true
+effect: .name "SC calming toxin ToolTip 4" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "SC_CT_ToolTip_4" .on_hit false .on_miss true
+effect: .name "SC calming toxin ToolTip 5" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "SC_CT_ToolTip_5" .on_hit false .on_miss true
 
-effect: .name "SC calming toxin B1" .target "target" .curio_result_type "negative" .chance 50% .dotPoison 3 .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "SC calming toxin B2" .target "target" .curio_result_type "negative" .chance 60% .dotPoison 3 .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "SC calming toxin B3" .target "target" .curio_result_type "negative" .chance 70% .dotPoison 4 .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "SC calming toxin B4" .target "target" .curio_result_type "negative" .chance 80% .dotPoison 4 .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "SC calming toxin B5" .target "target" .curio_result_type "negative" .chance 90% .dotPoison 5 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC calming toxin Random 1" .target "target" .curio_result_type "positive" .chance 20% .healstress 1 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "SC calming toxin Random 2" .target "target" .curio_result_type "positive" .chance 40% .healstress 1 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "SC calming toxin Random 3" .target "target" .curio_result_type "positive" .chance 60% .healstress 1 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "SC calming toxin Random 4" .target "target" .curio_result_type "positive" .chance 80% .healstress 1 .on_hit true .on_miss false .queue true .has_description false
+
+effect: .name "SC calming toxin A1" .target "target" .curio_result_type "positive" .chance 100% .healstress 7  .on_hit true .on_miss false .queue true .has_description false
+effect: .name "SC calming toxin A2" .target "target" .curio_result_type "positive" .chance 100% .healstress 8  .on_hit true .on_miss false .queue true .has_description false
+effect: .name "SC calming toxin A3" .target "target" .curio_result_type "positive" .chance 100% .healstress 9  .on_hit true .on_miss false .queue true .has_description false
+effect: .name "SC calming toxin A4" .target "target" .curio_result_type "positive" .chance 100% .healstress 10 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "SC calming toxin A5" .target "target" .curio_result_type "positive" .chance 100% .healstress 11 .on_hit true .on_miss false .queue true .has_description false
+
+effect: .name "SC calming toxin B1" .target "target" .curio_result_type "negative" .chance 50% .dotPoison 1 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC calming toxin B2" .target "target" .curio_result_type "negative" .chance 60% .dotPoison 1 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC calming toxin B3" .target "target" .curio_result_type "negative" .chance 70% .dotPoison 2 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC calming toxin B4" .target "target" .curio_result_type "negative" .chance 80% .dotPoison 2 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC calming toxin B5" .target "target" .curio_result_type "negative" .chance 90% .dotPoison 3 .duration 2 .on_hit true .on_miss false .queue true
+
+effect: .name "SC calming toxin C1" .target "target" .curio_result_type "negative" .chance 60%  .dotPoison 1 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC calming toxin C2" .target "target" .curio_result_type "negative" .chance 70%  .dotPoison 1 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC calming toxin C3" .target "target" .curio_result_type "negative" .chance 80%  .dotPoison 2 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC calming toxin C4" .target "target" .curio_result_type "negative" .chance 90%  .dotPoison 2 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC calming toxin C5" .target "target" .curio_result_type "negative" .chance 100% .dotPoison 3 .duration 2 .on_hit true .on_miss false .queue true

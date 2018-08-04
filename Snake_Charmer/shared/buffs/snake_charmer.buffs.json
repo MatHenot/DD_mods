@@ -2,26 +2,26 @@
    "buffs":
    [
 	  {
-         "id" : "SC_BlightResist_Buff",
+         "id" : "SC_C_BlightResist_Buff",
          "stat_type" : "resistance",
          "stat_sub_type" : "poison",
-         "amount" : 0.15,
-         "duration_type" : "combat_end",
-         "duration" : 4,
+         "amount" : 0.10,
+         "duration_type" : "quest_end",
+         "duration" : 1,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "rule_type" : "has_item_id",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "antivenom"
          }
       },
 
 	  {
-         "id" : "SC_Crit_Buff",
+         "id" : "SC_C_Crit_Buff",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
-         "amount" : 0.12,
+         "amount" : 0.10,
 		 "duration_type" : "combat_end",
          "duration" : 2,
          "remove_if_not_active" : false,
@@ -34,7 +34,23 @@
       },
 
 	  {
-         "id" : "SC_Stress_Buff",
+         "id" : "SC_C_Speed_Buff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 5,
+		 "duration_type" : "combat_end",
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+	  {
+         "id" : "SC_C_Stress_Buff",
          "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.20,
@@ -50,7 +66,7 @@
       },
 
 	  {
-         "id" : "SC_RandomCrit_Buff",
+         "id" : "SC_C_RandomCrit_Buff",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "crit_chance",
          "amount" : 0.05,
@@ -66,21 +82,7 @@
       },
  
 	  {
-         "id" : "SC_MD_BlightRes_1",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "poison",
-         "amount" : -0.10,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
- 
-	  {
-         "id" : "SC_RT_Description_1",
+         "id" : "SC_RT_ToolTip_1",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "riposte1",
          "amount" : 1,
@@ -94,7 +96,7 @@
       }, 
 
 	  {
-         "id" : "SC_RT_Description_2",
+         "id" : "SC_RT_ToolTip_2",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "riposte2",
          "amount" : 1.10,
@@ -108,7 +110,7 @@
       },  
 
 	  {
-         "id" : "SC_RT_Description_3",
+         "id" : "SC_RT_ToolTip_3",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "riposte3",
          "amount" : 1.20,
@@ -122,7 +124,7 @@
       },  
 
 	  {
-         "id" : "SC_RT_Description_4",
+         "id" : "SC_RT_ToolTip_4",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "riposte4",
          "amount" : 1.30,
@@ -136,7 +138,7 @@
       },  
 
 	  {
-         "id" : "SC_RT_Description_5",
+         "id" : "SC_RT_ToolTip_5",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "riposte5",
          "amount" : 1.40,
@@ -150,10 +152,94 @@
       },  
 	  
  	  {
-         "id" : "SC_VC_Description",
+         "id" : "SC_VC_ToolTip_A",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "VC",
+         "stat_sub_type" : "VC_A",
          "amount" : 0.1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },  
+
+	  {
+         "id" : "SC_VC_ToolTip_B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "VC_B",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },  
+
+	  {
+         "id" : "SC_CT_ToolTip_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "CT_1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }, 
+
+	  {
+         "id" : "SC_CT_ToolTip_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "CT_2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },  
+
+	  {
+         "id" : "SC_CT_ToolTip_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "CT_3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },  
+
+	  {
+         "id" : "SC_CT_ToolTip_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "CT_4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },  
+
+	  {
+         "id" : "SC_CT_ToolTip_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "CT_5",
+         "amount" : 1,
          "remove_if_not_active" : false,
 		 "rule_type" : "always",
          "is_false_rule" : false,
@@ -167,7 +253,7 @@
          "id" : "SC_VC_DMGL_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : -0.2,
+         "amount" : -0.40,
 		 "duration" : 2,
          "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -184,7 +270,7 @@
          "id" : "SC_VC_DMGH_1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : -0.2,
+         "amount" : -0.40,
 		 "duration" : 2,
          "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -201,7 +287,7 @@
          "id" : "SC_VC_Heal_1",
          "stat_type" : "hp_heal_percent",
          "stat_sub_type" : "",
-         "amount" : -0.2,
+         "amount" : -0.40,
          "duration" : 2,
 		 "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -218,7 +304,7 @@
          "id" : "SC_VC_StressHeal_1",
          "stat_type" : "stress_heal_percent",
          "stat_sub_type" : "",
-         "amount" : -0.2,
+         "amount" : -0.40,
          "duration" : 2,
 		 "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -235,7 +321,7 @@
          "id" : "SC_VC_DMGL_2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : -0.15,
+         "amount" : -0.35,
 		 "duration" : 2,
          "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -252,7 +338,7 @@
          "id" : "SC_VC_DMGH_2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : -0.15,
+         "amount" : -0.35,
 		 "duration" : 2,
          "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -269,7 +355,7 @@
          "id" : "SC_VC_Heal_2",
          "stat_type" : "hp_heal_percent",
          "stat_sub_type" : "",
-         "amount" : -0.15,
+         "amount" : -0.35,
          "duration" : 2,
 		 "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -286,7 +372,7 @@
          "id" : "SC_VC_StressHeal_2",
          "stat_type" : "stress_heal_percent",
          "stat_sub_type" : "",
-         "amount" : -0.15,
+         "amount" : -0.35,
          "duration" : 2,
 		 "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -303,7 +389,7 @@
          "id" : "SC_VC_DMGL_3",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : -0.1,
+         "amount" : -0.30,
 		 "duration" : 2,
          "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -320,7 +406,7 @@
          "id" : "SC_VC_DMGH_3",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : -0.1,
+         "amount" : -0.30,
 		 "duration" : 2,
          "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -337,7 +423,7 @@
          "id" : "SC_VC_Heal_3",
          "stat_type" : "hp_heal_percent",
          "stat_sub_type" : "",
-         "amount" : -0.1,
+         "amount" : -0.30,
          "duration" : 2,
 		 "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -354,7 +440,7 @@
          "id" : "SC_VC_StressHeal_3",
          "stat_type" : "stress_heal_percent",
          "stat_sub_type" : "",
-         "amount" : -0.1,
+         "amount" : -0.30,
          "duration" : 2,
 		 "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -371,7 +457,7 @@
          "id" : "SC_VC_DMGL_4",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : -0.05,
+         "amount" : -0.25,
 		 "duration" : 2,
          "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -388,7 +474,7 @@
          "id" : "SC_VC_DMGH_4",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : -0.05,
+         "amount" : -0.25,
 		 "duration" : 2,
          "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -405,7 +491,7 @@
          "id" : "SC_VC_Heal_4",
          "stat_type" : "hp_heal_percent",
          "stat_sub_type" : "",
-         "amount" : -0.05,
+         "amount" : -0.25,
          "duration" : 2,
 		 "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -422,7 +508,160 @@
          "id" : "SC_VC_StressHeal_4",
          "stat_type" : "stress_heal_percent",
          "stat_sub_type" : "",
-         "amount" : -0.05,
+         "amount" : -0.25,
+         "duration" : 2,
+		 "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+	  },
+	 
+	  {
+         "id" : "SC_VC_DMGL_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.20,
+		 "duration" : 2,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid": false
+      },
+	  
+	  {
+         "id" : "SC_VC_DMGH_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.20,
+		 "duration" : 2,
+         "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid": false
+	  },
+	  
+	  {
+         "id" : "SC_VC_Heal_5",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "duration" : 2,
+		 "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+      },
+	  
+      {
+         "id" : "SC_VC_StressHeal_5",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "duration" : 2,
+		 "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+	  },
+	  
+      {
+         "id" : "SC_VC_PoisChance",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "duration" : 2,
+		 "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+	  },	  
+
+      {
+         "id" : "SC_VC_BleedChance",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "duration" : 2,
+		 "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+	  },	  
+
+      {
+         "id" : "SC_VC_StunChance",
+         "stat_type" : "stun_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "duration" : 2,
+		 "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+	  },
+
+      {
+         "id" : "SC_VC_DebChance",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "duration" : 2,
+		 "remove_on_battle_complete" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "is_clear_debuff_valid": false
+	  },
+
+      {
+         "id" : "SC_VC_MoveChance",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
          "duration" : 2,
 		 "remove_on_battle_complete" : true,
          "remove_if_not_active" : false,
@@ -490,7 +729,7 @@
       },
 	  
  	  {
-         "id" : "SC_T_reptilian_plates_Description",
+         "id" : "SC_T_reptilian_plates_ToolTip",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "reptilian_plates",
          "amount" : 0.1,
@@ -507,7 +746,7 @@
          "id" : "SC_T_reptilian_plates_MinDMG",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : 2.0,
+         "amount" : 1.5,
          "remove_if_not_active" : false,
          "rule_type" : "meleeonly",
          "is_false_rule" : false,
@@ -633,7 +872,7 @@
          "id" : "SC_T_masters_correspondance_BlightDuration",
          "stat_type" : "hp_dot_poison_duration_percent",
          "stat_sub_type" : "",
-         "amount" : 0.33,
+         "amount" : 0.50,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

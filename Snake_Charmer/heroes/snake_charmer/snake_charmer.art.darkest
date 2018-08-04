@@ -18,7 +18,7 @@ combat_skill: .id "feast" 			.icon "three" 	.anim "feast" 			.fx "feastfx2" 			.
 combat_skill: .id "constriction" 	.icon "four" 	.anim "constriction" 	.fx "constriction_fx" 	.targchestfx "constriction_target" .condensed_tooltip_stats true
 combat_skill: .id "rattling_trap" 	.icon "five" 	.anim "rattling_trap" 	.fx "" 					.targfx "" .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 2
 combat_skill: .id "vicious_charm" 	.icon "six" 	.anim "flute_buff" 		.fx "" 					.targheadfx "vicious_charm_target"
-combat_skill: .id "calming_toxin" 	.icon "seven" 	.anim "flute_buff" 	    .fx "" 					.targheadfx "calming_toxin_target"
+combat_skill: .id "calming_toxin" 	.icon "seven" 	.anim "flute_buff" 	    .fx "" 					.targheadfx "calming_toxin_target" .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
 riposte_skill: .id "riposte1" .anim "riposte" .fx "" .targchestfx "blood_splatter"

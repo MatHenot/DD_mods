@@ -1,7 +1,7 @@
 
 -------------------------------------------------------------------------------
-Parsing project file - D:\DD_SC_mod\SC v1.0\snake_charmer.xml
-Mod Data Directory = D:/DD_SC_mod/SC v1.0/
+Parsing project file - D:\DD_SC_mod\SC v1.1\snake_charmer.xml
+Mod Data Directory = D:/DD_SC_mod/SC v1.1/
 
 -------------------------------------------------------------------------------
 Processing Map Files files...
@@ -27,7 +27,7 @@ Building Languages
 Exporting .loc files
 
 -------------------------------------------------------------------------------
-Searching for preview icon file D:/DD_SC_mod/SC v1.0/preview_icon.png...FOUND!
+Searching for preview icon file D:/DD_SC_mod/SC v1.1/preview_icon.png...FOUND!
 <UploadMode> - Set to direct_upload
 
 
@@ -71,8 +71,11 @@ heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.constriction.png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.defend.png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.feast.png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.flute_buff.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.heroic(1).png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.heroic.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.idle(1).png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.idle.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.investigate(1).png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.investigate.png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.mamba_dance.png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.rattling_trap.png
@@ -179,6 +182,7 @@ raid/camping/skill_icons/camp_skill_mithridatism.png
 raid/camping/skill_icons/camp_skill_reserve.png
 audio/secondary_banks/hero_snake_charmer.bank
 campaign/provision/snake_charmer.provision.json
+campaign/roster/snake_charmer.roster.additional_variables.json
 campaign/town_events/snake_charmer.town_events.events.json
 heroes/snake_charmer/snake_charmer.ability.five.png
 heroes/snake_charmer/snake_charmer.ability.four.png
@@ -198,6 +202,7 @@ audio/snake_charmer.heroes.load_order.json
 effects/snake_charmer.effects.darkest
 localization/1456853110_english.loc
 localization/1456853110_french.loc
+localization/1456853110_koreana.loc
 localization/missing_files.txt
 localization/snake_charmer_brazilian.string_table.xml
 localization/snake_charmer_czech.string_table.xml
@@ -213,13 +218,16 @@ localization/snake_charmer_russian.string_table.xml
 localization/snake_charmer_schinese.string_table.xml
 localization/snake_charmer_spanish.string_table.xml
 localization/snake_charmer_tchinese.string_table.xml
+trinkets/cc.rarities.trinkets.json
+trinkets/com.rarities.trinkets.json
 trinkets/snake_charmer.entries.trinkets.json
-trinkets/snake_charmercc.sets.trinkets.json
+trinkets/snake_charmer.sets.trinkets.json
 modfiles.txt
 preview_icon.png
 project.xml
+sample_project.xml
 snake_charmer.xml
 
-Submitting......................................................................................................Submitted.
-Saving project file D:\DD_SC_mod\SC v1.0\snake_charmer.xml
+Submitting.........................................................................................Submitted.
+Saving project file D:\DD_SC_mod\SC v1.1\snake_charmer.xml
 

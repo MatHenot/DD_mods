@@ -21,9 +21,9 @@
 	<entry id="str_incompatible_party_shieldbreaker_phobia"><![CDATA[You are tortured by an irrational phobia...]]></entry>
 	<entry id="str_incompatible_party_shieldbreaker_phobia"><![CDATA[ksssSSsss...]]></entry>
 	<entry id="str_incompatible_party_member_shieldbreaker_phobia"><![CDATA[TAKE THAT AWAY FROM ME!!!]]></entry>
-	<entry id="str_incompatible_party_member_shieldbreaker_phobia"><![CDATA[NoooOOOoo !]]></entry>
+	<entry id="str_incompatible_party_member_shieldbreaker_phobia"><![CDATA[NoooOOOoo!]]></entry>
 	<entry id="str_incompatible_party_member_shieldbreaker_phobia"><![CDATA[Back, nightmarish reptiles!]]></entry>
-	<entry id="str_incompatible_party_member_shieldbreaker_phobia"><![CDATA[T-The whistlings... I just CAN'T!]]></entry>
+	<entry id="str_incompatible_party_member_shieldbreaker_phobia"><![CDATA[T-The hissings...I CAN'T bear them!]]></entry>
 	
 	<entry id="str_inventory_title_trinketsnake_charmer_ancient_knowledge"><![CDATA[Ancient Knowledge]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_fabric_strap"><![CDATA[Fabric Strap]]></entry>
@@ -69,19 +69,28 @@
     <entry id="snake_charmer_armour_3"><![CDATA[Decorated Scarf]]></entry>
     <entry id="snake_charmer_armour_4"><![CDATA["The Moulting"]]></entry>
     <entry id="upgrade_tree_name_snake_charmer.armour"><![CDATA[Scarf]]></entry>
+	
+	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
+    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antivenom]]></entry>
 
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[Constriction]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Vicious charm]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_reptilian_plates"><![CDATA[Minimum DMG only:]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_VC"><![CDATA[Adds one {colour_start|notable}action{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/rd for 3 rds]]></entry>
-	
+	<entry id="buff_stat_tooltip_upgrade_discount_VC_A"><![CDATA[Adds one {colour_start|notable}action{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_VC_B"><![CDATA[-20%% All Skill Effects Chance]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}Stress{colour_end} -7 to -11]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_2"><![CDATA[{colour_start|stress}Stress{colour_end} -8 to -12]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}Stress{colour_end} -9 to -13]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}Stress{colour_end} -10 to -14]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}Stress{colour_end} -11 to -15]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/rd for 2 rds]]></entry>
+		
 		
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[This trip was pure madness!]]></entry>
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Nothing could have prepared me for that...]]></entry>
