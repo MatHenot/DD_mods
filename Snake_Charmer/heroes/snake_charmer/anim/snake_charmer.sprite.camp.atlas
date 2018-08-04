@@ -1,0 +1,20 @@
+
+snake_charmer.sprite.camp.png
+size: 476,446
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ombre
+  rotate: true
+  xy: 400, 85
+  size: 359, 74
+  orig: 359, 74
+  offset: 0, 0
+  index: -1
+trait
+  rotate: false
+  xy: 2, 2
+  size: 396, 442
+  orig: 396, 442
+  offset: 0, 0
+  index: -1

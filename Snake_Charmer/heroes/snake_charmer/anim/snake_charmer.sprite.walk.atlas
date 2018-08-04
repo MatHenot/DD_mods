@@ -1,0 +1,153 @@
+
+snake_charmer.sprite.walk.png
+size: 436,1064
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anneau_arriere
+  rotate: true
+  xy: 299, 495
+  size: 40, 65
+  orig: 40, 65
+  offset: 0, 0
+  index: -1
+anneau_avant
+  rotate: true
+  xy: 301, 537
+  size: 45, 60
+  orig: 45, 60
+  offset: 0, 0
+  index: -1
+boite
+  rotate: true
+  xy: 2, 474
+  size: 274, 195
+  orig: 274, 195
+  offset: 0, 0
+  index: -1
+bras_droit
+  rotate: false
+  xy: 366, 176
+  size: 64, 137
+  orig: 64, 137
+  offset: 0, 0
+  index: -1
+bras_gauche
+  rotate: true
+  xy: 69, 121
+  size: 126, 187
+  orig: 126, 187
+  offset: 0, 0
+  index: -1
+echarpe
+  rotate: true
+  xy: 258, 156
+  size: 156, 106
+  orig: 156, 106
+  offset: 0, 0
+  index: -1
+echarpe_bas
+  rotate: true
+  xy: 143, 2
+  size: 117, 125
+  orig: 117, 125
+  offset: 0, 0
+  index: -1
+jambe_gauche
+  rotate: false
+  xy: 258, 775
+  size: 99, 287
+  orig: 99, 287
+  offset: 0, 0
+  index: -1
+main_droite
+  rotate: false
+  xy: 199, 474
+  size: 98, 72
+  orig: 98, 72
+  offset: 0, 0
+  index: -1
+pied_droit
+  rotate: false
+  xy: 347, 315
+  size: 81, 122
+  orig: 81, 122
+  offset: 0, 0
+  index: -1
+robe_arriere
+  rotate: false
+  xy: 359, 831
+  size: 68, 231
+  orig: 68, 231
+  offset: 0, 0
+  index: -1
+robe_arriere2
+  rotate: true
+  xy: 227, 314
+  size: 158, 118
+  orig: 158, 118
+  offset: 0, 0
+  index: -1
+robe_avant
+  rotate: false
+  xy: 2, 750
+  size: 254, 312
+  orig: 254, 312
+  offset: 0, 0
+  index: -1
+robe_avant2
+  rotate: false
+  xy: 69, 249
+  size: 156, 223
+  orig: 156, 223
+  offset: 0, 0
+  index: -1
+robe_avant3
+  rotate: false
+  xy: 199, 548
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+sangle_arriere
+  rotate: true
+  xy: 2, 2
+  size: 109, 139
+  orig: 109, 139
+  offset: 0, 0
+  index: -1
+sangle_avant
+  rotate: false
+  xy: 366, 439
+  size: 68, 143
+  orig: 68, 143
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2, 113
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+tete
+  rotate: false
+  xy: 270, 13
+  size: 130, 141
+  orig: 130, 141
+  offset: 0, 0
+  index: -1
+torse_fond
+  rotate: false
+  xy: 301, 584
+  size: 109, 189
+  orig: 109, 189
+  offset: 0, 0
+  index: -1
+ventre_fond
+  rotate: true
+  xy: 359, 775
+  size: 54, 70
+  orig: 54, 70
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,34 @@
+
+snake_charmer.sprite.feastfx2.png
+size: 795,434
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Calque 24
+  rotate: false
+  xy: 2, 13
+  size: 457, 419
+  orig: 457, 419
+  offset: 0, 0
+  index: -1
+images/Calque 3
+  rotate: false
+  xy: 461, 209
+  size: 270, 223
+  orig: 270, 223
+  offset: 0, 0
+  index: -1
+images/Calque 4
+  rotate: false
+  xy: 461, 2
+  size: 261, 205
+  orig: 261, 205
+  offset: 0, 0
+  index: -1
+images/fxyeux
+  rotate: true
+  xy: 724, 55
+  size: 152, 69
+  orig: 152, 69
+  offset: 0, 0
+  index: -1

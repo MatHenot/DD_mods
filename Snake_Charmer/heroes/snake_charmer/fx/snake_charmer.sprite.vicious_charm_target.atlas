@@ -1,0 +1,41 @@
+
+snake_charmer.sprite.vicious_charm_target.png
+size: 734,220
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Calque 16 copie
+  rotate: true
+  xy: 2, 37
+  size: 181, 379
+  orig: 181, 379
+  offset: 0, 0
+  index: -1
+Calque 20
+  rotate: true
+  xy: 383, 7
+  size: 211, 213
+  orig: 211, 213
+  offset: 0, 0
+  index: -1
+Calque 4
+  rotate: false
+  xy: 598, 2
+  size: 103, 89
+  orig: 103, 89
+  offset: 0, 0
+  index: -1
+Calque 5
+  rotate: false
+  xy: 598, 93
+  size: 134, 125
+  orig: 134, 125
+  offset: 0, 0
+  index: -1
+Calque 6
+  rotate: true
+  xy: 2, 10
+  size: 25, 66
+  orig: 25, 66
+  offset: 0, 0
+  index: -1

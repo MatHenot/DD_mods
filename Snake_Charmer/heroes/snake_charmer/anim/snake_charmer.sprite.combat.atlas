@@ -1,0 +1,160 @@
+
+snake_charmer.sprite.combat.png
+size: 883,559
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anneau_arriere
+  rotate: false
+  xy: 804, 365
+  size: 53, 56
+  orig: 53, 56
+  offset: 0, 0
+  index: -1
+anneau_avant
+  rotate: false
+  xy: 739, 32
+  size: 61, 63
+  orig: 61, 63
+  offset: 0, 0
+  index: -1
+boite
+  rotate: false
+  xy: 2, 16
+  size: 241, 214
+  orig: 241, 214
+  offset: 0, 0
+  index: -1
+bras Gauche
+  rotate: true
+  xy: 632, 423
+  size: 134, 245
+  orig: 134, 245
+  offset: 0, 0
+  index: -1
+bras_droit
+  rotate: false
+  xy: 543, 374
+  size: 78, 116
+  orig: 78, 116
+  offset: 0, 0
+  index: -1
+echarpe
+  rotate: false
+  xy: 347, 5
+  size: 155, 109
+  orig: 155, 109
+  offset: 0, 0
+  index: -1
+jambe_droite
+  rotate: false
+  xy: 577, 13
+  size: 76, 82
+  orig: 76, 82
+  offset: 0, 0
+  index: -1
+jambe_gauche
+  rotate: true
+  xy: 271, 244
+  size: 96, 279
+  orig: 96, 279
+  offset: 0, 0
+  index: -1
+main gauche
+  rotate: true
+  xy: 812, 92
+  size: 82, 69
+  orig: 82, 69
+  offset: 0, 0
+  index: -1
+main_droite
+  rotate: false
+  xy: 709, 97
+  size: 101, 77
+  orig: 101, 77
+  offset: 0, 0
+  index: -1
+robe
+  rotate: false
+  xy: 2, 232
+  size: 267, 325
+  orig: 267, 325
+  offset: 0, 0
+  index: -1
+robe2
+  rotate: true
+  xy: 271, 342
+  size: 148, 270
+  orig: 148, 270
+  offset: 0, 0
+  index: -1
+robe3
+  rotate: false
+  xy: 245, 2
+  size: 100, 228
+  orig: 100, 228
+  offset: 0, 0
+  index: -1
+robe4
+  rotate: true
+  xy: 709, 176
+  size: 53, 156
+  orig: 53, 156
+  offset: 0, 0
+  index: -1
+robe_arriere1
+  rotate: true
+  xy: 623, 362
+  size: 59, 179
+  orig: 59, 179
+  offset: 0, 0
+  index: -1
+robe_arriere2
+  rotate: false
+  xy: 347, 116
+  size: 194, 126
+  orig: 194, 126
+  offset: 0, 0
+  index: -1
+sangle_arriere
+  rotate: true
+  xy: 552, 237
+  size: 123, 171
+  orig: 123, 171
+  offset: 0, 0
+  index: -1
+sangle_avant
+  rotate: false
+  xy: 504, 6
+  size: 71, 89
+  orig: 71, 89
+  offset: 0, 0
+  index: -1
+shadow copy
+  rotate: false
+  xy: 271, 492
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+tete
+  rotate: false
+  xy: 725, 231
+  size: 129, 129
+  orig: 129, 129
+  offset: 0, 0
+  index: -1
+torse
+  rotate: false
+  xy: 543, 97
+  size: 164, 138
+  orig: 164, 138
+  offset: 0, 0
+  index: -1
+ventre
+  rotate: false
+  xy: 655, 27
+  size: 82, 68
+  orig: 82, 68
+  offset: 0, 0
+  index: -1

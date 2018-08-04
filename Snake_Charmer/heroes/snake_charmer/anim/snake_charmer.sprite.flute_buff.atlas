@@ -1,0 +1,41 @@
+
+snake_charmer.sprite.flute_buff.png
+size: 553,558
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Calque 1
+  rotate: true
+  xy: 477, 197
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+Calque 2
+  rotate: false
+  xy: 2, 2
+  size: 473, 554
+  orig: 473, 554
+  offset: 0, 0
+  index: -1
+Calque 3
+  rotate: false
+  xy: 477, 105
+  size: 49, 90
+  orig: 49, 90
+  offset: 0, 0
+  index: -1
+Calque 4
+  rotate: false
+  xy: 477, 37
+  size: 54, 66
+  orig: 54, 66
+  offset: 0, 0
+  index: -1
+Calque 5
+  rotate: true
+  xy: 477, 2
+  size: 33, 74
+  orig: 33, 74
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+snake_charmer.sprite.investigate.png
+size: 642,445
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Calque 1
+  rotate: true
+  xy: 570, 84
+  size: 359, 70
+  orig: 359, 70
+  offset: 0, 0
+  index: -1
+Calque 6 copie
+  rotate: true
+  xy: 2, 2
+  size: 441, 566
+  orig: 441, 566
+  offset: 0, 0
+  index: -1

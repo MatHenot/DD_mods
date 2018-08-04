@@ -1,0 +1,27 @@
+
+snake_charmer.sprite.riposte.png
+size: 1107,363
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Calque 13 copie
+  rotate: true
+  xy: 2, 2
+  size: 359, 514
+  orig: 359, 514
+  offset: 0, 0
+  index: -1
+images/Calque 15 copie
+  rotate: false
+  xy: 518, 34
+  size: 520, 327
+  orig: 520, 327
+  offset: 0, 0
+  index: -1
+images/shadow copy
+  rotate: true
+  xy: 1040, 2
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1

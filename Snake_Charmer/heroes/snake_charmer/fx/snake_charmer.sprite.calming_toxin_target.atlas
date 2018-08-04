@@ -1,0 +1,48 @@
+
+snake_charmer.sprite.calming_toxin_target.png
+size: 789,257
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Calque 2
+  rotate: false
+  xy: 630, 29
+  size: 96, 68
+  orig: 96, 68
+  offset: 0, 0
+  index: -1
+Calque 3
+  rotate: true
+  xy: 373, 2
+  size: 253, 255
+  orig: 253, 255
+  offset: 0, 0
+  index: -1
+Calque 4
+  rotate: false
+  xy: 630, 99
+  size: 118, 156
+  orig: 118, 156
+  offset: 0, 0
+  index: -1
+Calque 5
+  rotate: true
+  xy: 728, 23
+  size: 74, 59
+  orig: 74, 59
+  offset: 0, 0
+  index: -1
+Calque 6
+  rotate: false
+  xy: 750, 167
+  size: 36, 88
+  orig: 36, 88
+  offset: 0, 0
+  index: -1
+Calque 9 copie 2
+  rotate: true
+  xy: 2, 30
+  size: 225, 369
+  orig: 225, 369
+  offset: 0, 0
+  index: -1

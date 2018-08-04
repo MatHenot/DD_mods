@@ -1,0 +1,27 @@
+
+snake_charmer.sprite.afflicted.png
+size: 2501,1064
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Calque 11
+  rotate: true
+  xy: 2099, 575
+  size: 487, 400
+  orig: 487, 400
+  offset: 0, 0
+  index: -1
+Calque 12
+  rotate: false
+  xy: 2, 2
+  size: 1222, 1060
+  orig: 1222, 1060
+  offset: 0, 0
+  index: -1
+Calque 9
+  rotate: false
+  xy: 1226, 43
+  size: 871, 1019
+  orig: 871, 1019
+  offset: 0, 0
+  index: -1

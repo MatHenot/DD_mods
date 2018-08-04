@@ -1,0 +1,155 @@
+{
+   "entries":
+   [
+      {
+         "id" : "snake_charmer_used_gloves",
+         "buffs" : 
+         [
+			"BLIGHTRESIST20"
+         ],
+         "hero_class_requirements":
+         [
+            "snake_charmer"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "snake_charmer_ancient_knowledge",
+         "buffs" : 
+         [
+            "SC_T_ancient_knowledge_BlightedDMGL",
+			"SC_T_ancient_knowledge_BlightedDMGH"
+         ],
+         "hero_class_requirements":
+         [
+            "snake_charmer"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "snake_charmer_fabric_strap",
+         "buffs" : 
+         [
+            "SPDFIRSTROUND8",
+            "SC_T_fabric_strap_RiposteDMGL",
+            "SC_T_fabric_strap_RiposteDMGH",
+            "STRESSRECOVERY-20"
+         ],
+         "hero_class_requirements":
+         [
+            "snake_charmer"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "snake_charmer_vision_pendant",
+         "buffs" : 
+         [
+            "SC_T_vision_pendant_Speed",
+            "SC_T_vision_pendant_Blight",
+            "SC_T_vision_pendant_Stun",
+            "SC_T_vision_pendant_constrictionDMGL",
+            "SC_T_vision_pendant_constrictionDMGH",
+            "TRINKET_MOVERESIST_D2"
+         ],
+         "hero_class_requirements":
+         [
+            "snake_charmer"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "snake_charmer_reptilian_plates",
+         "buffs" : 
+         [
+			"SC_T_reptilian_plates_Description",
+			"SC_T_reptilian_plates_MinDMG",
+            "SC_T_reptilian_plates_Prot",
+			"DEF-5"
+         ],
+         "hero_class_requirements":
+         [
+            "snake_charmer"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  
+	  {
+		"id" : "snake_charmer_melody",
+		"buffs" : 
+         [
+            "SC_T_melody_StressHeal",
+            "SC_T_melody_Dodge",
+            "STRESSDMG10"
+         ],
+         "hero_class_requirements":
+         [
+            "snake_charmer"
+         ],
+		 "set_id" : "cc_snake_charmer",
+         "rarity" : "crimson_court",
+         "price" : 50000, 
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+	  },
+	
+	  {
+		"id" : "snake_charmer_master_correspondence",
+	  
+		"buffs" : 
+         [
+			"SC_T_masters_correspondance_BlightDuration",
+			"BLIGHTSKILL-15"
+         ],
+         "hero_class_requirements":
+         [
+            "snake_charmer"
+         ],
+         "set_id" : "cc_snake_charmer",
+         "rarity" : "crimson_court",
+         "price" : 50000, 
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+	  },
+	  
+	  {
+		"id" : "snake_charmer_cristal_pendant",
+	  
+		"buffs" : 
+         [
+            "SC_T_cristal_pendant_VC_DMGL",
+            "SC_T_cristal_pendant_VC_DMGH",
+			"SC_T_cristal_pendant_VC_Heal",
+            "SC_T_cristal_pendant_VC_StressHeal",
+			"STRESSDMG10"
+         ],
+         "hero_class_requirements":
+         [
+            "snake_charmer"
+         ],
+         "rarity" : "comet",
+         "shard" : 130,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "attack_skill_additional_effects":
+        [
+            "SC T Blight"
+        ]
+     }
+   ]
+}

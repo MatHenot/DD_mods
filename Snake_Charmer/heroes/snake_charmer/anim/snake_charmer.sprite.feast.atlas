@@ -1,0 +1,20 @@
+
+snake_charmer.sprite.feast.png
+size: 658,587
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Calque 1 copie 2
+  rotate: false
+  xy: 2, 2
+  size: 587, 583
+  orig: 587, 583
+  offset: 0, 0
+  index: -1
+shadow copy
+  rotate: true
+  xy: 591, 226
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1

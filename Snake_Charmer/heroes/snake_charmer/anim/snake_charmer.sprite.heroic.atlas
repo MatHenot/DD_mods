@@ -1,0 +1,27 @@
+
+snake_charmer.sprite.heroic.png
+size: 2157,1075
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+background
+  rotate: false
+  xy: 2, 2
+  size: 1197, 1071
+  orig: 1197, 1071
+  offset: 0, 0
+  index: -1
+halo
+  rotate: true
+  xy: 1201, 16
+  size: 311, 298
+  orig: 311, 298
+  offset: 0, 0
+  index: -1
+heroic
+  rotate: true
+  xy: 1201, 329
+  size: 744, 954
+  orig: 744, 954
+  offset: 0, 0
+  index: -1

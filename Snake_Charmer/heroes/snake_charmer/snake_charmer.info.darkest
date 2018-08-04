@@ -1,0 +1,58 @@
+resistances: .stun 30% .poison 40% .bleed 30% .disease 30% .move 30% .debuff 30% .death_blow 67% .trap 30%
+crit: .effects "on_crit_speed"
+weapon: .name "snake_charmer_weapon_0" .atk 0% .dmg 1 7  .crit 9%  .spd 3
+weapon: .name "snake_charmer_weapon_1" .atk 0% .dmg 1 9  .crit 10% .spd 3 .upgradeRequirementCode 0
+weapon: .name "snake_charmer_weapon_2" .atk 0% .dmg 2 11 .crit 11% .spd 4 .upgradeRequirementCode 1
+weapon: .name "snake_charmer_weapon_3" .atk 0% .dmg 2 14 .crit 12% .spd 4 .upgradeRequirementCode 2
+weapon: .name "snake_charmer_weapon_4" .atk 0% .dmg 3 15 .crit 13% .spd 5 .upgradeRequirementCode 3
+armour: .name "snake_charmer_armour_0" .def 7% .prot 0 .hp 20 .spd 0
+armour: .name "snake_charmer_armour_1" .def 12% .prot 0 .hp 24 .spd 0 .upgradeRequirementCode 0
+armour: .name "snake_charmer_armour_2" .def 17% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 1
+armour: .name "snake_charmer_armour_3" .def 22% .prot 0 .hp 32 .spd 0 .upgradeRequirementCode 2
+armour: .name "snake_charmer_armour_4" .def 27% .prot 0 .hp 36 .spd 0 .upgradeRequirementCode 3
+combat_skill: .id "venomous_fang" .level 0 .type "melee" .atk 90%  .dmg 0% .crit 3% .move 0 1 .launch 123 .target 12 .is_crit_valid True .effect "SC venomous fang 1" .generation_guaranteed true
+combat_skill: .id "venomous_fang" .level 1 .type "melee" .atk 95%  .dmg 0% .crit 4% .move 0 1 .launch 123 .target 12 .is_crit_valid True .effect "SC venomous fang 2"
+combat_skill: .id "venomous_fang" .level 2 .type "melee" .atk 100% .dmg 0% .crit 5% .move 0 1 .launch 123 .target 12 .is_crit_valid True .effect "SC venomous fang 3"
+combat_skill: .id "venomous_fang" .level 3 .type "melee" .atk 105% .dmg 0% .crit 6% .move 0 1 .launch 123 .target 12 .is_crit_valid True .effect "SC venomous fang 4"
+combat_skill: .id "venomous_fang" .level 4 .type "melee" .atk 110% .dmg 0% .crit 7% .move 0 1 .launch 123 .target 12 .is_crit_valid True .effect "SC venomous fang 5"
+combat_skill: .id "mamba_dance" .level 0 .type "ranged" .atk 100% .dmg -20% .crit 9.0%  .move 1 0 .launch 12 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance 1"
+combat_skill: .id "mamba_dance" .level 1 .type "ranged" .atk 105% .dmg -20% .crit 10.0% .move 1 0 .launch 12 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance 2"
+combat_skill: .id "mamba_dance" .level 2 .type "ranged" .atk 110% .dmg -20% .crit 11.0% .move 1 0 .launch 12 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance 3"
+combat_skill: .id "mamba_dance" .level 3 .type "ranged" .atk 115% .dmg -20% .crit 12.0% .move 1 0 .launch 12 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance 4"
+combat_skill: .id "mamba_dance" .level 4 .type "ranged" .atk 120% .dmg -20% .crit 13.0% .move 1 0 .launch 12 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance 5"
+combat_skill: .id "feast" .level 0 .type "melee" .atk 85%  .dmg -50% .crit -4% .launch 12 .target ~1234 .is_crit_valid True .effect "clear_corpses"
+combat_skill: .id "feast" .level 1 .type "melee" .atk 90%  .dmg -50% .crit -3% .launch 12 .target ~1234 .is_crit_valid True .effect "clear_corpses"
+combat_skill: .id "feast" .level 2 .type "melee" .atk 95%  .dmg -50% .crit -2% .launch 12 .target ~1234 .is_crit_valid True .effect "clear_corpses"
+combat_skill: .id "feast" .level 3 .type "melee" .atk 100% .dmg -50% .crit -1% .launch 12 .target ~1234 .is_crit_valid True .effect "clear_corpses"
+combat_skill: .id "feast" .level 4 .type "melee" .atk 105% .dmg -50% .crit  0% .launch 12 .target ~1234 .is_crit_valid True .effect "clear_corpses"
+combat_skill: .id "constriction" .level 0 .type "ranged" .atk 90%  .dmg -70% .crit -7% .launch 234 .target 123 .is_crit_valid True .effect "Stun 1" "SC constriction 1" .is_stall_invalidating false
+combat_skill: .id "constriction" .level 1 .type "ranged" .atk 95%  .dmg -70% .crit -6% .launch 234 .target 123 .is_crit_valid True .effect "Stun 2" "SC constriction 2" .is_stall_invalidating false
+combat_skill: .id "constriction" .level 2 .type "ranged" .atk 100% .dmg -70% .crit -5% .launch 234 .target 123 .is_crit_valid True .effect "Stun 3" "SC constriction 3" .is_stall_invalidating false
+combat_skill: .id "constriction" .level 3 .type "ranged" .atk 105% .dmg -70% .crit -4% .launch 234 .target 123 .is_crit_valid True .effect "Stun 4" "SC constriction 4" .is_stall_invalidating false
+combat_skill: .id "constriction" .level 4 .type "ranged" .atk 110% .dmg -70% .crit -3% .launch 234 .target 123 .is_crit_valid True .effect "Stun 5" "SC constriction 5" .is_stall_invalidating false
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
+combat_skill: .id "rattling_trap" .level 0 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap 1" "SC rattling trap description 1"
+combat_skill: .id "rattling_trap" .level 1 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap 2" "SC rattling trap description 2" 
+combat_skill: .id "rattling_trap" .level 2 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap 3" "SC rattling trap description 3" 
+combat_skill: .id "rattling_trap" .level 3 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap 4" "SC rattling trap description 4" 
+combat_skill: .id "rattling_trap" .level 4 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap 5" "SC rattling trap description 5" 
+combat_skill: .id "vicious_charm" .level 0 .per_battle_limit 3 .launch 34 .target @1234 .self_target_valid false .is_crit_valid False .effect "SC vicious charm description" "SC vicious charm 1" "SC vicious charm init" .is_stall_invalidating false
+combat_skill: .id "vicious_charm" .level 1 .per_battle_limit 3 .launch 34 .target @1234 .self_target_valid false .is_crit_valid False .effect "SC vicious charm description" "SC vicious charm 2" "SC vicious charm init" .is_stall_invalidating false
+combat_skill: .id "vicious_charm" .level 2 .per_battle_limit 3 .launch 34 .target @1234 .self_target_valid false .is_crit_valid False .effect "SC vicious charm description" "SC vicious charm 3" "SC vicious charm init" .is_stall_invalidating false
+combat_skill: .id "vicious_charm" .level 3 .per_battle_limit 3 .launch 34 .target @1234 .self_target_valid false .is_crit_valid False .effect "SC vicious charm description" "SC vicious charm 4" "SC vicious charm init" .is_stall_invalidating false
+combat_skill: .id "vicious_charm" .level 4 .per_battle_limit 3 .launch 34 .target @1234 .self_target_valid false .is_crit_valid False .effect "SC vicious charm description" "SC vicious charm 5" "SC vicious charm init" .is_stall_invalidating false
+combat_skill: .id "calming_toxin" .level 0 .launch 34 .target @1234 .is_crit_valid True .effect "SC calming toxin A1" "SC calming toxin B1" .is_stall_invalidating false
+combat_skill: .id "calming_toxin" .level 1 .launch 34 .target @1234 .is_crit_valid True .effect "SC calming toxin A2" "SC calming toxin B2" .is_stall_invalidating false
+combat_skill: .id "calming_toxin" .level 2 .launch 34 .target @1234 .is_crit_valid True .effect "SC calming toxin A3" "SC calming toxin B3" .is_stall_invalidating false
+combat_skill: .id "calming_toxin" .level 3 .launch 34 .target @1234 .is_crit_valid True .effect "SC calming toxin A4" "SC calming toxin B4" .is_stall_invalidating false
+combat_skill: .id "calming_toxin" .level 4 .launch 34 .target @1234 .is_crit_valid True .effect "SC calming toxin A5" "SC calming toxin B5" .is_stall_invalidating false
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 95% .dmg 0% .crit 8% .launch 1234 .target 1234 .is_crit_valid True 
+tag: .id "light"
+tag: .id "non-religious"
+tag: .id "library"
+incompatible_party_member: .id shieldbreaker_phobia .hero_tag shieldbreaker
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 2
+id_index: .index 77
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 8 .card_chance 1.0

@@ -1,0 +1,20 @@
+
+snake_charmer.sprite.constriction_fx.png
+size: 263,163
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Calque 10 copie
+  rotate: true
+  xy: 203, 35
+  size: 126, 58
+  orig: 126, 58
+  offset: 0, 0
+  index: -1
+images/Calque 8
+  rotate: true
+  xy: 2, 2
+  size: 159, 199
+  orig: 159, 199
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+snake_charmer.sprite.rattling_trap.png
+size: 820,552
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Calque 1
+  rotate: false
+  xy: 389, 62
+  size: 406, 157
+  orig: 406, 157
+  offset: 0, 0
+  index: -1
+images/Calque 10 copie
+  rotate: true
+  xy: 2, 257
+  size: 293, 535
+  orig: 293, 535
+  offset: 0, 0
+  index: -1
+images/highlight
+  rotate: false
+  xy: 2, 69
+  size: 385, 186
+  orig: 385, 186
+  offset: 0, 0
+  index: -1
+images/lightblur
+  rotate: true
+  xy: 539, 221
+  size: 329, 279
+  orig: 329, 279
+  offset: 0, 0
+  index: -1
+images/shadow copy
+  rotate: false
+  xy: 2, 2
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1

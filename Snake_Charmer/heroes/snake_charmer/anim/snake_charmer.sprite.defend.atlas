@@ -1,0 +1,20 @@
+
+snake_charmer.sprite.defend.png
+size: 621,392
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ombre
+  rotate: true
+  xy: 554, 31
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+trait
+  rotate: true
+  xy: 2, 2
+  size: 388, 550
+  orig: 388, 550
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,225 @@
+
+-------------------------------------------------------------------------------
+Parsing project file - D:\DD_SC_mod\SC v1.0\snake_charmer.xml
+Mod Data Directory = D:/DD_SC_mod/SC v1.0/
+
+-------------------------------------------------------------------------------
+Processing Map Files files...
+
+-------------------------------------------------------------------------------
+Running Localization...
+Parsing localization/snake_charmer_brazilian.string_table.xml
+Parsing localization/snake_charmer_czech.string_table.xml
+Parsing localization/snake_charmer_english.string_table.xml
+Parsing localization/snake_charmer_french.string_table.xml
+Parsing localization/snake_charmer_german.string_table.xml
+Parsing localization/snake_charmer_italian.string_table.xml
+Parsing localization/snake_charmer_japanese.string_table.xml
+Parsing localization/snake_charmer_koreana.string_table.xml
+Parsing localization/snake_charmer_koreanb.string_table.xml
+Parsing localization/snake_charmer_polish.string_table.xml
+Parsing localization/snake_charmer_russian.string_table.xml
+Parsing localization/snake_charmer_schinese.string_table.xml
+Parsing localization/snake_charmer_spanish.string_table.xml
+Parsing localization/snake_charmer_tchinese.string_table.xml
+
+Building Languages
+Exporting .loc files
+
+-------------------------------------------------------------------------------
+Searching for preview icon file D:/DD_SC_mod/SC v1.0/preview_icon.png...FOUND!
+<UploadMode> - Set to direct_upload
+
+
+-------------------------------------------------------------------------------
+Modded files...
+
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.afflicted.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.camp.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.combat.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.constriction.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.defend.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.feast.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.flute_buff.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.heroic.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.idle.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.investigate.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.mamba_dance.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.rattling_trap.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.riposte.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.venomous_fang .png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.walk.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.afflicted.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.camp.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.combat.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.constriction.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.defend.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.feast.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.flute_buff.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.heroic.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.idle.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.investigate.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.mamba_dance.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.rattling_trap.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.riposte.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.venomous_fang .png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.walk.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.afflicted.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.camp.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.combat.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.constriction.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.defend.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.feast.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.flute_buff.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.heroic.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.idle.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.investigate.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.mamba_dance.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.rattling_trap.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.riposte.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.venomous_fang .png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.walk.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.afflicted.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.camp.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.combat.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.constriction.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.defend.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.feast.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.flute_buff.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.heroic.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.idle.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.investigate.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.mamba_dance.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.rattling_trap.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.riposte.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.venomous_fang .png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.walk.png
+campaign/town/town_event/town_event.image_bonus_recruit_snake_charmer.png
+campaign/town/town_event/town_event.image_first_snake_charmer.png
+campaign/town/town_event/town_event.image_idle_resolve_level_snake_charmer.png
+heroes/snake_charmer/anim/snake_charmer.sprite.afflicted.atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.afflicted.skel
+heroes/snake_charmer/anim/snake_charmer.sprite.camp.atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.camp.skel
+heroes/snake_charmer/anim/snake_charmer.sprite.combat.atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.combat.skel
+heroes/snake_charmer/anim/snake_charmer.sprite.constriction.atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.constriction.skel
+heroes/snake_charmer/anim/snake_charmer.sprite.defend.atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.defend.skel
+heroes/snake_charmer/anim/snake_charmer.sprite.feast.atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.feast.skel
+heroes/snake_charmer/anim/snake_charmer.sprite.flute_buff.atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.flute_buff.skel
+heroes/snake_charmer/anim/snake_charmer.sprite.heroic.atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.heroic.skel
+heroes/snake_charmer/anim/snake_charmer.sprite.idle.atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.idle.skel
+heroes/snake_charmer/anim/snake_charmer.sprite.investigate.atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.investigate.skel
+heroes/snake_charmer/anim/snake_charmer.sprite.mamba_dance.atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.mamba_dance.skel
+heroes/snake_charmer/anim/snake_charmer.sprite.rattling_trap.atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.rattling_trap.skel
+heroes/snake_charmer/anim/snake_charmer.sprite.riposte.atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.riposte.skel
+heroes/snake_charmer/anim/snake_charmer.sprite.venomous_fang .atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.venomous_fang .skel
+heroes/snake_charmer/anim/snake_charmer.sprite.walk.atlas
+heroes/snake_charmer/anim/snake_charmer.sprite.walk.skel
+heroes/snake_charmer/fx/snake_charmer.sprite.calming_toxin_target.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.calming_toxin_target.png
+heroes/snake_charmer/fx/snake_charmer.sprite.calming_toxin_target.skel
+heroes/snake_charmer/fx/snake_charmer.sprite.constriction_fx.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.constriction_fx.png
+heroes/snake_charmer/fx/snake_charmer.sprite.constriction_fx.skel
+heroes/snake_charmer/fx/snake_charmer.sprite.constriction_target.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.constriction_target.png
+heroes/snake_charmer/fx/snake_charmer.sprite.constriction_target.skel
+heroes/snake_charmer/fx/snake_charmer.sprite.feastfx2.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.feastfx2.png
+heroes/snake_charmer/fx/snake_charmer.sprite.feastfx2.skel
+heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_fx.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_fx.png
+heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_fx.skel
+heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_target.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_target.png
+heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_target.skel
+heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.png
+heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.skel
+heroes/snake_charmer/fx/snake_charmer.sprite.vicious_charm_target.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.vicious_charm_target.png
+heroes/snake_charmer/fx/snake_charmer.sprite.vicious_charm_target.skel
+heroes/snake_charmer/icons_equip/eqp_armour_0.png
+heroes/snake_charmer/icons_equip/eqp_armour_1.png
+heroes/snake_charmer/icons_equip/eqp_armour_2.png
+heroes/snake_charmer/icons_equip/eqp_armour_3.png
+heroes/snake_charmer/icons_equip/eqp_armour_4.png
+heroes/snake_charmer/icons_equip/eqp_weapon_0.png
+heroes/snake_charmer/icons_equip/eqp_weapon_1.png
+heroes/snake_charmer/icons_equip/eqp_weapon_2.png
+heroes/snake_charmer/icons_equip/eqp_weapon_3.png
+heroes/snake_charmer/icons_equip/eqp_weapon_4.png
+heroes/snake_charmer/snake_charmer_A/snake_charmer_portrait_roster.png
+heroes/snake_charmer/snake_charmer_B/snake_charmer_portrait_roster.png
+heroes/snake_charmer/snake_charmer_C/snake_charmer_portrait_roster.png
+heroes/snake_charmer/snake_charmer_D/snake_charmer_portrait_roster.png
+panels/icons_equip/trinket/inv_trinket+snake_charmer_ancient_knowledge.png
+panels/icons_equip/trinket/inv_trinket+snake_charmer_cristal_pendant.png
+panels/icons_equip/trinket/inv_trinket+snake_charmer_fabric_strap.png
+panels/icons_equip/trinket/inv_trinket+snake_charmer_master_correspondence.png
+panels/icons_equip/trinket/inv_trinket+snake_charmer_melody.png
+panels/icons_equip/trinket/inv_trinket+snake_charmer_reptilian_plates.png
+panels/icons_equip/trinket/inv_trinket+snake_charmer_used_gloves.png
+panels/icons_equip/trinket/inv_trinket+snake_charmer_vision_pendant.png
+raid/camping/skill_icons/camp_skill_exotic_spices.png
+raid/camping/skill_icons/camp_skill_melody.png
+raid/camping/skill_icons/camp_skill_mithridatism.png
+raid/camping/skill_icons/camp_skill_reserve.png
+audio/secondary_banks/hero_snake_charmer.bank
+campaign/provision/snake_charmer.provision.json
+campaign/town_events/snake_charmer.town_events.events.json
+heroes/snake_charmer/snake_charmer.ability.five.png
+heroes/snake_charmer/snake_charmer.ability.four.png
+heroes/snake_charmer/snake_charmer.ability.one.png
+heroes/snake_charmer/snake_charmer.ability.seven.png
+heroes/snake_charmer/snake_charmer.ability.six.png
+heroes/snake_charmer/snake_charmer.ability.three.png
+heroes/snake_charmer/snake_charmer.ability.two.png
+heroes/snake_charmer/snake_charmer.art.darkest
+heroes/snake_charmer/snake_charmer.info.darkest
+heroes/snake_charmer/snake_charmer_guild_header.png
+raid/camping/snake_charmer.camping_skills.json
+shared/buffs/snake_charmer.buffs.json
+upgrades/heroes/snake_charmer.upgrades.json
+audio/snake_charmer.heroes.guid_overrides.json
+audio/snake_charmer.heroes.load_order.json
+effects/snake_charmer.effects.darkest
+localization/1456853110_english.loc
+localization/1456853110_french.loc
+localization/missing_files.txt
+localization/snake_charmer_brazilian.string_table.xml
+localization/snake_charmer_czech.string_table.xml
+localization/snake_charmer_english.string_table.xml
+localization/snake_charmer_french.string_table.xml
+localization/snake_charmer_german.string_table.xml
+localization/snake_charmer_italian.string_table.xml
+localization/snake_charmer_japanese.string_table.xml
+localization/snake_charmer_koreana.string_table.xml
+localization/snake_charmer_koreanb.string_table.xml
+localization/snake_charmer_polish.string_table.xml
+localization/snake_charmer_russian.string_table.xml
+localization/snake_charmer_schinese.string_table.xml
+localization/snake_charmer_spanish.string_table.xml
+localization/snake_charmer_tchinese.string_table.xml
+trinkets/snake_charmer.entries.trinkets.json
+trinkets/snake_charmercc.sets.trinkets.json
+modfiles.txt
+preview_icon.png
+project.xml
+snake_charmer.xml
+
+Submitting......................................................................................................Submitted.
+Saving project file D:\DD_SC_mod\SC v1.0\snake_charmer.xml
+

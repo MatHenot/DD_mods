@@ -1,0 +1,34 @@
+
+snake_charmer.sprite.mamba_dance_fx.png
+size: 1225,403
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dust
+  rotate: false
+  xy: 2, 2
+  size: 738, 399
+  orig: 738, 399
+  offset: 0, 0
+  index: -1
+rimlight
+  rotate: true
+  xy: 1032, 48
+  size: 210, 109
+  orig: 210, 109
+  offset: 0, 0
+  index: -1
+snake
+  rotate: false
+  xy: 742, 89
+  size: 288, 169
+  orig: 288, 169
+  offset: 0, 0
+  index: -1
+trailA
+  rotate: false
+  xy: 742, 260
+  size: 481, 141
+  orig: 481, 141
+  offset: 0, 0
+  index: -1
