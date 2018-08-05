@@ -447,18 +447,18 @@
 	<entry id="snake_charmer+str_bark_reserve"><![CDATA[오, 내 상자 안에서 뭔갈 찾았어.]]></entry>
 	<entry id="snake_charmer+str_bark_reserve"><![CDATA[두려워마라. 몇개 더 가지고 있다...]]></entry>
         
-	<entry id="acolyte+str_critbyhero"><![CDATA[치명적인 송곳니 공격!]]></entry>
-    <entry id="acolyte+str_critbyhero"><![CDATA[너를 길들이마!]]></entry>
-    <entry id="acolyte+str_critbyhero"><![CDATA[크스스스스!!!]]></entry>
-    <entry id="acolyte+str_critbyhero"><![CDATA[독이 너를 집어 삼킨다!]]></entry>
-    <entry id="acolyte+str_critbyhero"><![CDATA[넌 이미 죽어있다!]]></entry>
-    <entry id="acolyte+str_critbyhero"><![CDATA[치명타!]]></entry>
+	<entry id="snake_charmer+str_critbyhero"><![CDATA[치명적인 송곳니 공격!]]></entry>
+    <entry id="snake_charmer+str_critbyhero"><![CDATA[너를 길들이마!]]></entry>
+    <entry id="snake_charmer+str_critbyhero"><![CDATA[크스스스스!!!]]></entry>
+    <entry id="snake_charmer+str_critbyhero"><![CDATA[독이 너를 집어 삼킨다!]]></entry>
+    <entry id="snake_charmer+str_critbyhero"><![CDATA[넌 이미 죽어있다!]]></entry>
+    <entry id="snake_charmer+str_critbyhero"><![CDATA[치명타!]]></entry>
 	
 	<entry id="snake_charmer+str_monster_user_selected_targets_kill_pill"><![CDATA[이것이 나의 운명. 너를 기다렸다, 포식자여!]]></entry>
-    <entry id="acolyte+str_monster_attack_unholy_smite"><![CDATA[그 존재는..압도적이다 !!]]></entry>
-    <entry id="acolyte+str_monster_attack_unholy_judgement"><![CDATA[나는 살아 남는다! 이것이 수련의 결과다!]]></entry>
-    <entry id="acolyte+str_monster_attack_unholy_curse"><![CDATA[내 운명이 멈춘다고?!]]></entry>
-    <entry id="acolyte+str_bark_deathsdoor"><![CDATA[주군, 그곳으로 가겠습니다...]]></entry>
+    <entry id="snake_charmer+str_monster_attack_unholy_smite"><![CDATA[그 존재는..압도적이다 !!]]></entry>
+    <entry id="snake_charmer+str_monster_attack_unholy_judgement"><![CDATA[나는 살아 남는다! 이것이 수련의 결과다!]]></entry>
+    <entry id="snake_charmer+str_monster_attack_unholy_curse"><![CDATA[내 운명이 멈춘다고?!]]></entry>
+    <entry id="snake_charmer+str_bark_deathsdoor"><![CDATA[주군, 그곳으로 가겠습니다...]]></entry>
    
   </language>
 
