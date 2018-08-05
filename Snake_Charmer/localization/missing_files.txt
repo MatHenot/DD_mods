@@ -1,5 +1,0 @@
-snake_charmer+str_bark_deathsdoor,snake_charmer_tchinese,koreana,
-snake_charmer+str_critbyhero,snake_charmer_tchinese,koreana,
-snake_charmer+str_monster_attack_unholy_curse,snake_charmer_tchinese,koreana,
-snake_charmer+str_monster_attack_unholy_judgement,snake_charmer_tchinese,koreana,
-snake_charmer+str_monster_attack_unholy_smite,snake_charmer_tchinese,koreana,

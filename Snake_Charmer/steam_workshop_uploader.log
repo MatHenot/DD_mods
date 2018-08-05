@@ -1,7 +1,7 @@
 
 -------------------------------------------------------------------------------
-Parsing project file - D:\DD_SC_mod\SC v1.1\snake_charmer.xml
-Mod Data Directory = D:/DD_SC_mod/SC v1.1/
+Parsing project file - D:\DD_mods\Snake_Charmer\snake_charmer.xml
+Mod Data Directory = D:/DD_mods/Snake_Charmer/
 
 -------------------------------------------------------------------------------
 Processing Map Files files...
@@ -27,7 +27,7 @@ Building Languages
 Exporting .loc files
 
 -------------------------------------------------------------------------------
-Searching for preview icon file D:/DD_SC_mod/SC v1.1/preview_icon.png...FOUND!
+Searching for preview icon file D:/DD_mods/Snake_Charmer/preview_icon.png...FOUND!
 <UploadMode> - Set to direct_upload
 
 
@@ -203,7 +203,6 @@ effects/snake_charmer.effects.darkest
 localization/1456853110_english.loc
 localization/1456853110_french.loc
 localization/1456853110_koreana.loc
-localization/missing_files.txt
 localization/snake_charmer_brazilian.string_table.xml
 localization/snake_charmer_czech.string_table.xml
 localization/snake_charmer_english.string_table.xml
@@ -218,8 +217,8 @@ localization/snake_charmer_russian.string_table.xml
 localization/snake_charmer_schinese.string_table.xml
 localization/snake_charmer_spanish.string_table.xml
 localization/snake_charmer_tchinese.string_table.xml
-trinkets/cc.rarities.trinkets.json
 trinkets/com.rarities.trinkets.json
+trinkets/crimson_court.rarities.trinkets.json
 trinkets/snake_charmer.entries.trinkets.json
 trinkets/snake_charmer.sets.trinkets.json
 modfiles.txt
@@ -228,6 +227,6 @@ project.xml
 sample_project.xml
 snake_charmer.xml
 
-Submitting.........................................................................................Submitted.
-Saving project file D:\DD_SC_mod\SC v1.1\snake_charmer.xml
+Submitting...............................................................................................Submitted.
+Saving project file D:\DD_mods\Snake_Charmer\snake_charmer.xml
 
