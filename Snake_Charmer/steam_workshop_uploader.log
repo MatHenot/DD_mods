@@ -71,11 +71,8 @@ heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.constriction.png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.defend.png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.feast.png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.flute_buff.png
-heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.heroic(1).png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.heroic.png
-heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.idle(1).png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.idle.png
-heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.investigate(1).png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.investigate.png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.mamba_dance.png
 heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.rattling_trap.png
@@ -200,9 +197,21 @@ upgrades/heroes/snake_charmer.upgrades.json
 audio/snake_charmer.heroes.guid_overrides.json
 audio/snake_charmer.heroes.load_order.json
 effects/snake_charmer.effects.darkest
+localization/1456853110_brazilian.loc
+localization/1456853110_czech.loc
 localization/1456853110_english.loc
 localization/1456853110_french.loc
+localization/1456853110_german.loc
+localization/1456853110_italian.loc
+localization/1456853110_japanese.loc
 localization/1456853110_koreana.loc
+localization/1456853110_koreanb.loc
+localization/1456853110_polish.loc
+localization/1456853110_russian.loc
+localization/1456853110_schinese.loc
+localization/1456853110_spanish.loc
+localization/1456853110_tchinese.loc
+localization/missing_files.txt
 localization/snake_charmer_brazilian.string_table.xml
 localization/snake_charmer_czech.string_table.xml
 localization/snake_charmer_english.string_table.xml
@@ -224,9 +233,8 @@ trinkets/snake_charmer.sets.trinkets.json
 modfiles.txt
 preview_icon.png
 project.xml
-sample_project.xml
 snake_charmer.xml
 
-Submitting...............................................................................................Submitted.
+Submitting...................................................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Snake_Charmer\snake_charmer.xml
 
