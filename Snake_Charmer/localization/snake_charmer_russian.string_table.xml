@@ -61,7 +61,7 @@
     <entry id="snake_charmer_weapon_2"><![CDATA[Качественная Корзина]]></entry>
     <entry id="snake_charmer_weapon_3"><![CDATA[Укреплённая Корзина]]></entry>
     <entry id="snake_charmer_weapon_4"><![CDATA["Гнездо Гадюки"]]></entry>
-    <entry id="upgrade_tree_name_snake_charmer.weapon"><![CDATA[Корзина для змеи]></entry>
+    <entry id="upgrade_tree_name_snake_charmer.weapon"><![CDATA[Корзина для змеи]]></entry>
 
     <entry id="snake_charmer_armour_0"><![CDATA[Рваный шарф]]></entry>
     <entry id="snake_charmer_armour_1"><![CDATA[Ношеный шарф]]></entry>
@@ -80,11 +80,11 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_A"><![CDATA[Добавляет одно {colour_start|notable}действие{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_B"><![CDATA[-20%% Все эффекты способностей]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}Стресс{colour_end} -7 до -11]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_2"><![CDATA[{colour_start|stress}Стресс{colour_end} -8 до -12]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}Стресс{colour_end} -9 до -13]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}Стресс{colour_end} -10 до -14]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}Стресс{colour_end} -11 до -15]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}Стресс{colour_end} -8 до -10]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_2"><![CDATA[{colour_start|stress}Стресс{colour_end} -9 до -11]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}Стресс{colour_end} -10 до -13]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}Стресс{colour_end} -11 до -14]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}Стресс{colour_end} -12 до -16]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2 урона за раунд (3 раунда)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2 урона за раунд (3 раунда)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3 урона за раунд (3 раунда)]]></entry>

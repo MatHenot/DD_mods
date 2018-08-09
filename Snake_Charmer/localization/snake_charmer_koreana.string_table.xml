@@ -80,11 +80,11 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_A"><![CDATA[추가 1 {colour_start|notable}턴{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_B"><![CDATA[-20%% 모든 스킬 효과 확률]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}스트레스{colour_end} -7 to -11]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_2"><![CDATA[{colour_start|stress}스트레스{colour_end} -8 to -12]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}스트레스{colour_end} -9 to -13]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}스트레스{colour_end} -10 to -14]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}스트레스{colour_end} -11 to -15]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}스트레스{colour_end} -8 to -10]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_2"><![CDATA[{colour_start|stress}스트레스{colour_end} -9 to -11]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}스트레스{colour_end} -10 to -13]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}스트레스{colour_end} -11 to -14]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}스트레스{colour_end} -12 to -16]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 3 rds]]></entry>

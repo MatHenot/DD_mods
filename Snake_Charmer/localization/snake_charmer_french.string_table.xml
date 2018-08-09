@@ -80,11 +80,11 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_A"><![CDATA[Ajoute une {colour_start|notable}Action{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_B"><![CDATA[-20%% de chance d'effets]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}Stress{colour_end} : -7 à -11]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_2"><![CDATA[{colour_start|stress}Stress{colour_end} : -8 à -12]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}Stress{colour_end} : -9 à -13]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}Stress{colour_end} : -10 à -14]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}Stress{colour_end} : -11 à -15]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}Stress{colour_end} : -8 à -10]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_2"><![CDATA[{colour_start|stress}Stress{colour_end} : -9 à -11]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}Stress{colour_end} : -10 à -13]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}Stress{colour_end} : -11 à -14]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}Stress{colour_end} : -12 à -16]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} (de base : 100%%) 2pts/tr sur 2tr]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} (de base : 110%%) 2pts/tr sur 2tr]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} (de base : 120%%) 3pts/tr sur 2tr]]></entry>
