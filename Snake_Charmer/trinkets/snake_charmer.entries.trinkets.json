@@ -5,7 +5,7 @@
          "id" : "snake_charmer_used_gloves",
          "buffs" : 
          [
-			"BLIGHTRESIST10",
+			"BLIGHTRESIST20",
 			"DEBUFFSKILL10"
          ],
          "hero_class_requirements":
@@ -135,11 +135,7 @@
 	  
 		"buffs" : 
          [
-            "SC_T_cristal_pendant_VC_DMGL",
-            "SC_T_cristal_pendant_VC_DMGH",
-			"SC_T_cristal_pendant_VC_Heal",
-            "SC_T_cristal_pendant_VC_StressHeal",
-			"STRESSDMG10"
+			"STRESSDMG20"
          ],
          "hero_class_requirements":
          [
@@ -149,6 +145,10 @@
          "shard" : 110,
          "limit" : 1,
          "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		[
+            "SC T Ally Buff"
+        ],
          "attack_skill_additional_effects":
         [
             "SC T Blight"

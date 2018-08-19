@@ -3,7 +3,8 @@
 
 //trinket additive blight
 
-effect: .name "SC T Blight" .target "target" .curio_result_type "negative" .chance 130% .dotPoison 2 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC T Blight" .target "target" .curio_result_type "negative" .chance 130% .dotPoison 3 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC T Ally Buff" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 4 .defense_rating_add 0.08 .duration 2 .on_hit true .on_miss false .queue true
 
 //venomous fang
 
