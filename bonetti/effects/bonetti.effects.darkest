@@ -1,0 +1,35 @@
+//Bonetti SKILL EFFECTS
+
+//HUMAN
+
+//Transform -- beast > human Effects
+effect: .name "switch_mode_human_self 1" .target "performer" .set_mode human .untag 1 .clear_riposte 1 .chance 100% .on_hit true .on_miss true
+
+
+
+//BEAST
+
+//Transform -- human > beast Effects
+effect: .name "switch_mode_beast_self 1" .target "performer" .set_mode beast .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration .on_hit true .on_miss true .damage_low_multiply 0%  .damage_high_multiply 0% .on_hit true .on_miss false .apply_once true
+effect: .name "bonetti self mark" .target performer .buff_ids "bonetti self mark" .on_hit true .on_miss true
+
+//riposte end by hit
+
+effect: .name "hit_received_riposte_exit" .target performer .buff_ids "exit_riposte" "exiting_riposte_attackrating" .on_hit true .on_miss true .apply_once true
+effect: .name "exit riposte" .target performer .set_mode human .untag 1 .clear_riposte 1 .on_hit true .on_miss true
+
+//riposteA
+effect: .name "riposteA 1"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "riposteA EffectA 1" .on_hit true .on_miss true
+effect: .name "riposteA 2"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "riposteA EffectA 2" .on_hit true .on_miss true
+effect: .name "riposteA 3"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "riposteA EffectA 3" .on_hit true .on_miss true
+effect: .name "riposteA 4"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "riposteA EffectA 4" .on_hit true .on_miss true
+effect: .name "riposteA 5"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "riposteA EffectA 5" .on_hit true .on_miss true
+
+effect: .name "riposteA EffectA 1" .target "target" .curio_result_type "positive" .dotBleed 2 .duration 3 .chance 100% .on_hit true .on_miss false
+effect: .name "riposteA EffectA 2" .target "target" .curio_result_type "positive" .dotBleed 2 .duration 3 .chance 110% .on_hit true .on_miss false
+effect: .name "riposteA EffectA 3" .target "target" .curio_result_type "positive" .dotBleed 3 .duration 3 .chance 120% .on_hit true .on_miss false
+effect: .name "riposteA EffectA 4" .target "target" .curio_result_type "positive" .dotBleed 3 .duration 3 .chance 130% .on_hit true .on_miss false
+effect: .name "riposteA EffectA 5" .target "target" .curio_result_type "positive" .dotBleed 4 .duration 3 .chance 140% .on_hit true .on_miss false
+
+
+

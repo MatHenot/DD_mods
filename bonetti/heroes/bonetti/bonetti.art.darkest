@@ -1,0 +1,26 @@
+commonfx: .deathfx death_medium
+
+weapon: .name "bonetti_weapon_0" .icon "eqp_weapon_0.png"
+weapon: .name "bonetti_weapon_1" .icon "eqp_weapon_1.png"
+weapon: .name "bonetti_weapon_2" .icon "eqp_weapon_2.png"
+weapon: .name "bonetti_weapon_3" .icon "eqp_weapon_3.png"
+weapon: .name "bonetti_weapon_4" .icon "eqp_weapon_4.png"
+
+armour: .name "bonetti_armour_0" .icon "eqp_armour_0.png"
+armour: .name "bonetti_armour_1" .icon "eqp_armour_1.png"
+armour: .name "bonetti_armour_2" .icon "eqp_armour_2.png"
+armour: .name "bonetti_armour_3" .icon "eqp_armour_3.png"
+armour: .name "bonetti_armour_4" .icon "eqp_armour_4.png"
+
+combat_skill: .id "parade" .icon "one" .anim "attack_transform" .fx "transform" .condensed_tooltip_stats true .condensed_tooltip_effects_per_line 2
+combat_skill: .id "manacles" .icon "two" .anim "attack_chain" .targfx ""
+combat_skill: .id "vomit" .icon "three" .anim "attack_barf" .fx "" .targfx "" .condensed_tooltip_stats true .condensed_tooltip_effects false
+combat_skill: .id "absolution" .icon "four" .anim "attack_kneel" .fx "" .can_display_performer_selection_after_turn false
+combat_skill: .id "riposteA" .icon "five" .anim "attack_claw" .fx "" .targchestfx "blood_splatter"
+combat_skill: .id "riposteB" .icon "six" .anim "attack_shout" .fx "" .targchestfx "blood_splatter"
+combat_skill: .id "riposteC" .icon "seven" .anim "attack_horns" .fx "" .targchestfx "blood_splatter" .condensed_tooltip_stats true .condensed_tooltip_effects false
+
+combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+riposte_skill: .id "riposte1" .anim "attack_claw" .fx "" .targchestfx "blood_splatter"
+
+act_out_display: .attack_friendly_anim "attack_claw" .attack_friendly_fx "rake" .attack_friendly_targchestfx "blood_splatter" .attack_friendly_sfx "/char/ally/bonetti_rake"
