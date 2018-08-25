@@ -1,60 +1,7 @@
 {
    "buffs":
    [
-	  {
-         "id" : "Bonetti_Stance_Mark",
-         "stat_type" : "tag",
-         "stat_sub_type" : "",
-         "amount" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "stance"
-         }
-      },
-	  {
-         "id" : "Bonetti_Stance_Speed_1",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 5,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "stance"
-         }
-      },
-	  
-	  {
-         "id" : "Bonetti_Normal_Prot_1",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "protection_rating",
-         "amount" : 0.10,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "normal"
-         }
-      },
-	  
-	  {
-         "id" : "Bonetti_Normal_Dodge_1",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : -0.10,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "normal"
-         }
-      },
+	 
 	  
 	  {
          "id" : "riposteA_buffB_dmg_received",
@@ -125,18 +72,152 @@
 	  
 
 
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
+	  {
+         "id" : "Parry Defense 1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },		 
+	  {
+         "id" : "Parry Speed 1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+	  {
+         "id" : "Parry Defense 2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },		 
+	  {
+         "id" : "Parry Speed 2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+	  {
+         "id" : "Parry Defense 3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.10,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },		 
+	  {
+         "id" : "Parry Speed 3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 4,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+	  {
+         "id" : "Parry Defense 4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.12,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },		 
+	  {
+         "id" : "Parry Speed 4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 4,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+	  {
+         "id" : "Parry Defense 5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.15,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },		 
+	  {
+         "id" : "Parry Speed 5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 5,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
 	  
 	  {
-         "id" : "bonetti self mark",
+         "id" : "Parry Prot",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -100,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      }, 
+	  {
+         "id" : "Parry self mark",
          "stat_type" : "tag",
          "stat_sub_type" : "",
          "amount" : 1,
@@ -148,11 +229,25 @@
             "float" : 0,
             "string" : "beast"
          }
-      },	  
+      },	
+	  {
+         "id" : "Parry block guard",
+         "stat_type" : "guard_blocked",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },	
+ 
 	  {
          "id" : "exit_riposte",
          "stat_type" : "riposte",
-         "stat_sub_type" : "exit riposte",
+         "stat_sub_type" : "Bonetti switch mode Defense",
          "amount" : 1,
          "duration_type" : "before_turn",
          "duration" : 1,
@@ -167,10 +262,10 @@
       },
       {
          "id" : "exiting_riposte_attackrating",
-         "stat_type" : "combat_stat_multiply",
+         "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
-         "amount" : -1.0,
-          "duration_type" : "before_turn",
+         "amount" : -0.15,
+         "duration_type" : "before_turn",
          "duration" : 1,
          "source" : "bsrc_riposte",
          "remove_if_not_active" : false,
@@ -181,8 +276,22 @@
             "string" : "beast"
          }
       },
-	  
-	  
+	  {
+         "id" : "Ally Guard Riposte Effect",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "Ally Guard Riposte Effect",
+         "amount" : -1,
+         "duration" : 3,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+			"string" : "human"
+         }
+      },
+		  
 	  {
          "id" : "riposteA EffectA 1",
          "stat_type" : "riposte",
