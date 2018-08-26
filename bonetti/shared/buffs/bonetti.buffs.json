@@ -207,7 +207,7 @@
          "id" : "Parry Prot",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "protection_rating",
-         "amount" : -100,
+         "amount" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -291,7 +291,73 @@
 			"string" : "human"
          }
       },
-		  
+	  
+      {
+         "id" : "Focus NME Team Debuff 1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.05,
+         "remove_if_not_active" : true,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "Focus NME Team Debuff 2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.07,
+         "remove_if_not_active" : true,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "Focus NME Team Debuff 3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.10,
+         "remove_if_not_active" : true,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "Focus NME Team Debuff 4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.12,
+         "remove_if_not_active" : true,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "Focus NME Team Debuff 5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.15,
+         "remove_if_not_active" : true,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },	  
+	  
 	  {
          "id" : "riposteA EffectA 1",
          "stat_type" : "riposte",

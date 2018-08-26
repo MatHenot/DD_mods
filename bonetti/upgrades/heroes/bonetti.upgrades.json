@@ -120,7 +120,7 @@
          ]
       },
       {
-         "id" : "bonetti.venomous_fang",
+         "id" : "bonetti.parry_pose",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -144,7 +144,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.venomous_fang", "requirement_code" : "0" },
+                  { "tree_id" : "bonetti.parry_pose", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -157,7 +157,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.venomous_fang", "requirement_code" : "1" },
+                  { "tree_id" : "bonetti.parry_pose", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -170,7 +170,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.venomous_fang", "requirement_code" : "2" },
+                  { "tree_id" : "bonetti.parry_pose", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -183,7 +183,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.venomous_fang", "requirement_code" : "3" },
+                  { "tree_id" : "bonetti.parry_pose", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -191,7 +191,7 @@
          ]
       },
       {
-         "id" : "bonetti.mamba_dance",
+         "id" : "bonetti.estoc",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -215,7 +215,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.mamba_dance", "requirement_code" : "0" },
+                  { "tree_id" : "bonetti.estoc", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -228,7 +228,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.mamba_dance", "requirement_code" : "1" },
+                  { "tree_id" : "bonetti.estoc", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -241,7 +241,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.mamba_dance", "requirement_code" : "2" },
+                  { "tree_id" : "bonetti.estoc", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -254,7 +254,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.mamba_dance", "requirement_code" : "3" },
+                  { "tree_id" : "bonetti.estoc", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -262,7 +262,7 @@
          ]
       },
       {
-         "id" : "bonetti.feast",
+         "id" : "bonetti.focus",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -286,7 +286,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.feast", "requirement_code" : "0" },
+                  { "tree_id" : "bonetti.focus", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -299,7 +299,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.feast", "requirement_code" : "1" },
+                  { "tree_id" : "bonetti.focus", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -312,7 +312,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.feast", "requirement_code" : "2" },
+                  { "tree_id" : "bonetti.focus", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -325,7 +325,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.feast", "requirement_code" : "3" },
+                  { "tree_id" : "bonetti.focus", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -333,7 +333,7 @@
          ]
       },
       {
-         "id" : "bonetti.constriction",
+         "id" : "bonetti.guard",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -357,7 +357,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.constriction", "requirement_code" : "0" },
+                  { "tree_id" : "bonetti.guard", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -370,7 +370,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.constriction", "requirement_code" : "1" },
+                  { "tree_id" : "bonetti.guard", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -383,7 +383,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.constriction", "requirement_code" : "2" },
+                  { "tree_id" : "bonetti.guard", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -396,7 +396,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.constriction", "requirement_code" : "3" },
+                  { "tree_id" : "bonetti.guard", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -404,7 +404,7 @@
          ]
       },
 	  {
-         "id" : "bonetti.rattling_trap",
+         "id" : "bonetti.riposteA",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -428,7 +428,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.rattling_trap", "requirement_code" : "0" },
+                  { "tree_id" : "bonetti.riposteA", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -441,7 +441,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.rattling_trap", "requirement_code" : "1" },
+                  { "tree_id" : "bonetti.riposteA", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -454,7 +454,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.rattling_trap", "requirement_code" : "2" },
+                  { "tree_id" : "bonetti.riposteA", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -467,7 +467,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.rattling_trap", "requirement_code" : "3" },
+                  { "tree_id" : "bonetti.riposteA", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -475,7 +475,7 @@
          ]
       },
       {
-         "id" : "bonetti.vicious_charm",
+         "id" : "bonetti.riposteB",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -499,7 +499,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.vicious_charm", "requirement_code" : "0" },
+                  { "tree_id" : "bonetti.riposteB", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -512,7 +512,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.vicious_charm", "requirement_code" : "1" },
+                  { "tree_id" : "bonetti.riposteB", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -525,7 +525,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.vicious_charm", "requirement_code" : "2" },
+                  { "tree_id" : "bonetti.riposteB", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -538,7 +538,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.vicious_charm", "requirement_code" : "3" },
+                  { "tree_id" : "bonetti.riposteB", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -546,7 +546,7 @@
          ]
       },
       {
-         "id" : "bonetti.calming_toxin",
+         "id" : "bonetti.riposteC",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -570,7 +570,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.calming_toxin", "requirement_code" : "0" },
+                  { "tree_id" : "bonetti.riposteC", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -583,7 +583,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.calming_toxin", "requirement_code" : "1" },
+                  { "tree_id" : "bonetti.riposteC", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -596,7 +596,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.calming_toxin", "requirement_code" : "2" },
+                  { "tree_id" : "bonetti.riposteC", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -609,7 +609,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.calming_toxin", "requirement_code" : "3" },
+                  { "tree_id" : "bonetti.riposteC", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
