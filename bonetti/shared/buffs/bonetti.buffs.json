@@ -39,7 +39,70 @@
          }
       },
 	  
-
+{
+         "id" : "ph_test1",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "WW_Bleed_5",
+         "amount" : 0,
+         "duration_type" : "after_turn",
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_test2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_hit_chance",
+         "amount" : 1.0,
+         "duration_type" : "after_turn",
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_test3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_miss_chance",
+         "amount" : 1.0,
+         "duration_type" : "after_turn",
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "ph_test4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.2,
+         "duration_type" : "after_turn",
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
 	  
 	  
 	  
@@ -77,6 +140,8 @@
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.05,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -90,6 +155,8 @@
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
          "amount" : 3,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -103,6 +170,8 @@
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.07,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -116,6 +185,8 @@
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
          "amount" : 3,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -129,6 +200,8 @@
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.10,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -142,6 +215,8 @@
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
          "amount" : 4,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -155,6 +230,8 @@
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.12,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -168,6 +245,8 @@
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
          "amount" : 4,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -181,6 +260,8 @@
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.15,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -194,6 +275,8 @@
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
          "amount" : 5,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -204,37 +287,11 @@
       },
 	  
 	  {
-         "id" : "Parry Prot",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "protection_rating",
-         "amount" : -1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "beast"
-         }
-      }, 
-	  {
          "id" : "Parry self mark",
          "stat_type" : "tag",
          "stat_sub_type" : "",
          "amount" : 1,
          "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "beast"
-         }
-      },	
-	  {
-         "id" : "Parry block guard",
-         "stat_type" : "guard_blocked",
-         "stat_sub_type" : "",
-         "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -293,11 +350,11 @@
       },
 	  
       {
-         "id" : "Focus NME Team Debuff 1",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : -0.05,
-         "remove_if_not_active" : true,
+         "id" : "Focus Buff Chance 1",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 1.9,
+         "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
          "rule_data" : {
@@ -306,11 +363,11 @@
          }
       },
       {
-         "id" : "Focus NME Team Debuff 2",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : -0.07,
-         "remove_if_not_active" : true,
+         "id" : "Focus Buff Chance 2",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 2.0,
+         "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
          "rule_data" : {
@@ -319,11 +376,11 @@
          }
       },
       {
-         "id" : "Focus NME Team Debuff 3",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : -0.10,
-         "remove_if_not_active" : true,
+         "id" : "Focus Buff Chance 3",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 2.1,
+         "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
          "rule_data" : {
@@ -332,11 +389,11 @@
          }
       },
       {
-         "id" : "Focus NME Team Debuff 4",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : -0.12,
-         "remove_if_not_active" : true,
+         "id" : "Focus Buff Chance 4",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 2.2,
+         "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
          "rule_data" : {
@@ -345,11 +402,11 @@
          }
       },
       {
-         "id" : "Focus NME Team Debuff 5",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : -0.15,
-         "remove_if_not_active" : true,
+         "id" : "Focus Buff Chance 5",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : 2.3,
+         "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
          "is_false_rule" : false,
          "rule_data" : {

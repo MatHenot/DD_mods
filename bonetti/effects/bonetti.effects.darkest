@@ -4,16 +4,16 @@
 
 //Transform -- human > beast Effects
 
-effect: .name "Bonetti switch mode Parry 1" .target "performer" .set_mode beast .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 100 .on_hit true .on_miss true .damage_low_multiply -30%  .damage_high_multiply -30% .attack_rating_add 0    .apply_once true
-effect: .name "Bonetti switch mode Parry 2" .target "performer" .set_mode beast .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 100 .on_hit true .on_miss true .damage_low_multiply -25%  .damage_high_multiply -25% .attack_rating_add 0.05 .apply_once true
-effect: .name "Bonetti switch mode Parry 3" .target "performer" .set_mode beast .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 100 .on_hit true .on_miss true .damage_low_multiply -20%  .damage_high_multiply -20% .attack_rating_add 0.10 .apply_once true
-effect: .name "Bonetti switch mode Parry 4" .target "performer" .set_mode beast .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 100 .on_hit true .on_miss true .damage_low_multiply -15%  .damage_high_multiply -15% .attack_rating_add 0.15 .apply_once true
-effect: .name "Bonetti switch mode Parry 5" .target "performer" .set_mode beast .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 100 .on_hit true .on_miss true .damage_low_multiply -10%  .damage_high_multiply -10% .attack_rating_add 0.20 .apply_once true
-effect: .name "Bonetti Parry buffs 1"  .target "performer" .clearguarding 1 cleanguarded 1 .buff_ids "Parry Speed 1" "Parry Defense 1" "Parry Prot" "Parry self mark" "Parry block guard" .on_hit true .on_miss true
-effect: .name "Bonetti Parry buffs 2"  .target "performer" .clearguarding 1 cleanguarded 1 .buff_ids "Parry Speed 2" "Parry Defense 2" "Parry Prot" "Parry self mark" "Parry block guard" .on_hit true .on_miss true
-effect: .name "Bonetti Parry buffs 3"  .target "performer" .clearguarding 1 cleanguarded 1 .buff_ids "Parry Speed 3" "Parry Defense 3" "Parry Prot" "Parry self mark" "Parry block guard" .on_hit true .on_miss true
-effect: .name "Bonetti Parry buffs 4"  .target "performer" .clearguarding 1 cleanguarded 1 .buff_ids "Parry Speed 4" "Parry Defense 4" "Parry Prot" "Parry self mark" "Parry block guard" .on_hit true .on_miss true
-effect: .name "Bonetti Parry buffs 5"  .target "performer" .clearguarding 1 cleanguarded 1 .buff_ids "Parry Speed 5" "Parry Defense 5" "Parry Prot" "Parry self mark" "Parry block guard" .on_hit true .on_miss true
+effect: .name "Bonetti switch mode Parry 1" .target "performer" .set_mode beast .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -30%  .damage_high_multiply -30% .attack_rating_add 0%  .apply_once true
+effect: .name "Bonetti switch mode Parry 2" .target "performer" .set_mode beast .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -25%  .damage_high_multiply -25% .attack_rating_add 5%  .apply_once true
+effect: .name "Bonetti switch mode Parry 3" .target "performer" .set_mode beast .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -20%  .damage_high_multiply -20% .attack_rating_add 10% .apply_once true
+effect: .name "Bonetti switch mode Parry 4" .target "performer" .set_mode beast .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -15%  .damage_high_multiply -15% .attack_rating_add 15% .apply_once true
+effect: .name "Bonetti switch mode Parry 5" .target "performer" .set_mode beast .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -10%  .damage_high_multiply -10% .attack_rating_add 20% .apply_once true
+effect: .name "Bonetti Parry buffs 1"  .target "performer" .clearguarding 1 cleanguarded 1 .buff_ids "Parry Speed 1" "Parry Defense 1" "Parry self mark" .on_hit true .on_miss true
+effect: .name "Bonetti Parry buffs 2"  .target "performer" .clearguarding 1 cleanguarded 1 .buff_ids "Parry Speed 2" "Parry Defense 2" "Parry self mark" .on_hit true .on_miss true
+effect: .name "Bonetti Parry buffs 3"  .target "performer" .clearguarding 1 cleanguarded 1 .buff_ids "Parry Speed 3" "Parry Defense 3" "Parry self mark" .on_hit true .on_miss true
+effect: .name "Bonetti Parry buffs 4"  .target "performer" .clearguarding 1 cleanguarded 1 .buff_ids "Parry Speed 4" "Parry Defense 4" "Parry self mark" .on_hit true .on_miss true
+effect: .name "Bonetti Parry buffs 5"  .target "performer" .clearguarding 1 cleanguarded 1 .buff_ids "Parry Speed 5" "Parry Defense 5" "Parry self mark" .on_hit true .on_miss true
 
 //riposteA
 
@@ -32,46 +32,56 @@ effect: .name "riposteA EffectA 5" .target "target" .curio_result_type "positive
 
 //riposte end by hit
 
-effect: .name "Bonetti hit received" .target "performer" .buff_ids "exit_riposte" "exiting_riposte_attackrating" .on_hit true .on_miss true .apply_once true
+effect: .name "Bonetti hit received" .target "performer" .buff_ids "exit_riposte" .on_hit true .on_miss true .apply_once true
+//"exiting_riposte_attackrating" 
 
 //HUMAN
 
 //Transform -- beast > human Effects
-effect: .name "Bonetti switch mode Defense" .target "performer" .set_mode human .untag 1 .clear_riposte 1 .on_hit true .on_miss true .is_continue_turn true
-//effect: .name "Bonetti Add turn" .target "performer" .curio_result_type "positive" .chance 100% .initiative_change 1 .on_hit true .on_miss true
+effect: .name "Bonetti switch mode Defense" .target "performer" .set_mode human .untag 1 .clear_riposte 1 .on_hit true .on_miss true .queue true
+effect: .name "Bonetti Add turn" .target "performer" .curio_result_type "positive" .chance 100% .initiative_change 1 .on_hit true .on_miss true
 
 
 //Estoc
 
-effect: .name "Bonetti marked estoc 1".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .damage_low_multiply 50%  .damage_high_multiply 50%  .attack_rating_add 0.05 .on_hit true .on_miss false
-effect: .name "Bonetti marked estoc 2".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .damage_low_multiply 60%  .damage_high_multiply 60%  .attack_rating_add 0.10 .on_hit true .on_miss false
-effect: .name "Bonetti marked estoc 3".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .damage_low_multiply 70%  .damage_high_multiply 70%  .attack_rating_add 0.15 .on_hit true .on_miss false
-effect: .name "Bonetti marked estoc 4".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .damage_low_multiply 80%  .damage_high_multiply 80%  .attack_rating_add 0.20 .on_hit true .on_miss false
-effect: .name "Bonetti marked estoc 5".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .duration 3 .combat_stat_buff 1 .damage_low_multiply 100% .damage_high_multiply 100% .attack_rating_add 0.25 .on_hit true .on_miss false
+effect: .name "Bonetti marked estoc 1".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50%  .damage_high_multiply 50%  .attack_rating_add 0.05 .on_hit true .on_miss false
+effect: .name "Bonetti marked estoc 2".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 60%  .damage_high_multiply 60%  .attack_rating_add 0.10 .on_hit true .on_miss false
+effect: .name "Bonetti marked estoc 3".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 70%  .damage_high_multiply 70%  .attack_rating_add 0.15 .on_hit true .on_miss false
+effect: .name "Bonetti marked estoc 4".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 80%  .damage_high_multiply 80%  .attack_rating_add 0.20 .on_hit true .on_miss false
+effect: .name "Bonetti marked estoc 5".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 100% .damage_high_multiply 100% .attack_rating_add 0.25 .on_hit true .on_miss false
 
 //Guard
 
-effect: .name "Bonetti Guard" .target "target" .curio_result_type "positive" .guard 1 .on_hit true .on_miss true .duration 3
+effect: .name "Bonetti Guard" .target "target" .chance 100% .guard 1 .duration 3 .on_hit true .on_miss true
 
-effect: .name "Ally Guard Riposte" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .riposte_effect "Ally Guard Riposte Effect" .on_hit true .on_miss true .apply_once true
-effect: .name "Ally Guard Riposte Effect" .target "target" .curio_result_type "negative" .chance 100%  .tag 1 .duration 2 .on_hit true .on_miss true
+effect: .name "Bonetti Guard Riposte" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -500%  .damage_high_multiply -500% .riposte_effect "Guard Riposte Effect" .on_hit true .on_miss true .apply_once true
+effect: .name "Guard Riposte Effect" .target "target" .curio_result_type "negative" .chance 100%  .tag 1 .duration 2 .on_hit true .on_miss true
 
-effect: .name "Bonetti Self Prot 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 5%	.on_hit true .on_miss true .queue true
-effect: .name "Bonetti Self Prot 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 8%	.on_hit true .on_miss true .queue true
-effect: .name "Bonetti Self Prot 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 12%	.on_hit true .on_miss true .queue true
-effect: .name "Bonetti Self Prot 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 16%	.on_hit true .on_miss true .queue true
-effect: .name "Bonetti Self Prot 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 20%	.on_hit true .on_miss true .queue true
+effect: .name "Bonetti Guard Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 5%  .duration 3 .on_hit true .on_miss true
+effect: .name "Bonetti Guard Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 7%  .duration 3 .on_hit true .on_miss true
+effect: .name "Bonetti Guard Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .duration 3 .on_hit true .on_miss true
+effect: .name "Bonetti Guard Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 12% .duration 3 .on_hit true .on_miss true
+effect: .name "Bonetti Guard Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 15% .duration 3 .on_hit true .on_miss true
 
 //Focus
+//.has_description false
 
-effect: .name "Bonetti Focus NME 1" .target "target" .curio_result_type "negative" .chance 90%  .tag 1 .combat_stat_buff 1 .defense_rating_add -10% .on_hit true .on_miss true
-effect: .name "Bonetti Focus NME 2" .target "target" .curio_result_type "negative" .chance 100% .tag 1 .combat_stat_buff 1 .defense_rating_add -12% .on_hit true .on_miss true
-effect: .name "Bonetti Focus NME 3" .target "target" .curio_result_type "negative" .chance 110% .tag 1 .combat_stat_buff 1 .defense_rating_add -15% .on_hit true .on_miss true
-effect: .name "Bonetti Focus NME 4" .target "target" .curio_result_type "negative" .chance 120% .tag 1 .combat_stat_buff 1 .defense_rating_add -17% .on_hit true .on_miss true
-effect: .name "Bonetti Focus NME 5" .target "target" .curio_result_type "negative" .chance 130% .tag 1 .combat_stat_buff 1 .defense_rating_add -20% .on_hit true .on_miss true
+effect: .name "Bonetti Mark Target".target "target" .curio_result_type "positive" .chance 100% .tag 1 .duration 3 .on_hit true .on_miss false
 
-effect: .name "Bonetti Focus NME Team 1" .target "target_group" .curio_result_type "negative" .chance 80%  .buff_ids "Focus NME Team Debuff 1" .on_hit true .on_miss true .queue true
-effect: .name "Bonetti Focus NME Team 2" .target "target_group" .curio_result_type "negative" .chance 90%  .buff_ids "Focus NME Team Debuff 2" .on_hit true .on_miss true .queue true
-effect: .name "Bonetti Focus NME Team 3" .target "target_group" .curio_result_type "negative" .chance 100% .buff_ids "Focus NME Team Debuff 3" .on_hit true .on_miss true .queue true
-effect: .name "Bonetti Focus NME Team 4" .target "target_group" .curio_result_type "negative" .chance 110% .buff_ids "Focus NME Team Debuff 4" .on_hit true .on_miss true .queue true
-effect: .name "Bonetti Focus NME Team 5" .target "target_group" .curio_result_type "negative" .chance 120% .buff_ids "Focus NME Team Debuff 5" .on_hit true .on_miss true .queue true
+effect: .name "Bonetti Focus Buff Chance 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Focus Buff Chance 1" .on_hit true .on_miss true .skill_instant true
+effect: .name "Bonetti Focus Buff Chance 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Focus Buff Chance 2" .on_hit true .on_miss true .skill_instant true
+effect: .name "Bonetti Focus Buff Chance 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Focus Buff Chance 3" .on_hit true .on_miss true .skill_instant true
+effect: .name "Bonetti Focus Buff Chance 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Focus Buff Chance 4" .on_hit true .on_miss true .skill_instant true
+effect: .name "Bonetti Focus Buff Chance 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Focus Buff Chance 5" .on_hit true .on_miss true .skill_instant true
+
+effect: .name "Bonetti Focus NME Team A 1" .target "target_group" .curio_result_type "negative" .chance -100% .combat_stat_buff 1 .attack_rating_add -0.05 .duration 3 .on_hit true .on_miss true .individual_target_actor_rolls
+effect: .name "Bonetti Focus NME Team A 2" .target "target_group" .curio_result_type "negative" .chance -100% .combat_stat_buff 1 .attack_rating_add -0.07 .duration 3 .on_hit true .on_miss true .individual_target_actor_rolls
+effect: .name "Bonetti Focus NME Team A 3" .target "target_group" .curio_result_type "negative" .chance -100% .combat_stat_buff 1 .attack_rating_add -0.10 .duration 3 .on_hit true .on_miss true .individual_target_actor_rolls
+effect: .name "Bonetti Focus NME Team A 4" .target "target_group" .curio_result_type "negative" .chance -100% .combat_stat_buff 1 .attack_rating_add -0.12 .duration 3 .on_hit true .on_miss true .individual_target_actor_rolls
+effect: .name "Bonetti Focus NME Team A 5" .target "target_group" .curio_result_type "negative" .chance -100% .combat_stat_buff 1 .attack_rating_add -0.15 .duration 3 .on_hit true .on_miss true .individual_target_actor_rolls
+
+effect: .name "Bonetti Focus NME Team B 1" .target "target_group" .curio_result_type "negative" .chance -100% .combat_stat_buff 1 .defense_rating_add -0.05 .duration 3 .on_hit true .on_miss true .individual_target_actor_rolls
+effect: .name "Bonetti Focus NME Team B 2" .target "target_group" .curio_result_type "negative" .chance -100% .combat_stat_buff 1 .defense_rating_add -0.07 .duration 3 .on_hit true .on_miss true .individual_target_actor_rolls
+effect: .name "Bonetti Focus NME Team B 3" .target "target_group" .curio_result_type "negative" .chance -100% .combat_stat_buff 1 .defense_rating_add -0.10 .duration 3 .on_hit true .on_miss true .individual_target_actor_rolls
+effect: .name "Bonetti Focus NME Team B 4" .target "target_group" .curio_result_type "negative" .chance -100% .combat_stat_buff 1 .defense_rating_add -0.12 .duration 3 .on_hit true .on_miss true .individual_target_actor_rolls
+effect: .name "Bonetti Focus NME Team B 5" .target "target_group" .curio_result_type "negative" .chance -100% .combat_stat_buff 1 .defense_rating_add -0.15 .duration 3 .on_hit true .on_miss true .individual_target_actor_rolls
