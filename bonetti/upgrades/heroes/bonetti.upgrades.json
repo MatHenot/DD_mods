@@ -120,7 +120,7 @@
          ]
       },
       {
-         "id" : "bonetti.parry_pose",
+         "id" : "bonetti.offensive_stance",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -144,7 +144,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.parry_pose", "requirement_code" : "0" },
+                  { "tree_id" : "bonetti.offensive_stance", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -157,7 +157,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.parry_pose", "requirement_code" : "1" },
+                  { "tree_id" : "bonetti.offensive_stance", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -170,7 +170,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.parry_pose", "requirement_code" : "2" },
+                  { "tree_id" : "bonetti.offensive_stance", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -183,7 +183,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.parry_pose", "requirement_code" : "3" },
+                  { "tree_id" : "bonetti.offensive_stance", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -191,7 +191,7 @@
          ]
       },
       {
-         "id" : "bonetti.estoc",
+         "id" : "bonetti.thrust",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -215,7 +215,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.estoc", "requirement_code" : "0" },
+                  { "tree_id" : "bonetti.thrust", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -228,7 +228,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.estoc", "requirement_code" : "1" },
+                  { "tree_id" : "bonetti.thrust", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -241,7 +241,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.estoc", "requirement_code" : "2" },
+                  { "tree_id" : "bonetti.thrust", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -254,7 +254,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.estoc", "requirement_code" : "3" },
+                  { "tree_id" : "bonetti.thrust", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -262,7 +262,7 @@
          ]
       },
       {
-         "id" : "bonetti.focus",
+         "id" : "bonetti.hearken",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -286,7 +286,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.focus", "requirement_code" : "0" },
+                  { "tree_id" : "bonetti.hearken", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -299,7 +299,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.focus", "requirement_code" : "1" },
+                  { "tree_id" : "bonetti.hearken", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -312,7 +312,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.focus", "requirement_code" : "2" },
+                  { "tree_id" : "bonetti.hearken", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -325,7 +325,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.focus", "requirement_code" : "3" },
+                  { "tree_id" : "bonetti.hearken", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -333,7 +333,7 @@
          ]
       },
       {
-         "id" : "bonetti.guard",
+         "id" : "bonetti.heeder",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -357,7 +357,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.guard", "requirement_code" : "0" },
+                  { "tree_id" : "bonetti.heeder", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -370,7 +370,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.guard", "requirement_code" : "1" },
+                  { "tree_id" : "bonetti.heeder", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -383,7 +383,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.guard", "requirement_code" : "2" },
+                  { "tree_id" : "bonetti.heeder", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -396,7 +396,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "bonetti.guard", "requirement_code" : "3" },
+                  { "tree_id" : "bonetti.heeder", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5

@@ -7,38 +7,38 @@ weapon: .name "Bonetti_weapon_1" .atk 0% .dmg 6 11 .crit 6% .spd 3 .upgradeRequi
 weapon: .name "Bonetti_weapon_2" .atk 0% .dmg 7 12 .crit 7% .spd 4 .upgradeRequirementCode 1
 weapon: .name "Bonetti_weapon_3" .atk 0% .dmg 7 14 .crit 8% .spd 4 .upgradeRequirementCode 2
 weapon: .name "Bonetti_weapon_4" .atk 0% .dmg 8 15 .crit 9% .spd 5 .upgradeRequirementCode 3
-armour: .name "Bonetti_armour_0" .def 12% .prot 0 .hp 22 .spd 0
-armour: .name "Bonetti_armour_1" .def 17% .prot 0 .hp 27 .spd 0 .upgradeRequirementCode 0
-armour: .name "Bonetti_armour_2" .def 22% .prot 0 .hp 32 .spd 0 .upgradeRequirementCode 1
-armour: .name "Bonetti_armour_3" .def 27% .prot 0 .hp 37 .spd 0 .upgradeRequirementCode 2
-armour: .name "Bonetti_armour_4" .def 32% .prot 0 .hp 42 .spd 0 .upgradeRequirementCode 3
+armour: .name "Bonetti_armour_0" .def 12% .prot 10% .hp 22 .spd 0
+armour: .name "Bonetti_armour_1" .def 17% .prot 10% .hp 27 .spd 0 .upgradeRequirementCode 0
+armour: .name "Bonetti_armour_2" .def 22% .prot 10% .hp 32 .spd 0 .upgradeRequirementCode 1
+armour: .name "Bonetti_armour_3" .def 27% .prot 10% .hp 37 .spd 0 .upgradeRequirementCode 2
+armour: .name "Bonetti_armour_4" .def 32% .prot 10% .hp 42 .spd 0 .upgradeRequirementCode 3
 
-combat_skill: .id "parry_pose" .level 0 .type "ranged" .launch 4321 .target .is_crit_valid false .valid_modes human .human_effects "Bonetti switch mode Parry 1" "Bonetti Parry buffs 1" .refresh_after_each_wave true
-combat_skill: .id "parry_pose" .level 1 .type "ranged" .launch 4321 .target .is_crit_valid false .valid_modes human .human_effects "Bonetti switch mode Parry 2" "Bonetti Parry buffs 2" .refresh_after_each_wave true 
-combat_skill: .id "parry_pose" .level 2 .type "ranged" .launch 4321 .target .is_crit_valid false .valid_modes human .human_effects "Bonetti switch mode Parry 3" "Bonetti Parry buffs 3" .refresh_after_each_wave true 
-combat_skill: .id "parry_pose" .level 3 .type "ranged" .launch 4321 .target .is_crit_valid false .valid_modes human .human_effects "Bonetti switch mode Parry 4" "Bonetti Parry buffs 4" .refresh_after_each_wave true 
-combat_skill: .id "parry_pose" .level 4 .type "ranged" .launch 4321 .target .is_crit_valid false .valid_modes human .human_effects "Bonetti switch mode Parry 5" "Bonetti Parry buffs 5" .refresh_after_each_wave true 
-combat_skill: .id "estoc" .level 0 .type "melee" .atk 75% .dmg 0% .crit 1% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Bonetti marked estoc 1" .generation_guaranteed true
-combat_skill: .id "estoc" .level 1 .type "melee" .atk 80% .dmg 0% .crit 2% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Bonetti marked estoc 2"
-combat_skill: .id "estoc" .level 2 .type "melee" .atk 85% .dmg 0% .crit 3% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Bonetti marked estoc 3"
-combat_skill: .id "estoc" .level 3 .type "melee" .atk 90% .dmg 0% .crit 4% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Bonetti marked estoc 4"
-combat_skill: .id "estoc" .level 4 .type "melee" .atk 95% .dmg 0% .crit 5% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Bonetti marked estoc 5"
-combat_skill: .id "focus" .level 0 .type "ranged" .atk 100% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Bonetti Mark Target" "Bonetti Focus Buff Chance 1" "Bonetti Focus NME Team A 1" "Bonetti Focus NME Team B 1" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "focus" .level 1 .type "ranged" .atk 105% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Bonetti Mark Target" "Bonetti Focus Buff Chance 2" "Bonetti Focus NME Team A 2" "Bonetti Focus NME Team B 2" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "focus" .level 2 .type "ranged" .atk 110% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Bonetti Mark Target" "Bonetti Focus Buff Chance 3" "Bonetti Focus NME Team A 3" "Bonetti Focus NME Team B 3" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "focus" .level 3 .type "ranged" .atk 115% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Bonetti Mark Target" "Bonetti Focus Buff Chance 4" "Bonetti Focus NME Team A 4" "Bonetti Focus NME Team B 4" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "focus" .level 4 .type "ranged" .atk 120% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Bonetti Mark Target" "Bonetti Focus Buff Chance 5" "Bonetti Focus NME Team A 5" "Bonetti Focus NME Team B 5" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "guard" .level 0 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Bonetti Guard" "Bonetti Guard Riposte" "Bonetti Guard Buff 1" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "guard" .level 1 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Bonetti Guard" "Bonetti Guard Riposte" "Bonetti Guard Buff 2" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "guard" .level 2 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Bonetti Guard" "Bonetti Guard Riposte" "Bonetti Guard Buff 3" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "guard" .level 3 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Bonetti Guard" "Bonetti Guard Riposte" "Bonetti Guard Buff 4" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "guard" .level 4 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Bonetti Guard" "Bonetti Guard Riposte" "Bonetti Guard Buff 5" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "offensive_stance" .level 0 .type "ranged" .launch 4321 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 1" "Offensive Buff 1" "Offensive Prot Debuff" .refresh_after_each_wave true .generation_guaranteed true
+combat_skill: .id "offensive_stance" .level 1 .type "ranged" .launch 4321 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 2" "Offensive Buff 2" "Offensive Prot Debuff" .refresh_after_each_wave true 
+combat_skill: .id "offensive_stance" .level 2 .type "ranged" .launch 4321 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 3" "Offensive Buff 3" "Offensive Prot Debuff" .refresh_after_each_wave true 
+combat_skill: .id "offensive_stance" .level 3 .type "ranged" .launch 4321 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 4" "Offensive Buff 4" "Offensive Prot Debuff" .refresh_after_each_wave true 
+combat_skill: .id "offensive_stance" .level 4 .type "ranged" .launch 4321 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 5" "Offensive Buff 5" "Offensive Prot Debuff" .refresh_after_each_wave true 
+combat_skill: .id "thrust" .level 0 .type "melee" .atk 85%  .dmg 0% .crit 1% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 1" .beast_effects "Thrust Offensive 1" .human_effects "Thrust Defensive Stun 1"
+combat_skill: .id "thrust" .level 1 .type "melee" .atk 90%  .dmg 0% .crit 2% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 2" .beast_effects "Thrust Offensive 2" .human_effects "Thrust Defensive Stun 2"
+combat_skill: .id "thrust" .level 2 .type "melee" .atk 95%  .dmg 0% .crit 3% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 3" .beast_effects "Thrust Offensive 3" .human_effects "Thrust Defensive Stun 3"
+combat_skill: .id "thrust" .level 3 .type "melee" .atk 100% .dmg 0% .crit 4% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 4" .beast_effects "Thrust Offensive 4" .human_effects "Thrust Defensive Stun 4"
+combat_skill: .id "thrust" .level 4 .type "melee" .atk 105% .dmg 0% .crit 5% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 5" .beast_effects "Thrust Offensive 5" .human_effects "Thrust Defensive Stun 5"
+combat_skill: .id "hearken" .level 0 .type "ranged" .atk 100% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Hearken Mark" "Hearken Debuff 1" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "hearken" .level 1 .type "ranged" .atk 105% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Hearken Mark" "Hearken Debuff 2" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "hearken" .level 2 .type "ranged" .atk 110% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Hearken Mark" "Hearken Debuff 3" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "hearken" .level 3 .type "ranged" .atk 115% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Hearken Mark" "Hearken Debuff 4" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "hearken" .level 4 .type "ranged" .atk 120% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Hearken Mark" "Hearken Debuff 5" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "heeder" .level 0 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte" "Heeder Buff 1" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "heeder" .level 1 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte" "Heeder Buff 2" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "heeder" .level 2 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte" "Heeder Buff 3" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "heeder" .level 3 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte" "Heeder Buff 4" .valid_modes human .is_stall_invalidating false
+combat_skill: .id "heeder" .level 4 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte" "Heeder Buff 5" .valid_modes human .is_stall_invalidating false
 
-combat_skill: .id "riposteA" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false  .effect "riposteA 1" .valid_modes beast
-combat_skill: .id "riposteB" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false  .effect .valid_modes beast
-combat_skill: .id "riposteC" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false  .effect .valid_modes beast
+combat_skill: .id "riposteA" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "riposteA 1" 
+combat_skill: .id "riposteB" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast
+combat_skill: .id "riposteC" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast
 
-combat_move_skill: .id "lower one's guard" .level 0 .launch 4321 .target .valid_modes beast .beast_effects "Bonetti switch mode Defense" "Bonetti Add turn"
+combat_move_skill: .id "lower one's guard" .level 0 .launch 4321 .target .valid_modes beast .beast_effects "switch to Defensive" "Bonetti Add turn"
 riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 80% .dmg 0% .crit 7% .launch 1234 .target 1234 .is_crit_valid True .valid_modes beast
 
 tag: .id "heavy"
