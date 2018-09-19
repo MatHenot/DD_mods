@@ -1,140 +1,6 @@
 {
    "buffs":
    [
-	 
-	  
-	  {
-         "id" : "riposteA_buffB_dmg_received",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 15,
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "normal"
-         },
-		 "is_clear_debuff_valid": false
-      },
-	  
-	  
-
-	  
-	  {
-         "id" : "riposteA BuffB",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "riposteA BuffA 1",
-         "amount" : 0,
-         "duration_type" : "before_turn",
-         "duration" : 1,
-         "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  
-{
-         "id" : "ph_test1",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "WW_Bleed_5",
-         "amount" : 0,
-         "duration_type" : "after_turn",
-         "duration" : 2,
-         "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-      {
-         "id" : "ph_test2",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "riposte_on_hit_chance",
-         "amount" : 1.0,
-         "duration_type" : "after_turn",
-         "duration" : 2,
-         "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-      {
-         "id" : "ph_test3",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "riposte_on_miss_chance",
-         "amount" : 1.0,
-         "duration_type" : "after_turn",
-         "duration" : 2,
-         "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-      {
-         "id" : "ph_test4",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : 0.2,
-         "duration_type" : "after_turn",
-         "duration" : 2,
-         "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-
-
 	  {
          "id" : "Offensive Defense 1",
          "stat_type" : "combat_stat_add",
@@ -184,7 +50,7 @@
          "id" : "Offensive Speed 2",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
-         "amount" : 3,
+         "amount" : 4,
          "duration_type" : "combat_end",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -214,7 +80,7 @@
          "id" : "Offensive Speed 3",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
-         "amount" : 4,
+         "amount" : 5,
          "duration_type" : "combat_end",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -244,7 +110,7 @@
          "id" : "Offensive Speed 4",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
-         "amount" : 4,
+         "amount" : 6,
          "duration_type" : "combat_end",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -274,7 +140,7 @@
          "id" : "Offensive Speed 5",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
-         "amount" : 5,
+         "amount" : 7,
          "duration_type" : "combat_end",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -301,21 +167,6 @@
             "string" : "beast"
          }
       },	
- 
- 	  {
-         "id" : "Offensive self mark",
-         "stat_type" : "tag",
-         "stat_sub_type" : "",
-         "amount" : 1,
-         "duration" : 2,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "beast"
-         }
-      },
  
 	  {
          "id" : "exit_riposte",
@@ -354,7 +205,7 @@
          "id" : "Thrust Random",
          "stat_type" : "random_target_attack_chance",
          "stat_sub_type" : "",
-         "amount" : 1,
+         "amount" : 0.5,
          "remove_if_not_active" : false,
          "rule_type" : "actorStatus",
          "is_false_rule" : true,
@@ -363,6 +214,34 @@
             "string" : "tagged"
          }
       },
+	  {
+         "id" : "Thrust Defensive Dmg L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.50,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },	  
+	  {
+         "id" : "Thrust Defensive Dmg H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.50,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
 	  
       {
          "id" : "Hearken Debuff 1",
@@ -429,14 +308,27 @@
             "string" : "tagged"
          }
       },	  
-	  
+
 	  {
-         "id" : "riposteA EffectA 1",
+         "id" : "Gash Dodge",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.10,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+	  },  
+	  {
+         "id" : "Gash Riposte Effect 1",
          "stat_type" : "riposte",
-         "stat_sub_type" : "riposteA EffectA 1",
+         "stat_sub_type" : "Gash Riposte Effect 1",
          "amount" : -1,
-         "duration_type" : "before_turn",
-         "duration" : 1,
+         "duration" : 2,
          "source" : "bsrc_riposte",
          "remove_if_not_active" : false,
          "rule_type" : "in_mode",
@@ -447,12 +339,11 @@
          }
       },
 	  {
-         "id" : "riposteA EffectA 2",
+         "id" : "Gash Riposte Effect 2",
          "stat_type" : "riposte",
-         "stat_sub_type" : "riposteA EffectA 2",
+         "stat_sub_type" : "Gash Riposte Effect 2",
          "amount" : -1,
-         "duration_type" : "before_turn",
-         "duration" : 1,
+         "duration" : 2,
          "source" : "bsrc_riposte",
          "remove_if_not_active" : false,
          "rule_type" : "in_mode",
@@ -463,12 +354,11 @@
          }
       }, 
 	  {
-         "id" : "riposteA EffectA 3",
+         "id" : "Gash Riposte Effect 3",
          "stat_type" : "riposte",
-         "stat_sub_type" : "riposteA EffectA 3",
+         "stat_sub_type" : "Gash Riposte Effect 3",
          "amount" : -1,
-         "duration_type" : "before_turn",
-         "duration" : 1,
+         "duration" : 2,
          "source" : "bsrc_riposte",
          "remove_if_not_active" : false,
          "rule_type" : "in_mode",
@@ -479,12 +369,11 @@
          }
       }, 
 	  {
-         "id" : "riposteA EffectA 4",
+         "id" : "Gash Riposte Effect 4",
          "stat_type" : "riposte",
-         "stat_sub_type" : "riposteA EffectA 4",
+         "stat_sub_type" : "Gash Riposte Effect 4",
          "amount" : -1,
-         "duration_type" : "before_turn",
-         "duration" : 1,
+         "duration" : 2,
          "source" : "bsrc_riposte",
          "remove_if_not_active" : false,
          "rule_type" : "in_mode",
@@ -495,12 +384,11 @@
          }
       }, 
 	  {
-         "id" : "riposteA EffectA 5",
+         "id" : "Gash Riposte Effect 5",
          "stat_type" : "riposte",
-         "stat_sub_type" : "riposteA EffectA 5",
+         "stat_sub_type" : "Gash Riposte Effect 5",
          "amount" : -1,
-         "duration_type" : "before_turn",
-         "duration" : 1,
+         "duration" : 2,
          "source" : "bsrc_riposte",
          "remove_if_not_active" : false,
          "rule_type" : "in_mode",
@@ -509,6 +397,351 @@
             "float" : 0,
             "string" : "beast"
          }
-      } 	 
+      }, 
+ 
+	  {
+         "id" : "Dare Dodge",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.15,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+	  },
+	  {
+         "id" : "Dare Riposte Dmg L 1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.20,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },	  
+	  {
+         "id" : "Dare Riposte Dmg H 1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.20,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Dare Riposte Crit 1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.10,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Dare Riposte Dmg L 2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },	  
+	  {
+         "id" : "Dare Riposte Dmg H 2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Dare Riposte Crit 2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.11,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Dare Riposte Dmg L 3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.30,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },	  
+	  {
+         "id" : "Dare Riposte Dmg H 3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.30,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Dare Riposte Crit 3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.12,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Dare Riposte Dmg L 4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.40,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },	  
+	  {
+         "id" : "Dare Riposte Dmg H 4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.40,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Dare Riposte Crit 4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.13,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Dare Riposte Dmg L 5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.45,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },	  
+	  {
+         "id" : "Dare Riposte Dmg H 5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.45,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Dare Riposte Crit 5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.14,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+
+	  {
+         "id" : "Restoring Received",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+		 "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         },
+		 "is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "Restoring Riposte Dmg L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.5,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },	  
+	  {
+         "id" : "Restoring Riposte Dmg H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.5,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Restoring Riposte Effect 1",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "Restoring Riposte Effect 1",
+         "amount" : -1,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+	  {
+         "id" : "Restoring Riposte Effect 2",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "Restoring Riposte Effect 2",
+         "amount" : -1,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      }, 
+	  {
+         "id" : "Restoring Riposte Effect 3",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "Restoring Riposte Effect 3",
+         "amount" : -1,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      }, 
+	  {
+         "id" : "Restoring Riposte Effect 4",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "Restoring Riposte Effect 4",
+         "amount" : -1,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      }, 
+	  {
+         "id" : "Restoring Riposte Effect 5",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "Restoring Riposte Effect 5",
+         "amount" : -1,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      }
+      	 
    ]
 }

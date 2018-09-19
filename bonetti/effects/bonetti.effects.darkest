@@ -1,6 +1,6 @@
 //Bonetti SKILL EFFECTS
 
-//BEAST
+//----------BEAST----------
 
 //Transform -- human > beast Effects
 
@@ -9,37 +9,63 @@ effect: .name "switch to Offensive 2" .target "performer" .set_mode beast .chanc
 effect: .name "switch to Offensive 3" .target "performer" .set_mode beast .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -20% .damage_high_multiply -20% .attack_rating_add 10% .apply_once true
 effect: .name "switch to Offensive 4" .target "performer" .set_mode beast .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -15% .damage_high_multiply -15% .attack_rating_add 15% .apply_once true
 effect: .name "switch to Offensive 5" .target "performer" .set_mode beast .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -10% .damage_high_multiply -10% .attack_rating_add 20% .apply_once true
-effect: .name "Offensive Buff 1" .target "performer" .buff_ids "Offensive Speed 1" "Offensive Defense 1" "Offensive self mark" .on_hit true .on_miss true
-effect: .name "Offensive Buff 2" .target "performer" .buff_ids "Offensive Speed 2" "Offensive Defense 2" "Offensive self mark" .on_hit true .on_miss true
-effect: .name "Offensive Buff 3" .target "performer" .buff_ids "Offensive Speed 3" "Offensive Defense 3" "Offensive self mark" .on_hit true .on_miss true
-effect: .name "Offensive Buff 4" .target "performer" .buff_ids "Offensive Speed 4" "Offensive Defense 4" "Offensive self mark" .on_hit true .on_miss true
-effect: .name "Offensive Buff 5" .target "performer" .buff_ids "Offensive Speed 5" "Offensive Defense 5" "Offensive self mark" .on_hit true .on_miss true
+effect: .name "Offensive Buff 1" .target "performer" .buff_ids "Offensive Speed 1" "Offensive Defense 1" .on_hit true .on_miss true
+effect: .name "Offensive Buff 2" .target "performer" .buff_ids "Offensive Speed 2" "Offensive Defense 2" .on_hit true .on_miss true
+effect: .name "Offensive Buff 3" .target "performer" .buff_ids "Offensive Speed 3" "Offensive Defense 3" .on_hit true .on_miss true
+effect: .name "Offensive Buff 4" .target "performer" .buff_ids "Offensive Speed 4" "Offensive Defense 4" .on_hit true .on_miss true
+effect: .name "Offensive Buff 5" .target "performer" .buff_ids "Offensive Speed 5" "Offensive Defense 5" .on_hit true .on_miss true
 effect: .name "Offensive Prot Debuff"  .target "performer" .clearguarding 1 cleanguarded 1 .buff_ids "Offensive Prot" .on_hit true .on_miss true
 
-
-//riposteA
-
-effect: .name "riposteA 1"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "riposteA EffectA 1" .on_hit true .on_miss true
-effect: .name "riposteA 2"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "riposteA EffectA 2" .on_hit true .on_miss true
-effect: .name "riposteA 3"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "riposteA EffectA 3" .on_hit true .on_miss true
-effect: .name "riposteA 4"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "riposteA EffectA 4" .on_hit true .on_miss true
-effect: .name "riposteA 5"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "riposteA EffectA 5" .on_hit true .on_miss true
-
-effect: .name "riposteA EffectA 1" .target "target" .curio_result_type "positive" .dotBleed 2 .duration 3 .chance 100% .on_hit true .on_miss false
-effect: .name "riposteA EffectA 2" .target "target" .curio_result_type "positive" .dotBleed 2 .duration 3 .chance 110% .on_hit true .on_miss false
-effect: .name "riposteA EffectA 3" .target "target" .curio_result_type "positive" .dotBleed 3 .duration 3 .chance 120% .on_hit true .on_miss false
-effect: .name "riposteA EffectA 4" .target "target" .curio_result_type "positive" .dotBleed 3 .duration 3 .chance 130% .on_hit true .on_miss false
-effect: .name "riposteA EffectA 5" .target "target" .curio_result_type "positive" .dotBleed 4 .duration 3 .chance 140% .on_hit true .on_miss false
-
-
-//riposte end by hit
+//Transformation end by hit
 
 effect: .name "Bonetti hit received" .target "performer" .buff_ids "exit_riposte" .on_hit true .on_miss true .apply_once true
 //"exiting_riposte_attackrating" 
 
-//HUMAN
+
+//Gash
+
+effect: .name "Gash Riposte 1"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge" "Gash Riposte Effect 1" .on_hit true .on_miss true
+effect: .name "Gash Riposte 2"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge" "Gash Riposte Effect 2" .on_hit true .on_miss true
+effect: .name "Gash Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge" "Gash Riposte Effect 3" .on_hit true .on_miss true
+effect: .name "Gash Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge" "Gash Riposte Effect 4" .on_hit true .on_miss true
+effect: .name "Gash Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge" "Gash Riposte Effect 5" .on_hit true .on_miss true
+
+effect: .name "Gash Riposte Effect 1" .target "target" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 100% .on_hit true .on_miss false
+effect: .name "Gash Riposte Effect 2" .target "target" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 110% .on_hit true .on_miss false
+effect: .name "Gash Riposte Effect 3" .target "target" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 120% .on_hit true .on_miss false
+effect: .name "Gash Riposte Effect 4" .target "target" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 130% .on_hit true .on_miss false
+effect: .name "Gash Riposte Effect 5" .target "target" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .on_hit true .on_miss false
+
+
+//Dare
+
+effect: .name "Dare Buffs 1"  .target "performer" .curio_result_type "positive" .tag 1 .duration 2 .chance 100% .buff_ids "Dare Dodge" "Dare Riposte Dmg L 1" "Dare Riposte Dmg H 1" "Dare Riposte Crit 1" .on_hit true .on_miss true
+effect: .name "Dare Buffs 2"  .target "performer" .curio_result_type "positive" .tag 1 .duration 2 .chance 100% .buff_ids "Dare Dodge" "Dare Riposte Dmg L 2" "Dare Riposte Dmg H 2" "Dare Riposte Crit 2" .on_hit true .on_miss true
+effect: .name "Dare Buffs 3"  .target "performer" .curio_result_type "positive" .tag 1 .duration 2 .chance 100% .buff_ids "Dare Dodge" "Dare Riposte Dmg L 3" "Dare Riposte Dmg H 3" "Dare Riposte Crit 3" .on_hit true .on_miss true
+effect: .name "Dare Buffs 4"  .target "performer" .curio_result_type "positive" .tag 1 .duration 2 .chance 100% .buff_ids "Dare Dodge" "Dare Riposte Dmg L 4" "Dare Riposte Dmg H 4" "Dare Riposte Crit 4" .on_hit true .on_miss true
+effect: .name "Dare Buffs 5"  .target "performer" .curio_result_type "positive" .tag 1 .duration 2 .chance 100% .buff_ids "Dare Dodge" "Dare Riposte Dmg L 5" "Dare Riposte Dmg H 5" "Dare Riposte Crit 5" .on_hit true .on_miss true
+
+
+//Restoring Strike
+
+effect: .name "Restoring Riposte 1"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Restoring Received" "Restoring Riposte Dmg L" "Restoring Riposte Dmg H" "Restoring Riposte Effect 1" .on_hit true .on_miss true
+effect: .name "Restoring Riposte 2"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Restoring Received" "Restoring Riposte Dmg L" "Restoring Riposte Dmg H" "Restoring Riposte Effect 2" .on_hit true .on_miss true
+effect: .name "Restoring Riposte 3"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Restoring Received" "Restoring Riposte Dmg L" "Restoring Riposte Dmg H" "Restoring Riposte Effect 3" .on_hit true .on_miss true
+effect: .name "Restoring Riposte 4"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Restoring Received" "Restoring Riposte Dmg L" "Restoring Riposte Dmg H" "Restoring Riposte Effect 4" .on_hit true .on_miss true
+effect: .name "Restoring Riposte 5"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Restoring Received" "Restoring Riposte Dmg L" "Restoring Riposte Dmg H" "Restoring Riposte Effect 5" .on_hit true .on_miss true
+
+effect: .name "Restoring Riposte Effect 1" .target "performer" .curio_result_type "positive" .heal 4 .chance 100% .on_hit true .on_miss false
+effect: .name "Restoring Riposte Effect 2" .target "performer" .curio_result_type "positive" .heal 5 .chance 100% .on_hit true .on_miss false
+effect: .name "Restoring Riposte Effect 3" .target "performer" .curio_result_type "positive" .heal 6 .chance 100% .on_hit true .on_miss false
+effect: .name "Restoring Riposte Effect 4" .target "performer" .curio_result_type "positive" .heal 7 .chance 100% .on_hit true .on_miss false
+effect: .name "Restoring Riposte Effect 5" .target "performer" .curio_result_type "positive" .heal 8 .chance 100% .on_hit true .on_miss false
+
+
+//----------HUMAN----------
+
 
 //Transform -- beast > human Effects
+
 effect: .name "switch to Defensive" .target "performer" .set_mode human .untag 1 .clear_riposte 1 .on_hit true .on_miss true .queue true
 effect: .name "Bonetti Add turn" .target "performer" .curio_result_type "positive" .chance 100% .initiative_change 1 .on_hit true .on_miss true
 
@@ -60,7 +86,7 @@ effect: .name "Thrust Offensive 3".target "performer" .curio_result_type "positi
 effect: .name "Thrust Offensive 4".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 80%  .damage_high_multiply 80%  .on_hit true .on_miss false
 effect: .name "Thrust Offensive 5".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 100% .damage_high_multiply 100% .on_hit true .on_miss false
 
-effect: .name "Thrust Defensive".target "performer" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .damage_low_multiply -50% .damage_high_multiply -50% .on_hit true .on_miss false
+effect: .name "Thrust Defensive".target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Defensive Dmg L" "Thrust Defensive Dmg H" .on_hit true .on_miss false .skill_instant true
 
 effect: .name "Thrust Defensive Stun 1" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
 effect: .name "Thrust Defensive Stun 2" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
