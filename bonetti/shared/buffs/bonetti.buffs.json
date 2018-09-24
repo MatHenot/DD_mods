@@ -5,7 +5,7 @@
          "id" : "Offensive Defense 1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
-         "amount" : 0.05,
+         "amount" : 0.10,
          "duration_type" : "combat_end",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -35,7 +35,7 @@
          "id" : "Offensive Defense 2",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
-         "amount" : 0.07,
+         "amount" : 0.12,
          "duration_type" : "combat_end",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -65,7 +65,7 @@
          "id" : "Offensive Defense 3",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
-         "amount" : 0.10,
+         "amount" : 0.15,
          "duration_type" : "combat_end",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -95,7 +95,7 @@
          "id" : "Offensive Defense 4",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
-         "amount" : 0.12,
+         "amount" : 0.17,
          "duration_type" : "combat_end",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -125,7 +125,7 @@
          "id" : "Offensive Defense 5",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
-         "amount" : 0.15,
+         "amount" : 0.20,
          "duration_type" : "combat_end",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -242,7 +242,7 @@
             "string" : ""
          }
 	  },
-	  
+  
       {
          "id" : "Hearken Debuff 1",
          "stat_type" : "combat_stat_add",
@@ -625,25 +625,10 @@
 	  },
 
 	  {
-         "id" : "Restoring Received",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.15,
-		 "duration" : 2,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "beast"
-         },
-		 "is_clear_debuff_valid": false
-      },
-	  {
-         "id" : "Restoring Riposte Dmg L",
+         "id" : "Scattered Blade Riposte Dmg L",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
-         "amount" : -0.5,
+         "amount" : -0.4,
          "duration" : 2,
          "remove_if_not_active" : false,
          "rule_type" : "riposte",
@@ -654,10 +639,10 @@
          }
 	  },	  
 	  {
-         "id" : "Restoring Riposte Dmg H",
+         "id" : "Scattered Blade Riposte Dmg H",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
-         "amount" : -0.5,
+         "amount" : -0.4,
          "duration" : 2,
          "remove_if_not_active" : false,
          "rule_type" : "riposte",
@@ -668,9 +653,9 @@
          }
 	  },
 	  {
-         "id" : "Restoring Riposte Effect 1",
+         "id" : "Scattered Blade Riposte BaseDMG 1",
          "stat_type" : "riposte",
-         "stat_sub_type" : "Restoring Riposte Effect 1",
+         "stat_sub_type" : "Scattered Blade Riposte BaseDMG 1",
          "amount" : -1,
          "duration" : 2,
          "source" : "bsrc_riposte",
@@ -683,9 +668,9 @@
          }
       },
 	  {
-         "id" : "Restoring Riposte Effect 2",
+         "id" : "Scattered Blade Riposte BaseDMG 2",
          "stat_type" : "riposte",
-         "stat_sub_type" : "Restoring Riposte Effect 2",
+         "stat_sub_type" : "Scattered Blade Riposte BaseDMG 2",
          "amount" : -1,
          "duration" : 2,
          "source" : "bsrc_riposte",
@@ -698,9 +683,9 @@
          }
       }, 
 	  {
-         "id" : "Restoring Riposte Effect 3",
+         "id" : "Scattered Blade Riposte BaseDMG 3",
          "stat_type" : "riposte",
-         "stat_sub_type" : "Restoring Riposte Effect 3",
+         "stat_sub_type" : "Scattered Blade Riposte BaseDMG 3",
          "amount" : -1,
          "duration" : 2,
          "source" : "bsrc_riposte",
@@ -713,9 +698,9 @@
          }
       }, 
 	  {
-         "id" : "Restoring Riposte Effect 4",
+         "id" : "Scattered Blade Riposte BaseDMG 4",
          "stat_type" : "riposte",
-         "stat_sub_type" : "Restoring Riposte Effect 4",
+         "stat_sub_type" : "Scattered Blade Riposte BaseDMG 4",
          "amount" : -1,
          "duration" : 2,
          "source" : "bsrc_riposte",
@@ -728,9 +713,9 @@
          }
       }, 
 	  {
-         "id" : "Restoring Riposte Effect 5",
+         "id" : "Scattered Blade Riposte BaseDMG 5",
          "stat_type" : "riposte",
-         "stat_sub_type" : "Restoring Riposte Effect 5",
+         "stat_sub_type" : "Scattered Blade Riposte BaseDMG 5",
          "amount" : -1,
          "duration" : 2,
          "source" : "bsrc_riposte",
@@ -740,8 +725,248 @@
          "rule_data" : {
             "float" : 0,
             "string" : "beast"
+         }
+      },
+	  {
+         "id" : "Scattered Blade Riposte RndDMG 25",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "Scattered Blade Riposte RndDMG 25",
+         "amount" : -1,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+	  {
+         "id" : "Scattered Blade Riposte RndDMG 50",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "Scattered Blade Riposte RndDMG 50",
+         "amount" : -1,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+	  {
+         "id" : "Scattered Blade Riposte RndDMG 75",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "Scattered Blade Riposte RndDMG 75",
+         "amount" : -1,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+
+	  {
+         "id" : "Heeder ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Heeder1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Heeder ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Heeder2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Heeder ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Heeder3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Heeder ToolTip 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Heeder4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Heeder ToolTip 5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Heeder5",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },      
+	  {
+         "id" : "Gash ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Gash1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Gash ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Gash2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Gash ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Gash3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Gash ToolTip 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Gash4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Gash ToolTip 5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Gash5",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Scattered Blade ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Scattered1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Scattered Blade ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Scattered2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Scattered Blade ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Scattered3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Scattered Blade ToolTip 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Scattered4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Scattered Blade ToolTip 5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Scattered5",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
          }
       }
-      	 
    ]
 }

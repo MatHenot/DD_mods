@@ -7,49 +7,49 @@ weapon: .name "Bonetti_weapon_1" .atk 0% .dmg 7 11 .crit 6% .spd 4 .upgradeRequi
 weapon: .name "Bonetti_weapon_2" .atk 0% .dmg 8 12 .crit 7% .spd 5 .upgradeRequirementCode 1
 weapon: .name "Bonetti_weapon_3" .atk 0% .dmg 8 14 .crit 8% .spd 5 .upgradeRequirementCode 2
 weapon: .name "Bonetti_weapon_4" .atk 0% .dmg 9 15 .crit 9% .spd 6 .upgradeRequirementCode 3
-armour: .name "Bonetti_armour_0" .def 10% .prot 10% .hp 21 .spd 0
-armour: .name "Bonetti_armour_1" .def 15% .prot 10% .hp 26 .spd 0 .upgradeRequirementCode 0
-armour: .name "Bonetti_armour_2" .def 20% .prot 10% .hp 31 .spd 0 .upgradeRequirementCode 1
-armour: .name "Bonetti_armour_3" .def 25% .prot 10% .hp 36 .spd 0 .upgradeRequirementCode 2
-armour: .name "Bonetti_armour_4" .def 30% .prot 10% .hp 41 .spd 0 .upgradeRequirementCode 3
+armour: .name "Bonetti_armour_0" .def 15% .prot 10% .hp 19 .spd 0
+armour: .name "Bonetti_armour_1" .def 20% .prot 10% .hp 24 .spd 0 .upgradeRequirementCode 0
+armour: .name "Bonetti_armour_2" .def 25% .prot 10% .hp 29 .spd 0 .upgradeRequirementCode 1
+armour: .name "Bonetti_armour_3" .def 30% .prot 10% .hp 34 .spd 0 .upgradeRequirementCode 2
+armour: .name "Bonetti_armour_4" .def 35% .prot 10% .hp 39 .spd 0 .upgradeRequirementCode 3
 
-combat_skill: .id "offensive_stance" .level 0 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 1" "Offensive Buff 1" "Offensive Prot Debuff" .refresh_after_each_wave true .generation_guaranteed true
-combat_skill: .id "offensive_stance" .level 1 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 2" "Offensive Buff 2" "Offensive Prot Debuff" .refresh_after_each_wave true 
-combat_skill: .id "offensive_stance" .level 2 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 3" "Offensive Buff 3" "Offensive Prot Debuff" .refresh_after_each_wave true 
-combat_skill: .id "offensive_stance" .level 3 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 4" "Offensive Buff 4" "Offensive Prot Debuff" .refresh_after_each_wave true 
-combat_skill: .id "offensive_stance" .level 4 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 5" "Offensive Buff 5" "Offensive Prot Debuff" .refresh_after_each_wave true 
-combat_skill: .id "thrust" .level 0 .type "melee" .atk 80%  .dmg 0% .crit 5% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 1" .beast_effects "Thrust Offensive 1" .human_effects "Thrust Defensive" "Thrust Defensive Stun 1"
-combat_skill: .id "thrust" .level 1 .type "melee" .atk 85%  .dmg 0% .crit 6% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 2" .beast_effects "Thrust Offensive 2" .human_effects "Thrust Defensive" "Thrust Defensive Stun 2"
-combat_skill: .id "thrust" .level 2 .type "melee" .atk 90%  .dmg 0% .crit 7% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 3" .beast_effects "Thrust Offensive 3" .human_effects "Thrust Defensive" "Thrust Defensive Stun 3"
-combat_skill: .id "thrust" .level 3 .type "melee" .atk 95%  .dmg 0% .crit 8% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 4" .beast_effects "Thrust Offensive 4" .human_effects "Thrust Defensive" "Thrust Defensive Stun 4"
-combat_skill: .id "thrust" .level 4 .type "melee" .atk 100% .dmg 0% .crit 9% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 5" .beast_effects "Thrust Offensive 5" .human_effects "Thrust Defensive" "Thrust Defensive Stun 5"
-combat_skill: .id "hearken" .level 0 .type "ranged" .atk 100% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Hearken Mark" "Hearken Debuff 1" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "hearken" .level 1 .type "ranged" .atk 105% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Hearken Mark" "Hearken Debuff 2" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "hearken" .level 2 .type "ranged" .atk 110% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Hearken Mark" "Hearken Debuff 3" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "hearken" .level 3 .type "ranged" .atk 115% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Hearken Mark" "Hearken Debuff 4" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "hearken" .level 4 .type "ranged" .atk 120% .dmg -100% .launch 4321 .target ?1234 .is_crit_valid False .effect "Hearken Mark" "Hearken Debuff 5" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "heeder" .level 0 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte" "Heeder Buff 1" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "heeder" .level 1 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte" "Heeder Buff 2" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "heeder" .level 2 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte" "Heeder Buff 3" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "heeder" .level 3 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte" "Heeder Buff 4" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "heeder" .level 4 .type "ranged" .self_target_valid false .launch 4321 .target @1234 .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte" "Heeder Buff 5" .valid_modes human .is_stall_invalidating false
-combat_skill: .id "gash" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Gash Riposte 1"
-combat_skill: .id "gash" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Gash Riposte 2"
-combat_skill: .id "gash" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Gash Riposte 3"
-combat_skill: .id "gash" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Gash Riposte 4"
-combat_skill: .id "gash" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Gash Riposte 5"
-combat_skill: .id "dare" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 0 1 .target .is_crit_valid false .valid_modes beast .effect "Dare Buffs 1"
-combat_skill: .id "dare" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 0 1 .target .is_crit_valid false .valid_modes beast .effect "Dare Buffs 2" 
-combat_skill: .id "dare" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 0 1 .target .is_crit_valid false .valid_modes beast .effect "Dare Buffs 3" 
-combat_skill: .id "dare" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 0 1 .target .is_crit_valid false .valid_modes beast .effect "Dare Buffs 4" 
-combat_skill: .id "dare" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 0 1 .target .is_crit_valid false .valid_modes beast .effect "Dare Buffs 5" 
-combat_skill: .id "restoring_feint" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Restoring Riposte 1"
-combat_skill: .id "restoring_feint" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Restoring Riposte 2"
-combat_skill: .id "restoring_feint" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Restoring Riposte 3"
-combat_skill: .id "restoring_feint" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Restoring Riposte 4"
-combat_skill: .id "restoring_feint" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Restoring Riposte 5"
+combat_skill: .id "offensive_stance" .level 0 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 1" "Offensive Self Mark" "Offensive Guard Break" "Offensive Riposte 1" "Offensive Buff 1" .generation_guaranteed true
+combat_skill: .id "offensive_stance" .level 1 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 2" "Offensive Self Mark" "Offensive Guard Break" "Offensive Riposte 2" "Offensive Buff 2" 
+combat_skill: .id "offensive_stance" .level 2 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 3" "Offensive Self Mark" "Offensive Guard Break" "Offensive Riposte 3" "Offensive Buff 3" 
+combat_skill: .id "offensive_stance" .level 3 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 4" "Offensive Self Mark" "Offensive Guard Break" "Offensive Riposte 4" "Offensive Buff 4" 
+combat_skill: .id "offensive_stance" .level 4 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 5" "Offensive Self Mark" "Offensive Guard Break" "Offensive Riposte 5" "Offensive Buff 5" 
+combat_skill: .id "thrust" .level 0 .type "melee" .atk 80%  .dmg 0% .crit 5% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 1" .beast_effects "Thrust Offensive 1" .human_effects "Thrust Defensive Stun 1" "Thrust Defensive StunVsMarked" "Thrust Defensive"
+combat_skill: .id "thrust" .level 1 .type "melee" .atk 85%  .dmg 0% .crit 6% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 2" .beast_effects "Thrust Offensive 2" .human_effects "Thrust Defensive Stun 2" "Thrust Defensive StunVsMarked" "Thrust Defensive"
+combat_skill: .id "thrust" .level 2 .type "melee" .atk 90%  .dmg 0% .crit 7% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 3" .beast_effects "Thrust Offensive 3" .human_effects "Thrust Defensive Stun 3" "Thrust Defensive StunVsMarked" "Thrust Defensive"
+combat_skill: .id "thrust" .level 3 .type "melee" .atk 95%  .dmg 0% .crit 8% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 4" .beast_effects "Thrust Offensive 4" .human_effects "Thrust Defensive Stun 4" "Thrust Defensive StunVsMarked" "Thrust Defensive"
+combat_skill: .id "thrust" .level 4 .type "melee" .atk 100% .dmg 0% .crit 9% .launch 21 .target 123 .is_crit_valid True .valid_modes human beast .effect "Thrust Random" "Thrust Marked 5" .beast_effects "Thrust Offensive 5" .human_effects "Thrust Defensive Stun 5" "Thrust Defensive StunVsMarked" "Thrust Defensive"
+combat_skill: .id "hearken" .level 0 .type "ranged" .atk 100% .dmg -100% .launch 432 .target ?1234 .is_crit_valid false .valid_modes human .effect "Hearken Mark" "Hearken Debuff 1" .is_stall_invalidating false
+combat_skill: .id "hearken" .level 1 .type "ranged" .atk 105% .dmg -100% .launch 432 .target ?1234 .is_crit_valid false .valid_modes human .effect "Hearken Mark" "Hearken Debuff 2" .is_stall_invalidating false
+combat_skill: .id "hearken" .level 2 .type "ranged" .atk 110% .dmg -100% .launch 432 .target ?1234 .is_crit_valid false .valid_modes human .effect "Hearken Mark" "Hearken Debuff 3" .is_stall_invalidating false
+combat_skill: .id "hearken" .level 3 .type "ranged" .atk 115% .dmg -100% .launch 432 .target ?1234 .is_crit_valid false .valid_modes human .effect "Hearken Mark" "Hearken Debuff 4" .is_stall_invalidating false
+combat_skill: .id "hearken" .level 4 .type "ranged" .atk 120% .dmg -100% .launch 432 .target ?1234 .is_crit_valid false .valid_modes human .effect "Hearken Mark" "Hearken Debuff 5" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 0 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 1" "Heeder Buff 1" "Heeder ToolTip 1" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 1 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 2" "Heeder Buff 2" "Heeder ToolTip 2" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 2 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 3" "Heeder Buff 3" "Heeder ToolTip 3" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 3 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 4" "Heeder Buff 4" "Heeder ToolTip 4" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 4 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 5" "Heeder Buff 5" "Heeder ToolTip 5" .is_stall_invalidating false
+combat_skill: .id "gash" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Gash Riposte 1" "Gash StressHeal 1" "Gash ToolTip 1"
+combat_skill: .id "gash" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Gash Riposte 2" "Gash StressHeal 2" "Gash ToolTip 2"
+combat_skill: .id "gash" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Gash Riposte 3" "Gash StressHeal 3" "Gash ToolTip 3"
+combat_skill: .id "gash" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Gash Riposte 4" "Gash StressHeal 4" "Gash ToolTip 4"
+combat_skill: .id "gash" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Gash Riposte 5" "Gash StressHeal 5" "Gash ToolTip 5"
+combat_skill: .id "dare" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 321 .move 0 1 .target .is_crit_valid false .valid_modes beast .effect "Dare Buffs 1" "Dare Stress 1"
+combat_skill: .id "dare" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 321 .move 0 1 .target .is_crit_valid false .valid_modes beast .effect "Dare Buffs 2" "Dare Stress 2"
+combat_skill: .id "dare" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 321 .move 0 1 .target .is_crit_valid false .valid_modes beast .effect "Dare Buffs 3" "Dare Stress 3"
+combat_skill: .id "dare" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 321 .move 0 1 .target .is_crit_valid false .valid_modes beast .effect "Dare Buffs 4" "Dare Stress 4"
+combat_skill: .id "dare" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 321 .move 0 1 .target .is_crit_valid false .valid_modes beast .effect "Dare Buffs 5" "Dare Stress 5"
+combat_skill: .id "scattered_blade" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 1 0 .target .is_crit_valid false .valid_modes beast .effect "Scattered Blade Riposte 1" "Scattered Blade ToolTip 1"
+combat_skill: .id "scattered_blade" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 1 0 .target .is_crit_valid false .valid_modes beast .effect "Scattered Blade Riposte 2" "Scattered Blade ToolTip 2"
+combat_skill: .id "scattered_blade" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 1 0 .target .is_crit_valid false .valid_modes beast .effect "Scattered Blade Riposte 3" "Scattered Blade ToolTip 3"
+combat_skill: .id "scattered_blade" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 1 0 .target .is_crit_valid false .valid_modes beast .effect "Scattered Blade Riposte 4" "Scattered Blade ToolTip 4"
+combat_skill: .id "scattered_blade" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 1 0 .target .is_crit_valid false .valid_modes beast .effect "Scattered Blade Riposte 5" "Scattered Blade ToolTip 5"
 
-combat_move_skill: .id "lower the guard" .level 0 .launch 4321 .target .valid_modes beast .beast_effects "switch to Defensive" "Bonetti Add turn"
+combat_move_skill: .id "lower the guard" .level 0 .move 1 0 .launch 4321 .target .valid_modes beast .beast_effects "switch to Defensive" "Bonetti Add turn"
 riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 85% .dmg 0% .crit 7% .launch 1234 .target 1234 .is_crit_valid True .valid_modes beast
 
 tag: .id "heavy"
@@ -57,7 +57,7 @@ tag: .id "religious"
 tag: .id "outsiders_bonfire"
 deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
 controlled: .target_rank 2
-id_index: .index 143452
+id_index: .index 177
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 7
 mode: .id human .is_raid_default true
 mode: .id beast .bark_override_id str_beast_bark .battle_complete_combat_skill_id "lower the guard"

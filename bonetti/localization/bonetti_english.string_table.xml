@@ -15,16 +15,6 @@
 	<entry id="town_event_title_idle_resolve_level_bonetti"><![CDATA[Street Show]]></entry>
 	<entry id="town_event_description_idle_resolve_level_bonetti"><![CDATA[It is a strange and enticing music on which serpents rise and undulate, possessed by an invisible power.]]></entry>
 	
-	<entry id="str_incompatible_party_shieldbreaker_phobia"><![CDATA[Her madness would keep me from fulfilling my destiny.]]></entry>
-	<entry id="str_incompatible_party_shieldbreaker_phobia"><![CDATA[I'd better stay away.]]></entry>
-	<entry id="str_incompatible_party_shieldbreaker_phobia"><![CDATA[She would attack my snakes!]]></entry>
-	<entry id="str_incompatible_party_shieldbreaker_phobia"><![CDATA[You are tortured by an irrational phobia...]]></entry>
-	<entry id="str_incompatible_party_shieldbreaker_phobia"><![CDATA[ksssSSsss...]]></entry>
-	<entry id="str_incompatible_party_member_shieldbreaker_phobia"><![CDATA[TAKE THAT AWAY FROM ME!!!]]></entry>
-	<entry id="str_incompatible_party_member_shieldbreaker_phobia"><![CDATA[NoooOOOoo!]]></entry>
-	<entry id="str_incompatible_party_member_shieldbreaker_phobia"><![CDATA[Back, nightmarish reptiles!]]></entry>
-	<entry id="str_incompatible_party_member_shieldbreaker_phobia"><![CDATA[T-The hissings...I CAN'T bear them!]]></entry>
-	
 	<entry id="str_inventory_title_trinketbonetti_ancient_knowledge"><![CDATA[Ancient Knowledge]]></entry>
 	<entry id="str_inventory_title_trinketbonetti_fabric_strap"><![CDATA[Fabric Strap]]></entry>
 	<entry id="str_inventory_title_trinketbonetti_reptilian_plates"><![CDATA[Scales Tattoo]]></entry>
@@ -85,12 +75,23 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}Stress{colour_end} -10 to -13]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}Stress{colour_end} -11 to -14]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}Stress{colour_end} -12 to -16]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/rd for 2 rds]]></entry>
-		
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_Heeder1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} {colour_start|skill_unselectable}(50%% chance){colour_end} for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Heeder2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} {colour_start|skill_unselectable}(55%% chance){colour_end} for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Heeder3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} {colour_start|skill_unselectable}(60%% chance){colour_end} for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Heeder4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} {colour_start|skill_unselectable}(65%% chance){colour_end} for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Heeder5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} {colour_start|skill_unselectable}(70%% chance){colour_end} for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Scattered1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 1 to 4 DMG to other enemies]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Scattered2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 1 to 4 DMG to other enemies]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Scattered3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 2 to 5 DMG to other enemies]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Scattered4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 2 to 5 DMG to other enemies]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Scattered5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 3 to 6 DMG to other enemies]]></entry>
+				
 		
     <entry id="bonetti+str_afflicted_fearful"><![CDATA[This trip was pure madness!]]></entry>
     <entry id="bonetti+str_afflicted_fearful"><![CDATA[Nothing could have prepared me for that...]]></entry>
