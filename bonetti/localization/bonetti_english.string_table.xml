@@ -2,7 +2,7 @@
 <root>
   <language id="english">
   
-	<entry id="hero_class_name_bonetti"><![CDATA[Snake Charmer]]></entry>
+	<entry id="hero_class_name_bonetti"><![CDATA[Thorn]]></entry>
 	
 	<entry id="action_verbose_body_guild_bonetti"><![CDATA[A versatile combatant, the Snake Charmer has learned to exploit the various specificities of his reptiles. When he doesn't expose himself in order to launch deadly attacks and apply terrible poisons to the enemy ranks, the master of snakes ensures support to his allies thanks to his unique but sometimes dangerous strategic abilities.]]></entry>
     <entry id="action_verbose_body_blacksmith_bonetti"><![CDATA[With only a scarf and loincloth for armor, the Snake charmer takes advantage of his agility on the battlefield. His varied arsenal of snakes, which he carefully protects in his box, allows him to adapt to the needs of the group.]]></entry>
@@ -25,21 +25,21 @@
 	<entry id="str_inventory_title_trinketbonetti_melody"><![CDATA[Melody]]></entry>
 	<entry id="str_inventory_title_trinketbonetti_cristal_pendant"><![CDATA[Crystal Pendant]]></entry>
 	
-	<entry id="combat_skill_name_bonetti_venomous_fang"><![CDATA[Venomous Fangs]]></entry>
-    <entry id="combat_skill_name_bonetti_mamba_dance"><![CDATA[Mamba Dance]]></entry>
-    <entry id="combat_skill_name_bonetti_feast"><![CDATA[Feast]]></entry>
-    <entry id="combat_skill_name_bonetti_constriction"><![CDATA[Constriction]]></entry>
-    <entry id="combat_skill_name_bonetti_rattling_trap"><![CDATA[Rattling Trap]]></entry>
-    <entry id="combat_skill_name_bonetti_vicious_charm"><![CDATA[Vicious Charm]]></entry>
-    <entry id="combat_skill_name_bonetti_calming_toxin"><![CDATA[Calming Toxin]]></entry>
+	<entry id="combat_skill_name_bonetti_offensive_stance"><![CDATA[Offensive Stance]]></entry>
+    <entry id="combat_skill_name_bonetti_thrust"><![CDATA[Thrust]]></entry>
+    <entry id="combat_skill_name_bonetti_hearken"><![CDATA[Hearken]]></entry>
+    <entry id="combat_skill_name_bonetti_heeder"><![CDATA[Heeder]]></entry>
+    <entry id="combat_skill_name_bonetti_gash"><![CDATA[Gash]]></entry>
+    <entry id="combat_skill_name_bonetti_dare"><![CDATA[Dare]]></entry>
+    <entry id="combat_skill_name_bonetti_scattered_blade"><![CDATA[Scattered Blade]]></entry>
     <entry id="combat_skill_name_bonetti_move"><![CDATA[Move]]></entry>
-    <entry id="upgrade_tree_name_bonetti.venomous_fang"><![CDATA[Venomous Fangs]]></entry>
-    <entry id="upgrade_tree_name_bonetti.mamba_dance"><![CDATA[Mamba Dance]]></entry>
-    <entry id="upgrade_tree_name_bonetti.feast"><![CDATA[Feast]]></entry>
-    <entry id="upgrade_tree_name_bonetti.constriction"><![CDATA[Constriction]]></entry>
-    <entry id="upgrade_tree_name_bonetti.rattling_trap"><![CDATA[Rattling Trap]]></entry>
-    <entry id="upgrade_tree_name_bonetti.vicious_charm"><![CDATA[Vicious Charm]]></entry>
-    <entry id="upgrade_tree_name_bonetti.calming_toxin"><![CDATA[Calming Toxin]]></entry>
+    <entry id="upgrade_tree_name_bonetti.offensive_stance"><![CDATA[Offensive Stance]]></entry>
+    <entry id="upgrade_tree_name_bonetti.thrust"><![CDATA[Thrust]]></entry>
+    <entry id="upgrade_tree_name_bonetti.hearken"><![CDATA[Hearken]]></entry>
+    <entry id="upgrade_tree_name_bonetti.heeder"><![CDATA[Heeder]]></entry>
+    <entry id="upgrade_tree_name_bonetti.gash"><![CDATA[Gash]]></entry>
+    <entry id="upgrade_tree_name_bonetti.dare"><![CDATA[Dare]]></entry>
+    <entry id="upgrade_tree_name_bonetti.scattered_blade"><![CDATA[Scattered Blade]]></entry>
 
     <entry id="camping_skill_name_mithridatism"><![CDATA[MITHRIDATISM]]></entry>
     <entry id="camping_skill_name_exotic_spices"><![CDATA[EXOTIC SPICES]]></entry>
@@ -59,23 +59,9 @@
     <entry id="bonetti_armour_3"><![CDATA[Decorated Scarf]]></entry>
     <entry id="bonetti_armour_4"><![CDATA["The Moulting"]]></entry>
     <entry id="upgrade_tree_name_bonetti.armour"><![CDATA[Scarf]]></entry>
-	
-	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
-    <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antivenom]]></entry>
 
-	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[Constriction]]></entry>
-	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Vicious charm]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_reptilian_plates"><![CDATA[Minimum DMG only:]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_VC_A"><![CDATA[Adds one {colour_start|notable}action{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_VC_B"><![CDATA[-20%% All Skill Effects Chance]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}Stress{colour_end} -8 to -10]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_2"><![CDATA[{colour_start|stress}Stress{colour_end} -9 to -11]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}Stress{colour_end} -10 to -13]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}Stress{colour_end} -11 to -14]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}Stress{colour_end} -12 to -16]]></entry>
-	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[Defensive mode when hit {colour_start|skill_unselectable}(30%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_Heeder1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} {colour_start|skill_unselectable}(50%% chance){colour_end} for 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Heeder2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} {colour_start|skill_unselectable}(55%% chance){colour_end} for 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Heeder3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} {colour_start|skill_unselectable}(60%% chance){colour_end} for 2 rds]]></entry>

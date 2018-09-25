@@ -151,7 +151,6 @@
             "string" : "beast"
          }
       },
-	  
 	  {
          "id" : "Offensive Prot",
          "stat_type" : "combat_stat_multiply",
@@ -173,22 +172,6 @@
          "stat_type" : "riposte",
          "stat_sub_type" : "switch to Defensive",
          "amount" : 1,
-         "duration_type" : "before_turn",
-         "duration" : 1,
-         "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "beast"
-         }
-      },
-      {
-         "id" : "exiting_riposte_attackrating",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "attack_rating",
-         "amount" : -0.15,
          "duration_type" : "before_turn",
          "duration" : 1,
          "source" : "bsrc_riposte",
@@ -773,6 +756,19 @@
          }
       },
 
+	  {
+         "id" : "Offensive ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "EndByHit",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
 	  {
          "id" : "Heeder ToolTip 1",
          "stat_type" : "upgrade_discount",

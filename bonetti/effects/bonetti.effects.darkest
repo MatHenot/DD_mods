@@ -12,7 +12,7 @@ effect: .name "switch to Offensive 3" .target "performer" .set_mode beast .chanc
 effect: .name "switch to Offensive 4" .target "performer" .set_mode beast .chance 100% .on_hit true .on_miss true
 effect: .name "switch to Offensive 5" .target "performer" .set_mode beast .chance 100% .on_hit true .on_miss true
 effect: .name "Offensive Self Mark" .target "performer" .tag 1 .duration 3 .on_hit true .on_miss true
-effect: .name "Offensive Guard Break" .target "performer" .clearguarding 1 cleanguarded 1 .on_hit true .on_miss true 
+effect: .name "Offensive Guard Break" .target "performer" .clearguarding 1 cleanguarded 1 .on_hit true .on_miss true .has_description false
 effect: .name "Offensive Riposte 1" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -30% .damage_high_multiply -30% .attack_rating_add 5%  .apply_once true
 effect: .name "Offensive Riposte 2" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -25% .damage_high_multiply -25% .attack_rating_add 10% .apply_once true
 effect: .name "Offensive Riposte 3" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -20% .damage_high_multiply -20% .attack_rating_add 15% .apply_once true
@@ -23,10 +23,12 @@ effect: .name "Offensive Buff 2" .target "performer" .buff_ids "Offensive Speed 
 effect: .name "Offensive Buff 3" .target "performer" .buff_ids "Offensive Speed 3" "Offensive Defense 3" "Offensive Prot" .on_hit true .on_miss true
 effect: .name "Offensive Buff 4" .target "performer" .buff_ids "Offensive Speed 4" "Offensive Defense 4" "Offensive Prot" .on_hit true .on_miss true
 effect: .name "Offensive Buff 5" .target "performer" .buff_ids "Offensive Speed 5" "Offensive Defense 5" "Offensive Prot" .on_hit true .on_miss true
+effect: .name "Offensive ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Offensive ToolTip" .on_hit true .on_miss true
+
 
 //Transformation end by hit
 
-effect: .name "Bonetti hit received" .target "performer" .buff_ids "exit_riposte" .on_hit true .on_miss true .apply_once true
+effect: .name "Bonetti hit received" .target "performer" .chance 30% .buff_ids "exit_riposte" .on_hit true .on_miss true .apply_once true
 
 
 //Thrust
@@ -100,8 +102,8 @@ effect: .name "Heeder ToolTip 5" .target "performer" .curio_result_type "positiv
 
 //Transform -- Offensive to Defensive Effects
 
-effect: .name "switch to Defensive" .target "performer" .set_mode human .untag 1 .clear_riposte 1 .on_hit true .on_miss true .queue true
-effect: .name "Bonetti Add turn" .target "performer" .curio_result_type "positive" .chance 100% .initiative_change 1 .on_hit true .on_miss true
+effect: .name "switch to Defensive" .target "performer" .set_mode human .untag 1 .clear_riposte 1 .on_hit true .on_miss true
+effect: .name "Bonetti Add turn" .target "performer" .curio_result_type "positive" .chance 100% .initiative_change 1 .on_hit true .on_miss true .queue true
 
 
 //Gash

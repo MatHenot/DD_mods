@@ -12,7 +12,7 @@ armour: .name "Bonetti_armour_2" .icon "eqp_armour_2.png"
 armour: .name "Bonetti_armour_3" .icon "eqp_armour_3.png"
 armour: .name "Bonetti_armour_4" .icon "eqp_armour_4.png"
 
-combat_skill: .id "offensive_stance" .icon "one" .anim "attack_transform" .fx "transform" .condensed_tooltip_stats true .condensed_tooltip_effects_per_line 3
+combat_skill: .id "offensive_stance" .icon "one" .anim "attack_transform" .fx "transform"
 combat_skill: .id "thrust" .icon "two" .anim "attack_chain" .targfx "" .condensed_tooltip_stats true
 combat_skill: .id "hearken" .icon "three" .anim "attack_barf" .fx "" .targfx "" .condensed_tooltip_stats true .condensed_tooltip_effects false
 combat_skill: .id "heeder" .icon "four" .anim "attack_kneel" .fx "" .can_display_performer_selection_after_turn false
