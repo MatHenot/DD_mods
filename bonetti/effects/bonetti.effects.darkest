@@ -12,17 +12,17 @@ effect: .name "switch to Offensive 3" .target "performer" .set_mode beast .chanc
 effect: .name "switch to Offensive 4" .target "performer" .set_mode beast .chance 100% .on_hit true .on_miss true
 effect: .name "switch to Offensive 5" .target "performer" .set_mode beast .chance 100% .on_hit true .on_miss true
 effect: .name "Offensive Self Mark" .target "performer" .tag 1 .duration 3 .on_hit true .on_miss true
-effect: .name "Offensive Guard Break" .target "performer" .clearguarding 1 cleanguarded 1 .on_hit true .on_miss true .has_description false
+effect: .name "Offensive Guard Break" .target "performer" .clearguarding 1 cleanguarded 1 .on_hit true .on_miss true
 effect: .name "Offensive Riposte 1" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -30% .damage_high_multiply -30% .attack_rating_add 5%  .apply_once true
 effect: .name "Offensive Riposte 2" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -25% .damage_high_multiply -25% .attack_rating_add 10% .apply_once true
 effect: .name "Offensive Riposte 3" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -20% .damage_high_multiply -20% .attack_rating_add 15% .apply_once true
 effect: .name "Offensive Riposte 4" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -15% .damage_high_multiply -15% .attack_rating_add 20% .apply_once true
 effect: .name "Offensive Riposte 5" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -10% .damage_high_multiply -10% .attack_rating_add 25% .apply_once true
-effect: .name "Offensive Buff 1" .target "performer" .buff_ids "Offensive Speed 1" "Offensive Defense 1" "Offensive Prot" .on_hit true .on_miss true
-effect: .name "Offensive Buff 2" .target "performer" .buff_ids "Offensive Speed 2" "Offensive Defense 2" "Offensive Prot" .on_hit true .on_miss true
-effect: .name "Offensive Buff 3" .target "performer" .buff_ids "Offensive Speed 3" "Offensive Defense 3" "Offensive Prot" .on_hit true .on_miss true
-effect: .name "Offensive Buff 4" .target "performer" .buff_ids "Offensive Speed 4" "Offensive Defense 4" "Offensive Prot" .on_hit true .on_miss true
-effect: .name "Offensive Buff 5" .target "performer" .buff_ids "Offensive Speed 5" "Offensive Defense 5" "Offensive Prot" .on_hit true .on_miss true
+effect: .name "Offensive Buff 1" .target "performer" .buff_ids "Offensive Speed 1" "Offensive Defense 1" "Offensive Prot" .on_hit true .on_miss true .has_description false
+effect: .name "Offensive Buff 2" .target "performer" .buff_ids "Offensive Speed 2" "Offensive Defense 2" "Offensive Prot" .on_hit true .on_miss true .has_description false
+effect: .name "Offensive Buff 3" .target "performer" .buff_ids "Offensive Speed 3" "Offensive Defense 3" "Offensive Prot" .on_hit true .on_miss true .has_description false
+effect: .name "Offensive Buff 4" .target "performer" .buff_ids "Offensive Speed 4" "Offensive Defense 4" "Offensive Prot" .on_hit true .on_miss true .has_description false
+effect: .name "Offensive Buff 5" .target "performer" .buff_ids "Offensive Speed 5" "Offensive Defense 5" "Offensive Prot" .on_hit true .on_miss true .has_description false
 effect: .name "Offensive ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Offensive ToolTip" .on_hit true .on_miss true
 
 
@@ -73,22 +73,22 @@ effect: .name "Hearken Debuff 5" .target "target_group" .curio_result_type "nega
 
 effect: .name "Heeder Guard" .target "target" .chance 100% .guard 1 .duration 2 .on_hit true .on_miss true
 
-effect: .name "Heeder Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -500%  .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect 1" .on_hit true .on_miss true .apply_once true
-effect: .name "Heeder Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -500%  .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect 1" .on_hit true .on_miss true .apply_once true
-effect: .name "Heeder Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -500%  .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect 1" .on_hit true .on_miss true .apply_once true
-effect: .name "Heeder Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -500%  .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect 1" .on_hit true .on_miss true .apply_once true
-effect: .name "Heeder Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -500%  .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect 1" .on_hit true .on_miss true .apply_once true
-effect: .name "Heeder Riposte Effect 1" .target "target" .curio_result_type "negative" .chance 50% .tag 1 .duration 2 .on_hit true .on_miss true
-effect: .name "Heeder Riposte Effect 2" .target "target" .curio_result_type "negative" .chance 55% .tag 1 .duration 2 .on_hit true .on_miss true
-effect: .name "Heeder Riposte Effect 3" .target "target" .curio_result_type "negative" .chance 60% .tag 1 .duration 2 .on_hit true .on_miss true
-effect: .name "Heeder Riposte Effect 4" .target "target" .curio_result_type "negative" .chance 65% .tag 1 .duration 2 .on_hit true .on_miss true
-effect: .name "Heeder Riposte Effect 5" .target "target" .curio_result_type "negative" .chance 70% .tag 1 .duration 2 .on_hit true .on_miss true
+effect: .name "Heeder Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -500%  .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect 1" .on_hit true .on_miss true .apply_once true
+effect: .name "Heeder Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -500%  .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect 1" .on_hit true .on_miss true .apply_once true
+effect: .name "Heeder Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -500%  .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect 1" .on_hit true .on_miss true .apply_once true
+effect: .name "Heeder Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -500%  .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect 1" .on_hit true .on_miss true .apply_once true
+effect: .name "Heeder Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -500%  .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect 1" .on_hit true .on_miss true .apply_once true
+effect: .name "Heeder Riposte Effect 1" .target "target" .curio_result_type "negative" .chance 50% .tag 1 .duration 3 .on_hit true .on_miss true
+effect: .name "Heeder Riposte Effect 2" .target "target" .curio_result_type "negative" .chance 55% .tag 1 .duration 3 .on_hit true .on_miss true
+effect: .name "Heeder Riposte Effect 3" .target "target" .curio_result_type "negative" .chance 60% .tag 1 .duration 3 .on_hit true .on_miss true
+effect: .name "Heeder Riposte Effect 4" .target "target" .curio_result_type "negative" .chance 65% .tag 1 .duration 3 .on_hit true .on_miss true
+effect: .name "Heeder Riposte Effect 5" .target "target" .curio_result_type "negative" .chance 70% .tag 1 .duration 3 .on_hit true .on_miss true
 
-effect: .name "Heeder Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 5%  .duration 2 .on_hit true .on_miss true
-effect: .name "Heeder Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 7%  .duration 2 .on_hit true .on_miss true
-effect: .name "Heeder Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .duration 2 .on_hit true .on_miss true
-effect: .name "Heeder Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 12% .duration 2 .on_hit true .on_miss true
-effect: .name "Heeder Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 15% .duration 2 .on_hit true .on_miss true
+effect: .name "Heeder Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 5%  .duration 3 .on_hit true .on_miss true
+effect: .name "Heeder Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 7%  .duration 3 .on_hit true .on_miss true
+effect: .name "Heeder Buff 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .duration 3 .on_hit true .on_miss true
+effect: .name "Heeder Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 12% .duration 3 .on_hit true .on_miss true
+effect: .name "Heeder Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 15% .duration  .on_hit true .on_miss true
 
 effect: .name "Heeder ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder ToolTip 1" .on_hit true .on_miss true
 effect: .name "Heeder ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder ToolTip 2" .on_hit true .on_miss true

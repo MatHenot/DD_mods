@@ -7,11 +7,11 @@ weapon: .name "Bonetti_weapon_1" .atk 0% .dmg 7 11 .crit 6% .spd 4 .upgradeRequi
 weapon: .name "Bonetti_weapon_2" .atk 0% .dmg 8 12 .crit 7% .spd 5 .upgradeRequirementCode 1
 weapon: .name "Bonetti_weapon_3" .atk 0% .dmg 8 14 .crit 8% .spd 5 .upgradeRequirementCode 2
 weapon: .name "Bonetti_weapon_4" .atk 0% .dmg 9 15 .crit 9% .spd 6 .upgradeRequirementCode 3
-armour: .name "Bonetti_armour_0" .def 15% .prot 10% .hp 19 .spd 0
-armour: .name "Bonetti_armour_1" .def 20% .prot 10% .hp 24 .spd 0 .upgradeRequirementCode 0
-armour: .name "Bonetti_armour_2" .def 25% .prot 10% .hp 29 .spd 0 .upgradeRequirementCode 1
-armour: .name "Bonetti_armour_3" .def 30% .prot 10% .hp 34 .spd 0 .upgradeRequirementCode 2
-armour: .name "Bonetti_armour_4" .def 35% .prot 10% .hp 39 .spd 0 .upgradeRequirementCode 3
+armour: .name "Bonetti_armour_0" .def 12% .prot 10% .hp 19 .spd 0
+armour: .name "Bonetti_armour_1" .def 17% .prot 10% .hp 24 .spd 0 .upgradeRequirementCode 0
+armour: .name "Bonetti_armour_2" .def 22% .prot 10% .hp 29 .spd 0 .upgradeRequirementCode 1
+armour: .name "Bonetti_armour_3" .def 27% .prot 10% .hp 34 .spd 0 .upgradeRequirementCode 2
+armour: .name "Bonetti_armour_4" .def 32% .prot 10% .hp 39 .spd 0 .upgradeRequirementCode 3
 
 combat_skill: .id "offensive_stance" .level 0 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 1" "Offensive Self Mark" "Offensive Guard Break" "Offensive Riposte 1" "Offensive Buff 1" "Offensive ToolTip" .generation_guaranteed true
 combat_skill: .id "offensive_stance" .level 1 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes human .human_effects "switch to Offensive 2" "Offensive Self Mark" "Offensive Guard Break" "Offensive Riposte 2" "Offensive Buff 2" "Offensive ToolTip"
@@ -28,11 +28,11 @@ combat_skill: .id "hearken" .level 1 .type "ranged" .atk 105% .dmg -100% .launch
 combat_skill: .id "hearken" .level 2 .type "ranged" .atk 110% .dmg -100% .launch 432 .target ?1234 .is_crit_valid false .valid_modes human .effect "Hearken Mark" "Hearken Debuff 3" .is_stall_invalidating false
 combat_skill: .id "hearken" .level 3 .type "ranged" .atk 115% .dmg -100% .launch 432 .target ?1234 .is_crit_valid false .valid_modes human .effect "Hearken Mark" "Hearken Debuff 4" .is_stall_invalidating false
 combat_skill: .id "hearken" .level 4 .type "ranged" .atk 120% .dmg -100% .launch 432 .target ?1234 .is_crit_valid false .valid_modes human .effect "Hearken Mark" "Hearken Debuff 5" .is_stall_invalidating false
-combat_skill: .id "heeder" .level 0 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 1" "Heeder Buff 1" "Heeder ToolTip 1" .is_stall_invalidating false
-combat_skill: .id "heeder" .level 1 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 2" "Heeder Buff 2" "Heeder ToolTip 2" .is_stall_invalidating false
-combat_skill: .id "heeder" .level 2 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 3" "Heeder Buff 3" "Heeder ToolTip 3" .is_stall_invalidating false
-combat_skill: .id "heeder" .level 3 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 4" "Heeder Buff 4" "Heeder ToolTip 4" .is_stall_invalidating false
-combat_skill: .id "heeder" .level 4 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 5" "Heeder Buff 5" "Heeder ToolTip 5" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 0 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 1" "Heeder ToolTip 1" "Heeder Buff 1" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 1 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 2" "Heeder ToolTip 2" "Heeder Buff 2" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 2 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 3" "Heeder ToolTip 3" "Heeder Buff 3" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 3 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 4" "Heeder ToolTip 4" "Heeder Buff 4" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 4 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes human .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 5" "Heeder ToolTip 5" "Heeder Buff 5" .is_stall_invalidating false
 combat_skill: .id "gash" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Gash StressHeal 1" "Gash ToolTip 1" "Gash Riposte 1"
 combat_skill: .id "gash" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Gash StressHeal 2" "Gash ToolTip 2" "Gash Riposte 2"
 combat_skill: .id "gash" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes beast .effect "Gash StressHeal 3" "Gash ToolTip 3" "Gash Riposte 3"

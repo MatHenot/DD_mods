@@ -175,7 +175,7 @@
          "duration_type" : "before_turn",
          "duration" : 1,
          "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
+         "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
@@ -313,7 +313,7 @@
          "amount" : -1,
          "duration" : 2,
          "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
+         "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
@@ -328,7 +328,7 @@
          "amount" : -1,
          "duration" : 2,
          "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
+         "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
@@ -343,7 +343,7 @@
          "amount" : -1,
          "duration" : 2,
          "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
+         "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
@@ -358,7 +358,7 @@
          "amount" : -1,
          "duration" : 2,
          "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
+         "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
@@ -373,7 +373,7 @@
          "amount" : -1,
          "duration" : 2,
          "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
+         "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
@@ -717,7 +717,7 @@
          "amount" : -1,
          "duration" : 2,
          "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
+         "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
@@ -732,7 +732,7 @@
          "amount" : -1,
          "duration" : 2,
          "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
+         "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
@@ -747,7 +747,7 @@
          "amount" : -1,
          "duration" : 2,
          "source" : "bsrc_riposte",
-         "remove_if_not_active" : false,
+         "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
@@ -760,13 +760,15 @@
          "id" : "Offensive ToolTip",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "EndByHit",
-         "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "amount" : -1,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "beast"
          }
       },
 	  {
@@ -774,12 +776,13 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Heeder1",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "human"
          }
       },
 	  {
@@ -787,12 +790,13 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Heeder2",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "human"
          }
       },
 	  {
@@ -800,12 +804,13 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Heeder3",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "human"
          }
       },
 	  {
@@ -813,12 +818,13 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Heeder4",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "human"
          }
       },
 	  {
@@ -826,25 +832,27 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Heeder5",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "human"
          }
-      },      
+      },    
 	  {
          "id" : "Gash ToolTip 1",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash1",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "beast"
          }
       },
 	  {
@@ -852,12 +860,13 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash2",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "beast"
          }
       },
 	  {
@@ -865,12 +874,13 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash3",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "beast"
          }
       },
 	  {
@@ -878,12 +888,13 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash4",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "beast"
          }
       },
 	  {
@@ -891,12 +902,13 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash5",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "beast"
          }
       },
 	  {
@@ -904,12 +916,13 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Scattered1",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "beast"
          }
       },
 	  {
@@ -917,12 +930,13 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Scattered2",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "beast"
          }
       },
 	  {
@@ -930,12 +944,13 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Scattered3",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "beast"
          }
       },
 	  {
@@ -943,12 +958,13 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Scattered4",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "beast"
          }
       },
 	  {
@@ -956,12 +972,13 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Scattered5",
          "amount" : 1,
-         "remove_if_not_active" : false,
-		 "rule_type" : "always",
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "beast"
          }
       }
    ]
