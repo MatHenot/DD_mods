@@ -1,0 +1,15 @@
+{
+   "sets":
+   [
+
+      {
+         "id" : "cc_thorn",
+         "buffs" : 
+         [
+            "TB_MAXHP_B_6",
+			"CRIT6",
+			"BLIGHTSKILL15"
+         ]
+      }
+   ]
+}

@@ -1,0 +1,103 @@
+resistances: .stun 50% .poison 30% .bleed 30% .disease 30% .move 10% .debuff 50% .death_blow 67% .trap 0%
+
+crit: .effects "on_crit_dmg"
+
+weapon: .name "thorn_weapon_0" .atk 0% .dmg 6 9  .crit 5% .spd 4
+weapon: .name "thorn_weapon_1" .atk 0% .dmg 7 11 .crit 6% .spd 4 .upgradeRequirementCode 0
+weapon: .name "thorn_weapon_2" .atk 0% .dmg 8 12 .crit 7% .spd 5 .upgradeRequirementCode 1
+weapon: .name "thorn_weapon_3" .atk 0% .dmg 8 14 .crit 8% .spd 5 .upgradeRequirementCode 2
+weapon: .name "thorn_weapon_4" .atk 0% .dmg 9 15 .crit 9% .spd 6 .upgradeRequirementCode 3
+armour: .name "thorn_armour_0" .def 12% .prot 10% .hp 19 .spd 0
+armour: .name "thorn_armour_1" .def 17% .prot 10% .hp 24 .spd 0 .upgradeRequirementCode 0
+armour: .name "thorn_armour_2" .def 22% .prot 10% .hp 29 .spd 0 .upgradeRequirementCode 1
+armour: .name "thorn_armour_3" .def 27% .prot 10% .hp 34 .spd 0 .upgradeRequirementCode 2
+armour: .name "thorn_armour_4" .def 32% .prot 10% .hp 39 .spd 0 .upgradeRequirementCode 3
+
+combat_skill: .id "offensive_stance" .level 0 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes defensive .defensive_effects "switch to Offensive 1" "Offensive Self Mark" "Offensive Guard Break" "Offensive Riposte 1" "Offensive Buff 1" "Offensive ToolTip" .generation_guaranteed true
+combat_skill: .id "offensive_stance" .level 1 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes defensive .defensive_effects "switch to Offensive 2" "Offensive Self Mark" "Offensive Guard Break" "Offensive Riposte 2" "Offensive Buff 2" "Offensive ToolTip"
+combat_skill: .id "offensive_stance" .level 2 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes defensive .defensive_effects "switch to Offensive 3" "Offensive Self Mark" "Offensive Guard Break" "Offensive Riposte 3" "Offensive Buff 3" "Offensive ToolTip"
+combat_skill: .id "offensive_stance" .level 3 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes defensive .defensive_effects "switch to Offensive 4" "Offensive Self Mark" "Offensive Guard Break" "Offensive Riposte 4" "Offensive Buff 4" "Offensive ToolTip"
+combat_skill: .id "offensive_stance" .level 4 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes defensive .defensive_effects "switch to Offensive 5" "Offensive Self Mark" "Offensive Guard Break" "Offensive Riposte 5" "Offensive Buff 5" "Offensive ToolTip"
+combat_skill: .id "thrust" .level 0 .type "melee" .atk 80%  .dmg 0% .crit 5% .launch 21 .target 123 .is_crit_valid True .valid_modes defensive offensive .effect "Thrust Random" "Thrust Marked 1" .offensive_effects "Thrust Offensive 1" .defensive_effects "Thrust Defensive Stun 1" "Thrust Defensive StunVsMarked" "Thrust Defensive"
+combat_skill: .id "thrust" .level 1 .type "melee" .atk 85%  .dmg 0% .crit 6% .launch 21 .target 123 .is_crit_valid True .valid_modes defensive offensive .effect "Thrust Random" "Thrust Marked 2" .offensive_effects "Thrust Offensive 2" .defensive_effects "Thrust Defensive Stun 2" "Thrust Defensive StunVsMarked" "Thrust Defensive"
+combat_skill: .id "thrust" .level 2 .type "melee" .atk 90%  .dmg 0% .crit 7% .launch 21 .target 123 .is_crit_valid True .valid_modes defensive offensive .effect "Thrust Random" "Thrust Marked 3" .offensive_effects "Thrust Offensive 3" .defensive_effects "Thrust Defensive Stun 3" "Thrust Defensive StunVsMarked" "Thrust Defensive"
+combat_skill: .id "thrust" .level 3 .type "melee" .atk 95%  .dmg 0% .crit 8% .launch 21 .target 123 .is_crit_valid True .valid_modes defensive offensive .effect "Thrust Random" "Thrust Marked 4" .offensive_effects "Thrust Offensive 4" .defensive_effects "Thrust Defensive Stun 4" "Thrust Defensive StunVsMarked" "Thrust Defensive"
+combat_skill: .id "thrust" .level 4 .type "melee" .atk 100% .dmg 0% .crit 9% .launch 21 .target 123 .is_crit_valid True .valid_modes defensive offensive .effect "Thrust Random" "Thrust Marked 5" .offensive_effects "Thrust Offensive 5" .defensive_effects "Thrust Defensive Stun 5" "Thrust Defensive StunVsMarked" "Thrust Defensive"
+combat_skill: .id "hearken" .level 0 .type "ranged" .atk 100% .dmg -100% .launch 432 .target ?1234 .is_crit_valid false .valid_modes defensive .effect "Hearken Mark" "Hearken Debuff 1" .is_stall_invalidating false
+combat_skill: .id "hearken" .level 1 .type "ranged" .atk 105% .dmg -100% .launch 432 .target ?1234 .is_crit_valid false .valid_modes defensive .effect "Hearken Mark" "Hearken Debuff 2" .is_stall_invalidating false
+combat_skill: .id "hearken" .level 2 .type "ranged" .atk 110% .dmg -100% .launch 432 .target ?1234 .is_crit_valid false .valid_modes defensive .effect "Hearken Mark" "Hearken Debuff 3" .is_stall_invalidating false
+combat_skill: .id "hearken" .level 3 .type "ranged" .atk 115% .dmg -100% .launch 432 .target ?1234 .is_crit_valid false .valid_modes defensive .effect "Hearken Mark" "Hearken Debuff 4" .is_stall_invalidating false
+combat_skill: .id "hearken" .level 4 .type "ranged" .atk 120% .dmg -100% .launch 432 .target ?1234 .is_crit_valid false .valid_modes defensive .effect "Hearken Mark" "Hearken Debuff 5" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 0 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes defensive .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 1" "Heeder ToolTip 1" "Heeder Buff 1" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 1 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes defensive .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 2" "Heeder ToolTip 2" "Heeder Buff 2" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 2 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes defensive .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 3" "Heeder ToolTip 3" "Heeder Buff 3" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 3 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes defensive .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 4" "Heeder ToolTip 4" "Heeder Buff 4" .is_stall_invalidating false
+combat_skill: .id "heeder" .level 4 .type "ranged" .self_target_valid false .launch 432 .target @1234 .is_crit_valid false .valid_modes defensive .effect "Clear Guard Performer" "Clear Guard Target" "Heeder Guard" "Heeder Riposte 5" "Heeder ToolTip 5" "Heeder Buff 5" .is_stall_invalidating false
+combat_skill: .id "gash" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes offensive .effect "Gash StressHeal 1" "Gash ToolTip 1" "Gash Riposte 1"
+combat_skill: .id "gash" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes offensive .effect "Gash StressHeal 2" "Gash ToolTip 2" "Gash Riposte 2"
+combat_skill: .id "gash" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes offensive .effect "Gash StressHeal 3" "Gash ToolTip 3" "Gash Riposte 3"
+combat_skill: .id "gash" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes offensive .effect "Gash StressHeal 4" "Gash ToolTip 4" "Gash Riposte 4"
+combat_skill: .id "gash" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .target .is_crit_valid false .valid_modes offensive .effect "Gash StressHeal 5" "Gash ToolTip 5" "Gash Riposte 5"
+combat_skill: .id "dare" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 321 .move 0 1 .target .is_crit_valid false .valid_modes offensive .effect "Dare Stress 1" "Dare Buffs 1"
+combat_skill: .id "dare" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 321 .move 0 1 .target .is_crit_valid false .valid_modes offensive .effect "Dare Stress 2" "Dare Buffs 2"
+combat_skill: .id "dare" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 321 .move 0 1 .target .is_crit_valid false .valid_modes offensive .effect "Dare Stress 3" "Dare Buffs 3"
+combat_skill: .id "dare" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 321 .move 0 1 .target .is_crit_valid false .valid_modes offensive .effect "Dare Stress 4" "Dare Buffs 4"
+combat_skill: .id "dare" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 321 .move 0 1 .target .is_crit_valid false .valid_modes offensive .effect "Dare Stress 5" "Dare Buffs 5"
+combat_skill: .id "scattered_blade" .level 0 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 1 0 .target .is_crit_valid false .valid_modes offensive .effect "Scattered Blade Riposte 1" "Scattered Blade ToolTip 1"
+combat_skill: .id "scattered_blade" .level 1 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 1 0 .target .is_crit_valid false .valid_modes offensive .effect "Scattered Blade Riposte 2" "Scattered Blade ToolTip 2"
+combat_skill: .id "scattered_blade" .level 2 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 1 0 .target .is_crit_valid false .valid_modes offensive .effect "Scattered Blade Riposte 3" "Scattered Blade ToolTip 3"
+combat_skill: .id "scattered_blade" .level 3 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 1 0 .target .is_crit_valid false .valid_modes offensive .effect "Scattered Blade Riposte 4" "Scattered Blade ToolTip 4"
+combat_skill: .id "scattered_blade" .level 4 .type "ranged" .atk 0% .dmg 0% .crit 0% .launch 21 .move 1 0 .target .is_crit_valid false .valid_modes offensive .effect "Scattered Blade Riposte 5" "Scattered Blade ToolTip 5"
+
+combat_move_skill: .id "lower the guard" .level 0 .launch 4321 .target .valid_modes offensive .offensive_effects "switch to Defensive" "thorn Add turn"
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 85% .dmg 0% .crit 7% .launch 1234 .target 1234 .is_crit_valid True .valid_modes offensive
+
+tag: .id "heavy"
+tag: .id "religious"
+tag: .id "outsiders_bonfire"
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
+controlled: .target_rank 2
+id_index: .index 177
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 7
+mode: .id defensive .is_raid_default true
+mode: .id offensive .battle_complete_combat_skill_id "lower the guard"
+hp_reaction: .hp_ratio 0.975 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.950 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.925 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.900 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.875 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.850 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.825 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.800 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.775 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.750 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.725 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.700 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.675 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.650 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.625 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.600 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.575 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.550 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.525 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.500 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.475 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.450 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.425 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.400 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.375 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.350 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.325 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.300 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.275 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.250 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.225 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.200 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.175 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.150 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.125 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.100 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.075 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.050 .is_under true .effects "thorn hit received"
+hp_reaction: .hp_ratio 0.025 .is_under true .effects "thorn hit received"
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7 .number_of_cards_in_deck 6 .card_chance 1.0

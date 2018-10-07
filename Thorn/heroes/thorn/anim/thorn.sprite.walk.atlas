@@ -1,0 +1,20 @@
+
+thorn.sprite.walk.png
+size: 1099,698
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Calque 1
+  rotate: true
+  xy: 2, 2
+  size: 694, 1028
+  orig: 694, 1028
+  offset: 0, 0
+  index: -1
+Calque 38
+  rotate: true
+  xy: 1032, 337
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1

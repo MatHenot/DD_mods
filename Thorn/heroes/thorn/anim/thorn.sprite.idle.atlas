@@ -1,0 +1,20 @@
+
+thorn.sprite.idle.png
+size: 1115,553
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Calque 30 copie 2
+  rotate: true
+  xy: 2, 2
+  size: 549, 1044
+  orig: 549, 1044
+  offset: 0, 0
+  index: -1
+Calque 38
+  rotate: true
+  xy: 1048, 192
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
