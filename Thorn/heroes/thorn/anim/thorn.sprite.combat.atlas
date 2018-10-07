@@ -1,26 +1,26 @@
 
 thorn.sprite.combat.png
-size: 2250,593
+size: 2156,593
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+Calque 21
+  rotate: true
+  xy: 1043, 45
+  size: 546, 1044
+  orig: 546, 1044
+  offset: 0, 0
+  index: -1
 Calque 38
   rotate: true
-  xy: 2183, 232
+  xy: 2089, 232
   size: 359, 65
   orig: 359, 65
   offset: 0, 0
   index: -1
-Calque 9
-  rotate: true
-  xy: 2, 45
-  size: 546, 1138
-  orig: 546, 1138
-  offset: 0, 0
-  index: -1
 Groupe 1 copie
   rotate: true
-  xy: 1142, 2
+  xy: 2, 2
   size: 589, 1039
   orig: 589, 1039
   offset: 0, 0
