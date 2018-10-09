@@ -24,6 +24,13 @@
 	<entry id="str_inventory_title_trinketthorn_master_correspondence"><![CDATA[The Master's Correspondence]]></entry>
 	<entry id="str_inventory_title_trinketthorn_melody"><![CDATA[Melody]]></entry>
 	<entry id="str_inventory_title_trinketthorn_cristal_pendant"><![CDATA[Crystal Pendant]]></entry>
+
+    <entry id="actor_mode_name_offensive"><![CDATA[Offensive]]></entry>
+    <entry id="actor_mode_name_defensive"><![CDATA[Defensive]]></entry>
+    <entry id="str_skill_mode_info_offensive"><![CDATA[Offensive:]]></entry>
+    <entry id="str_skill_mode_info_defensive"><![CDATA[Defensive:]]></entry>
+	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Offensive]]></entry>
+    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[Defensive]]></entry>
 	
 	<entry id="combat_skill_name_thorn_offensive_stance"><![CDATA[Offensive Stance]]></entry>
     <entry id="combat_skill_name_thorn_thrust"><![CDATA[Thrust]]></entry>

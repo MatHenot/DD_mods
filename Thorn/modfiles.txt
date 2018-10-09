@@ -112,13 +112,13 @@ upgrades/heroes/thorn.upgrades.json 21052
 audio/thorn.heroes.guid_overrides.json 2174
 audio/thorn.heroes.load_order.json 80
 effects/thorn.effects.darkest 21535
-localization/1522889786_english.loc 25766
-localization/thorn_english.string_table.xml 45275
+localization/1522889786_english.loc 25972
+localization/thorn_english.string_table.xml 45736
 trinkets/com.rarities.trinkets.json 428
 trinkets/crimson_court.rarities.trinkets.json 171
 trinkets/thorn.entries.trinkets.json 3602
 trinkets/thorn.sets.trinkets.json 186
-modfiles.txt 7526
+modfiles.txt 6264
 preview_icon.png 536122
 project.xml 619
 thorn.xml 619
