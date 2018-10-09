@@ -1,6 +1,6 @@
 
 -------------------------------------------------------------------------------
-Parsing project file - D:\DD_mods\thorn\thorn.xml
+Parsing project file - D:\DD_mods\Thorn\project.xml
 Mod Data Directory = D:/DD_mods/thorn/
 
 -------------------------------------------------------------------------------
@@ -8,20 +8,7 @@ Processing Map Files files...
 
 -------------------------------------------------------------------------------
 Running Localization...
-Parsing localization/thorn_brazilian.string_table.xml
-Parsing localization/thorn_czech.string_table.xml
 Parsing localization/thorn_english.string_table.xml
-Parsing localization/thorn_french.string_table.xml
-Parsing localization/thorn_german.string_table.xml
-Parsing localization/thorn_italian.string_table.xml
-Parsing localization/thorn_japanese.string_table.xml
-Parsing localization/thorn_koreana.string_table.xml
-Parsing localization/thorn_koreanb.string_table.xml
-Parsing localization/thorn_polish.string_table.xml
-Parsing localization/thorn_russian.string_table.xml
-Parsing localization/thorn_schinese.string_table.xml
-Parsing localization/thorn_spanish.string_table.xml
-Parsing localization/thorn_tchinese.string_table.xml
 
 Building Languages
 Exporting .loc files
@@ -82,7 +69,6 @@ heroes/thorn/anim/thorn.sprite.investigate.atlas
 heroes/thorn/anim/thorn.sprite.investigate.skel
 heroes/thorn/anim/thorn.sprite.walk.atlas
 heroes/thorn/anim/thorn.sprite.walk.skel
-heroes/thorn/thorn_A/thorn_portrait_roster.png
 heroes/thorn/fx/thorn.sprite.absolution.atlas
 heroes/thorn/fx/thorn.sprite.absolution.png
 heroes/thorn/fx/thorn.sprite.absolution.skel
@@ -117,6 +103,7 @@ heroes/thorn/icons_equip/eqp_weapon_1.png
 heroes/thorn/icons_equip/eqp_weapon_2.png
 heroes/thorn/icons_equip/eqp_weapon_3.png
 heroes/thorn/icons_equip/eqp_weapon_4.png
+heroes/thorn/thorn_A/thorn_portrait_roster.png
 panels/icons_equip/trinket/inv_trinket+thorn_ancient_knowledge.png
 panels/icons_equip/trinket/inv_trinket+thorn_cristal_pendant.png
 panels/icons_equip/trinket/inv_trinket+thorn_fabric_strap.png
@@ -148,45 +135,17 @@ upgrades/heroes/thorn.upgrades.json
 audio/thorn.heroes.guid_overrides.json
 audio/thorn.heroes.load_order.json
 effects/thorn.effects.darkest
-localization/1522889786_brazilian.loc
-localization/1522889786_czech.loc
 localization/1522889786_english.loc
-localization/1522889786_french.loc
-localization/1522889786_german.loc
-localization/1522889786_italian.loc
-localization/1522889786_japanese.loc
-localization/1522889786_koreana.loc
-localization/1522889786_koreanb.loc
-localization/1522889786_polish.loc
-localization/1522889786_russian.loc
-localization/1522889786_schinese.loc
-localization/1522889786_spanish.loc
-localization/1522889786_tchinese.loc
-localization/thorn_brazilian.string_table.xml
-localization/thorn_czech.string_table.xml
 localization/thorn_english.string_table.xml
-localization/thorn_french.string_table.xml
-localization/thorn_german.string_table.xml
-localization/thorn_italian.string_table.xml
-localization/thorn_japanese.string_table.xml
-localization/thorn_koreana.string_table.xml
-localization/thorn_koreanb.string_table.xml
-localization/thorn_polish.string_table.xml
-localization/thorn_russian.string_table.xml
-localization/thorn_schinese.string_table.xml
-localization/thorn_spanish.string_table.xml
-localization/thorn_tchinese.string_table.xml
-localization/error_try.txt
-localization/missing_files.txt
-trinkets/thorn.entries.trinkets.json
-trinkets/thorn.sets.trinkets.json
 trinkets/com.rarities.trinkets.json
 trinkets/crimson_court.rarities.trinkets.json
-thorn.xml
+trinkets/thorn.entries.trinkets.json
+trinkets/thorn.sets.trinkets.json
 modfiles.txt
 preview_icon.png
 project.xml
+thorn.xml
 
-Submitting........................................................................................Submitted.
-Saving project file D:\DD_mods\thorn\thorn.xml
+Submitting.................................................................................Submitted.
+Saving project file D:\DD_mods\Thorn\project.xml
 
