@@ -1,13 +1,104 @@
 
 thorn.sprite.walk.png
-size: 641,1033
+size: 720,1068
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Calque 20
+baton copie
+  rotate: true
+  xy: 2, 1006
+  size: 60, 704
+  orig: 60, 704
+  offset: 0, 0
+  index: -1
+botteD copie
+  rotate: false
+  xy: 530, 502
+  size: 188, 283
+  orig: 188, 283
+  offset: 0, 0
+  index: -1
+botteG copie
+  rotate: true
+  xy: 428, 73
+  size: 124, 288
+  orig: 124, 288
+  offset: 0, 0
+  index: -1
+brasG copie
+  rotate: true
+  xy: 221, 69
+  size: 128, 205
+  orig: 128, 205
+  offset: 0, 0
+  index: -1
+cape copie
+  rotate: true
+  xy: 2, 788
+  size: 216, 605
+  orig: 216, 605
+  offset: 0, 0
+  index: -1
+ceinture copie
+  rotate: false
+  xy: 313, 399
+  size: 212, 83
+  orig: 212, 83
+  offset: 0, 0
+  index: -1
+jambeD copie
+  rotate: false
+  xy: 313, 271
+  size: 125, 126
+  orig: 125, 126
+  offset: 0, 0
+  index: -1
+jambeG copie
+  rotate: true
+  xy: 2, 69
+  size: 128, 217
+  orig: 128, 217
+  offset: 0, 0
+  index: -1
+mainD copie
+  rotate: true
+  xy: 609, 787
+  size: 92, 100
+  orig: 92, 100
+  offset: 0, 0
+  index: -1
+mainG copie
+  rotate: false
+  xy: 609, 881
+  size: 109, 123
+  orig: 109, 123
+  offset: 0, 0
+  index: -1
+meches copie
+  rotate: false
+  xy: 530, 199
+  size: 180, 301
+  orig: 180, 301
+  offset: 0, 0
+  index: -1
+ombre
   rotate: false
   xy: 2, 2
-  size: 637, 1029
-  orig: 637, 1029
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+tete copie
+  rotate: false
+  xy: 2, 227
+  size: 309, 255
+  orig: 309, 255
+  offset: 0, 0
+  index: -1
+tunique copie
+  rotate: true
+  xy: 2, 484
+  size: 302, 526
+  orig: 302, 526
   offset: 0, 0
   index: -1
