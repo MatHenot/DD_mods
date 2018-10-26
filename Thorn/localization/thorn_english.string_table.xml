@@ -68,12 +68,8 @@
     <entry id="upgrade_tree_name_thorn.armour"><![CDATA[Scarf]]></entry>
 
 
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[Defensive mode when hit {colour_start|skill_unselectable}(30%%){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_Heeder1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} {colour_start|skill_unselectable}(50%% chance){colour_end} for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Heeder2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} {colour_start|skill_unselectable}(55%% chance){colour_end} for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Heeder3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} {colour_start|skill_unselectable}(60%% chance){colour_end} for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Heeder4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} {colour_start|skill_unselectable}(65%% chance){colour_end} for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Heeder5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} {colour_start|skill_unselectable}(70%% chance){colour_end} for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[Defensive mode when hit {colour_start|skill_unselectable}(33%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_Heeder1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit for 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 3 rds]]></entry>

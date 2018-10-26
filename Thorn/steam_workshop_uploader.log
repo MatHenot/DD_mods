@@ -1,6 +1,6 @@
 
 -------------------------------------------------------------------------------
-Parsing project file - D:\DD_mods\Thorn\project.xml
+Parsing project file - D:\DD_mods\Thorn\thorn.xml
 Mod Data Directory = D:/DD_mods/thorn/
 
 -------------------------------------------------------------------------------
@@ -35,6 +35,7 @@ heroes/thorn/thorn_A/anim/thorn.sprite.defend.png
 heroes/thorn/thorn_A/anim/thorn.sprite.heroic.png
 heroes/thorn/thorn_A/anim/thorn.sprite.idle.png
 heroes/thorn/thorn_A/anim/thorn.sprite.investigate.png
+heroes/thorn/thorn_A/anim/thorn.sprite.riposte.png
 heroes/thorn/thorn_A/anim/thorn.sprite.walk.png
 campaign/town/town_event/town_event.image_bonus_recruit_thorn.png
 campaign/town/town_event/town_event.image_first_thorn.png
@@ -67,6 +68,8 @@ heroes/thorn/anim/thorn.sprite.idle.atlas
 heroes/thorn/anim/thorn.sprite.idle.skel
 heroes/thorn/anim/thorn.sprite.investigate.atlas
 heroes/thorn/anim/thorn.sprite.investigate.skel
+heroes/thorn/anim/thorn.sprite.riposte.atlas
+heroes/thorn/anim/thorn.sprite.riposte.skel
 heroes/thorn/anim/thorn.sprite.walk.atlas
 heroes/thorn/anim/thorn.sprite.walk.skel
 heroes/thorn/fx/thorn.sprite.absolution.atlas
@@ -147,5 +150,5 @@ project.xml
 thorn.xml
 
 Submitting...........................................................................................Submitted.
-Saving project file D:\DD_mods\Thorn\project.xml
+Saving project file D:\DD_mods\Thorn\thorn.xml
 
