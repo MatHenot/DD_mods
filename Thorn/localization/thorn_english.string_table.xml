@@ -75,11 +75,11 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Scattered1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 1 to 4 DMG to other enemies]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Scattered1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 0 to 3 DMG to other enemies]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Scattered2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 1 to 4 DMG to other enemies]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Scattered3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 2 to 5 DMG to other enemies]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Scattered4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 2 to 5 DMG to other enemies]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Scattered5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 3 to 6 DMG to other enemies]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Scattered4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 3 to 6 DMG to other enemies]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Scattered5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 4 to 7 DMG to other enemies]]></entry>
 				
 		
     <entry id="thorn+str_afflicted_fearful"><![CDATA[This trip was pure madness!]]></entry>

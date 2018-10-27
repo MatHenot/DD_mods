@@ -17,21 +17,6 @@
          }
       },		 
 	  {
-         "id" : "Offensive Speed 1",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 3,
-         "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },
-	  {
          "id" : "Offensive Defense 2",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
@@ -46,21 +31,6 @@
             "string" : "offensive"
          }
       },		 
-	  {
-         "id" : "Offensive Speed 2",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 4,
-         "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },
 	  {
          "id" : "Offensive Defense 3",
          "stat_type" : "combat_stat_add",
@@ -77,21 +47,6 @@
          }
       },		 
 	  {
-         "id" : "Offensive Speed 3",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 5,
-         "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },
-	  {
          "id" : "Offensive Defense 4",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
@@ -107,21 +62,6 @@
          }
       },		 
 	  {
-         "id" : "Offensive Speed 4",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 6,
-         "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },
-	  {
          "id" : "Offensive Defense 5",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
@@ -136,36 +76,6 @@
             "string" : "offensive"
          }
       },		 
-	  {
-         "id" : "Offensive Speed 5",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 7,
-         "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },
-	  {
-         "id" : "Offensive Prot",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "protection_rating",
-         "amount" : -1,
-         "duration_type" : "combat_end",
-         "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },	
  
 	  {
          "id" : "exit_riposte",
@@ -421,6 +331,77 @@
             "string" : "tagged"
          }
       },
+
+	  {
+         "id" : "Heeder Prot 1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.10,
+         "duration" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "defensive"
+         }
+	  },
+	  {
+         "id" : "Heeder Prot 2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.13,
+         "duration" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "defensive"
+         }
+	  },
+	  {
+         "id" : "Heeder Prot 3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.17,
+         "duration" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "defensive"
+         }
+	  },
+	  {
+         "id" : "Heeder Prot 4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.21,
+         "duration" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "defensive"
+         }
+	  },
+	  {
+         "id" : "Heeder Prot 5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.25,
+         "duration" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "defensive"
+         }
+	  },
 	  
 	  {
          "id" : "Gash Dodge",
@@ -435,7 +416,49 @@
             "float" : 0,
             "string" : "offensive"
          }
-	  },  
+	  },
+	  {
+         "id" : "Gash Speed 1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 4,
+		 "duration" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "offensive"
+         }
+      },
+	  {
+         "id" : "Gash Speed 2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 5,
+		 "duration" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "offensive"
+         }
+      },
+	  {
+         "id" : "Gash Speed 3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 6,
+		 "duration" : 3,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "offensive"
+         }
+      },
 	  {
          "id" : "Gash Riposte Effect 1",
          "stat_type" : "riposte",
@@ -524,218 +547,10 @@
          "rule_data" : {
             "float" : 0,
             "string" : "offensive"
-         }
-	  },
-	  {
-         "id" : "Dare Riposte Dmg L 1",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.20,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
+		 },
+		 "is_clear_debuff_valid": false
 	  },	  
-	  {
-         "id" : "Dare Riposte Dmg H 1",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.20,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
-         "id" : "Dare Riposte Crit 1",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.10,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
-         "id" : "Dare Riposte Dmg L 2",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.25,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },	  
-	  {
-         "id" : "Dare Riposte Dmg H 2",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.25,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
-         "id" : "Dare Riposte Crit 2",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.11,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
-         "id" : "Dare Riposte Dmg L 3",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.30,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },	  
-	  {
-         "id" : "Dare Riposte Dmg H 3",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.30,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
-         "id" : "Dare Riposte Crit 3",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.12,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
-         "id" : "Dare Riposte Dmg L 4",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.40,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },	  
-	  {
-         "id" : "Dare Riposte Dmg H 4",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.40,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
-         "id" : "Dare Riposte Crit 4",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.13,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
-         "id" : "Dare Riposte Dmg L 5",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : 0.45,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },	  
-	  {
-         "id" : "Dare Riposte Dmg H 5",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : 0.45,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
-         "id" : "Dare Riposte Crit 5",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "crit_chance",
-         "amount" : 0.14,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
+
 
 	  {
          "id" : "Scattered Blade Riposte Dmg L",
@@ -749,8 +564,9 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
-	  },	  
+		 },
+		 "is_clear_debuff_valid": false
+	  },		  
 	  {
          "id" : "Scattered Blade Riposte Dmg H",
          "stat_type" : "combat_stat_multiply",
@@ -763,8 +579,9 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
-	  },
+		 },
+		 "is_clear_debuff_valid": false
+	  },	
 	  {
          "id" : "Scattered Blade Riposte BaseDMG 1",
          "stat_type" : "riposte",
@@ -899,8 +716,22 @@
          "rule_data" : {
             "float" : 0,
             "string" : "offensive"
+ 		 },
+		 "is_clear_debuff_valid": false
+	  },
+	  {
+         "id" : "Offensive Menu ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "EndByHit",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
          }
-      },
+	  }, 	  
 	  {
          "id" : "Heeder ToolTip",
          "stat_type" : "upgrade_discount",
