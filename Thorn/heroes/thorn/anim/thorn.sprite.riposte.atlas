@@ -1,12 +1,12 @@
 
 thorn.sprite.riposte.png
-size: 1705,856
+size: 1675,856
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ombre
   rotate: true
-  xy: 1638, 495
+  xy: 1608, 495
   size: 359, 65
   orig: 359, 65
   offset: 0, 0
@@ -14,7 +14,7 @@ ombre
 riposte_offensive copie
   rotate: false
   xy: 2, 2
-  size: 1634, 852
-  orig: 1634, 852
+  size: 1604, 852
+  orig: 1604, 852
   offset: 0, 0
   index: -1

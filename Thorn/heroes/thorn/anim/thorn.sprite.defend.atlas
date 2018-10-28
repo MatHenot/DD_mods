@@ -1,19 +1,19 @@
 
 thorn.sprite.defend.png
-size: 1149,955
+size: 1031,956
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 epee copie 3
   rotate: false
   xy: 2, 2
-  size: 1078, 951
-  orig: 1078, 951
+  size: 960, 952
+  orig: 960, 952
   offset: 0, 0
   index: -1
 ombre
   rotate: true
-  xy: 1082, 594
+  xy: 964, 595
   size: 359, 65
   orig: 359, 65
   offset: 0, 0

@@ -26,7 +26,6 @@ effect: .name "Offensive Menu ToolTip" .target "performer" .curio_result_type "p
 effect: .name "Offensive ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .clear_riposte 1 .buff_ids "Offensive ToolTip" .on_hit true .on_miss true .has_description false
 
 
-
 //Transformation end by hit
 
 effect: .name "thorn hit received" .target "performer" .chance 33% .buff_ids "exit_riposte" .on_hit true .on_miss true .apply_once true
