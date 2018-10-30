@@ -2,16 +2,16 @@ resistances: .stun 50% .poison 30% .bleed 30% .disease 30% .move 10% .debuff 50%
 
 crit: .effects "on_crit_dmg"
 
-weapon: .name "thorn_weapon_0" .atk 0% .dmg 7 9  .crit 5% .spd 5
-weapon: .name "thorn_weapon_1" .atk 0% .dmg 8 11 .crit 6% .spd 5 .upgradeRequirementCode 0
-weapon: .name "thorn_weapon_2" .atk 0% .dmg 9 12 .crit 7% .spd 6 .upgradeRequirementCode 1
-weapon: .name "thorn_weapon_3" .atk 0% .dmg 9 14 .crit 8% .spd 6 .upgradeRequirementCode 2
-weapon: .name "thorn_weapon_4" .atk 0% .dmg 10 15 .crit 9% .spd 7 .upgradeRequirementCode 3
-armour: .name "thorn_armour_0" .def 10% .prot 0% .hp 19 .spd 0
-armour: .name "thorn_armour_1" .def 15% .prot 0% .hp 24 .spd 0 .upgradeRequirementCode 0
-armour: .name "thorn_armour_2" .def 20% .prot 0% .hp 29 .spd 0 .upgradeRequirementCode 1
-armour: .name "thorn_armour_3" .def 25% .prot 0% .hp 34 .spd 0 .upgradeRequirementCode 2
-armour: .name "thorn_armour_4" .def 30% .prot 0% .hp 39 .spd 0 .upgradeRequirementCode 3
+weapon: .name "thorn_weapon_0" .atk 0% .dmg 7 9   .crit 4% .spd 5
+weapon: .name "thorn_weapon_1" .atk 0% .dmg 8 11  .crit 5% .spd 5 .upgradeRequirementCode 0
+weapon: .name "thorn_weapon_2" .atk 0% .dmg 9 12  .crit 6% .spd 6 .upgradeRequirementCode 1
+weapon: .name "thorn_weapon_3" .atk 0% .dmg 9 14  .crit 7% .spd 6 .upgradeRequirementCode 2
+weapon: .name "thorn_weapon_4" .atk 0% .dmg 10 15 .crit 8% .spd 7 .upgradeRequirementCode 3
+armour: .name "thorn_armour_0" .def 15% .prot 0% .hp 19 .spd 0
+armour: .name "thorn_armour_1" .def 20% .prot 0% .hp 24 .spd 0 .upgradeRequirementCode 0
+armour: .name "thorn_armour_2" .def 25% .prot 0% .hp 29 .spd 0 .upgradeRequirementCode 1
+armour: .name "thorn_armour_3" .def 30% .prot 0% .hp 34 .spd 0 .upgradeRequirementCode 2
+armour: .name "thorn_armour_4" .def 35% .prot 0% .hp 39 .spd 0 .upgradeRequirementCode 3
 
 combat_skill: .id "offensive_stance" .level 0 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes defensive .defensive_effects "switch to Offensive" "Offensive Self Mark" "Offensive Riposte 1" "Offensive Buff 1" "Offensive Menu ToolTip" "Offensive ToolTip" .generation_guaranteed true
 combat_skill: .id "offensive_stance" .level 1 .type "ranged" .launch 4321 .move 0 1 .target .is_crit_valid false .valid_modes defensive .defensive_effects "switch to Offensive" "Offensive Self Mark" "Offensive Riposte 2" "Offensive Buff 2" "Offensive Menu ToolTip" "Offensive ToolTip"

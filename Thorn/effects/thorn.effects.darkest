@@ -127,11 +127,11 @@ effect: .name "Gash ToolTip 5" .target "performer" .curio_result_type "positive"
 
 //Dare
 
-effect: .name "Dare Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 20% .damage_high_multiply 20% .crit_chance_add 8%  .on_hit true .on_miss true
-effect: .name "Dare Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 25% .damage_high_multiply 25% .crit_chance_add 9%  .on_hit true .on_miss true 
-effect: .name "Dare Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 30% .damage_high_multiply 30% .crit_chance_add 10% .on_hit true .on_miss true 
-effect: .name "Dare Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 35% .damage_high_multiply 35% .crit_chance_add 11% .on_hit true .on_miss true 
-effect: .name "Dare Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 40% .damage_high_multiply 40% .crit_chance_add 12% .on_hit true .on_miss true 
+effect: .name "Dare Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 10% .damage_high_multiply 10% .crit_chance_add 8%  .on_hit true .on_miss true
+effect: .name "Dare Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 15% .damage_high_multiply 15% .crit_chance_add 9%  .on_hit true .on_miss true 
+effect: .name "Dare Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 20% .damage_high_multiply 20% .crit_chance_add 10% .on_hit true .on_miss true 
+effect: .name "Dare Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 25% .damage_high_multiply 25% .crit_chance_add 11% .on_hit true .on_miss true 
+effect: .name "Dare Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 30% .damage_high_multiply 30% .crit_chance_add 12% .on_hit true .on_miss true 
 
 effect: .name "Dare Buffs 1"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Dodge" .on_hit true .on_miss true
 effect: .name "Dare Buffs 2"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Dodge" .on_hit true .on_miss true
