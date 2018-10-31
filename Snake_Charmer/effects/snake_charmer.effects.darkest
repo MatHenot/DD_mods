@@ -54,6 +54,8 @@ effect: .name "SC rattling trap ToolTip 3" .target "performer" .curio_result_typ
 effect: .name "SC rattling trap ToolTip 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_ToolTip_4" .on_hit false .on_miss true
 effect: .name "SC rattling trap ToolTip 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_ToolTip_5" .on_hit false .on_miss true
 
+effect: .name "SC rattling trap reset" .target "performer" .curio_result_type "positive" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false
+
 effect: .name "SC rattling trap 1"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50% .riposte_effect "SC rattling trap riposte 1"  
 effect: .name "SC rattling trap 2"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -45%  .damage_high_multiply -45% .riposte_effect "SC rattling trap riposte 2"
 effect: .name "SC rattling trap 3"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -40%  .damage_high_multiply -40% .riposte_effect "SC rattling trap riposte 3"

@@ -31,11 +31,11 @@ combat_skill: .id "constriction" .level 2 .type "ranged" .atk 100% .dmg -70% .cr
 combat_skill: .id "constriction" .level 3 .type "ranged" .atk 105% .dmg -70% .crit -4% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A4" "SC constriction B4" .is_stall_invalidating false
 combat_skill: .id "constriction" .level 4 .type "ranged" .atk 110% .dmg -70% .crit -3% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A5" "SC constriction B5" .is_stall_invalidating false
 combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
-combat_skill: .id "rattling_trap" .level 0 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap 1" "SC rattling trap ToolTip 1"
-combat_skill: .id "rattling_trap" .level 1 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap 2" "SC rattling trap ToolTip 2" 
-combat_skill: .id "rattling_trap" .level 2 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap 3" "SC rattling trap ToolTip 3" 
-combat_skill: .id "rattling_trap" .level 3 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap 4" "SC rattling trap ToolTip 4" 
-combat_skill: .id "rattling_trap" .level 4 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap 5" "SC rattling trap ToolTip 5" 
+combat_skill: .id "rattling_trap" .level 0 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap reset" "SC rattling trap 1" "SC rattling trap ToolTip 1"
+combat_skill: .id "rattling_trap" .level 1 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap reset" "SC rattling trap 2" "SC rattling trap ToolTip 2" 
+combat_skill: .id "rattling_trap" .level 2 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap reset" "SC rattling trap 3" "SC rattling trap ToolTip 3" 
+combat_skill: .id "rattling_trap" .level 3 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap reset" "SC rattling trap 4" "SC rattling trap ToolTip 4" 
+combat_skill: .id "rattling_trap" .level 4 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap reset" "SC rattling trap 5" "SC rattling trap ToolTip 5" 
 combat_skill: .id "vicious_charm" .level 0 .per_battle_limit 3 .launch 34 .target @1234 .self_target_valid false .is_crit_valid False .effect "SC vicious charm ToolTip A" "SC vicious charm A1" "SC vicious charm ToolTip B" "SC vicious charm B" "SC vicious charm init" .is_stall_invalidating false
 combat_skill: .id "vicious_charm" .level 1 .per_battle_limit 3 .launch 34 .target @1234 .self_target_valid false .is_crit_valid False .effect "SC vicious charm ToolTip A" "SC vicious charm A2" "SC vicious charm ToolTip B" "SC vicious charm B" "SC vicious charm init" .is_stall_invalidating false
 combat_skill: .id "vicious_charm" .level 2 .per_battle_limit 3 .launch 34 .target @1234 .self_target_valid false .is_crit_valid False .effect "SC vicious charm ToolTip A" "SC vicious charm A3" "SC vicious charm ToolTip B" "SC vicious charm B" "SC vicious charm init" .is_stall_invalidating false
