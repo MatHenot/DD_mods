@@ -1,0 +1,27 @@
+
+thorn.sprite.thrust.png
+size: 2521,1007
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ombre
+  rotate: true
+  xy: 2454, 646
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+thrust_defensive
+  rotate: false
+  xy: 1242, 58
+  size: 1210, 947
+  orig: 1210, 947
+  offset: 0, 0
+  index: -1
+thrust_offensive
+  rotate: false
+  xy: 2, 2
+  size: 1238, 1003
+  orig: 1238, 1003
+  offset: 0, 0
+  index: -1
