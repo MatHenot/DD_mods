@@ -1,54 +1,54 @@
 
 thorn.sprite.attack_transform.png
-size: 2760,811
+size: 2729,811
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 baton copie 2
   rotate: false
-  xy: 1942, 134
+  xy: 1296, 58
   size: 491, 297
   orig: 491, 297
   offset: 0, 0
   index: -1
 baton copie 3
   rotate: false
-  xy: 991, 33
+  xy: 1789, 109
   size: 554, 116
   orig: 554, 116
   offset: 0, 0
   index: -1
 brasD copie
   rotate: true
-  xy: 1812, 209
+  xy: 2591, 4
   size: 146, 107
   orig: 146, 107
   offset: 0, 0
   index: -1
 brasG copie
-  rotate: true
-  xy: 1600, 192
+  rotate: false
+  xy: 2465, 328
   size: 163, 210
   orig: 163, 210
   offset: 0, 0
   index: -1
 cape copie
   rotate: true
-  xy: 991, 151
+  xy: 1847, 227
   size: 204, 607
   orig: 204, 607
   offset: 0, 0
   index: -1
 capeB copie
-  rotate: true
-  xy: 2435, 33
+  rotate: false
+  xy: 896, 32
   size: 398, 323
   orig: 398, 323
   offset: 0, 0
   index: -1
 corp copie
   rotate: true
-  xy: 991, 357
+  xy: 896, 357
   size: 452, 949
   orig: 452, 949
   offset: 0, 0
@@ -56,56 +56,63 @@ corp copie
 corpB copie
   rotate: true
   xy: 2, 2
-  size: 807, 987
-  orig: 807, 987
+  size: 807, 892
+  orig: 807, 892
   offset: 0, 0
   index: -1
 epee copie 2
   rotate: false
-  xy: 1942, 433
+  xy: 1847, 433
   size: 616, 376
   orig: 616, 376
   offset: 0, 0
   index: -1
 mainD copie
-  rotate: false
-  xy: 2096, 26
+  rotate: true
+  xy: 2345, 113
   size: 112, 106
   orig: 112, 106
   offset: 0, 0
   index: -1
 mainG copie
   rotate: false
-  xy: 2210, 28
+  xy: 2630, 434
   size: 97, 104
   orig: 97, 104
   offset: 0, 0
   index: -1
 meche copie
   rotate: true
-  xy: 1600, 108
+  xy: 1789, 25
   size: 82, 279
   orig: 82, 279
   offset: 0, 0
   index: -1
 mecheDB copie
   rotate: false
-  xy: 2627, 522
-  size: 86, 287
-  orig: 86, 287
+  xy: 2630, 152
+  size: 91, 280
+  orig: 91, 280
   offset: 0, 0
   index: -1
 mecheGB copie
-  rotate: true
-  xy: 1881, 3
-  size: 129, 213
-  orig: 129, 213
+  rotate: false
+  xy: 2456, 121
+  size: 133, 205
+  orig: 133, 205
   offset: 0, 0
   index: -1
 ombre
-  rotate: true
-  xy: 2560, 450
+  rotate: false
+  xy: 2070, 42
   size: 359, 65
   orig: 359, 65
+  offset: 0, 0
+  index: -1
+tete
+  rotate: true
+  xy: 2465, 540
+  size: 269, 250
+  orig: 269, 250
   offset: 0, 0
   index: -1

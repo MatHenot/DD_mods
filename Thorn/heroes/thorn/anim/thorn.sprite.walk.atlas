@@ -60,11 +60,11 @@ jambeG copie
   orig: 128, 217
   offset: 0, 0
   index: -1
-mainD copie
-  rotate: true
-  xy: 1215, 15
-  size: 92, 100
-  orig: 92, 100
+mainD marche
+  rotate: false
+  xy: 1215, 5
+  size: 128, 102
+  orig: 128, 102
   offset: 0, 0
   index: -1
 mainG copie
