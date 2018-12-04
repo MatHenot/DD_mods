@@ -153,14 +153,14 @@ heroes/snake_charmer/snake_charmer.ability.six.png 39194
 heroes/snake_charmer/snake_charmer.ability.three.png 97348
 heroes/snake_charmer/snake_charmer.ability.two.png 96273
 heroes/snake_charmer/snake_charmer.art.darkest 2121
-heroes/snake_charmer/snake_charmer.info.darkest 9794
+heroes/snake_charmer/snake_charmer.info.darkest 9919
 heroes/snake_charmer/snake_charmer_guild_header.png 260742
 raid/camping/snake_charmer.camping_skills.json 5490
 shared/buffs/snake_charmer.buffs.json 24180
 upgrades/heroes/snake_charmer.upgrades.json 21506
 audio/snake_charmer.heroes.guid_overrides.json 2278
 audio/snake_charmer.heroes.load_order.json 88
-effects/snake_charmer.effects.darkest 15175
+effects/snake_charmer.effects.darkest 15347
 localization/1456853110_brazilian.loc 25854
 localization/1456853110_czech.loc 25854
 localization/1456853110_english.loc 25854
@@ -173,7 +173,7 @@ localization/1456853110_koreanb.loc 25854
 localization/1456853110_polish.loc 27777
 localization/1456853110_russian.loc 38271
 localization/1456853110_schinese.loc 25854
-localization/1456853110_spanish.loc 25854
+localization/1456853110_spanish.loc 28075
 localization/1456853110_tchinese.loc 25854
 localization/snake_charmer_brazilian.string_table.xml 48839
 localization/snake_charmer_czech.string_table.xml 48835
@@ -187,7 +187,7 @@ localization/snake_charmer_koreanb.string_table.xml 48837
 localization/snake_charmer_polish.string_table.xml 50971
 localization/snake_charmer_russian.string_table.xml 61253
 localization/snake_charmer_schinese.string_table.xml 48838
-localization/snake_charmer_spanish.string_table.xml 48837
+localization/snake_charmer_spanish.string_table.xml 51058
 localization/snake_charmer_tchinese.string_table.xml 48838
 trinkets/com.rarities.trinkets.json 428
 trinkets/crimson_court.rarities.trinkets.json 171
