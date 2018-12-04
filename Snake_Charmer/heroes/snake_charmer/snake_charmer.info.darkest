@@ -1,10 +1,10 @@
 resistances: .stun 30% .poison 50% .bleed 30% .disease 30% .move 30% .debuff 30% .death_blow 67% .trap 20%
 crit: .effects "on_crit_speed"
-weapon: .name "snake_charmer_weapon_0" .atk 0% .dmg 2 8  .crit 9%  .spd 3
-weapon: .name "snake_charmer_weapon_1" .atk 0% .dmg 2 10 .crit 10% .spd 3 .upgradeRequirementCode 0
-weapon: .name "snake_charmer_weapon_2" .atk 0% .dmg 3 11 .crit 11% .spd 4 .upgradeRequirementCode 1
-weapon: .name "snake_charmer_weapon_3" .atk 0% .dmg 3 13 .crit 12% .spd 4 .upgradeRequirementCode 2
-weapon: .name "snake_charmer_weapon_4" .atk 0% .dmg 4 14 .crit 13% .spd 5 .upgradeRequirementCode 3
+weapon: .name "snake_charmer_weapon_0" .atk 0% .dmg 2 7  .crit 9%  .spd 3
+weapon: .name "snake_charmer_weapon_1" .atk 0% .dmg 2 9  .crit 10% .spd 3 .upgradeRequirementCode 0
+weapon: .name "snake_charmer_weapon_2" .atk 0% .dmg 3 10 .crit 11% .spd 4 .upgradeRequirementCode 1
+weapon: .name "snake_charmer_weapon_3" .atk 0% .dmg 3 12 .crit 12% .spd 4 .upgradeRequirementCode 2
+weapon: .name "snake_charmer_weapon_4" .atk 0% .dmg 4 13 .crit 13% .spd 5 .upgradeRequirementCode 3
 armour: .name "snake_charmer_armour_0" .def 7%  .prot 0 .hp 22 .spd 0
 armour: .name "snake_charmer_armour_1" .def 12% .prot 0 .hp 26 .spd 0 .upgradeRequirementCode 0
 armour: .name "snake_charmer_armour_2" .def 17% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 1
@@ -15,21 +15,21 @@ combat_skill: .id "venomous_fang" .level 1 .type "melee" .atk 90%  .dmg 0% .crit
 combat_skill: .id "venomous_fang" .level 2 .type "melee" .atk 95%  .dmg 0% .crit 5% .move 0 1 .launch 123 .target 12 .is_crit_valid True .effect "SC venomous fang 3"
 combat_skill: .id "venomous_fang" .level 3 .type "melee" .atk 100% .dmg 0% .crit 6% .move 0 1 .launch 123 .target 12 .is_crit_valid True .effect "SC venomous fang 4"
 combat_skill: .id "venomous_fang" .level 4 .type "melee" .atk 105% .dmg 0% .crit 7% .move 0 1 .launch 123 .target 12 .is_crit_valid True .effect "SC venomous fang 5"
-combat_skill: .id "mamba_dance" .level 0 .type "ranged" .atk 100% .dmg -20% .crit 11.0% .move 1 0 .launch 123 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance A1" "SC mamba dance B1"
-combat_skill: .id "mamba_dance" .level 1 .type "ranged" .atk 105% .dmg -20% .crit 12.0% .move 1 0 .launch 123 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance A2" "SC mamba dance B2"
-combat_skill: .id "mamba_dance" .level 2 .type "ranged" .atk 110% .dmg -20% .crit 13.0% .move 1 0 .launch 123 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance A3" "SC mamba dance B3"
-combat_skill: .id "mamba_dance" .level 3 .type "ranged" .atk 115% .dmg -20% .crit 14.0% .move 1 0 .launch 123 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance A4" "SC mamba dance B4"
-combat_skill: .id "mamba_dance" .level 4 .type "ranged" .atk 120% .dmg -20% .crit 15.0% .move 1 0 .launch 123 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance A5" "SC mamba dance B5"
-combat_skill: .id "feast" .level 0 .type "melee" .atk 80%  .dmg -60% .crit -4% .launch 12 .target ~1234 .is_crit_valid True .effect "SC clear_corpses"
-combat_skill: .id "feast" .level 1 .type "melee" .atk 85%  .dmg -60% .crit -3% .launch 12 .target ~1234 .is_crit_valid True .effect "SC clear_corpses"
-combat_skill: .id "feast" .level 2 .type "melee" .atk 90%  .dmg -60% .crit -2% .launch 12 .target ~1234 .is_crit_valid True .effect "SC clear_corpses"
-combat_skill: .id "feast" .level 3 .type "melee" .atk 95%  .dmg -60% .crit -1% .launch 12 .target ~1234 .is_crit_valid True .effect "SC clear_corpses"
-combat_skill: .id "feast" .level 4 .type "melee" .atk 100% .dmg -60% .crit  0% .launch 12 .target ~1234 .is_crit_valid True .effect "SC clear_corpses"
-combat_skill: .id "constriction" .level 0 .type "ranged" .atk 90%  .dmg -70% .crit -7% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A1" "SC constriction B1" .is_stall_invalidating false
-combat_skill: .id "constriction" .level 1 .type "ranged" .atk 95%  .dmg -70% .crit -6% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A2" "SC constriction B2" .is_stall_invalidating false
-combat_skill: .id "constriction" .level 2 .type "ranged" .atk 100% .dmg -70% .crit -5% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A3" "SC constriction B3" .is_stall_invalidating false
-combat_skill: .id "constriction" .level 3 .type "ranged" .atk 105% .dmg -70% .crit -4% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A4" "SC constriction B4" .is_stall_invalidating false
-combat_skill: .id "constriction" .level 4 .type "ranged" .atk 110% .dmg -70% .crit -3% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A5" "SC constriction B5" .is_stall_invalidating false
+combat_skill: .id "mamba_dance" .level 0 .type "ranged" .atk  95% .dmg -10% .crit 11.0% .move 1 0 .launch 123 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance A1" "SC mamba dance B1"
+combat_skill: .id "mamba_dance" .level 1 .type "ranged" .atk 100% .dmg -10% .crit 12.0% .move 1 0 .launch 123 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance A2" "SC mamba dance B2"
+combat_skill: .id "mamba_dance" .level 2 .type "ranged" .atk 105% .dmg -10% .crit 13.0% .move 1 0 .launch 123 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance A3" "SC mamba dance B3"
+combat_skill: .id "mamba_dance" .level 3 .type "ranged" .atk 110% .dmg -10% .crit 14.0% .move 1 0 .launch 123 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance A4" "SC mamba dance B4"
+combat_skill: .id "mamba_dance" .level 4 .type "ranged" .atk 115% .dmg -10% .crit 15.0% .move 1 0 .launch 123 .target 1234 .is_crit_valid True .ignore_stealth true .effect "Destealth" "SC mamba dance A5" "SC mamba dance B5"
+combat_skill: .id "feast" .level 0 .type "melee" .atk 80%  .dmg -50% .crit -4% .launch 12 .target ~1234 .is_crit_valid True .effect "SC clear_corpses"
+combat_skill: .id "feast" .level 1 .type "melee" .atk 85%  .dmg -50% .crit -3% .launch 12 .target ~1234 .is_crit_valid True .effect "SC clear_corpses"
+combat_skill: .id "feast" .level 2 .type "melee" .atk 90%  .dmg -50% .crit -2% .launch 12 .target ~1234 .is_crit_valid True .effect "SC clear_corpses"
+combat_skill: .id "feast" .level 3 .type "melee" .atk 95%  .dmg -50% .crit -1% .launch 12 .target ~1234 .is_crit_valid True .effect "SC clear_corpses"
+combat_skill: .id "feast" .level 4 .type "melee" .atk 100% .dmg -50% .crit  0% .launch 12 .target ~1234 .is_crit_valid True .effect "SC clear_corpses"
+combat_skill: .id "constriction" .level 0 .type "ranged" .atk 90%  .dmg -66% .crit -7% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A1" "SC constriction B1" .is_stall_invalidating false
+combat_skill: .id "constriction" .level 1 .type "ranged" .atk 95%  .dmg -66% .crit -6% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A2" "SC constriction B2" .is_stall_invalidating false
+combat_skill: .id "constriction" .level 2 .type "ranged" .atk 100% .dmg -66% .crit -5% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A3" "SC constriction B3" .is_stall_invalidating false
+combat_skill: .id "constriction" .level 3 .type "ranged" .atk 105% .dmg -66% .crit -4% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A4" "SC constriction B4" .is_stall_invalidating false
+combat_skill: .id "constriction" .level 4 .type "ranged" .atk 110% .dmg -66% .crit -3% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A5" "SC constriction B5" .is_stall_invalidating false
 combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
 combat_skill: .id "rattling_trap" .level 0 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap reset" "SC rattling trap 1" "SC rattling trap ToolTip 1"
 combat_skill: .id "rattling_trap" .level 1 .launch 1234 .target .is_crit_valid False .effect "SC rattling trap reset" "SC rattling trap 2" "SC rattling trap ToolTip 2" 
@@ -46,7 +46,7 @@ combat_skill: .id "calming_toxin" .level 1 .launch 34 .target @1234 .is_crit_val
 combat_skill: .id "calming_toxin" .level 2 .launch 34 .target @1234 .is_crit_valid True .effect "SC calming toxin ToolTip 3" "SC calming toxin A3" "SC calming toxin Random 25" "SC calming toxin Random 50" "SC calming toxin Random 75" "SC calming toxin B3" "SC calming toxin C3" .is_stall_invalidating false
 combat_skill: .id "calming_toxin" .level 3 .launch 34 .target @1234 .is_crit_valid True .effect "SC calming toxin ToolTip 4" "SC calming toxin A4" "SC calming toxin Random 25" "SC calming toxin Random 50" "SC calming toxin Random 75" "SC calming toxin B4" "SC calming toxin C4" .is_stall_invalidating false
 combat_skill: .id "calming_toxin" .level 4 .launch 34 .target @1234 .is_crit_valid True .effect "SC calming toxin ToolTip 5" "SC calming toxin A5" "SC calming toxin Random 20" "SC calming toxin Random 40" "SC calming toxin Random 60" "SC calming toxin Random 80" "SC calming toxin B5" "SC calming toxin C5" .is_stall_invalidating false
-riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 95% .dmg 0% .crit 5% .launch 1234 .target 1234 .is_crit_valid True 
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 95% .dmg 0% .crit 3% .launch 1234 .target 1234 .is_crit_valid True 
 tag: .id "light"
 tag: .id "non-religious"
 tag: .id "library"
