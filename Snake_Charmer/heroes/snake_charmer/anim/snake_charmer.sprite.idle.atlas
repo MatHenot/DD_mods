@@ -1,153 +1,153 @@
 
 snake_charmer.sprite.idle.png
-size: 436,1064
+size: 227,539
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 anneau_arriere
-  rotate: true
-  xy: 299, 495
-  size: 40, 65
-  orig: 40, 65
+  rotate: false
+  xy: 67, 79
+  size: 20, 33
+  orig: 20, 33
   offset: 0, 0
   index: -1
 anneau_avant
   rotate: true
-  xy: 301, 537
-  size: 45, 60
-  orig: 45, 60
+  xy: 194, 52
+  size: 23, 30
+  orig: 23, 30
   offset: 0, 0
   index: -1
 boite
-  rotate: true
-  xy: 2, 474
-  size: 274, 195
-  orig: 274, 195
+  rotate: false
+  xy: 2, 223
+  size: 137, 98
+  orig: 137, 98
   offset: 0, 0
   index: -1
 bras_droit
   rotate: false
-  xy: 366, 176
-  size: 64, 137
-  orig: 64, 137
+  xy: 160, 6
+  size: 32, 69
+  orig: 32, 69
   offset: 0, 0
   index: -1
 bras_gauche
-  rotate: true
-  xy: 69, 121
-  size: 126, 187
-  orig: 126, 187
+  rotate: false
+  xy: 160, 307
+  size: 63, 94
+  orig: 63, 94
   offset: 0, 0
   index: -1
 echarpe
-  rotate: true
-  xy: 258, 156
-  size: 156, 106
-  orig: 156, 106
+  rotate: false
+  xy: 135, 77
+  size: 78, 53
+  orig: 78, 53
   offset: 0, 0
   index: -1
 echarpe_bas
   rotate: true
-  xy: 143, 2
-  size: 117, 125
-  orig: 117, 125
+  xy: 95, 2
+  size: 59, 63
+  orig: 59, 63
   offset: 0, 0
   index: -1
 jambe_gauche
-  rotate: false
-  xy: 258, 775
-  size: 99, 287
-  orig: 99, 287
+  rotate: true
+  xy: 2, 323
+  size: 50, 144
+  orig: 50, 144
   offset: 0, 0
   index: -1
 main_droite
-  rotate: false
-  xy: 199, 474
-  size: 98, 72
-  orig: 98, 72
+  rotate: true
+  xy: 95, 63
+  size: 49, 36
+  orig: 49, 36
   offset: 0, 0
   index: -1
 pied_droit
   rotate: false
-  xy: 347, 315
-  size: 81, 122
-  orig: 81, 122
+  xy: 184, 476
+  size: 41, 61
+  orig: 41, 61
   offset: 0, 0
   index: -1
 robe_arriere
   rotate: false
-  xy: 359, 831
-  size: 68, 231
-  orig: 68, 231
+  xy: 2, 14
+  size: 34, 116
+  orig: 34, 116
   offset: 0, 0
   index: -1
 robe_arriere2
-  rotate: true
-  xy: 227, 314
-  size: 158, 118
-  orig: 158, 118
+  rotate: false
+  xy: 141, 246
+  size: 79, 59
+  orig: 79, 59
   offset: 0, 0
   index: -1
 robe_avant
-  rotate: false
-  xy: 2, 750
-  size: 254, 312
-  orig: 254, 312
+  rotate: true
+  xy: 2, 375
+  size: 127, 156
+  orig: 127, 156
   offset: 0, 0
   index: -1
 robe_avant2
   rotate: false
-  xy: 69, 249
-  size: 156, 223
-  orig: 156, 223
+  xy: 141, 132
+  size: 78, 112
+  orig: 78, 112
   offset: 0, 0
   index: -1
 robe_avant3
-  rotate: false
-  xy: 199, 548
-  size: 100, 200
-  orig: 100, 200
+  rotate: true
+  xy: 38, 171
+  size: 50, 100
+  orig: 50, 100
   offset: 0, 0
   index: -1
 sangle_arriere
-  rotate: true
-  xy: 2, 2
-  size: 109, 139
-  orig: 109, 139
+  rotate: false
+  xy: 38, 5
+  size: 55, 70
+  orig: 55, 70
   offset: 0, 0
   index: -1
 sangle_avant
   rotate: false
-  xy: 366, 439
-  size: 68, 143
-  orig: 68, 143
+  xy: 2, 149
+  size: 34, 72
+  orig: 34, 72
   offset: 0, 0
   index: -1
 shadow
-  rotate: true
-  xy: 2, 113
-  size: 359, 65
-  orig: 359, 65
+  rotate: false
+  xy: 2, 504
+  size: 180, 33
+  orig: 180, 33
   offset: 0, 0
   index: -1
 tete
   rotate: false
-  xy: 270, 13
-  size: 130, 141
-  orig: 130, 141
+  xy: 160, 403
+  size: 65, 71
+  orig: 65, 71
   offset: 0, 0
   index: -1
 torse_fond
-  rotate: false
-  xy: 301, 584
-  size: 109, 189
-  orig: 109, 189
+  rotate: true
+  xy: 38, 114
+  size: 55, 95
+  orig: 55, 95
   offset: 0, 0
   index: -1
 ventre_fond
-  rotate: true
-  xy: 359, 775
-  size: 54, 70
-  orig: 54, 70
+  rotate: false
+  xy: 38, 77
+  size: 27, 35
+  orig: 27, 35
   offset: 0, 0
   index: -1
