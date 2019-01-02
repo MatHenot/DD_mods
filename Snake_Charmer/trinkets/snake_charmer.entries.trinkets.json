@@ -117,6 +117,7 @@
 		"buffs" : 
          [
 			"SC_T_masters_correspondance_BlightDuration",
+			"DEBUFFSKILL20",
 			"BLIGHTSKILL-10"
          ],
          "hero_class_requirements":

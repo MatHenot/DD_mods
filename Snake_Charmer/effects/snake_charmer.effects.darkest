@@ -32,6 +32,12 @@ effect: .name "SC mamba dance B5" .target "performer" .curio_result_type "positi
 
 effect: .name "SC clear_corpses" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .queue false .can_apply_on_death true
 
+effect: .name "SC feast 1" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add -0.05 .on_hit true .on_miss false .queue true
+effect: .name "SC feast 2" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add -0.06 .on_hit true .on_miss false .queue true
+effect: .name "SC feast 3" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add -0.07 .on_hit true .on_miss false .queue true
+effect: .name "SC feast 4" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add -0.08 .on_hit true .on_miss false .queue true
+effect: .name "SC feast 5" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add -0.10 .on_hit true .on_miss false .queue true
+
 //constriction
 
 effect: .name "SC constriction A1" .target "target" .curio_result_type "negative" .chance 90%  .stun 1	.on_hit true .on_miss false .queue true
@@ -56,17 +62,23 @@ effect: .name "SC rattling trap ToolTip 5" .target "performer" .curio_result_typ
 
 effect: .name "SC rattling trap reset" .target "performer" .curio_result_type "positive" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false
 
-effect: .name "SC rattling trap 1"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50% .riposte_effect "SC rattling trap riposte 1"  
-effect: .name "SC rattling trap 2"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -45%  .damage_high_multiply -45% .riposte_effect "SC rattling trap riposte 2"
-effect: .name "SC rattling trap 3"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -40%  .damage_high_multiply -40% .riposte_effect "SC rattling trap riposte 3"
-effect: .name "SC rattling trap 4"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -35%  .damage_high_multiply -35% .riposte_effect "SC rattling trap riposte 4"
-effect: .name "SC rattling trap 5"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 4 .on_hit true .on_miss true .damage_low_multiply -30%  .damage_high_multiply -30% .riposte_effect "SC rattling trap riposte 5"
+effect: .name "SC rattling trap 1"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -50%  .damage_high_multiply -50% .riposte_effect "SC rattling trap riposte 1"  
+effect: .name "SC rattling trap 2"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -45%  .damage_high_multiply -45% .riposte_effect "SC rattling trap riposte 2"
+effect: .name "SC rattling trap 3"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -40%  .damage_high_multiply -40% .riposte_effect "SC rattling trap riposte 3"
+effect: .name "SC rattling trap 4"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -35%  .damage_high_multiply -35% .riposte_effect "SC rattling trap riposte 4"
+effect: .name "SC rattling trap 5"  .target "performer" .curio_result_type "neutral" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -30%  .damage_high_multiply -30% .riposte_effect "SC rattling trap riposte 5"
 
 effect: .name "SC rattling trap riposte 1" .target "target" .curio_result_type "negative" .chance 100% .dotPoison 2 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "SC rattling trap riposte 2" .target "target" .curio_result_type "negative" .chance 110% .dotPoison 2 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "SC rattling trap riposte 3" .target "target" .curio_result_type "negative" .chance 120% .dotPoison 3 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "SC rattling trap riposte 4" .target "target" .curio_result_type "negative" .chance 130% .dotPoison 3 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "SC rattling trap riposte 5" .target "target" .curio_result_type "negative" .chance 140% .dotPoison 4 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "SC rattling trap prot 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 0.05 .on_hit true .on_miss false .queue true
+effect: .name "SC rattling trap prot 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 0.06 .on_hit true .on_miss false .queue true
+effect: .name "SC rattling trap prot 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 0.07 .on_hit true .on_miss false .queue true
+effect: .name "SC rattling trap prot 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 0.08 .on_hit true .on_miss false .queue true
+effect: .name "SC rattling trap prot 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 0.10 .on_hit true .on_miss false .queue true
 
 //vicious charm
 
