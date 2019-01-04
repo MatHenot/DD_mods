@@ -6,7 +6,7 @@
          "buffs" : 
          [
 			"BLIGHTRESIST20",
-			"DEBUFFSKILL10"
+			"DEBUFFSKILL20"
          ],
          "hero_class_requirements":
          [
@@ -58,7 +58,6 @@
          "buffs" : 
          [
             "SC_T_vision_pendant_Speed",
-            "SC_T_vision_pendant_Blight",
             "SC_T_vision_pendant_Stun",
             "SC_T_vision_pendant_constrictionDMGL",
             "SC_T_vision_pendant_constrictionDMGH",
@@ -117,7 +116,7 @@
 		"buffs" : 
          [
 			"SC_T_masters_correspondance_BlightDuration",
-			"DEBUFFSKILL20",
+			"DEBUFFSKILL10",
 			"BLIGHTSKILL-10"
          ],
          "hero_class_requirements":

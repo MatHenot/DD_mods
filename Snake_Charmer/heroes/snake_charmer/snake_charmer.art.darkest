@@ -16,7 +16,7 @@ combat_skill: .id "venomous_fang" 	.icon "one" 	.anim "venomous_fang" 	.fx "veno
 combat_skill: .id "mamba_dance" 	.icon "two" 	.anim "mamba_dance" 	.fx "mamba_dance_fx"    .targchestfx "mamba_dance_target" .condensed_tooltip_stats true
 combat_skill: .id "feast" 			.icon "three" 	.anim "feast" 			.fx "feastfx2" 			.targchestfx "blood_splatter" .area_pos_offset 130 0 .target_area_pos_offset -130 0
 combat_skill: .id "constriction" 	.icon "four" 	.anim "constriction" 	.fx "constriction_fx" 	.targchestfx "constriction_target" .condensed_tooltip_stats true
-combat_skill: .id "rattling_trap" 	.icon "five" 	.anim "rattling_trap" 	.fx "" 					.targfx "" .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 2
+combat_skill: .id "rattling_trap" 	.icon "five" 	.anim "rattling_trap" 	.fx "" 					.targfx "" .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "vicious_charm" 	.icon "six" 	.anim "flute_buff" 		.fx "" 					.targheadfx "vicious_charm_target"
 combat_skill: .id "calming_toxin" 	.icon "seven" 	.anim "flute_buff" 	    .fx "" 					.targheadfx "calming_toxin_target" .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 
