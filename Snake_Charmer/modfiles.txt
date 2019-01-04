@@ -61,7 +61,6 @@ heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.walk.png 229558
 campaign/town/town_event/town_event.image_bonus_recruit_snake_charmer.png 157369
 campaign/town/town_event/town_event.image_first_snake_charmer.png 192711
 campaign/town/town_event/town_event.image_idle_resolve_level_snake_charmer.png 168810
-fx/districts/town_district_theater/town_district_theater.sprite.png 144974
 heroes/snake_charmer/anim/snake_charmer.sprite.afflicted.atlas 438
 heroes/snake_charmer/anim/snake_charmer.sprite.afflicted.skel 4015
 heroes/snake_charmer/anim/snake_charmer.sprite.camp.atlas 305

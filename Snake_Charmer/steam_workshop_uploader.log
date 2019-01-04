@@ -97,7 +97,6 @@ heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.walk.png
 campaign/town/town_event/town_event.image_bonus_recruit_snake_charmer.png
 campaign/town/town_event/town_event.image_first_snake_charmer.png
 campaign/town/town_event/town_event.image_idle_resolve_level_snake_charmer.png
-fx/districts/town_district_theater/town_district_theater.sprite.png
 heroes/snake_charmer/anim/snake_charmer.sprite.afflicted.atlas
 heroes/snake_charmer/anim/snake_charmer.sprite.afflicted.skel
 heroes/snake_charmer/anim/snake_charmer.sprite.camp.atlas
@@ -236,6 +235,6 @@ project.xml
 snake_charmer.xml
 snake_charmer_test.xml
 
-Submitting.............................................................................................................................Submitted.
+Submitting..............................................................................................................Submitted.
 Saving project file D:\DD_mods\Snake_Charmer\snake_charmer_test.xml
 

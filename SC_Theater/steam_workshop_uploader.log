@@ -3,14 +3,11 @@
 Parsing project file - D:\DD_mods\SC_Theater\SC_Theater.xml
 Mod Data Directory = D:/DD_mods/SC_Theater/
 
-Creating new item...
-..........Created
-
 -------------------------------------------------------------------------------
 Processing Map Files files...
 
 -------------------------------------------------------------------------------
-Searching for preview icon file D:/DD_mods/SC_Theater/preview_icon.png...NOT FOUND! - Copying default preview icon to mod directory
+Searching for preview icon file D:/DD_mods/SC_Theater/preview_icon.png...FOUND!
 <UploadMode> - Set to direct_upload
 
 
@@ -24,6 +21,6 @@ SC_Theater.xml
 preview_icon.png
 project.xml
 
-Submitting.................................................................................................................Submitted.
+Submitting.....................................................................................Submitted.
 Saving project file D:\DD_mods\SC_Theater\SC_Theater.xml
 
