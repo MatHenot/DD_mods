@@ -851,21 +851,7 @@
             "string" : ""
          }
       },	
-      
-      {
-         "id" : "SC_T_vision_pendant_Blight",
-         "stat_type" : "poison_chance",
-         "stat_sub_type" : "",
-         "amount" : -0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_rank",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 3,
-            "string" : ""
-         }
-      },	        
-
+       
       {
          "id" : "SC_T_vision_pendant_Stun",
          "stat_type" : "stun_chance",
@@ -919,6 +905,20 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
+         }
+      },
+
+      {
+         "id" : "districts_theatre_SC",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "calming_toxin"
          }
       }
    ]

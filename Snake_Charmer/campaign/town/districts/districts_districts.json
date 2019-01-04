@@ -23,7 +23,7 @@
                     "type": "DistrictHeroBuffData",
                     "name": "hero_buff0",
                     "hero_type_tags": [ "theater" ],
-                    "buff_list": [ "districts_theatre_1", "districts_theatre_2", "districts_theatre_3", "districts_theatre_4" ]
+                    "buff_list": [ "districts_theatre_1", "districts_theatre_2", "districts_theatre_3", "districts_theatre_4", "districts_theatre_SC" ]
                 }
             ]
         }
