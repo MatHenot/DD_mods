@@ -1,0 +1,29 @@
+
+-------------------------------------------------------------------------------
+Parsing project file - D:\DD_mods\SC_Theater\SC_Theater.xml
+Mod Data Directory = D:/DD_mods/SC_Theater/
+
+Creating new item...
+..........Created
+
+-------------------------------------------------------------------------------
+Processing Map Files files...
+
+-------------------------------------------------------------------------------
+Searching for preview icon file D:/DD_mods/SC_Theater/preview_icon.png...NOT FOUND! - Copying default preview icon to mod directory
+<UploadMode> - Set to direct_upload
+
+
+-------------------------------------------------------------------------------
+Modded files...
+
+modes/radiant/campaign/town/districts/districts_districts.json
+campaign/town/districts/districts_districts.json
+fx/districts/town_district_theater/town_district_theater.sprite.png
+SC_Theater.xml
+preview_icon.png
+project.xml
+
+Submitting.................................................................................................................Submitted.
+Saving project file D:\DD_mods\SC_Theater\SC_Theater.xml
+

@@ -1,0 +1,31 @@
+{
+    "enabled" : true,
+    "buildings": [
+        {
+            "name": "theater",
+            "render_data": {
+                "sprite_paths": [
+                    "fx/town_district_theater/town_district_theater.sprite.skel",
+                    "fx/purchase_district/purchase_district.sprite.skel"
+                ],
+                "not_built_animation": "idle",
+                "built_animation": "built",
+                "purchased_animation": "purchased",
+                "town_priority": 9000
+            },
+            "currency_cost": [
+                { "type": "gold", "amount": 2500 },
+                { "type": "crest", "amount": 150 },
+                { "type": "blueprint", "amount": 1 }
+            ],
+            "buff_list": [
+                {
+                    "type": "DistrictHeroBuffData",
+                    "name": "hero_buff0",
+                    "hero_type_tags": [ "theater" ],
+                    "buff_list": [ "districts_theatre_1", "districts_theatre_2", "districts_theatre_3", "districts_theatre_4", "districts_theatre_SC" ]
+                }
+            ]
+        }
+    ]
+}
