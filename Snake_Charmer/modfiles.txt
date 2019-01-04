@@ -145,6 +145,7 @@ audio/secondary_banks/hero_snake_charmer.bank 2069440
 campaign/provision/snake_charmer.provision.json 258
 campaign/roster/snake_charmer.roster.additional_variables.json 63
 campaign/town_events/snake_charmer.town_events.events.json 1687
+fx/town_district_theater/town_district_theater.sprite.png 144974
 heroes/snake_charmer/snake_charmer.ability.five.png 39162
 heroes/snake_charmer/snake_charmer.ability.four.png 38648
 heroes/snake_charmer/snake_charmer.ability.one.png 38296
@@ -193,7 +194,7 @@ trinkets/com.rarities.trinkets.json 428
 trinkets/crimson_court.rarities.trinkets.json 171
 trinkets/snake_charmer.entries.trinkets.json 3740
 trinkets/snake_charmer.sets.trinkets.json 194
-modfiles.txt 13526
+modfiles.txt 13451
 preview_icon.png 906191
 project.xml 635
 snake_charmer.xml 726

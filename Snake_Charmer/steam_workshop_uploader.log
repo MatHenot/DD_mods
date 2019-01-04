@@ -181,6 +181,7 @@ audio/secondary_banks/hero_snake_charmer.bank
 campaign/provision/snake_charmer.provision.json
 campaign/roster/snake_charmer.roster.additional_variables.json
 campaign/town_events/snake_charmer.town_events.events.json
+fx/town_district_theater/town_district_theater.sprite.png
 heroes/snake_charmer/snake_charmer.ability.five.png
 heroes/snake_charmer/snake_charmer.ability.four.png
 heroes/snake_charmer/snake_charmer.ability.one.png
