@@ -75,6 +75,7 @@
 
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[Constriction]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Vicious charm]]></entry>
+	<entry id="buff_rule_data_tooltip_calming_toxin"><![CDATA[Calming Toxin]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_reptilian_plates"><![CDATA[Minimum DMG only:]]></entry>
 	

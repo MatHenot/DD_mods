@@ -75,6 +75,7 @@
 
     <entry id="buff_rule_data_tooltip_constriction"><![CDATA[Uścisk]]></entry>
     <entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Złośliwy Urok]]></entry>
+	<entry id="buff_rule_data_tooltip_calming_toxin"><![CDATA[Kojąca Toksyna]]></entry>
     
     <entry id="buff_stat_tooltip_upgrade_discount_reptilian_plates"><![CDATA[Minimalne OBR tylko:]]></entry>
     

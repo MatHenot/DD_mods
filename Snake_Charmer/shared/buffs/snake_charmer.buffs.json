@@ -912,7 +912,7 @@
          "id" : "districts_theatre_SC",
          "stat_type" : "poison_chance",
          "stat_sub_type" : "",
-         "amount" : -0.2,
+         "amount" : -0.15,
          "remove_if_not_active" : false,
          "rule_type" : "skill",
          "is_false_rule" : false,

@@ -73,10 +73,11 @@
 	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s si %s dans l'inventaire]]></entry>
     <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antidote]]></entry>
 
-	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[Constriction :]]></entry>
-	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Charme vicieux :]]></entry>
+	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[Constriction]]></entry>
+	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Charme vicieux]]></entry>
+	<entry id="buff_rule_data_tooltip_calming_toxin"><![CDATA[Toxine apaisante]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_reptilian_plates"><![CDATA[DGT minimum seulement :}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_reptilian_plates"><![CDATA[DGT minimum seulement :]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_A"><![CDATA[Ajoute une {colour_start|notable}Action{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_B"><![CDATA[Chance d'effets -20%%]]></entry>

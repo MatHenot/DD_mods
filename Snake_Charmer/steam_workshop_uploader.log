@@ -1,6 +1,6 @@
 
 -------------------------------------------------------------------------------
-Parsing project file - D:\DD_mods\Snake_Charmer\snake_charmer.xml
+Parsing project file - D:\DD_mods\Snake_Charmer\snake_charmer_test.xml
 Mod Data Directory = D:/DD_mods/Snake_Charmer/
 
 -------------------------------------------------------------------------------
@@ -97,6 +97,7 @@ heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.walk.png
 campaign/town/town_event/town_event.image_bonus_recruit_snake_charmer.png
 campaign/town/town_event/town_event.image_first_snake_charmer.png
 campaign/town/town_event/town_event.image_idle_resolve_level_snake_charmer.png
+fx/districts/town_district_theater/town_district_theater.sprite.png
 heroes/snake_charmer/anim/snake_charmer.sprite.afflicted.atlas
 heroes/snake_charmer/anim/snake_charmer.sprite.afflicted.skel
 heroes/snake_charmer/anim/snake_charmer.sprite.camp.atlas
@@ -197,20 +198,20 @@ upgrades/heroes/snake_charmer.upgrades.json
 audio/snake_charmer.heroes.guid_overrides.json
 audio/snake_charmer.heroes.load_order.json
 effects/snake_charmer.effects.darkest
-localization/1456853110_brazilian.loc
-localization/1456853110_czech.loc
-localization/1456853110_english.loc
-localization/1456853110_french.loc
-localization/1456853110_german.loc
-localization/1456853110_italian.loc
-localization/1456853110_japanese.loc
-localization/1456853110_koreana.loc
-localization/1456853110_koreanb.loc
-localization/1456853110_polish.loc
-localization/1456853110_russian.loc
-localization/1456853110_schinese.loc
-localization/1456853110_spanish.loc
-localization/1456853110_tchinese.loc
+localization/1614204353_brazilian.loc
+localization/1614204353_czech.loc
+localization/1614204353_english.loc
+localization/1614204353_french.loc
+localization/1614204353_german.loc
+localization/1614204353_italian.loc
+localization/1614204353_japanese.loc
+localization/1614204353_koreana.loc
+localization/1614204353_koreanb.loc
+localization/1614204353_polish.loc
+localization/1614204353_russian.loc
+localization/1614204353_schinese.loc
+localization/1614204353_spanish.loc
+localization/1614204353_tchinese.loc
 localization/snake_charmer_brazilian.string_table.xml
 localization/snake_charmer_czech.string_table.xml
 localization/snake_charmer_english.string_table.xml
@@ -233,7 +234,8 @@ modfiles.txt
 preview_icon.png
 project.xml
 snake_charmer.xml
+snake_charmer_test.xml
 
-Submitting.............................................................................................................................................................................................................................................................................Submitted.
-Saving project file D:\DD_mods\Snake_Charmer\snake_charmer.xml
+Submitting.............................................................................................................................Submitted.
+Saving project file D:\DD_mods\Snake_Charmer\snake_charmer_test.xml
 

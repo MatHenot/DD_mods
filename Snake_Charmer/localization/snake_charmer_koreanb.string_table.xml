@@ -75,6 +75,7 @@
 
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[옥죄어라]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[사악한 부적]]></entry>
+	<entry id="buff_rule_data_tooltip_calming_toxin"><![CDATA[진정시키는 독]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_reptilian_plates"><![CDATA[최소 피해량만:]]></entry>
 	
