@@ -86,15 +86,15 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}Стресс{colour_end} -9 до -12]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}Стресс{colour_end} -10 до -13]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}Стресс{colour_end} -11 до -15]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_90"><![CDATA[{colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(90%% base){colour_end} 2 урона за раунд (2 раунда)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100A"><![CDATA[{colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2 урона за раунд (2 раунда)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100B"><![CDATA[{colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 3 урона за раунд (3 раунда)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 3 урона за раунд (3 раунда)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2 урона за раунд (3 раунда)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2 урона за раунд (3 раунда)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3 урона за раунд (3 раунда)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3 урона за раунд (3 раунда)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4 урона за раунд (3 раунда)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_90"><![CDATA[{colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(90%% база){colour_end} 2 oчкoв/раунд за 2 раунд]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100A"><![CDATA[{colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(100%% база){colour_end} 2 oчкoв/раунд за 2 раунд]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100B"><![CDATA[{colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(100%% база){colour_end} 3 oчкoв/раунд за 2 раунд]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(110%% база){colour_end} 3 oчкoв/раунд за 2 раунд]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(100%% база){colour_end} 2 oчкoв/раунд за 2 раунд]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(110%% база){colour_end} 2 oчкoв/раунд за 2 раунд)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(120%% база){colour_end} 3 oчкoв/раунд за 2 раунд)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(130%% база){colour_end} 3 oчкoв/раунд за 2 раунд)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(140%% база){colour_end} 4 oчкoв/раунд за 2 раунд)]]></entry>
 	
 		
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Эта поездка была полным безумием!]]></entry>
