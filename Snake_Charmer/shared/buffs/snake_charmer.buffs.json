@@ -287,7 +287,60 @@
             "float" : 0,
             "string" : ""
          }
-      },  
+      }, 
+	  
+	  {
+         "id" : "CT_blight_90_ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "CT_blight_90",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },	  
+	  {
+         "id" : "CT_blight_100A_ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "CT_blight_100A",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "CT_blight_100B_ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "CT_blight_100B",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "CT_blight_110_ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "CT_blight_110",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }, 
 	  
 	  {
          "id" : "SC_VC_DMGL_1",
