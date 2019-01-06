@@ -1,0 +1,13 @@
+
+town_event_dual_snake.sprite.png
+size: 107,162
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+town_event
+  rotate: false
+  xy: 2, 2
+  size: 103, 158
+  orig: 103, 158
+  offset: 0, 0
+  index: -1

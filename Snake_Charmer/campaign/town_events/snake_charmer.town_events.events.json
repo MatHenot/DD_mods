@@ -40,8 +40,8 @@
             },
             "town_ambience_paramater_ids": [],
             "tone": "neutral",
-            "sprite": "",
-            "sprite_attachment": "",
+            "sprite": "town_event_dual_snake",
+            "sprite_attachment": "statue",
             "data": [
                 {
                     "type": "bonus_recruit",
