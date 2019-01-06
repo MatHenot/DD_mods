@@ -34,6 +34,7 @@
 	<entry id="str_inventory_title_trinketsnake_charmer_master_correspondence"><![CDATA[The Master's Correspondence]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_melody"><![CDATA[Melody]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_cristal_pendant"><![CDATA[Crystal Pendant]]></entry>
+	<entry id="str_inventory_title_trinketsnake_charmer_head"><![CDATA[Dahomet's Head]]></entry>
 	
 	<entry id="combat_skill_name_snake_charmer_venomous_fang"><![CDATA[Venomous Fangs]]></entry>
     <entry id="combat_skill_name_snake_charmer_mamba_dance"><![CDATA[Mamba Dance]]></entry>
@@ -73,6 +74,8 @@
 	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
     <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antivenom]]></entry>
 
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} amount]]></entry>
+
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[Constriction]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Vicious charm]]></entry>
 	<entry id="buff_rule_data_tooltip_calming_toxin"><![CDATA[Calming Toxin]]></entry>
@@ -86,6 +89,10 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}Stress{colour_end} -9 to -12]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}Stress{colour_end} -10 to -13]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}Stress{colour_end} -11 to -15]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_90"><![CDATA[{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(90%% base){colour_end} 2pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100A"><![CDATA[{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100B"><![CDATA[{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 3pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 3pts/rd for 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 2 rds]]></entry>

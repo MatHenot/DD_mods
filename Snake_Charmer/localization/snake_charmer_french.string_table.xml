@@ -34,6 +34,7 @@
 	<entry id="str_inventory_title_trinketsnake_charmer_master_correspondence"><![CDATA[La Correspondance du Maître]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_melody"><![CDATA[Mélodie]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_cristal_pendant"><![CDATA[Pendentif de Cristal]]></entry>
+	<entry id="str_inventory_title_trinketsnake_charmer_head"><![CDATA[Tête de Dahomet]]></entry>
 	
 	<entry id="combat_skill_name_snake_charmer_venomous_fang"><![CDATA[Crocs venimeux]]></entry>
     <entry id="combat_skill_name_snake_charmer_mamba_dance"><![CDATA[Danse du Mamba]]></entry>
@@ -73,6 +74,8 @@
 	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s si %s dans l'inventaire]]></entry>
     <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antidote]]></entry>
 
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[Dommages d'{colour_start|blight}Infection{colour_end} %+d%%]]></entry>
+
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[Constriction]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Charme vicieux]]></entry>
 	<entry id="buff_rule_data_tooltip_calming_toxin"><![CDATA[Toxine apaisante]]></entry>
@@ -86,11 +89,15 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}Stress{colour_end} : -9 à -12]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}Stress{colour_end} : -10 à -13]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}Stress{colour_end} : -11 à -15]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 100%%){colour_end} 2pts/tr sur 2tr]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 110%%){colour_end} 2pts/tr sur 2tr]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 120%%){colour_end} 3pts/tr sur 2tr]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 130%%){colour_end} 3pts/tr sur 2tr]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 140%%){colour_end} 4pts/tr sur 2tr]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_90"><![CDATA[{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 90%%){colour_end} 2 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100A"><![CDATA[{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 100%%){colour_end} 2 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100B"><![CDATA[{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 100%%){colour_end} 3 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 110%%){colour_end} 3 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 100%%){colour_end} 2 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 110%%){colour_end} 2 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 120%%){colour_end} 3 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 130%%){colour_end} 3 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 140%%){colour_end} 4 pts/tr sur 2 trs]]></entry>
 	
 		
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Ce voyage n'était que pure folie !]]></entry>

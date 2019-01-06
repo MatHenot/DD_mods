@@ -34,6 +34,7 @@
 	<entry id="str_inventory_title_trinketsnake_charmer_master_correspondence"><![CDATA[주군의 서신]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_melody"><![CDATA[멜로디]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_cristal_pendant"><![CDATA[수정 목걸이]]></entry>
+	<entry id="str_inventory_title_trinketsnake_charmer_head"><![CDATA[다 헤드의 머리]]></entry>
 	
 	<entry id="combat_skill_name_snake_charmer_venomous_fang"><![CDATA[독 송곳니]]></entry>
     <entry id="combat_skill_name_snake_charmer_mamba_dance"><![CDATA[코브라 춤]]></entry>
@@ -73,6 +74,8 @@
     <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s ("%s" 물품을 소지하고 있을 때)]]></entry>
     <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[해독제]]></entry>
 
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[{colour_start|blight}중독{colour_end} 데미지 %+d%%]]></entry>
+
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[옥죄어라]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[사악한 부적]]></entry>
 	<entry id="buff_rule_data_tooltip_calming_toxin"><![CDATA[진정시키는 독]]></entry>
@@ -81,18 +84,22 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_A"><![CDATA[추가 1 {colour_start|notable}턴{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_B"><![CDATA[-20%% 모든 스킬 효과 확률]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}스트레스{colour_end} -7 to -9]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_2"><![CDATA[{colour_start|stress}스트레스{colour_end} -8 to -10]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}스트레스{colour_end} -9 to -12]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}스트레스{colour_end} -10 to -13]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}스트레스{colour_end} -11 to -15]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}스트레스{colour_end} -7 ~ -9]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_2"><![CDATA[{colour_start|stress}스트레스{colour_end} -8 ~ -10]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}스트레스{colour_end} -9 ~ -12]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_4"><![CDATA[{colour_start|stress}스트레스{colour_end} -10 ~ -13]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_5"><![CDATA[{colour_start|stress}스트레스{colour_end} -11 ~ -15]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_90"><![CDATA[{colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 90%%){colour_end} 턴당 2 피해, 2턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100A"><![CDATA[{colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 100%%){colour_end} 턴당 2 피해, 2턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100B"><![CDATA[{colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 100%%){colour_end} 턴당 3 피해, 2턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 110%%){colour_end} 턴당 3 피해, 2턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 100%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 110%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 120%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 130%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 140%%){colour_end} 턴당 4 피해, 3턴 지속]]></entry>
 	
-		
+	
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[이 원정은 정말 미쳤구만!]]></entry>
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[그 아무것도 준비할 수 없었다...]]></entry>
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[난 지금 죽기 싫어!]]></entry>

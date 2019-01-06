@@ -168,6 +168,7 @@ heroes/snake_charmer/snake_charmer_D/snake_charmer_portrait_roster.png
 panels/icons_equip/trinket/inv_trinket+snake_charmer_ancient_knowledge.png
 panels/icons_equip/trinket/inv_trinket+snake_charmer_cristal_pendant.png
 panels/icons_equip/trinket/inv_trinket+snake_charmer_fabric_strap.png
+panels/icons_equip/trinket/inv_trinket+snake_charmer_head.png
 panels/icons_equip/trinket/inv_trinket+snake_charmer_master_correspondence.png
 panels/icons_equip/trinket/inv_trinket+snake_charmer_melody.png
 panels/icons_equip/trinket/inv_trinket+snake_charmer_reptilian_plates.png
@@ -181,7 +182,6 @@ audio/secondary_banks/hero_snake_charmer.bank
 campaign/provision/snake_charmer.provision.json
 campaign/roster/snake_charmer.roster.additional_variables.json
 campaign/town_events/snake_charmer.town_events.events.json
-fx/town_district_theater/town_district_theater.sprite.png
 heroes/snake_charmer/snake_charmer.ability.five.png
 heroes/snake_charmer/snake_charmer.ability.four.png
 heroes/snake_charmer/snake_charmer.ability.one.png
@@ -236,6 +236,6 @@ project.xml
 snake_charmer.xml
 snake_charmer_test.xml
 
-Submitting..............................................................................................................Submitted.
+Submitting...............................................................................................................................Submitted.
 Saving project file D:\DD_mods\Snake_Charmer\snake_charmer_test.xml
 
