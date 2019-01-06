@@ -34,6 +34,7 @@
 	<entry id="str_inventory_title_trinketsnake_charmer_master_correspondence"><![CDATA[The Master's Correspondence]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_melody"><![CDATA[Melody]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_cristal_pendant"><![CDATA[Crystal Pendant]]></entry>
+	<entry id="str_inventory_title_trinketsnake_charmer_head"><![CDATA[Dahomet's Head]]></entry>
 	
 	<entry id="combat_skill_name_snake_charmer_venomous_fang"><![CDATA[Venomous Fangs]]></entry>
     <entry id="combat_skill_name_snake_charmer_mamba_dance"><![CDATA[Mamba Dance]]></entry>
@@ -72,6 +73,8 @@
 	
 	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s if %s in inventory]]></entry>
     <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antivenom]]></entry>
+
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} amount]]></entry>
 
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[Constriction]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Vicious charm]]></entry>

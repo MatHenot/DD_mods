@@ -34,6 +34,7 @@
 	<entry id="str_inventory_title_trinketsnake_charmer_master_correspondence"><![CDATA[La Correspondance du Maître]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_melody"><![CDATA[Mélodie]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_cristal_pendant"><![CDATA[Pendentif de Cristal]]></entry>
+	<entry id="str_inventory_title_trinketsnake_charmer_head"><![CDATA[Tête de Dahomet]]></entry>
 	
 	<entry id="combat_skill_name_snake_charmer_venomous_fang"><![CDATA[Crocs venimeux]]></entry>
     <entry id="combat_skill_name_snake_charmer_mamba_dance"><![CDATA[Danse du Mamba]]></entry>
@@ -72,6 +73,8 @@
 	
 	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s si %s dans l'inventaire]]></entry>
     <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antidote]]></entry>
+
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[Dommages d'{colour_start|blight}Infection{colour_end} %+d%%]]></entry>
 
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[Constriction]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Charme vicieux]]></entry>

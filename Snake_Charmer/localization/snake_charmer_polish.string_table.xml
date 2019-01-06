@@ -33,7 +33,8 @@
     <entry id="str_inventory_set_title_cc_snake_charmer"><![CDATA["Majorat i oddanie."]]></entry>
     <entry id="str_inventory_title_trinketsnake_charmer_master_correspondence"><![CDATA[Korespondencja Mistrza]]></entry>
     <entry id="str_inventory_title_trinketsnake_charmer_melody"><![CDATA[Melodia]]></entry>
-    <entry id="str_inventory_title_trinketsnake_charmer_cristal_pendant"><![CDATA[Kryształowy Wisior]]></entry>
+    <entry id="str_inventory_title_trinketsnake_charmer_cristal_pendant"><![CDATA[Kryształowy Wisior]]></entry> 
+	<entry id="str_inventory_title_trinketsnake_charmer_head"><![CDATA[Głowa Dahometa]]></entry>
     
     <entry id="combat_skill_name_snake_charmer_venomous_fang"><![CDATA[Jadowite Kły]]></entry>
     <entry id="combat_skill_name_snake_charmer_mamba_dance"><![CDATA[Taniec Mamby]]></entry>
@@ -72,6 +73,8 @@
     
     <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s jeżeli %s jest w ekwipunku]]></entry>
     <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Serum]]></entry>
+
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% obrażeń od {colour_start|blight}Zaraza{colour_end}]]></entry>
 
     <entry id="buff_rule_data_tooltip_constriction"><![CDATA[Uścisk]]></entry>
     <entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Złośliwy Urok]]></entry>

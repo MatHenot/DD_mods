@@ -34,6 +34,7 @@
 	<entry id="str_inventory_title_trinketsnake_charmer_master_correspondence"><![CDATA[주군의 서신]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_melody"><![CDATA[멜로디]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_cristal_pendant"><![CDATA[수정 목걸이]]></entry>
+	<entry id="str_inventory_title_trinketsnake_charmer_head"><![CDATA[다 헤드의 머리]]></entry>
 	
 	<entry id="combat_skill_name_snake_charmer_venomous_fang"><![CDATA[독 송곳니]]></entry>
     <entry id="combat_skill_name_snake_charmer_mamba_dance"><![CDATA[코브라 춤]]></entry>
@@ -72,6 +73,8 @@
 
     <entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s ("%s" 물품을 소지하고 있을 때)]]></entry>
     <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[해독제]]></entry>
+
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[{colour_start|blight}중독{colour_end} 데미지 %+d%%]]></entry>
 
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[옥죄어라]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[사악한 부적]]></entry>

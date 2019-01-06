@@ -34,6 +34,7 @@
 	<entry id="str_inventory_title_trinketsnake_charmer_master_correspondence"><![CDATA[Корреспонденция мастера]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_melody"><![CDATA[Хулусы]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_cristal_pendant"><![CDATA[Кристальный медальон]]></entry>
+	<entry id="str_inventory_title_trinketsnake_charmer_head"><![CDATA[Голова дагомета]]></entry>
 	
 	<entry id="combat_skill_name_snake_charmer_venomous_fang"><![CDATA[Ядовитые клыки]]></entry>
     <entry id="combat_skill_name_snake_charmer_mamba_dance"><![CDATA[Танец Мамбо]]></entry>
@@ -72,6 +73,8 @@
 	
 	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s если %s в инвентаре]]></entry>
     <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Противоядие]]></entry>
+
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[ущерб от {colour_start|blight}Яд{colour_end} %+d%%]]></entry>
 
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[Стягивание]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Леденящее душу очарование]]></entry>
