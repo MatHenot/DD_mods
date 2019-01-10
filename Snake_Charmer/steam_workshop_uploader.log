@@ -145,6 +145,9 @@ heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_fx.skel
 heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_target.atlas
 heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_target.png
 heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_target.skel
+heroes/snake_charmer/fx/snake_charmer.sprite.snekriposte.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.snekriposte.png
+heroes/snake_charmer/fx/snake_charmer.sprite.snekriposte.skel
 heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.atlas
 heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.png
 heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.skel
@@ -182,6 +185,9 @@ audio/secondary_banks/hero_snake_charmer.bank
 campaign/provision/snake_charmer.provision.json
 campaign/roster/snake_charmer.roster.additional_variables.json
 campaign/town_events/snake_charmer.town_events.events.json
+fx/town_event_dual_snake/town_event_dual_snake.sprite.atlas
+fx/town_event_dual_snake/town_event_dual_snake.sprite.png
+fx/town_event_dual_snake/town_event_dual_snake.sprite.skel
 heroes/snake_charmer/snake_charmer.ability.five.png
 heroes/snake_charmer/snake_charmer.ability.four.png
 heroes/snake_charmer/snake_charmer.ability.one.png
@@ -236,6 +242,6 @@ project.xml
 snake_charmer.xml
 snake_charmer_test.xml
 
-Submitting...............................................................................................................................Submitted.
+Submitting.................................................................................................................Submitted.
 Saving project file D:\DD_mods\Snake_Charmer\snake_charmer_test.xml
 

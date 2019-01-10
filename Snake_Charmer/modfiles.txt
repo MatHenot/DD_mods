@@ -66,7 +66,7 @@ heroes/snake_charmer/anim/snake_charmer.sprite.afflicted.skel 4015
 heroes/snake_charmer/anim/snake_charmer.sprite.camp.atlas 305
 heroes/snake_charmer/anim/snake_charmer.sprite.camp.skel 968
 heroes/snake_charmer/anim/snake_charmer.sprite.combat.atlas 2447
-heroes/snake_charmer/anim/snake_charmer.sprite.combat.skel 49003
+heroes/snake_charmer/anim/snake_charmer.sprite.combat.skel 49068
 heroes/snake_charmer/anim/snake_charmer.sprite.constriction.atlas 329
 heroes/snake_charmer/anim/snake_charmer.sprite.constriction.skel 314
 heroes/snake_charmer/anim/snake_charmer.sprite.defend.atlas 306
@@ -78,7 +78,7 @@ heroes/snake_charmer/anim/snake_charmer.sprite.flute_buff.skel 2391
 heroes/snake_charmer/anim/snake_charmer.sprite.heroic.atlas 426
 heroes/snake_charmer/anim/snake_charmer.sprite.heroic.skel 4865
 heroes/snake_charmer/anim/snake_charmer.sprite.idle.atlas 2368
-heroes/snake_charmer/anim/snake_charmer.sprite.idle.skel 51099
+heroes/snake_charmer/anim/snake_charmer.sprite.idle.skel 39143
 heroes/snake_charmer/anim/snake_charmer.sprite.investigate.atlas 323
 heroes/snake_charmer/anim/snake_charmer.sprite.investigate.skel 371
 heroes/snake_charmer/anim/snake_charmer.sprite.mamba_dance.atlas 318
@@ -90,7 +90,7 @@ heroes/snake_charmer/anim/snake_charmer.sprite.riposte.skel 533
 heroes/snake_charmer/anim/snake_charmer.sprite.venomous_fang .atlas 331
 heroes/snake_charmer/anim/snake_charmer.sprite.venomous_fang .skel 382
 heroes/snake_charmer/anim/snake_charmer.sprite.walk.atlas 2368
-heroes/snake_charmer/anim/snake_charmer.sprite.walk.skel 36356
+heroes/snake_charmer/anim/snake_charmer.sprite.walk.skel 36446
 heroes/snake_charmer/fx/snake_charmer.sprite.calming_toxin_target.atlas 752
 heroes/snake_charmer/fx/snake_charmer.sprite.calming_toxin_target.png 99640
 heroes/snake_charmer/fx/snake_charmer.sprite.calming_toxin_target.skel 1184
@@ -109,6 +109,9 @@ heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_fx.skel 1791
 heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_target.atlas 647
 heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_target.png 225212
 heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_target.skel 3301
+heroes/snake_charmer/fx/snake_charmer.sprite.snekriposte.atlas 401
+heroes/snake_charmer/fx/snake_charmer.sprite.snekriposte.png 71291
+heroes/snake_charmer/fx/snake_charmer.sprite.snekriposte.skel 11260
 heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.atlas 323
 heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.png 12120
 heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.skel 371
@@ -132,7 +135,7 @@ heroes/snake_charmer/snake_charmer_D/snake_charmer_portrait_roster.png 38406
 panels/icons_equip/trinket/inv_trinket+snake_charmer_ancient_knowledge.png 45129
 panels/icons_equip/trinket/inv_trinket+snake_charmer_cristal_pendant.png 97158
 panels/icons_equip/trinket/inv_trinket+snake_charmer_fabric_strap.png 45091
-panels/icons_equip/trinket/inv_trinket+snake_charmer_head.png 15838
+panels/icons_equip/trinket/inv_trinket+snake_charmer_head.png 27098
 panels/icons_equip/trinket/inv_trinket+snake_charmer_master_correspondence.png 44417
 panels/icons_equip/trinket/inv_trinket+snake_charmer_melody.png 44471
 panels/icons_equip/trinket/inv_trinket+snake_charmer_reptilian_plates.png 48478
@@ -145,7 +148,10 @@ raid/camping/skill_icons/camp_skill_reserve.png 34519
 audio/secondary_banks/hero_snake_charmer.bank 2069440
 campaign/provision/snake_charmer.provision.json 258
 campaign/roster/snake_charmer.roster.additional_variables.json 63
-campaign/town_events/snake_charmer.town_events.events.json 1687
+campaign/town_events/snake_charmer.town_events.events.json 1714
+fx/town_event_dual_snake/town_event_dual_snake.sprite.atlas 212
+fx/town_event_dual_snake/town_event_dual_snake.sprite.png 10675
+fx/town_event_dual_snake/town_event_dual_snake.sprite.skel 184
 heroes/snake_charmer/snake_charmer.ability.five.png 39162
 heroes/snake_charmer/snake_charmer.ability.four.png 38648
 heroes/snake_charmer/snake_charmer.ability.one.png 38296
@@ -154,14 +160,14 @@ heroes/snake_charmer/snake_charmer.ability.six.png 39194
 heroes/snake_charmer/snake_charmer.ability.three.png 97348
 heroes/snake_charmer/snake_charmer.ability.two.png 96273
 heroes/snake_charmer/snake_charmer.art.darkest 2191
-heroes/snake_charmer/snake_charmer.info.darkest 9736
+heroes/snake_charmer/snake_charmer.info.darkest 9981
 heroes/snake_charmer/snake_charmer_guild_header.png 260742
 raid/camping/snake_charmer.camping_skills.json 5490
-shared/buffs/snake_charmer.buffs.json 27506
+shared/buffs/snake_charmer.buffs.json 36342
 upgrades/heroes/snake_charmer.upgrades.json 21506
 audio/snake_charmer.heroes.guid_overrides.json 2278
 audio/snake_charmer.heroes.load_order.json 88
-effects/snake_charmer.effects.darkest 17205
+effects/snake_charmer.effects.darkest 17827
 localization/1614204353_brazilian.loc 27762
 localization/1614204353_czech.loc 26337
 localization/1614204353_english.loc 26337
@@ -194,8 +200,8 @@ trinkets/com.rarities.trinkets.json 428
 trinkets/crimson_court.rarities.trinkets.json 171
 trinkets/snake_charmer.entries.trinkets.json 4107
 trinkets/snake_charmer.sets.trinkets.json 194
-modfiles.txt 13518
-preview_icon.png 906191
+modfiles.txt 13936
+preview_icon.png 627215
 project.xml 635
 snake_charmer.xml 726
 snake_charmer_test.xml 635
