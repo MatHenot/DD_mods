@@ -93,22 +93,20 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100A"><![CDATA[{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100B"><![CDATA[{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 3pts/rd for 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 3pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_skillA"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end} / {colour_start|riposte}Riposte{colour_end} DMG -50%%]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_skillC1"><![CDATA[Duration 4 rounds / PROT +10%
-Cancels if move]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_skillC2"><![CDATA[Duration 4 rounds / PROT +12%
-Cancels if move]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_skillC3"><![CDATA[Duration 4 rounds / PROT +15%
-Cancels if move]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_skillC4"><![CDATA[Duration 4 rounds / PROT +17%
-Cancels if move]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_skillC5"><![CDATA[Duration 4 rounds / PROT +20%
-Cancels if move]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_A"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}Riposte{colour_end}: -50%% DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D1"><![CDATA[PROT +10%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D2"><![CDATA[PROT +12%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D3"><![CDATA[PROT +15%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D4"><![CDATA[PROT +17%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D5"><![CDATA[PROT +20%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_E"><![CDATA[Duration 4 rds / Removed on move]]></entry>
 
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[This trip was pure madness!]]></entry>
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Nothing could have prepared me for that...]]></entry>

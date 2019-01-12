@@ -93,12 +93,20 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100A"><![CDATA[{colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(100%% база){colour_end} 2 oчкoв/раунд за 2 раунд]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100B"><![CDATA[{colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(100%% база){colour_end} 3 oчкoв/раунд за 2 раунд]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(110%% база){colour_end} 3 oчкoв/раунд за 2 раунд]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(100%% база){colour_end} 2 oчкoв/раунд за 2 раунд]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(110%% база){colour_end} 2 oчкoв/раунд за 2 раунд)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(120%% база){colour_end} 3 oчкoв/раунд за 2 раунд)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(130%% база){colour_end} 3 oчкoв/раунд за 2 раунд)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(140%% база){colour_end} 4 oчкoв/раунд за 2 раунд)]]></entry>
-	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_A"><![CDATA[Задействуег colour_start|riposte}парирование{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}Парирование{colour_end}: -50%% УРН]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C1"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(100%% база){colour_end} 2 oчкoв/раунд за 2 раунд]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C2"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(110%% база){colour_end} 2 oчкoв/раунд за 2 раунд)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C3"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(120%% база){colour_end} 3 oчкoв/раунд за 2 раунд)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C4"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(130%% база){colour_end} 3 oчкoв/раунд за 2 раунд)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C5"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(140%% база){colour_end} 4 oчкoв/раунд за 2 раунд)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D1"><![CDATA[+10%% ЗАЩ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D2"><![CDATA[+12%% ЗАЩ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D3"><![CDATA[+15%% ЗАЩ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D4"><![CDATA[+17%% ЗАЩ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D5"><![CDATA[+20%% ЗАЩ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_E"><![CDATA[Продолжительность 4 раунд / Удалено во время переезда]]></entry>
 		
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Эта поездка была полным безумием!]]></entry>
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Ничто не смогло бы меня подготовить к такому...]]></entry>

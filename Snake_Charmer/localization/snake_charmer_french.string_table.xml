@@ -93,12 +93,20 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100A"><![CDATA[{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 100%%){colour_end} 2 pts/tr sur 2 trs]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100B"><![CDATA[{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 100%%){colour_end} 3 pts/tr sur 2 trs]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 110%%){colour_end} 3 pts/tr sur 2 trs]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 100%%){colour_end} 2 pts/tr sur 2 trs]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 110%%){colour_end} 2 pts/tr sur 2 trs]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 120%%){colour_end} 3 pts/tr sur 2 trs]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 130%%){colour_end} 3 pts/tr sur 2 trs]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 140%%){colour_end} 4 pts/tr sur 2 trs]]></entry>
-	
+
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_A"><![CDATA[Active la {colour_start|riposte}riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}Riposte{colour_end} : DMG -50%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C1"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 100%%){colour_end} 2 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C2"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 110%%){colour_end} 2 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C3"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 120%%){colour_end} 3 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C4"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 130%%){colour_end} 3 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C5"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 140%%){colour_end} 4 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D1"><![CDATA[PROT +10%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D2"><![CDATA[PROT +12%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D3"><![CDATA[PROT +15%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D4"><![CDATA[PROT +17%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D5"><![CDATA[PROT +20%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_E"><![CDATA[Durée de 4 trs / Supprimé lors d'un déplacement]]></entry>	
 		
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Ce voyage n'était que pure folie !]]></entry>
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Rien n'aurais pu me préparer à ça...]]></entry>

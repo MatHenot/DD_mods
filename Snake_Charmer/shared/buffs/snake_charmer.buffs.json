@@ -181,9 +181,9 @@
 		},
 		
 		{
-			"id" : "RT_ToolTip_R1_1",
+			"id" : "RT_Effect_ToolTip_R1_1",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte1",
+			"stat_sub_type" : "riposte_C1",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -194,9 +194,9 @@
 			}
 		},		
 		{
-			"id" : "RT_ToolTip_R2_1",
+			"id" : "RT_Effect_ToolTip_R2_1",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte1",
+			"stat_sub_type" : "riposte_C1",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -207,9 +207,9 @@
 			}
 		},			
 		{
-			"id" : "RT_ToolTip_R3_1",
+			"id" : "RT_Effect_ToolTip_R3_1",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte1",
+			"stat_sub_type" : "riposte_C1",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -220,9 +220,9 @@
 			}
 		},			
 		{
-			"id" : "RT_ToolTip_R4_1",
+			"id" : "RT_Effect_ToolTip_R4_1",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte1",
+			"stat_sub_type" : "riposte_C1",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -286,9 +286,9 @@
 		},
 		
 		{
-			"id" : "RT_ToolTip_R1_2",
+			"id" : "RT_Effect_ToolTip_R1_2",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte2",
+			"stat_sub_type" : "riposte_C2",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -299,9 +299,9 @@
 			}
 		},		
 		{
-			"id" : "RT_ToolTip_R2_2",
+			"id" : "RT_Effect_ToolTip_R2_2",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte2",
+			"stat_sub_type" : "riposte_C2",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -312,9 +312,9 @@
 			}
 		},			
 		{
-			"id" : "RT_ToolTip_R3_2",
+			"id" : "RT_Effect_ToolTip_R3_2",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte2",
+			"stat_sub_type" : "riposte_C2",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -325,9 +325,9 @@
 			}
 		},			
 		{
-			"id" : "RT_ToolTip_R4_2",
+			"id" : "RT_Effect_ToolTip_R4_2",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte2",
+			"stat_sub_type" : "riposte_C2",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -391,9 +391,9 @@
 		},
 		
 		{
-			"id" : "RT_ToolTip_R1_3",
+			"id" : "RT_Effect_ToolTip_R1_3",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte3",
+			"stat_sub_type" : "riposte_C3",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -404,9 +404,9 @@
 			}
 		},		
 		{
-			"id" : "RT_ToolTip_R2_3",
+			"id" : "RT_Effect_ToolTip_R2_3",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte3",
+			"stat_sub_type" : "riposte_C3",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -417,9 +417,9 @@
 			}
 		},			
 		{
-			"id" : "RT_ToolTip_R3_3",
+			"id" : "RT_Effect_ToolTip_R3_3",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte3",
+			"stat_sub_type" : "riposte_C3",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -430,9 +430,9 @@
 			}
 		},			
 		{
-			"id" : "RT_ToolTip_R4_3",
+			"id" : "RT_Effect_ToolTip_R4_3",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte3",
+			"stat_sub_type" : "riposte_C3",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -496,9 +496,9 @@
 		},
 		
 		{
-			"id" : "RT_ToolTip_R1_4",
+			"id" : "RT_Effect_ToolTip_R1_4",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte4",
+			"stat_sub_type" : "riposte_C4",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -509,9 +509,9 @@
 			}
 		},		
 		{
-			"id" : "RT_ToolTip_R2_4",
+			"id" : "RT_Effect_ToolTip_R2_4",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte4",
+			"stat_sub_type" : "riposte_C4",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -522,9 +522,9 @@
 			}
 		},			
 		{
-			"id" : "RT_ToolTip_R3_4",
+			"id" : "RT_Effect_ToolTip_R3_4",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte4",
+			"stat_sub_type" : "riposte_C4",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -535,9 +535,9 @@
 			}
 		},			
 		{
-			"id" : "RT_ToolTip_R4_4",
+			"id" : "RT_Effect_ToolTip_R4_4",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte4",
+			"stat_sub_type" : "riposte_C4",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -602,9 +602,9 @@
 		},
 		
 		{
-			"id" : "RT_ToolTip_R1_5",
+			"id" : "RT_Effect_ToolTip_R1_5",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte5",
+			"stat_sub_type" : "riposte_C5",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -615,9 +615,9 @@
 			}
 		},		
 		{
-			"id" : "RT_ToolTip_R2_5",
+			"id" : "RT_Effect_ToolTip_R2_5",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte5",
+			"stat_sub_type" : "riposte_C5",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -628,9 +628,9 @@
 			}
 		},			
 		{
-			"id" : "RT_ToolTip_R3_5",
+			"id" : "RT_Effect_ToolTip_R3_5",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte5",
+			"stat_sub_type" : "riposte_C5",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -641,9 +641,9 @@
 			}
 		},			
 		{
-			"id" : "RT_ToolTip_R4_5",
+			"id" : "RT_Effect_ToolTip_R4_5",
 			"stat_type" : "upgrade_discount",
-			"stat_sub_type" : "riposte5",
+			"stat_sub_type" : "riposte_C5",
 			"amount" : 1,
 			"remove_if_not_active" : true,
 			"rule_type" : "in_rank",
@@ -653,7 +653,73 @@
 				"string" : ""
 			}
 		},			
-	  
+
+		{
+			"id" : "RT_DMG_ToolTip_R1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte_B",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},	
+		{
+			"id" : "RT_DMG_ToolTip_R2",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte_B",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 1,
+				"string" : ""
+			}
+		},	
+		{
+			"id" : "RT_DMG_ToolTip_R3",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte_B",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 2,
+				"string" : ""
+			}
+		},	
+		{
+			"id" : "RT_DMG_ToolTip_R4",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte_B",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+		},	
+		{
+			"id" : "RT_DMG_ToolTip_R5",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte_B",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+		},	
+  
 		{
 			"id" : "RT_riposte_HitChance_R1",
 			"stat_type" : "combat_stat_add",
@@ -1029,9 +1095,9 @@
 		},
 
 		{
-			"id": "SC_RT_Skill_ToolTip_A",
+			"id": "SC_RT_ToolTip_A",
 			"stat_type": "upgrade_discount",
-			"stat_sub_type": "riposte_skillA",
+			"stat_sub_type": "riposte_A",
 			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
@@ -1042,9 +1108,9 @@
 			}
 		},
 		{
-			"id": "SC_RT_Skill_ToolTip_B1",
+			"id": "SC_RT_ToolTip_B",
 			"stat_type": "upgrade_discount",
-			"stat_sub_type": "riposte1",
+			"stat_sub_type": "riposte_B",
 			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
@@ -1055,9 +1121,22 @@
 			}
 		},
 		{
-			"id": "SC_RT_Skill_ToolTip_B2",
+			"id": "SC_RT_ToolTip_C1",
 			"stat_type": "upgrade_discount",
-			"stat_sub_type": "riposte2",
+			"stat_sub_type": "riposte_C1",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_RT_ToolTip_C2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_C2",
 			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
@@ -1068,9 +1147,9 @@
 			}
 		},	
 		{
-			"id": "SC_RT_Skill_ToolTip_B3",
+			"id": "SC_RT_ToolTip_C3",
 			"stat_type": "upgrade_discount",
-			"stat_sub_type": "riposte3",
+			"stat_sub_type": "riposte_C3",
 			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
@@ -1081,9 +1160,9 @@
 			}
 		},	
 		{
-			"id": "SC_RT_Skill_ToolTip_B4",
+			"id": "SC_RT_ToolTip_C4",
 			"stat_type": "upgrade_discount",
-			"stat_sub_type": "riposte4",
+			"stat_sub_type": "riposte_C4",
 			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
@@ -1094,9 +1173,9 @@
 			}
 		},	
 		{
-			"id": "SC_RT_Skill_ToolTip_B5",
+			"id": "SC_RT_ToolTip_C5",
 			"stat_type": "upgrade_discount",
-			"stat_sub_type": "riposte5",
+			"stat_sub_type": "riposte_C5",
 			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
@@ -1107,9 +1186,9 @@
 			}
 		},			
 		{
-			"id": "SC_RT_Skill_ToolTip_C1",
+			"id": "SC_RT_ToolTip_D1",
 			"stat_type": "upgrade_discount",
-			"stat_sub_type": "riposte_skillC1",
+			"stat_sub_type": "riposte_D1",
 			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
@@ -1120,9 +1199,9 @@
 			}
 		},
 		{
-			"id": "SC_RT_Skill_ToolTip_C2",
+			"id": "SC_RT_ToolTip_D2",
 			"stat_type": "upgrade_discount",
-			"stat_sub_type": "riposte_skillC2",
+			"stat_sub_type": "riposte_D2",
 			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
@@ -1133,9 +1212,9 @@
 			}
 		},	
 		{
-			"id": "SC_RT_Skill_ToolTip_C3",
+			"id": "SC_RT_ToolTip_D3",
 			"stat_type": "upgrade_discount",
-			"stat_sub_type": "riposte_skillC3",
+			"stat_sub_type": "riposte_D3",
 			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
@@ -1146,9 +1225,9 @@
 			}
 		},	
 		{
-			"id": "SC_RT_Skill_ToolTip_C4",
+			"id": "SC_RT_ToolTip_D4",
 			"stat_type": "upgrade_discount",
-			"stat_sub_type": "riposte_skillC4",
+			"stat_sub_type": "riposte_D4",
 			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
@@ -1159,9 +1238,9 @@
 			}
 		},	
 		{
-			"id": "SC_RT_Skill_ToolTip_C5",
+			"id": "SC_RT_ToolTip_D5",
 			"stat_type": "upgrade_discount",
-			"stat_sub_type": "riposte_skillC5",
+			"stat_sub_type": "riposte_D5",
 			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
@@ -1171,7 +1250,20 @@
 				"string": ""
 			}
 		},		
-
+		{
+			"id": "SC_RT_ToolTip_E",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_E",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		
 		
 		{
 			"id": "SC_VC_ToolTip_A",
