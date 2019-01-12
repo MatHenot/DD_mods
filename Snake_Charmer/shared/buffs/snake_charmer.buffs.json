@@ -121,8 +121,928 @@
 		},
 
 
+
+
+
+
+
+
 		{
-			"id": "SC_RT_ToolTip_1",
+			"id" : "RT_riposte_R1_1",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 1",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R2_1",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 1",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 1,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R3_1",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 1",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 2,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R4_1",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 1",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+		},
+		
+		{
+			"id" : "RT_ToolTip_R1_1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte1",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},		
+		{
+			"id" : "RT_ToolTip_R2_1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte1",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 1,
+				"string" : ""
+			}
+		},			
+		{
+			"id" : "RT_ToolTip_R3_1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte1",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 2,
+				"string" : ""
+			}
+		},			
+		{
+			"id" : "RT_ToolTip_R4_1",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte1",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+		},			
+		{
+			"id" : "RT_riposte_R1_2",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 2",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R2_2",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 2",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 1,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R3_2",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 2",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 2,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R4_2",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 2",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+		},
+		
+		{
+			"id" : "RT_ToolTip_R1_2",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte2",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},		
+		{
+			"id" : "RT_ToolTip_R2_2",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte2",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 1,
+				"string" : ""
+			}
+		},			
+		{
+			"id" : "RT_ToolTip_R3_2",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte2",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 2,
+				"string" : ""
+			}
+		},			
+		{
+			"id" : "RT_ToolTip_R4_2",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte2",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+		},			
+		{
+			"id" : "RT_riposte_R1_3",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 3",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R2_3",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 3",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 1,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R3_3",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 3",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 2,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R4_3",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 3",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+		},
+		
+		{
+			"id" : "RT_ToolTip_R1_3",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte3",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},		
+		{
+			"id" : "RT_ToolTip_R2_3",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte3",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 1,
+				"string" : ""
+			}
+		},			
+		{
+			"id" : "RT_ToolTip_R3_3",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte3",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 2,
+				"string" : ""
+			}
+		},			
+		{
+			"id" : "RT_ToolTip_R4_3",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte3",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+		},			
+		{
+			"id" : "RT_riposte_R1_4",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 4",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R2_4",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 4",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 1,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R3_4",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 4",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 2,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R4_4",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 4",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+		},
+		
+		{
+			"id" : "RT_ToolTip_R1_4",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte4",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},		
+		{
+			"id" : "RT_ToolTip_R2_4",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte4",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 1,
+				"string" : ""
+			}
+		},			
+		{
+			"id" : "RT_ToolTip_R3_4",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte4",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 2,
+				"string" : ""
+			}
+		},			
+		{
+			"id" : "RT_ToolTip_R4_4",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte4",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+		},			
+	  	  	  	  
+		{
+			"id" : "RT_riposte_R1_5",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 5",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R2_5",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 5",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 1,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R3_5",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 5",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 2,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_R4_5",
+			"stat_type" : "riposte",
+			"stat_sub_type" : "SC RT riposte blight 5",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+		},
+		
+		{
+			"id" : "RT_ToolTip_R1_5",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte5",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},		
+		{
+			"id" : "RT_ToolTip_R2_5",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte5",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 1,
+				"string" : ""
+			}
+		},			
+		{
+			"id" : "RT_ToolTip_R3_5",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte5",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 2,
+				"string" : ""
+			}
+		},			
+		{
+			"id" : "RT_ToolTip_R4_5",
+			"stat_type" : "upgrade_discount",
+			"stat_sub_type" : "riposte5",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+		},			
+	  
+		{
+			"id" : "RT_riposte_HitChance_R1",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "riposte_on_hit_chance",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			},
+			"fx": "snekriposte"
+		},
+		{
+			"id" : "RT_riposte_MissChance_R1",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "riposte_on_miss_chance",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 0,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_HitChance_R2",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "riposte_on_hit_chance",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 1,
+				"string" : ""
+			},
+			"fx": "snekriposte"
+		},
+		{
+			"id" : "RT_riposte_MissChance_R2",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "riposte_on_miss_chance",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 1,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_HitChance_R3",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "riposte_on_hit_chance",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 2,
+				"string" : ""
+			},
+			"fx": "snekriposte"
+		},
+		{
+			"id" : "RT_riposte_MissChance_R3",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "riposte_on_miss_chance",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 2,
+				"string" : ""
+			}
+		},
+		{
+			"id" : "RT_riposte_HitChance_R4",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "riposte_on_hit_chance",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			},
+			"fx": "snekriposte"
+		},
+		{
+			"id" : "RT_riposte_MissChance_R4",
+			"stat_type" : "combat_stat_add",
+			"stat_sub_type" : "riposte_on_miss_chance",
+			"amount" : 1,
+			"remove_if_not_active" : true,
+			"rule_type" : "in_rank",
+			"is_false_rule" : false,
+			"rule_data" : {
+				"float" : 3,
+				"string" : ""
+			}
+		},
+
+		{
+			"id": "RT_prot_R1_1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.1,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R2_1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.1,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 1,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R3_1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.1,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 2,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R4_1",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.1,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 3,
+				"string": ""
+			}
+		},
+
+		{
+			"id": "RT_prot_R1_2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.12,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R2_2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.12,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 1,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R3_2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.12,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 2,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R4_2",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.12,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 3,
+				"string": ""
+			}
+		},
+
+		{
+			"id": "RT_prot_R1_3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.15,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R2_3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.15,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 1,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R3_3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.15,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 2,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R4_3",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.15,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 3,
+				"string": ""
+			}
+		},
+
+		{
+			"id": "RT_prot_R1_4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.17,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R2_4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.17,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 1,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R3_4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.17,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 2,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R4_4",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.17,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 3,
+				"string": ""
+			}
+		},
+
+		{
+			"id": "RT_prot_R1_5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.2,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R2_5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.2,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 1,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R3_5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.2,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 2,
+				"string": ""
+			}
+		},
+		{
+			"id": "RT_prot_R4_5",
+			"stat_type": "combat_stat_add",
+			"stat_sub_type": "protection_rating",
+			"amount": 0.2,
+			"remove_if_not_active": true,
+			"rule_type": "in_rank",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 3,
+				"string": ""
+			}
+		},
+
+		{
+			"id": "SC_RT_Skill_ToolTip_A",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_skillA",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_RT_Skill_ToolTip_B1",
 			"stat_type": "upgrade_discount",
 			"stat_sub_type": "riposte1",
 			"amount": 1,
@@ -135,10 +1055,10 @@
 			}
 		},
 		{
-			"id": "SC_RT_ToolTip_2",
+			"id": "SC_RT_Skill_ToolTip_B2",
 			"stat_type": "upgrade_discount",
 			"stat_sub_type": "riposte2",
-			"amount": 1.10,
+			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
 			"is_false_rule": false,
@@ -146,12 +1066,12 @@
 				"float": 0,
 				"string": ""
 			}
-		},
+		},	
 		{
-			"id": "SC_RT_ToolTip_3",
+			"id": "SC_RT_Skill_ToolTip_B3",
 			"stat_type": "upgrade_discount",
 			"stat_sub_type": "riposte3",
-			"amount": 1.20,
+			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
 			"is_false_rule": false,
@@ -159,12 +1079,12 @@
 				"float": 0,
 				"string": ""
 			}
-		},
+		},	
 		{
-			"id": "SC_RT_ToolTip_4",
+			"id": "SC_RT_Skill_ToolTip_B4",
 			"stat_type": "upgrade_discount",
 			"stat_sub_type": "riposte4",
-			"amount": 1.30,
+			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
 			"is_false_rule": false,
@@ -172,12 +1092,25 @@
 				"float": 0,
 				"string": ""
 			}
-		},
+		},	
 		{
-			"id": "SC_RT_ToolTip_5",
+			"id": "SC_RT_Skill_ToolTip_B5",
 			"stat_type": "upgrade_discount",
 			"stat_sub_type": "riposte5",
-			"amount": 1.40,
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},			
+		{
+			"id": "SC_RT_Skill_ToolTip_C1",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_skillC1",
+			"amount": 1,
 			"remove_if_not_active": false,
 			"rule_type": "always",
 			"is_false_rule": false,
@@ -186,689 +1119,59 @@
 				"string": ""
 			}
 		},
+		{
+			"id": "SC_RT_Skill_ToolTip_C2",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_skillC2",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},	
+		{
+			"id": "SC_RT_Skill_ToolTip_C3",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_skillC3",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},	
+		{
+			"id": "SC_RT_Skill_ToolTip_C4",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_skillC4",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},	
+		{
+			"id": "SC_RT_Skill_ToolTip_C5",
+			"stat_type": "upgrade_discount",
+			"stat_sub_type": "riposte_skillC5",
+			"amount": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},		
 
-		{
-			"id": "RT_riposte_dmgL",
-			"stat_type": "combat_stat_multiply",
-			"stat_sub_type": "damage_low",
-			"amount": -0.5,
-			"remove_if_not_active": true,
-			"rule_type": "riposte",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_riposte_dmgH",
-			"stat_type": "combat_stat_multiply",
-			"stat_sub_type": "damage_high",
-			"amount": -0.5,
-			"remove_if_not_active": true,
-			"rule_type": "riposte",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "0"
-			}
-		},
-		
-		{
-			"id": "RT_riposte_chance_on_hit_r1",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "riposte_on_hit_chance",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_riposte_chance_on_hit_r2",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "riposte_on_hit_chance",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 1,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_riposte_chance_on_hit_r3",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "riposte_on_hit_chance",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 2,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_riposte_chance_on_hit_r4",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "riposte_on_hit_chance",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 3,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_riposte_chance_on_miss_r1",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "riposte_on_miss_chance",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_riposte_chance_on_miss_r2",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "riposte_on_miss_chance",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 1,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_riposte_chance_on_miss_r3",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "riposte_on_miss_chance",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 2,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_riposte_chance_on_miss_r4",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "riposte_on_miss_chance",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 3,
-				"string": "0"
-			}
-		},
-		
-		{
-			"id": "RT_riposte_r1_1",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 1",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r2_1",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 1",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 1,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r3_1",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 1",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 2,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r4_1",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 1",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 3,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-
-		{
-			"id": "RT_riposte_r1_2",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 2",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r2_2",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 2",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 1,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r3_2",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 2",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 2,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r4_2",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 2",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 3,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-
-		{
-			"id": "RT_riposte_r1_3",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 3",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r2_3",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 3",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 1,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r3_3",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 3",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 2,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r4_3",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 3",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 3,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-
-		{
-			"id": "RT_riposte_r1_4",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 4",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r2_4",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 4",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 1,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r3_4",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 4",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 2,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r4_4",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 4",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 3,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-
-		{
-			"id": "RT_riposte_r1_5",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 5",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r2_5",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 5",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 1,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r3_5",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 5",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 2,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-		{
-			"id": "RT_riposte_r4_5",
-			"stat_type": "riposte",
-			"stat_sub_type": "SC RT riposte blight 5",
-			"amount": 1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 3,
-				"string": "0"
-			},
-			"fx": "snekriposte"
-		},
-
-		{
-			"id": "RT_prot_r1_1",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r2_1",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 1,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r3_1",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 2,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r4_1",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.1,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 3,
-				"string": "0"
-			}
-		},
-
-		{
-			"id": "RT_prot_r1_2",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.12,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r2_2",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.12,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 1,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r3_2",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.12,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 2,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r4_2",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.12,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 3,
-				"string": "0"
-			}
-		},
-
-		{
-			"id": "RT_prot_r1_3",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.15,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r2_3",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.15,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 1,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r3_3",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.15,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 2,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r4_3",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.15,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 3,
-				"string": "0"
-			}
-		},
-
-		{
-			"id": "RT_prot_r1_4",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.17,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r2_4",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.17,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 1,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r3_4",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.17,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 2,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r4_4",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.17,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 3,
-				"string": "0"
-			}
-		},
-
-		{
-			"id": "RT_prot_r1_5",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.2,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r2_5",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.2,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 1,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r3_5",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.2,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 2,
-				"string": "0"
-			}
-		},
-		{
-			"id": "RT_prot_r4_5",
-			"stat_type": "combat_stat_add",
-			"stat_sub_type": "protection_rating",
-			"amount": 0.2,
-			"remove_if_not_active": true,
-			"rule_type": "in_rank",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 3,
-				"string": "0"
-			}
-		},
-		
 		
 		{
 			"id": "SC_VC_ToolTip_A",
