@@ -95,7 +95,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 110%%){colour_end} 3 pts/tr sur 2 trs]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_A"><![CDATA[Active la {colour_start|riposte}riposte{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}Riposte{colour_end} : DMG -50%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}Riposte{colour_end} : DMG -20%%]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C1"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 100%%){colour_end} 2 pts/tr sur 2 trs]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C2"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 110%%){colour_end} 2 pts/tr sur 2 trs]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C3"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 120%%){colour_end} 3 pts/tr sur 2 trs]]></entry>

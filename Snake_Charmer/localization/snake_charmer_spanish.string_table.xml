@@ -95,7 +95,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}Infección{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 3 pts/r por 2 rds]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_A"><![CDATA[Activa la {colour_start|riposte}estocada{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}Estocada{colour_end}: -50%% DÑO]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}Estocada{colour_end}: -20%% DÑO]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C1"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|blight}Infección{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2 pts/r por 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C2"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|blight}Infección{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2 pts/r por 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C3"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|blight}Infección{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3 pts/r por 2 rds]]></entry>

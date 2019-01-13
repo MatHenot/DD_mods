@@ -95,7 +95,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 110%%){colour_end} 턴당 3 피해, 2턴 지속]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_A"><![CDATA[{colour_start|riposte}반격{colour_end} 활성화]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}반격{colour_end}: 피해 -50%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}반격{colour_end}: 피해 -20%%]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C1"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 100%%){colour_end} 턴당 2 피해, 2턴 지속]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C2"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 110%%){colour_end} 턴당 2 피해, 2턴 지속]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C3"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 120%%){colour_end} 턴당 3 피해, 2턴 지속]]></entry>

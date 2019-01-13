@@ -95,7 +95,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 3 pts/rd por 2 rds]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_A"><![CDATA[Activa {colour_start|riposte}revide{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}Revided{colour_end}: -50%% de DANO]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}Revide{colour_end}: -20%% de DANO]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C1"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2 pts/rd por 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C2"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2 pts/rd por 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C3"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3 pts/rd por 2 rds]]></entry>

@@ -119,12 +119,32 @@
 				"string": ""
 			}
 		},
-
-
-
-
-
-
+		{
+			"id": "SC_MB_blight_debuff_4",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.25,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_MB_blight_debuff_5",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.30,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
 
 
 		{
@@ -833,7 +853,7 @@
 			"id": "RT_prot_R1_1",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "protection_rating",
-			"amount": 0.1,
+			"amount": 0.10,
 			"remove_if_not_active": true,
 			"rule_type": "in_rank",
 			"is_false_rule": false,
@@ -846,7 +866,7 @@
 			"id": "RT_prot_R2_1",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "protection_rating",
-			"amount": 0.1,
+			"amount": 0.10,
 			"remove_if_not_active": true,
 			"rule_type": "in_rank",
 			"is_false_rule": false,
@@ -859,7 +879,7 @@
 			"id": "RT_prot_R3_1",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "protection_rating",
-			"amount": 0.1,
+			"amount": 0.10,
 			"remove_if_not_active": true,
 			"rule_type": "in_rank",
 			"is_false_rule": false,
@@ -872,7 +892,7 @@
 			"id": "RT_prot_R4_1",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "protection_rating",
-			"amount": 0.1,
+			"amount": 0.10,
 			"remove_if_not_active": true,
 			"rule_type": "in_rank",
 			"is_false_rule": false,
@@ -1045,7 +1065,7 @@
 			"id": "RT_prot_R1_5",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "protection_rating",
-			"amount": 0.2,
+			"amount": 0.20,
 			"remove_if_not_active": true,
 			"rule_type": "in_rank",
 			"is_false_rule": false,
@@ -1058,7 +1078,7 @@
 			"id": "RT_prot_R2_5",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "protection_rating",
-			"amount": 0.2,
+			"amount": 0.20,
 			"remove_if_not_active": true,
 			"rule_type": "in_rank",
 			"is_false_rule": false,
@@ -1071,7 +1091,7 @@
 			"id": "RT_prot_R3_5",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "protection_rating",
-			"amount": 0.2,
+			"amount": 0.20,
 			"remove_if_not_active": true,
 			"rule_type": "in_rank",
 			"is_false_rule": false,
@@ -1084,7 +1104,7 @@
 			"id": "RT_prot_R4_5",
 			"stat_type": "combat_stat_add",
 			"stat_sub_type": "protection_rating",
-			"amount": 0.2,
+			"amount": 0.20,
 			"remove_if_not_active": true,
 			"rule_type": "in_rank",
 			"is_false_rule": false,
@@ -1873,6 +1893,19 @@
 				"string": ""
 			}
 		},
+      {
+         "id" : "SC_T_fabric_strap_StressHeal",
+         "stat_type" : "stress_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
 
 		{
 			"id": "SC_T_reptilian_plates_ToolTip",

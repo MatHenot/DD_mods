@@ -42,7 +42,8 @@
             "SPDFIRSTROUND8",
             "SC_T_fabric_strap_RiposteDMGL",
             "SC_T_fabric_strap_RiposteDMGH",
-            "STRESSRECOVERY-20"
+			"TRINKET_MOVERESIST_B2",
+            "SC_T_fabric_strap_StressHeal"
          ],
          "hero_class_requirements":
          [

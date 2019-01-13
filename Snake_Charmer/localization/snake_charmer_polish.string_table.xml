@@ -96,7 +96,7 @@
 
 
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_A"><![CDATA[Aktywuje {colour_start|riposte}ripostę{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}Riposta{colour_end}: -50%% OBR]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}Riposta{colour_end}: -20%% OBR]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C1"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(100%% bazowe){colour_end} 2 pkt./rnd. przez 2 rnd.]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_riposte_C2"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(110%% bazowe){colour_end} 2 pkt./rnd. przez 2 rnd.]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_riposte_C3"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(120%% bazowe){colour_end} 3 pkt./rnd. przez 2 rnd.]]></entry>
