@@ -187,7 +187,7 @@ panels/icons_equip/trinket/inv_trinket+snake_charmer_vision_pendant.png
 raid/camping/skill_icons/camp_skill_exotic_spices.png
 raid/camping/skill_icons/camp_skill_melody.png
 raid/camping/skill_icons/camp_skill_mithridatism.png
-raid/camping/skill_icons/camp_skill_reserve.png
+raid/camping/skill_icons/camp_skill_prelude_to_blight.png
 audio/secondary_banks/hero_snake_charmer.bank
 campaign/provision/snake_charmer.provision.json
 campaign/roster/snake_charmer.roster.additional_variables.json
@@ -250,6 +250,6 @@ snake_charmer.png
 snake_charmer.xml
 snake_charmer_test.xml
 
-Submitting............................................................................................................Submitted.
+Submitting.............................................................................................................Submitted.
 Saving project file D:\DD_mods\Snake_Charmer\snake_charmer_test.xml
 

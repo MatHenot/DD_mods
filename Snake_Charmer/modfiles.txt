@@ -144,7 +144,7 @@ panels/icons_equip/trinket/inv_trinket+snake_charmer_vision_pendant.png 49046
 raid/camping/skill_icons/camp_skill_exotic_spices.png 42401
 raid/camping/skill_icons/camp_skill_melody.png 36150
 raid/camping/skill_icons/camp_skill_mithridatism.png 42492
-raid/camping/skill_icons/camp_skill_reserve.png 34519
+raid/camping/skill_icons/camp_skill_prelude_to_blight.png 34519
 audio/secondary_banks/hero_snake_charmer.bank 2069440
 campaign/provision/snake_charmer.provision.json 258
 campaign/roster/snake_charmer.roster.additional_variables.json 63
@@ -160,14 +160,14 @@ heroes/snake_charmer/snake_charmer.ability.six.png 39194
 heroes/snake_charmer/snake_charmer.ability.three.png 97348
 heroes/snake_charmer/snake_charmer.ability.two.png 96273
 heroes/snake_charmer/snake_charmer.art.darkest 2191
-heroes/snake_charmer/snake_charmer.info.darkest 9813
+heroes/snake_charmer/snake_charmer.info.darkest 9708
 heroes/snake_charmer/snake_charmer_guild_header.png 260742
-raid/camping/snake_charmer.camping_skills.json 5490
-shared/buffs/snake_charmer.buffs.json 45666
+raid/camping/snake_charmer.camping_skills.json 5732
+shared/buffs/snake_charmer.buffs.json 46884
 upgrades/heroes/snake_charmer.upgrades.json 21506
 audio/snake_charmer.heroes.guid_overrides.json 2278
 audio/snake_charmer.heroes.load_order.json 88
-effects/snake_charmer.effects.darkest 18543
+effects/snake_charmer.effects.darkest 17566
 localization/1614204353_brazilian.loc 28119
 localization/1614204353_czech.loc 26680
 localization/1614204353_english.loc 26680
