@@ -1968,7 +1968,7 @@
 			"stat_sub_type": "protection_rating",
 			"amount": 0.20,
 			"remove_if_not_active": false,
-			"rule_type": "in_rank",
+			"rule_type": "always",
 			"is_false_rule": false,
 			"rule_data": {
 				"float": 0,
@@ -2033,7 +2033,7 @@
 			"id": "SC_T_melody_StressHeal",
 			"stat_type": "stress_heal_percent",
 			"stat_sub_type": "",
-			"amount": 0.30,
+			"amount": 0.25,
 			"remove_if_not_active": false,
 			"rule_type": "always",
 			"is_false_rule": false,
