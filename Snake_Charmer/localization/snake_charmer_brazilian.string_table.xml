@@ -55,7 +55,7 @@
     <entry id="camping_skill_name_mithridatism"><![CDATA[MITRIDATISMO]]></entry>
     <entry id="camping_skill_name_exotic_spices"><![CDATA[ESPECIARIAS EXÓTICAS]]></entry>
     <entry id="camping_skill_name_melody"><![CDATA[MELODIA]]></entry>
-    <entry id="camping_skill_name_reserve"><![CDATA[RESERVA]]></entry>
+    <entry id="camping_skill_name_prelude"><![CDATA[PRELÚDIO]]></entry>
 	
 	<entry id="snake_charmer_weapon_0"><![CDATA[Caixa Enferrujada]]></entry>
     <entry id="snake_charmer_weapon_1"><![CDATA[Caixa Rústica]]></entry>
@@ -459,9 +459,9 @@
     <entry id="snake_charmer+str_bark_melody"><![CDATA[Hora do show! Seja atencioso e relaxe.]]></entry>
 	<entry id="snake_charmer+str_bark_melody"><![CDATA[Deixe-se levar pela dança da cobra.]]></entry>
 	<entry id="snake_charmer+str_bark_melody"><![CDATA[Admirar! Um show direto do Oriente.]]></entry>
-    <entry id="snake_charmer+str_bark_reserve"><![CDATA[Deixe-me configurar meu laboratório...]]></entry>
-	<entry id="snake_charmer+str_bark_reserve"><![CDATA[Oh, eu achei isso no fundo da minha caixa.]]></entry>
-	<entry id="snake_charmer+str_bark_reserve"><![CDATA[Não entre em pânico, eu ainda tenho alguns...]]></entry>
+    <entry id="snake_charmer+str_bark_prelude"><![CDATA[As cobras mais majestosas.]]></entry>
+	<entry id="snake_charmer+str_bark_prelude"><![CDATA[Maravilhoso!]]></entry>
+	<entry id="snake_charmer+str_bark_prelude"><![CDATA[Para começar bem ...]]></entry>
         
 	<entry id="snake_charmer+str_critbyhero"><![CDATA[Presas mortais atingidas duramente!]]></entry>
     <entry id="snake_charmer+str_critbyhero"><![CDATA[Eu vou te domar!]]></entry>

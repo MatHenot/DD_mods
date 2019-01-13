@@ -55,7 +55,7 @@
     <entry id="camping_skill_name_mithridatism"><![CDATA[МИТРИДАТИЗМ]]></entry>
     <entry id="camping_skill_name_exotic_spices"><![CDATA[ЭКЗОТИЧЕСКИЕ ПРЯНОСТИ]]></entry>
     <entry id="camping_skill_name_melody"><![CDATA[МЕЛОДИЯ]]></entry>
-    <entry id="camping_skill_name_reserve"><![CDATA[ПРИПАСЫ]]></entry>
+    <entry id="camping_skill_name_prelude"><![CDATA[ПРЕЛЮДИЯ]]></entry>
 	
 	<entry id="snake_charmer_weapon_0"><![CDATA[Ржавая Корзина]]></entry>
     <entry id="snake_charmer_weapon_1"><![CDATA[Грубая Корзина]]></entry>
@@ -459,9 +459,9 @@
     <entry id="snake_charmer+str_bark_melody"><![CDATA[Время для представления! Внемлите и расслабляйтесь.]]></entry>
 	<entry id="snake_charmer+str_bark_melody"><![CDATA[Отчистите свои умы глядя на танец змеи.]]></entry>
 	<entry id="snake_charmer+str_bark_melody"><![CDATA[Внемлите! Представление прямиком с Востока.]]></entry>
-    <entry id="snake_charmer+str_bark_reserve"><![CDATA[Давайте посмотрим что тут припасено...]]></entry>
-	<entry id="snake_charmer+str_bark_reserve"><![CDATA[Ох, глядите что я нашёл на дне корзины.]]></entry>
-	<entry id="snake_charmer+str_bark_reserve"><![CDATA[Без паники, У меня тут кое-что припрятанно...]]></entry>
+    <entry id="snake_charmer+str_bark_prelude"><![CDATA[Самая величественная из всех змей.]]></entry>
+	<entry id="snake_charmer+str_bark_prelude"><![CDATA[Замечательно!]]></entry>
+	<entry id="snake_charmer+str_bark_prelude"><![CDATA[Для начала...]]></entry>
         
 	<entry id="snake_charmer+str_critbyhero"><![CDATA[Смертельные клыки не щадят никого!]]></entry>
     <entry id="snake_charmer+str_critbyhero"><![CDATA[И тебя я приручу!]]></entry>

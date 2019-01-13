@@ -55,7 +55,7 @@
     <entry id="camping_skill_name_mithridatism"><![CDATA[MITHRIDATISM]]></entry>
     <entry id="camping_skill_name_exotic_spices"><![CDATA[EXOTIC SPICES]]></entry>
     <entry id="camping_skill_name_melody"><![CDATA[MELODY]]></entry>
-    <entry id="camping_skill_name_reserve"><![CDATA[RESERVE]]></entry>
+    <entry id="camping_skill_name_prelude"><![CDATA[PRELUDE]]></entry>
 	
 	<entry id="snake_charmer_weapon_0"><![CDATA[Rusty Box]]></entry>
     <entry id="snake_charmer_weapon_1"><![CDATA[Rustic Box]]></entry>
@@ -459,9 +459,9 @@
     <entry id="snake_charmer+str_bark_melody"><![CDATA[Time for the show! Be attentive and relax.]]></entry>
 	<entry id="snake_charmer+str_bark_melody"><![CDATA[Let yourself be carried away by the snake dance.]]></entry>
 	<entry id="snake_charmer+str_bark_melody"><![CDATA[Admire! A show straight from the East.]]></entry>
-    <entry id="snake_charmer+str_bark_reserve"><![CDATA[Let me set up my lab...]]></entry>
-	<entry id="snake_charmer+str_bark_reserve"><![CDATA[Oh, I found that in the back of my box.]]></entry>
-	<entry id="snake_charmer+str_bark_reserve"><![CDATA[Don't panic, I still have some...]]></entry>
+    <entry id="snake_charmer+str_bark_prelude"><![CDATA[The most majestic of all snakes.]]></entry>
+	<entry id="snake_charmer+str_bark_prelude"><![CDATA[Wonderful!]]></entry>
+	<entry id="snake_charmer+str_bark_prelude"><![CDATA[To get started...]]></entry>
         
 	<entry id="snake_charmer+str_critbyhero"><![CDATA[Deadly fangs hit hard!]]></entry>
     <entry id="snake_charmer+str_critbyhero"><![CDATA[I will tame you!]]></entry>

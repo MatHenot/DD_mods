@@ -55,7 +55,7 @@
     <entry id="camping_skill_name_mithridatism"><![CDATA[MITRIDATISMO]]></entry>
     <entry id="camping_skill_name_exotic_spices"><![CDATA[ESPECIAS EXÓTICAS]]></entry>
     <entry id="camping_skill_name_melody"><![CDATA[MELODÍA]]></entry>
-    <entry id="camping_skill_name_reserve"><![CDATA[RESERVA]]></entry>
+    <entry id="camping_skill_name_prelude"><![CDATA[PRELUDIO]]></entry>
 	
 	<entry id="snake_charmer_weapon_0"><![CDATA[Urna oxidada]]></entry>
     <entry id="snake_charmer_weapon_1"><![CDATA[Urna rústica]]></entry>
@@ -459,9 +459,9 @@
     <entry id="snake_charmer+str_bark_melody"><![CDATA[¡Comienza el espectáculo!. Prestad atención y relajaos.]]></entry>
 	<entry id="snake_charmer+str_bark_melody"><![CDATA[Déjate llevar por la danza de la serpiente.]]></entry>
 	<entry id="snake_charmer+str_bark_melody"><![CDATA[¡Admirad! Un espectáculo llegado directamente de Oriente.]]></entry>
-    <entry id="snake_charmer+str_bark_reserve"><![CDATA[Dejad que despliegue mi laboratorio...]]></entry>
-	<entry id="snake_charmer+str_bark_reserve"><![CDATA[Oh, he encontrado esto detrás de mi urna.]]></entry>
-	<entry id="snake_charmer+str_bark_reserve"><![CDATA[Que no cunda el pánico, aún me quedan algunos...]]></entry>
+    <entry id="snake_charmer+str_bark_prelude"><![CDATA[La más majestuosa de todas las serpientes.]]></entry>
+	<entry id="snake_charmer+str_bark_prelude"><![CDATA[¡Maravilloso!]]></entry>
+	<entry id="snake_charmer+str_bark_prelude"><![CDATA[Para empezar...]]></entry>
         
 	<entry id="snake_charmer+str_critbyhero"><![CDATA[¡Los mortíferos colmillos se clavan con fuerza!]]></entry>
     <entry id="snake_charmer+str_critbyhero"><![CDATA[¡Te amansaré!]]></entry>

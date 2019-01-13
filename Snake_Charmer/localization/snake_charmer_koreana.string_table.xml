@@ -55,7 +55,7 @@
     <entry id="camping_skill_name_mithridatism"><![CDATA[면독법]]></entry>
     <entry id="camping_skill_name_exotic_spices"><![CDATA[외국 향신료]]></entry>
     <entry id="camping_skill_name_melody"><![CDATA[멜로디]]></entry>
-    <entry id="camping_skill_name_reserve"><![CDATA[예비품]]></entry>
+    <entry id="camping_skill_name_prelude"><![CDATA[전주곡]]></entry>
 	
 	<entry id="snake_charmer_weapon_0"><![CDATA[녹슨 상자]]></entry>
     <entry id="snake_charmer_weapon_1"><![CDATA[투박한 상자]]></entry>
@@ -459,9 +459,9 @@
     <entry id="snake_charmer+str_bark_melody"><![CDATA[쇼타임! 집중하고 긴장을 푸시오.]]></entry>
 	<entry id="snake_charmer+str_bark_melody"><![CDATA[뱀춤에 넋을 잃어라.]]></entry>
 	<entry id="snake_charmer+str_bark_melody"><![CDATA[감탄하라! 이게 동쪽의 길거리 공연이다.]]></entry>
-    <entry id="snake_charmer+str_bark_reserve"><![CDATA[내 실험실을 준비하자...]]></entry>
-	<entry id="snake_charmer+str_bark_reserve"><![CDATA[오, 내 상자 안에서 뭔갈 찾았어.]]></entry>
-	<entry id="snake_charmer+str_bark_reserve"><![CDATA[두려워마라. 몇개 더 가지고 있다...]]></entry>
+    <entry id="snake_charmer+str_bark_prelude"><![CDATA[가장 위엄있는 모든 뱀.]]></entry>
+	<entry id="snake_charmer+str_bark_prelude"><![CDATA[훌륭한!]]></entry>
+	<entry id="snake_charmer+str_bark_prelude"><![CDATA[시작하려면 ...]]></entry>
         
 	<entry id="snake_charmer+str_critbyhero"><![CDATA[치명적인 송곳니 공격!]]></entry>
     <entry id="snake_charmer+str_critbyhero"><![CDATA[너를 길들이마!]]></entry>
