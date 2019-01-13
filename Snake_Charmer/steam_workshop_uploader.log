@@ -26,38 +26,10 @@ Parsing localization/snake_charmer_tchinese.string_table.xml
 Building Languages
 
 +++++++++++++++++++++++++++++++++++++++++
-Error english - buff_stat_tooltip_upgrade_discount_riposte_skillC1
+Error russian - buff_stat_tooltip_upgrade_discount_riposte_A
 ----------
-Malformed input (%
-Cancels if move)
-----------
+Error colour_start/colour_end mismatch - too many {colour_end} in Задействуег colour_start|riposte}парирование{colour_end}
 
-+++++++++++++++++++++++++++++++++++++++++
-Error english - buff_stat_tooltip_upgrade_discount_riposte_skillC2
-----------
-Malformed input (%
-Cancels if move)
-----------
-
-+++++++++++++++++++++++++++++++++++++++++
-Error english - buff_stat_tooltip_upgrade_discount_riposte_skillC3
-----------
-Malformed input (%
-Cancels if move)
-----------
-
-+++++++++++++++++++++++++++++++++++++++++
-Error english - buff_stat_tooltip_upgrade_discount_riposte_skillC4
-----------
-Malformed input (%
-Cancels if move)
-----------
-
-+++++++++++++++++++++++++++++++++++++++++
-Error english - buff_stat_tooltip_upgrade_discount_riposte_skillC5
-----------
-Malformed input (%
-Cancels if move)
 ----------
 Exporting .loc files
 
@@ -253,7 +225,6 @@ localization/1614204353_russian.loc
 localization/1614204353_schinese.loc
 localization/1614204353_spanish.loc
 localization/1614204353_tchinese.loc
-localization/missing_files.txt
 localization/snake_charmer_brazilian.string_table.xml
 localization/snake_charmer_czech.string_table.xml
 localization/snake_charmer_english.string_table.xml
@@ -279,6 +250,6 @@ snake_charmer.png
 snake_charmer.xml
 snake_charmer_test.xml
 
-Submitting......................................................................................................................Submitted.
+Submitting............................................................................................................Submitted.
 Saving project file D:\DD_mods\Snake_Charmer\snake_charmer_test.xml
 

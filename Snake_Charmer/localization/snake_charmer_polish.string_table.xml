@@ -93,12 +93,21 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100A"><![CDATA[{colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(100%% bazowe){colour_end} 2 pkt./rnd. przez 2 rnd.]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100B"><![CDATA[{colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(100%% bazowe){colour_end} 3 pkt./rnd. przez 2 rnd.]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(110%% bazowe){colour_end} 3 pkt./rnd. przez 2 rnd.]]></entry>
-    <entry id="buff_stat_tooltip_upgrade_discount_riposte1"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(100%% bazowe){colour_end} 2 pkt./rnd. przez 2 rnd.]]></entry>
-    <entry id="buff_stat_tooltip_upgrade_discount_riposte2"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(110%% bazowe){colour_end} 2 pkt./rnd. przez 2 rnd.]]></entry>
-    <entry id="buff_stat_tooltip_upgrade_discount_riposte3"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(120%% bazowe){colour_end} 3 pkt./rnd. przez 2 rnd.]]></entry>
-    <entry id="buff_stat_tooltip_upgrade_discount_riposte4"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(130%% bazowe){colour_end} 3 pkt./rnd. przez 2 rnd.]]></entry>
-    <entry id="buff_stat_tooltip_upgrade_discount_riposte5"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(140%% bazowe){colour_end} 4 pkt./rnd. przez 2 rnd.]]></entry>
-        
+
+
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_A"><![CDATA[Aktywuje {colour_start|riposte}ripostę{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}Riposta{colour_end}: -20%% OBR]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C1"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(100%% bazowe){colour_end} 2 pkt./rnd. przez 2 rnd.]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_riposte_C2"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(110%% bazowe){colour_end} 2 pkt./rnd. przez 2 rnd.]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_riposte_C3"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(120%% bazowe){colour_end} 3 pkt./rnd. przez 2 rnd.]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_riposte_C4"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(130%% bazowe){colour_end} 3 pkt./rnd. przez 2 rnd.]]></entry>
+    <entry id="buff_stat_tooltip_upgrade_discount_riposte_C5"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(140%% bazowe){colour_end} 4 pkt./rnd. przez 2 rnd.]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D1"><![CDATA[+10%% OCHR]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D2"><![CDATA[+12%% OCHR]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D3"><![CDATA[+15%% OCHR]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D4"><![CDATA[+17%% OCHR]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D5"><![CDATA[+20%% OCHR]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_E"><![CDATA[Czas trwania 4 rnd. / Usunięto podczas podróży]]></entry>        
         
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Ta wyprawa to czyste szaleństwo!]]></entry>
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Nic nie mogło mnie na to przygotować...]]></entry>

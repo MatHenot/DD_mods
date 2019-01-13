@@ -16,17 +16,11 @@ effect: .name "SC venomous fang 5" .target "target" .curio_result_type "negative
 
 //mamba dance
 
-effect: .name "SC mamba dance A1" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_MB_blight_debuff_1" .on_hit true .on_miss false
-effect: .name "SC mamba dance A2" .target "target" .curio_result_type "negative" .chance 110% .buff_ids "SC_MB_blight_debuff_1" .on_hit true .on_miss false
-effect: .name "SC mamba dance A3" .target "target" .curio_result_type "negative" .chance 120% .buff_ids "SC_MB_blight_debuff_2" .on_hit true .on_miss false
-effect: .name "SC mamba dance A4" .target "target" .curio_result_type "negative" .chance 130% .buff_ids "SC_MB_blight_debuff_2" .on_hit true .on_miss false
-effect: .name "SC mamba dance A5" .target "target" .curio_result_type "negative" .chance 140% .buff_ids "SC_MB_blight_debuff_3" .on_hit true .on_miss false
-
-effect: .name "SC mamba dance B1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 0.05 .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "SC mamba dance B2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 0.06 .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "SC mamba dance B3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 0.07 .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "SC mamba dance B4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 0.08 .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "SC mamba dance B5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .attack_rating_add 0.10 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC mamba dance 1" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_MB_blight_debuff_1" .on_hit true .on_miss false
+effect: .name "SC mamba dance 2" .target "target" .curio_result_type "negative" .chance 110% .buff_ids "SC_MB_blight_debuff_2" .on_hit true .on_miss false
+effect: .name "SC mamba dance 3" .target "target" .curio_result_type "negative" .chance 120% .buff_ids "SC_MB_blight_debuff_3" .on_hit true .on_miss false
+effect: .name "SC mamba dance 4" .target "target" .curio_result_type "negative" .chance 130% .buff_ids "SC_MB_blight_debuff_4" .on_hit true .on_miss false
+effect: .name "SC mamba dance 5" .target "target" .curio_result_type "negative" .chance 140% .buff_ids "SC_MB_blight_debuff_5" .on_hit true .on_miss false
 
 //feast
 
@@ -54,15 +48,15 @@ effect: .name "SC constriction B5" .target "target" .curio_result_type "negative
 
 //rattling trap
 
-effect: .name "SC RT reset" .target "performer" .curio_result_type "neutral" .clear_riposte 1 .chance 100% .on_hit true .on_miss true .has_description false
-
-effect: .name "SC RT riposte tray 1" .target "target" .curio_result_type "neutral" .chance 100% .buff_ids "RT_riposte_R1_1" "RT_ToolTip_R1_1" "RT_riposte_R2_1" "RT_ToolTip_R2_1" "RT_riposte_R3_1" "RT_ToolTip_R3_1" "RT_riposte_R4_1" "RT_ToolTip_R4_1" .buff_source_type bsrc_riposte .duration 4 .on_hit true .on_miss true .has_description false 
-effect: .name "SC RT riposte tray 2" .target "target" .curio_result_type "neutral" .chance 100% .buff_ids "RT_riposte_R1_2" "RT_ToolTip_R1_2" "RT_riposte_R2_2" "RT_ToolTip_R2_2" "RT_riposte_R3_2" "RT_ToolTip_R3_2" "RT_riposte_R4_2" "RT_ToolTip_R4_2" .buff_source_type bsrc_riposte .duration 4 .on_hit true .on_miss true .has_description false
-effect: .name "SC RT riposte tray 3" .target "target" .curio_result_type "neutral" .chance 100% .buff_ids "RT_riposte_R1_3" "RT_ToolTip_R1_3" "RT_riposte_R2_3" "RT_ToolTip_R2_3" "RT_riposte_R3_3" "RT_ToolTip_R3_3" "RT_riposte_R4_3" "RT_ToolTip_R4_3" .buff_source_type bsrc_riposte .duration 4 .on_hit true .on_miss true .has_description false 
-effect: .name "SC RT riposte tray 4" .target "target" .curio_result_type "neutral" .chance 100% .buff_ids "RT_riposte_R1_4" "RT_ToolTip_R1_4" "RT_riposte_R2_4" "RT_ToolTip_R2_4" "RT_riposte_R3_4" "RT_ToolTip_R3_4" "RT_riposte_R4_4" "RT_ToolTip_R4_4" .buff_source_type bsrc_riposte .duration 4 .on_hit true .on_miss true .has_description false 
-effect: .name "SC RT riposte tray 5" .target "target" .curio_result_type "neutral" .chance 100% .buff_ids "RT_riposte_R1_5" "RT_ToolTip_R1_5" "RT_riposte_R2_5" "RT_ToolTip_R2_5" "RT_riposte_R3_5" "RT_ToolTip_R3_5" "RT_riposte_R4_5" "RT_ToolTip_R4_5" .buff_source_type bsrc_riposte .duration 4 .on_hit true .on_miss true .has_description false 
-
 effect: .name "SC RT riposte chance" .target "target" .curio_result_type "neutral" .chance 100% .buff_ids "RT_riposte_HitChance_R1" "RT_riposte_MissChance_R1" "RT_riposte_HitChance_R2" "RT_riposte_MissChance_R2" "RT_riposte_HitChance_R3" "RT_riposte_MissChance_R3" "RT_riposte_HitChance_R4" "RT_riposte_MissChance_R4" .buff_source_type bsrc_riposte .duration 4 .on_hit true .on_miss true .queue true
+
+effect: .name "SC RT riposte tray 1" .target "target" .curio_result_type "neutral" .chance 100% .buff_ids "RT_riposte_R1_1" "RT_Effect_ToolTip_R1_1" "RT_riposte_R2_1" "RT_Effect_ToolTip_R2_1" "RT_riposte_R3_1" "RT_Effect_ToolTip_R3_1" "RT_riposte_R4_1" "RT_Effect_ToolTip_R4_1" .buff_source_type bsrc_riposte .duration 4 .on_hit true .on_miss true .has_description false 
+effect: .name "SC RT riposte tray 2" .target "target" .curio_result_type "neutral" .chance 100% .buff_ids "RT_riposte_R1_2" "RT_Effect_ToolTip_R1_2" "RT_riposte_R2_2" "RT_Effect_ToolTip_R2_2" "RT_riposte_R3_2" "RT_Effect_ToolTip_R3_2" "RT_riposte_R4_2" "RT_Effect_ToolTip_R4_2" .buff_source_type bsrc_riposte .duration 4 .on_hit true .on_miss true .has_description false
+effect: .name "SC RT riposte tray 3" .target "target" .curio_result_type "neutral" .chance 100% .buff_ids "RT_riposte_R1_3" "RT_Effect_ToolTip_R1_3" "RT_riposte_R2_3" "RT_Effect_ToolTip_R2_3" "RT_riposte_R3_3" "RT_Effect_ToolTip_R3_3" "RT_riposte_R4_3" "RT_Effect_ToolTip_R4_3" .buff_source_type bsrc_riposte .duration 4 .on_hit true .on_miss true .has_description false 
+effect: .name "SC RT riposte tray 4" .target "target" .curio_result_type "neutral" .chance 100% .buff_ids "RT_riposte_R1_4" "RT_Effect_ToolTip_R1_4" "RT_riposte_R2_4" "RT_Effect_ToolTip_R2_4" "RT_riposte_R3_4" "RT_Effect_ToolTip_R3_4" "RT_riposte_R4_4" "RT_Effect_ToolTip_R4_4" .buff_source_type bsrc_riposte .duration 4 .on_hit true .on_miss true .has_description false 
+effect: .name "SC RT riposte tray 5" .target "target" .curio_result_type "neutral" .chance 100% .buff_ids "RT_riposte_R1_5" "RT_Effect_ToolTip_R1_5" "RT_riposte_R2_5" "RT_Effect_ToolTip_R2_5" "RT_riposte_R3_5" "RT_Effect_ToolTip_R3_5" "RT_riposte_R4_5" "RT_Effect_ToolTip_R4_5" .buff_source_type bsrc_riposte .duration 4 .on_hit true .on_miss true .has_description false 
+
+effect: .name "SC RT riposte tray DMG" .target "target" .curio_result_type "neutral" .chance 100% .buff_ids "RT_DMG_ToolTip_R1" "RT_DMG_ToolTip_R2" "RT_DMG_ToolTip_R3" "RT_DMG_ToolTip_R4" .buff_source_type bsrc_riposte .duration 4 .on_hit true .on_miss true .has_description false 
 
 effect: .name "SC RT prot 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "RT_prot_R1_1" "RT_prot_R2_1" "RT_prot_R3_1" "RT_prot_R4_1" .duration 4 .on_hit true .on_miss false .has_description false
 effect: .name "SC RT prot 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "RT_prot_R1_2" "RT_prot_R2_2" "RT_prot_R3_2" "RT_prot_R4_2" .duration 4 .on_hit true .on_miss false .has_description false
@@ -76,17 +70,17 @@ effect: .name "SC RT riposte blight 3" .target "target" .curio_result_type "nega
 effect: .name "SC RT riposte blight 4" .target "target" .curio_result_type "negative" .chance 130% .dotPoison 3 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "SC RT riposte blight 5" .target "target" .curio_result_type "negative" .chance 140% .dotPoison 4 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
 
-effect: .name "SC RT Skill ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_Skill_ToolTip_A" "SC_RT_Skill_ToolTip_B1" "SC_RT_Skill_ToolTip_C1" .on_hit false .on_miss true
-effect: .name "SC RT Skill ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_Skill_ToolTip_A" "SC_RT_Skill_ToolTip_B2" "SC_RT_Skill_ToolTip_C2" .on_hit false .on_miss true
-effect: .name "SC RT Skill ToolTip 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_Skill_ToolTip_A" "SC_RT_Skill_ToolTip_B3" "SC_RT_Skill_ToolTip_C3" .on_hit false .on_miss true
-effect: .name "SC RT Skill ToolTip 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_Skill_ToolTip_A" "SC_RT_Skill_ToolTip_B4" "SC_RT_Skill_ToolTip_C4" .on_hit false .on_miss true
-effect: .name "SC RT Skill ToolTip 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_Skill_ToolTip_A" "SC_RT_Skill_ToolTip_B5" "SC_RT_Skill_ToolTip_C5" .on_hit false .on_miss true
+effect: .name "SC RT Description ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_ToolTip_A" "SC_RT_ToolTip_B" "SC_RT_ToolTip_C1" "SC_RT_ToolTip_D1" "SC_RT_ToolTip_E" .on_hit false .on_miss true
+effect: .name "SC RT Description ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_ToolTip_A" "SC_RT_ToolTip_B" "SC_RT_ToolTip_C2" "SC_RT_ToolTip_D2" "SC_RT_ToolTip_E" .on_hit false .on_miss true
+effect: .name "SC RT Description ToolTip 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_ToolTip_A" "SC_RT_ToolTip_B" "SC_RT_ToolTip_C3" "SC_RT_ToolTip_D3" "SC_RT_ToolTip_E" .on_hit false .on_miss true
+effect: .name "SC RT Description ToolTip 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_ToolTip_A" "SC_RT_ToolTip_B" "SC_RT_ToolTip_C4" "SC_RT_ToolTip_D4" "SC_RT_ToolTip_E" .on_hit false .on_miss true
+effect: .name "SC RT Description ToolTip 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "SC_RT_ToolTip_A" "SC_RT_ToolTip_B" "SC_RT_ToolTip_C5" "SC_RT_ToolTip_D5" "SC_RT_ToolTip_E" .on_hit false .on_miss true
 
 //vicious charm
 
 effect: .name "SC vicious charm ToolTip A" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "SC_VC_ToolTip_A" .on_hit false .on_miss true
 
-effect: .name "SC vicious charm init" .target "target" .curio_result_type "positive" .chance 100% .initiative_change 3 .on_hit true .on_miss true
+effect: .name "SC vicious charm init" .target "target" .curio_result_type "positive" .chance 100% .initiative_change 1 .on_hit true .on_miss true
 
 effect: .name "SC vicious charm A1" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_VC_DMGL_1" "SC_VC_DMGH_1" "SC_VC_Heal_1" "SC_VC_StressHeal_1" .apply_once true .on_hit true .on_miss true
 effect: .name "SC vicious charm A2" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_VC_DMGL_2" "SC_VC_DMGH_2" "SC_VC_Heal_2" "SC_VC_StressHeal_2" .apply_once true .on_hit true .on_miss true
