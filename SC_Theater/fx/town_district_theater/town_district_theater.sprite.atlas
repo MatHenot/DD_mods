@@ -1,20 +1,20 @@
 
 town_district_theater.sprite.png
-size: 240,175
+size: 489,329
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-theater0
+built
   rotate: false
-  xy: 167, 39
-  size: 71, 134
-  orig: 71, 134
+  xy: 2, 2
+  size: 341, 325
+  orig: 341, 325
   offset: 0, 0
   index: -1
-theater1
+idle
   rotate: true
-  xy: 2, 2
-  size: 171, 163
-  orig: 171, 163
+  xy: 345, 60
+  size: 267, 142
+  orig: 267, 142
   offset: 0, 0
   index: -1
