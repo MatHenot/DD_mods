@@ -1,6 +1,6 @@
 
 -------------------------------------------------------------------------------
-Parsing project file - D:\DD_mods\SC_Theater\SC_Theater.xml
+Parsing project file - D:\DD_mods\SC_Theater\project.xml
 Mod Data Directory = D:/DD_mods/SC_Theater/
 
 -------------------------------------------------------------------------------
@@ -16,12 +16,13 @@ Modded files...
 
 modes/radiant/campaign/town/districts/districts_districts.json
 campaign/town/districts/districts_districts.json
+fx/town_district_theater/town_district_theater.sprite.atlas
 fx/town_district_theater/town_district_theater.sprite.png
-SC_Theater.xml
+fx/town_district_theater/town_district_theater.sprite.skel
 modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting........................................................................................Submitted.
-Saving project file D:\DD_mods\SC_Theater\SC_Theater.xml
+Submitting........................................................................................................Submitted.
+Saving project file D:\DD_mods\SC_Theater\project.xml
 
