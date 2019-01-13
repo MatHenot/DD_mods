@@ -55,7 +55,7 @@
     <entry id="camping_skill_name_mithridatism"><![CDATA[MITHRIDATISME]]></entry>
     <entry id="camping_skill_name_exotic_spices"><![CDATA[ÉPICES EXOTIQUES]]></entry>
     <entry id="camping_skill_name_melody"><![CDATA[MÉLODIE]]></entry>
-    <entry id="camping_skill_name_reserve"><![CDATA[RÉSERVE]]></entry>
+    <entry id="camping_skill_name_prelude"><![CDATA[PRÉLUDE]]></entry>
 	
 	<entry id="snake_charmer_weapon_0"><![CDATA[Boite rouillée]]></entry>
     <entry id="snake_charmer_weapon_1"><![CDATA[Boite rustique]]></entry>
@@ -459,9 +459,9 @@
     <entry id="snake_charmer+str_bark_melody"><![CDATA[Place au spectacle ! Soyez attentifs et détendez-vous.]]></entry>
 	<entry id="snake_charmer+str_bark_melody"><![CDATA[Laissez-vous porter par la danse des serpents.]]></entry>
 	<entry id="snake_charmer+str_bark_melody"><![CDATA[Admirez ! Un spectacle tout droit venu d'Orient.]]></entry>
-    <entry id="snake_charmer+str_bark_reserve"><![CDATA[Laissez-moi mettre en place mon laboratoire portable...]]></entry>
-	<entry id="snake_charmer+str_bark_reserve"><![CDATA[Oh, j'ai retrouvé ça au fond de ma boite.]]></entry>
-	<entry id="snake_charmer+str_bark_reserve"><![CDATA[Pas de panique, il me reste quelques ingrédients...]]></entry>
+    <entry id="snake_charmer+str_bark_prelude"><![CDATA[Le plus majestueux des serpents.]]></entry>
+	<entry id="snake_charmer+str_bark_prelude"><![CDATA[Merveilleux !]]></entry>
+	<entry id="snake_charmer+str_bark_prelude"><![CDATA[Pour bien commencer...]]></entry>
         
 	<entry id="snake_charmer+str_critbyhero"><![CDATA[Les crochets mortels frappent !]]></entry>
     <entry id="snake_charmer+str_critbyhero"><![CDATA[Je te dresserai !]]></entry>
