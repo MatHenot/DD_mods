@@ -1,9 +1,9 @@
 modes/radiant/campaign/town/districts/districts_districts.json 1143
 campaign/town/districts/districts_districts.json 1143
-fx/town_district_theater/town_district_theater.sprite.atlas 314
-fx/town_district_theater/town_district_theater.sprite.png 45669
-fx/town_district_theater/town_district_theater.sprite.skel 475
+fx/town_district_theater/town_district_theater.sprite.atlas 309
+fx/town_district_theater/town_district_theater.sprite.png 137901
+fx/town_district_theater/town_district_theater.sprite.skel 380
 shared/buffs/SC_theater.buffs.json 303
-modfiles.txt 369
+modfiles.txt 416
 preview_icon.png 585598
 project.xml 619
