@@ -246,7 +246,7 @@
 		}, 
 		
 		{ 
-			"id" : "prelude_to_blight",
+			"id" : "prelude",
 			"level" : 0,
 			"cost" : 1,
 			"use_limit" : 2,
