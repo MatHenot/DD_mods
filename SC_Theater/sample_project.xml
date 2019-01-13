@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
-	<PreviewIconFile>preview_icon.png</PreviewIconFile>
 	<ItemDescriptionShort/>
-	<ModDataPath>D:/DD_mods/SC_Theater/</ModDataPath>
-	<Title>Snake Charmer&apos;s Theater</Title>
+	<ModDataPath>c:/absolute_path_to_your_mod_folders_data_directory/data</ModDataPath>
+	<Title>Your Mod Title here</Title>
 	<Language>english</Language>
-	<UpdateDetails/>
+	<UpdateDetails>When you update your mod, this is where you would describe your latest changes</UpdateDetails>
 	<Visibility>private</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>0</VersionMajor>
@@ -15,7 +14,7 @@
 		<Tags>tag1</Tags>
 		<Tags>tag2</Tags>
 	</Tags>
-	<ItemDescription/>
-	<PublishedFileId>1614374152</PublishedFileId>
+	<ItemDescription>Describe your mod in 8000
+characters or less here!</ItemDescription>
 </project>
 
