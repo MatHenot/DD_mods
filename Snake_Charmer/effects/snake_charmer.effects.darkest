@@ -28,9 +28,9 @@ effect: .name "SC clear_corpses" .target "target" .chance 100% .kill_enemy_types
 
 effect: .name "SC feast 1" .target "target" .curio_result_type "negative" .chance 80%  .combat_stat_buff 1 .speed_rating_add -1 .on_hit true .on_miss false .queue true
 effect: .name "SC feast 2" .target "target" .curio_result_type "negative" .chance 90%  .combat_stat_buff 1 .speed_rating_add -1 .on_hit true .on_miss false .queue true
-effect: .name "SC feast 3" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .speed_rating_add -1 .on_hit true .on_miss false .queue true
+effect: .name "SC feast 3" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false .queue true
 effect: .name "SC feast 4" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false .queue true
-effect: .name "SC feast 5" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false .queue true
+effect: .name "SC feast 5" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .speed_rating_add -3 .on_hit true .on_miss false .queue true
 
 //constriction
 
