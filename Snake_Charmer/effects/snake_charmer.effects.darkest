@@ -8,11 +8,11 @@ effect: .name "SC T Ally Buff" .target "target" .curio_result_type "positive" .c
 
 //venomous fang
 
-effect: .name "SC venomous fang 1" .target "target" .curio_result_type "negative" .chance 100% .dotPoison 3 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "SC venomous fang 2" .target "target" .curio_result_type "negative" .chance 110% .dotPoison 3 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "SC venomous fang 3" .target "target" .curio_result_type "negative" .chance 120% .dotPoison 4 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "SC venomous fang 4" .target "target" .curio_result_type "negative" .chance 130% .dotPoison 4 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "SC venomous fang 5" .target "target" .curio_result_type "negative" .chance 140% .dotPoison 5 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC venomous fang 1" .target "target" .curio_result_type "negative" .chance 100% .dotPoison 4 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC venomous fang 2" .target "target" .curio_result_type "negative" .chance 110% .dotPoison 4 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC venomous fang 3" .target "target" .curio_result_type "negative" .chance 120% .dotPoison 5 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC venomous fang 4" .target "target" .curio_result_type "negative" .chance 130% .dotPoison 5 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "SC venomous fang 5" .target "target" .curio_result_type "negative" .chance 140% .dotPoison 6 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
 
 //mamba dance
 
@@ -34,17 +34,17 @@ effect: .name "SC feast 5" .target "target" .curio_result_type "negative" .chanc
 
 //constriction
 
-effect: .name "SC constriction A1" .target "target" .curio_result_type "negative" .chance 90%  .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "SC constriction A2" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "SC constriction A3" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "SC constriction A4" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "SC constriction A5" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "SC constriction A1" .target "target" .curio_result_type "negative" .chance 90%  .stun 1 .on_hit true .on_miss false .queue true
+effect: .name "SC constriction A2" .target "target" .curio_result_type "negative" .chance 100% .stun 1 .on_hit true .on_miss false .queue true
+effect: .name "SC constriction A3" .target "target" .curio_result_type "negative" .chance 110% .stun 1 .on_hit true .on_miss false .queue true
+effect: .name "SC constriction A4" .target "target" .curio_result_type "negative" .chance 120% .stun 1 .on_hit true .on_miss false .queue true
+effect: .name "SC constriction A5" .target "target" .curio_result_type "negative" .chance 130% .stun 1 .on_hit true .on_miss false .queue true
 
-effect: .name "SC constriction B1" .target "target" .curio_result_type "negative" .chance 90%  .combat_stat_buff 1 .damage_low_multiply -5%  .damage_high_multiply -5%  .on_hit true .on_miss false
-effect: .name "SC constriction B2" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .damage_low_multiply -7%  .damage_high_multiply -7%  .on_hit true .on_miss false
-effect: .name "SC constriction B3" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .damage_low_multiply -10% .damage_high_multiply -10% .on_hit true .on_miss false
-effect: .name "SC constriction B4" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .damage_low_multiply -12% .damage_high_multiply -12% .on_hit true .on_miss false
-effect: .name "SC constriction B5" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .damage_low_multiply -15% .damage_high_multiply -15% .on_hit true .on_miss false
+effect: .name "SC constriction B1" .target "target" .curio_result_type "negative" .chance 90%  .combat_stat_buff 1 .defense_rating_add -5%  .duration 2 .on_hit true .on_miss false
+effect: .name "SC constriction B2" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .defense_rating_add -7%  .duration 2 .on_hit true .on_miss false
+effect: .name "SC constriction B3" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .defense_rating_add -10% .duration 2 .on_hit true .on_miss false
+effect: .name "SC constriction B4" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .defense_rating_add -12% .duration 2 .on_hit true .on_miss false
+effect: .name "SC constriction B5" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .defense_rating_add -15% .duration 2 .on_hit true .on_miss false
 
 //rattling trap
 
