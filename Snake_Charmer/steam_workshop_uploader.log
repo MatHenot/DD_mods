@@ -1,6 +1,6 @@
 
 -------------------------------------------------------------------------------
-Parsing project file - D:\DD_mods\Snake_Charmer\snake_charmer_test.xml
+Parsing project file - D:\DD_mods\Snake_Charmer\snake_charmer.xml
 Mod Data Directory = D:/DD_mods/Snake_Charmer/
 
 -------------------------------------------------------------------------------
@@ -37,6 +37,13 @@ Exporting .loc files
 Searching for preview icon file D:/DD_mods/Snake_Charmer/preview_icon.png...FOUND!
 <UploadMode> - Set to direct_upload
 
+
+-------------------------------------------------------------------------------
+Detected 3 unchanged files
+The following files are unchanged and will be uploaded...
+D:/DD_mods/Snake_Charmer/fx/town_event_dual_snake/town_event_dual_snake.sprite.atlas
+D:/DD_mods/Snake_Charmer/fx/town_event_dual_snake/town_event_dual_snake.sprite.png
+D:/DD_mods/Snake_Charmer/fx/town_event_dual_snake/town_event_dual_snake.sprite.skel
 
 -------------------------------------------------------------------------------
 Modded files...
@@ -192,9 +199,6 @@ audio/secondary_banks/hero_snake_charmer.bank
 campaign/provision/snake_charmer.provision.json
 campaign/roster/snake_charmer.roster.additional_variables.json
 campaign/town_events/snake_charmer.town_events.events.json
-fx/town_event_dual_snake/town_event_dual_snake.sprite.atlas
-fx/town_event_dual_snake/town_event_dual_snake.sprite.png
-fx/town_event_dual_snake/town_event_dual_snake.sprite.skel
 heroes/snake_charmer/snake_charmer.ability.five.png
 heroes/snake_charmer/snake_charmer.ability.four.png
 heroes/snake_charmer/snake_charmer.ability.one.png
@@ -211,20 +215,20 @@ upgrades/heroes/snake_charmer.upgrades.json
 audio/snake_charmer.heroes.guid_overrides.json
 audio/snake_charmer.heroes.load_order.json
 effects/snake_charmer.effects.darkest
-localization/1614204353_brazilian.loc
-localization/1614204353_czech.loc
-localization/1614204353_english.loc
-localization/1614204353_french.loc
-localization/1614204353_german.loc
-localization/1614204353_italian.loc
-localization/1614204353_japanese.loc
-localization/1614204353_koreana.loc
-localization/1614204353_koreanb.loc
-localization/1614204353_polish.loc
-localization/1614204353_russian.loc
-localization/1614204353_schinese.loc
-localization/1614204353_spanish.loc
-localization/1614204353_tchinese.loc
+localization/1456853110_brazilian.loc
+localization/1456853110_czech.loc
+localization/1456853110_english.loc
+localization/1456853110_french.loc
+localization/1456853110_german.loc
+localization/1456853110_italian.loc
+localization/1456853110_japanese.loc
+localization/1456853110_koreana.loc
+localization/1456853110_koreanb.loc
+localization/1456853110_polish.loc
+localization/1456853110_russian.loc
+localization/1456853110_schinese.loc
+localization/1456853110_spanish.loc
+localization/1456853110_tchinese.loc
 localization/snake_charmer_brazilian.string_table.xml
 localization/snake_charmer_czech.string_table.xml
 localization/snake_charmer_english.string_table.xml
@@ -246,10 +250,9 @@ trinkets/snake_charmer.sets.trinkets.json
 modfiles.txt
 preview_icon.png
 project.xml
-snake_charmer.png
 snake_charmer.xml
 snake_charmer_test.xml
 
-Submitting.................................................................................................................................Submitted.
-Saving project file D:\DD_mods\Snake_Charmer\snake_charmer_test.xml
+Submitting.............................................................................................................................................................................................................................................................................................Submitted.
+Saving project file D:\DD_mods\Snake_Charmer\snake_charmer.xml
 
