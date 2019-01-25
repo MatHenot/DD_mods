@@ -93,20 +93,12 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100A"><![CDATA[{colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2 pts/rd por 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100B"><![CDATA[{colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 3 pts/rd por 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 3 pts/rd por 2 rds]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_A"><![CDATA[Activa {colour_start|riposte}revide{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}Revide{colour_end}: -20%% de DANO]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C1"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2 pts/rd por 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C2"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2 pts/rd por 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C3"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3 pts/rd por 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C4"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3 pts/rd por 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C5"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4 pts/rd por 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D1"><![CDATA[+10%% de PROT]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D2"><![CDATA[+12%% de PROT]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D3"><![CDATA[+15%% de PROT]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D4"><![CDATA[+17%% de PROT]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D5"><![CDATA[+20%% de PROT]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_E"><![CDATA[Dura 4 rds / Removido quando se mueve]]></entry>		
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_1"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2 pts/rd por 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_2"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2 pts/rd por 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_3"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3 pts/rd por 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_4"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3 pts/rd por 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_5"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|blight}Peste{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4 pts/rd por 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_prot"><![CDATA[%d%% de PROT, removido quando se mueve]]></entry>		
 		
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Esta viagem foi pura loucura!]]></entry>
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Nada poderia ter me preparado para aquilo...]]></entry>

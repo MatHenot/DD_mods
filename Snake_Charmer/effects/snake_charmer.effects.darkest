@@ -3,8 +3,8 @@
 
 //trinket additive blight
 
-effect: .name "SC T Blight" .target "target" .curio_result_type "negative" .chance 130% .dotPoison 3 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "SC T Ally Buff" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3 .defense_rating_add 0.08 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "SC T Blight" .target "target" .curio_result_type "negative" .chance 120% .dotPoison 3 .duration 2 .on_hit true .on_miss false .can_apply_on_death true .individual_target_actor_rolls true
+effect: .name "SC T Ally Buff" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3 .defense_rating_add 0.05 .duration 2 .on_hit true .on_miss false
 
 //venomous fang
 
@@ -26,11 +26,11 @@ effect: .name "SC mamba dance 5" .target "target" .curio_result_type "negative" 
 
 effect: .name "SC clear_corpses" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .can_apply_on_death true
 
-effect: .name "SC feast 1" .target "target" .curio_result_type "negative" .chance 80%  .combat_stat_buff 1 .speed_rating_add -1 .on_hit true .on_miss false .queue true
-effect: .name "SC feast 2" .target "target" .curio_result_type "negative" .chance 90%  .combat_stat_buff 1 .speed_rating_add -1 .on_hit true .on_miss false .queue true
-effect: .name "SC feast 3" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false .queue true
-effect: .name "SC feast 4" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false .queue true
-effect: .name "SC feast 5" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .speed_rating_add -3 .on_hit true .on_miss false .queue true
+effect: .name "SC feast 1" .target "target" .curio_result_type "negative" .chance 80%  .combat_stat_buff 1 .speed_rating_add -1 .on_hit true .on_miss false .individual_target_actor_rolls true
+effect: .name "SC feast 2" .target "target" .curio_result_type "negative" .chance 90%  .combat_stat_buff 1 .speed_rating_add -1 .on_hit true .on_miss false .individual_target_actor_rolls true
+effect: .name "SC feast 3" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false .individual_target_actor_rolls true
+effect: .name "SC feast 4" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .speed_rating_add -2 .on_hit true .on_miss false .individual_target_actor_rolls true
+effect: .name "SC feast 5" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .speed_rating_add -3 .on_hit true .on_miss false .individual_target_actor_rolls true
 
 //constriction
 
@@ -50,11 +50,11 @@ effect: .name "SC constriction B5" .target "target" .curio_result_type "negative
 
 effect: .name "SC RT riposte reset" .target "performer" .curio_result_type "neutral" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false
 
-effect: .name "SC RT riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .crit_chance_add 0% .riposte_effect "SC RT riposte blight 1"
-effect: .name "SC RT riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -35% .damage_high_multiply -35% .crit_chance_add 2% .riposte_effect "SC RT riposte blight 2"
-effect: .name "SC RT riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -30% .damage_high_multiply -30% .crit_chance_add 3% .riposte_effect "SC RT riposte blight 3"
-effect: .name "SC RT riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -25% .damage_high_multiply -25% .crit_chance_add 4% .riposte_effect "SC RT riposte blight 4"
-effect: .name "SC RT riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -20% .damage_high_multiply -20% .crit_chance_add 5% .riposte_effect "SC RT riposte blight 5"
+effect: .name "SC RT riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -45% .damage_high_multiply -45% .crit_chance_add 0% .riposte_effect "SC RT riposte blight 1"
+effect: .name "SC RT riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -45% .damage_high_multiply -45% .crit_chance_add 2% .riposte_effect "SC RT riposte blight 2"
+effect: .name "SC RT riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .crit_chance_add 3% .riposte_effect "SC RT riposte blight 3"
+effect: .name "SC RT riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -40% .damage_high_multiply -40% .crit_chance_add 4% .riposte_effect "SC RT riposte blight 4"
+effect: .name "SC RT riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 3 .on_hit true .on_miss true .damage_low_multiply -35% .damage_high_multiply -35% .crit_chance_add 5% .riposte_effect "SC RT riposte blight 5"
 
 effect: .name "SC RT riposte blight 1" .target "target" .curio_result_type "negative" .chance 100% .dotPoison 2 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "SC RT riposte blight 2" .target "target" .curio_result_type "negative" .chance 110% .dotPoison 2 .duration 2 .on_hit true .on_miss false .can_apply_on_death true

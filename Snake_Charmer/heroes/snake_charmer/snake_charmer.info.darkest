@@ -46,7 +46,7 @@ combat_skill: .id "calming_toxin" .level 1 .launch 34 .target @1234 .is_crit_val
 combat_skill: .id "calming_toxin" .level 2 .launch 34 .target @1234 .is_crit_valid True .effect "SC CT ToolTip 3" "SC CT A3" "SC CT Random 25" "SC CT Random 50" "SC CT Random 75" "SC CT B3" "SC CT C3" .is_stall_invalidating false
 combat_skill: .id "calming_toxin" .level 3 .launch 34 .target @1234 .is_crit_valid True .effect "SC CT ToolTip 4" "SC CT A4" "SC CT Random 25" "SC CT Random 50" "SC CT Random 75" "SC CT B4" "SC CT C4" .is_stall_invalidating false
 combat_skill: .id "calming_toxin" .level 4 .launch 34 .target @1234 .is_crit_valid True .effect "SC CT ToolTip 5" "SC CT A5" "SC CT Random 20" "SC CT Random 40" "SC CT Random 60" "SC CT Random 80" "SC CT B5" "SC CT C5" .is_stall_invalidating false
-riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 95% .dmg 0% .crit 0% .launch 1234 .target 1234 .is_crit_valid True 
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 95% .dmg 0% .crit 2% .launch 1234 .target 1234 .is_crit_valid True 
 tag: .id "light"
 tag: .id "non-religious"
 tag: .id "theater"

@@ -93,20 +93,12 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100A"><![CDATA[{colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(100%% 기본){colour_end} 라운드당 2포인트 (2라운드 지속)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_100B"><![CDATA[{colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(100%% 기본){colour_end} 라운드당 3포인트 (2라운드 지속)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_110"><![CDATA[{colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(110%% 기본){colour_end} 라운드당 3포인트 (2라운드 지속)]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_A"><![CDATA[{colour_start|riposte}반격{colour_end} 발동]]> </entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_B"><![CDATA[{colour_start|riposte}반격{colour_end}: 피해량 -20%%]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C1"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 100%%){colour_end} 라운드당 2포인트 (2라운드 지속)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C2"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 110%%){colour_end} 라운드당 2포인트 (2라운드 지속)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C3"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 120%%){colour_end} 라운드당 3포인트 (2라운드 지속)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C4"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 130%%){colour_end} 라운드당 3포인트 (2라운드 지속)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_C5"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 140%%){colour_end} 라운드당 4포인트 (2라운드 지속)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D1"><![CDATA[방어도 +10%%]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D2"><![CDATA[방어도 +12%%]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D3"><![CDATA[방어도 +15%%]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D4"><![CDATA[방어도 +17%%]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_D5"><![CDATA[방어도 +20%%]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_E"><![CDATA[4라운드 지속 / 이동시 제거됨]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_1"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 100%%){colour_end} 라운드당 2포인트 (2라운드 지속)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_2"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 110%%){colour_end} 라운드당 2포인트 (2라운드 지속)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_3"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 120%%){colour_end} 라운드당 3포인트 (2라운드 지속)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_4"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 130%%){colour_end} 라운드당 3포인트 (2라운드 지속)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_5"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 140%%){colour_end} 라운드당 4포인트 (2라운드 지속)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_prot"><![CDATA[방어도 %d%% / 이동시 제거됨]]></entry>	
 		
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[이 원정은 정말 미쳤구만!]]></entry>
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[그 아무것도 준비할 수 없었다...]]></entry>

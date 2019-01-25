@@ -137,7 +137,7 @@
 		"buffs" : 
          [
 			"MAXHP-10",
-			"STRESSDMG20"
+			"STRESSDMG10"
          ],
          "hero_class_requirements":
          [
