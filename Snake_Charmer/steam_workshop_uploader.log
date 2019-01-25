@@ -24,26 +24,12 @@ Parsing localization/snake_charmer_spanish.string_table.xml
 Parsing localization/snake_charmer_tchinese.string_table.xml
 
 Building Languages
-
-+++++++++++++++++++++++++++++++++++++++++
-Error russian - buff_stat_tooltip_upgrade_discount_riposte_A
-----------
-Error colour_start/colour_end mismatch - too many {colour_end} in Задействуег colour_start|riposte}парирование{colour_end}
-
-----------
 Exporting .loc files
 
 -------------------------------------------------------------------------------
 Searching for preview icon file D:/DD_mods/Snake_Charmer/preview_icon.png...FOUND!
 <UploadMode> - Set to direct_upload
 
-
--------------------------------------------------------------------------------
-Detected 3 unchanged files
-The following files are unchanged and will be uploaded...
-D:/DD_mods/Snake_Charmer/fx/town_event_dual_snake/town_event_dual_snake.sprite.atlas
-D:/DD_mods/Snake_Charmer/fx/town_event_dual_snake/town_event_dual_snake.sprite.png
-D:/DD_mods/Snake_Charmer/fx/town_event_dual_snake/town_event_dual_snake.sprite.skel
 
 -------------------------------------------------------------------------------
 Modded files...
@@ -199,6 +185,9 @@ audio/secondary_banks/hero_snake_charmer.bank
 campaign/provision/snake_charmer.provision.json
 campaign/roster/snake_charmer.roster.additional_variables.json
 campaign/town_events/snake_charmer.town_events.events.json
+fx/town_event_dual_snake/town_event_dual_snake.sprite.atlas
+fx/town_event_dual_snake/town_event_dual_snake.sprite.png
+fx/town_event_dual_snake/town_event_dual_snake.sprite.skel
 heroes/snake_charmer/snake_charmer.ability.five.png
 heroes/snake_charmer/snake_charmer.ability.four.png
 heroes/snake_charmer/snake_charmer.ability.one.png
@@ -229,6 +218,7 @@ localization/1456853110_russian.loc
 localization/1456853110_schinese.loc
 localization/1456853110_spanish.loc
 localization/1456853110_tchinese.loc
+localization/missing_strings.csv
 localization/snake_charmer_brazilian.string_table.xml
 localization/snake_charmer_czech.string_table.xml
 localization/snake_charmer_english.string_table.xml
@@ -252,6 +242,6 @@ preview_icon.png
 project.xml
 snake_charmer.xml
 
-Submitting..........................................................................................................................................................Submitted.
+Submitting...............................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Snake_Charmer\project.xml
 
