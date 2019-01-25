@@ -25,11 +25,11 @@ combat_skill: .id "feast" .level 1 .type "melee" .atk 90%  .dmg -55% .crit -5% .
 combat_skill: .id "feast" .level 2 .type "melee" .atk 95%  .dmg -55% .crit -4% .launch 12 .target ~1234 .is_crit_valid True .effect "SC clear_corpses" "SC feast 3"
 combat_skill: .id "feast" .level 3 .type "melee" .atk 100% .dmg -55% .crit -3% .launch 12 .target ~1234 .is_crit_valid True .effect "SC clear_corpses" "SC feast 4"
 combat_skill: .id "feast" .level 4 .type "melee" .atk 105% .dmg -55% .crit -2% .launch 12 .target ~1234 .is_crit_valid True .effect "SC clear_corpses" "SC feast 5"
-combat_skill: .id "constriction" .level 0 .type "ranged" .atk 90%  .dmg -66% .crit 2% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A1" "SC constriction B1" .is_stall_invalidating false
-combat_skill: .id "constriction" .level 1 .type "ranged" .atk 95%  .dmg -66% .crit 3% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A2" "SC constriction B2" .is_stall_invalidating false
-combat_skill: .id "constriction" .level 2 .type "ranged" .atk 100% .dmg -66% .crit 4% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A3" "SC constriction B3" .is_stall_invalidating false
-combat_skill: .id "constriction" .level 3 .type "ranged" .atk 105% .dmg -66% .crit 5% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A4" "SC constriction B4" .is_stall_invalidating false
-combat_skill: .id "constriction" .level 4 .type "ranged" .atk 110% .dmg -66% .crit 6% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A5" "SC constriction B5" .is_stall_invalidating false
+combat_skill: .id "constriction" .level 0 .type "ranged" .atk 90%  .dmg -75% .crit 2% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A1" "SC constriction B1" .is_stall_invalidating false
+combat_skill: .id "constriction" .level 1 .type "ranged" .atk 95%  .dmg -75% .crit 3% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A2" "SC constriction B2" .is_stall_invalidating false
+combat_skill: .id "constriction" .level 2 .type "ranged" .atk 100% .dmg -75% .crit 4% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A3" "SC constriction B3" .is_stall_invalidating false
+combat_skill: .id "constriction" .level 3 .type "ranged" .atk 105% .dmg -75% .crit 5% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A4" "SC constriction B4" .is_stall_invalidating false
+combat_skill: .id "constriction" .level 4 .type "ranged" .atk 110% .dmg -75% .crit 6% .launch 234 .target 123 .is_crit_valid True .effect "SC constriction A5" "SC constriction B5" .is_stall_invalidating false
 combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
 combat_skill: .id "rattling_trap" .level 0 .launch 1234 .target .is_crit_valid False .effect "SC RT riposte reset" "SC RT riposte 1" "SC RT buffs 1" "SC RT prot 1" "SC RT prot ToolTip 1"
 combat_skill: .id "rattling_trap" .level 1 .launch 1234 .target .is_crit_valid False .effect "SC RT riposte reset" "SC RT riposte 2" "SC RT buffs 2" "SC RT prot 2" "SC RT prot ToolTip 2"
