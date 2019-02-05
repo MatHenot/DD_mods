@@ -1,27 +1,223 @@
 
-shrew_boss.sprite.defend.png
-size: 3715,2052
+rat_king.sprite.defend.png
+size: 3090,716
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-_defend
+Calque 10
   rotate: true
-  xy: 1872, 2
-  size: 2048, 1765
-  orig: 2048, 1765
+  xy: 2875, 37
+  size: 208, 213
+  orig: 208, 213
   offset: 0, 0
   index: -1
-buff_defense
+MainR3
   rotate: false
-  xy: 2, 2
-  size: 1868, 2048
-  orig: 1868, 2048
+  xy: 789, 6
+  size: 86, 72
+  orig: 86, 72
   offset: 0, 0
   index: -1
-shadow
+MainR6
   rotate: true
-  xy: 3639, 1683
-  size: 367, 74
-  orig: 367, 74
+  xy: 2732, 21
+  size: 116, 88
+  orig: 116, 88
+  offset: 0, 0
+  index: -1
+MainRat4
+  rotate: false
+  xy: 679, 4
+  size: 108, 74
+  orig: 108, 74
+  offset: 0, 0
+  index: -1
+Q1
+  rotate: true
+  xy: 2481, 283
+  size: 168, 272
+  orig: 168, 272
+  offset: 0, 0
+  index: -1
+Q2
+  rotate: false
+  xy: 2915, 457
+  size: 142, 257
+  orig: 142, 257
+  offset: 0, 0
+  index: -1
+Q3
+  rotate: false
+  xy: 2755, 139
+  size: 118, 163
+  orig: 118, 163
+  offset: 0, 0
+  index: -1
+R1tete
+  rotate: false
+  xy: 1960, 14
+  size: 296, 237
+  orig: 296, 237
+  offset: 0, 0
+  index: -1
+R2Base
+  rotate: false
+  xy: 1789, 253
+  size: 443, 189
+  orig: 443, 189
+  offset: 0, 0
+  index: -1
+R2machoire
+  rotate: true
+  xy: 1789, 169
+  size: 82, 134
+  orig: 82, 134
+  offset: 0, 0
+  index: -1
+R3
+  rotate: false
+  xy: 2234, 254
+  size: 245, 194
+  orig: 245, 194
+  offset: 0, 0
+  index: -1
+R4
+  rotate: true
+  xy: 1462, 444
+  size: 270, 555
+  orig: 270, 555
+  offset: 0, 0
+  index: -1
+R4machoire
+  rotate: false
+  xy: 2755, 304
+  size: 155, 153
+  orig: 155, 153
+  offset: 0, 0
+  index: -1
+R5
+  rotate: false
+  xy: 1462, 169
+  size: 325, 273
+  orig: 325, 273
+  offset: 0, 0
+  index: -1
+R6cache
+  rotate: true
+  xy: 2, 12
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+R6mainD
+  rotate: false
+  xy: 2524, 6
+  size: 84, 107
+  orig: 84, 107
+  offset: 0, 0
+  index: -1
+R6mainG
+  rotate: false
+  xy: 2610, 28
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+R6tete
+  rotate: false
+  xy: 2275, 453
+  size: 224, 261
+  orig: 224, 261
+  offset: 0, 0
+  index: -1
+Rat1
+  rotate: false
+  xy: 679, 121
+  size: 424, 593
+  orig: 424, 593
+  offset: 0, 0
+  index: -1
+Rat2main
+  rotate: true
+  xy: 2501, 465
+  size: 249, 211
+  orig: 249, 211
+  offset: 0, 0
+  index: -1
+back
+  rotate: true
+  xy: 2, 35
+  size: 679, 675
+  orig: 679, 675
+  offset: 0, 0
+  index: -1
+baseR1
+  rotate: false
+  xy: 1184, 2
+  size: 498, 157
+  orig: 498, 157
+  offset: 0, 0
+  index: -1
+cache2
+  rotate: true
+  xy: 22, 11
+  size: 22, 15
+  orig: 22, 15
+  offset: 0, 0
+  index: -1
+corde
+  rotate: true
+  xy: 679, 80
+  size: 39, 503
+  orig: 39, 503
+  offset: 0, 0
+  index: -1
+crane
+  rotate: false
+  xy: 2524, 115
+  size: 206, 166
+  orig: 206, 166
+  offset: 0, 0
+  index: -1
+ombre1
+  rotate: true
+  xy: 2258, 13
+  size: 239, 264
+  orig: 239, 264
+  offset: 0, 0
+  index: -1
+ombre2
+  rotate: true
+  xy: 2714, 459
+  size: 255, 199
+  orig: 255, 199
+  offset: 0, 0
+  index: -1
+ombre3
+  rotate: false
+  xy: 2019, 450
+  size: 254, 264
+  orig: 254, 264
+  offset: 0, 0
+  index: -1
+ombreBras1
+  rotate: false
+  xy: 1684, 25
+  size: 274, 142
+  orig: 274, 142
+  offset: 0, 0
+  index: -1
+ombreBras2
+  rotate: true
+  xy: 2912, 247
+  size: 208, 171
+  orig: 208, 171
+  offset: 0, 0
+  index: -1
+ratBlanc
+  rotate: false
+  xy: 1105, 161
+  size: 355, 553
+  orig: 355, 553
   offset: 0, 0
   index: -1
