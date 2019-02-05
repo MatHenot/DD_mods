@@ -1,8 +1,2 @@
 commonfx: .deathfx death_large
-skill: .id "mystic_claw" .anim "attack_claw" .fx "" .targchestfx "crystal_summon_target" .area_pos_offset 0 -15
-skill: .id "drug_summon" .anim "attack_summon" .fx "sowing_seeds" .targchestfx "sowing_seeds_target" 
-skill: .id "buffed_rake" .anim "attack_rake" .fx "hands_red" .targchestfx "blood_splatter" 
-skill: .id "consume_drug" .anim "attack_transform" .fx "" .targchestfx "" .area_pos_offset 0 -80 .target_area_pos_offset 125 0 
-skill: .id "revert_human" .anim "attack_revert" .fx "" .targchestfx "" .area_pos_offset 0 -80 .target_area_pos_offset 125 0 
-skill: .id "buffed_lightning" .anim "attack_lightning" .fx "self_lightning" .targfx "consume_self_target" .area_pos_offset 0 -80 
-skill: .id "crystal_spit" .anim "attack_spit" .fx "vomit" .targheadfx "the_husking_target" .area_pos_offset 0 -40
+skill: .id "mystic_claw" .anim "attack_claw" .fx "" .targchestfx "" .area_pos_offset 0 -15
