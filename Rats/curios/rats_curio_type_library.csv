@@ -1,0 +1,16 @@
+,,,,,,,,,,,,,,,,,,
+,5,Blood Shrew Hooded,,Mixed,,,,,,,,,,,,,,
+,,ID STRING,,RESULT TYPES,WEIGHT,% CHANCE,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,,STRING,NOTES
+,,cc_shrew_hooded,,Nothing,1,14.29%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,,The supplicant does not seem to notice the hero.,
+,,REGION FOUND,,Loot,2,28.57%,A_COURTYARD,1,<- # Draws,BLOOD_LOW,1,<- # Draws,A,1,<- # Draws,,The shrew seems oblivious to the hero's pilfering.,
+,,ALL,,Quirk,,,,,,,,,,,,,,
+,,FULL CURIO?,,Effect,3,42.86%,Stress 2,1,100.00%,,,,,,,,The urchin's arcane mutterings stir deep terror within!,
+,,Yes,,Purge,,,,,,,,,,,,,,
+,,TAGS,,Scouting,,,,,,,,,,,,,,
+,,CCrave,Haunted,Teleport,,,,,,,,,,,,,,
+,,Unholy,,Disease,1,7.69%,curio_curse,2,66.67%,random,1,33.33%,,,,,The shrew's filthy grasp is like iron and its nails rake the hero!,
+,,,,,,,,,,,,,,,,,,
+,,Item Interactions,,ITEM,RESULT TYPE,,RESULT 1,R1 WEIGHT,R1 %,RESULT 2,R2 WEIGHT,R2 %,RESULT 3,R3 WEIGHT,R3 %,,STRING,NOTES
+,,,,the_blood#estate,Loot,,T,2,100.00%,,,,,,,loot,"From a hidden fold, the shrew offers up a rare treasure!",
+,,,,spice,Summon,,summon_mash_miniboss,1,100.00%,,,,,,,,,
+,,,,,,,,,,,,,,,,,,

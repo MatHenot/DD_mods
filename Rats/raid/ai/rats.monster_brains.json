@@ -1,0 +1,125 @@
+{
+	"monster_brains" : [
+        {
+            "id": "shrew_boss",
+            "skill_cooldowns": [
+                {
+                    "combat_skill_id": "drug_summon",
+                    "amount": 2
+                },
+				{
+                    "combat_skill_id": "consume_drug",
+                    "amount": 8
+                },
+				{
+                    "combat_skill_id": "mystic_claw",
+                    "amount": 2
+                },
+				{
+                    "combat_skill_id": "crystal_spit",
+                    "amount": 2
+                }
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "stun_skill",
+                    "data": {
+                        "base_chance": 1000.0,
+						"first_initiative_only": true,
+                        "combat_skill_id": "buffed_lightning",
+						"non_stunned_heroes_min" : 1
+                    }
+                },
+				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.0001,
+                        "combat_skill_id": "consume_drug"
+                    }
+                },
+				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 10000.0,
+                        "combat_skill_id": "mystic_claw"
+                    }
+                },
+				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "crystal_spit"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1000000.0,
+                        "combat_skill_id": "drug_summon"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 60.0,
+						"per_round_chance": 3.0,
+                        "combat_skill_id": "buffed_rake"
+                    }
+                },
+				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+						"per_round_chance": 6.0,
+                        "combat_skill_id": "revert_human"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+				{
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                },
+				{
+                    "type": "vampire_target",
+                    "data": {
+                        "base_chance": 2.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                        
+                    }
+                }
+            ],
+            "bonus_initiative_desires": [
+			{
+                   "type": "ally_actor_class_count",
+					"data":
+					{
+					"is_round_start": false,
+					"is_round_in_progress": false,
+					"is_round_finish": true,
+					"is_pre_turn": false,
+					"is_post_turn": true,
+					"combat_skill_id_override": "consume_drug",
+                    "ally_actor_class_count" : 1,
+                    "ally_base_class_id" : "corpse_crystal",
+					"ally_count_min": 1,
+                    "ally_count_max": 2,
+                    "is_cooldown_enabled": true,
+                    "ignore_if_stun": true
+
+					}
+                }
+			]
+        }
+	
+	]
+}

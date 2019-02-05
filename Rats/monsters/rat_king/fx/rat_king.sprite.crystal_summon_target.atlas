@@ -1,0 +1,13 @@
+
+shrew_boss.sprite.crystal_summon_target.png
+size: 317,290
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+crystal_splatter.sprite
+  rotate: false
+  xy: 2, 2
+  size: 313, 286
+  orig: 313, 286
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+shrew_boss.sprite.vomit.png
+size: 572,299
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blue_spit
+  rotate: true
+  xy: 476, 45
+  size: 252, 94
+  orig: 252, 94
+  offset: 0, 0
+  index: -1
+blue_spit2
+  rotate: true
+  xy: 476, 2
+  size: 41, 45
+  orig: 41, 45
+  offset: 0, 0
+  index: -1
+blue_spit3
+  rotate: true
+  xy: 523, 2
+  size: 41, 45
+  orig: 41, 45
+  offset: 0, 0
+  index: -1
+spit_crystal1
+  rotate: false
+  xy: 2, 11
+  size: 156, 286
+  orig: 156, 286
+  offset: 0, 0
+  index: -1
+spit_crystal2
+  rotate: false
+  xy: 160, 11
+  size: 156, 286
+  orig: 156, 286
+  offset: 0, 0
+  index: -1
+spit_crystal3
+  rotate: false
+  xy: 318, 11
+  size: 156, 286
+  orig: 156, 286
+  offset: 0, 0
+  index: -1

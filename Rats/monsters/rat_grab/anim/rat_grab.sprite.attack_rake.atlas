@@ -1,0 +1,20 @@
+
+shrew_boss.sprite.attack_rake.png
+size: 2128,1502
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buffed_rake
+  rotate: false
+  xy: 2, 2
+  size: 2048, 1498
+  orig: 2048, 1498
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2052, 1133
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,20 @@
+
+shrew_boss.sprite.extract.png
+size: 435,227
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+crystal_extract
+  rotate: true
+  xy: 264, 46
+  size: 179, 169
+  orig: 179, 169
+  offset: 0, 0
+  index: -1
+glowy
+  rotate: true
+  xy: 2, 2
+  size: 223, 260
+  orig: 223, 260
+  offset: 0, 0
+  index: -1

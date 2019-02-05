@@ -1,0 +1,23 @@
+{
+    "event_guid_overrides":
+    [
+        {"event_id": "event:/char/enemy/shrew_boss_mystic_claw_human",                   "guid_override":"{d4c1d227-e6fd-4bf5-a101-d978bd304166}"},
+        {"event_id": "event:/char/enemy/shrew_boss_mystic_claw_miss_human",              "guid_override":"{ae571433-b052-4453-a681-1645f962d82d}"},
+        {"event_id": "event:/char/enemy/shrew_boss_drug_summon_human",       "guid_override":"{6ae5e7a5-13a4-4191-80f0-838e6c032030}"},
+        {"event_id": "event:/char/enemy/shrew_boss_drug_summon_miss_human",  "guid_override":"{3467a42d-3525-4b8c-bafe-a39937f6d7f8}"},
+        {"event_id": "event:/char/enemy/shrew_boss_crystal_spit_human",            "guid_override":"{b6791c0a-d6d9-4233-9d68-b0423709239a}"},
+        {"event_id": "event:/char/enemy/shrew_boss_crystal_spit_miss_human",       "guid_override":"{6991bd22-898e-442c-9d1b-f4e8efdd00d8}"},
+	    {"event_id": "event:/char/enemy/shrew_boss_buffed_rake_drugged",            "guid_override":"{2f235154-128a-46aa-9868-68461f21c36d}"},
+        {"event_id": "event:/char/enemy/shrew_boss_buffed_rake_miss_drugged",       "guid_override":"{7d61477a-246c-4fe7-89e0-2eede281a7b8}"},
+		{"event_id": "event:/char/enemy/shrew_boss_buffed_lightning_drugged",            "guid_override":"{8cf92272-f471-4475-9f21-834819634619}"},
+	    {"event_id": "event:/char/enemy/shrew_boss_buffed_lightning_miss_drugged",            "guid_override":"{8cf92272-f471-4475-9f21-834819634619}"},
+        {"event_id": "event:/char/enemy/shrew_boss_consume_drug_human",       "guid_override":"{a9a251b3-a5bc-4e30-97bc-69c8ec99ab3c}"},
+		{"event_id": "event:/char/enemy/shrew_boss_revert_human_drugged",       "guid_override":"{6991bd22-898e-442c-9d1b-f4e8efdd00d8}"},
+		{"event_id": "event:/char/enemy/shrew_boss_vo_aggro",                   "guid_override":"{723140db-50a9-409a-aeb0-249d46c8bcdf}"},
+		{"event_id": "event:/char/enemy/shrew_boss_vo_crit",                   "guid_override":"{dd1541be-629d-4324-b10a-d30cda020a7f}"},
+		{"event_id": "event:/char/enemy/shrew_boss_vo_death",                   "guid_override":"{9e0a3fb4-82e7-4a41-8211-3f08c65e0972}"},
+		{"event_id": "event:/char/enemy/shrew_boss_vo_hurt",                   "guid_override":"{33049919-81e3-465c-9a5f-bdb05cd903a1}"}
+
+
+    ]
+}

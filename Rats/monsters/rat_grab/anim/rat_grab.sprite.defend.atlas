@@ -1,0 +1,27 @@
+
+shrew_boss.sprite.defend.png
+size: 3715,2052
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_defend
+  rotate: true
+  xy: 1872, 2
+  size: 2048, 1765
+  orig: 2048, 1765
+  offset: 0, 0
+  index: -1
+buff_defense
+  rotate: false
+  xy: 2, 2
+  size: 1868, 2048
+  orig: 1868, 2048
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 3639, 1683
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1

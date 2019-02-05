@@ -1,0 +1,20 @@
+
+shrew_boss.sprite.attack_lightning.png
+size: 2128,1896
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CourtyardMiniboss_BuffedSpit
+  rotate: true
+  xy: 2, 2
+  size: 1892, 2048
+  orig: 1892, 2048
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2052, 1527
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1

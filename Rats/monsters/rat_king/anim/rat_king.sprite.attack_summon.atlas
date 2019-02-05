@@ -1,0 +1,20 @@
+
+shrew_boss.sprite.attack_summon.png
+size: 1989,1707
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_spawn
+  rotate: true
+  xy: 2, 2
+  size: 1703, 1909
+  orig: 1703, 1909
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1913, 1338
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1

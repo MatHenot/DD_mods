@@ -1,0 +1,27 @@
+
+shrew_boss.sprite.attack_transform.png
+size: 2528,1836
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+buffed_idle
+  rotate: true
+  xy: 2, 2
+  size: 1832, 2048
+  orig: 1832, 2048
+  offset: 0, 0
+  index: -1
+consume2
+  rotate: true
+  xy: 2052, 1322
+  size: 512, 474
+  orig: 512, 474
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2052, 1246
+  size: 367, 74
+  orig: 367, 74
+  offset: 0, 0
+  index: -1

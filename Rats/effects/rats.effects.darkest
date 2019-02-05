@@ -1,0 +1,53 @@
+effect: .name "switch_mode_drugged_self" .target "performer" .set_mode drugged .chance 100% .on_hit true .on_miss true .queue false
+effect: .name "switch_mode_human_shrew" .target "performer" .set_mode human .chance 100% .on_hit true .on_miss true .queue false
+
+effect: .name "Summon Shrew Crystal Front 1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters corpse_crystal_A .summon_chances 1.0 .summon_limits 5 .summon_ranks 1 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Shrew Crystal Front 3" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters corpse_crystal_B .summon_chances 1.0 .summon_limits 5 .summon_ranks 1 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Shrew Crystal Front 5" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters corpse_crystal_C .summon_chances 1.0 .summon_limits 5 .summon_ranks 1 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true
+
+effect: .name "Summon Shrew Crystal Back 1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters corpse_crystal_A .summon_chances 1.0 .summon_limits 5 .summon_ranks 4 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Shrew Crystal Back 3" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters corpse_crystal_B .summon_chances 1.0 .summon_limits 5 .summon_ranks 4 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Shrew Crystal Back 5" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters corpse_crystal_C .summon_chances 1.0 .summon_limits 5 .summon_ranks 4 .summon_does_roll_initiatives 0 .on_hit true .on_miss true .apply_once true
+
+effect: .name "Bleed reduce" .target "performer" .chance 100% .buff_ids "bleed_duration_66percent_decrease"  .on_hit true .on_miss true .queue true .apply_once true .duration 4
+
+effect: .name "Blight reduce" .target "performer" .chance 100% .buff_ids "blight_duration_66percent_decrease"  .on_hit true .on_miss true .queue true .apply_once true .duration 4 
+
+effect: .name "Hack Stress DOT 1" .target "target" .curio_result_type "negative" .chance 60%  .dotStress 2 .duration 3	.on_hit true .on_miss false
+effect: .name "Hack Stress DOT 3" .target "target" .curio_result_type "negative" .chance 65%  .dotStress 3 .duration 3	.on_hit true .on_miss false
+effect: .name "Hack Stress DOT 5" .target "target" .curio_result_type "negative" .chance 70%  .dotStress 4 .duration 3	.on_hit true .on_miss false
+
+effect: .name "Shrew Rake Debuff 1" .target "target" .curio_result_type "negative" .chance 105% .combat_stat_buff 1 .crit_chance_add -5% .defense_rating_add -5% .duration 3	.on_hit true .on_miss false .queue true
+effect: .name "Shrew Rake Debuff 3" .target "target" .curio_result_type "negative" .chance 125% .combat_stat_buff 1 .crit_chance_add -7% .defense_rating_add -8% .duration 3	.on_hit true .on_miss false .queue true
+effect: .name "Shrew Rake Debuff 5" .target "target" .curio_result_type "negative" .chance 145% .combat_stat_buff 1 .crit_chance_add -9% .defense_rating_add -11% .duration 3	.on_hit true .on_miss false .queue true
+
+effect: .name "Shrew Kill Target" .target "target" .chance 100% .health_damage 100 .on_hit true .on_miss true .queue true
+
+effect: .name "BleedBlight Resist reduce" .target "performer" .chance 100% .buff_ids "consume_bleed_debuff" "consume_blight_debuff" .on_hit true .on_miss true .queue true .apply_once true .duration 6
+
+effect: .name "Shrew Dmg Buffs 1" .target "performer" .chance 100% .duration 6  .combat_stat_buff 1 .damage_low_multiply 25% .damage_high_multiply 25% .on_hit true .on_miss true .queue true .apply_once true 
+effect: .name "Shrew Dmg Buffs 3" .target "performer" .chance 100% .duration 6  .combat_stat_buff 1 .damage_low_multiply 29% .damage_high_multiply 29% .on_hit true .on_miss true .queue true .apply_once true 
+effect: .name "Shrew Dmg Buffs 5" .target "performer" .chance 100% .duration 6  .combat_stat_buff 1 .damage_low_multiply 33% .damage_high_multiply 33% .on_hit true .on_miss true .queue true .apply_once true 
+
+effect: .name "Shrew Defensive Buffs 1" .target "performer" .chance 100% .duration 6 .combat_stat_buff 1 .defense_rating_add -20% .protection_rating_add 45% .speed_rating_add -5 .on_hit true .on_miss true .queue true .apply_once true  
+effect: .name "Shrew Defensive Buffs 3" .target "performer" .chance 100% .duration 6 .combat_stat_buff 1 .defense_rating_add -30% .protection_rating_add 55% .speed_rating_add -5 .on_hit true .on_miss true .queue true .apply_once true  
+effect: .name "Shrew Defensive Buffs 5" .target "performer" .chance 100% .duration 6 .combat_stat_buff 1 .defense_rating_add -40% .protection_rating_add 65% .speed_rating_add -5 .on_hit true .on_miss true .queue true .apply_once true  
+
+effect: .name "Shrew Revert Debuffs 1" .target "performer" .chance 100% .buff_ids "revert_stun_debuff" "revert_healing_debuff" "revert_spd_debuff" .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "Shrew Revert Debuffs 2" .target "performer" .chance 100% .buff_ids "revert_bleeding_debuff" "revert_blighted_debuff" .on_hit true .on_miss true .queue true .apply_once true
+
+effect: .name "Shrew HealingDot 1" .target "performer" .chance 100% .dotHpHeal 6 .duration 3 .on_hit true .on_miss true .queue true .apply_once true 
+effect: .name "Shrew HealingDot 3" .target "performer" .chance 100% .dotHpHeal 9 .duration 3 .on_hit true .on_miss true .queue true .apply_once true 
+effect: .name "Shrew HealingDot 5" .target "performer" .chance 100% .dotHpHeal 12 .duration 3 .on_hit true .on_miss true .queue true .apply_once true 
+
+effect: .name "Spice Addiction 1" .target "target" .curio_result_type "negative" .chance 41% .disease spice_addiction	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true
+effect: .name "Spice Addiction 3" .target "target" .curio_result_type "negative" .chance 48% .disease spice_addiction	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true
+effect: .name "Spice Addiction 5" .target "target" .curio_result_type "negative" .chance 55% .disease spice_addiction	.on_hit true .on_miss false .crit_doesnt_apply_to_roll true
+
+effect: .name "Shrew MultiStun 1" .target "target" .curio_result_type "negative" .chance 80% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Shrew MultiStun 3" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Shrew MultiStun 5" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+
+effect: .name "Shrew Trinket HealingDot" .target "target" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss true .queue true  
+
+

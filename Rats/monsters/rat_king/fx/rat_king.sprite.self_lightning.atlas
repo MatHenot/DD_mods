@@ -1,0 +1,55 @@
+
+shrew_boss.sprite.self_lightning.png
+size: 2996,2164
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Spit_shadow
+  rotate: false
+  xy: 2, 114
+  size: 1892, 2048
+  orig: 1892, 2048
+  offset: 0, 0
+  index: -1
+lightning1
+  rotate: false
+  xy: 1896, 1228
+  size: 1061, 934
+  orig: 1061, 934
+  offset: 0, 0
+  index: -1
+lightning2
+  rotate: true
+  xy: 2604, 248
+  size: 382, 390
+  orig: 382, 390
+  offset: 0, 0
+  index: -1
+lightning3
+  rotate: false
+  xy: 1896, 50
+  size: 681, 429
+  orig: 681, 429
+  offset: 0, 0
+  index: -1
+lightning4
+  rotate: false
+  xy: 1896, 481
+  size: 706, 745
+  orig: 706, 745
+  offset: 0, 0
+  index: -1
+lightning5
+  rotate: false
+  xy: 2604, 632
+  size: 390, 594
+  orig: 390, 594
+  offset: 0, 0
+  index: -1
+lightning6
+  rotate: false
+  xy: 2579, 2
+  size: 360, 244
+  orig: 360, 244
+  offset: 0, 0
+  index: -1
