@@ -1,440 +1,69 @@
 
-shrew_boss.sprite.combat.png
-size: 4081,1942
+rat_grab.sprite.combat.png
+size: 1237,293
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-abdomen_1
+corps
   rotate: true
-  xy: 2674, 1440
-  size: 500, 529
-  orig: 500, 529
+  xy: 2, 43
+  size: 248, 359
+  orig: 248, 359
   offset: 0, 0
   index: -1
-abdomen_2
+gaffe
+  rotate: true
+  xy: 363, 146
+  size: 145, 784
+  orig: 145, 784
+  offset: 0, 0
+  index: -1
+mainD
   rotate: false
-  xy: 1815, 902
-  size: 403, 255
-  orig: 403, 255
+  xy: 363, 14
+  size: 171, 130
+  orig: 171, 130
   offset: 0, 0
   index: -1
-abdomen_3
+mainG
   rotate: true
-  xy: 3263, 248
-  size: 285, 304
-  orig: 285, 304
+  xy: 1000, 5
+  size: 72, 117
+  orig: 72, 117
   offset: 0, 0
   index: -1
-abdomen_4
+ombre
   rotate: false
-  xy: 1111, 18
-  size: 370, 198
-  orig: 370, 198
+  xy: 738, 79
+  size: 359, 65
+  orig: 359, 65
   offset: 0, 0
   index: -1
-abdomen_5
-  rotate: true
-  xy: 3460, 979
-  size: 326, 396
-  orig: 326, 396
-  offset: 0, 0
-  index: -1
-arm_left
-  rotate: true
-  xy: 3114, 635
-  size: 304, 434
-  orig: 304, 434
-  offset: 0, 0
-  index: -1
-arm_right
-  rotate: true
-  xy: 3043, 941
-  size: 325, 415
-  orig: 325, 415
-  offset: 0, 0
-  index: -1
-buff_abdomen_1
-  rotate: true
-  xy: 1272, 232
-  size: 664, 501
-  orig: 664, 501
-  offset: 0, 0
-  index: -1
-buff_abdomen_mouth
+pieds
   rotate: false
-  xy: 2, 867
-  size: 563, 1073
-  orig: 563, 1073
+  xy: 2, 2
+  size: 294, 39
+  orig: 294, 39
   offset: 0, 0
   index: -1
-buff_back_foot_left
-  rotate: true
-  xy: 2968, 2
-  size: 238, 346
-  orig: 238, 346
-  offset: 0, 0
-  index: -1
-buff_back_foot_right
-  rotate: true
-  xy: 3205, 1495
-  size: 445, 578
-  orig: 445, 578
-  offset: 0, 0
-  index: -1
-buff_front_foot_left
-  rotate: true
-  xy: 1775, 486
-  size: 410, 725
-  orig: 410, 725
-  offset: 0, 0
-  index: -1
-buff_front_foot_right
-  rotate: true
-  xy: 567, 891
-  size: 227, 698
-  orig: 227, 698
-  offset: 0, 0
-  index: -1
-buff_front_leg_left
-  rotate: true
-  xy: 3316, 8
-  size: 238, 320
-  orig: 238, 320
-  offset: 0, 0
-  index: -1
-buff_front_leg_right
-  rotate: true
-  xy: 3056, 1286
-  size: 152, 197
-  orig: 152, 197
-  offset: 0, 0
-  index: -1
-buff_hoodie
+queue
   rotate: false
-  xy: 700, 218
-  size: 570, 671
-  orig: 570, 671
+  xy: 738, 2
+  size: 260, 75
+  orig: 260, 75
   offset: 0, 0
   index: -1
-buff_left_bottom_hand
-  rotate: true
-  xy: 2852, 242
-  size: 288, 409
-  orig: 288, 409
-  offset: 0, 0
-  index: -1
-buff_left_bottom_thumb
-  rotate: true
-  xy: 2485, 1281
-  size: 129, 286
-  orig: 129, 286
-  offset: 0, 0
-  index: -1
-buff_left_bottom_wrist
-  rotate: true
-  xy: 3785, 1592
-  size: 348, 261
-  orig: 348, 261
-  offset: 0, 0
-  index: -1
-buff_left_bottom_wrist_2
-  rotate: true
-  xy: 700, 2
-  size: 214, 409
-  orig: 214, 409
-  offset: 0, 0
-  index: -1
-buff_left_top_hand
+sac
   rotate: false
-  xy: 3873, 806
-  size: 203, 215
-  orig: 203, 215
+  xy: 1149, 24
+  size: 86, 267
+  orig: 86, 267
   offset: 0, 0
   index: -1
-buff_left_top_thumb
-  rotate: true
-  xy: 131, 8
-  size: 56, 120
-  orig: 56, 120
-  offset: 0, 0
-  index: -1
-buff_left_top_wrist
-  rotate: true
-  xy: 2165, 1266
-  size: 144, 318
-  orig: 144, 318
-  offset: 0, 0
-  index: -1
-buff_left_top_wrist_2
-  rotate: true
-  xy: 3873, 602
-  size: 202, 205
-  orig: 202, 205
-  offset: 0, 0
-  index: -1
-buff_right_bottom_arm
+tete
   rotate: false
-  xy: 3550, 594
-  size: 321, 383
-  orig: 321, 383
-  offset: 0, 0
-  index: -1
-buff_right_bottom_hand
-  rotate: true
-  xy: 2353, 236
-  size: 248, 497
-  orig: 248, 497
-  offset: 0, 0
-  index: -1
-buff_right_bottom_thumb
-  rotate: true
-  xy: 2176, 24
-  size: 206, 306
-  orig: 206, 306
-  offset: 0, 0
-  index: -1
-buff_right_bottom_wrist
-  rotate: true
-  xy: 1844, 29
-  size: 201, 330
-  orig: 201, 330
-  offset: 0, 0
-  index: -1
-buff_right_bottom_wrist_2
-  rotate: false
-  xy: 2220, 965
-  size: 121, 210
-  orig: 121, 210
-  offset: 0, 0
-  index: -1
-buff_right_top_hand
-  rotate: true
-  xy: 2773, 1268
-  size: 170, 281
-  orig: 170, 281
-  offset: 0, 0
-  index: -1
-buff_right_top_thumb
-  rotate: true
-  xy: 253, 15
-  size: 49, 101
-  orig: 49, 101
-  offset: 0, 0
-  index: -1
-buff_right_top_wrist
-  rotate: false
-  xy: 3858, 1023
-  size: 183, 120
-  orig: 183, 120
-  offset: 0, 0
-  index: -1
-buff_right_top_wrist_2
-  rotate: false
-  xy: 2733, 13
-  size: 233, 221
-  orig: 233, 221
-  offset: 0, 0
-  index: -1
-buff_stinger
-  rotate: false
-  xy: 2347, 901
-  size: 694, 363
-  orig: 694, 363
-  offset: 0, 0
-  index: -1
-buff_tail
-  rotate: true
-  xy: 1734, 1251
-  size: 689, 429
-  orig: 689, 429
-  offset: 0, 0
-  index: -1
-buff_wrist_debris_1
-  rotate: false
-  xy: 356, 12
-  size: 48, 52
-  orig: 48, 52
-  offset: 0, 0
-  index: -1
-buff_wrist_debris_2
-  rotate: false
-  xy: 3114, 544
-  size: 110, 89
-  orig: 110, 89
-  offset: 0, 0
-  index: -1
-drugged_head
-  rotate: false
-  xy: 567, 1120
-  size: 612, 820
-  orig: 612, 820
-  offset: 0, 0
-  index: -1
-far_foot_left
-  rotate: true
-  xy: 1775, 232
-  size: 252, 576
-  orig: 252, 576
-  offset: 0, 0
-  index: -1
-far_foot_right
-  rotate: true
-  xy: 3527, 1322
-  size: 171, 233
-  orig: 171, 233
-  offset: 0, 0
-  index: -1
-far_leg_left
-  rotate: true
-  xy: 3762, 1356
-  size: 137, 204
-  orig: 137, 204
-  offset: 0, 0
-  index: -1
-forearm_left
-  rotate: false
-  xy: 3909, 226
-  size: 165, 124
-  orig: 165, 124
-  offset: 0, 0
-  index: -1
-forearm_right
-  rotate: true
-  xy: 3255, 1307
-  size: 186, 270
-  orig: 186, 270
-  offset: 0, 0
-  index: -1
-front_foot_left
-  rotate: true
-  xy: 2502, 532
-  size: 367, 610
-  orig: 367, 610
-  offset: 0, 0
-  index: -1
-front_foot_right
-  rotate: true
-  xy: 1267, 898
-  size: 227, 546
-  orig: 227, 546
-  offset: 0, 0
-  index: -1
-front_leg_left
-  rotate: false
-  xy: 3858, 1145
-  size: 212, 209
-  orig: 212, 209
-  offset: 0, 0
-  index: -1
-front_leg_right
-  rotate: true
-  xy: 3569, 272
-  size: 320, 238
-  orig: 320, 238
-  offset: 0, 0
-  index: -1
-hand_left
-  rotate: true
-  xy: 2484, 19
-  size: 215, 247
-  orig: 215, 247
-  offset: 0, 0
-  index: -1
-hand_right
-  rotate: true
-  xy: 3638, 19
-  size: 251, 269
-  orig: 251, 269
-  offset: 0, 0
-  index: -1
-head
-  rotate: false
-  xy: 1181, 1203
-  size: 551, 737
-  orig: 551, 737
-  offset: 0, 0
-  index: -1
-hoodie
-  rotate: false
-  xy: 2, 66
-  size: 696, 799
-  orig: 696, 799
-  offset: 0, 0
-  index: -1
-jaw
-  rotate: true
-  xy: 3809, 352
-  size: 240, 248
-  orig: 240, 248
-  offset: 0, 0
-  index: -1
-shadow
-  rotate: false
-  xy: 1181, 1127
-  size: 367, 74
-  orig: 367, 74
-  offset: 0, 0
-  index: -1
-shadow_drugged
-  rotate: false
-  xy: 1734, 1159
-  size: 444, 90
-  orig: 444, 90
-  offset: 0, 0
-  index: -1
-stinger
-  rotate: false
-  xy: 2165, 1412
-  size: 507, 528
-  orig: 507, 528
-  offset: 0, 0
-  index: -1
-tail
-  rotate: true
-  xy: 1483, 27
-  size: 203, 359
-  orig: 203, 359
-  offset: 0, 0
-  index: -1
-thumb_right
-  rotate: true
-  xy: 2180, 1177
-  size: 87, 165
-  orig: 87, 165
-  offset: 0, 0
-  index: -1
-wrist_debris_1
-  rotate: true
-  xy: 3909, 107
-  size: 117, 120
-  orig: 117, 120
-  offset: 0, 0
-  index: -1
-wrist_debris_2
-  rotate: true
-  xy: 2, 5
-  size: 59, 127
-  orig: 59, 127
-  offset: 0, 0
-  index: -1
-wrist_debris_3
-  rotate: false
-  xy: 406, 24
-  size: 40, 40
-  orig: 40, 40
-  offset: 0, 0
-  index: -1
-wrist_debris_4
-  rotate: false
-  xy: 3968, 1465
-  size: 111, 125
-  orig: 111, 125
-  offset: 0, 0
-  index: -1
-wrist_debris_5
-  rotate: true
-  xy: 3226, 535
-  size: 98, 80
-  orig: 98, 80
+  xy: 536, 18
+  size: 200, 126
+  orig: 200, 126
   offset: 0, 0
   index: -1
