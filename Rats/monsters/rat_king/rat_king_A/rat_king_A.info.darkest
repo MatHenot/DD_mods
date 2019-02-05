@@ -1,7 +1,7 @@
 display: .size 3
 enemy_type: .id "beast"
 stats: .hp 80 .def 17% .prot 0 .spd -10 .stun_resist 75% .poison_resist 75% .bleed_resist 65% .debuff_resist 45% .move_resist 50%
-skill: .id "mystic_claw" .type "melee" .atk 84.25% .dmg 0 0 .crit 4%  .launch 4321 .target 12 
+skill: .id "claw" .type "melee" .atk 84.25% .dmg 0 0 .crit 4%  .launch 4321 .target 12 
 personality: .prefskill -1
 loot: .code "" .count 
 initiative: .number_of_turns_per_round 4
