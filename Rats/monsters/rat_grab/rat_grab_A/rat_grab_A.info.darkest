@@ -5,6 +5,7 @@ skill: .id "grab" .type "melee" .atk 62.5% .dmg 0 0 .crit 2%  .launch 4321 .targ
 personality: .prefskill -1
 loot: .code "" .count 
 initiative: .number_of_turns_per_round 1
+monster_brain: .id skeleton_rabble_A
 death_class: .monster_class_id rat_grab_A .is_valid_on_crit False .type "monster" 
 life_link: .base_class "rat_king"
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
