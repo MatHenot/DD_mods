@@ -4,7 +4,7 @@
             "id": "rat_king_A",
             "skill_cooldowns": [
 				{
-				"combat_skill_id": "king_reinforcement",
+					"combat_skill_id": "king_reinforcement",
                     "amount": 1
 				}
 			],
@@ -106,7 +106,14 @@
                         "combat_skill_id": "whip_reinforcement",
                         "performing_turn_min": 2
                     }
-                }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.0000000001,
+                        "combat_skill_id": "move"
+                    }
+				}
             ],
             "target_selection_desires": [
                 {
@@ -140,7 +147,14 @@
                         "combat_skill_id": "bone_reinforcement",
                         "performing_turn_min": 2
                     }
-                }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.0000000001,
+                        "combat_skill_id": "move"
+                    }
+				}
             ],
             "target_selection_desires": [
                 {
@@ -160,21 +174,36 @@
             "id": "rat_grab_whip_A",
             "skill_cooldowns": [
 				{
-				"combat_skill_id": "grab",
+					"combat_skill_id": "grab",
                     "amount": 1
 				},
 				{
-				"combat_skill_id": "whip",
+					"combat_skill_id": "whip",
                     "amount": 1
 				}
 			],
             "skill_selection_desires": [
                 {
-                    "type": "random_skill",
+                    "type": "specific_skill",
                     "data": {
-                        "base_chance": 1.0
+                        "base_chance": 1,
+                        "combat_skill_id": "grab"
                     }
-                }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1,
+                        "combat_skill_id": "whip"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.0000000001,
+                        "combat_skill_id": "move"
+                    }
+				}
             ],
             "target_selection_desires": [
                 {
@@ -194,21 +223,36 @@
             "id": "rat_grab_bone_A",
             "skill_cooldowns": [
 				{
-				"combat_skill_id": "grab",
+					"combat_skill_id": "grab",
                     "amount": 1
 				},
 				{
-				"combat_skill_id": "bone",
+					"combat_skill_id": "bone",
                     "amount": 1
 				}
 			],
             "skill_selection_desires": [
                 {
-                    "type": "random_skill",
+                    "type": "specific_skill",
                     "data": {
-                        "base_chance": 1.0
+                        "base_chance": 1000000000000,
+                        "combat_skill_id": "grab"
                     }
-                }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1,
+                        "combat_skill_id": "bone"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.0000000001,
+                        "combat_skill_id": "move"
+                    }
+				}
             ],
             "target_selection_desires": [
                 {
@@ -228,21 +272,36 @@
             "id": "rat_whip_bone_A",
             "skill_cooldowns": [
 				{
-				"combat_skill_id": "whip",
+					"combat_skill_id": "whip",
                     "amount": 1
 				},
 				{
-				"combat_skill_id": "bone",
+					"combat_skill_id": "bone",
                     "amount": 1
 				}
 			],
             "skill_selection_desires": [
                 {
-                    "type": "random_skill",
+                    "type": "specific_skill",
                     "data": {
-                        "base_chance": 1.0
+                        "base_chance": 1000000000000,
+                        "combat_skill_id": "whip"
+					}
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1,
+                        "combat_skill_id": "bone"
                     }
-                }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.0000000001,
+                        "combat_skill_id": "move"
+                    }
+				}
             ],
             "target_selection_desires": [
                 {
