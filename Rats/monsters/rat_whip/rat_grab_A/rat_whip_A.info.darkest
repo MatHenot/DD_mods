@@ -1,12 +1,12 @@
 display: .size 1
 enemy_type: .id "beast"
 stats: .hp 8 .def 0% .prot 0 .spd 1 .stun_resist 10% .poison_resist 10% .bleed_resist 20% .debuff_resist 15% .move_resist 10%
-skill: .id "grab" .type "melee" .atk 62.5% .dmg 1 1 .crit 2%  .launch 4321 .target 12
-skill: .id "grab_reinforcement" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "grab_upgrade_100" "grab_upgrade_50" "upgrade_init" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
+skill: .id "whip" .type "melee" .atk 62.5% .dmg 1 1 .crit 2%  .launch 4321 .target 12
+skill: .id "whip_reinforcement" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "whip_upgrade_100" "whip_upgrade_50" "upgrade_init" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
 personality: .prefskill -1
 loot: .code "" .count 
 initiative: .number_of_turns_per_round 1
-monster_brain: .id rat_grab_A
+monster_brain: .id rat_whip_A
 death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
 life_link: .base_class "rat_king"
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False

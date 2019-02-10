@@ -1,0 +1,76 @@
+
+rat_bone.sprite.combat.png
+size: 1048,427
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brasD
+  rotate: true
+  xy: 748, 84
+  size: 123, 169
+  orig: 123, 169
+  offset: 0, 0
+  index: -1
+brasG
+  rotate: false
+  xy: 570, 85
+  size: 176, 122
+  orig: 176, 122
+  offset: 0, 0
+  index: -1
+cache
+  rotate: false
+  xy: 1019, 257
+  size: 23, 17
+  orig: 23, 17
+  offset: 0, 0
+  index: -1
+corps
+  rotate: true
+  xy: 2, 2
+  size: 423, 566
+  orig: 423, 566
+  offset: 0, 0
+  index: -1
+crochet1
+  rotate: true
+  xy: 703, 9
+  size: 73, 219
+  orig: 73, 219
+  offset: 0, 0
+  index: -1
+crochet2
+  rotate: false
+  xy: 924, 21
+  size: 62, 178
+  orig: 62, 178
+  offset: 0, 0
+  index: -1
+crochet3
+  rotate: true
+  xy: 570, 19
+  size: 64, 131
+  orig: 64, 131
+  offset: 0, 0
+  index: -1
+mainD
+  rotate: true
+  xy: 931, 201
+  size: 73, 86
+  orig: 73, 86
+  offset: 0, 0
+  index: -1
+nonos
+  rotate: true
+  xy: 570, 276
+  size: 149, 476
+  orig: 149, 476
+  offset: 0, 0
+  index: -1
+ombre
+  rotate: false
+  xy: 570, 209
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1

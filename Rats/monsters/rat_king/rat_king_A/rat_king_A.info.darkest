@@ -1,11 +1,11 @@
 display: .size 2
 enemy_type: .id "beast"
 stats: .hp 80 .def 17% .prot 0 .spd -10 .stun_resist 75% .poison_resist 75% .bleed_resist 65% .debuff_resist 45% .move_resist 50%
-skill: .id "claw" .type "melee" .atk 84.25% .dmg 0 0 .crit 4%  .launch 4321 .target 12
-skill: .id "king_reinforcement" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "rat_king_reinforcement" .launch 4321 .target "" .is_crit_valid False .can_be_riposted false
+skill: .id "claw" .type "melee" .atk 84.25% .dmg 1 1 .crit 4%  .launch 4321 .target 12
+skill: .id "king_reinforcement" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "reinforcement_A" "reinforcement_B" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
 personality: .prefskill -1
 loot: .code "" .count 
-initiative: .number_of_turns_per_round 3
+initiative: .number_of_turns_per_round 1
 monster_brain: .id rat_king_A
 tag: .id "boss"
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty true .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False

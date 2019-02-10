@@ -1,0 +1,69 @@
+
+rat_whip.sprite.combat.png
+size: 1237,293
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+corps
+  rotate: true
+  xy: 2, 43
+  size: 248, 359
+  orig: 248, 359
+  offset: 0, 0
+  index: -1
+gaffe
+  rotate: true
+  xy: 363, 146
+  size: 145, 784
+  orig: 145, 784
+  offset: 0, 0
+  index: -1
+mainD
+  rotate: false
+  xy: 363, 14
+  size: 171, 130
+  orig: 171, 130
+  offset: 0, 0
+  index: -1
+mainG
+  rotate: true
+  xy: 1000, 5
+  size: 72, 117
+  orig: 72, 117
+  offset: 0, 0
+  index: -1
+ombre
+  rotate: false
+  xy: 738, 79
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+pieds
+  rotate: false
+  xy: 2, 2
+  size: 294, 39
+  orig: 294, 39
+  offset: 0, 0
+  index: -1
+queue
+  rotate: false
+  xy: 738, 2
+  size: 260, 75
+  orig: 260, 75
+  offset: 0, 0
+  index: -1
+sac
+  rotate: false
+  xy: 1149, 24
+  size: 86, 267
+  orig: 86, 267
+  offset: 0, 0
+  index: -1
+tete
+  rotate: false
+  xy: 536, 18
+  size: 200, 126
+  orig: 200, 126
+  offset: 0, 0
+  index: -1

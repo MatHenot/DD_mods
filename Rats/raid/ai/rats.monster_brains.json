@@ -2,56 +2,9 @@
 	[
 		{
             "id": "rat_king_A",
-            "skill_cooldowns": [],
-            "skill_selection_desires": [
-                {
-                    "type": "specific_skill",
-                    "data": {
-                        "base_chance": 0.65,
-                        "combat_skill_id": "claw"
-                    }
-                },
-                {
-                    "type": "specific_skill",
-                    "data": {
-                        "base_chance": 0.35,
-                        "combat_skill_id": "claw"
-                    }
-                }
-            ],
-            "target_selection_desires": [
-                {
-                    "type": "random_target",
-                    "data": {
-                        "base_chance": 1.0,
-                        "specific_combat_skill_id": "",
-                        "is_exclusive_desire": false,
-                        "is_enemy_target_desire": true,
-                        "is_friendly_target_desire": true
-                    }
-                }
-            ],
-            "bonus_initiative_desires": [
-                {
-                    "type": "guaranteed",
-                    "data": {
-                        "is_round_start": true,
-                        "is_round_in_progress": false,
-                        "is_round_finish": false,
-                        "is_pre_turn": false,
-                        "is_post_turn": true,
-                        "combat_skill_id_override": "king_reinforcement",
-                        "monsters_size_min": 0,
-                        "monsters_size_max": 3
-                    }
-                }
-            ]
-        },
-		{
-            "id": "rat_grab_A",
             "skill_cooldowns": [
 				{
-                    "combat_skill_id": "grab_reinforcement",
+				"combat_skill_id": "king_reinforcement",
                     "amount": 1
 				}
 			],
@@ -60,14 +13,14 @@
                     "type": "specific_skill",
                     "data": {
                         "base_chance": 0.65,
-                        "combat_skill_id": "grab"
+                        "combat_skill_id": "claw"
                     }
                 },
                 {
                     "type": "specific_skill",
                     "data": {
                         "base_chance": 0.35,
-                        "combat_skill_id": "grab"
+                        "combat_skill_id": "claw"
                     }
                 }
             ],
@@ -92,13 +45,116 @@
                         "is_round_finish": false,
                         "is_pre_turn": true,
                         "is_post_turn": false,
-                        "combat_skill_id_override": "grab_reinforcement",
-						"is_cooldown_enabled": true,
-						"ignore_if_stun": true
+                        "is_cooldown_enabled": true,
+                        "round_min": 1,
+                        "combat_skill_id_override": "king_reinforcement",
+                        "monsters_size_limit": 3,
+                        "ignore_if_stun": true
                     }
                 }
             ]
+        },
+		{
+            "id": "rat_grab_A",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1,
+                        "combat_skill_id": "grab"
+                    }
+                },
+				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 100000000000.0,
+                        "combat_skill_id": "grab_reinforcement",
+                        "performing_turn_min": 2
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+		{
+            "id": "rat_whip_A",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1,
+                        "combat_skill_id": "whip"
+                    }
+                },
+				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 100000000000.0,
+                        "combat_skill_id": "whip_reinforcement",
+                        "performing_turn_min": 2
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+		{
+            "id": "rat_bone_A",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1,
+                        "combat_skill_id": "bone"
+                    }
+                },
+				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 100000000000.0,
+                        "combat_skill_id": "bone_reinforcement",
+                        "performing_turn_min": 2
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
         }
-	
 	]
 }

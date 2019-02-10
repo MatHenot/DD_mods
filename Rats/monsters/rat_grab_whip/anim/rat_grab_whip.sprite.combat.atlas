@@ -1,0 +1,20 @@
+
+rat_grab_whip.sprite.combat.png
+size: 856,429
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Groupe 1
+  rotate: true
+  xy: 2, 2
+  size: 425, 785
+  orig: 425, 785
+  offset: 0, 0
+  index: -1
+ombre
+  rotate: true
+  xy: 789, 68
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1

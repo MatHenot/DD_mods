@@ -1,0 +1,20 @@
+
+rat_bone.sprite.defend.png
+size: 638,405
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bonedefend
+  rotate: true
+  xy: 2, 2
+  size: 401, 567
+  orig: 401, 567
+  offset: 0, 0
+  index: -1
+images/ombre
+  rotate: true
+  xy: 571, 44
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
