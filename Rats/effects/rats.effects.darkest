@@ -1,15 +1,23 @@
+//RAT KING
 
+effect: .name "reinforcement_A" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters rat_grab_A rat_whip_A rat_bone_A .summon_chances 1.0 1.0 1.0 .summon_limits 2 2 2 .summon_does_roll_initiatives 1 1 1 .on_hit true .on_miss true .apply_once true
+effect: .name "reinforcement_B" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters rat_grab_A rat_whip_A rat_bone_A .summon_chances 1.0 1.0 1.0 .summon_limits 2 2 2 .summon_does_roll_initiatives 1 1 1 .on_hit true .on_miss true .apply_once true
 
-effect: .name "reinforcement_A" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters rat_grab_A rat_bone_A .summon_chances 1.0 1.0 .summon_limits 2 2 .summon_does_roll_initiatives 1 1 .on_hit true .on_miss true .apply_once true
-effect: .name "reinforcement_B" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters rat_grab_A rat_bone_A .summon_chances 1.0 1.0 .summon_limits 2 2 .summon_does_roll_initiatives 1 1 .on_hit true .on_miss true .apply_once true
+//RAT GRAB
 
-effect: .name "grab_upgrade_100" .target "performer" .chance 100% .set_monster_class_id rat_grab_bone_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true
-effect: .name "grab_upgrade_50" .target "performer" .chance 50% .set_monster_class_id rat_grab_whip_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .on_hit true .on_miss true .queue true
+effect: .name "grab_upgrade_100" .target "performer" .chance 100% .set_monster_class_id rat_grab_whip_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+effect: .name "grab_upgrade_50" .target "performer" .chance 50% .set_monster_class_id rat_grab_bone_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
 
-effect: .name "whip_upgrade_100" .target "performer" .chance 100% .set_monster_class_id rat_grab_whip_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .set_monster_class_clear_initative false .on_hit true .on_miss true .queue true
-effect: .name "whip_upgrade_50" .target "performer" .chance 50% .set_monster_class_id rat_whip_bone_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .set_monster_class_clear_initative false .on_hit true .on_miss true .queue true
+//RAT WHIP
 
-effect: .name "bone_upgrade_100" .target "performer" .chance 100% .set_monster_class_id rat_grab_bone_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .set_monster_class_clear_initative false .on_hit true .on_miss true .queue true
-effect: .name "bone_upgrade_50" .target "performer" .chance 50% .set_monster_class_id rat_whip_bone_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .set_monster_class_clear_initative false .on_hit true .on_miss true .queue true
+effect: .name "whip_upgrade_100" .target "performer" .chance 100% .set_monster_class_id rat_grab_whip_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+effect: .name "whip_upgrade_50" .target "performer" .chance 50% .set_monster_class_id rat_whip_bone_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+
+//RAT BONE
+
+effect: .name "bone_upgrade_100" .target "performer" .chance 100% .set_monster_class_id rat_grab_bone_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+effect: .name "bone_upgrade_50" .target "performer" .chance 50% .set_monster_class_id rat_whip_bone_A .set_monster_class_reset_hp true .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+
+//COMMON
 
 effect: .name "upgrade_init" .target "target" .curio_result_type "positive" .chance 100% .initiative_change 2 .on_hit true .on_miss true .queue true
