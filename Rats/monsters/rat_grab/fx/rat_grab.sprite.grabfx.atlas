@@ -1,0 +1,13 @@
+
+rat_grab.sprite.grabfx.png
+size: 234,213
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/grabfx
+  rotate: false
+  xy: 2, 2
+  size: 230, 209
+  orig: 230, 209
+  offset: 0, 0
+  index: -1
