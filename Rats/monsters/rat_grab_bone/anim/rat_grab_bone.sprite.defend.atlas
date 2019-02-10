@@ -1,19 +1,19 @@
 
-rat_grab_bone.sprite.combat.png
-size: 856,429
+rat_grab_bone.sprite.defend.png
+size: 826,521
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Groupe 1
+images/grabbone_defend
   rotate: true
   xy: 2, 2
-  size: 425, 785
-  orig: 425, 785
+  size: 517, 755
+  orig: 517, 755
   offset: 0, 0
   index: -1
-ombre
+images/ombre
   rotate: true
-  xy: 789, 68
+  xy: 759, 160
   size: 359, 65
   orig: 359, 65
   offset: 0, 0

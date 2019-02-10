@@ -1,20 +1,118 @@
 
 rat_grab_bone.sprite.combat.png
-size: 856,429
+size: 1805,428
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Groupe 1
+corps
   rotate: true
-  xy: 2, 2
-  size: 425, 785
-  orig: 425, 785
+  xy: 570, 178
+  size: 248, 359
+  orig: 248, 359
+  offset: 0, 0
+  index: -1
+gaffe
+  rotate: true
+  xy: 931, 281
+  size: 145, 784
+  orig: 145, 784
+  offset: 0, 0
+  index: -1
+images/brasD
+  rotate: true
+  xy: 945, 5
+  size: 123, 169
+  orig: 123, 169
+  offset: 0, 0
+  index: -1
+images/brasG
+  rotate: false
+  xy: 1116, 6
+  size: 176, 122
+  orig: 176, 122
+  offset: 0, 0
+  index: -1
+images/cache
+  rotate: true
+  xy: 1671, 215
+  size: 23, 17
+  orig: 23, 17
+  offset: 0, 0
+  index: -1
+images/corps
+  rotate: true
+  xy: 2, 3
+  size: 423, 566
+  orig: 423, 566
+  offset: 0, 0
+  index: -1
+images/crochet3
+  rotate: true
+  xy: 1456, 26
+  size: 64, 131
+  orig: 64, 131
+  offset: 0, 0
+  index: -1
+images/mainD
+  rotate: true
+  xy: 1368, 17
+  size: 73, 86
+  orig: 73, 86
+  offset: 0, 0
+  index: -1
+images/nonos
+  rotate: true
+  xy: 931, 130
+  size: 149, 476
+  orig: 149, 476
+  offset: 0, 0
+  index: -1
+mainD
+  rotate: false
+  xy: 570, 46
+  size: 171, 130
+  orig: 171, 130
+  offset: 0, 0
+  index: -1
+mainG
+  rotate: false
+  xy: 1294, 11
+  size: 72, 117
+  orig: 72, 117
   offset: 0, 0
   index: -1
 ombre
-  rotate: true
-  xy: 789, 68
+  rotate: false
+  xy: 1409, 92
   size: 359, 65
   orig: 359, 65
+  offset: 0, 0
+  index: -1
+pieds
+  rotate: false
+  xy: 1409, 240
+  size: 294, 39
+  orig: 294, 39
+  offset: 0, 0
+  index: -1
+queue
+  rotate: false
+  xy: 1409, 163
+  size: 260, 75
+  orig: 260, 75
+  offset: 0, 0
+  index: -1
+sac
+  rotate: false
+  xy: 1717, 159
+  size: 86, 267
+  orig: 86, 267
+  offset: 0, 0
+  index: -1
+tete
+  rotate: false
+  xy: 743, 2
+  size: 200, 126
+  orig: 200, 126
   offset: 0, 0
   index: -1

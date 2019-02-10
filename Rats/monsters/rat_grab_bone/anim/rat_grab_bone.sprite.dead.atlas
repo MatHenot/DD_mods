@@ -1,20 +1,20 @@
 
 rat_grab_bone.sprite.dead.png
-size: 361,274
+size: 634,253
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-dead
-  rotate: false
-  xy: 2, 67
-  size: 293, 205
-  orig: 293, 205
-  offset: 0, 0
-  index: -1
-shadow
+images/grabbone_cadavre
   rotate: false
   xy: 2, 2
-  size: 357, 63
-  orig: 357, 63
+  size: 269, 249
+  orig: 269, 249
+  offset: 0, 0
+  index: -1
+images/ombre
+  rotate: false
+  xy: 273, 186
+  size: 359, 65
+  orig: 359, 65
   offset: 0, 0
   index: -1
