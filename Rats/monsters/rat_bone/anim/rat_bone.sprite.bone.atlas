@@ -1,0 +1,20 @@
+
+rat_bone.sprite.bone.png
+size: 545,569
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/boneattack copie
+  rotate: false
+  xy: 2, 69
+  size: 541, 498
+  orig: 541, 498
+  offset: 0, 0
+  index: -1
+images/ombre
+  rotate: false
+  xy: 2, 2
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
