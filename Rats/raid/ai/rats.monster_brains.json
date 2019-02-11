@@ -66,11 +66,19 @@
                     }
                 },
 				{
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 2,
+                        "combat_skill_id": "grab_reinforcement",
+                        "performing_turn": 2
+                    }
+                },
+				{
                     "type": "specific_skill",
                     "data": {
                         "base_chance": 100000000000.0,
                         "combat_skill_id": "grab_reinforcement",
-                        "performing_turn_min": 2
+                        "performing_turn_min": 3
                     }
                 }
             ],
@@ -100,11 +108,19 @@
                     }
                 },
 				{
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 2,
+                        "combat_skill_id": "whip_reinforcement",
+                        "performing_turn": 2
+                    }
+                },
+				{
                     "type": "specific_skill",
                     "data": {
                         "base_chance": 100000000000.0,
                         "combat_skill_id": "whip_reinforcement",
-                        "performing_turn_min": 2
+                        "performing_turn_min": 3
                     }
                 },
                 {
@@ -141,11 +157,19 @@
                     }
                 },
 				{
+                    "type": "performing_turn_skill",
+                    "data": {
+                        "base_chance": 2,
+                        "combat_skill_id": "bone_reinforcement",
+                        "performing_turn": 2
+                    }
+                },
+				{
                     "type": "specific_skill",
                     "data": {
                         "base_chance": 100000000000.0,
                         "combat_skill_id": "bone_reinforcement",
-                        "performing_turn_min": 2
+                        "performing_turn_min": 3
                     }
                 },
                 {
