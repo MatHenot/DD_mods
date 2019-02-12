@@ -10,6 +10,10 @@
 				{
 					"combat_skill_id": "headbutt",
                     "amount": 1
+				},
+				{
+					"combat_skill_id": "curse",
+                    "amount": 1
 				}
 			],
             "skill_selection_desires": [
@@ -42,6 +46,13 @@
                     }
                 },
 				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 3,
+                        "combat_skill_id": "curse"
+                    }
+                },
+				{
                     "type": "ally_alive_skill",
                     "data": {
                         "base_chance": 1000000000.0,
@@ -70,7 +81,8 @@
                         "is_exclusive_desire": true,
                         "is_enemy_target_desire": false,
                         "is_friendly_target_desire": true,
-						"ally_base_class_id" : "corpse"
+						"ally_base_class_id" : "corpse",
+						"is_valid_when_corpse_enabled": false
                     }
                 }
             ],

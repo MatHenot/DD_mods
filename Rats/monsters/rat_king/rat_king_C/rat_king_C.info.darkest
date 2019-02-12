@@ -2,8 +2,8 @@ display: .size 2
 enemy_type: .id "beast"
 stats: .hp 185 .def 22.5% .prot 0 .spd 6 .stun_resist 90% .poison_resist 80% .bleed_resist 90% .debuff_resist 70% .move_resist 110%
 skill: .id "claw12" .type "melee" .atk 97.5% .dmg 5 10 .crit 9%  .launch 4321 .target ~12 .effect "rats_hp_debuff"
-skill: .id "claw13" .type "melee" .atk 97.5% .dmg 5 10 .crit 9%  .launch 4321 .target ~13 .effect "rats_hp_debuff"
-skill: .id "claw23" .type "melee" .atk 97.5% .dmg 5 10 .crit 9%  .launch 4321 .target ~23 .effect "rats_hp_debuff"
+skill: .id "claw13" .type "melee" .atk 97.5% .dmg 5 10 .crit 9%  .launch 4321 .target ~13 .effect "rats_hp_debuff" .is_knowledgeable False
+skill: .id "claw23" .type "melee" .atk 97.5% .dmg 5 10 .crit 9%  .launch 4321 .target ~23 .effect "rats_hp_debuff" .is_knowledgeable False
 skill: .id "headbutt" .type "melee" .atk 102.5% .dmg 7 13 .crit 9%  .launch 4321 .target 1 .effect "rats_hp_debuff" "Stun 4" "Push 3C"
 skill: .id "curse" .type "distance" .atk 107.5% .dmg 0 0 .crit 0%  .launch 4321 .target ~1234 .effect "rats_hp_debuff" "king_curse_C"
 skill: .id "devour" .type "distance" .atk 107.5% .dmg 0 0  .crit 0%  .launch 4321 .target @1234 .effect "king_heal_C" "clear_corpse"
