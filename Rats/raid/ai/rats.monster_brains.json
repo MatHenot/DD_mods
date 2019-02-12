@@ -1,10 +1,14 @@
 {"monster_brains" : 
 	[
 		{
-            "id": "rat_king_A",
+            "id": "rat_king",
             "skill_cooldowns": [
 				{
 					"combat_skill_id": "king_reinforcement",
+                    "amount": 1
+				},
+				{
+					"combat_skill_id": "headbutt",
                     "amount": 1
 				}
 			],
@@ -12,15 +16,38 @@
                 {
                     "type": "specific_skill",
                     "data": {
-                        "base_chance": 0.65,
-                        "combat_skill_id": "claw"
+                        "base_chance": 1,
+                        "combat_skill_id": "claw12"
                     }
                 },
                 {
                     "type": "specific_skill",
                     "data": {
-                        "base_chance": 0.35,
-                        "combat_skill_id": "claw"
+                        "base_chance": 1,
+                        "combat_skill_id": "claw13"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1,
+                        "combat_skill_id": "claw23"
+                    }
+                },
+				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 3,
+                        "combat_skill_id": "headbutt"
+                    }
+                },
+				{
+                    "type": "ally_alive_skill",
+                    "data": {
+                        "base_chance": 1000000000.0,
+                        "combat_skill_id": "devour",
+						"ally_actor_class_count" : 1,
+						"ally_base_class_id" : "corpse"
                     }
                 }
             ],
@@ -33,6 +60,17 @@
                         "is_exclusive_desire": false,
                         "is_enemy_target_desire": true,
                         "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "ally_class_target",
+                    "data": {
+                        "base_chance": 1000000000.0,
+                        "specific_combat_skill_id": "devour",
+                        "is_exclusive_desire": true,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true,
+						"ally_base_class_id" : "corpse"
                     }
                 }
             ],
@@ -55,7 +93,7 @@
             ]
         },
 		{
-            "id": "rat_grab_A",
+            "id": "rat_grab",
             "skill_cooldowns": [],
             "skill_selection_desires": [
                 {
@@ -97,7 +135,7 @@
             "bonus_initiative_desires": []
         },
 		{
-            "id": "rat_whip_A",
+            "id": "rat_whip",
             "skill_cooldowns": [],
             "skill_selection_desires": [
                 {
@@ -146,7 +184,7 @@
             "bonus_initiative_desires": []
         },
 		{
-            "id": "rat_bone_A",
+            "id": "rat_bone",
             "skill_cooldowns": [],
             "skill_selection_desires": [
                 {
@@ -195,7 +233,7 @@
             "bonus_initiative_desires": []
         },
 		{
-            "id": "rat_grab_whip_A",
+            "id": "rat_grab_whip",
             "skill_cooldowns": [
 				{
 					"combat_skill_id": "grab",
@@ -244,7 +282,7 @@
             "bonus_initiative_desires": []
         },
 		{
-            "id": "rat_grab_bone_A",
+            "id": "rat_grab_bone",
             "skill_cooldowns": [
 				{
 					"combat_skill_id": "grab",
@@ -293,7 +331,7 @@
             "bonus_initiative_desires": []
         },
 		{
-            "id": "rat_whip_bone_A",
+            "id": "rat_whip_bone",
             "skill_cooldowns": [
 				{
 					"combat_skill_id": "whip",
