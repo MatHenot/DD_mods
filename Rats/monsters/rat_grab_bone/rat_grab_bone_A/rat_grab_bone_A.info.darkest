@@ -7,7 +7,7 @@ skill: .id "move" .type "" .atk 0% .dmg 0 0 .crit 0% .launch 43 .target "" .move
 personality: .prefskill -1
 loot: .code "" .count 
 initiative: .number_of_turns_per_round 2
-monster_brain: .id rat_grab_bone_A
+monster_brain: .id rat_grab_bone
 death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
 life_link: .base_class "rat_king"
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
