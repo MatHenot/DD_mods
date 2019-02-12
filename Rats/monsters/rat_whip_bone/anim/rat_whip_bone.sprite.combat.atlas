@@ -1,20 +1,111 @@
 
 rat_whip_bone.sprite.combat.png
-size: 856,429
+size: 1434,462
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-Groupe 1
+Calque 59 copie
+  rotate: false
+  xy: 637, 155
+  size: 295, 305
+  orig: 295, 305
+  offset: 0, 0
+  index: -1
+arme0
   rotate: true
-  xy: 2, 2
-  size: 425, 785
-  orig: 425, 785
+  xy: 1080, 424
+  size: 36, 128
+  orig: 36, 128
+  offset: 0, 0
+  index: -1
+arme1 copie
+  rotate: true
+  xy: 1241, 360
+  size: 100, 191
+  orig: 100, 191
+  offset: 0, 0
+  index: -1
+arme2 copie
+  rotate: false
+  xy: 934, 157
+  size: 144, 303
+  orig: 144, 303
+  offset: 0, 0
+  index: -1
+bone/brasD
+  rotate: false
+  xy: 1080, 253
+  size: 123, 169
+  orig: 123, 169
+  offset: 0, 0
+  index: -1
+bone/brasG
+  rotate: true
+  xy: 1241, 7
+  size: 176, 122
+  orig: 176, 122
+  offset: 0, 0
+  index: -1
+bone/corps
+  rotate: true
+  xy: 2, 37
+  size: 423, 566
+  orig: 423, 566
+  offset: 0, 0
+  index: -1
+bone/crochet3
+  rotate: false
+  xy: 1365, 52
+  size: 64, 131
+  orig: 64, 131
+  offset: 0, 0
+  index: -1
+bone/mainD
+  rotate: false
+  xy: 570, 13
+  size: 73, 86
+  orig: 73, 86
+  offset: 0, 0
+  index: -1
+bone/nonos
+  rotate: true
+  xy: 763, 4
+  size: 149, 476
+  orig: 149, 476
+  offset: 0, 0
+  index: -1
+cache
+  rotate: true
+  xy: 2, 12
+  size: 23, 17
+  orig: 23, 17
   offset: 0, 0
   index: -1
 ombre
   rotate: true
-  xy: 789, 68
+  xy: 570, 101
   size: 359, 65
   orig: 359, 65
+  offset: 0, 0
+  index: -1
+wipbrasG
+  rotate: false
+  xy: 1080, 166
+  size: 112, 85
+  orig: 112, 85
+  offset: 0, 0
+  index: -1
+wipbrasc
+  rotate: false
+  xy: 645, 2
+  size: 116, 151
+  orig: 116, 151
+  offset: 0, 0
+  index: -1
+wiphead
+  rotate: true
+  xy: 1241, 185
+  size: 173, 177
+  orig: 173, 177
   offset: 0, 0
   index: -1

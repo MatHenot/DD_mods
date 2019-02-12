@@ -1,0 +1,27 @@
+
+rat_whip_bone.sprite.whip.png
+size: 1237,506
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ombre
+  rotate: false
+  xy: 669, 4
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+images/whip/boneaaa
+  rotate: true
+  xy: 669, 71
+  size: 433, 566
+  orig: 433, 566
+  offset: 0, 0
+  index: -1
+images/whip/wipattack copie
+  rotate: false
+  xy: 2, 2
+  size: 665, 502
+  orig: 665, 502
+  offset: 0, 0
+  index: -1

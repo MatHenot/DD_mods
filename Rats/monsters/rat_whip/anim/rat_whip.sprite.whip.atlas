@@ -1,13 +1,13 @@
 
-rat_whip.sprite.defend.png
-size: 296,387
+rat_whip.sprite.whip.png
+size: 669,506
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/whip/whipdefend
+images/whip/wipattack copie
   rotate: false
   xy: 2, 2
-  size: 292, 383
-  orig: 292, 383
+  size: 665, 502
+  orig: 665, 502
   offset: 0, 0
   index: -1
