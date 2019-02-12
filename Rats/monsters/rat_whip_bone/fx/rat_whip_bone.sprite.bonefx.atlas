@@ -1,0 +1,13 @@
+
+rat_whip_bone.sprite.bonefx.png
+size: 727,186
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bonefxA
+  rotate: false
+  xy: 2, 2
+  size: 723, 182
+  orig: 723, 182
+  offset: 0, 0
+  index: -1
