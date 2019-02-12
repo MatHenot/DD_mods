@@ -5,7 +5,7 @@
 			"id": "rats_hp_debuff",
 			"stat_type": "combat_stat_multiply",
 			"stat_sub_type": "max_hp",
-			"amount": -0.03,
+			"amount": -0.05,
 			"duration_type": "round",
 			"duration": 10,
 			"remove_if_not_active": false,

@@ -20,7 +20,7 @@
                 {
                     "type": "specific_skill",
                     "data": {
-                        "base_chance": 1,
+                        "base_chance": 1.5,
                         "combat_skill_id": "claw12"
                     }
                 },
@@ -38,6 +38,20 @@
                         "combat_skill_id": "claw23"
                     }
                 },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.7,
+                        "combat_skill_id": "claw24"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 0.5,
+                        "combat_skill_id": "claw34"
+                    }
+                },
 				{
                     "type": "specific_skill",
                     "data": {
@@ -48,7 +62,7 @@
 				{
                     "type": "specific_skill",
                     "data": {
-                        "base_chance": 3,
+                        "base_chance": 2,
                         "combat_skill_id": "curse"
                     }
                 },
@@ -57,7 +71,6 @@
                     "data": {
                         "base_chance": 1000000000.0,
                         "combat_skill_id": "devour",
-						"ally_actor_class_count" : 1,
 						"ally_base_class_id" : "corpse"
                     }
                 }
@@ -71,18 +84,6 @@
                         "is_exclusive_desire": false,
                         "is_enemy_target_desire": true,
                         "is_friendly_target_desire": true
-                    }
-                },
-                {
-                    "type": "ally_class_target",
-                    "data": {
-                        "base_chance": 1000000000.0,
-                        "specific_combat_skill_id": "devour",
-                        "is_exclusive_desire": true,
-                        "is_enemy_target_desire": false,
-                        "is_friendly_target_desire": true,
-						"ally_base_class_id" : "corpse",
-						"is_valid_when_corpse_enabled": false
                     }
                 }
             ],
@@ -137,7 +138,7 @@
                     "type": "random_target",
                     "data": {
                         "base_chance": 1.0,
-                        "specific_combat_skill_id": "",
+                        "specific_combat_skill_id": "grab",
                         "is_exclusive_desire": false,
                         "is_enemy_target_desire": true,
                         "is_friendly_target_desire": true
@@ -190,6 +191,18 @@
                         "is_exclusive_desire": false,
                         "is_enemy_target_desire": true,
                         "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "resistance_target",
+                    "data": {
+                        "base_chance": 100000.0,
+                        "specific_combat_skill_id": "whip",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "resistance_type_id": "bleed",
+                        "is_greater_comparison": false
                     }
                 }
             ],
