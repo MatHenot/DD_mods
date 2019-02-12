@@ -1,0 +1,27 @@
+
+rat_grab_bone.sprite.bone.png
+size: 1331,502
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/boneattack copie
+  rotate: false
+  xy: 788, 2
+  size: 541, 498
+  orig: 541, 498
+  offset: 0, 0
+  index: -1
+images/ombre
+  rotate: false
+  xy: 2, 107
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+images/whip/grab
+  rotate: true
+  xy: 2, 174
+  size: 326, 784
+  orig: 326, 784
+  offset: 0, 0
+  index: -1
