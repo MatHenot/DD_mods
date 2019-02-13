@@ -1,20 +1,20 @@
 
 rat_whip.sprite.dead.png
-size: 361,274
+size: 598,164
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-dead
+images/ombre
   rotate: false
-  xy: 2, 67
-  size: 293, 205
-  orig: 293, 205
+  xy: 2, 97
+  size: 359, 65
+  orig: 359, 65
   offset: 0, 0
   index: -1
-shadow
+images/whip cadavre
   rotate: false
-  xy: 2, 2
-  size: 357, 63
-  orig: 357, 63
+  xy: 363, 2
+  size: 233, 160
+  orig: 233, 160
   offset: 0, 0
   index: -1

@@ -1,0 +1,27 @@
+
+rat_grab_whip.sprite.whip.png
+size: 1455,506
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ombre
+  rotate: false
+  xy: 669, 111
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+images/whip/grab
+  rotate: true
+  xy: 669, 178
+  size: 326, 784
+  orig: 326, 784
+  offset: 0, 0
+  index: -1
+images/whip/wipattack copie
+  rotate: false
+  xy: 2, 2
+  size: 665, 502
+  orig: 665, 502
+  offset: 0, 0
+  index: -1

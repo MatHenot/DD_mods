@@ -1,0 +1,20 @@
+
+rat_grab_whip.sprite.whipfx.png
+size: 678,353
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/whip/wipattackFX1
+  rotate: true
+  xy: 2, 2
+  size: 349, 400
+  orig: 349, 400
+  offset: 0, 0
+  index: -1
+images/whip/wipattackFX2
+  rotate: true
+  xy: 404, 20
+  size: 331, 272
+  orig: 331, 272
+  offset: 0, 0
+  index: -1
