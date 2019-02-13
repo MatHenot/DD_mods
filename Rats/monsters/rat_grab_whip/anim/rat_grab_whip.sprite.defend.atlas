@@ -1,12 +1,12 @@
 
 rat_grab_whip.sprite.defend.png
-size: 827,461
+size: 830,459
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 images/ombre
   rotate: true
-  xy: 760, 100
+  xy: 763, 98
   size: 359, 65
   orig: 359, 65
   offset: 0, 0
@@ -14,7 +14,7 @@ images/ombre
 images/whip grab defend
   rotate: true
   xy: 2, 2
-  size: 457, 756
-  orig: 457, 756
+  size: 455, 759
+  orig: 455, 759
   offset: 0, 0
   index: -1
