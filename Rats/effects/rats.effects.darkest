@@ -8,38 +8,33 @@ effect: .name "reinforcement_C2" .target "performer" .chance 100% .summon_count 
 
 effect: .name "king_curse_C" .target "target" .curio_result_type "negative" .chance 100%  .dotStress 2 .duration 5 .on_hit true .on_miss false
 
-//RAT GRAB
+//RATS ATTACKS
 
 effect: .name "grab_pull" .target "target"  .pull 1	 .chance 130%	.on_hit true .on_miss false .can_apply_on_death true
 
-effect: .name "grab_upgrade_A_100" .target "performer" .chance 100% .set_monster_class_id rat_grab_whip_A .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
-effect: .name "grab_upgrade_A_50" .target "performer" .chance 50% .set_monster_class_id rat_grab_bone_A .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
-
-effect: .name "grab_upgrade_C_100" .target "performer" .chance 100% .set_monster_class_id rat_grab_whip_C .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
-effect: .name "grab_upgrade_C_50" .target "performer" .chance 50% .set_monster_class_id rat_grab_bone_C .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
-
-//RAT WHIP
-
 effect: .name "whip_bleed" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
-
-effect: .name "whip_upgrade_A_100" .target "performer" .chance 100% .set_monster_class_id rat_grab_whip_A .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
-effect: .name "whip_upgrade_A_50" .target "performer" .chance 50% .set_monster_class_id rat_whip_bone_A .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
-
-effect: .name "whip_upgrade_C_100" .target "performer" .chance 100% .set_monster_class_id rat_grab_whip_C .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
-effect: .name "whip_upgrade_C_50" .target "performer" .chance 50% .set_monster_class_id rat_whip_bone_C .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
-
-//RAT BONE
 
 effect: .name "bone_stress" .target "target" .curio_result_type "negative" .chance 100% .stress 7 .on_hit true .on_miss false .queue true
 
-effect: .name "bone_upgrade_A_100" .target "performer" .chance 100% .set_monster_class_id rat_grab_bone_A .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
-effect: .name "bone_upgrade_A_50" .target "performer" .chance 50% .set_monster_class_id rat_whip_bone_A .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+//TRANSFORMATION
 
-effect: .name "bone_upgrade_C_100" .target "performer" .chance 100% .set_monster_class_id rat_grab_bone_C .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
-effect: .name "bone_upgrade_C_50" .target "performer" .chance 50% .set_monster_class_id rat_whip_bone_C .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+effect: .name "upgrade_init" .target "target" .curio_result_type "positive" .chance 100% .initiative_change 2 .on_hit true .on_miss true .queue true
+
+effect: .name "to_grabwhip_A" .target "performer" .chance 100% .set_monster_class_id rat_grab_whip_A .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+effect: .name "to_grabbone_A" .target "performer" .chance 100% .set_monster_class_id rat_grab_bone_A .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+effect: .name "to_whipbone_A" .target "performer" .chance 100% .set_monster_class_id rat_whip_bone_A .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+
+effect: .name "to_grabwhip_C" .target "performer" .chance 100% .set_monster_class_id rat_grab_whip_C .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+effect: .name "to_grabbone_C" .target "performer" .chance 100% .set_monster_class_id rat_grab_bone_C .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+effect: .name "to_whipbone_C" .target "performer" .chance 100% .set_monster_class_id rat_whip_bone_C .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+
+effect: .name "heal_grab_amount" .target "performer" .chance 100% .heal 16 .on_hit true .on_miss true .can_crit_heal False .queue true
+effect: .name "heal_whip_amount" .target "performer" .chance 100% .heal 19 .on_hit true .on_miss true .can_crit_heal False .queue true
+effect: .name "heal_bone_amount" .target "performer" .chance 100% .heal 25 .on_hit true .on_miss true .can_crit_heal False .queue true
 
 //COMMON
 
-effect: .name "rats_hp_debuff" .target "target" .curio_result_type "positive" .chance 120% .buff_ids "rats_hp_debuff" .on_hit true .on_miss false
-effect: .name "upgrade_init" .target "target" .curio_result_type "positive" .chance 100% .initiative_change 2 .on_hit true .on_miss true .queue true
-effect: .name "carry_hp" .target "target" .curio_result_type "positive" .chance 100% .heal_percent 0.5 .can_crit_heal false .on_hit true .on_miss true .queue true 
+effect: .name "rats_hp_debuff_A" .target "target" .curio_result_type "positive" .chance 90% .buff_ids "rats_hp_debuff" .on_hit true .on_miss false
+
+effect: .name "rats_hp_debuff_C" .target "target" .curio_result_type "positive" .chance 120% .buff_ids "rats_hp_debuff" .on_hit true .on_miss false
+
