@@ -1,0 +1,20 @@
+
+rat_king.sprite.curse.png
+size: 1629,950
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GaffeRat/images/images/ombre
+  rotate: true
+  xy: 1562, 589
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+images/attack3 copie
+  rotate: true
+  xy: 2, 2
+  size: 946, 1558
+  orig: 946, 1558
+  offset: 0, 0
+  index: -1

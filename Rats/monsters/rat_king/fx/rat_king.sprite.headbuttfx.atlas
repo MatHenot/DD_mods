@@ -1,0 +1,13 @@
+
+rat_king.sprite.headbuttfx.png
+size: 342,287
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rat attack2 fx copie
+  rotate: false
+  xy: 2, 2
+  size: 338, 283
+  orig: 338, 283
+  offset: 0, 0
+  index: -1
