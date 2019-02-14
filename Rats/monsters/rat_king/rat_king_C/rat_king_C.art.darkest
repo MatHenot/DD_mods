@@ -1,2 +1,6 @@
 commonfx: .deathfx death_large_boss
-skill: .id "claw" .anim "claws" .fx "clawsfx" .targchestfx "" .area_pos_offset 0 -15
+skill: .id "claw12" .anim "claws" .fx "clawsfx" .targchestfx "" .area_pos_offset 0 -100
+skill: .id "claw13" .anim "claws" .fx "clawsfx" .targchestfx "" .area_pos_offset 0 -100
+skill: .id "claw23" .anim "claws" .fx "clawsfx" .targchestfx "" .area_pos_offset 0 -100
+skill: .id "claw24" .anim "claws" .fx "clawsfx" .targchestfx "" .area_pos_offset 0 -100
+skill: .id "claw34" .anim "claws" .fx "clawsfx" .targchestfx "" .area_pos_offset 0 -100
