@@ -1,0 +1,13 @@
+
+rat_king.sprite.clawsfx.png
+size: 415,1054
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ratking attack1fx
+  rotate: false
+  xy: 2, 2
+  size: 411, 1050
+  orig: 411, 1050
+  offset: 0, 0
+  index: -1

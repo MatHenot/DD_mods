@@ -1,0 +1,20 @@
+
+rat_king.sprite.claws.png
+size: 1444,1133
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ombre
+  rotate: true
+  xy: 1377, 772
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+images/ratking attack1
+  rotate: true
+  xy: 2, 2
+  size: 1129, 1373
+  orig: 1129, 1373
+  offset: 0, 0
+  index: -1
