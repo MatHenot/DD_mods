@@ -1,6 +1,6 @@
 display: .size 2
 enemy_type: .id "beast"
-stats: .hp 185 .def 22.5% .prot 0 .spd 6 .stun_resist 90% .poison_resist 80% .bleed_resist 90% .debuff_resist 70% .move_resist 110%
+stats: .hp 172 .def 17.5% .prot 0 .spd 5 .stun_resist 90% .poison_resist 100% .bleed_resist 90% .debuff_resist 70% .move_resist 110%
 skill: .id "claw12" .type "melee" .atk 97.5% .dmg 5 10 .crit 9%  .launch 4321 .target ~12 .effect "rats_hp_debuff_C"
 skill: .id "claw13" .type "melee" .atk 97.5% .dmg 5 10 .crit 9%  .launch 4321 .target ~13 .effect "rats_hp_debuff_C" .is_knowledgeable False
 skill: .id "claw23" .type "melee" .atk 97.5% .dmg 5 10 .crit 9%  .launch 4321 .target ~23 .effect "rats_hp_debuff_C" .is_knowledgeable False
@@ -12,7 +12,7 @@ skill: .id "devour" .type "distance" .atk 107.5% .heal 10 20  .crit 0%  .launch 
 skill: .id "king_reinforcement" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "reinforcement_C1" "reinforcement_C2" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
 personality: .prefskill -1
 loot: .code "B" .count 3
-loot: .code "T" .count 1
+loot: .code "SHAMBLER" .count 1
 initiative: .number_of_turns_per_round 3
 monster_brain: .id rat_king
 tag: .id "boss"

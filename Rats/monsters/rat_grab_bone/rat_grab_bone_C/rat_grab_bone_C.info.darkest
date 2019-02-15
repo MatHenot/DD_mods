@@ -1,6 +1,6 @@
 display: .size 1
 enemy_type: .id "beast"
-stats: .hp 44 .def 22.5% .prot 0 .spd 5 .stun_resist 50% .poison_resist 50% .bleed_resist 70% .debuff_resist 60% .move_resist 60%
+stats: .hp 44 .def 22.5% .prot 0 .spd 5 .stun_resist 50% .poison_resist 80% .bleed_resist 60% .debuff_resist 60% .move_resist 60%
 skill: .id "grab" .type "melee" .atk 97.5% .dmg 4 10 .crit 11%  .launch 4321 .target 34 .effect "grab_pull" "rats_hp_debuff_C"
 skill: .id "bone" .type "melee" .atk 92.5% .dmg 6 14 .crit 8%  .launch 21 .target 12 .effect "bone_stress" "rats_hp_debuff_C"
 skill: .id "move" .type "" .atk 0% .dmg 0 0 .crit 0% .launch 43 .target "" .move 0 1 .is_crit_valid False .is_knowledgeable False

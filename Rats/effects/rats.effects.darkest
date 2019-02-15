@@ -6,7 +6,7 @@ effect: .name "reinforcement_A2" .target "performer" .chance 100% .summon_count 
 effect: .name "reinforcement_C1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters rat_grab_C rat_whip_C rat_bone_C .summon_chances 1.0 1.0 1.0 .summon_limits 2 2 2 .summon_does_roll_initiatives 1 1 1 .on_hit true .on_miss true .apply_once true
 effect: .name "reinforcement_C2" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters rat_grab_C rat_whip_C rat_bone_C .summon_chances 1.0 1.0 1.0 .summon_limits 2 2 2 .summon_does_roll_initiatives 1 1 1 .on_hit true .on_miss true .apply_once true
 
-effect: .name "king_curse_C" .target "target" .curio_result_type "negative" .chance 100%  .dotStress 2 .duration 5 .on_hit true .on_miss false
+effect: .name "king_curse_C" .target "target" .curio_result_type "negative" .chance 100%  .dotStress 3 .duration 3 .on_hit true .on_miss false
 
 //RATS ATTACKS
 
@@ -28,9 +28,9 @@ effect: .name "to_grabwhip_C" .target "performer" .chance 100% .set_monster_clas
 effect: .name "to_grabbone_C" .target "performer" .chance 100% .set_monster_class_id rat_grab_bone_C .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
 effect: .name "to_whipbone_C" .target "performer" .chance 100% .set_monster_class_id rat_whip_bone_C .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
 
-effect: .name "heal_grab_amount" .target "performer" .chance 100% .heal 16 .on_hit true .on_miss true .can_crit_heal False .queue true
-effect: .name "heal_whip_amount" .target "performer" .chance 100% .heal 19 .on_hit true .on_miss true .can_crit_heal False .queue true
-effect: .name "heal_bone_amount" .target "performer" .chance 100% .heal 25 .on_hit true .on_miss true .can_crit_heal False .queue true
+effect: .name "heal_grab_amount" .target "performer" .chance 100% .heal 15 .on_hit true .on_miss true .can_crit_heal False .queue true
+effect: .name "heal_whip_amount" .target "performer" .chance 100% .heal 18 .on_hit true .on_miss true .can_crit_heal False .queue true
+effect: .name "heal_bone_amount" .target "performer" .chance 100% .heal 22 .on_hit true .on_miss true .can_crit_heal False .queue true
 
 //COMMON
 

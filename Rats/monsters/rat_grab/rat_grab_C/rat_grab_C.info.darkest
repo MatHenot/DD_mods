@@ -1,6 +1,6 @@
 display: .size 1
 enemy_type: .id "beast"
-stats: .hp 19 .def 22.5% .prot 0 .spd 6 .stun_resist 50% .poison_resist 50% .bleed_resist 70% .debuff_resist 70% .move_resist 50%
+stats: .hp 18 .def 22.5% .prot 0 .spd 6 .stun_resist 50% .poison_resist 80% .bleed_resist 60% .debuff_resist 70% .move_resist 50%
 skill: .id "grab" .type "melee" .atk 97.5% .dmg 4 10 .crit 11%  .launch 4321 .target 34 .effect "grab_pull" "rats_hp_debuff_C"
 skill: .id "reinforcement_to_grabwhip" .type "" .atk 0% .dmg 0 0 .crit 0% .effect "to_grabwhip_C" "upgrade_init" "heal_whip_amount" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
 skill: .id "reinforcement_to_grabbone" .type "" .atk 0% .dmg 0 0 .crit 0% .effect "to_grabbone_C" "upgrade_init" "heal_bone_amount" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
