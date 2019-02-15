@@ -1,7 +1,6 @@
 {
     "load_order":
     [
-        "secondary_banks/shrew_2.bank",
-		"secondary_banks/shrew_bank.bank"
+        "secondary_banks/enemy_rats.bank"
     ]
 }
