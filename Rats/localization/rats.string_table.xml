@@ -39,6 +39,11 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
+  <!-- Curio -->  
+  <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
+  <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
+  <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
+  <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
   </language>
   <language id="french">
   <!-- New Monster -->
@@ -79,6 +84,11 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
+  <!-- Curio -->  
+  <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
+  <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
+  <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
+  <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
   </language>
   <language id="spanish">
   <!-- New Monster -->
@@ -119,6 +129,11 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
+  <!-- Curio -->  
+  <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
+  <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
+  <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
+  <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
   </language>
   <language id="german">
   <!-- New Monster -->
@@ -159,6 +174,11 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
+  <!-- Curio -->  
+  <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
+  <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
+  <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
+  <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
   </language>
   <language id="brazilian">
   <!-- New Monster -->
@@ -199,6 +219,11 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
+  <!-- Curio -->  
+  <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
+  <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
+  <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
+  <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
   </language>
   <language id="russian">
   <!-- New Monster -->
@@ -239,6 +264,11 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
+  <!-- Curio -->  
+  <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
+  <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
+  <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
+  <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
   </language>
   <language id="polish">
   <!-- New Monster -->
@@ -279,6 +309,11 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
+  <!-- Curio -->  
+  <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
+  <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
+  <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
+  <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
   </language>
   <language id="czech">
   <!-- New Monster -->
@@ -319,6 +354,11 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
+  <!-- Curio -->  
+  <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
+  <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
+  <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
+  <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
   </language>
   <language id="italian">
   <!-- New Monster -->
@@ -359,6 +399,11 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
+  <!-- Curio -->  
+  <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
+  <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
+  <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
+  <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
   </language>
   <language id="schinese">
   <!-- New Monster -->
@@ -399,6 +444,11 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
+  <!-- Curio -->  
+  <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
+  <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
+  <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
+  <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
   </language>
  <language id="tchinese">
   <!-- New Monster -->
@@ -439,6 +489,11 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
+  <!-- Curio -->  
+  <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
+  <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
+  <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
+  <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
   </language>
   <language id="koreana">
   <!-- New Monster -->
@@ -479,6 +534,11 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
+  <!-- Curio -->  
+  <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
+  <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
+  <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
+  <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
   </language>
   <language id="koreanb">
   <!-- New Monster -->
@@ -519,6 +579,11 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
+  <!-- Curio -->  
+  <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
+  <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
+  <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
+  <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
   </language>
 </root>
 
