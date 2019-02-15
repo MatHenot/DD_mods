@@ -11,8 +11,9 @@ skill: .id "curse" .type "distance" .atk 107.5% .dmg 0 0 .crit 0%  .launch 4321 
 skill: .id "devour" .type "distance" .atk 107.5% .heal 10 20  .crit 0%  .launch 4321 .target "" .effect "clear_corpses" .can_crit_heal False
 skill: .id "king_reinforcement" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "reinforcement_C1" "reinforcement_C2" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
 personality: .prefskill -1
-loot: .code "B" .count 3
 loot: .code "SHAMBLER" .count 1
+loot: .code "B" .count 1
+loot: .code "T" .count 1
 initiative: .number_of_turns_per_round 3
 monster_brain: .id rat_king
 tag: .id "boss"
