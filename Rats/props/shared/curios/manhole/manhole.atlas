@@ -1,0 +1,20 @@
+
+manhole.png
+size: 1900,704
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/manhole
+  rotate: false
+  xy: 2, 2
+  size: 947, 700
+  orig: 947, 700
+  offset: 0, 0
+  index: -1
+images/manhole copie
+  rotate: false
+  xy: 951, 2
+  size: 947, 700
+  orig: 947, 700
+  offset: 0, 0
+  index: -1
