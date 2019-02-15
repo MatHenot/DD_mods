@@ -5,3 +5,5 @@ skill: .id "claw23" .anim "claws" .fx "clawsfx" .targchestfx "" .area_pos_offset
 skill: .id "claw24" .anim "claws" .fx "clawsfx" .targchestfx "" .area_pos_offset 0 -100
 skill: .id "claw34" .anim "claws" .fx "clawsfx" .targchestfx "" .area_pos_offset 0 -100
 skill: .id "headbutt" .anim "headbutt" .fx "headbuttfx" .targetchestfx ""
+skill: .id "curse" .anim "curse" .fx "cursefx" .targetchestfx "" .area_pos_offset 0 -250
+skill: .id "devour" .anim "eateat" .fx "eateatfx" .targetchestfx "" .area_pos_offset 0 15
