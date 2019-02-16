@@ -12,4 +12,5 @@ monster_brain: .id rat_bone
 death_class: .monster_class_id corpse_C .is_valid_on_crit False .type "corpse" 
 life_link: .base_class "rat_king"
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
+ battle_backdrop: .background_name "prisoner" .animation "rats_sewer" .isFlat False
 wave_spawning: .prefers_front True
