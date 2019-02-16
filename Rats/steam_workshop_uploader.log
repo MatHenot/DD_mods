@@ -1,10 +1,7 @@
 
 -------------------------------------------------------------------------------
-Parsing project file - D:\DD_mods\Rats\sample_project.xml
+Parsing project file - D:\DD_mods\Rats\project.xml
 Mod Data Directory = D:/DD_mods/Rats/
-
-Creating new item...
-..........Created
 
 -------------------------------------------------------------------------------
 Processing Map Files files...
@@ -17,12 +14,12 @@ Building Languages
 Exporting .loc files
 
 -------------------------------------------------------------------------------
-Searching for preview icon file D:/DD_mods/Rats/preview_icon.png...NOT FOUND! - Copying default preview icon to mod directory
+Searching for preview icon file D:/DD_mods/Rats/preview_icon.png...FOUND!
 <UploadMode> - Set to direct_upload
 
 
 -------------------------------------------------------------------------------
-Detected 188 unchanged files
+Detected 179 unchanged files
 The following files are unchanged and will be uploaded...
 D:/DD_mods/Rats/monsters/rat_bone/anim/rat_bone.sprite.bone.atlas
 D:/DD_mods/Rats/monsters/rat_bone/anim/rat_bone.sprite.bone.png
@@ -43,7 +40,6 @@ D:/DD_mods/Rats/monsters/rat_bone/rat_bone_A/rat_bone_A.art.darkest
 D:/DD_mods/Rats/monsters/rat_bone/rat_bone_A/rat_bone_A.info.darkest
 D:/DD_mods/Rats/monsters/rat_bone/rat_bone_A/tint.png
 D:/DD_mods/Rats/monsters/rat_bone/rat_bone_C/rat_bone_C.art.darkest
-D:/DD_mods/Rats/monsters/rat_bone/rat_bone_C/rat_bone_C.info.darkest
 D:/DD_mods/Rats/monsters/rat_bone/rat_bone_C/tint.png
 D:/DD_mods/Rats/monsters/rat_grab/anim/rat_grab.sprite.combat.atlas
 D:/DD_mods/Rats/monsters/rat_grab/anim/rat_grab.sprite.combat.png
@@ -64,7 +60,6 @@ D:/DD_mods/Rats/monsters/rat_grab/rat_grab_A/rat_grab_A.art.darkest
 D:/DD_mods/Rats/monsters/rat_grab/rat_grab_A/rat_grab_A.info.darkest
 D:/DD_mods/Rats/monsters/rat_grab/rat_grab_A/tint.png
 D:/DD_mods/Rats/monsters/rat_grab/rat_grab_C/rat_grab_C.art.darkest
-D:/DD_mods/Rats/monsters/rat_grab/rat_grab_C/rat_grab_C.info.darkest
 D:/DD_mods/Rats/monsters/rat_grab/rat_grab_C/tint.png
 D:/DD_mods/Rats/monsters/rat_grab_bone/anim/rat_grab_bone.sprite.bone.atlas
 D:/DD_mods/Rats/monsters/rat_grab_bone/anim/rat_grab_bone.sprite.bone.png
@@ -91,7 +86,6 @@ D:/DD_mods/Rats/monsters/rat_grab_bone/rat_grab_bone_A/rat_grab_bone_A.art.darke
 D:/DD_mods/Rats/monsters/rat_grab_bone/rat_grab_bone_A/rat_grab_bone_A.info.darkest
 D:/DD_mods/Rats/monsters/rat_grab_bone/rat_grab_bone_A/tint.png
 D:/DD_mods/Rats/monsters/rat_grab_bone/rat_grab_bone_C/rat_grab_bone_C.art.darkest
-D:/DD_mods/Rats/monsters/rat_grab_bone/rat_grab_bone_C/rat_grab_bone_C.info.darkest
 D:/DD_mods/Rats/monsters/rat_grab_bone/rat_grab_bone_C/tint.png
 D:/DD_mods/Rats/monsters/rat_grab_whip/anim/rat_grab_whip.sprite.combat.atlas
 D:/DD_mods/Rats/monsters/rat_grab_whip/anim/rat_grab_whip.sprite.combat.png
@@ -118,7 +112,6 @@ D:/DD_mods/Rats/monsters/rat_grab_whip/rat_grab_whip_A/rat_grab_whip_A.art.darke
 D:/DD_mods/Rats/monsters/rat_grab_whip/rat_grab_whip_A/rat_grab_whip_A.info.darkest
 D:/DD_mods/Rats/monsters/rat_grab_whip/rat_grab_whip_A/tint.png
 D:/DD_mods/Rats/monsters/rat_grab_whip/rat_grab_whip_C/rat_grab_whip_C.art.darkest
-D:/DD_mods/Rats/monsters/rat_grab_whip/rat_grab_whip_C/rat_grab_whip_C.info.darkest
 D:/DD_mods/Rats/monsters/rat_grab_whip/rat_grab_whip_C/tint.png
 D:/DD_mods/Rats/monsters/rat_king/anim/rat_king.sprite.claws.atlas
 D:/DD_mods/Rats/monsters/rat_king/anim/rat_king.sprite.claws.png
@@ -157,7 +150,6 @@ D:/DD_mods/Rats/monsters/rat_king/rat_king_A/rat_king_A.art.darkest
 D:/DD_mods/Rats/monsters/rat_king/rat_king_A/rat_king_A.info.darkest
 D:/DD_mods/Rats/monsters/rat_king/rat_king_A/tint.png
 D:/DD_mods/Rats/monsters/rat_king/rat_king_C/rat_king_C.art.darkest
-D:/DD_mods/Rats/monsters/rat_king/rat_king_C/rat_king_C.info.darkest
 D:/DD_mods/Rats/monsters/rat_king/rat_king_C/tint.png
 D:/DD_mods/Rats/monsters/rat_whip/anim/rat_whip.sprite.combat.atlas
 D:/DD_mods/Rats/monsters/rat_whip/anim/rat_whip.sprite.combat.png
@@ -178,7 +170,6 @@ D:/DD_mods/Rats/monsters/rat_whip/rat_whip_A/rat_whip_A.art.darkest
 D:/DD_mods/Rats/monsters/rat_whip/rat_whip_A/rat_whip_A.info.darkest
 D:/DD_mods/Rats/monsters/rat_whip/rat_whip_A/tint.png
 D:/DD_mods/Rats/monsters/rat_whip/rat_whip_C/rat_whip_C.art.darkest
-D:/DD_mods/Rats/monsters/rat_whip/rat_whip_C/rat_whip_C.info.darkest
 D:/DD_mods/Rats/monsters/rat_whip/rat_whip_C/tint.png
 D:/DD_mods/Rats/monsters/rat_whip_bone/anim/rat_whip_bone.sprite.bone.atlas
 D:/DD_mods/Rats/monsters/rat_whip_bone/anim/rat_whip_bone.sprite.bone.png
@@ -205,11 +196,9 @@ D:/DD_mods/Rats/monsters/rat_whip_bone/rat_whip_bone_A/rat_whip_bone_A.art.darke
 D:/DD_mods/Rats/monsters/rat_whip_bone/rat_whip_bone_A/rat_whip_bone_A.info.darkest
 D:/DD_mods/Rats/monsters/rat_whip_bone/rat_whip_bone_A/tint.png
 D:/DD_mods/Rats/monsters/rat_whip_bone/rat_whip_bone_C/rat_whip_bone_C.art.darkest
-D:/DD_mods/Rats/monsters/rat_whip_bone/rat_whip_bone_C/rat_whip_bone_C.info.darkest
 D:/DD_mods/Rats/monsters/rat_whip_bone/rat_whip_bone_C/tint.png
 D:/DD_mods/Rats/raid/ai/rats.monster_brains.json
 D:/DD_mods/Rats/shared/buffs/rats.buffs.json
-D:/DD_mods/Rats/effects/rats.effects.darkest
 D:/DD_mods/Rats/scripts/rats_raid_visuals.json
 
 -------------------------------------------------------------------------------
@@ -218,6 +207,13 @@ Modded files...
 props/shared/curios/manhole/manhole.atlas
 props/shared/curios/manhole/manhole.png
 props/shared/curios/manhole/manhole.skel
+monsters/rat_bone/rat_bone_C/rat_bone_C.info.darkest
+monsters/rat_grab/rat_grab_C/rat_grab_C.info.darkest
+monsters/rat_grab_bone/rat_grab_bone_C/rat_grab_bone_C.info.darkest
+monsters/rat_grab_whip/rat_grab_whip_C/rat_grab_whip_C.info.darkest
+monsters/rat_king/rat_king_C/rat_king_C.info.darkest
+monsters/rat_whip/rat_whip_C/rat_whip_C.info.darkest
+monsters/rat_whip_bone/rat_whip_bone_C/rat_whip_bone_C.info.darkest
 audio/secondary_banks/enemy_rats.bank
 dungeons/crypts/crypts.props.darkest
 dungeons/crypts/rats.crypts.1.mash.darkest
@@ -227,6 +223,7 @@ audio/rats.campaign.guid_overrides.json
 audio/rats.campaign.load_order.json
 curios/rats_curio_props.csv
 curios/rats_curio_type_library.csv
+effects/rats.effects.darkest
 localization/1656676055_brazilian.loc
 localization/1656676055_czech.loc
 localization/1656676055_english.loc
@@ -240,11 +237,12 @@ localization/1656676055_russian.loc
 localization/1656676055_schinese.loc
 localization/1656676055_spanish.loc
 localization/1656676055_tchinese.loc
+localization/rats.string_table.xml
 modfiles.txt
 preview_icon.png
 project.xml
 sample_project.xml
 
-Submitting.........................................................................................................................................................................................................................................................................................................................Submitted.
-Saving project file D:\DD_mods\Rats\sample_project.xml
+Submitting.............................................................................................................................................Submitted.
+Saving project file D:\DD_mods\Rats\project.xml
 
