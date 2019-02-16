@@ -32,7 +32,5 @@ localization/1656676055_schinese.loc 5657
 localization/1656676055_spanish.loc 5657
 localization/1656676055_tchinese.loc 5657
 localization/rats.string_table.xml 42580
-modfiles.txt 1134
 preview_icon.png 502613
-project.xml 558
-sample_project.xml 558
+project.xml 557
