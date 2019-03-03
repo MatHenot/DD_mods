@@ -1,2 +1,4 @@
 commonfx: .deathfx death_medium
 skill: .id "grab" .anim "grab" .fx "grabfx" .targchestfx "blood_splatter"
+skill: .id "reinforcement_to_grabbone" .anim "defend" .fx "rat_reinforcement"
+skill: .id "reinforcement_to_grabwhip" .anim "defend" .fx "rat_reinforcement"

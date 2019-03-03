@@ -5,3 +5,4 @@ skill: .id "killkill" .anim "killkill" .fx "killkill_fx" .targetchestfx "sniper_
 skill: .id "curse" .anim "curse" .fx "cursefx" .targetchestfx "" .area_pos_offset 0 -250
 skill: .id "curse2" .anim "curse" .fx "curse2fx" .targetchestfx "curse2_targfx" .area_pos_offset 0 -250
 skill: .id "devour" .anim "eateat" .fx "eateatfx" .targetchestfx "" .area_pos_offset 0 15
+skill: .id "king_reinforcement" .targfx "rat_reinforcement"
