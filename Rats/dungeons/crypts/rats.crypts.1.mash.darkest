@@ -1,7 +1,7 @@
-named: .name summon_mash_rats .chance 1 .types rat_bone_C rat_whip_C rat_grab_C rat_grab_C 
-named: .name summon_mash_rats .chance 1 .types rat_bone_C rat_whip_C rat_whip_C rat_grab_C 
-named: .name summon_mash_rats .chance 1 .types rat_bone_C rat_bone_C rat_grab_C rat_grab_C 
-named: .name summon_mash_rats .chance 1 .types rat_bone_C rat_bone_C rat_whip_C rat_grab_C
-named: .name summon_mash_rats .chance 1 .types rat_whip_C rat_bone_C rat_grab_C rat_grab_C 
-named: .name summon_mash_rats .chance 1 .types rat_whip_C rat_bone_C rat_whip_C rat_grab_C
+named: .name summon_mash_rats .chance 1 .types rat_bone_A rat_whip_A rat_grab_A rat_grab_Y
+named: .name summon_mash_rats .chance 1 .types rat_bone_A rat_whip_A rat_whip_A rat_grab_Y
+named: .name summon_mash_rats .chance 1 .types rat_bone_A rat_bone_A rat_grab_A rat_grab_Y
+named: .name summon_mash_rats .chance 1 .types rat_bone_A rat_bone_A rat_whip_A rat_grab_Y
+named: .name summon_mash_rats .chance 1 .types rat_whip_A rat_bone_A rat_grab_A rat_grab_Y
+named: .name summon_mash_rats .chance 1 .types rat_whip_A rat_bone_A rat_whip_A rat_grab_Y
 

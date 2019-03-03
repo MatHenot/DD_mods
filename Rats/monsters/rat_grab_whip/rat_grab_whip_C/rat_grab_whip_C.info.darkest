@@ -1,14 +1,12 @@
 display: .size 1
 enemy_type: .id "beast"
-stats: .hp 35 .def 25% .prot 0 .spd 7 .stun_resist 60% .poison_resist 80% .bleed_resist 60% .debuff_resist 60% .move_resist 50%
-skill: .id "grab" .type "melee" .atk 97.5% .dmg 4 10 .crit 11%  .launch 4321 .target 34 .effect "grab_pull" "rats_hp_debuff_C"
-skill: .id "whip" .type "melee" .atk 102.5% .dmg 2 7 .crit 6%  .launch 321 .target 123 .effect "whip_bleed" "rats_hp_debuff_C"
+stats: .hp 35 .def 25% .prot 0 .spd 7 .stun_resist 60% .poison_resist 80% .bleed_resist 60% .debuff_resist 60% .move_resist 70%
+skill: .id "grab" .type "melee" .atk 97.5% .dmg 5 9 .crit 11%  .launch 4321 .target 34 .effect "grab_pull_C" "rats_hp_debuff_C"
+skill: .id "whip" .type "melee" .atk 102.5% .dmg 2 6 .crit 6%  .launch 321 .target 123 .effect "whip_bleed_C" "rats_hp_debuff_C"
 skill: .id "move" .type "" .atk 0% .dmg 0 0 .crit 0% .launch 43 .target "" .move 0 1 .is_crit_valid False .is_knowledgeable False
 personality: .prefskill -1
-loot: .code "B" .count 1
 initiative: .number_of_turns_per_round 2
 monster_brain: .id rat_grab_whip
 death_class: .monster_class_id corpse_C .is_valid_on_crit False .type "corpse" 
-life_link: .base_class "rat_king"
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
 wave_spawning: .prefers_front True

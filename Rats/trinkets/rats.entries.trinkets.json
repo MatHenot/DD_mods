@@ -1,0 +1,88 @@
+{
+   "entries":
+   [
+      {
+         "id" : "T_rats_1",
+         "buffs" : 
+         [
+            "T_rats_GuardBlock",
+			"DMGL30",
+			"DMGH30"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rats",
+         "visual_rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "was_hit_all_heroes_additional_effects":
+         [
+             "T_GuardTeam"
+         ]
+      },
+      {
+         "id" : "T_rats_2",
+         "buffs" : 
+         [
+ 			"DEBUFFRESIST25",
+			"STRESSDMG-10",
+			"RESOLVECHECK-10"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rats",
+         "visual_rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "" 
+      },
+      {
+         "id" : "T_rats_3",
+         "buffs" : 
+         [
+ 			"TRINKET_SPD_B2",
+			"ACC5",
+			"DMGL10",
+			"DMGH10"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rats",
+         "visual_rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+         [
+             "T_AllyStun"
+         ]		 
+      },
+      {
+         "id" : "T_rats_4",
+         "buffs" : 
+         [
+ 			"CRIT5"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "rats",
+         "visual_rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+         [
+			 "T_StressOnKill"
+         ],
+		 "attack_skill_additional_effects":
+         [
+             "T_CleanCorpse"
+         ]
+      }
+   ]
+}

@@ -12,52 +12,20 @@
                     "amount": 1
 				},
 				{
+					"combat_skill_id": "killkill",
+                    "amount": 1
+				},
+				{
 					"combat_skill_id": "curse",
                     "amount": 1
-				}
+				}				
 			],
             "skill_selection_desires": [
                 {
                     "type": "specific_skill",
                     "data": {
-                        "base_chance": 1.3,
-                        "combat_skill_id": "claw12"
-                    }
-                },
-                {
-                    "type": "specific_skill",
-                    "data": {
-                        "base_chance": 1,
-                        "combat_skill_id": "claw13",
-						"heroes_min": 3,
-						"heroes_max": 4
-                    }
-                },
-                {
-                    "type": "specific_skill",
-                    "data": {
-                        "base_chance": 1,
-                        "combat_skill_id": "claw23",
-						"heroes_min": 3,
-						"heroes_max": 4
-                    }
-                },
-                {
-                    "type": "specific_skill",
-                    "data": {
-                        "base_chance": 0.7,
-                        "combat_skill_id": "claw24",
-						"heroes_min": 4,
-						"heroes_max": 4
-                    }
-                },
-                {
-                    "type": "specific_skill",
-                    "data": {
-                        "base_chance": 0.5,
-                        "combat_skill_id": "claw34",
-						"heroes_min": 4,
-						"heroes_max": 4
+                        "base_chance": 5,
+                        "combat_skill_id": "claws"
                     }
                 },
 				{
@@ -70,14 +38,32 @@
 				{
                     "type": "specific_skill",
                     "data": {
+                        "base_chance": 3,
+                        "combat_skill_id": "killkill"
+                    }
+                },
+				{
+                    "type": "specific_skill",
+                    "data": {
                         "base_chance": 2,
                         "combat_skill_id": "curse"
+                    }
+                },
+                {
+                    "type": "ally_hp_ratio_skill",
+                    "data": {
+                        "base_chance": 1000000000,
+                        "combat_skill_id": "curse2",
+                        "ally_base_class_id": "rat_king",
+                        "hp_ratio_min": 0.0,
+                        "hp_ratio_max": 0.33,
+						"limit": 1
                     }
                 },
 				{
                     "type": "ally_alive_skill",
                     "data": {
-                        "base_chance": 1000000000.0,
+                        "base_chance": 1000000000,
                         "combat_skill_id": "devour",
 						"ally_base_class_id" : "corpse"
                     }
@@ -143,7 +129,7 @@
 				{
                     "type": "specific_skill",
                     "data": {
-                        "base_chance": 100000000000.0,
+                        "base_chance": 100000000000,
                         "combat_skill_id": "reinforcement_to_grabwhip",
                         "performing_turn_min": 3
                     }
@@ -151,7 +137,7 @@
 				{
                     "type": "specific_skill",
                     "data": {
-                        "base_chance": 100000000000.0,
+                        "base_chance": 100000000000,
                         "combat_skill_id": "reinforcement_to_grabbone",
                         "performing_turn_min": 3
                     }
@@ -166,6 +152,16 @@
                         "is_exclusive_desire": false,
                         "is_enemy_target_desire": true,
                         "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 4.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
                     }
                 }
             ],
@@ -201,7 +197,7 @@
 				{
                     "type": "specific_skill",
                     "data": {
-                        "base_chance": 100000000000.0,
+                        "base_chance": 100000000000,
                         "combat_skill_id": "reinforcement_to_grabwhip",
                         "performing_turn_min": 3
                     }
@@ -209,7 +205,7 @@
 				{
                     "type": "specific_skill",
                     "data": {
-                        "base_chance": 100000000000.0,
+                        "base_chance": 100000000000,
                         "combat_skill_id": "reinforcement_to_whipbone",
                         "performing_turn_min": 3
                     }
@@ -234,9 +230,19 @@
                     }
                 },
                 {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 4.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
                     "type": "resistance_target",
                     "data": {
-                        "base_chance": 100000.0,
+                        "base_chance": 4.0,
                         "specific_combat_skill_id": "whip",
                         "is_exclusive_desire": false,
                         "is_enemy_target_desire": true,
@@ -278,7 +284,7 @@
 				{
                     "type": "specific_skill",
                     "data": {
-                        "base_chance": 100000000000.0,
+                        "base_chance": 100000000000,
                         "combat_skill_id": "reinforcement_to_grabbone",
                         "performing_turn_min": 3
                     }
@@ -286,7 +292,7 @@
 				{
                     "type": "specific_skill",
                     "data": {
-                        "base_chance": 100000000000.0,
+                        "base_chance": 100000000000,
                         "combat_skill_id": "reinforcement_to_whipbone",
                         "performing_turn_min": 3
                     }
@@ -308,6 +314,16 @@
                         "is_exclusive_desire": false,
                         "is_enemy_target_desire": true,
                         "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 4.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
                     }
                 }
             ],
@@ -358,6 +374,28 @@
                         "is_enemy_target_desire": true,
                         "is_friendly_target_desire": true
                     }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 4.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "resistance_target",
+                    "data": {
+                        "base_chance": 4.0,
+                        "specific_combat_skill_id": "whip",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "resistance_type_id": "bleed",
+                        "is_greater_comparison": false
+                    }
                 }
             ],
             "bonus_initiative_desires": []
@@ -407,6 +445,16 @@
                         "is_enemy_target_desire": true,
                         "is_friendly_target_desire": true
                     }
+                },
+				{
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 4.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
                 }
             ],
             "bonus_initiative_desires": []
@@ -455,6 +503,28 @@
                         "is_exclusive_desire": false,
                         "is_enemy_target_desire": true,
                         "is_friendly_target_desire": true
+                    }
+                },
+                {
+                    "type": "marked_target",
+                    "data": {
+                        "base_chance": 4.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                },
+                {
+                    "type": "resistance_target",
+                    "data": {
+                        "base_chance": 4.0,
+                        "specific_combat_skill_id": "whip",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false,
+                        "resistance_type_id": "bleed",
+                        "is_greater_comparison": false
                     }
                 }
             ],

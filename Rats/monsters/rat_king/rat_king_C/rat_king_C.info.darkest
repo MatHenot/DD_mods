@@ -1,23 +1,20 @@
 display: .size 2
 enemy_type: .id "beast"
-stats: .hp 172 .def 17.5% .prot 0 .spd 5 .stun_resist 90% .poison_resist 100% .bleed_resist 90% .debuff_resist 70% .move_resist 110%
-skill: .id "claw12" .type "melee" .atk 97.5% .dmg 5 10 .crit 9%  .launch 4321 .target ~12 .effect "rats_hp_debuff_C"
-skill: .id "claw13" .type "melee" .atk 97.5% .dmg 5 10 .crit 9%  .launch 4321 .target ~13 .effect "rats_hp_debuff_C" .is_knowledgeable False
-skill: .id "claw23" .type "melee" .atk 97.5% .dmg 5 10 .crit 9%  .launch 4321 .target ~23 .effect "rats_hp_debuff_C" .is_knowledgeable False
-skill: .id "claw24" .type "melee" .atk 97.5% .dmg 5 10 .crit 9%  .launch 4321 .target ~24 .effect "rats_hp_debuff_C" .is_knowledgeable False
-skill: .id "claw34" .type "melee" .atk 97.5% .dmg 5 10 .crit 9%  .launch 4321 .target ~34 .effect "rats_hp_debuff_C" .is_knowledgeable False
-skill: .id "headbutt" .type "melee" .atk 102.5% .dmg 7 13 .crit 9%  .launch 4321 .target 1 .effect "rats_hp_debuff_C" "Stun 4" "Push 3C"
-skill: .id "curse" .type "distance" .atk 107.5% .dmg 0 0 .crit 0%  .launch 4321 .target ~1234 .effect "rats_hp_debuff_C" "king_curse_C"
+stats: .hp 212 .def 17.5% .prot 0 .spd 5 .stun_resist 90% .poison_resist 100% .bleed_resist 90% .debuff_resist 70% .move_resist 130%
+skill: .id "claws" .type "melee" .atk 97.5% .dmg 5 10 .crit 9%  .launch 4321 .target 1234 .effect "rats_hp_debuff_C" .extra_targets_count 1 .extra_targets_chance 1
+skill: .id "headbutt" .type "melee" .atk 102.5% .dmg 7 13 .crit 9%  .launch 4321 .target 1 .effect "rats_hp_debuff_C" "Stun 4" "Push 2D"
+skill: .id "killkill" .type "distance" .atk 112.5% .dmg 0 0 .crit 0%  .launch 4321 .target 1234 .effect "rats_hp_debuff_C" "king_mark_C"
+skill: .id "curse" .type "distance" .atk 112.5% .dmg 0 0 .crit 0%  .launch 4321 .target ~1234 .effect "rats_hp_debuff_C" "king_curse_C"
+skill: .id "curse2" .type "distance" .atk 200% .dmg 0 0 .crit 0%  .launch 4321 .target ~1234 .effect "rats_hp_debuff_C" "king_curse2_C"
 skill: .id "devour" .type "distance" .atk 107.5% .heal 10 20  .crit 0%  .launch 4321 .target "" .effect "clear_corpses" .can_crit_heal False
 skill: .id "king_reinforcement" .type "" .atk 0% .dmg 0 0 .crit 0%  .effect "reinforcement_C1" "reinforcement_C2" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
 personality: .prefskill -1
-loot: .code "SHAMBLER" .count 1
-loot: .code "B" .count 1
-loot: .code "T" .count 1
+loot: .code "T_RATS" .count 1
+loot: .code "rats" .count 5
 initiative: .number_of_turns_per_round 3
 monster_brain: .id rat_king
 tag: .id "boss"
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty true .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
- battle_backdrop: .background_name "prisoner" .animation "rats_sewer" .isFlat False
+ battle_backdrop: .background_name "rats_sewer" .animation "rats_sewer" .isFlat False
 wave_spawning: .prefers_front False
 

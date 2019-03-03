@@ -1,0 +1,13 @@
+display: .size 1
+enemy_type: .id "beast"
+stats: .hp 18 .def 17.5%  .prot 0 .spd 6 .stun_resist 40% .poison_resist 60% .bleed_resist 40% .debuff_resist 60% .move_resist 50%
+skill: .id "grab" .type "melee" .atk 87.5% .dmg 5 9 .crit 11%  .launch 4321 .target 34 .effect "grab_pull_B" "rats_hp_debuff_B"
+skill: .id "reinforcement_to_grabwhip" .type "" .atk 0% .dmg 0 0 .crit 0% .effect "to_grabwhip_B" "upgrade_init" "heal_whip_amount_B" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
+skill: .id "reinforcement_to_grabbone" .type "" .atk 0% .dmg 0 0 .crit 0% .effect "to_grabbone_B" "upgrade_init" "heal_bone_amount_B" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
+personality: .prefskill -1
+loot: .code "rats" .count 1
+initiative: .number_of_turns_per_round 1
+monster_brain: .id rat_grab
+death_class: .monster_class_id corpse_B .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front false

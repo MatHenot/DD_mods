@@ -7,6 +7,8 @@
   <entry id="str_monstername_rat_king_C"><![CDATA[Nerub]]></entry>
   <entry id="str_monstername_rat_grab_A"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_B"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Y"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Z"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_C"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_whip_A"><![CDATA[Whip Rat]]></entry>
   <entry id="str_monstername_rat_whip_B"><![CDATA[Whip Rat]]></entry>
@@ -45,6 +47,11 @@
   <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
+  <!-- Trinkets -->  
+	<entry id="str_inventory_title_trinketT_rats_1"><![CDATA[Trinket 1]]></entry>
+	<entry id="str_inventory_title_trinketT_rats_2"><![CDATA[Trinket 2]]></entry>
+	<entry id="str_inventory_title_trinketT_rats_3"><![CDATA[Trinket 3]]></entry>
+	<entry id="str_inventory_title_trinketT_rats_4"><![CDATA[Trinket 4]]></entry>
   </language>
   <language id="french">
   <!-- New Monster -->

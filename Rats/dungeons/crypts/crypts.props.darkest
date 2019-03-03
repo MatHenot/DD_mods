@@ -11,7 +11,7 @@ hall_curios: .chance 3 .types alchemy_table
 hall_curios: .chance 3 .types confession_booth
 hall_curios: .chance 5 .types iron_maiden
 hall_curios: .chance 1 .types shamblers_altar
-hall_curios: .chance 2 .types manhole
+hall_curios: .chance 200000 .types manhole
 room_curios: .chance 2 .types suit_of_armor
 room_curios: .chance 2 .types holy_fountain
 room_curios: .chance 3 .types sarcophagus

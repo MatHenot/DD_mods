@@ -1,0 +1,2 @@
+commonfx: .deathfx death_medium
+skill: .id "grab" .anim "grab" .fx "grabfx" .targchestfx "blood_splatter"

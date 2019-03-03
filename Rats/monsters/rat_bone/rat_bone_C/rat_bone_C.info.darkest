@@ -1,16 +1,13 @@
 display: .size 1
 enemy_type: .id "beast"
-stats: .hp 22 .def 22.5% .prot 0 .spd 3 .stun_resist 50% .poison_resist 80% .bleed_resist 60% .debuff_resist 50% .move_resist 70%
-skill: .id "bone" .type "melee" .atk 92.5% .dmg 6 14 .crit 8%  .launch 21 .target 12 .effect "bone_stress" "rats_hp_debuff_C"
-skill: .id "reinforcement_to_grabbone" .type "" .atk 0% .dmg 0 0 .crit 0% .effect "to_grabbone_C" "upgrade_init" "heal_grab_amount" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
-skill: .id "reinforcement_to_whipbone" .type "" .atk 0% .dmg 0 0 .crit 0% .effect "to_whipbone_C" "upgrade_init" "heal_whip_amount" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
+stats: .hp 22 .def 22.5%  .prot 0 .spd 3 .stun_resist 60% .poison_resist 80% .bleed_resist 60% .debuff_resist 60% .move_resist 90%
+skill: .id "bone" .type "melee" .atk 92.5% .dmg 7 12 .crit 8%  .launch 21 .target 12 .effect "bone_stress_C" "rats_hp_debuff_C"
+skill: .id "reinforcement_to_grabbone" .type "" .atk 0% .dmg 0 0 .crit 0% .effect "to_grabbone_C" "upgrade_init" "heal_grab_amount_C" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
+skill: .id "reinforcement_to_whipbone" .type "" .atk 0% .dmg 0 0 .crit 0% .effect "to_whipbone_C" "upgrade_init" "heal_whip_amount_C" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
 skill: .id "move" .type "" .atk 0% .dmg 0 0 .crit 0% .launch 43 .target "" .move 0 1 .is_crit_valid False .is_knowledgeable False
 personality: .prefskill -1
-loot: .code "C" .count 1
 initiative: .number_of_turns_per_round 1
 monster_brain: .id rat_bone
 death_class: .monster_class_id corpse_C .is_valid_on_crit False .type "corpse" 
-life_link: .base_class "rat_king"
 battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
- battle_backdrop: .background_name "prisoner" .animation "rats_sewer" .isFlat False
 wave_spawning: .prefers_front True

@@ -1,2 +1,0 @@
-commonfx: .deathfx death_large_boss
-skill: .id "claw" .anim "claws" .fx "clawsfx" .targchestfx "" .area_pos_offset 0 -15

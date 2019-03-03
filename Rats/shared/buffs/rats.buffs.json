@@ -15,6 +15,65 @@
 				"float": 0,
 				"string": ""
 			}
-		}	  
+		},
+	    {
+			"id": "rats_dmg_received",
+			"stat_type": "damage_received_percent",
+			"stat_sub_type": "",
+			"amount": 0.25,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+	    {
+			"id": "rats_deathdoor_debuff",
+			"stat_type": "resistance",
+			"stat_sub_type": "death_blow",
+			"amount": -0.20,
+			"duration_type": "combat_end",
+			"duration": 1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+	    {
+			"id": "T_rats_GuardBlock",
+			"stat_type": "disable_combat_skill_attribute",
+			"stat_sub_type": "guard",
+			"amount": 1,
+			"duration_type": "till_removed",
+			"duration": 1,
+			"remove_if_not_active": false,
+			"rule_type": "at_deaths_door",
+			"is_false_rule": true,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+	    {
+			"id": "T_HPDebuff",
+			"stat_type": "combat_stat_multiply",
+			"stat_sub_type": "max_hp",
+			"amount": -0.1,
+			"duration_type": "round",
+			"duration": 3,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		}	
+
    ]
 }

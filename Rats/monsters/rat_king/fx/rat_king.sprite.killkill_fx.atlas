@@ -1,0 +1,48 @@
+
+rat_king.sprite.killkill_fx.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/killkill/highlightkillkill
+  rotate: false
+  xy: 2, 60
+  size: 517, 172
+  orig: 517, 172
+  offset: 0, 0
+  index: -1
+images/killkill/shard1
+  rotate: true
+  xy: 933, 167
+  size: 65, 83
+  orig: 65, 83
+  offset: 0, 0
+  index: -1
+images/killkill/shard2
+  rotate: false
+  xy: 660, 110
+  size: 119, 122
+  orig: 119, 122
+  offset: 0, 0
+  index: -1
+images/killkill/shard3
+  rotate: false
+  xy: 521, 102
+  size: 137, 130
+  orig: 137, 130
+  offset: 0, 0
+  index: -1
+images/killkill/shard4
+  rotate: false
+  xy: 2, 2
+  size: 191, 56
+  orig: 191, 56
+  offset: 0, 0
+  index: -1
+images/killkill/shard5
+  rotate: false
+  xy: 781, 153
+  size: 150, 79
+  orig: 150, 79
+  offset: 0, 0
+  index: -1

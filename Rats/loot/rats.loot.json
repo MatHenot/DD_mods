@@ -1,0 +1,29 @@
+{
+   "loot_tables" :
+   [
+      {
+         "id" : "rats",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 1, "data" : { }},
+            { "type" : "table", "chances" : 5, "data" : { "table" : "C" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "G" }},
+            { "type" : "table", "chances" : 2, "data" : { "table" : "H" }},
+            { "type" : "table", "chances" : 1, "data" : { "table" : "T" }}
+         ]
+      },
+      {
+         "id" : "T_RATS",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "very_rare" }},
+            { "type" : "trinket", "chances" : 1000, "data" : { "rarity" : "rats" }}
+         ]
+      }
+   ]
+}

@@ -1,20 +1,28 @@
 //RAT KING
 
-effect: .name "reinforcement_A1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters rat_grab_A rat_whip_A rat_bone_A .summon_chances 1.0 1.0 1.0 .summon_limits 2 2 2 .summon_does_roll_initiatives 1 1 1 .on_hit true .on_miss true .apply_once true
-effect: .name "reinforcement_A2" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters rat_grab_A rat_whip_A rat_bone_A .summon_chances 1.0 1.0 1.0 .summon_limits 2 2 2 .summon_does_roll_initiatives 1 1 1 .on_hit true .on_miss true .apply_once true
-
 effect: .name "reinforcement_C1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters rat_grab_C rat_whip_C rat_bone_C .summon_chances 1.0 1.0 1.0 .summon_limits 2 2 2 .summon_does_roll_initiatives 1 1 1 .on_hit true .on_miss true .apply_once true
 effect: .name "reinforcement_C2" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters rat_grab_C rat_whip_C rat_bone_C .summon_chances 1.0 1.0 1.0 .summon_limits 2 2 2 .summon_does_roll_initiatives 1 1 1 .on_hit true .on_miss true .apply_once true
 
+effect: .name "king_mark_C" .target "target" .curio_result_type "negative" .chance 140% .tag 1 .duration 3 .buff_ids "rats_dmg_received" .on_hit true .on_miss false
+
 effect: .name "king_curse_C" .target "target" .curio_result_type "negative" .chance 100%  .dotStress 3 .duration 3 .on_hit true .on_miss false
+
+effect: .name "king_curse2_C" .target "target" .curio_result_type "negative" .chance 200%  .buff_ids "rats_deathdoor_debuff" .on_hit true .on_miss true
+
 
 //RATS ATTACKS
 
-effect: .name "grab_pull" .target "target"  .pull 1	 .chance 130%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "grab_pull_A" .target "target"  .pull 1 .chance 90% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "whip_bleed_A" .target "target" .curio_result_type "negative" .chance 90%  .dotBleed 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "bone_stress_A" .target "target" .curio_result_type "negative" .chance 100% .stress 5 .on_hit true .on_miss false .queue true
 
-effect: .name "whip_bleed" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "grab_pull_B" .target "target"  .pull 1 .chance 110% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "whip_bleed_B" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "bone_stress_B" .target "target" .curio_result_type "negative" .chance 100% .stress 7 .on_hit true .on_miss false .queue true
 
-effect: .name "bone_stress" .target "target" .curio_result_type "negative" .chance 100% .stress 7 .on_hit true .on_miss false .queue true
+effect: .name "grab_pull_C" .target "target"  .pull 1 .chance 130% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "whip_bleed_C" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 3 .duration 3	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "bone_stress_C" .target "target" .curio_result_type "negative" .chance 100% .stress 7 .on_hit true .on_miss false .queue true
 
 //TRANSFORMATION
 
@@ -24,17 +32,39 @@ effect: .name "to_grabwhip_A" .target "performer" .chance 100% .set_monster_clas
 effect: .name "to_grabbone_A" .target "performer" .chance 100% .set_monster_class_id rat_grab_bone_A .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
 effect: .name "to_whipbone_A" .target "performer" .chance 100% .set_monster_class_id rat_whip_bone_A .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
 
+effect: .name "heal_grab_amount_A" .target "performer" .chance 100% .heal 11 .on_hit true .on_miss true .can_crit_heal False .queue true
+effect: .name "heal_whip_amount_A" .target "performer" .chance 100% .heal 13 .on_hit true .on_miss true .can_crit_heal False .queue true
+effect: .name "heal_bone_amount_A" .target "performer" .chance 100% .heal 17 .on_hit true .on_miss true .can_crit_heal False .queue true
+
+effect: .name "to_grabwhip_B" .target "performer" .chance 100% .set_monster_class_id rat_grab_whip_B .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+effect: .name "to_grabbone_B" .target "performer" .chance 100% .set_monster_class_id rat_grab_bone_B .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+effect: .name "to_whipbone_B" .target "performer" .chance 100% .set_monster_class_id rat_whip_bone_B .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
+
+effect: .name "heal_grab_amount_B" .target "performer" .chance 100% .heal 15 .on_hit true .on_miss true .can_crit_heal False .queue true
+effect: .name "heal_whip_amount_B" .target "performer" .chance 100% .heal 18 .on_hit true .on_miss true .can_crit_heal False .queue true
+effect: .name "heal_bone_amount_B" .target "performer" .chance 100% .heal 22 .on_hit true .on_miss true .can_crit_heal False .queue true
+
 effect: .name "to_grabwhip_C" .target "performer" .chance 100% .set_monster_class_id rat_grab_whip_C .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
 effect: .name "to_grabbone_C" .target "performer" .chance 100% .set_monster_class_id rat_grab_bone_C .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
 effect: .name "to_whipbone_C" .target "performer" .chance 100% .set_monster_class_id rat_whip_bone_C .set_monster_class_reset_buffs false .set_monster_class_clear_initative true .set_monster_class_clear_monster_brain_cooldowns true .on_hit true .on_miss true .queue true
 
-effect: .name "heal_grab_amount" .target "performer" .chance 100% .heal 15 .on_hit true .on_miss true .can_crit_heal False .queue true
-effect: .name "heal_whip_amount" .target "performer" .chance 100% .heal 18 .on_hit true .on_miss true .can_crit_heal False .queue true
-effect: .name "heal_bone_amount" .target "performer" .chance 100% .heal 22 .on_hit true .on_miss true .can_crit_heal False .queue true
+effect: .name "heal_grab_amount_C" .target "performer" .chance 100% .heal 15 .on_hit true .on_miss true .can_crit_heal False .queue true
+effect: .name "heal_whip_amount_C" .target "performer" .chance 100% .heal 18 .on_hit true .on_miss true .can_crit_heal False .queue true
+effect: .name "heal_bone_amount_C" .target "performer" .chance 100% .heal 22 .on_hit true .on_miss true .can_crit_heal False .queue true
 
 //COMMON
 
-effect: .name "rats_hp_debuff_A" .target "target" .curio_result_type "positive" .chance 90% .buff_ids "rats_hp_debuff" .on_hit true .on_miss false
+effect: .name "rats_hp_debuff_A" .target "target" .curio_result_type "negative" .chance 90% .buff_ids "rats_hp_debuff" .on_hit true .on_miss false
+effect: .name "rats_hp_debuff_B" .target "target" .curio_result_type "negative" .chance 120% .buff_ids "rats_hp_debuff" .on_hit true .on_miss false
+effect: .name "rats_hp_debuff_C" .target "target" .curio_result_type "negative" .chance 140% .buff_ids "rats_hp_debuff" .on_hit true .on_miss false
 
-effect: .name "rats_hp_debuff_C" .target "target" .curio_result_type "positive" .chance 120% .buff_ids "rats_hp_debuff" .on_hit true .on_miss false
+effect: .name "flee_kill" .target "performer" .chance 100% .kill 1 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "flee_clean" .target "performer" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .can_apply_on_death true .queue true
 
+//TRINKETS
+
+effect: .name "T_GuardTeam" .target "performer_group_other" .chance 100% .guard 1 .duration 100 .on_hit true .on_miss true
+effect: .name "T_HPDebuff" .target "target" .curio_result_type "negative" .chance 130% .buff_ids "T_HPDebuff" .on_hit true .on_miss false
+effect: .name "T_AllyStun" .target "target" .curio_result_type "negative" .chance 130% .stun 1 .on_hit true .on_miss false .queue true
+effect: .name "T_CleanCorpse" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .can_apply_on_death true .queue false
+effect: .name "T_StressOnKill" .target "performer" .chance 100% .stress 5 .on_hit true .on_miss false .queue true

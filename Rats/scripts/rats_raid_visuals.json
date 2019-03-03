@@ -4,9 +4,9 @@
             {
                 "key": "rats_sewer",
                 "data": { 
-                    "transition_time" : 0.50,
-                    "distance_to_texture" : -1200,
-                    "initial_distance_to_texture" : -1000.0,
+                    "transition_time" : 0.10,
+                    "distance_to_texture" : -1000,
+                    "initial_distance_to_texture" : -1200.0,
                     "camera_zoom_target" : -0.90,
                     "camera_movement_target" : 950.0,
                     "texture_scale" : 1.0,
