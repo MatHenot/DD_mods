@@ -58,8 +58,8 @@ effect: .name "rats_hp_debuff_A" .target "target" .curio_result_type "negative" 
 effect: .name "rats_hp_debuff_B" .target "target" .curio_result_type "negative" .chance 120% .buff_ids "rats_hp_debuff" .on_hit true .on_miss false
 effect: .name "rats_hp_debuff_C" .target "target" .curio_result_type "negative" .chance 140% .buff_ids "rats_hp_debuff" .on_hit true .on_miss false
 
-effect: .name "flee_kill" .target "performer" .chance 100% .kill 1 .on_hit true .on_miss true .apply_once true .queue true
-effect: .name "flee_clean" .target "performer" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .can_apply_on_death true .queue true
+//effect: .name "flee_kill" .target "performer" .chance 100% .kill 1 .on_hit true .on_miss true .apply_once true .queue true
+//effect: .name "flee_clean" .target "performer" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .can_apply_on_death true .queue true
 
 //TRINKETS
 

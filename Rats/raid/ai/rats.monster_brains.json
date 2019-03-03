@@ -18,6 +18,10 @@
 				{
 					"combat_skill_id": "curse",
                     "amount": 1
+				},
+				{
+					"combat_skill_id": "curse2",
+                    "amount": 100000
 				}				
 			],
             "skill_selection_desires": [

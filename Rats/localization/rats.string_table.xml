@@ -26,13 +26,11 @@
   <entry id="str_monstername_rat_whip_bone_B"><![CDATA[Whip & Mace Rats]]></entry>
   <entry id="str_monstername_rat_whip_bone_C"><![CDATA[Whip & Mace Rats]]></entry>
   <!-- Monster Attacks -->
-  <entry id="str_monster_skill_claw12"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw13"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw23"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw24"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw34"><![CDATA[A Dozen Claws]]></entry>
+  <entry id="str_monster_skill_claws"><![CDATA[A Dozen Claws]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[Headbutt]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[King's Curse]]></entry>
+  <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[Leftovers]]></entry>
   <entry id="str_monster_skill_king_reinforcement"><![CDATA[Call of the Vermine]]></entry>
   <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[Call of the Vermine]]></entry>
