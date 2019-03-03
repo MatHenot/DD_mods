@@ -1,8 +1,8 @@
 commonfx: .deathfx death_large_boss
-skill: .id "claws" .anim "claws" .fx "clawsfx" .targchestfx "" .area_pos_offset 0 -100
-skill: .id "headbutt" .anim "headbutt" .fx "headbuttfx" .targetchestfx ""
-skill: .id "killkill" .anim "killkill" .fx "killkill_fx" .targetchestfx "sniper_shot_target" .area_pos_offset 0 -120
-skill: .id "curse" .anim "curse" .fx "cursefx" .targetchestfx "" .area_pos_offset 0 -250
-skill: .id "curse2" .anim "curse" .fx "curse2fx" .targetchestfx "curse2_targfx" .area_pos_offset 0 -250
-skill: .id "devour" .anim "eateat" .fx "eateatfx" .targetchestfx "" .area_pos_offset 0 15
-skill: .id "king_reinforcement" .targfx "rat_reinforcement"
+skill: .id "claws" .anim "claws" .fx "clawsfx" .targchestfx "blood_splatter" .area_pos_offset 0 -100
+skill: .id "headbutt" .anim "headbutt" .fx "headbuttfx" .targchestfx "blood_splatter"
+skill: .id "killkill" .anim "killkill" .fx "killkill_fx" .targchestfx "mark_target" .area_pos_offset 0 -120 .target_area_pos_offset 0 -30
+skill: .id "curse" .anim "curse" .fx "cursefx" .targchestfx "stress_cloud" .area_pos_offset 0 -250 .target_area_pos_offset 80 -30
+skill: .id "curse2" .anim "curse" .fx "cursefx" .targheadfx "curse2_target" .area_pos_offset 0 -250 .target_area_pos_offset 80 -30
+skill: .id "devour" .anim "eateat" .fx "eateatfx" .area_pos_offset 0 15
+skill: .id "king_reinforcement" .anim "combat" .targfx "rat_reinforcement"
