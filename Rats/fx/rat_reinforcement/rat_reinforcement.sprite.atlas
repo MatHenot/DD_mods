@@ -1,41 +1,55 @@
 
 rat_reinforcement.sprite.png
-size: 1024,512
+size: 2048,512
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+Calque 10
+  rotate: false
+  xy: 1607, 296
+  size: 234, 137
+  orig: 234, 137
+  offset: 0, 0
+  index: -1
+Calque 11
+  rotate: false
+  xy: 1110, 240
+  size: 254, 193
+  orig: 254, 193
+  offset: 0, 0
+  index: -1
+Calque 8
+  rotate: false
+  xy: 393, 138
+  size: 412, 295
+  orig: 412, 295
+  offset: 0, 0
+  index: -1
+Calque 9
+  rotate: true
+  xy: 2, 2
+  size: 56, 267
+  orig: 56, 267
+  offset: 0, 0
+  index: -1
 pack1
   rotate: false
-  xy: 2, 125
+  xy: 2, 60
   size: 389, 373
   orig: 389, 373
   offset: 0, 0
   index: -1
 rat2
-  rotate: false
-  xy: 393, 197
+  rotate: true
+  xy: 807, 178
   size: 255, 301
   orig: 255, 301
   offset: 0, 0
   index: -1
 rat3
   rotate: false
-  xy: 650, 117
+  xy: 1366, 233
   size: 239, 200
   orig: 239, 200
-  offset: 0, 0
-  index: -1
-smoke01
-  rotate: false
-  xy: 650, 319
-  size: 319, 179
-  orig: 319, 179
-  offset: 0, 0
-  index: -1
-smoke02
-  rotate: false
-  xy: 2, 2
-  size: 120, 121
-  orig: 120, 121
   offset: 0, 0
   index: -1
