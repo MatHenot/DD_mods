@@ -1,5 +1,5 @@
 commonfx: .deathfx death_medium
 skill: .id "whip" .anim "whip" .fx "whipfx" .targchestfx "blood_splatter"
 skill: .id "flee" .anim "flee" .fx "" .targchestfx ""
-skill: .id "reinforcement_to_whipbone" .targfx "rat_reinforcement"
-skill: .id "reinforcement_to_grabwhip" .targfx "rat_reinforcement"
+skill: .id "reinforcement_to_whipbone" .anim "defend" .targfx "rat_reinforcement"
+skill: .id "reinforcement_to_grabwhip" .anim "defend" .targfx "rat_reinforcement"
