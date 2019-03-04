@@ -42,7 +42,8 @@
 			"rule_data": {
 				"float": 0,
 				"string": ""
-			}
+			},
+			"is_clear_debuff_valid": false
 		},
 	    {
 			"id": "T_rats_GuardBlock",
