@@ -1,7 +1,7 @@
 display: .size 1
 enemy_type: .id "beast"
 stats: .hp 17 .def 11.25% .prot 0 .spd 2 .stun_resist 20% .poison_resist 40% .bleed_resist 20% .debuff_resist 20% .move_resist 50%
-skill: .id "bone" .type "melee" .atk 72.5% .dmg 5 10 .crit 5%  .launch 21 .target 12 .effect "bone_stress_A" "rats_hp_debuff_A"
+skill: .id "bone" .type "melee" .atk 72.5% .dmg 5 10 .crit 5%  .launch 321 .target 12 .effect "bone_stress_A" "rats_hp_debuff_A"
 skill: .id "reinforcement_to_grabbone" .type "" .atk 0% .dmg 0 0 .crit 0% .effect "to_grabbone_A" "upgrade_init" "heal_grab_amount_A" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
 skill: .id "reinforcement_to_whipbone" .type "" .atk 0% .dmg 0 0 .crit 0% .effect "to_whipbone_A" "upgrade_init" "heal_whip_amount_A" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
 skill: .id "move" .type "" .atk 0% .dmg 0 0 .crit 0% .launch 43 .target "" .move 0 1 .is_crit_valid False .is_knowledgeable False

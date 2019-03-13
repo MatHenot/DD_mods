@@ -2,7 +2,7 @@ display: .size 1
 enemy_type: .id "beast"
 stats: .hp 28 .def 14.5% .prot 0 .spd 4 .stun_resist 30% .poison_resist 40% .bleed_resist 20% .debuff_resist 20% .move_resist 40%
 skill: .id "whip" .type "melee" .atk  82.5% .dmg 1 5 .crit 3%  .launch 321 .target 123 .effect "whip_bleed_A" "rats_hp_debuff_A"
-skill: .id "bone" .type "melee" .atk 72.5% .dmg 5 10 .crit 5%  .launch 21 .target 12 .effect "bone_stress_A" "rats_hp_debuff_A"
+skill: .id "bone" .type "melee" .atk 72.5% .dmg 5 10 .crit 5%  .launch 321 .target 12 .effect "bone_stress_A" "rats_hp_debuff_A"
 skill: .id "move" .type "" .atk 0% .dmg 0 0 .crit 0% .launch 43 .target "" .move 0 1 .is_crit_valid False .is_knowledgeable False
 personality: .prefskill -1
 loot: .code "rats" .count 2
