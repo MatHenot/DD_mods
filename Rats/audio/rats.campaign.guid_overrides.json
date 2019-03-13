@@ -45,7 +45,23 @@
 		{"event_id": "event:/char/enemy/rat_whip_bone_whip",             		"guid_override":"{160afe29-1bf3-4864-b5b4-53fb030bd567}"},
 		{"event_id": "event:/char/enemy/rat_whip_bone_whip_miss",             	"guid_override":"{2bb0f3db-5ac3-435b-adc5-29d955c944b5}"},
 		{"event_id": "event:/char/enemy/rat_whip_reinforcement_to_grabwhip",    "guid_override":"{aa12f68f-990a-4fdc-9b8a-f01759d92546}"},
-		{"event_id": "event:/char/enemy/rat_whip_reinforcement_to_whipbone",    "guid_override":"{cf2457e2-6228-4f49-a3c3-17ec7350509a}"}
+		{"event_id": "event:/char/enemy/rat_whip_reinforcement_to_whipbone",    "guid_override":"{cf2457e2-6228-4f49-a3c3-17ec7350509a}"},	
+		{"event_id": "event:/char/enemy/rat_king_claws",   						"guid_override":"{1aefbd98-4866-4db3-a23f-34a9805b5806}"},
+		{"event_id": "event:/char/enemy/rat_king_claws_miss",    				"guid_override":"{baedd4f2-f7d1-4fc4-a71f-3e45d3f7cd9f}"},
+		{"event_id": "event:/char/enemy/rat_king_curse",  						"guid_override":"{c838522b-a268-4ee4-8614-3730e28f7918}"},
+		{"event_id": "event:/char/enemy/rat_king_curse2",   					"guid_override":"{4ccf7549-e00c-43ac-840c-50b71a3d20e4}"},
+		{"event_id": "event:/char/enemy/rat_king_devour",   					"guid_override":"{17644eca-99d4-4347-88d7-cb56f78d44e9}"},
+		{"event_id": "event:/char/enemy/rat_king_headbutt",   					"guid_override":"{ef6a0956-6e7d-4bbe-a5bd-405cc9c337b1}"},
+		{"event_id": "event:/char/enemy/rat_king_headbutt_miss",    			"guid_override":"{55a6baa8-d210-4d5e-a371-8145d6b4feb0}"},
+		{"event_id": "event:/char/enemy/rat_king_killkill",    					"guid_override":"{857f0fd3-5e61-4104-866a-92f94cf4ae7a}"},
+		{"event_id": "event:/char/enemy/rat_king_vo_aggro",    					"guid_override":"{412c18c1-1491-473f-ac92-2b929d96420c}"},
+		{"event_id": "event:/char/enemy/rat_king_vo_crit",    					"guid_override":"{d77aff63-01c5-400e-bdfa-724e7ac699df}"},
+		{"event_id": "event:/char/enemy/rat_king_vo_death",    					"guid_override":"{6f117399-ba35-4a03-8f86-b441f63e46c0}"},
+		{"event_id": "event:/char/enemy/rat_king_vo_hurt",    					"guid_override":"{a5c7e4b3-9e7d-4eb0-b40b-e5f33ec80ed0}"},
+		{"event_id": "event:/char/enemy/rat_king_reinforcement",    			"guid_override":"{c9eb6049-de48-49cd-9d6d-03602b514f5b}"},
+		{"event_id": "event:/props/curios/rat_manhole",    						"guid_override":"{763e3b58-cce3-4cce-9b5b-a9437eeb4e51}"}
 		
+		
+				
     ]
 }

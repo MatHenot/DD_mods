@@ -3,7 +3,7 @@
 effect: .name "reinforcement_C1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters rat_grab_C rat_whip_C rat_bone_C .summon_chances 1.0 1.0 1.0 .summon_limits 2 2 2 .summon_does_roll_initiatives 1 1 1 .on_hit true .on_miss true .apply_once true
 effect: .name "reinforcement_C2" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot false .summon_monsters rat_grab_C rat_whip_C rat_bone_C .summon_chances 1.0 1.0 1.0 .summon_limits 2 2 2 .summon_does_roll_initiatives 1 1 1 .on_hit true .on_miss true .apply_once true
 
-effect: .name "king_mark_C" .target "target" .curio_result_type "negative" .chance 140% .tag 1 .duration 3 .buff_ids "rats_dmg_received" .on_hit true .on_miss false
+effect: .name "king_mark_C" .target "target" .curio_result_type "negative" .chance 140% .tag 1 .duration 3 .buff_ids "rats_dmg_received" .on_hit true .on_miss true
 
 effect: .name "king_curse_C" .target "target" .curio_result_type "negative" .chance 100%  .dotStress 3 .duration 3 .on_hit true .on_miss false
 

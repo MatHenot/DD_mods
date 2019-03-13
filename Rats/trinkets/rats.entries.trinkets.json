@@ -2,7 +2,7 @@
    "entries":
    [
       {
-         "id" : "T_rats_1",
+         "id" : "rat_king_tails",
          "buffs" : 
          [
             "T_rats_GuardBlock",
@@ -23,7 +23,7 @@
          ]
       },
       {
-         "id" : "T_rats_2",
+         "id" : "rat_king_heart",
          "buffs" : 
          [
  			"DEBUFFRESIST25",
@@ -40,7 +40,7 @@
          "origin_dungeon" : "" 
       },
       {
-         "id" : "T_rats_3",
+         "id" : "rat_king_claw",
          "buffs" : 
          [
  			"TRINKET_SPD_B2",
@@ -62,7 +62,7 @@
          ]		 
       },
       {
-         "id" : "T_rats_4",
+         "id" : "rat_king_heads",
          "buffs" : 
          [
  			"CRIT5"
