@@ -59,6 +59,6 @@
 		{"event_id": "event:/char/enemy/rat_king_vo_death",    					"guid_override":"{6f117399-ba35-4a03-8f86-b441f63e46c0}"},
 		{"event_id": "event:/char/enemy/rat_king_vo_hurt",    					"guid_override":"{a5c7e4b3-9e7d-4eb0-b40b-e5f33ec80ed0}"},
 		{"event_id": "event:/char/enemy/rat_king_king_reinforcement",    		"guid_override":"{c9eb6049-de48-49cd-9d6d-03602b514f5b}"},
-		{"event_id": "event:/props/curios/rat_manhole",    						"guid_override":"{763e3b58-cce3-4cce-9b5b-a9437eeb4e51}"}	
+		{"event_id": "event:/props/curios/manhole",    							"guid_override":"{763e3b58-cce3-4cce-9b5b-a9437eeb4e51}"}	
     ]
 }

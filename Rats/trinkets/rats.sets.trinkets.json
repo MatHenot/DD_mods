@@ -1,0 +1,13 @@
+{
+   "sets":
+   [
+      {
+         "id" : "rat_set",
+         "buffs" : 
+         [
+			"DEBUFFSKILL15",
+			"T_rats_BeastReceivedDMG"
+         ]
+      }
+   ]
+}

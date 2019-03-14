@@ -63,8 +63,7 @@ effect: .name "rats_hp_debuff_C" .target "target" .curio_result_type "negative" 
 
 //TRINKETS
 
-effect: .name "T_GuardTeam" .target "performer_group_other" .chance 100% .guard 1 .duration 100 .on_hit true .on_miss true
-effect: .name "T_HPDebuff" .target "target" .curio_result_type "negative" .chance 130% .buff_ids "T_HPDebuff" .on_hit true .on_miss false
+effect: .name "T_AllyDMG" .target "target" .chance 100% .health_damage 1 .on_hit true .on_miss true
 effect: .name "T_AllyStun" .target "target" .curio_result_type "negative" .chance 130% .stun 1 .on_hit true .on_miss false .queue true
 effect: .name "T_CleanCorpse" .target "target" .chance 100% .kill_enemy_types corpse .on_hit true .on_miss false .can_apply_on_death true .queue false
 effect: .name "T_StressOnKill" .target "performer" .chance 100% .stress 5 .on_hit true .on_miss false .queue true

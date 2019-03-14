@@ -5,34 +5,38 @@
          "id" : "rat_king_tails",
          "buffs" : 
          [
-            "T_rats_GuardBlock",
-			"DMGL30",
-			"DMGH30"
+			"DMGL20",
+			"DMGH20",
+			"T_rats_BeastDMGL",
+			"T_rats_BeastDMGH",
+			"SPD-1"
          ],
          "hero_class_requirements":
          [
          ],
+         "set_id" : "rat_set",
          "rarity" : "rats",
          "visual_rarity" : "very_rare",
          "price" : 25000,
          "limit" : 1,
          "origin_dungeon" : "",
-		 "was_hit_all_heroes_additional_effects":
+		 "kill_all_heroes_additional_effects":
          [
-             "T_GuardTeam"
+             "T_AllyDMG"
          ]
       },
       {
          "id" : "rat_king_heart",
          "buffs" : 
          [
- 			"DEBUFFRESIST25",
+ 			"T_rats_DebuffRes",
 			"STRESSDMG-10",
 			"RESOLVECHECK-10"
          ],
          "hero_class_requirements":
          [
          ],
+         "set_id" : "rat_set",
          "rarity" : "rats",
          "visual_rarity" : "very_rare",
          "price" : 25000,
@@ -51,6 +55,7 @@
          "hero_class_requirements":
          [
          ],
+         "set_id" : "rat_set",
          "rarity" : "rats",
          "visual_rarity" : "very_rare",
          "price" : 25000,
@@ -70,6 +75,7 @@
          "hero_class_requirements":
          [
          ],
+         "set_id" : "rat_set",
          "rarity" : "rats",
          "visual_rarity" : "very_rare",
          "price" : 25000,
