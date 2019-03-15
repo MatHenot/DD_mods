@@ -71,31 +71,32 @@
             "string" : "beast"
          }
       },
-      {
-         "id" : "T_rats_DebuffRes",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "debuff",
-         "amount" : 0.30,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-      {
-         "id" : "T_rats_BeastReceivedDMG",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : -0.90,
-         "remove_if_not_active" : false,
-         "rule_type" : "monsterType",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "beast"
-         }
-      }
+	  
+	  {
+		 "id": "T_Tails_ToolTip",
+		 "stat_type": "upgrade_discount",
+		 "stat_sub_type": "T_Tails",
+		 "amount": 0.1,
+		 "remove_if_not_active": false,
+		 "rule_type": "always",
+		 "is_false_rule": false,
+		 "rule_data": {
+			"float": 0,
+			"string": ""
+		 }
+	  },
+	  {
+		 "id": "T_Claw_ToolTip",
+		 "stat_type": "upgrade_discount",
+		 "stat_sub_type": "T_Claw",
+		 "amount": 0.1,
+		 "remove_if_not_active": false,
+		 "rule_type": "always",
+		 "is_false_rule": false,
+		 "rule_data": {
+			"float": 0,
+			"string": ""
+		 }
+	  }
    ]
 }

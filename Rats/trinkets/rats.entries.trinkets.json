@@ -9,27 +9,30 @@
 			"DMGH20",
 			"T_rats_BeastDMGL",
 			"T_rats_BeastDMGH",
-			"SPD-1"
+			"SPD-1",
+			"T_Tails_ToolTip"
          ],
          "hero_class_requirements":
          [
          ],
          "set_id" : "rat_set",
          "rarity" : "rats",
-         "visual_rarity" : "very_rare",
+         "visual_rarity" : "courtier",
          "price" : 25000,
          "limit" : 1,
          "origin_dungeon" : "",
-		 "kill_all_heroes_additional_effects":
+		 "kill_performer_additional_effects":
          [
-             "T_AllyDMG"
+             "T_AllyDMG",
+			 "T_AllyDMG2"
          ]
       },
       {
          "id" : "rat_king_heart",
          "buffs" : 
          [
- 			"T_rats_DebuffRes",
+ 			"DEBUFFRESIST25",
+			"DEBUFFSKILL10",
 			"STRESSDMG-10",
 			"RESOLVECHECK-10"
          ],
@@ -38,7 +41,7 @@
          ],
          "set_id" : "rat_set",
          "rarity" : "rats",
-         "visual_rarity" : "very_rare",
+         "visual_rarity" : "courtier",
          "price" : 25000,
          "limit" : 1,
          "origin_dungeon" : "" 
@@ -50,14 +53,15 @@
  			"TRINKET_SPD_B2",
 			"ACC5",
 			"DMGL10",
-			"DMGH10"
+			"DMGH10",
+			"T_Claw_ToolTip"
          ],
          "hero_class_requirements":
          [
          ],
          "set_id" : "rat_set",
          "rarity" : "rats",
-         "visual_rarity" : "very_rare",
+         "visual_rarity" : "courtier",
          "price" : 25000,
          "limit" : 1,
          "origin_dungeon" : "",
@@ -77,17 +81,17 @@
          ],
          "set_id" : "rat_set",
          "rarity" : "rats",
-         "visual_rarity" : "very_rare",
+         "visual_rarity" : "courtier",
          "price" : 25000,
          "limit" : 1,
          "origin_dungeon" : "",
-		 "kill_performer_additional_effects":
-         [
-			 "T_StressOnKill"
-         ],
 		 "attack_skill_additional_effects":
          [
              "T_CleanCorpse"
+         ],
+		 "kill_performer_additional_effects":
+         [
+			 "T_StressOnKill"
          ]
       }
    ]

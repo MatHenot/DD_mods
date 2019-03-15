@@ -46,11 +46,16 @@
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
   <!-- Trinkets -->  
-	<entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Rouet of Tails]]></entry>
-	<entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
-	<entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-	<entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
   </language>
+  
   <language id="french">
   <!-- New Monster -->
   <entry id="str_monstername_rat_king_A"><![CDATA[Nerub]]></entry>
@@ -58,6 +63,8 @@
   <entry id="str_monstername_rat_king_C"><![CDATA[Nerub]]></entry>
   <entry id="str_monstername_rat_grab_A"><![CDATA[Rat Crochet]]></entry>
   <entry id="str_monstername_rat_grab_B"><![CDATA[Rat Crochet]]></entry>
+  <entry id="str_monstername_rat_grab_Y"><![CDATA[Rat Crochet]]></entry>
+  <entry id="str_monstername_rat_grab_Z"><![CDATA[Rat Crochet]]></entry>
   <entry id="str_monstername_rat_grab_C"><![CDATA[Rat Crochet]]></entry>
   <entry id="str_monstername_rat_whip_A"><![CDATA[Rat Fouettard]]></entry>
   <entry id="str_monstername_rat_whip_B"><![CDATA[Rat Fouettard]]></entry>
@@ -75,13 +82,11 @@
   <entry id="str_monstername_rat_whip_bone_B"><![CDATA[Rats Fouettard & Massue]]></entry>
   <entry id="str_monstername_rat_whip_bone_C"><![CDATA[Rats Fouettard & Massue]]></entry>
   <!-- Monster Attacks -->
-  <entry id="str_monster_skill_claw12"><![CDATA[Une Dizaine de Griffes]]></entry>
-  <entry id="str_monster_skill_claw13"><![CDATA[Une Dizaine de Griffes]]></entry>
-  <entry id="str_monster_skill_claw23"><![CDATA[Une Dizaine de Griffes]]></entry>
-  <entry id="str_monster_skill_claw24"><![CDATA[Une Dizaine de Griffes]]></entry>
-  <entry id="str_monster_skill_claw34"><![CDATA[Une Dizaine de Griffes]]></entry>
+  <entry id="str_monster_skill_claws"><![CDATA[Une Dizaine de Griffes]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[Coup de Boule]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[Tue Tue]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[La Malédiction du Roi]]></entry>
+  <entry id="str_monster_skill_curse2"><![CDATA[Peste du Rouet]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[Restes]]></entry>
   <entry id="str_monster_skill_king_reinforcement"><![CDATA[L'Appel des Vermines]]></entry>
   <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[L'Appel des Vermines]]></entry>
@@ -96,7 +101,17 @@
   <entry id="str_curio_content_manhole"><![CDATA[Vous entendez d'étranges couinements provenant d'un monde souterrain secret...]]></entry>
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Entrer dans les égouts.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[Vous pénétrez dans les égouts...]]></entry>
-  </language>
+  <!-- Trinkets -->  
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Entremêlement de Queues]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[Coeur du Roi]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Griffe Royale]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Têtes de Vermine]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["La vermine prolifère rapidement..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[Quand monstre tué : Autres héros : 0 à 2 DGT]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Compétence alliée : {colour_start|stun}Étourdissement{colour_end} {colour_start|skill_unselectable}(base : 130%%){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[Quand monstre tué : Pas de cadavre]]></entry>
+   </language>
+   
   <language id="spanish">
   <!-- New Monster -->
   <entry id="str_monstername_rat_king_A"><![CDATA[Nerub]]></entry>
@@ -104,6 +119,8 @@
   <entry id="str_monstername_rat_king_C"><![CDATA[Nerub]]></entry>
   <entry id="str_monstername_rat_grab_A"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_B"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Y"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Z"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_C"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_whip_A"><![CDATA[Whip Rat]]></entry>
   <entry id="str_monstername_rat_whip_B"><![CDATA[Whip Rat]]></entry>
@@ -121,13 +138,11 @@
   <entry id="str_monstername_rat_whip_bone_B"><![CDATA[Whip & Mace Rats]]></entry>
   <entry id="str_monstername_rat_whip_bone_C"><![CDATA[Whip & Mace Rats]]></entry>
   <!-- Monster Attacks -->
-  <entry id="str_monster_skill_claw12"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw13"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw23"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw24"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw34"><![CDATA[A Dozen Claws]]></entry>
+  <entry id="str_monster_skill_claws"><![CDATA[A Dozen Claws]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[Headbutt]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[King's Curse]]></entry>
+  <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[Leftovers]]></entry>
   <entry id="str_monster_skill_king_reinforcement"><![CDATA[Call of the Vermine]]></entry>
   <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[Call of the Vermine]]></entry>
@@ -136,13 +151,23 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
-  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry> 
+  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry>  
   <!-- Curio -->  
   <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
   <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
+  <!-- Trinkets -->  
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
   </language>
+  
   <language id="german">
   <!-- New Monster -->
   <entry id="str_monstername_rat_king_A"><![CDATA[Nerub]]></entry>
@@ -150,6 +175,8 @@
   <entry id="str_monstername_rat_king_C"><![CDATA[Nerub]]></entry>
   <entry id="str_monstername_rat_grab_A"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_B"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Y"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Z"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_C"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_whip_A"><![CDATA[Whip Rat]]></entry>
   <entry id="str_monstername_rat_whip_B"><![CDATA[Whip Rat]]></entry>
@@ -167,13 +194,11 @@
   <entry id="str_monstername_rat_whip_bone_B"><![CDATA[Whip & Mace Rats]]></entry>
   <entry id="str_monstername_rat_whip_bone_C"><![CDATA[Whip & Mace Rats]]></entry>
   <!-- Monster Attacks -->
-  <entry id="str_monster_skill_claw12"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw13"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw23"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw24"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw34"><![CDATA[A Dozen Claws]]></entry>
+  <entry id="str_monster_skill_claws"><![CDATA[A Dozen Claws]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[Headbutt]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[King's Curse]]></entry>
+  <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[Leftovers]]></entry>
   <entry id="str_monster_skill_king_reinforcement"><![CDATA[Call of the Vermine]]></entry>
   <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[Call of the Vermine]]></entry>
@@ -182,13 +207,23 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
-  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry> 
+  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry>  
   <!-- Curio -->  
   <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
   <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
+  <!-- Trinkets -->  
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
   </language>
+  
   <language id="brazilian">
   <!-- New Monster -->
   <entry id="str_monstername_rat_king_A"><![CDATA[Nerub]]></entry>
@@ -196,6 +231,8 @@
   <entry id="str_monstername_rat_king_C"><![CDATA[Nerub]]></entry>
   <entry id="str_monstername_rat_grab_A"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_B"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Y"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Z"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_C"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_whip_A"><![CDATA[Whip Rat]]></entry>
   <entry id="str_monstername_rat_whip_B"><![CDATA[Whip Rat]]></entry>
@@ -213,13 +250,11 @@
   <entry id="str_monstername_rat_whip_bone_B"><![CDATA[Whip & Mace Rats]]></entry>
   <entry id="str_monstername_rat_whip_bone_C"><![CDATA[Whip & Mace Rats]]></entry>
   <!-- Monster Attacks -->
-  <entry id="str_monster_skill_claw12"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw13"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw23"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw24"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw34"><![CDATA[A Dozen Claws]]></entry>
+  <entry id="str_monster_skill_claws"><![CDATA[A Dozen Claws]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[Headbutt]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[King's Curse]]></entry>
+  <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[Leftovers]]></entry>
   <entry id="str_monster_skill_king_reinforcement"><![CDATA[Call of the Vermine]]></entry>
   <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[Call of the Vermine]]></entry>
@@ -228,13 +263,23 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
-  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry> 
+  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry>  
   <!-- Curio -->  
   <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
   <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
+  <!-- Trinkets -->  
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
   </language>
+  
   <language id="russian">
   <!-- New Monster -->
   <entry id="str_monstername_rat_king_A"><![CDATA[Неруб]]></entry>
@@ -242,6 +287,8 @@
   <entry id="str_monstername_rat_king_C"><![CDATA[Неруб]]></entry>
   <entry id="str_monstername_rat_grab_A"><![CDATA[Крюк-Крыса]]></entry>
   <entry id="str_monstername_rat_grab_B"><![CDATA[Крюк-Крыса]]></entry>
+  <entry id="str_monstername_rat_grab_Y"><![CDATA[Крюк-Крыса]]></entry>
+  <entry id="str_monstername_rat_grab_Z"><![CDATA[Крюк-Крыса]]></entry>
   <entry id="str_monstername_rat_grab_C"><![CDATA[Крюк-Крыса]]></entry>
   <entry id="str_monstername_rat_whip_A"><![CDATA[Плеть-Крыса]]></entry>
   <entry id="str_monstername_rat_whip_B"><![CDATA[Плеть-Крыса]]></entry>
@@ -259,13 +306,11 @@
   <entry id="str_monstername_rat_whip_bone_B"><![CDATA[Плеть-&-Дубинка Крысы]]></entry>
   <entry id="str_monstername_rat_whip_bone_C"><![CDATA[Плеть-&-Дубинка Крысы]]></entry>
   <!-- Monster Attacks -->
-  <entry id="str_monster_skill_claw12"><![CDATA[Дюжина Когтей]]></entry>
-  <entry id="str_monster_skill_claw13"><![CDATA[Дюжина Когтей]]></entry>
-  <entry id="str_monster_skill_claw23"><![CDATA[Дюжина Когтей]]></entry>
-  <entry id="str_monster_skill_claw24"><![CDATA[Дюжина Когтей]]></entry>
-  <entry id="str_monster_skill_claw34"><![CDATA[Дюжина Когтей]]></entry>
+  <entry id="str_monster_skill_claws"><![CDATA[Дюжина Когтей]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[Удар Головой]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[Проклятие Короля]]></entry>
+  <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[Объедки]]></entry>
   <entry id="str_monster_skill_king_reinforcement"><![CDATA[Призыв Грызунов]]></entry>
   <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[Призыв Грызунов]]></entry>
@@ -280,7 +325,17 @@
   <entry id="str_curio_content_manhole"><![CDATA[Вы слышите странный писк, доносящийся из подземного, незримого мира...]]></entry>
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Войти в канализацию.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[Вы спускаетесь в канализацию...]]></entry>
+  <!-- Trinkets -->  
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
   </language>
+  
   <language id="polish">
   <!-- New Monster -->
   <entry id="str_monstername_rat_king_A"><![CDATA[Nerub]]></entry>
@@ -288,6 +343,8 @@
   <entry id="str_monstername_rat_king_C"><![CDATA[Nerub]]></entry>
   <entry id="str_monstername_rat_grab_A"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_B"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Y"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Z"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_C"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_whip_A"><![CDATA[Whip Rat]]></entry>
   <entry id="str_monstername_rat_whip_B"><![CDATA[Whip Rat]]></entry>
@@ -305,13 +362,11 @@
   <entry id="str_monstername_rat_whip_bone_B"><![CDATA[Whip & Mace Rats]]></entry>
   <entry id="str_monstername_rat_whip_bone_C"><![CDATA[Whip & Mace Rats]]></entry>
   <!-- Monster Attacks -->
-  <entry id="str_monster_skill_claw12"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw13"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw23"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw24"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw34"><![CDATA[A Dozen Claws]]></entry>
+  <entry id="str_monster_skill_claws"><![CDATA[A Dozen Claws]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[Headbutt]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[King's Curse]]></entry>
+  <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[Leftovers]]></entry>
   <entry id="str_monster_skill_king_reinforcement"><![CDATA[Call of the Vermine]]></entry>
   <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[Call of the Vermine]]></entry>
@@ -320,13 +375,23 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
-  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry> 
+  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry>  
   <!-- Curio -->  
   <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
   <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
+  <!-- Trinkets -->  
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
   </language>
+  
   <language id="czech">
   <!-- New Monster -->
   <entry id="str_monstername_rat_king_A"><![CDATA[Nerub]]></entry>
@@ -334,6 +399,8 @@
   <entry id="str_monstername_rat_king_C"><![CDATA[Nerub]]></entry>
   <entry id="str_monstername_rat_grab_A"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_B"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Y"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Z"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_C"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_whip_A"><![CDATA[Whip Rat]]></entry>
   <entry id="str_monstername_rat_whip_B"><![CDATA[Whip Rat]]></entry>
@@ -351,13 +418,11 @@
   <entry id="str_monstername_rat_whip_bone_B"><![CDATA[Whip & Mace Rats]]></entry>
   <entry id="str_monstername_rat_whip_bone_C"><![CDATA[Whip & Mace Rats]]></entry>
   <!-- Monster Attacks -->
-  <entry id="str_monster_skill_claw12"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw13"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw23"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw24"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw34"><![CDATA[A Dozen Claws]]></entry>
+  <entry id="str_monster_skill_claws"><![CDATA[A Dozen Claws]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[Headbutt]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[King's Curse]]></entry>
+  <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[Leftovers]]></entry>
   <entry id="str_monster_skill_king_reinforcement"><![CDATA[Call of the Vermine]]></entry>
   <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[Call of the Vermine]]></entry>
@@ -366,13 +431,23 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
-  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry> 
+  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry>  
   <!-- Curio -->  
   <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
   <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
+  <!-- Trinkets -->  
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
   </language>
+  
   <language id="italian">
   <!-- New Monster -->
   <entry id="str_monstername_rat_king_A"><![CDATA[Nerub]]></entry>
@@ -380,6 +455,8 @@
   <entry id="str_monstername_rat_king_C"><![CDATA[Nerub]]></entry>
   <entry id="str_monstername_rat_grab_A"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_B"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Y"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Z"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_C"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_whip_A"><![CDATA[Whip Rat]]></entry>
   <entry id="str_monstername_rat_whip_B"><![CDATA[Whip Rat]]></entry>
@@ -397,13 +474,11 @@
   <entry id="str_monstername_rat_whip_bone_B"><![CDATA[Whip & Mace Rats]]></entry>
   <entry id="str_monstername_rat_whip_bone_C"><![CDATA[Whip & Mace Rats]]></entry>
   <!-- Monster Attacks -->
-  <entry id="str_monster_skill_claw12"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw13"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw23"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw24"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw34"><![CDATA[A Dozen Claws]]></entry>
+  <entry id="str_monster_skill_claws"><![CDATA[A Dozen Claws]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[Headbutt]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[King's Curse]]></entry>
+  <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[Leftovers]]></entry>
   <entry id="str_monster_skill_king_reinforcement"><![CDATA[Call of the Vermine]]></entry>
   <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[Call of the Vermine]]></entry>
@@ -412,13 +487,23 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
-  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry> 
+  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry>  
   <!-- Curio -->  
   <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
   <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
+  <!-- Trinkets -->  
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
   </language>
+  
   <language id="schinese">
   <!-- New Monster -->
   <entry id="str_monstername_rat_king_A"><![CDATA[Nerub]]></entry>
@@ -426,6 +511,8 @@
   <entry id="str_monstername_rat_king_C"><![CDATA[Nerub]]></entry>
   <entry id="str_monstername_rat_grab_A"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_B"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Y"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Z"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_C"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_whip_A"><![CDATA[Whip Rat]]></entry>
   <entry id="str_monstername_rat_whip_B"><![CDATA[Whip Rat]]></entry>
@@ -443,13 +530,11 @@
   <entry id="str_monstername_rat_whip_bone_B"><![CDATA[Whip & Mace Rats]]></entry>
   <entry id="str_monstername_rat_whip_bone_C"><![CDATA[Whip & Mace Rats]]></entry>
   <!-- Monster Attacks -->
-  <entry id="str_monster_skill_claw12"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw13"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw23"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw24"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw34"><![CDATA[A Dozen Claws]]></entry>
+  <entry id="str_monster_skill_claws"><![CDATA[A Dozen Claws]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[Headbutt]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[King's Curse]]></entry>
+  <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[Leftovers]]></entry>
   <entry id="str_monster_skill_king_reinforcement"><![CDATA[Call of the Vermine]]></entry>
   <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[Call of the Vermine]]></entry>
@@ -458,13 +543,23 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
-  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry> 
+  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry>  
   <!-- Curio -->  
   <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
   <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
+  <!-- Trinkets -->  
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
   </language>
+  
  <language id="tchinese">
   <!-- New Monster -->
   <entry id="str_monstername_rat_king_A"><![CDATA[Nerub]]></entry>
@@ -472,6 +567,8 @@
   <entry id="str_monstername_rat_king_C"><![CDATA[Nerub]]></entry>
   <entry id="str_monstername_rat_grab_A"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_B"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Y"><![CDATA[Hook Rat]]></entry>
+  <entry id="str_monstername_rat_grab_Z"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_grab_C"><![CDATA[Hook Rat]]></entry>
   <entry id="str_monstername_rat_whip_A"><![CDATA[Whip Rat]]></entry>
   <entry id="str_monstername_rat_whip_B"><![CDATA[Whip Rat]]></entry>
@@ -489,13 +586,11 @@
   <entry id="str_monstername_rat_whip_bone_B"><![CDATA[Whip & Mace Rats]]></entry>
   <entry id="str_monstername_rat_whip_bone_C"><![CDATA[Whip & Mace Rats]]></entry>
   <!-- Monster Attacks -->
-  <entry id="str_monster_skill_claw12"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw13"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw23"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw24"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_claw34"><![CDATA[A Dozen Claws]]></entry>
+  <entry id="str_monster_skill_claws"><![CDATA[A Dozen Claws]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[Headbutt]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[King's Curse]]></entry>
+  <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[Leftovers]]></entry>
   <entry id="str_monster_skill_king_reinforcement"><![CDATA[Call of the Vermine]]></entry>
   <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[Call of the Vermine]]></entry>
@@ -504,13 +599,23 @@
   <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
   <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
   <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
-  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry> 
+  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry>  
   <!-- Curio -->  
   <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
   <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
+  <!-- Trinkets -->  
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
   </language>
+  
   <language id="koreana">
   <!-- New Monster -->
   <entry id="str_monstername_rat_king_A"><![CDATA[네룹]]></entry>
@@ -518,6 +623,8 @@
   <entry id="str_monstername_rat_king_C"><![CDATA[네룹]]></entry>
   <entry id="str_monstername_rat_grab_A"><![CDATA[갈고리 들쥐]]></entry>
   <entry id="str_monstername_rat_grab_B"><![CDATA[갈고리 들쥐]]></entry>
+  <entry id="str_monstername_rat_grab_Y"><![CDATA[갈고리 들쥐]]></entry>
+  <entry id="str_monstername_rat_grab_Z"><![CDATA[갈고리 들쥐]]></entry>
   <entry id="str_monstername_rat_grab_C"><![CDATA[갈고리 들쥐]]></entry>
   <entry id="str_monstername_rat_whip_A"><![CDATA[채찍 들쥐]]></entry>
   <entry id="str_monstername_rat_whip_B"><![CDATA[채찍 들쥐]]></entry>
@@ -535,13 +642,11 @@
   <entry id="str_monstername_rat_whip_bone_B"><![CDATA[채찍 & 철퇴 들쥐들]]></entry>
   <entry id="str_monstername_rat_whip_bone_C"><![CDATA[채찍 & 철퇴 들쥐들]]></entry>
   <!-- Monster Attacks -->
-  <entry id="str_monster_skill_claw12"><![CDATA[열두 개의 발톱]]></entry>
-  <entry id="str_monster_skill_claw13"><![CDATA[열두 개의 발톱]]></entry>
-  <entry id="str_monster_skill_claw23"><![CDATA[열두 개의 발톱]]></entry>
-  <entry id="str_monster_skill_claw24"><![CDATA[열두 개의 발톱]]></entry>
-  <entry id="str_monster_skill_claw34"><![CDATA[열두 개의 발톱]]></entry>
+  <entry id="str_monster_skill_claws"><![CDATA[열두 개의 발톱]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[들이받기]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[왕의 저주]]></entry>
+  <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[남은 음식들]]></entry>
   <entry id="str_monster_skill_king_reinforcement"><![CDATA[해충의 부름]]></entry>
   <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[해충의 부름]]></entry>
@@ -556,7 +661,17 @@
   <entry id="str_curio_content_manhole"><![CDATA[이상한 끽끽 소리가 지하의 비밀 세계에서 들려옵니다...]]></entry>
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[하수구에 들어가봅니다.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[당신은 하수구에 들어갔습니다...]]></entry>
+  <!-- Trinkets -->  
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
   </language>
+  
   <language id="koreanb">
   <!-- New Monster -->
   <entry id="str_monstername_rat_king_A"><![CDATA[네룹]]></entry>
@@ -564,6 +679,8 @@
   <entry id="str_monstername_rat_king_C"><![CDATA[네룹]]></entry>
   <entry id="str_monstername_rat_grab_A"><![CDATA[갈고리 들쥐]]></entry>
   <entry id="str_monstername_rat_grab_B"><![CDATA[갈고리 들쥐]]></entry>
+  <entry id="str_monstername_rat_grab_Y"><![CDATA[갈고리 들쥐]]></entry>
+  <entry id="str_monstername_rat_grab_Z"><![CDATA[갈고리 들쥐]]></entry>
   <entry id="str_monstername_rat_grab_C"><![CDATA[갈고리 들쥐]]></entry>
   <entry id="str_monstername_rat_whip_A"><![CDATA[채찍 들쥐]]></entry>
   <entry id="str_monstername_rat_whip_B"><![CDATA[채찍 들쥐]]></entry>
@@ -581,13 +698,11 @@
   <entry id="str_monstername_rat_whip_bone_B"><![CDATA[채찍 & 철퇴 들쥐들]]></entry>
   <entry id="str_monstername_rat_whip_bone_C"><![CDATA[채찍 & 철퇴 들쥐들]]></entry>
   <!-- Monster Attacks -->
-  <entry id="str_monster_skill_claw12"><![CDATA[열두 개의 발톱]]></entry>
-  <entry id="str_monster_skill_claw13"><![CDATA[열두 개의 발톱]]></entry>
-  <entry id="str_monster_skill_claw23"><![CDATA[열두 개의 발톱]]></entry>
-  <entry id="str_monster_skill_claw24"><![CDATA[열두 개의 발톱]]></entry>
-  <entry id="str_monster_skill_claw34"><![CDATA[열두 개의 발톱]]></entry>
+  <entry id="str_monster_skill_claws"><![CDATA[열두 개의 발톱]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[들이받기]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[왕의 저주]]></entry>
+  <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[남은 음식들]]></entry>
   <entry id="str_monster_skill_king_reinforcement"><![CDATA[해충의 부름]]></entry>
   <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[해충의 부름]]></entry>
@@ -602,6 +717,16 @@
   <entry id="str_curio_content_manhole"><![CDATA[이상한 끽끽 소리가 지하의 비밀 세계에서 들려옵니다...]]></entry>
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[하수구에 들어가봅니다.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[당신은 하수구에 들어갔습니다...]]></entry>
+  <!-- Trinkets -->  
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
   </language>
+  
 </root>
 
