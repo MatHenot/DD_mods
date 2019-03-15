@@ -49,11 +49,12 @@
   <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
   <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
   <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
   <language id="french">
@@ -105,11 +106,12 @@
   <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Entremêlement de Queues]]></entry>
   <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[Coeur du Roi]]></entry>
   <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Griffe Royale]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Têtes de Vermine]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Pieu à Rongeur]]></entry>
   <entry id="str_inventory_set_title_rat_set"><![CDATA["La vermine prolifère rapidement..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[Quand monstre tué : Autres héros : 0 à 2 DGT]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Compétence alliée : {colour_start|stun}Étourdissement{colour_end} {colour_start|skill_unselectable}(base : 130%%){colour_end}]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[Quand monstre tué : Pas de cadavre]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
    </language>
    
   <language id="spanish">
@@ -161,11 +163,12 @@
   <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
   <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
   <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
   <language id="german">
@@ -217,11 +220,12 @@
   <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
   <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
   <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
   <language id="brazilian">
@@ -273,11 +277,12 @@
   <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
   <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
   <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
   <language id="russian">
@@ -329,11 +334,12 @@
   <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
   <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
   <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
   <language id="polish">
@@ -385,11 +391,12 @@
   <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
   <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
   <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
   <language id="czech">
@@ -441,11 +448,12 @@
   <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
   <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
   <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
   <language id="italian">
@@ -497,11 +505,12 @@
   <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
   <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
   <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
   <language id="schinese">
@@ -553,11 +562,12 @@
   <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
   <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
   <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
  <language id="tchinese">
@@ -609,11 +619,12 @@
   <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
   <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
   <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
   <language id="koreana">
@@ -665,11 +676,12 @@
   <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
   <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
   <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
   <language id="koreanb">
@@ -721,11 +733,12 @@
   <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
   <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
   <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Vermine Heads]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
 </root>

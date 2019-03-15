@@ -4,7 +4,7 @@
         {
             "id": "rats",
             "award_category": "battle",
-			"insert_before": "very_rare"
+			"insert_before": "courtier"
         }
    ]
 }
