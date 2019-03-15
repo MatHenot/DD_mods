@@ -1186,19 +1186,19 @@
 				"string": ""
 			}
 		},
-      {
-         "id" : "SC_T_fabric_strap_StressHeal",
-         "stat_type" : "stress_heal_percent",
-         "stat_sub_type" : "",
-         "amount" : -0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
+        {
+			"id" : "SC_T_fabric_strap_StressHeal",
+			"stat_type" : "stress_heal_percent",
+			"stat_sub_type" : "",
+			"amount" : -0.20,
+			"remove_if_not_active" : false,
+			"rule_type" : "always",
+			"is_false_rule" : false,
+			"rule_data" : {
             "float" : 0,
             "string" : ""
-         }
-      },
+			}
+		},
 
 		{
 			"id": "SC_T_reptilian_plates_ToolTip",
