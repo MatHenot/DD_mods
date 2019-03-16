@@ -261,6 +261,6 @@ scripts/rats_raid_visuals.json 638
 trinkets/rats.entries.trinkets.json 2102
 trinkets/rats.rarities.trinkets.json 154
 trinkets/rats.sets.trinkets.json 165
-modfiles.txt 1190
-preview_icon.png 502613
+modfiles.txt 14864
+preview_icon.png 499279
 project.xml 581
