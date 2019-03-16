@@ -53,7 +53,7 @@
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
   <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
@@ -110,7 +110,7 @@
   <entry id="str_inventory_set_title_rat_set"><![CDATA["La vermine prolifère rapidement..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[Quand monstre tué : Autres héros : 0 à 2 DGT]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Compétence alliée : {colour_start|stun}Étourdissement{colour_end} {colour_start|skill_unselectable}(base : 130%%){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[Quand monstre tué : Pas de cadavre]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[Rangs ciblés uniquement :]]></entry>
   <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
    </language>
    
@@ -167,7 +167,7 @@
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
   <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
@@ -224,7 +224,7 @@
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
   <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
@@ -281,7 +281,7 @@
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
   <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
@@ -338,7 +338,7 @@
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
   <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
@@ -395,7 +395,7 @@
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
   <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
@@ -452,7 +452,7 @@
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
   <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
@@ -509,7 +509,7 @@
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
   <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
@@ -566,7 +566,7 @@
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
   <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
@@ -623,7 +623,7 @@
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
   <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
@@ -680,7 +680,7 @@
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
   <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   
@@ -737,7 +737,7 @@
   <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Monster Kill: No Corpse Left]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
   <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
   </language>
   

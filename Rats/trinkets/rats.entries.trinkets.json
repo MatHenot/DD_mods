@@ -74,7 +74,8 @@
          "id" : "rat_king_heads",
          "buffs" : 
          [
- 			"CRIT5"
+ 			"CRIT5",
+			"T_Heads_ToolTip"
          ],
          "hero_class_requirements":
          [
