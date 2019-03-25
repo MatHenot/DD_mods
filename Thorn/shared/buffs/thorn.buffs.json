@@ -2,10 +2,10 @@
    "buffs":
    [
 	  {
-         "id" : "Offensive Defense 1",
+         "id" : "Offensive Speed",
          "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.05,
+         "stat_sub_type" : "speed_rating",
+         "amount" : 5,
          "duration_type" : "combat_end",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -16,11 +16,11 @@
             "string" : "offensive"
          }
       },		 
-	  {
-         "id" : "Offensive Defense 2",
+ 	  {
+         "id" : "Gash Speed",
          "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.05,
+         "stat_sub_type" : "speed_rating",
+         "amount" : 5,
          "duration_type" : "combat_end",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -28,14 +28,14 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
+            "string" : "gash"
          }
-      },		 
+      },
 	  {
-         "id" : "Offensive Defense 3",
+         "id" : "Dare Speed",
          "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.07,
+         "stat_sub_type" : "speed_rating",
+         "amount" : 5,
          "duration_type" : "combat_end",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -43,42 +43,12 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
+            "string" : "dare"
          }
-      },		 
+      },
+
 	  {
-         "id" : "Offensive Defense 4",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.07,
-         "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },		 
-	  {
-         "id" : "Offensive Defense 5",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.1,
-         "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },		 
- 
-	  {
-         "id" : "exit_riposte",
+         "id" : "exit_riposte_offensive",
          "stat_type" : "riposte",
          "stat_sub_type" : "Hit switch to Defensive",
          "amount" : 1,
@@ -93,9 +63,41 @@
             "string" : "offensive"
          }
       },
-
+	  {
+         "id" : "exit_riposte_gash",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "Hit switch to Defensive",
+         "amount" : 1,
+         "duration_type" : "before_turn",
+         "duration" : 1,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "gash"
+         }
+      },
+	  {
+         "id" : "exit_riposte_dare",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "Hit switch to Defensive",
+         "amount" : 1,
+         "duration_type" : "before_turn",
+         "duration" : 1,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "dare"
+         }
+      },
+	  
       {
-         "id" : "Thrust Random",
+         "id" : "Random Attack",
          "stat_type" : "random_target_attack_chance",
          "stat_sub_type" : "",
          "amount" : 0.5,
@@ -404,307 +406,262 @@
 	  },
 	  
 	  {
-         "id" : "Gash Dodge",
+         "id" : "Gash Dodge 1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.05,
-         "duration" : 3,
+         "duration" : 2,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
+            "string" : "gash"
          }
 	  },
 	  {
-         "id" : "Gash Speed 1",
+         "id" : "Gash Dodge 2",
          "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 3,
-		 "duration" : 3,
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.08,
+         "duration" : 2,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
+            "string" : "gash"
          }
-      },
+	  },
 	  {
-         "id" : "Gash Speed 2",
+         "id" : "Gash Dodge 3",
          "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 4,
-		 "duration" : 3,
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.10,
+         "duration" : 2,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
+            "string" : "gash"
          }
-      },
-	  {
-         "id" : "Gash Speed 3",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 5,
-		 "duration" : 3,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },
-	  {
-         "id" : "Gash Riposte Effect 1",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Gash Riposte Effect 1",
-         "amount" : -1,
-         "duration" : 3,
-         "source" : "bsrc_riposte",
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },
-	  {
-         "id" : "Gash Riposte Effect 2",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Gash Riposte Effect 2",
-         "amount" : -1,
-         "duration" : 3,
-         "source" : "bsrc_riposte",
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      }, 
-	  {
-         "id" : "Gash Riposte Effect 3",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Gash Riposte Effect 3",
-         "amount" : -1,
-         "duration" : 3,
-         "source" : "bsrc_riposte",
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      }, 
-	  {
-         "id" : "Gash Riposte Effect 4",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Gash Riposte Effect 4",
-         "amount" : -1,
-         "duration" : 3,
-         "source" : "bsrc_riposte",
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      }, 
-	  {
-         "id" : "Gash Riposte Effect 5",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Gash Riposte Effect 5",
-         "amount" : -1,
-         "duration" : 3,
-         "source" : "bsrc_riposte",
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      }, 
+	  },
  
 	  {
          "id" : "Dare Dodge",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : -0.10,
-         "duration" : 3,
+         "duration" : 2,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
+            "string" : "dare"
 		 },
 		 "is_clear_debuff_valid": false
 	  },	  
 
 
 	  {
-         "id" : "Scattered Blade Riposte Dmg L",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_low",
-         "amount" : -0.3,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
+         "id" : "Thrust Skill ToolTip A1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensiveA",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-		 },
-		 "is_clear_debuff_valid": false
-	  },		  
+ 		 }
+	  },
 	  {
-         "id" : "Scattered Blade Riposte Dmg H",
-         "stat_type" : "combat_stat_multiply",
-         "stat_sub_type" : "damage_high",
-         "amount" : -0.3,
-         "duration" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "riposte",
+         "id" : "Thrust Skill ToolTip A2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensiveA",
+         "amount" : -1.1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-		 },
-		 "is_clear_debuff_valid": false
-	  },	
+ 		 }
+	  },
 	  {
-         "id" : "Scattered Blade Riposte BaseDMG 1",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Scattered Blade Riposte BaseDMG 1",
-         "amount" : -1,
-         "duration" : 3,
-         "source" : "bsrc_riposte",
+         "id" : "Thrust Skill ToolTip A3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensiveA",
+         "amount" : -1.2,
          "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
-         }
-      },
+            "string" : ""
+ 		 }
+	  },
 	  {
-         "id" : "Scattered Blade Riposte BaseDMG 2",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Scattered Blade Riposte BaseDMG 2",
-         "amount" : -1,
-         "duration" : 3,
-         "source" : "bsrc_riposte",
+         "id" : "Thrust Skill ToolTip A4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensiveA",
+         "amount" : -1.3,
          "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
-         }
-      }, 
+            "string" : ""
+ 		 }
+	  },
 	  {
-         "id" : "Scattered Blade Riposte BaseDMG 3",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Scattered Blade Riposte BaseDMG 3",
-         "amount" : -1,
-         "duration" : 3,
-         "source" : "bsrc_riposte",
+         "id" : "Thrust Skill ToolTip A5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensiveA",
+         "amount" : -1.4,
          "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
-         }
-      }, 
+            "string" : ""
+ 		 }
+	  },
 	  {
-         "id" : "Scattered Blade Riposte BaseDMG 4",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Scattered Blade Riposte BaseDMG 4",
-         "amount" : -1,
-         "duration" : 3,
-         "source" : "bsrc_riposte",
+         "id" : "Thrust Skill ToolTip B1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensiveB",
+         "amount" : -0.9,
          "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
-         }
-      }, 
+            "string" : ""
+ 		 }
+	  },
 	  {
-         "id" : "Scattered Blade Riposte BaseDMG 5",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Scattered Blade Riposte BaseDMG 5",
-         "amount" : -1,
-         "duration" : 3,
-         "source" : "bsrc_riposte",
+         "id" : "Thrust Skill ToolTip B2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensiveB",
+         "amount" : -1.0,
          "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
-         }
-      },
+            "string" : ""
+ 		 }
+	  },
 	  {
-         "id" : "Scattered Blade Riposte RndDMG 25",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Scattered Blade Riposte RndDMG 25",
-         "amount" : -1,
-         "duration" : 3,
-         "source" : "bsrc_riposte",
+         "id" : "Thrust Skill ToolTip B3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensiveB",
+         "amount" : -1.1,
          "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
-         }
-      },
+            "string" : ""
+ 		 }
+	  },
 	  {
-         "id" : "Scattered Blade Riposte RndDMG 50",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Scattered Blade Riposte RndDMG 50",
-         "amount" : -1,
-         "duration" : 3,
-         "source" : "bsrc_riposte",
+         "id" : "Thrust Skill ToolTip B4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensiveB",
+         "amount" : -1.2,
          "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
-         }
-      },
+            "string" : ""
+ 		 }
+	  },
 	  {
-         "id" : "Scattered Blade Riposte RndDMG 75",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Scattered Blade Riposte RndDMG 75",
-         "amount" : -1,
-         "duration" : 3,
-         "source" : "bsrc_riposte",
+         "id" : "Thrust Skill ToolTip B5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensiveB",
+         "amount" : -1.3,
          "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
-         }
-      },
-
+            "string" : ""
+ 		 }
+	  },
 	  {
-         "id" : "Offensive ToolTip",
+         "id" : "Thrust Off ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustOffensive",
+         "amount" : -0.3,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Thrust Off ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustOffensive",
+         "amount" : -0.4,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Thrust Off ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustOffensive",
+         "amount" : -0.5,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Thrust Off ToolTip 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustOffensive",
+         "amount" : -0.6,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Thrust Off ToolTip 5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustOffensive",
+         "amount" : -0.7,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Offensive End ToolTip",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "EndByHit",
          "amount" : -1,
@@ -712,17 +669,18 @@
 		 "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
-         "is_false_rule" : false,
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
+            "string" : "defensive"
  		 },
 		 "is_clear_debuff_valid": false
 	  },
+
 	  {
-         "id" : "Offensive Menu ToolTip",
+         "id" : "Offensive Speed ToolTip",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "EndByHit",
+         "stat_sub_type" : "OffSpeed",
          "amount" : -1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -731,11 +689,39 @@
             "float" : 0,
             "string" : ""
          }
-	  }, 	  
+	  },
+
+	  {
+         "id" : "Offensive Skill End ToolTip A",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "EndByHitA",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Offensive Skill End ToolTip B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "EndByHitB",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  }, 
+
 	  {
          "id" : "Heeder ToolTip",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "Heeder1",
+         "stat_sub_type" : "Heeder",
          "amount" : 1,
          "duration" : 3,
          "remove_if_not_active" : true,
@@ -747,73 +733,148 @@
          }
       },
 	  {
-         "id" : "Gash ToolTip 1",
+         "id" : "Gash Riposte ToolTip 1",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash1",
          "amount" : 1,
-         "duration" : 3,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
+            "string" : "gash"
          }
       },
 	  {
-         "id" : "Gash ToolTip 2",
+         "id" : "Gash Riposte ToolTip 2",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash2",
          "amount" : 1,
-         "duration" : 3,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
+            "string" : "gash"
          }
       },
 	  {
-         "id" : "Gash ToolTip 3",
+         "id" : "Gash Riposte ToolTip 3",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash3",
          "amount" : 1,
-         "duration" : 3,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
+            "string" : "gash"
          }
       },
 	  {
-         "id" : "Gash ToolTip 4",
+         "id" : "Gash Riposte ToolTip 4",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash4",
          "amount" : 1,
-         "duration" : 3,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
+            "string" : "gash"
          }
       },
 	  {
-         "id" : "Gash ToolTip 5",
+         "id" : "Gash Riposte ToolTip 5",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash5",
          "amount" : 1,
-         "duration" : 3,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
+            "string" : "gash"
+         }
+      },
+	  {
+         "id" : "Gash Miss Bleed ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GashMiss1",
+         "amount" : 1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Gash Miss Bleed ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GashMiss2",
+         "amount" : 1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Gash Miss Bleed ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GashMiss3",
+         "amount" : 1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Gash Miss Bleed ToolTip 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GashMiss4",
+         "amount" : 1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Gash Miss Bleed ToolTip 5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GashMiss5",
+         "amount" : 1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
          }
       },
 	  {
@@ -821,7 +882,7 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Scattered1",
          "amount" : 1,
-         "duration" : 3,
+         "duration" : 2,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -835,7 +896,7 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Scattered2",
          "amount" : 1,
-         "duration" : 3,
+         "duration" : 2,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -849,7 +910,7 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Scattered3",
          "amount" : 1,
-         "duration" : 3,
+         "duration" : 2,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -863,7 +924,7 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Scattered4",
          "amount" : 1,
-         "duration" : 3,
+         "duration" : 2,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -877,13 +938,234 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Scattered5",
          "amount" : 1,
-         "duration" : 3,
+         "duration" : 2,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : "offensive"
+         }
+      },
+	  
+	  
+	  
+  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+      {
+         "id" : "Dare Riposte ToolTip DMGL 1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.05,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGH 1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.05,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip crit 1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.06,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGL 2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGH 2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip crit 2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGL 3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGH 3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip crit 3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.08,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGL 4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.2,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGH 4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip crit 4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.09,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGL 5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGH 5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip crit 5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.10,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
          }
       }
    ]

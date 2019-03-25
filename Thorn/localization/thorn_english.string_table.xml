@@ -26,10 +26,16 @@
 	<entry id="str_inventory_title_trinketthorn_cristal_pendant"><![CDATA[Crystal Pendant]]></entry>
 
     <entry id="actor_mode_name_offensive"><![CDATA[Offensive]]></entry>
+    <entry id="actor_mode_name_dare"><![CDATA[Offensive]]></entry>
+    <entry id="actor_mode_name_gash"><![CDATA[Offensive]]></entry>
     <entry id="actor_mode_name_defensive"><![CDATA[Defensive]]></entry>
-    <entry id="str_skill_mode_info_offensive"><![CDATA[Offensive:]]></entry>
-    <entry id="str_skill_mode_info_defensive"><![CDATA[Defensive:]]></entry>
+    <entry id="str_skill_mode_info_offensive"><![CDATA[]]></entry>
+    <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
+    <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
+    <entry id="str_skill_mode_info_defensive"><![CDATA[]]></entry>
 	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Offensive]]></entry>
+	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Offensive]]></entry>
+	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Offensive]]></entry>
     <entry id="buff_rule_data_tooltip_defensive"><![CDATA[Defensive]]></entry>
 	
 	<entry id="combat_skill_name_thorn_offensive_stance"><![CDATA[Offensive Stance]]></entry>
@@ -67,14 +73,31 @@
     <entry id="thorn_armour_4"><![CDATA["The Moulting"]]></entry>
     <entry id="upgrade_tree_name_thorn.armour"><![CDATA[Scarf]]></entry>
 
+	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_OffSpeed"><![CDATA[+5 SPD]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
+	Back to Defensive mode]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[On Miss: {colour_start|move}Knockback{colour_end} 1 {colour_start|skill_unselectable}(%d%% base){colour_end}
 
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[Defensive mode when hit {colour_start|skill_unselectable}(33%%){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_Heeder1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit for 2 rds]]></entry>
+	Defensive:
+	DMG mod: -50%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveB"><![CDATA[{colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}
+	+20%% {colour_start|stun}Stun{colour_end} Skill Chance vs {colour_start|mark}Marked{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[
+	Offensive:
+	+%d%% DMG vs {colour_start|mark}Marked{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Heeder"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GashMiss1"><![CDATA[On Miss : {colour_start|bleed}Bleed{colour_end} Other Enemies {colour_start|skill_unselectable}(100%% base){colour_end} 1pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GashMiss2"><![CDATA[On Miss : {colour_start|bleed}Bleed{colour_end} Other Enemies {colour_start|skill_unselectable}(110%% base){colour_end} 1pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GashMiss3"><![CDATA[On Miss : {colour_start|bleed}Bleed{colour_end} Other Enemies {colour_start|skill_unselectable}(120%% base){colour_end} 2pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GashMiss4"><![CDATA[On Miss : {colour_start|bleed}Bleed{colour_end} Other Enemies {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GashMiss5"><![CDATA[On Miss : {colour_start|bleed}Bleed{colour_end} Other Enemies {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Scattered1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 0 to 3 DMG to other enemies]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Scattered2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 1 to 4 DMG to other enemies]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Scattered3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 2 to 5 DMG to other enemies]]></entry>

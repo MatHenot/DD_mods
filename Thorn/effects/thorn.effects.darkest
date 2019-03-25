@@ -1,14 +1,29 @@
-//thorn SKILL EFFECTS
+//--------------------COMMON EFFECTS--------------------
+
+effect: .name "Thorn Mark" .target "target" .curio_result_type "positive" .chance 100% .tag 1 .duration 3 .on_hit true .on_miss false
+
+//effect: .name "Random Attack"  .target "performer" .buff_ids "Random Attack" .on_hit true .on_miss true .skill_instant true .has_description false
+
+effect: .name "PRE vs Marked 1".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.05 .on_hit true .on_miss false
+effect: .name "PRE vs Marked 2".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.10 .on_hit true .on_miss false
+effect: .name "PRE vs Marked 3".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.15 .on_hit true .on_miss false
+effect: .name "PRE vs Marked 4".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.20 .on_hit true .on_miss false
+effect: .name "PRE vs Marked 5".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.25 .on_hit true .on_miss false
+
+effect: .name "Hidden switch to Offensive" .target "performer" .set_mode offensive .chance 100% .on_hit true .on_miss true .has_description false
 
 
-//----------DEFENSIVE----------
+//--------------------TRANSFORMATION--------------------
 
 
 //Transform -- Defensive to Offensive Effects
 
 effect: .name "switch to Offensive" .target "performer" .set_mode offensive .chance 100% .on_hit true .on_miss true
 
-effect: .name "Offensive Self Mark" .target "performer" .tag 1 .duration 3 .clearguarding 1 cleanguarded 1 .on_hit true .on_miss true
+effect: .name "Offensive Speed" .target "performer" .buff_ids "Offensive Speed" .on_hit true .on_miss true .has_description false
+effect: .name "Offensive Speed ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Offensive Speed ToolTip" .on_hit false .on_miss true
+
+effect: .name "Offensive Unguard" .target "performer" .clearguarding 1 cleanguarded 1 .chance 100% .on_hit true .on_miss true .has_description false
 
 effect: .name "Offensive Riposte 1" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -30% .damage_high_multiply -30% .attack_rating_add 5%  .apply_once true .queue true
 effect: .name "Offensive Riposte 2" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -25% .damage_high_multiply -25% .attack_rating_add 10% .apply_once true .queue true
@@ -16,57 +31,89 @@ effect: .name "Offensive Riposte 3" .target "performer" .chance 100% .riposte 1 
 effect: .name "Offensive Riposte 4" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -15% .damage_high_multiply -15% .attack_rating_add 20% .apply_once true .queue true
 effect: .name "Offensive Riposte 5" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -10% .damage_high_multiply -10% .attack_rating_add 25% .apply_once true .queue true
 
-effect: .name "Offensive Buff 1" .target "performer" .buff_ids "Offensive Defense 1" .on_hit true .on_miss true
-effect: .name "Offensive Buff 2" .target "performer" .buff_ids "Offensive Defense 2" .on_hit true .on_miss true
-effect: .name "Offensive Buff 3" .target "performer" .buff_ids "Offensive Defense 3" .on_hit true .on_miss true
-effect: .name "Offensive Buff 4" .target "performer" .buff_ids "Offensive Defense 4" .on_hit true .on_miss true
-effect: .name "Offensive Buff 5" .target "performer" .buff_ids "Offensive Defense 5" .on_hit true .on_miss true
+effect: .name "Offensive Skill End ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Offensive Skill End ToolTip A" "Offensive Skill End ToolTip B" .on_hit false .on_miss true
+effect: .name "Offensive End ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .clear_riposte 1 .buff_ids "Offensive End ToolTip" .on_hit true .on_miss true .has_description false
 
-effect: .name "Offensive Menu ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Offensive Menu ToolTip" .on_hit false .on_miss true
-effect: .name "Offensive ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .clear_riposte 1 .buff_ids "Offensive ToolTip" .on_hit true .on_miss true .has_description false
+//Transform -- Offensive to Defensive Effects
+
+effect: .name "switch to Defensive" .target "performer" .set_mode defensive .untag 1 .clear_riposte 1 .on_hit true .on_miss true
+effect: .name "thorn Add turn" .target "performer" .curio_result_type "positive" .chance 100% .initiative_change 1 .on_hit true .on_miss true .queue true
 
 
 //Transformation end by hit
 
-effect: .name "thorn hit received" .target "performer" .chance 33% .buff_ids "exit_riposte" .on_hit true .on_miss true .apply_once true
+effect: .name "thorn hit received" .target "performer" .chance 33% .buff_ids "exit_riposte_offensive" "exit_riposte_gash" "exit_riposte_dare" .on_hit true .on_miss true .apply_once true
+effect: .name "Hit switch to Defensive" .target "performer" .set_mode defensive .untag 1 .clear_riposte 1 .stress 7 .on_hit true .on_miss true .queue true
+
+
+
+//--------------------BOTH MODES--------------------
 
 
 //Thrust
 
-effect: .name "Thrust Random"  .target "performer" .buff_ids "Thrust Random" .on_hit true .on_miss true .skill_instant true
+effect: .name "Thrust Off 1".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 30% .damage_high_multiply 30% .on_hit true .on_miss false .has_description false
+effect: .name "Thrust Off 2".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 40% .damage_high_multiply 40% .on_hit true .on_miss false .has_description false
+effect: .name "Thrust Off 3".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false .has_description false
+effect: .name "Thrust Off 4".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 60% .damage_high_multiply 60% .on_hit true .on_miss false .has_description false
+effect: .name "Thrust Off 5".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 70% .damage_high_multiply 70% .on_hit true .on_miss false .has_description false
 
-effect: .name "Thrust Marked 1".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.05 .on_hit true .on_miss false
-effect: .name "Thrust Marked 2".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.10 .on_hit true .on_miss false
-effect: .name "Thrust Marked 3".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.15 .on_hit true .on_miss false
-effect: .name "Thrust Marked 4".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.20 .on_hit true .on_miss false
-effect: .name "Thrust Marked 5".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.25 .on_hit true .on_miss false
+effect: .name "Thrust Miss Push 1" .target "target" .curio_result_type "positive" .chance 100% .push 1 .on_hit false .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Thrust Miss Push 2" .target "target" .curio_result_type "positive" .chance 110% .push 1 .on_hit false .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Thrust Miss Push 3" .target "target" .curio_result_type "positive" .chance 120% .push 1 .on_hit false .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Thrust Miss Push 4" .target "target" .curio_result_type "positive" .chance 130% .push 1 .on_hit false .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Thrust Miss Push 5" .target "target" .curio_result_type "positive" .chance 140% .push 1 .on_hit false .on_miss true .can_apply_on_death true .has_description false
 
-effect: .name "Thrust Offensive 1".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50%  .damage_high_multiply 50%  .on_hit true .on_miss false
-effect: .name "Thrust Offensive 2".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 60%  .damage_high_multiply 60%  .on_hit true .on_miss false
-effect: .name "Thrust Offensive 3".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 70%  .damage_high_multiply 70%  .on_hit true .on_miss false
-effect: .name "Thrust Offensive 4".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 80%  .damage_high_multiply 80%  .on_hit true .on_miss false
-effect: .name "Thrust Offensive 5".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 100% .damage_high_multiply 100% .on_hit true .on_miss false
+effect: .name "Thrust Def StunVsMark".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .buff_type stun_chance .buff_amount 0.2 .on_hit true .on_miss false .has_description false
 
-effect: .name "Thrust Defensive StunVsMarked".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .buff_type stun_chance .buff_amount 0.2 .on_hit true .on_miss false
+effect: .name "Thrust Def".target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Defensive Dmg L" "Thrust Defensive Dmg H" .on_hit true .on_miss false .skill_instant true .has_description false
 
-effect: .name "Thrust Defensive".target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Defensive Dmg L" "Thrust Defensive Dmg H" .on_hit true .on_miss false .skill_instant true
+effect: .name "Thrust Def Stun 1" .target "target" .curio_result_type "negative" .chance 90%  .stun 1	.on_hit true .on_miss false .queue true .has_description false
+effect: .name "Thrust Def Stun 2" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true .has_description false
+effect: .name "Thrust Def Stun 3" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true .has_description false
+effect: .name "Thrust Def Stun 4" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true .has_description false
+effect: .name "Thrust Def Stun 5" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true .has_description false
 
-effect: .name "Thrust Defensive Stun 1" .target "target" .curio_result_type "negative" .chance 90%  .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Thrust Defensive Stun 2" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Thrust Defensive Stun 3" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Thrust Defensive Stun 4" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
-effect: .name "Thrust Defensive Stun 5" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Thrust Skill ToolTip A1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Skill ToolTip A1" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip A2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Skill ToolTip A2" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip A3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Skill ToolTip A3" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip A4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Skill ToolTip A4" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip A5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Skill ToolTip A5" .skill_instant true .on_hit false .on_miss true
+
+effect: .name "Thrust Skill ToolTip B1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Skill ToolTip B1" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip B2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Skill ToolTip B2" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip B3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Skill ToolTip B3" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip B4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Skill ToolTip B4" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip B5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Skill ToolTip B5" .skill_instant true .on_hit false .on_miss true
+
+effect: .name "Thrust Off ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Off ToolTip 1" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Off ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Off ToolTip 2" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Off ToolTip 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Off ToolTip 3" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Off ToolTip 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Off ToolTip 4" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Off ToolTip 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Off ToolTip 5" .skill_instant true .on_hit false .on_miss true
+
+
+//Scattered Blade
+
+
+
+
+//--------------------DEFENSIVE--------------------
 
 
 //Hearken
-
-effect: .name "Hearken Mark".target "target" .curio_result_type "positive" .chance 100% .tag 1 .duration 3 .on_hit true .on_miss false
 
 effect: .name "Hearken Debuff 1" .target "target_group" .curio_result_type "negative" .chance 90%  .buff_ids "Hearken Debuff PRE 1" "Hearken Debuff DmgH 1" "Hearken Debuff DmgL 1" .on_hit true .on_miss true .individual_target_actor_rolls true
 effect: .name "Hearken Debuff 2" .target "target_group" .curio_result_type "negative" .chance 100% .buff_ids "Hearken Debuff PRE 2" "Hearken Debuff DmgH 2" "Hearken Debuff DmgL 2" .on_hit true .on_miss true .individual_target_actor_rolls true
 effect: .name "Hearken Debuff 3" .target "target_group" .curio_result_type "negative" .chance 110% .buff_ids "Hearken Debuff PRE 3" "Hearken Debuff DmgH 3" "Hearken Debuff DmgL 3" .on_hit true .on_miss true .individual_target_actor_rolls true
 effect: .name "Hearken Debuff 4" .target "target_group" .curio_result_type "negative" .chance 120% .buff_ids "Hearken Debuff PRE 4" "Hearken Debuff DmgH 4" "Hearken Debuff DmgL 4" .on_hit true .on_miss true .individual_target_actor_rolls true
 effect: .name "Hearken Debuff 5" .target "target_group" .curio_result_type "negative" .chance 130% .buff_ids "Hearken Debuff PRE 5" "Hearken Debuff DmgH 5" "Hearken Debuff DmgL 5" .on_hit true .on_miss true .individual_target_actor_rolls true
+
+effect: .name "Hearken StressHeal 1" .target "performer" .curio_result_type "positive" .chance 100% .healstress 4 .on_hit true .on_miss true
+effect: .name "Hearken StressHeal 2" .target "performer" .curio_result_type "positive" .chance 100% .healstress 4 .on_hit true .on_miss true
+effect: .name "Hearken StressHeal 3" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5 .on_hit true .on_miss true
+effect: .name "Hearken StressHeal 4" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5 .on_hit true .on_miss true
+effect: .name "Hearken StressHeal 5" .target "performer" .curio_result_type "positive" .chance 100% .healstress 6 .on_hit true .on_miss true
 
 
 //Heeder
@@ -75,15 +122,13 @@ effect: .name "Heeder Guard" .target "target" .chance 100% .guard 1 .duration 3 
 
 effect: .name "Heeder Riposte Clear" .target "performer" .curio_result_type "positive" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false
 
-effect: .name "Heeder Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -35% .damage_low_multiply -500% .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect" .on_hit true .on_miss true .apply_once true .queue true
-effect: .name "Heeder Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -25% .damage_low_multiply -500% .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect" .on_hit true .on_miss true .apply_once true .queue true
-effect: .name "Heeder Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -15% .damage_low_multiply -500% .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect" .on_hit true .on_miss true .apply_once true .queue true
-effect: .name "Heeder Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -5%  .damage_low_multiply -500% .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect" .on_hit true .on_miss true .apply_once true .queue true
-effect: .name "Heeder Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add +5%  .damage_low_multiply -500% .damage_high_multiply -500% .riposte_effect "Heeder Riposte Effect" .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Heeder Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -35% .damage_low_multiply -500% .damage_high_multiply -500% .riposte_effect "Thorn Mark" .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Heeder Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -25% .damage_low_multiply -500% .damage_high_multiply -500% .riposte_effect "Thorn Mark" .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Heeder Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -15% .damage_low_multiply -500% .damage_high_multiply -500% .riposte_effect "Thorn Mark" .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Heeder Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -5%  .damage_low_multiply -500% .damage_high_multiply -500% .riposte_effect "Thorn Mark" .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Heeder Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add +5%  .damage_low_multiply -500% .damage_high_multiply -500% .riposte_effect "Thorn Mark" .on_hit true .on_miss true .apply_once true .queue true
 
-effect: .name "Heeder Riposte Crit" .target "performer" .curio_result_type "positive" .chance -100% .riposte 1 .duration 3 .crit_chance_add -100% .on_hit true .on_miss true .queue true .has_description false
-
-effect: .name "Heeder Riposte Effect" .target "target" .curio_result_type "negative" .chance 100% .tag 1 .duration 2 .on_hit true .on_miss false
+effect: .name "Heeder Riposte Crit" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .crit_chance_add -100% .on_hit true .on_miss true .queue true .has_description false
 
 effect: .name "Heeder Buff 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 1" .on_hit true .on_miss true
 effect: .name "Heeder Buff 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 2" .on_hit true .on_miss true
@@ -94,23 +139,19 @@ effect: .name "Heeder Buff 5" .target "performer" .curio_result_type "positive" 
 effect: .name "Heeder ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder ToolTip" .on_hit true .on_miss true
 
 
-//----------OFFENSIVE----------
 
-
-//Transform -- Offensive to Defensive Effects
-
-effect: .name "Hit switch to Defensive" .target "performer" .set_mode defensive .untag 1 .clear_riposte 1 .stress 7 .on_hit true .on_miss true .queue true
-effect: .name "switch to Defensive" .target "performer" .set_mode defensive .untag 1 .clear_riposte 1 .on_hit true .on_miss true
-effect: .name "thorn Add turn" .target "performer" .curio_result_type "positive" .chance 100% .initiative_change 1 .on_hit true .on_miss true .queue true
+//--------------------OFFENSIVE--------------------
 
 
 //Gash
 
-effect: .name "Gash Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge" "Gash Speed 1" "Gash Riposte Effect 1" .on_hit true .on_miss true
-effect: .name "Gash Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge" "Gash Speed 1" "Gash Riposte Effect 2" .on_hit true .on_miss true
-effect: .name "Gash Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge" "Gash Speed 2" "Gash Riposte Effect 3" .on_hit true .on_miss true
-effect: .name "Gash Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge" "Gash Speed 2" "Gash Riposte Effect 4" .on_hit true .on_miss true
-effect: .name "Gash Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge" "Gash Speed 3" "Gash Riposte Effect 5" .on_hit true .on_miss true
+effect: .name "switch to Gash" .target "performer" .set_mode gash .buff_ids "Gash Speed" .chance 100% .on_hit true .on_miss true .has_description false
+
+effect: .name "Gash Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Effect 1" .on_hit true .on_miss true .has_description false
+effect: .name "Gash Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Effect 2" .on_hit true .on_miss true .has_description false
+effect: .name "Gash Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Effect 3" .on_hit true .on_miss true .has_description false
+effect: .name "Gash Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Effect 4" .on_hit true .on_miss true .has_description false
+effect: .name "Gash Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Effect 5" .on_hit true .on_miss true .has_description false
 
 effect: .name "Gash Riposte Effect 1" .target "target" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 100% .on_hit true .on_miss false
 effect: .name "Gash Riposte Effect 2" .target "target" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 110% .on_hit true .on_miss false
@@ -118,61 +159,47 @@ effect: .name "Gash Riposte Effect 3" .target "target" .curio_result_type "negat
 effect: .name "Gash Riposte Effect 4" .target "target" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 130% .on_hit true .on_miss false
 effect: .name "Gash Riposte Effect 5" .target "target" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .on_hit true .on_miss false
 
-effect: .name "Gash ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash ToolTip 1" .on_hit true .on_miss true
-effect: .name "Gash ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash ToolTip 2" .on_hit true .on_miss true
-effect: .name "Gash ToolTip 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash ToolTip 3" .on_hit true .on_miss true
-effect: .name "Gash ToolTip 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash ToolTip 4" .on_hit true .on_miss true
-effect: .name "Gash ToolTip 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash ToolTip 5" .on_hit true .on_miss true
+effect: .name "Gash Dodge 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge 1" .on_hit true .on_miss true
+effect: .name "Gash Dodge 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge 2" .on_hit true .on_miss true
+effect: .name "Gash Dodge 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge 3" .on_hit true .on_miss true
+
+effect: .name "Gash Riposte ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Riposte ToolTip 1" .buff_source_type bsrc_riposte .on_hit true .on_miss true
+effect: .name "Gash Riposte ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Riposte ToolTip 2" .buff_source_type bsrc_riposte .on_hit true .on_miss true
+effect: .name "Gash Riposte ToolTip 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Riposte ToolTip 3" .buff_source_type bsrc_riposte .on_hit true .on_miss true
+effect: .name "Gash Riposte ToolTip 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Riposte ToolTip 4" .buff_source_type bsrc_riposte .on_hit true .on_miss true
+effect: .name "Gash Riposte ToolTip 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Riposte ToolTip 5" .buff_source_type bsrc_riposte .on_hit true .on_miss true
+
+effect: .name "Gash Miss Bleed 1" .target "target_group_other" .curio_result_type "negative" .dotBleed 1 .duration 3 .chance 100% .on_hit false .on_miss true .has_description false
+effect: .name "Gash Miss Bleed 2" .target "target_group_other" .curio_result_type "negative" .dotBleed 1 .duration 3 .chance 110% .on_hit false .on_miss true .has_description false
+effect: .name "Gash Miss Bleed 3" .target "target_group_other" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 120% .on_hit false .on_miss true .has_description false
+effect: .name "Gash Miss Bleed 4" .target "target_group_other" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 130% .on_hit false .on_miss true .has_description false
+effect: .name "Gash Miss Bleed 5" .target "target_group_other" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 140% .on_hit false .on_miss true .has_description false
+
+effect: .name "Gash Miss Bleed ToolTip 1" .target "performer" .curio_result_type "positive" .buff_ids "Gash Miss Bleed ToolTip 1" .skill_instant true .on_hit false .on_miss true
+effect: .name "Gash Miss Bleed ToolTip 2" .target "performer" .curio_result_type "positive" .buff_ids "Gash Miss Bleed ToolTip 2" .skill_instant true .on_hit false .on_miss true
+effect: .name "Gash Miss Bleed ToolTip 3" .target "performer" .curio_result_type "positive" .buff_ids "Gash Miss Bleed ToolTip 3" .skill_instant true .on_hit false .on_miss true
+effect: .name "Gash Miss Bleed ToolTip 4" .target "performer" .curio_result_type "positive" .buff_ids "Gash Miss Bleed ToolTip 4" .skill_instant true .on_hit false .on_miss true
+effect: .name "Gash Miss Bleed ToolTip 5" .target "performer" .curio_result_type "positive" .buff_ids "Gash Miss Bleed ToolTip 5" .skill_instant true .on_hit false .on_miss true
 
 
 //Dare
 
-effect: .name "Dare Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 5%  .damage_high_multiply 5%  .crit_chance_add 6%  .on_hit true .on_miss true
-effect: .name "Dare Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 10% .damage_high_multiply 10% .crit_chance_add 7%  .on_hit true .on_miss true 
-effect: .name "Dare Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 15% .damage_high_multiply 15% .crit_chance_add 8%  .on_hit true .on_miss true 
-effect: .name "Dare Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 20% .damage_high_multiply 20% .crit_chance_add 9%  .on_hit true .on_miss true 
-effect: .name "Dare Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply 25% .damage_high_multiply 25% .crit_chance_add 10% .on_hit true .on_miss true 
+effect: .name "switch to Dare" .target "performer" .set_mode dare .chance 100% .buff_ids "Dare Speed" .on_hit true .on_miss true .has_description false
 
-effect: .name "Dare Buffs 1"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Dodge" .on_hit true .on_miss true
-effect: .name "Dare Buffs 2"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Dodge" .on_hit true .on_miss true
-effect: .name "Dare Buffs 3"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Dodge" .on_hit true .on_miss true
-effect: .name "Dare Buffs 4"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Dodge" .on_hit true .on_miss true
-effect: .name "Dare Buffs 5"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Dodge" .on_hit true .on_miss true
+effect: .name "Dare Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 5%  .damage_high_multiply 5%  .crit_chance_add 6%  .on_hit true .on_miss true .has_description false
+effect: .name "Dare Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 10% .damage_high_multiply 10% .crit_chance_add 7%  .on_hit true .on_miss true .has_description false 
+effect: .name "Dare Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 15% .damage_high_multiply 15% .crit_chance_add 8%  .on_hit true .on_miss true .has_description false
+effect: .name "Dare Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 20% .damage_high_multiply 20% .crit_chance_add 9%  .on_hit true .on_miss true .has_description false
+effect: .name "Dare Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 25% .damage_high_multiply 25% .crit_chance_add 10% .on_hit true .on_miss true .has_description false
+
+effect: .name "Dare Riposte ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 1" "Dare Riposte ToolTip DMGH 1" "Dare Riposte ToolTip crit 1" .on_hit false .on_miss true
+effect: .name "Dare Riposte ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 2" "Dare Riposte ToolTip DMGH 2" "Dare Riposte ToolTip crit 2" .on_hit false .on_miss true
+effect: .name "Dare Riposte ToolTip 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 3" "Dare Riposte ToolTip DMGH 3" "Dare Riposte ToolTip crit 3" .on_hit false .on_miss true
+effect: .name "Dare Riposte ToolTip 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 4" "Dare Riposte ToolTip DMGH 4" "Dare Riposte ToolTip crit 4" .on_hit false .on_miss true
+effect: .name "Dare Riposte ToolTip 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 5" "Dare Riposte ToolTip DMGH 5" "Dare Riposte ToolTip crit 5" .on_hit false .on_miss true
+
+effect: .name "Dare Dodge"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Dodge" .on_hit true .on_miss true
 
 effect: .name "Dare Self Mark" .target "performer" .tag 1 .duration 2 .on_hit true .on_miss true
 
 effect: .name "Dare Mark Clean" .target "performer_group_other" .untag 1 .on_hit true .on_miss true
-
-//Scattered Blade
-
-effect: .name "Scattered Blade Riposte" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .damage_low_multiply -20% .damage_high_multiply -20% .on_hit true .on_miss true
-
-effect: .name "Scattered Blade Buffs 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scattered Blade Riposte BaseDMG 1" "Scattered Blade Riposte RndDMG 25" "Scattered Blade Riposte RndDMG 50" "Scattered Blade Riposte RndDMG 75" .on_hit true .on_miss true
-effect: .name "Scattered Blade Buffs 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scattered Blade Riposte BaseDMG 2" "Scattered Blade Riposte RndDMG 25" "Scattered Blade Riposte RndDMG 50" "Scattered Blade Riposte RndDMG 75" .on_hit true .on_miss true
-effect: .name "Scattered Blade Buffs 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scattered Blade Riposte BaseDMG 3" "Scattered Blade Riposte RndDMG 25" "Scattered Blade Riposte RndDMG 50" "Scattered Blade Riposte RndDMG 75" .on_hit true .on_miss true
-effect: .name "Scattered Blade Buffs 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scattered Blade Riposte BaseDMG 4" "Scattered Blade Riposte RndDMG 25" "Scattered Blade Riposte RndDMG 50" "Scattered Blade Riposte RndDMG 75" .on_hit true .on_miss true
-effect: .name "Scattered Blade Buffs 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scattered Blade Riposte BaseDMG 5" "Scattered Blade Riposte RndDMG 25" "Scattered Blade Riposte RndDMG 50" "Scattered Blade Riposte RndDMG 75" .on_hit true .on_miss true
-
-effect: .name "Scattered Blade Riposte BaseDMG 1" .target "target_group_other" .curio_result_type "positive" .health_damage 0 .chance 100% .on_hit true .on_miss false .queue true
-effect: .name "Scattered Blade Riposte BaseDMG 2" .target "target_group_other" .curio_result_type "positive" .health_damage 1 .chance 100% .on_hit true .on_miss false .queue true
-effect: .name "Scattered Blade Riposte BaseDMG 3" .target "target_group_other" .curio_result_type "positive" .health_damage 2 .chance 100% .on_hit true .on_miss false .queue true
-effect: .name "Scattered Blade Riposte BaseDMG 4" .target "target_group_other" .curio_result_type "positive" .health_damage 3 .chance 100% .on_hit true .on_miss false .queue true
-effect: .name "Scattered Blade Riposte BaseDMG 5" .target "target_group_other" .curio_result_type "positive" .health_damage 4 .chance 100% .on_hit true .on_miss false .queue true
-
-effect: .name "Scattered Blade Riposte RndDMG 25" .target "target_group_other" .curio_result_type "positive" .health_damage 1 .chance 25% .on_hit true .on_miss false .individual_target_actor_rolls true .queue true
-effect: .name "Scattered Blade Riposte RndDMG 50" .target "target_group_other" .curio_result_type "positive" .health_damage 1 .chance 50% .on_hit true .on_miss false .individual_target_actor_rolls true .queue true
-effect: .name "Scattered Blade Riposte RndDMG 75" .target "target_group_other" .curio_result_type "positive" .health_damage 1 .chance 75% .on_hit true .on_miss false .individual_target_actor_rolls true .queue true
-
-effect: .name "Scattered Blade ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scattered Blade ToolTip 1" .on_hit true .on_miss true
-effect: .name "Scattered Blade ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scattered Blade ToolTip 2" .on_hit true .on_miss true
-effect: .name "Scattered Blade ToolTip 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scattered Blade ToolTip 3" .on_hit true .on_miss true
-effect: .name "Scattered Blade ToolTip 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scattered Blade ToolTip 4" .on_hit true .on_miss true
-effect: .name "Scattered Blade ToolTip 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Scattered Blade ToolTip 5" .on_hit true .on_miss true
-
-effect: .name "Scattered Blade StressHeal 1" .target "performer" .curio_result_type "positive" .chance 100% .healstress 4 .on_hit true .on_miss true
-effect: .name "Scattered Blade StressHeal 2" .target "performer" .curio_result_type "positive" .chance 100% .healstress 4 .on_hit true .on_miss true
-effect: .name "Scattered Blade StressHeal 3" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5 .on_hit true .on_miss true
-effect: .name "Scattered Blade StressHeal 4" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5 .on_hit true .on_miss true
-effect: .name "Scattered Blade StressHeal 5" .target "performer" .curio_result_type "positive" .chance 100% .healstress 6 .on_hit true .on_miss true
-
-//.has_description false
