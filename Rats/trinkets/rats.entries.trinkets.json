@@ -52,8 +52,7 @@
          [
  			"TRINKET_SPD_B2",
 			"ACC5",
-			"DMGL10",
-			"DMGH10",
+			"DEF10",
 			"T_Claw_ToolTip"
          ],
          "hero_class_requirements":
@@ -74,7 +73,7 @@
          "id" : "rat_king_heads",
          "buffs" : 
          [
- 			"CRIT5",
+ 			"CRIT8",
 			"T_Heads_ToolTip"
          ],
          "hero_class_requirements":
