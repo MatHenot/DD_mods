@@ -235,7 +235,7 @@ fx/rat_reinforcement/rat_reinforcement.sprite.atlas 842
 fx/rat_reinforcement/rat_reinforcement.sprite.png 211364
 fx/rat_reinforcement/rat_reinforcement.sprite.skel 3098
 raid/ai/rats.monster_brains.json 18807
-shared/buffs/rats.buffs.json 2638
+shared/buffs/rats.buffs.json 3008
 audio/rats.campaign.guid_overrides.json 7604
 audio/rats.campaign.load_order.json 80
 colours/rats.colours.darkest 52
@@ -258,7 +258,7 @@ localization/1656676055_tchinese.loc 6104
 localization/rats.string_table.xml 57645
 loot/rats.loot.json 937
 scripts/rats_raid_visuals.json 638
-trinkets/rats.entries.trinkets.json 2087
+trinkets/rats.entries.trinkets.json 2092
 trinkets/rats.rarities.trinkets.json 154
 trinkets/rats.sets.trinkets.json 165
 modfiles.txt 14867
