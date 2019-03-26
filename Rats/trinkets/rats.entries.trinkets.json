@@ -52,7 +52,7 @@
          [
  			"TRINKET_SPD_B2",
 			"ACC5",
-			"DEF10",
+			"T_Claw_DEF",
 			"T_Claw_ToolTip"
          ],
          "hero_class_requirements":
