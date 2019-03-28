@@ -35,6 +35,7 @@
 	<entry id="str_inventory_title_trinketsnake_charmer_melody"><![CDATA[Melodía]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_cristal_pendant"><![CDATA[Colgante cristalino]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_head"><![CDATA[Cabeza de Dahomet]]></entry>
+	<entry id="str_inventory_title_trinketsnake_charmer_shinobue"><![CDATA[Shinobue]]></entry>
 	
 	<entry id="combat_skill_name_snake_charmer_venomous_fang"><![CDATA[Colmillos venenosos]]></entry>
     <entry id="combat_skill_name_snake_charmer_mamba_dance"><![CDATA[Danza de la mamba]]></entry>
@@ -84,6 +85,7 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_A"><![CDATA[Añade una {colour_start|notable}acción{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_B"><![CDATA[-20%% a las posibilidades de efecto de habilidad]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_shinobue"><![CDATA[+15%% a las posibilidades de efecto de habilidad]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}Esfuerzo{colour_end} -7 a -9]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_2"><![CDATA[{colour_start|stress}Esfuerzo{colour_end} -8 a -10]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}Esfuerzo{colour_end} -9 a -12]]></entry>

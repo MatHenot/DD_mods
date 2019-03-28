@@ -35,6 +35,7 @@
     <entry id="str_inventory_title_trinketsnake_charmer_melody"><![CDATA[Melodia]]></entry>
     <entry id="str_inventory_title_trinketsnake_charmer_cristal_pendant"><![CDATA[Kryształowy Wisior]]></entry> 
 	<entry id="str_inventory_title_trinketsnake_charmer_head"><![CDATA[Głowa Dahometa]]></entry>
+	<entry id="str_inventory_title_trinketsnake_charmer_shinobue"><![CDATA[Shinobue]]></entry>
     
     <entry id="combat_skill_name_snake_charmer_venomous_fang"><![CDATA[Jadowite Kły]]></entry>
     <entry id="combat_skill_name_snake_charmer_mamba_dance"><![CDATA[Taniec Mamby]]></entry>
@@ -84,6 +85,7 @@
     
     <entry id="buff_stat_tooltip_upgrade_discount_VC_A"><![CDATA[Dodaje jedną {colour_start|notable}akcję{colour_end}]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_VC_B"><![CDATA[-20%% Szanse efektów wszystkich umiejętności]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_shinobue"><![CDATA[+15%% Szanse efektów wszystkich umiejętności]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}Stres{colour_end} -7 do -9]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_CT_2"><![CDATA[{colour_start|stress}Stres{colour_end} -8 do -10]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}Stres{colour_end} -9 do -12]]></entry>

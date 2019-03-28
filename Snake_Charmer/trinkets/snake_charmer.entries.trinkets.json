@@ -172,6 +172,27 @@
          "price" : 15000,
          "limit" : 1,
          "origin_dungeon" : ""
-      }
+      },
+	  
+	  {
+		 "id" : "snake_charmer_shinobue",
+		 "buffs": 
+		 [
+			"DMGL-30",
+			"DMGH-30",
+			"SC_T_shinobue_stressheal"
+		 ],
+		 "hero_class_requirements": [
+			"snake_charmer"
+		 ],
+		 "rarity" : "sakura",
+		 "price" : 30000,
+		 "limit" : 1,
+		 "origin_dungeon" : "ship",
+		 "friendly_skill_additional_effects": [
+			"SC T shinobue Buff",
+			"SC T shinobue ToolTip"
+		]
+	  }
    ]
 }

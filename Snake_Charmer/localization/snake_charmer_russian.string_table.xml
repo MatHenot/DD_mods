@@ -35,6 +35,7 @@
 	<entry id="str_inventory_title_trinketsnake_charmer_melody"><![CDATA[Хулусы]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_cristal_pendant"><![CDATA[Кристальный медальон]]></entry>
 	<entry id="str_inventory_title_trinketsnake_charmer_head"><![CDATA[Голова дагомета]]></entry>
+	<entry id="str_inventory_title_trinketsnake_charmer_shinobue"><![CDATA[Shinobue]]></entry>
 	
 	<entry id="combat_skill_name_snake_charmer_venomous_fang"><![CDATA[Ядовитые клыки]]></entry>
     <entry id="combat_skill_name_snake_charmer_mamba_dance"><![CDATA[Танец Мамбо]]></entry>
@@ -84,6 +85,7 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_A"><![CDATA[Добавляет одно {colour_start|notable}действие{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_B"><![CDATA[-20%% Все эффекты способностей]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_shinobue"><![CDATA[+15%% Все эффекты способностей]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}Стресс{colour_end} -7 до -9]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_2"><![CDATA[{colour_start|stress}Стресс{colour_end} -8 до -10]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_3"><![CDATA[{colour_start|stress}Стресс{colour_end} -9 до -12]]></entry>
