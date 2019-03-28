@@ -225,8 +225,8 @@ panels/icons_equip/trinket/rarity_rats.png 31086
 audio/secondary_banks/enemy_rats.bank 10836128
 dungeons/_shared/rats_sewer.png 1143711
 dungeons/crypts/crypts.props.darkest 1225
-dungeons/crypts/rats.crypts.1.mash.darkest 1330
-dungeons/crypts/rats.crypts.3.mash.darkest 1324
+dungeons/crypts/rats.crypts.1.mash.darkest 2140
+dungeons/crypts/rats.crypts.3.mash.darkest 2132
 dungeons/crypts/rats.crypts.5.mash.darkest 731
 fx/curse2_target/curse2_target.sprite.atlas 558
 fx/curse2_target/curse2_target.sprite.png 212085
