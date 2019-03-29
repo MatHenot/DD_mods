@@ -5,15 +5,15 @@
             "skill_cooldowns": [
 				{
 					"combat_skill_id": "bite",
-                    "amount": 1
+                    "amount": 2
 				},
 				{
 					"combat_skill_id": "anchor",
-                    "amount": 1
+                    "amount": 2
 				},
 				{
 					"combat_skill_id": "net",
-                    "amount": 1
+                    "amount": 2
 				}
 			],
             "skill_selection_desires": [
