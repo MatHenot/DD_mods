@@ -1,0 +1,13 @@
+display: .size 2
+enemy_type: .id "beast"
+stats: .hp 10 .def 0% .prot 0 .spd 2 .stun_resist 0% .poison_resist 0% .bleed_resist 0% .debuff_resist 0% .move_resist 0%
+skill: .id "bite" .type "melee" .atk 100% .dmg 1 1 .crit 5%  .launch 4321 .target 1234
+skill: .id "anchor" .type "melee" .atk 100% .dmg 1 1 .crit 5%  .launch 4321 .target 1234
+skill: .id "net" .type "melee" .atk 100% .dmg 1 1 .crit 5%  .launch 4321 .target 1234
+personality: .prefskill -1
+loot: .code "G" .count 1
+initiative: .number_of_turns_per_round 3
+monster_brain: .id pelagic_shark
+death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True
