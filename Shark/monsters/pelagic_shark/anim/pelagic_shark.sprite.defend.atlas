@@ -1,0 +1,20 @@
+
+pelagic_shark.sprite.defend.png
+size: 845,585
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+defend pose
+  rotate: true
+  xy: 2, 2
+  size: 581, 774
+  orig: 581, 774
+  offset: 0, 0
+  index: -1
+ombre
+  rotate: true
+  xy: 778, 224
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1

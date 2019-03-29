@@ -1,0 +1,20 @@
+
+pelagic_shark.sprite.net.png
+size: 772,643
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+net pose
+  rotate: false
+  xy: 2, 2
+  size: 701, 639
+  orig: 701, 639
+  offset: 0, 0
+  index: -1
+ombre
+  rotate: true
+  xy: 705, 282
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1

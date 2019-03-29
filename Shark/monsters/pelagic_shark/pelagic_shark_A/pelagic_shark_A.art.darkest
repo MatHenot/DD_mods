@@ -1,4 +1,4 @@
 commonfx: .deathfx death_medium
-skill: .id "bite" .anim "bite" .fx "" .targchestfx "blood_splatter"
-skill: .id "anchor" .anim "anchor" .targfx ""
-skill: .id "net" .anim "net" .targfx ""
+skill: .id "bite" .anim "bite" .fx "bite_fx" .targchestfx "blood_splatter"
+skill: .id "anchor" .anim "anchor" .fx "anchor_fx".targfx ""
+skill: .id "net" .anim "net" .fx "net_fx" .targfx ""

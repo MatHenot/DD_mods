@@ -1,0 +1,55 @@
+
+pelagic_shark.sprite.bite_fx.png
+size: 218,153
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bite blood 1
+  rotate: true
+  xy: 121, 52
+  size: 44, 55
+  orig: 44, 55
+  offset: 0, 0
+  index: -1
+bite blood 2
+  rotate: true
+  xy: 178, 15
+  size: 55, 36
+  orig: 55, 36
+  offset: 0, 0
+  index: -1
+bite blood 3
+  rotate: true
+  xy: 64, 30
+  size: 121, 55
+  orig: 121, 55
+  offset: 0, 0
+  index: -1
+bite blood 4
+  rotate: true
+  xy: 2, 13
+  size: 138, 60
+  orig: 138, 60
+  offset: 0, 0
+  index: -1
+bite blood 5
+  rotate: false
+  xy: 64, 2
+  size: 46, 26
+  orig: 46, 26
+  offset: 0, 0
+  index: -1
+bite blood 6
+  rotate: true
+  xy: 180, 72
+  size: 79, 36
+  orig: 79, 36
+  offset: 0, 0
+  index: -1
+bite blood 7
+  rotate: false
+  xy: 121, 98
+  size: 57, 53
+  orig: 57, 53
+  offset: 0, 0
+  index: -1

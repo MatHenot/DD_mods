@@ -1,0 +1,76 @@
+
+pelagic_shark.sprite.combat.png
+size: 1264,670
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Rhand
+  rotate: false
+  xy: 962, 372
+  size: 230, 296
+  orig: 230, 296
+  offset: 0, 0
+  index: -1
+aileron
+  rotate: true
+  xy: 1143, 123
+  size: 184, 119
+  orig: 184, 119
+  offset: 0, 0
+  index: -1
+anchor
+  rotate: false
+  xy: 691, 290
+  size: 269, 378
+  orig: 269, 378
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 2
+  size: 666, 687
+  orig: 666, 687
+  offset: 0, 0
+  index: -1
+eyepatch
+  rotate: false
+  xy: 1142, 347
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: -1
+left arm anchor
+  rotate: true
+  xy: 915, 16
+  size: 272, 226
+  orig: 272, 226
+  offset: 0, 0
+  index: -1
+left finger
+  rotate: false
+  xy: 1143, 48
+  size: 98, 73
+  orig: 98, 73
+  offset: 0, 0
+  index: -1
+leftarm
+  rotate: true
+  xy: 962, 292
+  size: 78, 178
+  orig: 78, 178
+  offset: 0, 0
+  index: -1
+ombre
+  rotate: true
+  xy: 1194, 309
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+wheel
+  rotate: false
+  xy: 691, 8
+  size: 222, 280
+  orig: 222, 280
+  offset: 0, 0
+  index: -1

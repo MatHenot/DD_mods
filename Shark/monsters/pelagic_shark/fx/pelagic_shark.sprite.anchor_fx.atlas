@@ -1,0 +1,13 @@
+
+pelagic_shark.sprite.anchor_fx.png
+size: 797,298
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+unclean_giant.sprite.club_smack
+  rotate: false
+  xy: 2, 2
+  size: 793, 294
+  orig: 793, 294
+  offset: 0, 0
+  index: -1

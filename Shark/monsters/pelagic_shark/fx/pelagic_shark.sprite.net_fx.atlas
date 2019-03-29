@@ -1,0 +1,13 @@
+
+pelagic_shark.sprite.net_fx.png
+size: 400,429
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+net fx
+  rotate: false
+  xy: 2, 2
+  size: 396, 425
+  orig: 396, 425
+  offset: 0, 0
+  index: -1

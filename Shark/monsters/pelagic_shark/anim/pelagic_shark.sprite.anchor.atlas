@@ -1,0 +1,20 @@
+
+pelagic_shark.sprite.anchor.png
+size: 1365,597
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anchor pose
+  rotate: false
+  xy: 2, 2
+  size: 1294, 593
+  orig: 1294, 593
+  offset: 0, 0
+  index: -1
+ombre
+  rotate: true
+  xy: 1298, 236
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
