@@ -1,4 +1,4 @@
-display: .size 1
+display: .size 2
 enemy_type: .id "beast"
 stats: .hp 10 .def 0% .prot 0 .spd 2 .stun_resist 0% .poison_resist 0% .bleed_resist 0% .debuff_resist 0% .move_resist 0%
 skill: .id "bite" .type "melee" .atk 100% .dmg 1 1 .crit 5%  .launch 4321 .target 1234
