@@ -514,60 +514,60 @@
   </language>
   
   <language id="schinese">
-  <!-- New Monster -->
-  <entry id="str_monstername_rat_king_A"><![CDATA[Nerub]]></entry>
-  <entry id="str_monstername_rat_king_B"><![CDATA[Nerub]]></entry>
-  <entry id="str_monstername_rat_king_C"><![CDATA[Nerub]]></entry>
-  <entry id="str_monstername_rat_grab_A"><![CDATA[Hook Rat]]></entry>
-  <entry id="str_monstername_rat_grab_B"><![CDATA[Hook Rat]]></entry>
-  <entry id="str_monstername_rat_grab_Y"><![CDATA[Hook Rat]]></entry>
-  <entry id="str_monstername_rat_grab_Z"><![CDATA[Hook Rat]]></entry>
-  <entry id="str_monstername_rat_grab_C"><![CDATA[Hook Rat]]></entry>
-  <entry id="str_monstername_rat_whip_A"><![CDATA[Whip Rat]]></entry>
-  <entry id="str_monstername_rat_whip_B"><![CDATA[Whip Rat]]></entry>
-  <entry id="str_monstername_rat_whip_C"><![CDATA[Whip Rat]]></entry>
-  <entry id="str_monstername_rat_bone_A"><![CDATA[Mace Rat]]></entry>
-  <entry id="str_monstername_rat_bone_B"><![CDATA[Mace Rat]]></entry>
-  <entry id="str_monstername_rat_bone_C"><![CDATA[Mace Rat]]></entry>
-  <entry id="str_monstername_rat_grab_whip_A"><![CDATA[Hook & Whip Rats]]></entry>
-  <entry id="str_monstername_rat_grab_whip_B"><![CDATA[Hook & Whip Rats]]></entry>
-  <entry id="str_monstername_rat_grab_whip_C"><![CDATA[Hook & Whip Rats]]></entry>
-  <entry id="str_monstername_rat_grab_bone_A"><![CDATA[Hook & Mace Rats]]></entry>
-  <entry id="str_monstername_rat_grab_bone_B"><![CDATA[Hook & Mace Rats]]></entry>
-  <entry id="str_monstername_rat_grab_bone_C"><![CDATA[Hook & Mace Rats]]></entry>
-  <entry id="str_monstername_rat_whip_bone_A"><![CDATA[Whip & Mace Rats]]></entry>
-  <entry id="str_monstername_rat_whip_bone_B"><![CDATA[Whip & Mace Rats]]></entry>
-  <entry id="str_monstername_rat_whip_bone_C"><![CDATA[Whip & Mace Rats]]></entry>
-  <!-- Monster Attacks -->
-  <entry id="str_monster_skill_claws"><![CDATA[A Dozen Claws]]></entry>
-  <entry id="str_monster_skill_headbutt"><![CDATA[Headbutt]]></entry>
-  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
-  <entry id="str_monster_skill_curse"><![CDATA[King's Curse]]></entry>
-  <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
-  <entry id="str_monster_skill_devour"><![CDATA[Leftovers]]></entry>
-  <entry id="str_monster_skill_king_reinforcement"><![CDATA[Call of the Vermine]]></entry>
-  <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[Call of the Vermine]]></entry>
-  <entry id="str_monster_skill_reinforcement_to_grabbone"><![CDATA[Call of the Vermine]]></entry>
-  <entry id="str_monster_skill_reinforcement_to_whipbone"><![CDATA[Call of the Vermine]]></entry>
-  <entry id="str_monster_skill_grab"><![CDATA[Grab Grab]]></entry>
-  <entry id="str_monster_skill_whip"><![CDATA[Slash Slash]]></entry>
-  <entry id="str_monster_skill_bone"><![CDATA[Crunch Crunch]]></entry>
-  <entry id="str_monster_skill_move"><![CDATA[Move]]></entry>  
-  <!-- Curio -->  
-  <entry id="str_curio_title_manhole"><![CDATA[Manhole]]></entry>
-  <entry id="str_curio_content_manhole"><![CDATA[You can hear strange squeals coming from an underground secret world...]]></entry>
-  <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[Enter the sewers.]]></entry>
-  <entry id="str_curio_manhole_summon"><![CDATA[You entered the sewer...]]></entry>
+    <!-- New Monster -->
+    <entry id="str_monstername_rat_king_A"><![CDATA[奈幽巴]]></entry>
+    <entry id="str_monstername_rat_king_B"><![CDATA[奈幽巴]]></entry>
+    <entry id="str_monstername_rat_king_C"><![CDATA[奈幽巴]]></entry>
+    <entry id="str_monstername_rat_grab_A"><![CDATA[钩子鼠]]></entry>
+    <entry id="str_monstername_rat_grab_B"><![CDATA[钩子鼠]]></entry>
+    <entry id="str_monstername_rat_grab_C"><![CDATA[钩子鼠]]></entry>
+    <entry id="str_monstername_rat_grab_Y"><![CDATA[钩子鼠]]></entry>
+    <entry id="str_monstername_rat_grab_Z"><![CDATA[钩子鼠]]></entry>
+    <entry id="str_monstername_rat_whip_A"><![CDATA[鞭子鼠]]></entry>
+    <entry id="str_monstername_rat_whip_B"><![CDATA[鞭子鼠]]></entry>
+    <entry id="str_monstername_rat_whip_C"><![CDATA[鞭子鼠]]></entry>
+    <entry id="str_monstername_rat_bone_A"><![CDATA[锤子鼠]]></entry>
+    <entry id="str_monstername_rat_bone_B"><![CDATA[锤子鼠]]></entry>
+    <entry id="str_monstername_rat_bone_C"><![CDATA[锤子鼠]]></entry>
+    <entry id="str_monstername_rat_grab_whip_A"><![CDATA[钩鞭鼠]]></entry>
+    <entry id="str_monstername_rat_grab_whip_B"><![CDATA[钩鞭鼠]]></entry>
+    <entry id="str_monstername_rat_grab_whip_C"><![CDATA[钩鞭鼠]]></entry>
+    <entry id="str_monstername_rat_grab_bone_A"><![CDATA[钩锤鼠]]></entry>
+    <entry id="str_monstername_rat_grab_bone_B"><![CDATA[钩锤鼠]]></entry>
+    <entry id="str_monstername_rat_grab_bone_C"><![CDATA[钩锤鼠]]></entry>
+    <entry id="str_monstername_rat_whip_bone_A"><![CDATA[鞭锤鼠]]></entry>
+    <entry id="str_monstername_rat_whip_bone_B"><![CDATA[鞭锤鼠]]></entry>
+    <entry id="str_monstername_rat_whip_bone_C"><![CDATA[鞭锤鼠]]></entry>
+    <!-- Monster Attacks -->
+    <entry id="str_monster_skill_claws"><![CDATA[爪击]]></entry>
+    <entry id="str_monster_skill_headbutt"><![CDATA[头锤]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[杀杀]]></entry>
+    <entry id="str_monster_skill_curse"><![CDATA[王的诅咒]]></entry>
+  <entry id="str_monster_skill_curse2"><![CDATA[祸患的瘟疫]]></entry>
+    <entry id="str_monster_skill_devour"><![CDATA[残羹剩饭]]></entry>
+    <entry id="str_monster_skill_king_reinforcement"><![CDATA[召唤害兽]]></entry>
+    <entry id="str_monster_skill_reinforcement_to_grabwhip"><![CDATA[召唤害兽]]></entry>
+    <entry id="str_monster_skill_reinforcement_to_grabbone"><![CDATA[召唤害兽]]></entry>
+    <entry id="str_monster_skill_reinforcement_to_whipbone"><![CDATA[召唤害兽]]></entry>
+    <entry id="str_monster_skill_grab"><![CDATA[钩钩]]></entry>
+    <entry id="str_monster_skill_whip"><![CDATA[鞭鞭]]></entry>
+    <entry id="str_monster_skill_bone"><![CDATA[锤锤]]></entry>
+    <entry id="str_monster_skill_move"><![CDATA[移动]]></entry>
+    <!-- Curio -->
+    <entry id="str_curio_title_manhole"><![CDATA[水沟盖]]></entry>
+    <entry id="str_curio_content_manhole"><![CDATA[你能听到底下传出奇怪的吱吱声…]]></entry>
+    <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[进入下水道]]></entry>
+    <entry id="str_curio_manhole_summon"><![CDATA[你进入了下水道…]]></entry>
   <!-- Trinkets -->  
-  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
-  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
-  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[鼠尾结]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[鼠王心脏]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[皇家鼠爪]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[鼠辈头串]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA[「数之不尽的害兽…」]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[击杀时: 队友: 0-2 伤害]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[友方技能: {colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}(基础130%%){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[击杀时: 不会留下尸骸]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[害兽]]></entry>
   </language>
   
  <language id="tchinese">

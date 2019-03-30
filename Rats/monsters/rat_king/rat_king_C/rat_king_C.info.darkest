@@ -14,7 +14,7 @@ loot: .code "rats" .count 5
 initiative: .number_of_turns_per_round 3
 monster_brain: .id rat_king
 tag: .id "boss"
-battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty true .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
  battle_backdrop: .background_name "rats_sewer" .animation "rats_sewer" .isFlat False
 wave_spawning: .prefers_front False
 

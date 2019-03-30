@@ -9,5 +9,5 @@ loot: .code "rats" .count 1
 initiative: .number_of_turns_per_round 1
 monster_brain: .id rat_grab
 death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
-battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
 wave_spawning: .prefers_front false
