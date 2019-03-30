@@ -1,19 +1,19 @@
 
 pelagic_shark.sprite.dead.png
-size: 536,363
+size: 569,363
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 cadavre
   rotate: false
   xy: 2, 8
-  size: 465, 353
-  orig: 465, 353
+  size: 498, 353
+  orig: 498, 353
   offset: 0, 0
   index: -1
 ombre
   rotate: true
-  xy: 469, 2
+  xy: 502, 2
   size: 359, 65
   orig: 359, 65
   offset: 0, 0
