@@ -59,6 +59,13 @@
 		{"event_id": "event:/char/enemy/rat_king_vo_death",    					"guid_override":"{6f117399-ba35-4a03-8f86-b441f63e46c0}"},
 		{"event_id": "event:/char/enemy/rat_king_vo_hurt",    					"guid_override":"{a5c7e4b3-9e7d-4eb0-b40b-e5f33ec80ed0}"},
 		{"event_id": "event:/char/enemy/rat_king_king_reinforcement",    		"guid_override":"{c9eb6049-de48-49cd-9d6d-03602b514f5b}"},
-		{"event_id": "event:/props/curios/manhole",    							"guid_override":"{763e3b58-cce3-4cce-9b5b-a9437eeb4e51}"}	
+		{"event_id": "event:/props/curios/manhole",    							"guid_override":"{763e3b58-cce3-4cce-9b5b-a9437eeb4e51}"},
+
+		{"event_id": "event:/char/enemy/rat_whip_bone_move",    				"guid_override":"{074fbddb-1520-46c8-962f-5d827bcd6de2}"},
+		{"event_id": "event:/char/enemy/rat_grab_bone_move",    				"guid_override":"{8a1feccc-1c08-4a07-a3cd-dc571affa9b8}"},
+		{"event_id": "event:/char/enemy/rat_grab_whip_move",    				"guid_override":"{4b7d6985-f747-4810-9203-a11df49f5d8e}"},
+		{"event_id": "event:/char/enemy/rat_whip_move",    						"guid_override":"{e60daac6-5c67-41c2-bcad-3ef025d2ab5c}"},
+		{"event_id": "event:/char/enemy/rat_bone_move",    						"guid_override":"{dde82d81-66a2-4764-b206-ead3f4af4ede}"}
+		
     ]
 }
