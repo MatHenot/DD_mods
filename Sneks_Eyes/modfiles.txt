@@ -43,7 +43,7 @@ heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.skel 371
 heroes/snake_charmer/snake_charmer.art.darkest 2191
 heroes/snake_charmer/snake_charmer.info.darkest 9591
 heroes/snake_charmer/snake_charmer_guild_header.png 244478
-modfiles.txt 2574
+modfiles.txt 3524
 preview_icon.png 583762
-project.xml 592
+project.xml 619
 sample_project.xml 592

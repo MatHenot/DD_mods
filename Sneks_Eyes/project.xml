@@ -6,12 +6,13 @@
 	<Title>Sneks with eyes</Title>
 	<Language>english</Language>
 	<UpdateDetails/>
-	<Visibility>private</Visibility>
+	<Visibility>public</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>0</VersionMajor>
 	<VersionMinor>0</VersionMinor>
 	<TargetBuild>0</TargetBuild>
 	<Tags>
+		<Tags>Class Tweaks</Tags>
 		<Tags>Sneks</Tags>
 		<Tags>Eyes</Tags>
 		<Tags>Snake Charmer</Tags>
