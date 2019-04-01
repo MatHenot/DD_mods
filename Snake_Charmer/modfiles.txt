@@ -203,7 +203,7 @@ trinkets/crimson_court.rarities.trinkets.json 171
 trinkets/east_town.rarities.trinkets.json 293
 trinkets/snake_charmer.entries.trinkets.json 4546
 trinkets/snake_charmer.sets.trinkets.json 194
-modfiles.txt 14128
+modfiles.txt 14036
 preview_icon.png 627215
 project.xml 700
 snake_charmer.xml 726

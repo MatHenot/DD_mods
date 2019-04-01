@@ -1,0 +1,49 @@
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.afflicted.png 940983
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.camp.png 172961
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.combat.png 270187
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.heroic.png 908081
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.rattling_trap.png 297436
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.venomous_fang .png 236658
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.afflicted.png 940983
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.camp.png 165622
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.combat.png 263690
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.heroic.png 908081
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.rattling_trap.png 292223
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.venomous_fang .png 229949
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.afflicted.png 940983
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.camp.png 167899
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.combat.png 263607
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.heroic.png 908081
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.rattling_trap.png 293939
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.venomous_fang .png 230600
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.afflicted.png 940983
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.camp.png 163591
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.combat.png 260764
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.heroic.png 908081
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.rattling_trap.png 288188
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.venomous_fang .png 229071
+heroes/snake_charmer/fx/snake_charmer.sprite.calming_toxin_target.atlas 752
+heroes/snake_charmer/fx/snake_charmer.sprite.calming_toxin_target.png 107079
+heroes/snake_charmer/fx/snake_charmer.sprite.calming_toxin_target.skel 1184
+heroes/snake_charmer/fx/snake_charmer.sprite.constriction_target.atlas 577
+heroes/snake_charmer/fx/snake_charmer.sprite.constriction_target.png 130327
+heroes/snake_charmer/fx/snake_charmer.sprite.constriction_target.skel 9378
+heroes/snake_charmer/fx/snake_charmer.sprite.feastfx2.atlas 557
+heroes/snake_charmer/fx/snake_charmer.sprite.feastfx2.png 139588
+heroes/snake_charmer/fx/snake_charmer.sprite.feastfx2.skel 841
+heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_fx.atlas 531
+heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_fx.png 181131
+heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_fx.skel 1791
+heroes/snake_charmer/fx/snake_charmer.sprite.snekriposte.atlas 428
+heroes/snake_charmer/fx/snake_charmer.sprite.snekriposte.png 93412
+heroes/snake_charmer/fx/snake_charmer.sprite.snekriposte.skel 11260
+heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.atlas 323
+heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.png 32418
+heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.skel 371
+heroes/snake_charmer/snake_charmer.art.darkest 2191
+heroes/snake_charmer/snake_charmer.info.darkest 9591
+heroes/snake_charmer/snake_charmer_guild_header.png 244478
+modfiles.txt 2574
+preview_icon.png 583762
+project.xml 592
+sample_project.xml 592

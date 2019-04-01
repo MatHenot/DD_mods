@@ -1,0 +1,69 @@
+
+-------------------------------------------------------------------------------
+Parsing project file - D:\DD_mods\Sneks_Eyes\project.xml
+Mod Data Directory = D:/DD_mods/Sneks_Eyes/
+
+-------------------------------------------------------------------------------
+Processing Map Files files...
+
+-------------------------------------------------------------------------------
+Searching for preview icon file D:/DD_mods/Sneks_Eyes/preview_icon.png...FOUND!
+<UploadMode> - Set to direct_upload
+
+
+-------------------------------------------------------------------------------
+Modded files...
+
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.afflicted.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.camp.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.combat.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.heroic.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.rattling_trap.png
+heroes/snake_charmer/snake_charmer_A/anim/snake_charmer.sprite.venomous_fang .png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.afflicted.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.camp.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.combat.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.heroic.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.rattling_trap.png
+heroes/snake_charmer/snake_charmer_B/anim/snake_charmer.sprite.venomous_fang .png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.afflicted.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.camp.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.combat.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.heroic.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.rattling_trap.png
+heroes/snake_charmer/snake_charmer_C/anim/snake_charmer.sprite.venomous_fang .png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.afflicted.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.camp.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.combat.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.heroic.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.rattling_trap.png
+heroes/snake_charmer/snake_charmer_D/anim/snake_charmer.sprite.venomous_fang .png
+heroes/snake_charmer/fx/snake_charmer.sprite.calming_toxin_target.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.calming_toxin_target.png
+heroes/snake_charmer/fx/snake_charmer.sprite.calming_toxin_target.skel
+heroes/snake_charmer/fx/snake_charmer.sprite.constriction_target.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.constriction_target.png
+heroes/snake_charmer/fx/snake_charmer.sprite.constriction_target.skel
+heroes/snake_charmer/fx/snake_charmer.sprite.feastfx2.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.feastfx2.png
+heroes/snake_charmer/fx/snake_charmer.sprite.feastfx2.skel
+heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_fx.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_fx.png
+heroes/snake_charmer/fx/snake_charmer.sprite.mamba_dance_fx.skel
+heroes/snake_charmer/fx/snake_charmer.sprite.snekriposte.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.snekriposte.png
+heroes/snake_charmer/fx/snake_charmer.sprite.snekriposte.skel
+heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.atlas
+heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.png
+heroes/snake_charmer/fx/snake_charmer.sprite.venomous_fangfx.skel
+heroes/snake_charmer/snake_charmer.art.darkest
+heroes/snake_charmer/snake_charmer.info.darkest
+heroes/snake_charmer/snake_charmer_guild_header.png
+modfiles.txt
+preview_icon.png
+project.xml
+sample_project.xml
+
+Submitting.........................................................................................................................Submitted.
+Saving project file D:\DD_mods\Sneks_Eyes\project.xml
+

@@ -1,0 +1,20 @@
+
+snake_charmer.sprite.venomous_fangfx.png
+size: 460,147
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Calque 4
+  rotate: false
+  xy: 2, 2
+  size: 344, 143
+  orig: 344, 143
+  offset: 0, 0
+  index: -1
+Calque 6
+  rotate: true
+  xy: 348, 6
+  size: 139, 110
+  orig: 139, 110
+  offset: 0, 0
+  index: -1
