@@ -17,7 +17,7 @@ combat_skill: .id "thrust" .icon "two" .anim "thrust" .targfx "" .condensed_tool
 combat_skill: .id "hearken" .icon "three" .anim "attack_barf" .fx "" .targfx "" .condensed_tooltip_stats true
 combat_skill: .id "heeder" .icon "four" .anim "attack_kneel" .fx "" .can_display_performer_selection_after_turn false
 combat_skill: .id "gash" .icon "five" .anim "attack_claw" .fx "" .targchestfx "" .condensed_tooltip_stats true
-combat_skill: .id "dare" .icon "six" .anim "attack_shout" .fx "" .targchestfx "" .condensed_tooltip_stats true .nil true 
+combat_skill: .id "dare" .icon "six" .anim "dare" .fx "" .targchestfx "" .condensed_tooltip_stats true .nil true 
 combat_skill: .id "scattered_blade" .icon "seven" .anim "attack_horns" .fx "" .targchestfx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 
 combat_move_skill: .id "move" .icon "generic_move" .anim "attack_transform"
