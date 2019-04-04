@@ -1,0 +1,13 @@
+
+thorn.sprite.thrustfx.png
+size: 1390,489
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/highwayman.sprite.opened_vein
+  rotate: false
+  xy: 2, 2
+  size: 1386, 485
+  orig: 1386, 485
+  offset: 0, 0
+  index: -1
