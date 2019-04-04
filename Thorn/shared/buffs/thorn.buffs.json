@@ -139,7 +139,7 @@
 	  },
   
       {
-         "id" : "Hearken Debuff PRE 1",
+         "id" : "Kipik Debuff PRE 1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : -0.05,
@@ -152,7 +152,7 @@
          }
       },
       {
-         "id" : "Hearken Debuff PRE 2",
+         "id" : "Kipik Debuff PRE 2",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : -0.06,
@@ -165,7 +165,7 @@
          }
       },
       {
-         "id" : "Hearken Debuff PRE 3",
+         "id" : "Kipik Debuff PRE 3",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : -0.07,
@@ -178,7 +178,7 @@
          }
       },
       {
-         "id" : "Hearken Debuff PRE 4",
+         "id" : "Kipik Debuff PRE 4",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : -0.08,
@@ -191,7 +191,7 @@
          }
       },
       {
-         "id" : "Hearken Debuff PRE 5",
+         "id" : "Kipik Debuff PRE 5",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : -0.1,
@@ -204,7 +204,7 @@
          }
       },	  
       {
-         "id" : "Hearken Debuff DmgH 1",
+         "id" : "Kipik Debuff DmgH 1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : -0.05,
@@ -217,7 +217,7 @@
          }
       },
       {
-         "id" : "Hearken Debuff DmgH 2",
+         "id" : "Kipik Debuff DmgH 2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : -0.06,
@@ -230,7 +230,7 @@
          }
       },
       {
-         "id" : "Hearken Debuff DmgH 3",
+         "id" : "Kipik Debuff DmgH 3",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : -0.07,
@@ -243,7 +243,7 @@
          }
       },
       {
-         "id" : "Hearken Debuff DmgH 4",
+         "id" : "Kipik Debuff DmgH 4",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : -0.08,
@@ -256,7 +256,7 @@
          }
       },
       {
-         "id" : "Hearken Debuff DmgH 5",
+         "id" : "Kipik Debuff DmgH 5",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : -0.1,
@@ -269,7 +269,7 @@
          }
       },
       {
-         "id" : "Hearken Debuff DmgL 1",
+         "id" : "Kipik Debuff DmgL 1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : -0.05,
@@ -282,7 +282,7 @@
          }
       },
       {
-         "id" : "Hearken Debuff DmgL 2",
+         "id" : "Kipik Debuff DmgL 2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : -0.06,
@@ -295,7 +295,7 @@
          }
       },
       {
-         "id" : "Hearken Debuff DmgL 3",
+         "id" : "Kipik Debuff DmgL 3",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : -0.07,
@@ -308,7 +308,7 @@
          }
       },
       {
-         "id" : "Hearken Debuff DmgL 4",
+         "id" : "Kipik Debuff DmgL 4",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : -0.08,
@@ -321,7 +321,7 @@
          }
       },
       {
-         "id" : "Hearken Debuff DmgL 5",
+         "id" : "Kipik Debuff DmgL 5",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : -0.1,
@@ -332,6 +332,21 @@
             "float" : 0,
             "string" : "tagged"
          }
+      },
+
+      {
+         "id" : "Hearken StressHeal Buff",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 100,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_guarded",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
       },
 
 	  {
@@ -719,11 +734,52 @@
 	  }, 
 
 	  {
+         "id" : "Hearken ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Hearken",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  }, 
+	  {
+         "id" : "Hearken ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Hearken",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Hearken ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Hearken",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  
+	  {
          "id" : "Heeder ToolTip",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Heeder",
          "amount" : 1,
          "duration" : 3,
+         "source" : "bsrc_riposte",
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : false,
@@ -732,6 +788,7 @@
             "string" : "defensive"
          }
       },
+	  
 	  {
          "id" : "Gash Riposte ToolTip 1",
          "stat_type" : "upgrade_discount",
@@ -877,87 +934,7 @@
             "string" : ""
          }
       },
-	  {
-         "id" : "Scattered Blade ToolTip 1",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "Scattered1",
-         "amount" : 1,
-         "duration" : 2,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },
-	  {
-         "id" : "Scattered Blade ToolTip 2",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "Scattered2",
-         "amount" : 1,
-         "duration" : 2,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },
-	  {
-         "id" : "Scattered Blade ToolTip 3",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "Scattered3",
-         "amount" : 1,
-         "duration" : 2,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },
-	  {
-         "id" : "Scattered Blade ToolTip 4",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "Scattered4",
-         "amount" : 1,
-         "duration" : 2,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },
-	  {
-         "id" : "Scattered Blade ToolTip 5",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "Scattered5",
-         "amount" : 1,
-         "duration" : 2,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         }
-      },
-	  
-	  
-	  
-  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
+
       {
          "id" : "Dare Riposte ToolTip DMGL 1",
          "stat_type" : "combat_stat_multiply",

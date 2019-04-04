@@ -4,13 +4,11 @@ effect: .name "Thorn Mark" .target "target" .curio_result_type "positive" .chanc
 
 //effect: .name "Random Attack"  .target "performer" .buff_ids "Random Attack" .on_hit true .on_miss true .skill_instant true .has_description false
 
-effect: .name "PRE vs Marked 1".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.05 .on_hit true .on_miss false
-effect: .name "PRE vs Marked 2".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.10 .on_hit true .on_miss false
-effect: .name "PRE vs Marked 3".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.15 .on_hit true .on_miss false
-effect: .name "PRE vs Marked 4".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.20 .on_hit true .on_miss false
-effect: .name "PRE vs Marked 5".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.25 .on_hit true .on_miss false
-
-effect: .name "Hidden switch to Offensive" .target "performer" .set_mode offensive .chance 100% .on_hit true .on_miss true .has_description false
+effect: .name "PRE vs Marked 1" .target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.05 .on_hit true .on_miss false
+effect: .name "PRE vs Marked 2" .target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.10 .on_hit true .on_miss false
+effect: .name "PRE vs Marked 3" .target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.15 .on_hit true .on_miss false
+effect: .name "PRE vs Marked 4" .target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.20 .on_hit true .on_miss false
+effect: .name "PRE vs Marked 5" .target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.25 .on_hit true .on_miss false
 
 
 //--------------------TRANSFORMATION--------------------
@@ -52,11 +50,11 @@ effect: .name "Hit switch to Defensive" .target "performer" .set_mode defensive 
 
 //Thrust
 
-effect: .name "Thrust Off 1".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 30% .damage_high_multiply 30% .on_hit true .on_miss false .has_description false
-effect: .name "Thrust Off 2".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 40% .damage_high_multiply 40% .on_hit true .on_miss false .has_description false
-effect: .name "Thrust Off 3".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false .has_description false
-effect: .name "Thrust Off 4".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 60% .damage_high_multiply 60% .on_hit true .on_miss false .has_description false
-effect: .name "Thrust Off 5".target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 70% .damage_high_multiply 70% .on_hit true .on_miss false .has_description false
+effect: .name "Thrust Off 1" .target "performer" .curio_result_type "positive" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 30% .damage_high_multiply 30% .on_hit true .on_miss true .has_description false
+effect: .name "Thrust Off 2" .target "performer" .curio_result_type "positive" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 40% .damage_high_multiply 40% .on_hit true .on_miss true .has_description false
+effect: .name "Thrust Off 3" .target "performer" .curio_result_type "positive" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss true .has_description false
+effect: .name "Thrust Off 4" .target "performer" .curio_result_type "positive" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 60% .damage_high_multiply 60% .on_hit true .on_miss true .has_description false
+effect: .name "Thrust Off 5" .target "performer" .curio_result_type "positive" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 70% .damage_high_multiply 70% .on_hit true .on_miss true .has_description false
 
 effect: .name "Thrust Miss Push 1" .target "target" .curio_result_type "positive" .chance 100% .push 1 .on_hit false .on_miss true .can_apply_on_death true .has_description false
 effect: .name "Thrust Miss Push 2" .target "target" .curio_result_type "positive" .chance 110% .push 1 .on_hit false .on_miss true .can_apply_on_death true .has_description false
@@ -93,8 +91,19 @@ effect: .name "Thrust Off ToolTip 4" .target "performer" .curio_result_type "pos
 effect: .name "Thrust Off ToolTip 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Thrust Off ToolTip 5" .skill_instant true .on_hit false .on_miss true
 
 
-//Scattered Blade
+//Kipik
 
+effect: .name "Kipik Defensive Debuff 1" .target "target_group" .curio_result_type "negative" .chance 90%  .buff_ids "Kipik Debuff PRE 1" "Kipik Debuff DmgH 1" "Kipik Debuff DmgL 1" .on_hit true .on_miss true .individual_target_actor_rolls true
+effect: .name "Kipik Defensive Debuff 2" .target "target_group" .curio_result_type "negative" .chance 100% .buff_ids "Kipik Debuff PRE 2" "Kipik Debuff DmgH 2" "Kipik Debuff DmgL 2" .on_hit true .on_miss true .individual_target_actor_rolls true
+effect: .name "Kipik Defensive Debuff 3" .target "target_group" .curio_result_type "negative" .chance 110% .buff_ids "Kipik Debuff PRE 3" "Kipik Debuff DmgH 3" "Kipik Debuff DmgL 3" .on_hit true .on_miss true .individual_target_actor_rolls true
+effect: .name "Kipik Defensive Debuff 4" .target "target_group" .curio_result_type "negative" .chance 120% .buff_ids "Kipik Debuff PRE 4" "Kipik Debuff DmgH 4" "Kipik Debuff DmgL 4" .on_hit true .on_miss true .individual_target_actor_rolls true
+effect: .name "Kipik Defensive Debuff 5" .target "target_group" .curio_result_type "negative" .chance 130% .buff_ids "Kipik Debuff PRE 5" "Kipik Debuff DmgH 5" "Kipik Debuff DmgL 5" .on_hit true .on_miss true .individual_target_actor_rolls true
+
+effect: .name "Kipik Offensive Debuff 1" .target "target_group" .curio_result_type "negative" .chance 90%  .buff_ids "Kipik Debuff PRE 1" "Kipik Debuff DmgH 1" "Kipik Debuff DmgL 1" .on_hit true .on_miss true .individual_target_actor_rolls true
+effect: .name "Kipik Offensive Debuff 2" .target "target_group" .curio_result_type "negative" .chance 100% .buff_ids "Kipik Debuff PRE 2" "Kipik Debuff DmgH 2" "Kipik Debuff DmgL 2" .on_hit true .on_miss true .individual_target_actor_rolls true
+effect: .name "Kipik Offensive Debuff 3" .target "target_group" .curio_result_type "negative" .chance 110% .buff_ids "Kipik Debuff PRE 3" "Kipik Debuff DmgH 3" "Kipik Debuff DmgL 3" .on_hit true .on_miss true .individual_target_actor_rolls true
+effect: .name "Kipik Offensive Debuff 4" .target "target_group" .curio_result_type "negative" .chance 120% .buff_ids "Kipik Debuff PRE 4" "Kipik Debuff DmgH 4" "Kipik Debuff DmgL 4" .on_hit true .on_miss true .individual_target_actor_rolls true
+effect: .name "Kipik Offensive Debuff 5" .target "target_group" .curio_result_type "negative" .chance 130% .buff_ids "Kipik Debuff PRE 5" "Kipik Debuff DmgH 5" "Kipik Debuff DmgL 5" .on_hit true .on_miss true .individual_target_actor_rolls true
 
 
 
@@ -103,18 +112,23 @@ effect: .name "Thrust Off ToolTip 5" .target "performer" .curio_result_type "pos
 
 //Hearken
 
-effect: .name "Hearken Debuff 1" .target "target_group" .curio_result_type "negative" .chance 90%  .buff_ids "Hearken Debuff PRE 1" "Hearken Debuff DmgH 1" "Hearken Debuff DmgL 1" .on_hit true .on_miss true .individual_target_actor_rolls true
-effect: .name "Hearken Debuff 2" .target "target_group" .curio_result_type "negative" .chance 100% .buff_ids "Hearken Debuff PRE 2" "Hearken Debuff DmgH 2" "Hearken Debuff DmgL 2" .on_hit true .on_miss true .individual_target_actor_rolls true
-effect: .name "Hearken Debuff 3" .target "target_group" .curio_result_type "negative" .chance 110% .buff_ids "Hearken Debuff PRE 3" "Hearken Debuff DmgH 3" "Hearken Debuff DmgL 3" .on_hit true .on_miss true .individual_target_actor_rolls true
-effect: .name "Hearken Debuff 4" .target "target_group" .curio_result_type "negative" .chance 120% .buff_ids "Hearken Debuff PRE 4" "Hearken Debuff DmgH 4" "Hearken Debuff DmgL 4" .on_hit true .on_miss true .individual_target_actor_rolls true
-effect: .name "Hearken Debuff 5" .target "target_group" .curio_result_type "negative" .chance 130% .buff_ids "Hearken Debuff PRE 5" "Hearken Debuff DmgH 5" "Hearken Debuff DmgL 5" .on_hit true .on_miss true .individual_target_actor_rolls true
+effect: .name "Hearken StressHeal 1" .target "performer" .curio_result_type "positive" .chance 100% .healstress 4 .on_hit true .on_miss false
+effect: .name "Hearken StressHeal 2" .target "performer" .curio_result_type "positive" .chance 100% .healstress 4 .on_hit true .on_miss false
+effect: .name "Hearken StressHeal 3" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5 .on_hit true .on_miss false
+effect: .name "Hearken StressHeal 4" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5 .on_hit true .on_miss false
+effect: .name "Hearken StressHeal 5" .target "performer" .curio_result_type "positive" .chance 100% .healstress 6 .on_hit true .on_miss false
 
-effect: .name "Hearken StressHeal 1" .target "performer" .curio_result_type "positive" .chance 100% .healstress 4 .on_hit true .on_miss true
-effect: .name "Hearken StressHeal 2" .target "performer" .curio_result_type "positive" .chance 100% .healstress 4 .on_hit true .on_miss true
-effect: .name "Hearken StressHeal 3" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5 .on_hit true .on_miss true
-effect: .name "Hearken StressHeal 4" .target "performer" .curio_result_type "positive" .chance 100% .healstress 5 .on_hit true .on_miss true
-effect: .name "Hearken StressHeal 5" .target "performer" .curio_result_type "positive" .chance 100% .healstress 6 .on_hit true .on_miss true
+effect: .name "Hearken StressHeal Buff" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "Hearken StressHeal Buff" .on_hit true .on_miss false .skill_instant true
 
+effect: .name "Hearken StressHeal Guarded 1" .target "performer_group_other" .curio_result_type "positive" .chance 100% .healstress 0.04 .on_hit true .on_miss false .has_description false
+effect: .name "Hearken StressHeal Guarded 2" .target "performer_group_other" .curio_result_type "positive" .chance 100% .healstress 0.04 .on_hit true .on_miss false .has_description false
+effect: .name "Hearken StressHeal Guarded 3" .target "performer_group_other" .curio_result_type "positive" .chance 100% .healstress 0.05 .on_hit true .on_miss false .has_description false
+effect: .name "Hearken StressHeal Guarded 4" .target "performer_group_other" .curio_result_type "positive" .chance 100% .healstress 0.05 .on_hit true .on_miss false .has_description false
+effect: .name "Hearken StressHeal Guarded 5" .target "performer_group_other" .curio_result_type "positive" .chance 100% .healstress 0.06 .on_hit true .on_miss false .has_description false
+
+effect: .name "Hearken ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Hearken ToolTip 1" .on_hit false .on_miss false
+effect: .name "Hearken ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Hearken ToolTip 2" .on_hit false .on_miss false
+effect: .name "Hearken ToolTip 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Hearken ToolTip 3" .on_hit false .on_miss false
 
 //Heeder
 
@@ -136,7 +150,7 @@ effect: .name "Heeder Buff 3" .target "performer" .curio_result_type "positive" 
 effect: .name "Heeder Buff 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 4" .on_hit true .on_miss true
 effect: .name "Heeder Buff 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 5" .on_hit true .on_miss true
 
-effect: .name "Heeder ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder ToolTip" .on_hit true .on_miss true
+effect: .name "Heeder ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder ToolTip" .buff_source_type bsrc_riposte .on_hit true .on_miss true
 
 
 

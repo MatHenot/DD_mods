@@ -44,15 +44,15 @@
     <entry id="combat_skill_name_thorn_heeder"><![CDATA[Heeder]]></entry>
     <entry id="combat_skill_name_thorn_gash"><![CDATA[Gash]]></entry>
     <entry id="combat_skill_name_thorn_dare"><![CDATA[Dare]]></entry>
-    <entry id="combat_skill_name_thorn_scattered_blade"><![CDATA[Scattered Blade]]></entry>
+    <entry id="combat_skill_name_thorn_kipik"><![CDATA[kipik]]></entry>
     <entry id="combat_skill_name_thorn_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_thorn.offensive_stance"><![CDATA[Offensive Stance]]></entry>
     <entry id="upgrade_tree_name_thorn.thrust"><![CDATA[Thrust]]></entry>
+    <entry id="upgrade_tree_name_thorn.kipik"><![CDATA[Kipik]]></entry>
     <entry id="upgrade_tree_name_thorn.hearken"><![CDATA[Hearken]]></entry>
     <entry id="upgrade_tree_name_thorn.heeder"><![CDATA[Heeder]]></entry>
     <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Gash]]></entry>
     <entry id="upgrade_tree_name_thorn.dare"><![CDATA[Dare]]></entry>
-    <entry id="upgrade_tree_name_thorn.scattered_blade"><![CDATA[Scattered Blade]]></entry>
 
     <entry id="camping_skill_name_mithridatism"><![CDATA[MITHRIDATISM]]></entry>
     <entry id="camping_skill_name_exotic_spices"><![CDATA[EXOTIC SPICES]]></entry>
@@ -87,6 +87,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[
 	Offensive:
 	+%d%% DMG vs {colour_start|mark}Marked{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Hearken"><![CDATA[Other Heroes:
+	{colour_start|stress}Stress{colour_end} %d if {colour_start|guard}Guarded{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Heeder"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 3 rds]]></entry>
@@ -98,11 +100,6 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_GashMiss3"><![CDATA[On Miss : {colour_start|bleed}Bleed{colour_end} Other Enemies {colour_start|skill_unselectable}(120%% base){colour_end} 2pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashMiss4"><![CDATA[On Miss : {colour_start|bleed}Bleed{colour_end} Other Enemies {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashMiss5"><![CDATA[On Miss : {colour_start|bleed}Bleed{colour_end} Other Enemies {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Scattered1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 0 to 3 DMG to other enemies]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Scattered2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 1 to 4 DMG to other enemies]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Scattered3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 2 to 5 DMG to other enemies]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Scattered4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 3 to 6 DMG to other enemies]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Scattered5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: 4 to 7 DMG to other enemies]]></entry>
 				
 		
     <entry id="thorn+str_afflicted_fearful"><![CDATA[This trip was pure madness!]]></entry>
