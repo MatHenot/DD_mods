@@ -1,0 +1,780 @@
+{
+   "buffs":
+   [ 
+	  {
+         "id" : "Offensive Speed ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "OffSpeed",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Offensive End ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "EndByHit",
+         "amount" : -1,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "defensive"
+ 		 },
+		 "is_clear_debuff_valid": false
+	  },
+	  {
+         "id" : "Offensive Skill End ToolTip A",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "EndByHitA",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Offensive Skill End ToolTip B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "EndByHitB",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  
+	  
+	  {
+         "id" : "Defensive Skill ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Defensive",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Offensive Skill ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Offensive",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },	  
+
+	  {
+         "id" : "Thrust Def Skill ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensive",
+         "amount" : -0.9,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Thrust Def Skill ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensive",
+         "amount" : -1.0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Thrust Def Skill ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensive",
+         "amount" : -1.1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Thrust Def Skill ToolTip 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensive",
+         "amount" : -1.2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Thrust Def Skill ToolTip 5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensive",
+         "amount" : -1.3,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Thrust Off Skill ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustOffensive",
+         "amount" : -0.3,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Thrust Off Skill ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustOffensive",
+         "amount" : -0.4,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Thrust Off Skill ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustOffensive",
+         "amount" : -0.5,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Thrust Off Skill ToolTip 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustOffensive",
+         "amount" : -0.6,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Thrust Off Skill ToolTip 5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustOffensive",
+         "amount" : -0.7,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+
+	  {
+         "id" : "Kipik Debuff Skill ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "KipikDebuff",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Kipik Def Skill ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "KipikDefensive1",
+         "amount" : -0.9,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Kipik Def Skill ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "KipikDefensive2",
+         "amount" : -1.0,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Kipik Def Skill ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "KipikDefensive3",
+         "amount" : -1.1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Kipik Def Skill ToolTip 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "KipikDefensive4",
+         "amount" : -1.2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Kipik Def Skill ToolTip 5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "KipikDefensive5",
+         "amount" : -1.3,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Kipik Off Skill ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "KipikOffensive1",
+         "amount" : -0.3,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Kipik Off Skill ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "KipikOffensive2",
+         "amount" : -0.4,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Kipik Off Skill ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "KipikOffensive3",
+         "amount" : -0.5,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Kipik Off Skill ToolTip 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "KipikOffensive4",
+         "amount" : -0.6,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Kipik Off Skill ToolTip 5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "KipikOffensive5",
+         "amount" : -0.7,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+
+
+	  {
+         "id" : "Hearken ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Hearken",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  }, 
+	  {
+         "id" : "Hearken ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Hearken",
+         "amount" : -0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Hearken ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Hearken",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+
+	  
+	  {
+         "id" : "Heeder ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Heeder",
+         "amount" : 1,
+         "duration" : 3,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "defensive"
+         }
+      },
+
+	  
+	  {
+         "id" : "Gash Riposte ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Gash1",
+         "amount" : 1,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "gash"
+         }
+      },
+	  {
+         "id" : "Gash Riposte ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Gash2",
+         "amount" : 1,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "gash"
+         }
+      },
+	  {
+         "id" : "Gash Riposte ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Gash3",
+         "amount" : 1,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "gash"
+         }
+      },
+	  {
+         "id" : "Gash Riposte ToolTip 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Gash4",
+         "amount" : 1,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "gash"
+         }
+      },
+	  {
+         "id" : "Gash Riposte ToolTip 5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Gash5",
+         "amount" : 1,
+         "duration" : 2,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "gash"
+         }
+      },
+	  {
+         "id" : "Gash Miss Bleed ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GashMiss1",
+         "amount" : 1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Gash Miss Bleed ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GashMiss2",
+         "amount" : 1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Gash Miss Bleed ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GashMiss3",
+         "amount" : 1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Gash Miss Bleed ToolTip 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GashMiss4",
+         "amount" : 1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Gash Miss Bleed ToolTip 5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GashMiss5",
+         "amount" : 1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+
+      {
+         "id" : "Dare Riposte ToolTip DMGL 1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.05,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGH 1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.05,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip crit 1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.06,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGL 2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGH 2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip crit 2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.07,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGL 3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGH 3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip crit 3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.08,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGL 4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.2,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGH 4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip crit 4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.09,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGL 5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip DMGH 5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Dare Riposte ToolTip crit 5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.10,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+   ]
+}
