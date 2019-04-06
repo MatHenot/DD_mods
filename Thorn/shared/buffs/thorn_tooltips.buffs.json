@@ -217,19 +217,6 @@
 	  },
 
 	  {
-         "id" : "Kipik Debuff Skill ToolTip",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikDebuff",
-         "amount" : -1,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
- 		 }
-	  },
-	  {
          "id" : "Kipik Def Skill ToolTip 1",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "KipikDefensive1",
@@ -364,8 +351,8 @@
 	  {
          "id" : "Hearken ToolTip 1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "Hearken",
-         "amount" : -0.03,
+         "stat_sub_type" : "Hearken1",
+         "amount" : 0.03,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -377,8 +364,8 @@
 	  {
          "id" : "Hearken ToolTip 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "Hearken",
-         "amount" : -0.04,
+         "stat_sub_type" : "Hearken2",
+         "amount" : 0.04,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -390,8 +377,8 @@
 	  {
          "id" : "Hearken ToolTip 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "Hearken",
-         "amount" : -0.05,
+         "stat_sub_type" : "Hearken3",
+         "amount" : 0.05,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -400,8 +387,21 @@
             "string" : ""
          }
 	  },
-
-	  
+	  {
+         "id" : "Hearken Mode ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "DefModeValid",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	 
+	 
 	  {
          "id" : "Heeder ToolTip",
          "stat_type" : "upgrade_discount",
@@ -417,7 +417,20 @@
             "string" : "defensive"
          }
       },
-
+	  {
+         "id" : "Heeder Mode ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "DefModeValid",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  
 	  
 	  {
          "id" : "Gash Riposte ToolTip 1",
@@ -564,7 +577,20 @@
             "string" : ""
          }
       },
-
+	  {
+         "id" : "Gash Mode ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "OffModeValid",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  
 
       {
          "id" : "Dare Riposte ToolTip DMGL 1",
@@ -775,6 +801,19 @@
             "float" : 0,
             "string" : ""
          }
-      }
+      },
+	  {
+         "id" : "Dare Mode ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "OffModeValid",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  }
    ]
 }

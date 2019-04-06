@@ -29,11 +29,11 @@
     <entry id="actor_mode_name_dare"><![CDATA[Offensive]]></entry>
     <entry id="actor_mode_name_gash"><![CDATA[Offensive]]></entry>
     <entry id="actor_mode_name_defensive"><![CDATA[Defensive]]></entry>
-    <entry id="str_skill_mode_info_offensive"><![CDATA[{colour_start|notable}Valid in Offensive mode{colour_end}]]></entry>
+    <entry id="str_skill_mode_info_offensive"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_defensive"><![CDATA[
-	{colour_start|notable}Valid in Defensive mode{colour_end}]]></entry>
+	{colour_start|notable}Valid in both modes{colour_end}]]></entry>
 	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Offensive]]></entry>
 	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Offensive]]></entry>
 	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Offensive]]></entry>
@@ -74,6 +74,8 @@
     <entry id="thorn_armour_4"><![CDATA["The Moulting"]]></entry>
     <entry id="upgrade_tree_name_thorn.armour"><![CDATA[Scarf]]></entry>
 
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Amount Received]]></entry>
+
 	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_OffSpeed"><![CDATA[+5 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
@@ -90,7 +92,6 @@
 	+20%% {colour_start|stun}Stun{colour_end} Skill Chance vs {colour_start|mark}Marked{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% DMG vs {colour_start|mark}Marked{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_KipikDebuff"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_KipikDefensive1"><![CDATA[{colour_start|debuff}Debuff Other Enemies:{colour_end}
 	-5 ACC and -5%% DMG while {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(90%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_KipikOffensive1"><![CDATA[Other Monsters:
@@ -112,8 +113,12 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_KipikOffensive5"><![CDATA[Other Monsters:
 	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_Hearken"><![CDATA[Other Heroes:
-	{colour_start|healhp}Heal{colour_end} %d HP if {colour_start|guard}Guarded{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Hearken1"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
+	{colour_start|healhp}Heal{colour_end} 3 HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Hearken2"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
+	{colour_start|healhp}Heal{colour_end} 4 HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Hearken3"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
+	{colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Heeder"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
 	
@@ -122,7 +127,13 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/rd for 3 rds]]></entry>
-				
+
+	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
+	{colour_start|notable}Valid in Defensive mode{colour_end}
+	
+	]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
+	{colour_start|notable}Valid in Offensive mode{colour_end}]]></entry>
 		
     <entry id="thorn+str_afflicted_fearful"><![CDATA[This trip was pure madness!]]></entry>
     <entry id="thorn+str_afflicted_fearful"><![CDATA[Nothing could have prepared me for that...]]></entry>

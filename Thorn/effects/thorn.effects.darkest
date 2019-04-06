@@ -81,11 +81,11 @@ effect: .name "Thrust Skill ToolTip 5" .target "performer" .curio_result_type "p
 
 //Kipik
 
-effect: .name "Kipik Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "Kipik Crit 1" "Kipik Bleed Received 1" .on_hit true .on_miss true .individual_target_actor_rolls true
-effect: .name "Kipik Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .buff_ids "Kipik Crit 2" "Kipik Bleed Received 2" .on_hit true .on_miss true .individual_target_actor_rolls true
-effect: .name "Kipik Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .buff_ids "Kipik Crit 3" "Kipik Bleed Received 3" .on_hit true .on_miss true .individual_target_actor_rolls true
-effect: .name "Kipik Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .buff_ids "Kipik Crit 4" "Kipik Bleed Received 4" .on_hit true .on_miss true .individual_target_actor_rolls true
-effect: .name "Kipik Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .buff_ids "Kipik Crit 5" "Kipik Bleed Received 5" .on_hit true .on_miss true .individual_target_actor_rolls true
+effect: .name "Kipik Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "Kipik Crit 1" "Kipik Bleed Received 1" .on_hit true .on_miss true 
+effect: .name "Kipik Debuff 2" .target "target" .curio_result_type "negative" .chance 110% .buff_ids "Kipik Crit 2" "Kipik Bleed Received 2" .on_hit true .on_miss true 
+effect: .name "Kipik Debuff 3" .target "target" .curio_result_type "negative" .chance 120% .buff_ids "Kipik Crit 3" "Kipik Bleed Received 3" .on_hit true .on_miss true 
+effect: .name "Kipik Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .buff_ids "Kipik Crit 4" "Kipik Bleed Received 4" .on_hit true .on_miss true 
+effect: .name "Kipik Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .buff_ids "Kipik Crit 5" "Kipik Bleed Received 5" .on_hit true .on_miss true 
 
 effect: .name "Kipik Def Debuff Others 1" .target "target_group_other" .curio_result_type "negative" .chance 90%  .buff_ids "Kipik Debuff PRE 1" "Kipik Debuff DmgH 1" "Kipik Debuff DmgL 1" .on_hit true .on_miss true .individual_target_actor_rolls true .has_description false
 effect: .name "Kipik Def Debuff Others 2" .target "target_group_other" .curio_result_type "negative" .chance 100% .buff_ids "Kipik Debuff PRE 2" "Kipik Debuff DmgH 2" "Kipik Debuff DmgL 2" .on_hit true .on_miss true .individual_target_actor_rolls true .has_description false
@@ -99,13 +99,11 @@ effect: .name "Kipik Bleed 3" .target "target_group_other" .curio_result_type "n
 effect: .name "Kipik Bleed 4" .target "target_group_other" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 130% .on_hit true .on_miss false .has_description false
 effect: .name "Kipik Bleed 5" .target "target_group_other" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .on_hit true .on_miss false .has_description false
 
-effect: .name "Kipik Debuff ToolTip" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Kipik Debuff Skill ToolTip" .on_hit true .on_miss false .skill_instant true
-
-effect: .name "Kipik Skill ToolTip 1" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Defensive Skill ToolTip" "Kipik Def Skill ToolTip 1" "Offensive Skill ToolTip" "Kipik Off Skill ToolTip 1" .on_hit true .on_miss true
-effect: .name "Kipik Skill ToolTip 2" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Defensive Skill ToolTip" "Kipik Def Skill ToolTip 2" "Offensive Skill ToolTip" "Kipik Off Skill ToolTip 2" .on_hit true .on_miss true
-effect: .name "Kipik Skill ToolTip 3" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Defensive Skill ToolTip" "Kipik Def Skill ToolTip 3" "Offensive Skill ToolTip" "Kipik Off Skill ToolTip 3" .on_hit true .on_miss true
-effect: .name "Kipik Skill ToolTip 4" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Defensive Skill ToolTip" "Kipik Def Skill ToolTip 4" "Offensive Skill ToolTip" "Kipik Off Skill ToolTip 4" .on_hit true .on_miss true
-effect: .name "Kipik Skill ToolTip 5" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Defensive Skill ToolTip" "Kipik Def Skill ToolTip 5" "Offensive Skill ToolTip" "Kipik Off Skill ToolTip 5" .on_hit true .on_miss true
+effect: .name "Kipik Skill ToolTip 1" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Defensive Skill ToolTip" "Kipik Def Skill ToolTip 1" "Offensive Skill ToolTip" "Kipik Off Skill ToolTip 1" .on_hit true .on_miss true .skill_instant true
+effect: .name "Kipik Skill ToolTip 2" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Defensive Skill ToolTip" "Kipik Def Skill ToolTip 2" "Offensive Skill ToolTip" "Kipik Off Skill ToolTip 2" .on_hit true .on_miss true .skill_instant true
+effect: .name "Kipik Skill ToolTip 3" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Defensive Skill ToolTip" "Kipik Def Skill ToolTip 3" "Offensive Skill ToolTip" "Kipik Off Skill ToolTip 3" .on_hit true .on_miss true .skill_instant true
+effect: .name "Kipik Skill ToolTip 4" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Defensive Skill ToolTip" "Kipik Def Skill ToolTip 4" "Offensive Skill ToolTip" "Kipik Off Skill ToolTip 4" .on_hit true .on_miss true .skill_instant true
+effect: .name "Kipik Skill ToolTip 5" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Defensive Skill ToolTip" "Kipik Def Skill ToolTip 5" "Offensive Skill ToolTip" "Kipik Off Skill ToolTip 5" .on_hit true .on_miss true .skill_instant true
 
 
 //--------------------DEFENSIVE--------------------
@@ -126,18 +124,20 @@ effect: .name "Hearken Heal 3" .target "performer" .curio_result_type "positive"
 effect: .name "Hearken Heal 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false
 effect: .name "Hearken Heal 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 5 .on_hit true .on_miss false
 
-effect: .name "Hearken Heal Buff" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "Hearken Heal Buff" .on_hit true .on_miss false .has_description false
+effect: .name "Hearken Heal Buff" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "Hearken Heal Buff" .on_hit true .on_miss false .skill_instant true .has_description false
 effect: .name "Hearken Heal Debuff" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "Hearken Heal Debuff" .on_hit true .on_miss false .queue true .has_description false
 
-effect: .name "Hearken Heal Guarded 1" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 0.03 0.03 .on_hit true .on_miss false .has_description false
-effect: .name "Hearken Heal Guarded 2" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 0.03 0.03 .on_hit true .on_miss false .has_description false
-effect: .name "Hearken Heal Guarded 3" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 0.04 0.04 .on_hit true .on_miss false .has_description false
-effect: .name "Hearken Heal Guarded 4" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 0.04 0.04 .on_hit true .on_miss false .has_description false
-effect: .name "Hearken Heal Guarded 5" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 0.05 0.05 .on_hit true .on_miss false .has_description false
+effect: .name "Hearken Heal Guarded 1" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 3 3 .on_hit true .on_miss false .has_description false
+effect: .name "Hearken Heal Guarded 2" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 3 3 .on_hit true .on_miss false .has_description false
+effect: .name "Hearken Heal Guarded 3" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 4 4 .on_hit true .on_miss false .has_description false
+effect: .name "Hearken Heal Guarded 4" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 4 4 .on_hit true .on_miss false .has_description false
+effect: .name "Hearken Heal Guarded 5" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 5 5 .on_hit true .on_miss false .has_description false
 
 effect: .name "Hearken ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Hearken ToolTip 1" .on_hit false .on_miss true
 effect: .name "Hearken ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Hearken ToolTip 2" .on_hit false .on_miss true
 effect: .name "Hearken ToolTip 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Hearken ToolTip 3" .on_hit false .on_miss true
+
+effect: .name "Hearken Mode ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Hearken Mode ToolTip" .on_hit false .on_miss true .skill_instant true
 
 //Heeder
 
@@ -160,6 +160,8 @@ effect: .name "Heeder Riposte 5" .target "performer" .curio_result_type "positiv
 effect: .name "Heeder Riposte Crit" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 3 .crit_chance_add -100% .on_hit true .on_miss true .queue true .has_description false
 
 effect: .name "Heeder ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder ToolTip" .buff_source_type bsrc_riposte .on_hit true .on_miss true
+
+effect: .name "Heeder Mode ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Mode ToolTip" .on_hit false .on_miss true .skill_instant true
 
 
 
@@ -204,6 +206,8 @@ effect: .name "Gash Miss Bleed ToolTip 3" .target "performer" .curio_result_type
 effect: .name "Gash Miss Bleed ToolTip 4" .target "performer" .curio_result_type "positive" .buff_ids "Gash Miss Bleed ToolTip 4" .skill_instant true .on_hit false .on_miss true
 effect: .name "Gash Miss Bleed ToolTip 5" .target "performer" .curio_result_type "positive" .buff_ids "Gash Miss Bleed ToolTip 5" .skill_instant true .on_hit false .on_miss true
 
+effect: .name "Gash Mode ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Mode ToolTip" .on_hit false .on_miss false
+
 
 //Dare
 
@@ -226,3 +230,5 @@ effect: .name "Dare Dodge"  .target "performer" .curio_result_type "positive" .c
 effect: .name "Dare Self Mark" .target "performer" .tag 1 .duration 2 .on_hit true .on_miss true
 
 effect: .name "Dare Mark Clean" .target "performer_group_other" .untag 1 .on_hit true .on_miss true
+
+effect: .name "Dare Mode ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Mode ToolTip" .on_hit false .on_miss true
