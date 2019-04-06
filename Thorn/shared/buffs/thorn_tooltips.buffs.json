@@ -2,19 +2,6 @@
    "buffs":
    [ 
 	  {
-         "id" : "Offensive Speed ToolTip",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "OffSpeed",
-         "amount" : -1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
          "id" : "Offensive End ToolTip",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "EndByHit",
@@ -31,7 +18,7 @@
 		 "is_clear_debuff_valid": false
 	  },
 	  {
-         "id" : "Offensive Skill End ToolTip A",
+         "id" : "Stance End Skill ToolTip A",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "EndByHitA",
          "amount" : -1,
@@ -44,9 +31,152 @@
          }
 	  },
 	  {
-         "id" : "Offensive Skill End ToolTip B",
+         "id" : "Stance End Skill ToolTip B",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "EndByHitB",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Stance Skill ToolTip A1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "StanceA",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Stance Skill ToolTip A2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "StanceA",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Stance Skill ToolTip A3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "StanceA",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Stance Skill ToolTip A4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "StanceA",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Stance Skill ToolTip A5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "StanceA",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Stance Skill ToolTip B1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "StanceB",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Stance Skill ToolTip B2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "StanceB",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Stance Skill ToolTip B3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "StanceB",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Stance Skill ToolTip B4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "StanceB",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Stance Skill ToolTip B5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "StanceB",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Stance Skill ToolTip C",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "StanceC",
          "amount" : -1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -403,7 +533,7 @@
 	 
 	 
 	  {
-         "id" : "Heeder ToolTip",
+         "id" : "Heeder Riposte ToolTip",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Heeder",
          "amount" : 1,
@@ -415,6 +545,21 @@
          "rule_data" : {
             "float" : 0,
             "string" : "defensive"
+         }
+      },
+	  {
+         "id" : "Heeder Fake Riposte ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Heeder",
+         "amount" : 1,
+         "duration" : 3,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
          }
       },
 	  {
@@ -508,11 +653,12 @@
          }
       },
 	  {
-         "id" : "Gash Miss Bleed ToolTip 1",
+         "id" : "Gash Fake Riposte ToolTip 1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "GashMiss1",
+         "stat_sub_type" : "Gash1",
          "amount" : 1,
          "duration" : 2,
+         "source" : "bsrc_riposte",
          "remove_if_not_active" : true,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -522,11 +668,12 @@
          }
       },
 	  {
-         "id" : "Gash Miss Bleed ToolTip 2",
+         "id" : "Gash Fake Riposte ToolTip 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "GashMiss2",
+         "stat_sub_type" : "Gash2",
          "amount" : 1,
          "duration" : 2,
+         "source" : "bsrc_riposte",
          "remove_if_not_active" : true,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -536,11 +683,12 @@
          }
       },
 	  {
-         "id" : "Gash Miss Bleed ToolTip 3",
+         "id" : "Gash Fake Riposte ToolTip 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "GashMiss3",
+         "stat_sub_type" : "Gash3",
          "amount" : 1,
          "duration" : 2,
+         "source" : "bsrc_riposte",
          "remove_if_not_active" : true,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -550,11 +698,12 @@
          }
       },
 	  {
-         "id" : "Gash Miss Bleed ToolTip 4",
+         "id" : "Gash Fake Riposte ToolTip 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "GashMiss4",
+         "stat_sub_type" : "Gash4",
          "amount" : 1,
          "duration" : 2,
+         "source" : "bsrc_riposte",
          "remove_if_not_active" : true,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -564,11 +713,12 @@
          }
       },
 	  {
-         "id" : "Gash Miss Bleed ToolTip 5",
+         "id" : "Gash Fake Riposte ToolTip 5",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "GashMiss5",
+         "stat_sub_type" : "Gash5",
          "amount" : 1,
          "duration" : 2,
+         "source" : "bsrc_riposte",
          "remove_if_not_active" : true,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -577,6 +727,48 @@
             "string" : ""
          }
       },
+	  {
+         "id" : "Gash Fake Dodge 1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Gash Fake Dodge 2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.08,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Gash Fake Dodge 3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.10,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
 	  {
          "id" : "Gash Mode ToolTip",
          "stat_type" : "upgrade_discount",
@@ -802,6 +994,20 @@
             "string" : ""
          }
       },
+	  {
+         "id" : "Dare Fake Dodge",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.10,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
 	  {
          "id" : "Dare Mode ToolTip",
          "stat_type" : "upgrade_discount",
