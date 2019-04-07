@@ -10,41 +10,12 @@
 		 "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
-         "is_false_rule" : false,
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
-         }
-      },		 
- 	  {
-         "id" : "Gash Speed",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 5,
-         "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "gash"
-         }
-      },
-	  {
-         "id" : "Dare Speed",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 5,
-         "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "dare"
-         }
+            "string" : "defensive"
+         },
+		 "has_description" : false
       },
 
 	  {
@@ -138,7 +109,7 @@
             "string" : ""
          }
 	  },
-
+	  
       {
          "id" : "Kipik Crit 1",
          "stat_type" : "crit_received_chance",
