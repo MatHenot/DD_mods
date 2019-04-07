@@ -7,7 +7,7 @@
          "dungeon" : "",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 1, "data" : { }},
+            { "type" : "nothing", "chances" : 3, "data" : { }},
             { "type" : "table", "chances" : 5, "data" : { "table" : "C" }},
             { "type" : "table", "chances" : 3, "data" : { "table" : "G" }},
             { "type" : "table", "chances" : 2, "data" : { "table" : "H" }},

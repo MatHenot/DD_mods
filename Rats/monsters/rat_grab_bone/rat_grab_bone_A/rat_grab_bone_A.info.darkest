@@ -5,7 +5,7 @@ skill: .id "grab" .type "melee" .atk 77.5% .dmg 4 7 .crit 8%  .launch 4321 .targ
 skill: .id "bone" .type "melee" .atk 72.5% .dmg 5 10 .crit 5%  .launch 321 .target 12 .effect "bone_stress_A" "rats_hp_debuff_A"
 skill: .id "move" .type "" .atk 0% .dmg 0 0 .crit 0% .launch 43 .target "" .move 0 1 .is_crit_valid False .is_knowledgeable False
 personality: .prefskill -1
-loot: .code "rats" .count 2
+loot: .code "rats" .count 3
 initiative: .number_of_turns_per_round 2
 monster_brain: .id rat_grab_bone
 death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 

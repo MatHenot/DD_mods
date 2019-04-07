@@ -6,7 +6,7 @@ skill: .id "reinforcement_to_grabbone" .type "" .atk 0% .dmg 0 0 .crit 0% .effec
 skill: .id "reinforcement_to_whipbone" .type "" .atk 0% .dmg 0 0 .crit 0% .effect "to_whipbone_A" "upgrade_init" "heal_whip_amount_A" .launch 4321 .target "" .is_crit_valid False .is_knowledgeable False
 skill: .id "move" .type "" .atk 0% .dmg 0 0 .crit 0% .launch 43 .target "" .move 0 1 .is_crit_valid False .is_knowledgeable False
 personality: .prefskill -1
-loot: .code "rats" .count 1
+loot: .code "rats" .count 2
 initiative: .number_of_turns_per_round 1
 monster_brain: .id rat_bone
 death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
