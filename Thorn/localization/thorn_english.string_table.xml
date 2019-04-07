@@ -82,7 +82,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceA"><![CDATA[Defensive:
 	Change to mode: Offensive
 	+5 SPD
-		{colour_start|riposte}Riposte{colour_end}: %d%% DMG]]></entry>
+	{colour_start|riposte}Riposte{colour_end}: %d%% DMG]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceB"><![CDATA[{colour_start|riposte}Riposte{colour_end}: +%d ACC
 	Activates {colour_start|riposte}Riposte{colour_end}
 	Cancel Defensive effects]]></entry>
@@ -106,27 +106,29 @@
 	+20%% {colour_start|stun}Stun{colour_end} Skill Chance vs {colour_start|mark}Marked{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% DMG vs {colour_start|mark}Marked{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_KipikDefensive1"><![CDATA[{colour_start|debuff}Debuff Other Enemies:{colour_end}
-	-5 ACC and -5%% DMG while {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(90%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_KipikOffensive1"><![CDATA[Other Monsters:
+	<entry id="buff_stat_tooltip_upgrade_discount_KipikBleed1"><![CDATA[Other Enemies:
 	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_KipikDefensive2"><![CDATA[{colour_start|debuff}Debuff Other Enemies:{colour_end}
-	-6 ACC and -7%% DMG while {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_KipikOffensive2"><![CDATA[Other Monsters:
+	<entry id="buff_stat_tooltip_upgrade_discount_KipikBleed2"><![CDATA[Other Enemies:
 	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_KipikDefensive3"><![CDATA[{colour_start|debuff}Debuff Other Enemies:{colour_end}
-	-7 ACC and -10%% DMG while {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_KipikOffensive3"><![CDATA[Other Monsters:
+	<entry id="buff_stat_tooltip_upgrade_discount_KipikBleed3"><![CDATA[Other Enemies:
 	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_KipikDefensive4"><![CDATA[{colour_start|debuff}Debuff Other Enemies:{colour_end}
-	-8 ACC and -12%% DMG while {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_KipikOffensive4"><![CDATA[Other Monsters:
+	<entry id="buff_stat_tooltip_upgrade_discount_KipikBleed4"><![CDATA[Other Enemies:
 	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_KipikDefensive5"><![CDATA[{colour_start|debuff}Debuff Other Enemies:{colour_end}
-	-10 ACC and -15%% DMG while {colour_start|mark}Marked{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_KipikOffensive5"><![CDATA[Other Monsters:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
-	
+	<entry id="buff_stat_tooltip_upgrade_discount_KipikBleed5"><![CDATA[Other Enemies:
+	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4 pts/rd for 3 rds]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_KipikDefensive1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+	-3 ACC / -10%% DMG {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_KipikOffensive1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+	+5%% Crits / +25%% {colour_start|bleed}Bleed{colour_end} Amount Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_KipikDefensive2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+	-4 ACC / -15%% DMG {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_KipikOffensive2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+	+7%% Crits / +33%% {colour_start|bleed}Bleed{colour_end} Amount Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_KipikDefensive3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+	-5 ACC / -20%% DMG {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_KipikOffensive3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+	+10%% Crits / +50%% {colour_start|bleed}Bleed{colour_end} Amount Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
+
 	<entry id="buff_stat_tooltip_upgrade_discount_Hearken1"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
 	{colour_start|healhp}Heal{colour_end} 3 HP]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Hearken2"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
