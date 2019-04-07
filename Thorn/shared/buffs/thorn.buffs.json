@@ -470,6 +470,8 @@
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
          "amount" : -100,
+		 "duration_type" : "before_turn",
+		 "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "is_guarded",
          "is_false_rule" : true,
