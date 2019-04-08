@@ -77,14 +77,13 @@
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Amount Received]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceSpeed"><![CDATA[+5 SPD]]></entry>
+	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceA"><![CDATA[Defensive:
 	Change to mode: Offensive
-	+5 SPD
+	Activates {colour_start|riposte}Riposte{colour_end}
 	{colour_start|riposte}Riposte{colour_end}: %d%% DMG]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceB"><![CDATA[{colour_start|riposte}Riposte{colour_end}: +%d ACC
-	Activates {colour_start|riposte}Riposte{colour_end}
 	Cancel Defensive effects]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[
 	Offensive:
