@@ -307,7 +307,7 @@
       },
 	  
       {
-         "id" : "Hearken Heal Buff",
+         "id" : "Hearken Heal Debuff",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
          "amount" : -100,
@@ -323,7 +323,7 @@
 		 "has_description" : false
       },
       {
-         "id" : "Hearken Heal Debuff",
+         "id" : "Hearken Heal Buff",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
          "amount" : 100,

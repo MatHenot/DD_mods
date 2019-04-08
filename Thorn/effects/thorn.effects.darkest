@@ -124,14 +124,14 @@ effect: .name "Hearken Heal 3" .target "performer" .curio_result_type "positive"
 effect: .name "Hearken Heal 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
 effect: .name "Hearken Heal 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 5 .on_hit true .on_miss false .apply_once true
 
-effect: .name "Hearken Heal Buff" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "Hearken Heal Buff" .buff_source_type hero_skill .on_hit true .on_miss false .has_description false
-effect: .name "Hearken Heal Debuff" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "Hearken Heal Debuff" .buff_source_type hero_skill .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Hearken Heal Debuff" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "Hearken Heal Debuff" .buff_source_type hero_skill .on_hit true .on_miss false .has_description false
+effect: .name "Hearken Heal Buff" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "Hearken Heal Buff" .buff_source_type hero_skill .on_hit true .on_miss false .queue true .has_description false
 
-effect: .name "Hearken Heal Guarded 1" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .has_description false
-effect: .name "Hearken Heal Guarded 2" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .has_description false
-effect: .name "Hearken Heal Guarded 3" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .has_description false
-effect: .name "Hearken Heal Guarded 4" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .has_description false
-effect: .name "Hearken Heal Guarded 5" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 5 .on_hit true .on_miss false .has_description false
+effect: .name "Hearken Heal Guarded 1" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Hearken Heal Guarded 2" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Hearken Heal Guarded 3" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Hearken Heal Guarded 4" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Hearken Heal Guarded 5" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .has_description false
 
 effect: .name "Hearken ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Hearken ToolTip 1" .on_hit false .on_miss true
 effect: .name "Hearken ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Hearken ToolTip 2" .on_hit false .on_miss true
@@ -207,10 +207,10 @@ effect: .name "Gash Skill ToolTip 5" .target "performer" .curio_result_type "pos
 
 effect: .name "switch to Dare" .target "performer" .set_mode dare .chance 100% .buff_ids "Dare Speed ToolTip" "Dare End ToolTip" .on_hit true .on_miss true .has_description false
 
-effect: .name "Dare Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 5%  .damage_high_multiply 5%  .crit_chance_add 6%  .on_hit true .on_miss true .has_description false
-effect: .name "Dare Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 10% .damage_high_multiply 10% .crit_chance_add 7%  .on_hit true .on_miss true .has_description false 
-effect: .name "Dare Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 15% .damage_high_multiply 15% .crit_chance_add 8%  .on_hit true .on_miss true .has_description false
-effect: .name "Dare Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 20% .damage_high_multiply 20% .crit_chance_add 9%  .on_hit true .on_miss true .has_description false
+effect: .name "Dare Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 5%  .damage_high_multiply 5%  .crit_chance_add 5%  .on_hit true .on_miss true .has_description false
+effect: .name "Dare Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 10% .damage_high_multiply 10% .crit_chance_add 6%  .on_hit true .on_miss true .has_description false 
+effect: .name "Dare Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 15% .damage_high_multiply 15% .crit_chance_add 7%  .on_hit true .on_miss true .has_description false
+effect: .name "Dare Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 20% .damage_high_multiply 20% .crit_chance_add 8%  .on_hit true .on_miss true .has_description false
 effect: .name "Dare Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .damage_low_multiply 25% .damage_high_multiply 25% .crit_chance_add 10% .on_hit true .on_miss true .has_description false
 
 effect: .name "Dare Riposte ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 1" "Dare Riposte ToolTip DMGH 1" "Dare Riposte ToolTip crit 1" .on_hit false .on_miss true
