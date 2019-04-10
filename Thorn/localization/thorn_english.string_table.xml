@@ -47,7 +47,7 @@
     <entry id="combat_skill_name_thorn_dare"><![CDATA[Dare]]></entry>
     <entry id="combat_skill_name_thorn_kipik"><![CDATA[kipik]]></entry>
     <entry id="combat_skill_name_thorn_move"><![CDATA[Move]]></entry>
-    <entry id="upgrade_tree_name_thorn.offensive_stance"><![CDATA[Offensive Stance]]></entry>
+    <entry id="upgrade_tree_name_thorn.stance"><![CDATA[Fencer Stance]]></entry>
     <entry id="upgrade_tree_name_thorn.thrust"><![CDATA[Thrust]]></entry>
     <entry id="upgrade_tree_name_thorn.kipik"><![CDATA[Kipik]]></entry>
     <entry id="upgrade_tree_name_thorn.hearken"><![CDATA[Hearken]]></entry>
@@ -73,6 +73,9 @@
     <entry id="thorn_armour_3"><![CDATA[Decorated Scarf]]></entry>
     <entry id="thorn_armour_4"><![CDATA["The Moulting"]]></entry>
     <entry id="upgrade_tree_name_thorn.armour"><![CDATA[Scarf]]></entry>
+
+
+
 
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Amount Received]]></entry>
 
@@ -149,6 +152,9 @@
 	]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
 	{colour_start|notable}Valid in Offensive mode{colour_end}]]></entry>
+
+
+
 		
     <entry id="thorn+str_afflicted_fearful"><![CDATA[This trip was pure madness!]]></entry>
     <entry id="thorn+str_afflicted_fearful"><![CDATA[Nothing could have prepared me for that...]]></entry>
