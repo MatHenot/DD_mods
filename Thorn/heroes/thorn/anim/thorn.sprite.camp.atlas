@@ -1,19 +1,19 @@
 
 thorn.sprite.camp.png
-size: 373,549
+size: 536,373
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-baton copie 2
-  rotate: false
-  xy: 2, 69
-  size: 369, 478
-  orig: 369, 478
+Calque 14 copie
+  rotate: true
+  xy: 2, 2
+  size: 369, 465
+  orig: 369, 465
   offset: 0, 0
   index: -1
 ombre
-  rotate: false
-  xy: 2, 2
+  rotate: true
+  xy: 469, 12
   size: 359, 65
   orig: 359, 65
   offset: 0, 0
