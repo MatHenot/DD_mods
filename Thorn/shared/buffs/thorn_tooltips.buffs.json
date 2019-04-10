@@ -10,10 +10,10 @@
 		 "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
-         "is_false_rule" : false,
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
+            "string" : "defensive"
  		 },
 		 "is_clear_debuff_valid": false
 	  },
@@ -49,54 +49,6 @@
  		 },
 		 "is_clear_debuff_valid": false
 	  },
-	  {
-         "id" : "Offensive Speed ToolTip",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "StanceSpeed",
-         "amount" : 1,
-         "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
- 		 },
-		 "is_clear_debuff_valid": false
-	  },
-	  {
-         "id" : "Gash Speed ToolTip",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "StanceSpeed",
-         "amount" : 1,
-         "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "gash"
- 		 },
-		 "is_clear_debuff_valid": false
-	  },
-	  {
-         "id" : "Dare Speed ToolTip",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "StanceSpeed",
-         "amount" : 1,
-         "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "dare"
- 		 },
-		 "is_clear_debuff_valid": false
-	  },	  
 
 	  {
          "id" : "Stance End Skill ToolTip A",
