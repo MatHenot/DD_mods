@@ -566,7 +566,7 @@
   <entry id="str_inventory_set_title_rat_set"><![CDATA[「数之不尽的害兽…」]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[击杀时: 队友: 0-2 伤害]]></entry>
   <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[友方技能: {colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}(基础130%%){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[击杀时: 不会留下尸骸]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[只对目标:]]></entry>
   <entry id="trinket_rarity_rats"><![CDATA[害兽]]></entry>
   </language>
   

@@ -252,10 +252,10 @@ localization/1656676055_koreana.loc 6335
 localization/1656676055_koreanb.loc 6335
 localization/1656676055_polish.loc 6104
 localization/1656676055_russian.loc 6975
-localization/1656676055_schinese.loc 5982
+localization/1656676055_schinese.loc 5966
 localization/1656676055_spanish.loc 6467
 localization/1656676055_tchinese.loc 6104
-localization/rats.string_table.xml 57603
+localization/rats.string_table.xml 57587
 loot/rats.loot.json 937
 scripts/rats_raid_visuals.json 638
 trinkets/rats.entries.trinkets.json 2092
