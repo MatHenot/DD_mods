@@ -1,0 +1,27 @@
+
+thorn.sprite.transfofx.png
+size: 2344,874
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle combat off
+  rotate: true
+  xy: 988, 420
+  size: 452, 1354
+  orig: 452, 1354
+  offset: 0, 0
+  index: -1
+ombre
+  rotate: false
+  xy: 988, 353
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+rengaine
+  rotate: true
+  xy: 2, 2
+  size: 870, 984
+  orig: 870, 984
+  offset: 0, 0
+  index: -1
