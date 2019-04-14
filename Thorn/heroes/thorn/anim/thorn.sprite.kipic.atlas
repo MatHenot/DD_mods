@@ -1,0 +1,13 @@
+
+thorn.sprite.kipic.png
+size: 1150,871
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/kipic
+  rotate: false
+  xy: 2, 2
+  size: 1146, 867
+  orig: 1146, 867
+  offset: 0, 0
+  index: -1
