@@ -15,7 +15,7 @@ armour: .name "thorn_armour_4" .icon "eqp_armour_4.png"
 combat_skill: .id "stance" .icon "one" .anim "attack_transform" .fx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1 .nil true
 combat_skill: .id "thrust" .icon "two" .anim "thrust" .fx "thrustfx" .targfx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "kipik" .icon "three" .anim "kipic" .fx "" .targchestfx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
-combat_skill: .id "gash" .icon "five" .anim "attack_claw" .fx "" .targchestfx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "gash" .icon "five" .anim "gash" .fx "" .targchestfx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "dare" .icon "six" .anim "dare" .fx "" .targchestfx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1 .nil true 
 combat_skill: .id "hearken" .icon "four" .anim "hearken" .fx "" .targfx "" .condensed_tooltip_stats true  .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "heeder" .icon "seven" .anim "heeder" .fx "" .can_display_performer_selection_after_turn false .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
