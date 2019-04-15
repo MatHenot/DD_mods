@@ -15,15 +15,16 @@
 	<entry id="town_event_title_idle_resolve_level_thorn"><![CDATA[Street Show]]></entry>
 	<entry id="town_event_description_idle_resolve_level_thorn"><![CDATA[It is a strange and enticing music on which serpents rise and undulate, possessed by an invisible power.]]></entry>
 	
-	<entry id="str_inventory_title_trinketthorn_ancient_knowledge"><![CDATA[Ancient Knowledge]]></entry>
-	<entry id="str_inventory_title_trinketthorn_fabric_strap"><![CDATA[Fabric Strap]]></entry>
-	<entry id="str_inventory_title_trinketthorn_reptilian_plates"><![CDATA[Scales Tattoo]]></entry>
-	<entry id="str_inventory_title_trinketthorn_used_gloves"><![CDATA[Used Gloves]]></entry>
-	<entry id="str_inventory_title_trinketthorn_vision_pendant"><![CDATA[Vision Pendant]]></entry>
-	<entry id="str_inventory_set_title_cc_thorn"><![CDATA["Entailment and Devotion."]]></entry>
-	<entry id="str_inventory_title_trinketthorn_master_correspondence"><![CDATA[The Master's Correspondence]]></entry>
-	<entry id="str_inventory_title_trinketthorn_melody"><![CDATA[Melody]]></entry>
-	<entry id="str_inventory_title_trinketthorn_cristal_pendant"><![CDATA[Crystal Pendant]]></entry>
+	<entry id="str_inventory_title_trinketthorn_mechanism"><![CDATA[Braille Mechanism]]></entry>
+	<entry id="str_inventory_title_trinketthorn_potpourri"><![CDATA[Potpourri]]></entry>
+	<entry id="str_inventory_title_trinketthorn_maingauche"><![CDATA[Main Gauche]]></entry>
+	<entry id="str_inventory_title_trinketthorn_fencers_precepts"><![CDATA[Fencer's Precepts]]></entry>
+	<entry id="str_inventory_title_trinketthorn_adorned_sheath"><![CDATA[Adorned Sheath]]></entry>
+	<entry id="str_inventory_set_title_cc_thorn"><![CDATA["In the service of Milady."]]></entry>
+	<entry id="str_inventory_title_trinketthorn_rose_emblem"><![CDATA[Overblown Rose Emblem]]></entry>
+	<entry id="str_inventory_title_trinketthorn_rapier_guard"><![CDATA[Fine Rapier Guard]]></entry>
+	<entry id="str_inventory_title_trinketthorn_head"><![CDATA[Marlene's Head]]></entry>
+	<entry id="str_inventory_title_trinketthorn_black_obi"><![CDATA[Black Obi]]></entry>
 
     <entry id="actor_mode_name_offensive"><![CDATA[Offensive]]></entry>
     <entry id="actor_mode_name_dare"><![CDATA[Offensive]]></entry>

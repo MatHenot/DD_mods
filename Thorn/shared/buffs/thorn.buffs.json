@@ -32,7 +32,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : "offensive"
-         }
+         },
+		"fx": "transfofx2"
       },
 	  {
          "id" : "exit_riposte_gash",
@@ -48,7 +49,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : "gash"
-         }
+         },
+		"fx": "transfofx2"
       },
 	  {
          "id" : "exit_riposte_dare",
@@ -64,7 +66,56 @@
          "rule_data" : {
             "float" : 0,
             "string" : "dare"
-         }
+         },
+		"fx": "transfofx2"
+      },
+	  {
+         "id" : "transfofx_offensive",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "duration_type" : "before_turn",
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "offensive"
+         },
+		"fx": "transfofx2"
+      },
+	  {
+         "id" : "transfofx_gash",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "duration_type" : "before_turn",
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "offensive"
+         },
+		"fx": "transfofx2"
+      },
+	  {
+         "id" : "transfofx_dare",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "duration_type" : "before_turn",
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "offensive"
+         },
+		"fx": "transfofx2"
       },
 	  
       {
@@ -310,7 +361,7 @@
          "id" : "Hearken Heal Debuff",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
-         "amount" : -100,
+         "amount" : -500,
 		 "duration_type" : "before_turn",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -411,38 +462,10 @@
 	  },
 	  
 	  {
-         "id" : "Gash Dodge 1",
+         "id" : "Gash Dodge",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.05,
-         "duration" : 2,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "gash"
-         }
-	  },
-	  {
-         "id" : "Gash Dodge 2",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.08,
-         "duration" : 2,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "gash"
-         }
-	  },
-	  {
-         "id" : "Gash Dodge 3",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.10,
          "duration" : 2,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
@@ -467,6 +490,167 @@
             "string" : "dare"
 		 },
 		 "is_clear_debuff_valid": false
-	  } 
+	  } ,
+	  
+	  
+	  
+      {
+         "id" : "T_Mecanism",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "trap",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "T_Fencer_Bleed_Duration",
+         "stat_type" : "hp_dot_bleed_duration_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "T_Sheath_Riposte_StressHeal",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "T_Riposte_StressHeal",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "T_Sheath_StressHeal_Debuff",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "hero_skill",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },	  
+	  {
+         "id" : "T_RoseEmblem_Guard",
+         "stat_type" : "guard_duration_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "T_RapierGuard_Pierce",
+         "stat_type" : "ignore_protection",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+		 "id": "T_Head_RiposteL",
+		 "stat_type": "combat_stat_multiply",
+		 "stat_sub_type": "damage_low",
+		 "amount": 0.30,
+		 "remove_if_not_active": false,
+		 "rule_type": "riposte",
+		 "is_false_rule": false,
+		 "rule_data": {
+			"float": 0,
+			"string": ""
+		 }
+	  },
+	  {
+		 "id": "T_Head_RiposteH",
+		 "stat_type": "combat_stat_multiply",
+		 "stat_sub_type": "damage_low",
+		 "amount": 0.30,
+		 "remove_if_not_active": false,
+		 "rule_type": "riposte",
+		 "is_false_rule": false,
+		 "rule_data": {
+			"float": 0,
+			"string": ""
+		 }
+	  },
+	  {
+		 "id": "T_Obi_RiposteL",
+		 "stat_type": "combat_stat_multiply",
+		 "stat_sub_type": "damage_low",
+		 "amount": 0.20,
+		 "remove_if_not_active": false,
+		 "rule_type": "riposte",
+		 "is_false_rule": false,
+		 "rule_data": {
+			"float": 0,
+			"string": ""
+		 }
+	  },
+	  {
+		 "id": "T_Obi_RiposteH",
+		 "stat_type": "combat_stat_multiply",
+		 "stat_sub_type": "damage_low",
+		 "amount": 0.20,
+		 "remove_if_not_active": false,
+		 "rule_type": "riposte",
+		 "is_false_rule": false,
+		 "rule_data": {
+			"float": 0,
+			"string": ""
+		 }
+	  },
+      {
+         "id" : "T_Obi_Dodge",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "firstroundonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "T_CC_Reflect",
+         "stat_type" : "damage_reflect_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }  
+	  
+
    ]
 }

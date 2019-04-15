@@ -1,6 +1,188 @@
 {
    "entries":
    [
+      {
+         "id" : "thorn_mechanism",
+         "buffs" : 
+         [
+			"T_Mecanism"
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "thorn_potpourri",
+         "buffs" : 
+         [
+            "TRINKET_HEALDONE_B3",
+			"PROT-10"
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "thorn_maingauche",
+         "buffs" : 
+         [
+            "ACC-15"
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+        [
+            "T_Miss_Bleed"
+        ]
+      },
+      {
+         "id" : "thorn_fencers_precepts",
+         "buffs" : 
+         [
+            "T_Fencer_Bleed_Duration",
+			"BLEEDSKILL20",
+			"MAXHP-15"
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "thorn_adorned_sheath",
+         "buffs" : 
+         [
+            "SPD2",
+			"T_Sheath_Riposte_StressHeal",
+			"T_Sheath_StressHeal_Debuff"
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
 
+	  {
+		"id" : "thorn_rose_emblem",
+		"buffs" : 
+         [
+            "T_RoseEmblem_Guard",
+            "PROT10",
+            "STRESSDMG10"
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+		 "set_id" : "cc_thorn",
+         "rarity" : "crimson_court",
+         "price" : 50000, 
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+	  },	
+	  {
+		"id" : "thorn_rapier_guard",
+		"buffs" : 
+         [
+			"T_RapierGuard_Pierce",
+			"DEF10",
+			"SPD-2"
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+         "set_id" : "cc_thorn",
+         "rarity" : "crimson_court",
+         "price" : 50000, 
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+	  },
+	  
+	  {
+		"id" : "thorn_bell",
+		"buffs" : 
+         [
+			"DMGH-20",
+			"DMGL-20",
+			"RESOLVECHECK10"
+         ],
+         "hero_class_requirements":
+         [
+            "thorn"
+         ],
+         "rarity" : "comet",
+         "shard" : 110,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+		[
+            "T_Block"
+        ]
+      },
+
+      {
+         "id" : "thorn_head",
+         "buffs" : 
+         [
+			"T_Head_RiposteL",
+			"T_Head_RiposteH",
+			"STRESSDMG20"
+         ],
+         "hero_class_requirements":
+         [	 
+         ],
+         "rarity" : "collector",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+	  
+	  {
+		 "id" : "thorn_black_obi",
+		 "buffs": 
+		 [
+			"T_Obi_RiposteL",
+			"T_Obi_RiposteH",
+			"SPDFIRSTROUND8",
+			"T_Obi_Dodge"
+			
+		 ],
+		 "hero_class_requirements": [
+			"thorn"
+		 ],
+		 "rarity" : "sakura",
+		 "price" : 30000,
+		 "limit" : 1,
+		 "origin_dungeon" : "ship",
+		 "friendly_skill_additional_effects": [
+			"SC T shinobue Buff",
+			"SC T shinobue ToolTip"
+		]
+	  }
    ]
 }
