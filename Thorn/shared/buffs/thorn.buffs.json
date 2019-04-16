@@ -32,8 +32,7 @@
          "rule_data" : {
             "float" : 0,
             "string" : "offensive"
-         },
-		"fx": "transfofx2"
+         }
       },
 	  {
          "id" : "exit_riposte_gash",
@@ -49,8 +48,7 @@
          "rule_data" : {
             "float" : 0,
             "string" : "gash"
-         },
-		"fx": "transfofx2"
+         }
       },
 	  {
          "id" : "exit_riposte_dare",
@@ -66,54 +64,21 @@
          "rule_data" : {
             "float" : 0,
             "string" : "dare"
-         },
-		"fx": "transfofx2"
+         }
       },
 	  {
-         "id" : "transfofx_offensive",
-         "stat_type" : "upgrade_discount",
+         "id" : "transfofx",
+         "stat_type" : "status",
          "stat_sub_type" : "",
-         "amount" : 1,
-         "duration_type" : "before_turn",
+         "amount" : 0,
+         "duration_type" : "combat_end",
          "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
-         "is_false_rule" : false,
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
-         },
-		"fx": "transfofx2"
-      },
-	  {
-         "id" : "transfofx_gash",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "",
-         "amount" : 1,
-         "duration_type" : "before_turn",
-         "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
-         },
-		"fx": "transfofx2"
-      },
-	  {
-         "id" : "transfofx_dare",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "",
-         "amount" : 1,
-         "duration_type" : "before_turn",
-         "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "offensive"
+            "string" : "defensive"
          },
 		"fx": "transfofx2"
       },
