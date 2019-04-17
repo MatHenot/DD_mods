@@ -37,7 +37,7 @@ effect: .name "thorn Add turn" .target "performer" .curio_result_type "positive"
 //Transformation end by hit
 
 effect: .name "thorn hit received" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "exit_riposte_offensive" "exit_riposte_gash" "exit_riposte_dare" .on_hit true .on_miss true .apply_once true
-effect: .name "Hit switch to Defensive" .target "performer" .chance 100% .set_mode defensive .untag 1 .clear_riposte 1 .stress 7 .on_hit true .on_miss true .queue true
+effect: .name "Hit switch to Defensive" .target "performer" .chance 33% .set_mode defensive .untag 1 .clear_riposte 1 .stress 7 .on_hit true .on_miss true .queue true
 
 
 

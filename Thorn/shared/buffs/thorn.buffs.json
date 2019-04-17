@@ -342,7 +342,7 @@
          "id" : "Hearken Heal Buff",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
-         "amount" : 100,
+         "amount" : 500,
 		 "duration_type" : "before_turn",
 		 "duration" : 1,
          "remove_if_not_active" : true,
