@@ -1,13 +1,20 @@
 
 thorn.sprite.thrustfx.png
-size: 1390,489
+size: 2846,404
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/highwayman.sprite.opened_vein
+./images/bounty_hunter.sprite.finish_him
+  rotate: false
+  xy: 1639, 150
+  size: 1205, 252
+  orig: 1205, 252
+  offset: 0, 0
+  index: -1
+./images/thrust offensive fx
   rotate: false
   xy: 2, 2
-  size: 1386, 485
-  orig: 1386, 485
+  size: 1635, 400
+  orig: 1635, 400
   offset: 0, 0
   index: -1
