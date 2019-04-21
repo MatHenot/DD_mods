@@ -459,10 +459,10 @@
 	  
 	  
 	  
-      {
-         "id" : "T_Mecanism",
-         "stat_type" : "resistance",
-         "stat_sub_type" : "trap",
+	  {
+         "id" : "T_Maingauche_Riposte",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "T_Miss_Bleed",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -476,7 +476,7 @@
          "id" : "T_Fencer_Bleed_Duration",
          "stat_type" : "hp_dot_bleed_duration_percent",
          "stat_sub_type" : "",
-         "amount" : 0.5,
+         "amount" : 0.3,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -486,7 +486,7 @@
          }
       },
 	  {
-         "id" : "T_Sheath_Riposte_StressHeal",
+         "id" : "T_Signet_Riposte_StressHeal",
          "stat_type" : "riposte",
          "stat_sub_type" : "T_Riposte_StressHeal",
          "amount" : 1,
@@ -499,10 +499,10 @@
          }
       },
 	  {
-         "id" : "T_Sheath_StressHeal_Debuff",
+         "id" : "T_Signet_StressHeal_Debuff",
          "stat_type" : "stress_heal_received_percent",
-         "stat_sub_type" : "hero_skill",
-         "amount" : -1,
+         "stat_sub_type" : "effect",
+         "amount" : -0.5,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -553,7 +553,7 @@
 	  {
 		 "id": "T_Head_RiposteH",
 		 "stat_type": "combat_stat_multiply",
-		 "stat_sub_type": "damage_low",
+		 "stat_sub_type": "damage_high",
 		 "amount": 0.30,
 		 "remove_if_not_active": false,
 		 "rule_type": "riposte",
@@ -579,7 +579,7 @@
 	  {
 		 "id": "T_Obi_RiposteH",
 		 "stat_type": "combat_stat_multiply",
-		 "stat_sub_type": "damage_low",
+		 "stat_sub_type": "damage_high",
 		 "amount": 0.20,
 		 "remove_if_not_active": false,
 		 "rule_type": "riposte",
@@ -606,7 +606,7 @@
          "id" : "T_CC_Reflect",
          "stat_type" : "damage_reflect_percent",
          "stat_sub_type" : "",
-         "amount" : 0.30,
+         "amount" : 0.40,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

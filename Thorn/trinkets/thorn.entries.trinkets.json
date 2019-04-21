@@ -2,10 +2,11 @@
    "entries":
    [
       {
-         "id" : "thorn_mechanism",
+         "id" : "thorn_headband",
          "buffs" : 
          [
-			"T_Mecanism"
+			"DEF5",
+			"DEBUFFRESIST15"
          ],
          "hero_class_requirements":
          [
@@ -36,7 +37,8 @@
          "id" : "thorn_maingauche",
          "buffs" : 
          [
-            "ACC-15"
+            "ACC-20",
+			"T_Maingauche_Riposte"
          ],
          "hero_class_requirements":
          [
@@ -57,7 +59,9 @@
          [
             "T_Fencer_Bleed_Duration",
 			"BLEEDSKILL20",
+			"T_Fencer_ToolTip",
 			"MAXHP-15"
+
          ],
          "hero_class_requirements":
          [
@@ -66,15 +70,21 @@
          "rarity" : "very_rare",
          "price" : 25000,
          "limit" : 0,
-         "origin_dungeon" : ""
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+        [
+            "T_Clear_Riposte"
+        ]
       },
       {
-         "id" : "thorn_adorned_sheath",
+         "id" : "thorn_signet_ring",
          "buffs" : 
          [
             "SPD2",
-			"T_Sheath_Riposte_StressHeal",
-			"T_Sheath_StressHeal_Debuff"
+			"RESOLVECHECK10",
+			"T_Signet_Riposte_StressHeal",
+			"T_Signet_ToolTip",
+			"T_Signet_StressHeal_Debuff"
          ],
          "hero_class_requirements":
          [
@@ -91,7 +101,7 @@
 		"buffs" : 
          [
             "T_RoseEmblem_Guard",
-            "PROT10",
+            "MAXHP10",
             "STRESSDMG10"
          ],
          "hero_class_requirements":
@@ -129,14 +139,15 @@
          [
 			"DMGH-20",
 			"DMGL-20",
-			"RESOLVECHECK10"
+			"ACC10"
+
          ],
          "hero_class_requirements":
          [
             "thorn"
          ],
          "rarity" : "comet",
-         "shard" : 110,
+         "shard" : 80,
          "limit" : 1,
          "origin_dungeon" : "",
 		 "kill_performer_additional_effects":
@@ -178,11 +189,7 @@
 		 "rarity" : "sakura",
 		 "price" : 30000,
 		 "limit" : 1,
-		 "origin_dungeon" : "ship",
-		 "friendly_skill_additional_effects": [
-			"SC T shinobue Buff",
-			"SC T shinobue ToolTip"
-		]
+		 "origin_dungeon" : "ship"
 	  }
    ]
 }

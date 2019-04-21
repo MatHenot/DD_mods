@@ -15,14 +15,15 @@
 	<entry id="town_event_title_idle_resolve_level_thorn"><![CDATA[Street Show]]></entry>
 	<entry id="town_event_description_idle_resolve_level_thorn"><![CDATA[It is a strange and enticing music on which serpents rise and undulate, possessed by an invisible power.]]></entry>
 	
-	<entry id="str_inventory_title_trinketthorn_mechanism"><![CDATA[Braille Mechanism]]></entry>
+	<entry id="str_inventory_title_trinketthorn_headband"><![CDATA[Headband]]></entry>
 	<entry id="str_inventory_title_trinketthorn_potpourri"><![CDATA[Potpourri]]></entry>
 	<entry id="str_inventory_title_trinketthorn_maingauche"><![CDATA[Main Gauche]]></entry>
 	<entry id="str_inventory_title_trinketthorn_fencers_precepts"><![CDATA[Fencer's Precepts]]></entry>
-	<entry id="str_inventory_title_trinketthorn_adorned_sheath"><![CDATA[Adorned Sheath]]></entry>
+	<entry id="str_inventory_title_trinketthorn_signet_ring"><![CDATA[Loner's Signet Ring]]></entry>
 	<entry id="str_inventory_set_title_cc_thorn"><![CDATA["In the service of Milady."]]></entry>
-	<entry id="str_inventory_title_trinketthorn_rose_emblem"><![CDATA[Overblown Rose Emblem]]></entry>
+	<entry id="str_inventory_title_trinketthorn_rose_emblem"><![CDATA[Overblown Emblem]]></entry>
 	<entry id="str_inventory_title_trinketthorn_rapier_guard"><![CDATA[Fine Rapier Guard]]></entry>
+	<entry id="str_inventory_title_trinketthorn_bell"><![CDATA[Shattered Bell]]></entry>	
 	<entry id="str_inventory_title_trinketthorn_head"><![CDATA[Marlene's Head]]></entry>
 	<entry id="str_inventory_title_trinketthorn_black_obi"><![CDATA[Black Obi]]></entry>
 
@@ -154,7 +155,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
 	{colour_start|notable}Valid in Offensive mode{colour_end}]]></entry>
 
-
+	<entry id="buff_stat_tooltip_upgrade_discount_T_Fencer"><![CDATA[On Skill Hit: Cancels {colour_start|riposte}Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|stress}Stress{colour_end} -5]]></entry>
 
 		
     <entry id="thorn+str_afflicted_fearful"><![CDATA[This trip was pure madness!]]></entry>
