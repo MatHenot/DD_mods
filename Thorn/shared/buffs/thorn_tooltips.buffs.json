@@ -1084,6 +1084,33 @@
          "stat_sub_type" : "OffModeValid",
          "amount" : -1,
          "remove_if_not_active" : false,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  
+	  {
+         "id" : "T_Fencer_ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "T_Fencer",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "T_Signet_ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "T_Signet",
+         "amount" : -1,
+         "remove_if_not_active" : true,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {

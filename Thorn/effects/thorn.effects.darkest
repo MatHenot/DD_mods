@@ -82,11 +82,11 @@ effect: .name "Kipik Def Debuff 3" .target "target" .curio_result_type "negative
 effect: .name "Kipik Def Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .buff_ids "Kipik Debuff PRE 2" "Kipik Debuff DmgH 2" "Kipik Debuff DmgL 2" .on_hit true .on_miss false .individual_target_actor_rolls true .has_description false
 effect: .name "Kipik Def Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .buff_ids "Kipik Debuff PRE 3" "Kipik Debuff DmgH 3" "Kipik Debuff DmgL 3" .on_hit true .on_miss false .individual_target_actor_rolls true .has_description false
 
-effect: .name "Kipik Bleed 1" .target "target_group_other" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 100% .on_hit true .on_miss true .individual_target_actor_rolls true .has_description false
-effect: .name "Kipik Bleed 2" .target "target_group_other" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 110% .on_hit true .on_miss true .individual_target_actor_rolls true .has_description false
-effect: .name "Kipik Bleed 3" .target "target_group_other" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 120% .on_hit true .on_miss true .individual_target_actor_rolls true .has_description false
-effect: .name "Kipik Bleed 4" .target "target_group_other" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 130% .on_hit true .on_miss true .individual_target_actor_rolls true .has_description false
-effect: .name "Kipik Bleed 5" .target "target_group_other" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .on_hit true .on_miss true .individual_target_actor_rolls true .has_description false
+effect: .name "Kipik Bleed 1" .target "target_group_other" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 100% .on_hit true .on_miss true .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Kipik Bleed 2" .target "target_group_other" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 110% .on_hit true .on_miss true .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Kipik Bleed 3" .target "target_group_other" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 120% .on_hit true .on_miss true .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Kipik Bleed 4" .target "target_group_other" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 130% .on_hit true .on_miss true .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Kipik Bleed 5" .target "target_group_other" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .on_hit true .on_miss true .individual_target_actor_rolls true .can_apply_on_death true .has_description false
 
 effect: .name "Kipik Skill ToolTip 1" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Kipik Bleed Skill ToolTip 1" "Defensive Skill ToolTip" "Kipik Def Skill ToolTip 1" "Offensive Skill ToolTip" "Kipik Off Skill ToolTip 1" .on_hit true .on_miss true .skill_instant true
 effect: .name "Kipik Skill ToolTip 2" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Kipik Bleed Skill ToolTip 2" "Defensive Skill ToolTip" "Kipik Def Skill ToolTip 2" "Offensive Skill ToolTip" "Kipik Off Skill ToolTip 2" .on_hit true .on_miss true .skill_instant true
@@ -170,17 +170,17 @@ effect: .name "Heeder Mode ToolTip" .target "performer" .curio_result_type "posi
 
 effect: .name "switch to Gash" .target "performer" .set_mode gash .chance 100% .on_hit true .on_miss true .has_description false
 
-effect: .name "Gash Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 1" .on_hit true .on_miss true .has_description false
-effect: .name "Gash Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 2" .on_hit true .on_miss true .has_description false
-effect: .name "Gash Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 3" .on_hit true .on_miss true .has_description false
-effect: .name "Gash Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 4" .on_hit true .on_miss true .has_description false
-effect: .name "Gash Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 5" .on_hit true .on_miss true .has_description false
+effect: .name "Gash Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 1" .on_hit true .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Gash Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 2" .on_hit true .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Gash Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 3" .on_hit true .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Gash Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 4" .on_hit true .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Gash Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 5" .on_hit true .on_miss true .can_apply_on_death true .has_description false
 
-effect: .name "Gash Bleed 1" .target "target" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 100% .on_hit true .on_miss false
-effect: .name "Gash Bleed 2" .target "target" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 110% .on_hit true .on_miss false
-effect: .name "Gash Bleed 3" .target "target" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 120% .on_hit true .on_miss false
-effect: .name "Gash Bleed 4" .target "target" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 130% .on_hit true .on_miss false
-effect: .name "Gash Bleed 5" .target "target" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .on_hit true .on_miss false
+effect: .name "Gash Bleed 1" .target "target" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 100% .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Bleed 2" .target "target" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 110% .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Bleed 3" .target "target" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 120% .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Bleed 4" .target "target" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 130% .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Bleed 5" .target "target" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .on_hit true .on_miss false .can_apply_on_death true 
 
 effect: .name "Gash Dodge" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge" .on_hit true .on_miss true .has_description false
 
@@ -228,6 +228,7 @@ effect: .name "Dare Mode ToolTip" .target "performer_group_other" .curio_result_
 //--------------------TRINKETS--------------------
 
 
-effect: .name "T_Miss_Bleed" .target "target" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .on_hit false .on_miss true
-effect: .name "T_Riposte_StressHeal" .target "performer" .curio_result_type "positive" .chance 100% .healstress 4 .on_hit true .on_miss false
+effect: .name "T_Miss_Bleed" .target "target" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .on_hit false .on_miss true .can_apply_on_death true 
+effect: .name "T_Clear_Riposte" .target "target" .chance 100% .clear_riposte 1 .on_hit true .on_miss false .apply_once true
+effect: .name "T_Riposte_StressHeal" .target "performer" .curio_result_type "positive" .chance 100% .healstress 10 .on_hit true .on_miss false
 effect: .name "T_Block" .target performer .chance 100% .health_damage_blocks 1 .on_hit true .on_miss false .queue true
