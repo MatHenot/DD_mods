@@ -43,7 +43,7 @@
 	
 	<entry id="combat_skill_name_thorn_stance"><![CDATA[Fencer Stance]]></entry>
     <entry id="combat_skill_name_thorn_thrust"><![CDATA[Thrust]]></entry>
-    <entry id="combat_skill_name_thorn_hearken"><![CDATA[Hearken]]></entry>
+    <entry id="combat_skill_name_thorn_blossom"><![CDATA[Blossom]]></entry>
     <entry id="combat_skill_name_thorn_heeder"><![CDATA[Heeder]]></entry>
     <entry id="combat_skill_name_thorn_gash"><![CDATA[Gash]]></entry>
     <entry id="combat_skill_name_thorn_dare"><![CDATA[Dare]]></entry>
@@ -52,7 +52,7 @@
     <entry id="upgrade_tree_name_thorn.stance"><![CDATA[Fencer Stance]]></entry>
     <entry id="upgrade_tree_name_thorn.thrust"><![CDATA[Thrust]]></entry>
     <entry id="upgrade_tree_name_thorn.kipik"><![CDATA[Kipik]]></entry>
-    <entry id="upgrade_tree_name_thorn.hearken"><![CDATA[Hearken]]></entry>
+    <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[Blossom]]></entry>
     <entry id="upgrade_tree_name_thorn.heeder"><![CDATA[Heeder]]></entry>
     <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Gash]]></entry>
     <entry id="upgrade_tree_name_thorn.dare"><![CDATA[Dare]]></entry>
@@ -78,8 +78,8 @@
 
 
 
-
-	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Healing Received from Skills]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Received]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
 	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
@@ -133,11 +133,11 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_KipikOffensive3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
 	+10%% Crits / +50%% {colour_start|bleed}Bleed{colour_end} Amount Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 
-	<entry id="buff_stat_tooltip_upgrade_discount_Hearken1"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom1"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
 	{colour_start|healhp}Heal{colour_end} 3 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Hearken2"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom2"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
 	{colour_start|healhp}Heal{colour_end} 4 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Hearken3"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom3"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
 	{colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Heeder"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>

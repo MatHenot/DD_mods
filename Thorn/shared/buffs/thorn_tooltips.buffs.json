@@ -577,9 +577,9 @@
 
 
 	  {
-         "id" : "Hearken ToolTip 1",
+         "id" : "Blossom ToolTip 1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "Hearken1",
+         "stat_sub_type" : "Blossom1",
          "amount" : 0.03,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -590,9 +590,9 @@
          }
 	  }, 
 	  {
-         "id" : "Hearken ToolTip 2",
+         "id" : "Blossom ToolTip 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "Hearken2",
+         "stat_sub_type" : "Blossom2",
          "amount" : 0.04,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -603,9 +603,9 @@
          }
 	  },
 	  {
-         "id" : "Hearken ToolTip 3",
+         "id" : "Blossom ToolTip 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "Hearken3",
+         "stat_sub_type" : "Blossom3",
          "amount" : 0.05,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -616,7 +616,7 @@
          }
 	  },
 	  {
-         "id" : "Hearken Mode ToolTip",
+         "id" : "Blossom Mode ToolTip",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "DefModeValid",
          "amount" : 1,

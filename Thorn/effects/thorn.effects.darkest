@@ -99,41 +99,41 @@ effect: .name "Kipik Skill ToolTip 5" .target "performer" .curio_result_type "ne
 //--------------------DEFENSIVE--------------------
 
 
-//Hearken
+//Blossom
 
 
-effect: .name "Hearken Prot 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 1" .on_hit true .on_miss true .has_description false
-effect: .name "Hearken Prot 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 2" .on_hit true .on_miss true .has_description false
-effect: .name "Hearken Prot 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 3" .on_hit true .on_miss true .has_description false
-effect: .name "Hearken Prot 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 4" .on_hit true .on_miss true .has_description false
-effect: .name "Hearken Prot 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 5" .on_hit true .on_miss true .has_description false
+effect: .name "Blossom Prot 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 1" .on_hit true .on_miss true .has_description false
+effect: .name "Blossom Prot 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 2" .on_hit true .on_miss true .has_description false
+effect: .name "Blossom Prot 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 3" .on_hit true .on_miss true .has_description false
+effect: .name "Blossom Prot 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 4" .on_hit true .on_miss true .has_description false
+effect: .name "Blossom Prot 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 5" .on_hit true .on_miss true .has_description false
 
-effect: .name "Hearken Fake Prot 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit false .on_miss true 
-effect: .name "Hearken Fake Prot 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 13% .on_hit false .on_miss true 
-effect: .name "Hearken Fake Prot 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 17% .on_hit false .on_miss true 
-effect: .name "Hearken Fake Prot 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 21% .on_hit false .on_miss true 
-effect: .name "Hearken Fake Prot 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 25% .on_hit false .on_miss true 
+effect: .name "Blossom Fake Prot 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit false .on_miss true 
+effect: .name "Blossom Fake Prot 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 13% .on_hit false .on_miss true 
+effect: .name "Blossom Fake Prot 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 17% .on_hit false .on_miss true 
+effect: .name "Blossom Fake Prot 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 21% .on_hit false .on_miss true 
+effect: .name "Blossom Fake Prot 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 25% .on_hit false .on_miss true 
 
-effect: .name "Hearken Heal 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .apply_once true
-effect: .name "Hearken Heal 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .apply_once true
-effect: .name "Hearken Heal 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
-effect: .name "Hearken Heal 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
-effect: .name "Hearken Heal 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 5 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Heal 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Heal 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Heal 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Heal 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Heal 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 5 .on_hit true .on_miss false .apply_once true
 
-effect: .name "Hearken Heal Debuff" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "Hearken Heal Debuff" .buff_source_type hero_skill .on_hit true .on_miss false .has_description false
-effect: .name "Hearken Heal Buff" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "Hearken Heal Buff" .buff_source_type hero_skill .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Debuff" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "Blossom Heal Debuff" .buff_source_type hero_skill .on_hit true .on_miss false .has_description false
+effect: .name "Blossom Heal Buff" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "Blossom Heal Buff" .buff_source_type hero_skill .on_hit true .on_miss false .queue true .has_description false
 
-effect: .name "Hearken Heal Guarded 1" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Hearken Heal Guarded 2" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Hearken Heal Guarded 3" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Hearken Heal Guarded 4" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Hearken Heal Guarded 5" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guarded 1" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guarded 2" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guarded 3" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guarded 4" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guarded 5" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .has_description false
 
-effect: .name "Hearken ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Hearken ToolTip 1" .on_hit false .on_miss true
-effect: .name "Hearken ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Hearken ToolTip 2" .on_hit false .on_miss true
-effect: .name "Hearken ToolTip 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Hearken ToolTip 3" .on_hit false .on_miss true
+effect: .name "Blossom ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Blossom ToolTip 1" .on_hit false .on_miss true
+effect: .name "Blossom ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Blossom ToolTip 2" .on_hit false .on_miss true
+effect: .name "Blossom ToolTip 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Blossom ToolTip 3" .on_hit false .on_miss true
 
-effect: .name "Hearken Mode ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Hearken Mode ToolTip" .on_hit false .on_miss true .skill_instant true
+effect: .name "Blossom Mode ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Blossom Mode ToolTip" .on_hit false .on_miss true .skill_instant true
 
 //Heeder
 
