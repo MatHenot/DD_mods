@@ -219,8 +219,8 @@ monsters/rat_whip_bone/rat_whip_bone_C/rat_whip_bone_C.info.darkest 954
 monsters/rat_whip_bone/rat_whip_bone_C/tint.png 7495
 panels/icons_equip/trinket/inv_trinket+rat_king_claw.png 25437
 panels/icons_equip/trinket/inv_trinket+rat_king_heads.png 26927
-panels/icons_equip/trinket/inv_trinket+rat_king_heart.png 23865
-panels/icons_equip/trinket/inv_trinket+rat_king_tails.png 25800
+panels/icons_equip/trinket/inv_trinket+rat_king_heart.png 42099
+panels/icons_equip/trinket/inv_trinket+rat_king_tails.png 44025
 panels/icons_equip/trinket/rarity_rats.png 31086
 audio/secondary_banks/enemy_rats.bank 10839904
 dungeons/_shared/rats_sewer.png 1143711
