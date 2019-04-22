@@ -78,8 +78,8 @@
 
 
 
-
-	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Amount Received]]></entry>
+    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Healing Received from Skills]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Received]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
 	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>

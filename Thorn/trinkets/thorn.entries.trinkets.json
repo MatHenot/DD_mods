@@ -137,9 +137,9 @@
 		"id" : "thorn_bell",
 		"buffs" : 
          [
+			"ACC10",
 			"DMGH-20",
-			"DMGL-20",
-			"ACC10"
+			"DMGL-20"
 
          ],
          "hero_class_requirements":
@@ -147,7 +147,7 @@
             "thorn"
          ],
          "rarity" : "comet",
-         "shard" : 80,
+         "shard" : 90,
          "limit" : 1,
          "origin_dungeon" : "",
 		 "kill_performer_additional_effects":
@@ -162,6 +162,7 @@
          [
 			"T_Head_RiposteL",
 			"T_Head_RiposteH",
+			"T_Head_Crit",
 			"STRESSDMG20"
          ],
          "hero_class_requirements":
@@ -180,6 +181,7 @@
 			"T_Obi_RiposteL",
 			"T_Obi_RiposteH",
 			"SPDFIRSTROUND8",
+			"T_Obi_Dodge_First",
 			"T_Obi_Dodge"
 			
 		 ],
