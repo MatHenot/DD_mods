@@ -1,0 +1,27 @@
+
+thorn.sprite.gash_fx.png
+size: 2043,405
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3bras
+  rotate: false
+  xy: 1004, 104
+  size: 1037, 299
+  orig: 1037, 299
+  offset: 0, 0
+  index: -1
+ombrebras
+  rotate: false
+  xy: 1004, 2
+  size: 862, 100
+  orig: 862, 100
+  offset: 0, 0
+  index: -1
+outline
+  rotate: false
+  xy: 2, 6
+  size: 1000, 397
+  orig: 1000, 397
+  offset: 0, 0
+  index: -1
