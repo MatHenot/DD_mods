@@ -1,0 +1,69 @@
+
+thorn.sprite.dare_fx.png
+size: 4081,981
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Rectangle 1 copie 4
+  rotate: true
+  xy: 2, 92
+  size: 887, 1156
+  orig: 887, 1156
+  offset: 0, 0
+  index: -1
+epeeline
+  rotate: false
+  xy: 3749, 231
+  size: 243, 339
+  orig: 243, 339
+  offset: 0, 0
+  index: -1
+epeestark
+  rotate: true
+  xy: 3994, 484
+  size: 86, 85
+  orig: 86, 85
+  offset: 0, 0
+  index: -1
+lightperso
+  rotate: false
+  xy: 2150, 3
+  size: 827, 976
+  orig: 827, 976
+  offset: 0, 0
+  index: -1
+petal1
+  rotate: false
+  xy: 3749, 572
+  size: 326, 407
+  orig: 326, 407
+  offset: 0, 0
+  index: -1
+petal2
+  rotate: true
+  xy: 3749, 73
+  size: 156, 208
+  orig: 156, 208
+  offset: 0, 0
+  index: -1
+ray1
+  rotate: false
+  xy: 2979, 29
+  size: 365, 950
+  orig: 365, 950
+  offset: 0, 0
+  index: -1
+ray2
+  rotate: false
+  xy: 3346, 88
+  size: 401, 891
+  orig: 401, 891
+  offset: 0, 0
+  index: -1
+shadowperso
+  rotate: false
+  xy: 1160, 2
+  size: 988, 977
+  orig: 988, 977
+  offset: 0, 0
+  index: -1
