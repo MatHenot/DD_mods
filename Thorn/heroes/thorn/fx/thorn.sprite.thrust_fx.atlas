@@ -1,20 +1,20 @@
 
-thorn.sprite.thrustfx.png
-size: 1509,710
+thorn.sprite.thrust_fx.png
+size: 2782,495
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/bounty_hunter.sprite.finish_him
+bounty_hunter.sprite.finish_him
   rotate: false
-  xy: 2, 2
+  xy: 1575, 241
   size: 1205, 252
   orig: 1205, 252
   offset: 0, 0
   index: -1
-images/thrust offensive fx
+thrust offensive fx
   rotate: false
-  xy: 2, 256
-  size: 1505, 452
-  orig: 1505, 452
+  xy: 2, 2
+  size: 1571, 491
+  orig: 1571, 491
   offset: 0, 0
   index: -1
