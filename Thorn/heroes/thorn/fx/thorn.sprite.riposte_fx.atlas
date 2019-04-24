@@ -1,0 +1,48 @@
+
+thorn.sprite.riposte_fx.png
+size: 2522,1003
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+imagesfx/baseripostefx1
+  rotate: true
+  xy: 1288, 31
+  size: 456, 46
+  orig: 456, 46
+  offset: 0, 0
+  index: -1
+imagesfx/baseripsotefx2
+  rotate: false
+  xy: 1288, 704
+  size: 1232, 297
+  orig: 1232, 297
+  offset: 0, 0
+  index: -1
+imagesfx/dareripostefx
+  rotate: false
+  xy: 1697, 673
+  size: 458, 29
+  orig: 458, 29
+  offset: 0, 0
+  index: -1
+imagesfx/defripostefx
+  rotate: false
+  xy: 1336, 376
+  size: 112, 111
+  orig: 112, 111
+  offset: 0, 0
+  index: -1
+imagesfx/gash
+  rotate: false
+  xy: 2, 2
+  size: 1284, 999
+  orig: 1284, 999
+  offset: 0, 0
+  index: -1
+imagesfx/gashepee
+  rotate: false
+  xy: 1288, 489
+  size: 407, 213
+  orig: 407, 213
+  offset: 0, 0
+  index: -1
