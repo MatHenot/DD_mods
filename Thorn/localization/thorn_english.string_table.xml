@@ -10,8 +10,6 @@
   	
 	<entry id="town_event_title_first_thorn"><![CDATA[Snakes in Town]]></entry>
 	<entry id="town_event_description_first_thorn"><![CDATA[The Ancestor's correspondences have borne fruit. The serpents and their master join the hamlet, under the astonished eyes of the villagers.]]></entry>
-	<entry id="town_event_title_bonus_recruit_thorn"><![CDATA[Night Travelers]]></entry>
-	<entry id="town_event_description_bonus_recruit_thorn"><![CDATA[The night brings its share of surprises; among them, two individuals from the East, intrigued by a species of unknown snake.]]></entry>
 	<entry id="town_event_title_idle_resolve_level_thorn"><![CDATA[Street Show]]></entry>
 	<entry id="town_event_description_idle_resolve_level_thorn"><![CDATA[It is a strange and enticing music on which serpents rise and undulate, possessed by an invisible power.]]></entry>
 	
@@ -21,8 +19,8 @@
 	<entry id="str_inventory_title_trinketthorn_fencers_precepts"><![CDATA[Fencer's Precepts]]></entry>
 	<entry id="str_inventory_title_trinketthorn_signet_ring"><![CDATA[Loner's Signet Ring]]></entry>
 	<entry id="str_inventory_set_title_cc_thorn"><![CDATA["In the service of Milady."]]></entry>
-	<entry id="str_inventory_title_trinketthorn_rose_emblem"><![CDATA[Overblown Emblem]]></entry>
-	<entry id="str_inventory_title_trinketthorn_rapier_guard"><![CDATA[Fine Rapier Guard]]></entry>
+	<entry id="str_inventory_title_trinketthorn_rose_emblem"><![CDATA[Favourite's Emblem]]></entry>
+	<entry id="str_inventory_title_trinketthorn_rapier_guard"><![CDATA[Champion's Rapier Guard]]></entry>
 	<entry id="str_inventory_title_trinketthorn_bell"><![CDATA[Shattered Bell]]></entry>	
 	<entry id="str_inventory_title_trinketthorn_head"><![CDATA[Marlene's Head]]></entry>
 	<entry id="str_inventory_title_trinketthorn_black_obi"><![CDATA[Black Obi]]></entry>
@@ -47,11 +45,11 @@
     <entry id="combat_skill_name_thorn_heeder"><![CDATA[Heeder]]></entry>
     <entry id="combat_skill_name_thorn_gash"><![CDATA[Gash]]></entry>
     <entry id="combat_skill_name_thorn_dare"><![CDATA[Dare]]></entry>
-    <entry id="combat_skill_name_thorn_kipik"><![CDATA[kipik]]></entry>
+    <entry id="combat_skill_name_thorn_kipik"><![CDATA[Wilt]]></entry>
     <entry id="combat_skill_name_thorn_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_thorn.stance"><![CDATA[Fencer Stance]]></entry>
     <entry id="upgrade_tree_name_thorn.thrust"><![CDATA[Thrust]]></entry>
-    <entry id="upgrade_tree_name_thorn.kipik"><![CDATA[Kipik]]></entry>
+    <entry id="upgrade_tree_name_thorn.kipik"><![CDATA[Wilt]]></entry>
     <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[Blossom]]></entry>
     <entry id="upgrade_tree_name_thorn.heeder"><![CDATA[Heeder]]></entry>
     <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Gash]]></entry>
@@ -62,19 +60,19 @@
     <entry id="camping_skill_name_melody"><![CDATA[MELODY]]></entry>
     <entry id="camping_skill_name_reserve"><![CDATA[RESERVE]]></entry>
 	
-	<entry id="thorn_weapon_0"><![CDATA[Rusty Box]]></entry>
-    <entry id="thorn_weapon_1"><![CDATA[Rustic Box]]></entry>
-    <entry id="thorn_weapon_2"><![CDATA[Quality Box]]></entry>
-    <entry id="thorn_weapon_3"><![CDATA[Reinforced Box]]></entry>
-    <entry id="thorn_weapon_4"><![CDATA["Viper's Nest"]]></entry>
-    <entry id="upgrade_tree_name_thorn.weapon"><![CDATA[Snake Box]]></entry>
+	<entry id="thorn_weapon_0"><![CDATA[Combat Stick]]></entry>
+    <entry id="thorn_weapon_1"><![CDATA[Blunt Swordstick]]></entry>
+    <entry id="thorn_weapon_2"><![CDATA[Sharpened Cane Sword]]></entry>
+    <entry id="thorn_weapon_3"><![CDATA[Refined Cane Sword]]></entry>
+    <entry id="thorn_weapon_4"><![CDATA["Pathfinder"]]></entry>
+    <entry id="upgrade_tree_name_thorn.weapon"><![CDATA[Cane Sword]]></entry>
 
-    <entry id="thorn_armour_0"><![CDATA[Torn Scarf]]></entry>
-    <entry id="thorn_armour_1"><![CDATA[Used Scarf]]></entry>
-    <entry id="thorn_armour_2"><![CDATA[Solid Scarf]]></entry>
-    <entry id="thorn_armour_3"><![CDATA[Decorated Scarf]]></entry>
-    <entry id="thorn_armour_4"><![CDATA["The Moulting"]]></entry>
-    <entry id="upgrade_tree_name_thorn.armour"><![CDATA[Scarf]]></entry>
+    <entry id="thorn_armour_0"><![CDATA[Leather Vest]]></entry>
+    <entry id="thorn_armour_1"><![CDATA[Trellised Armor]]></entry>
+    <entry id="thorn_armour_2"><![CDATA[Ceremonial Attire]]></entry>
+    <entry id="thorn_armour_3"><![CDATA[Duelist Brigandine]]></entry>
+    <entry id="thorn_armour_4"><![CDATA["Queen's Glory"]]></entry>
+    <entry id="upgrade_tree_name_thorn.armour"><![CDATA[Leather Armor]]></entry>
 
 
 
