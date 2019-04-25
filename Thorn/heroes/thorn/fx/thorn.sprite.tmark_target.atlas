@@ -1,40 +1,47 @@
 
 thorn.sprite.tmark_target.png
-size: 743,440
+size: 1838,440
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 pik1
   rotate: false
-  xy: 550, 13
+  xy: 1603, 13
   size: 98, 101
   orig: 98, 101
   offset: 0, 0
   index: -1
 pik2
   rotate: false
-  xy: 449, 8
+  xy: 2, 77
   size: 99, 106
   orig: 99, 106
   offset: 0, 0
   index: -1
 pik3
   rotate: false
-  xy: 650, 10
+  xy: 103, 79
   size: 91, 104
   orig: 91, 104
   offset: 0, 0
   index: -1
+pikpik
+  rotate: false
+  xy: 2, 185
+  size: 1152, 253
+  orig: 1152, 253
+  offset: 0, 0
+  index: -1
 ring
   rotate: false
-  xy: 449, 116
+  xy: 1603, 116
   size: 233, 322
   orig: 233, 322
   offset: 0, 0
   index: -1
 splatter
   rotate: true
-  xy: 2, 2
+  xy: 1156, 2
   size: 436, 445
   orig: 436, 445
   offset: 0, 0
