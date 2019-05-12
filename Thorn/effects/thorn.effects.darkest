@@ -8,9 +8,6 @@ effect: .name "PRE vs Marked 1" .target "performer" .curio_result_type "positive
 effect: .name "PRE vs Marked 2" .target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.15 .on_hit true .on_miss false .skill_instant true
 effect: .name "PRE vs Marked 3" .target "performer" .curio_result_type "positive" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.20 .on_hit true .on_miss false .skill_instant true
 
-effect: .name "virtue A" .target "performer" .curio_result_type "positive" .chance 100% .healstress 200 .on_hit true .on_miss true
-effect: .name "virtue B" .target "performer" .curio_result_type "positive" .chance 100% .stress 100 .on_hit true .on_miss true .queue true
-
 //--------------------TRANSFORMATION--------------------
 
 
