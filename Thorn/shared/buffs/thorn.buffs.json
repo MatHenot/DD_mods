@@ -640,8 +640,219 @@
             "float" : 0,
             "string" : ""
          }
-      }  
-	  
+      },
 
+
+	  
+	  {
+         "id" : "C_Listen_Scout",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.5,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "C_Listen_P_Surprise",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "C_Listen_M_Surprise",
+         "stat_type" : "monsters_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "C_Fencer_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.10,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "meleeonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "C_Fencer_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.10,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "meleeonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "C_Fencer_Crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "meleeonly",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "C_Fencer_DEF",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "C_Ambush",
+         "stat_type" : "ambush_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.20,
+         "duration_type" : "round",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "C_Trust_76",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.03,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 76,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "C_Trust_51",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.03,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 51,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "C_Trust_26",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.03,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 26,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "C_Trust_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.03,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "C_Trust_MarkedDmg_L",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.2,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+	  {
+         "id" : "C_Trust_MarkedDmg_H",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+         "duration_type" : "combat_end",
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      }
    ]
 }

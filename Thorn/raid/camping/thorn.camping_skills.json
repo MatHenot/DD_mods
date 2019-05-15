@@ -130,12 +130,28 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "party",
+					"selection" : "self",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type": "buff",
-                    "sub_type" : "SC_C_BlightResist_Buff",
-					"amount" :  0.10
+                    "sub_type" : "C_Listen_Scout",
+					"amount" :  -0.20
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type": "buff",
+					"sub_type": "C_Listen_M_Surprise",
+					"amount" :  0.20
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1 }, 
+					"type" : "buff",
+					"sub_type" : "C_Listen_P_Surprise",
+					"amount" :  -0.2
 				}
 			],
 			"hero_classes" : ["thorn"],
@@ -158,33 +174,73 @@
 		{ 
 			"id" : "thorncamp2",
 			"level" : 0,
-			"cost" : 2,
+			"cost" : 5,
 			"use_limit" : 1,
 			"effects" :
 			[
 				{ 
 					"selection" : "individual",
 					"requirements" : [],
-					"chance" : { "code" : "a", "amount": 0.75 }, 
+					"chance" : { "code" : "a", "amount": 1 }, 
 					"type" : "buff",
-					"sub_type" : "SC_C_Crit_Buff",
+					"sub_type" : "C_Fencer_DMGL",
+					"amount" :  0.1
+				},
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1 }, 
+					"type" : "buff",
+					"sub_type" : "C_Fencer_DMGH",
+					"amount" :  0.1
+				},
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1 }, 
+					"type" : "buff",
+					"sub_type" : "C_Fencer_Crit",
+					"amount" :  0.05
+				},
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1 }, 
+					"type" : "buff",
+					"sub_type" : "C_Fencer_DEF",
+					"amount" :  0.05
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "e", "amount": 1 }, 
+					"type" : "buff",
+					"sub_type" : "C_Fencer_DMGL",
 					"amount" :  0.10
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "self",
 					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 0.75 }, 
+					"chance" : { "code" : "f", "amount": 1 }, 
 					"type" : "buff",
-					"sub_type" : "SC_C_Speed_Buff",
-					"amount" :  5
+					"sub_type" : "C_Fencer_DMGH",
+					"amount" :  0.10
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "self",
 					"requirements" : [],
-					"chance" : { "code" : "c", "amount": 0.50 }, 
+					"chance" : { "code" : "g", "amount": 1 }, 
 					"type" : "buff",
-					"sub_type" : "SC_C_Stress_Buff",
-					"amount" :  0.20
+					"sub_type" : "C_Fencer_Crit",
+					"amount" :  0.05
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "h", "amount": 1 }, 
+					"type" : "buff",
+					"sub_type" : "C_Fencer_DEF",
+					"amount" :  0.05
 				}
 			],
 			"hero_classes" : ["thorn"],
@@ -207,25 +263,17 @@
 		{ 
 			"id" : "thorncamp3",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 2,
 			"use_limit" : 1,
 			"effects" :
 			[
 				{ 
-					"selection" : "party_other",
+					"selection" : "self",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1 }, 
 					"type" : "buff",
-					"sub_type" : "SC_C_RandomCrit_Buff",
-					"amount" :  0.05
-				},
-				{ 
-					"selection" : "party_other",
-					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 1 }, 
-					"type" : "stress_heal_amount",
-					"sub_type" : "",
-					"amount" :  10
+					"sub_type" : "C_Ambush",
+					"amount" :  -0.20
 				}
 			],
 			"hero_classes" : ["thorn"],
@@ -248,18 +296,59 @@
 		{ 
 			"id" : "thorncamp4",
 			"level" : 0,
-			"cost" : 1,
-			"use_limit" : 2,
+			"cost" : 3,
+			"use_limit" : 1,
 			"effects" :
 			[
 				{
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
-					"type": "loot",
-					"sub_type": "S",
-					"amount": 1
-				}			
+					"type": "buff",
+					"sub_type": "C_Trust_MarkedDmg_L",
+					"amount": 0.2
+				},				
+				{
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type": "buff",
+					"sub_type": "C_Trust_MarkedDmg_H",
+					"amount": 0.2
+				},
+				{
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+					"type": "buff",
+					"sub_type": "C_Trust_76",
+					"amount": 0.03
+				},
+				{
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 },
+					"type": "buff",
+					"sub_type": "C_Trust_51",
+					"amount": 0.03
+				},	
+				{
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "e", "amount": 1.0 },
+					"type": "buff",
+					"sub_type": "C_Trust_26",
+					"amount": 0.03
+				},	
+				{
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "f", "amount": 1.0 },
+					"type": "buff",
+					"sub_type": "C_Trust_1",
+					"amount": 0.03
+				}				
+
 
 			],
 			"hero_classes" : ["thorn"],
