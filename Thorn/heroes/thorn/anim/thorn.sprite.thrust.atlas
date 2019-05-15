@@ -20,8 +20,8 @@ riposte base off
   index: -1
 thrust_defensive
   rotate: false
-  xy: 1272, 34
-  size: 1210, 947
-  orig: 1210, 947
+  xy: 1272, 21
+  size: 1210, 960
+  orig: 1210, 960
   offset: 0, 0
   index: -1
