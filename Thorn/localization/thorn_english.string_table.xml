@@ -4,8 +4,8 @@
   
 	<entry id="hero_class_name_thorn"><![CDATA[Thorn]]></entry>
 	
-	<entry id="action_verbose_body_guild_thorn"><![CDATA[A versatile combatant, the Snake Charmer has learned to exploit the various specificities of his reptiles. When he doesn't expose himself in order to launch deadly attacks and apply terrible poisons to the enemy ranks, the master of snakes ensures support to his allies thanks to his unique but sometimes dangerous strategic abilities.]]></entry>
-    <entry id="action_verbose_body_blacksmith_thorn"><![CDATA[With only a scarf and loincloth for armor, the Snake charmer takes advantage of his agility on the battlefield. His varied arsenal of snakes, which he carefully protects in his box, allows him to adapt to the needs of the group.]]></entry>
+	<entry id="action_verbose_body_guild_thorn"><![CDATA[Although having lost sight, the Thorn compensates with a very sharp sense of hearing. She can easily spot her enemies and prevent their attacks, efficiently protecting her allies. When she draws her blade, she recovers her unmatched duelist reflexes, adapting her guard to upcoming opponents. If she manages to read their movements, she will know how to throw a fatal blow.]]></entry>
+    <entry id="action_verbose_body_blacksmith_thorn"><![CDATA[Her leather outfit, vestige of her past, protects her while giving complete freedom of movement. An indispensable tool for the thorn, her sword cane is both guide and killer, an eternal reminder of what she has lost and what she has become.]]></entry>
     <entry id="action_verbose_body_camping_trainer_thorn"><![CDATA[Day and night, the Snake charmer uses his deep knowledge of exotic poisons to sharpen the skills of his allies.]]></entry>	
   	
 	<entry id="town_event_title_first_thorn"><![CDATA[Snakes in Town]]></entry>
@@ -55,10 +55,10 @@
     <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Gash]]></entry>
     <entry id="upgrade_tree_name_thorn.dare"><![CDATA[Dare]]></entry>
 
-    <entry id="camping_skill_name_mithridatism"><![CDATA[MITHRIDATISM]]></entry>
-    <entry id="camping_skill_name_exotic_spices"><![CDATA[EXOTIC SPICES]]></entry>
-    <entry id="camping_skill_name_melody"><![CDATA[MELODY]]></entry>
-    <entry id="camping_skill_name_reserve"><![CDATA[RESERVE]]></entry>
+    <entry id="camping_skill_name_thorncamp1"><![CDATA[SHARPENED EARS]]></entry>
+    <entry id="camping_skill_name_thorncamp2"><![CDATA[SPARRING]]></entry>
+    <entry id="camping_skill_name_thorncamp3"><![CDATA[ALERT BELLS]]></entry>
+    <entry id="camping_skill_name_thorncamp4"><![CDATA[DON'T TRUST YOUR EYES]]></entry>
 	
 	<entry id="thorn_weapon_0"><![CDATA[Combat Stick]]></entry>
     <entry id="thorn_weapon_1"><![CDATA[Blunt Swordstick]]></entry>
@@ -75,7 +75,7 @@
     <entry id="upgrade_tree_name_thorn.armour"><![CDATA[Leather Armor]]></entry>
 
 
-
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush Chance]]></entry>
     <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Healing Received from Skills]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Received]]></entry>
 

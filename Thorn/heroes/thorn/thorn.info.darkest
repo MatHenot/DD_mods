@@ -54,7 +54,7 @@ riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 80% .dmg 0% .crit 11% 
 
 tag: .id "heavy"
 tag: .id "religious"
-tag: .id "outsiders_bonfire"
+tag: .id "training_ring"
 deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
 controlled: .target_rank 2
 id_index: .index 177

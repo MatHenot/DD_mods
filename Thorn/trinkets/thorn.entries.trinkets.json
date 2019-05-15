@@ -101,7 +101,7 @@
 		"buffs" : 
          [
             "T_RoseEmblem_Guard",
-            "MAXHP10",
+            "MAXHP15",
             "STRESSDMG10"
          ],
          "hero_class_requirements":
