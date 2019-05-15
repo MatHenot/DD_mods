@@ -1,201 +1,201 @@
 
 thorn.sprite.combat.png
-size: 3533,441
+size: 737,2081
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 BbotteD copie
   rotate: true
-  xy: 2551, 137
+  xy: 2, 245
   size: 138, 286
   orig: 138, 286
   offset: 0, 0
   index: -1
 BbotteG copie
   rotate: true
-  xy: 2677, 16
+  xy: 2, 385
   size: 119, 289
   orig: 119, 289
   offset: 0, 0
   index: -1
 BbrasD copie
   rotate: false
-  xy: 3390, 222
+  xy: 363, 747
   size: 141, 217
   orig: 141, 217
   offset: 0, 0
   index: -1
 BbrasG copie
   rotate: true
-  xy: 3263, 224
+  xy: 513, 162
   size: 105, 125
   orig: 105, 125
   offset: 0, 0
   index: -1
 Bcape copie
-  rotate: true
-  xy: 3167, 3
+  rotate: false
+  xy: 497, 478
   size: 212, 239
   orig: 212, 239
   offset: 0, 0
   index: -1
 Bcape2 copie
-  rotate: true
-  xy: 2209, 93
+  rotate: false
+  xy: 556, 1203
   size: 157, 340
   orig: 157, 340
   offset: 0, 0
   index: -1
 Bceinture copie
-  rotate: false
-  xy: 2209, 2
+  rotate: true
+  xy: 422, 15
   size: 252, 89
   orig: 252, 89
   offset: 0, 0
   index: -1
 BjambeD
   rotate: false
-  xy: 3122, 217
+  xy: 293, 331
   size: 139, 110
   orig: 139, 110
   offset: 0, 0
   index: -1
 BjambeG copie
-  rotate: true
-  xy: 2755, 309
+  rotate: false
+  xy: 290, 10
   size: 130, 257
   orig: 130, 257
   offset: 0, 0
   index: -1
 BmainG copie
   rotate: true
-  xy: 3014, 329
+  xy: 556, 1796
   size: 110, 167
   orig: 110, 167
   offset: 0, 0
   index: -1
 BmainG2 copie
   rotate: false
-  xy: 3408, 115
+  xy: 623, 55
   size: 108, 105
   orig: 108, 105
   offset: 0, 0
   index: -1
 Bmeches copie
   rotate: true
-  xy: 1621, 6
+  xy: 2, 506
   size: 180, 301
   orig: 180, 301
   offset: 0, 0
   index: -1
 Btete copie
   rotate: false
-  xy: 1583, 188
-  size: 309, 251
-  orig: 309, 251
+  xy: 2, 2
+  size: 272, 241
+  orig: 272, 241
   offset: 0, 0
   index: -1
 Bveste copie
   rotate: true
-  xy: 2, 71
+  xy: 2, 1538
   size: 368, 552
   orig: 368, 552
   offset: 0, 0
   index: -1
 baton copie
   rotate: true
-  xy: 917, 25
+  xy: 2, 1908
   size: 111, 702
   orig: 111, 702
   offset: 0, 0
   index: -1
 botteD copie
   rotate: true
-  xy: 1894, 230
+  xy: 2, 688
   size: 209, 304
   orig: 209, 304
   offset: 0, 0
   index: -1
 botteG copie
   rotate: true
-  xy: 2839, 190
+  xy: 434, 269
   size: 117, 281
   orig: 117, 281
   offset: 0, 0
   index: -1
 brasG copie
-  rotate: false
-  xy: 2968, 4
+  rotate: true
+  xy: 551, 1004
   size: 197, 184
   orig: 197, 184
   offset: 0, 0
   index: -1
 cape copie
   rotate: true
-  xy: 1077, 172
+  xy: 2, 966
   size: 267, 504
   orig: 267, 504
   offset: 0, 0
   index: -1
 ceinture copie
   rotate: false
-  xy: 2463, 3
+  xy: 497, 388
   size: 212, 88
   orig: 212, 88
   offset: 0, 0
   index: -1
 epee copie
   rotate: true
-  xy: 2, 11
+  xy: 2, 2021
   size: 58, 705
   orig: 58, 705
   offset: 0, 0
   index: -1
 jambeG copie
-  rotate: true
-  xy: 2504, 277
+  rotate: false
+  xy: 556, 1545
   size: 162, 249
   orig: 162, 249
   offset: 0, 0
   index: -1
 mainG copie
-  rotate: true
-  xy: 3183, 331
+  rotate: false
+  xy: 513, 36
   size: 108, 124
   orig: 108, 124
   offset: 0, 0
   index: -1
 mecheD copie
-  rotate: true
-  xy: 709, 28
+  rotate: false
+  xy: 508, 1041
   size: 41, 192
   orig: 41, 192
   offset: 0, 0
   index: -1
 meches copie
-  rotate: true
-  xy: 2200, 252
+  rotate: false
+  xy: 308, 443
   size: 187, 302
   orig: 187, 302
   offset: 0, 0
   index: -1
 ombre
   rotate: false
-  xy: 556, 71
+  xy: 2, 899
   size: 359, 65
   orig: 359, 65
   offset: 0, 0
   index: -1
 tete copie
-  rotate: true
-  xy: 1924, 7
+  rotate: false
+  xy: 508, 719
   size: 221, 283
   orig: 221, 283
   offset: 0, 0
   index: -1
 veste copie
   rotate: true
-  xy: 556, 138
+  xy: 2, 1235
   size: 301, 519
   orig: 301, 519
   offset: 0, 0
