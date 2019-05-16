@@ -1,5 +1,5 @@
 
-thorn.sprite.kipic.png
+thorn.sprite.wilt.png
 size: 2405,1019
 format: RGBA8888
 filter: Linear,Linear
@@ -11,7 +11,7 @@ images/epee copie 3
   orig: 1253, 1015
   offset: 0, 0
   index: -1
-images/kipic
+images/wilt
   rotate: false
   xy: 1257, 150
   size: 1146, 867

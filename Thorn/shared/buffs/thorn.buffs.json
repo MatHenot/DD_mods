@@ -127,7 +127,7 @@
 	  },
 	  
       {
-         "id" : "Kipik Crit 1",
+         "id" : "Wilt Crit 1",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
          "amount" : 0.05,
@@ -140,7 +140,7 @@
          }
       },
       {
-         "id" : "Kipik Crit 2",
+         "id" : "Wilt Crit 2",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
          "amount" : 0.07,
@@ -153,7 +153,7 @@
          }
       },
       {
-         "id" : "Kipik Crit 3",
+         "id" : "Wilt Crit 3",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
          "amount" : 0.1,
@@ -166,7 +166,7 @@
          }
       },
       {
-         "id" : "Kipik Bleed Received 1",
+         "id" : "Wilt Bleed Received 1",
          "stat_type" : "hp_dot_bleed_amount_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.25,
@@ -179,7 +179,7 @@
          }
       },      
 	  {
-         "id" : "Kipik Bleed Received 2",
+         "id" : "Wilt Bleed Received 2",
          "stat_type" : "hp_dot_bleed_amount_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.33,
@@ -192,7 +192,7 @@
          }
       },      
 	  {
-         "id" : "Kipik Bleed Received 3",
+         "id" : "Wilt Bleed Received 3",
          "stat_type" : "hp_dot_bleed_amount_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.5,
@@ -205,7 +205,7 @@
          }
       },
       {
-         "id" : "Kipik Debuff PRE 1",
+         "id" : "Wilt Debuff PRE 1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : -0.03,
@@ -218,7 +218,7 @@
          }
       },        
 	  {
-         "id" : "Kipik Debuff PRE 2",
+         "id" : "Wilt Debuff PRE 2",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : -0.04,
@@ -231,7 +231,7 @@
          }
       },        
 	  {
-         "id" : "Kipik Debuff PRE 3",
+         "id" : "Wilt Debuff PRE 3",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : -0.05,
@@ -244,7 +244,7 @@
          }
       },  
       {
-         "id" : "Kipik Debuff DmgH 1",
+         "id" : "Wilt Debuff DmgH 1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : -0.1,
@@ -257,7 +257,7 @@
          }
       },
       {
-         "id" : "Kipik Debuff DmgL 1",
+         "id" : "Wilt Debuff DmgL 1",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : -0.1,
@@ -270,7 +270,7 @@
          }
       },
       {
-         "id" : "Kipik Debuff DmgH 2",
+         "id" : "Wilt Debuff DmgH 2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : -0.15,
@@ -283,7 +283,7 @@
          }
       },
       {
-         "id" : "Kipik Debuff DmgL 2",
+         "id" : "Wilt Debuff DmgL 2",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : -0.15,
@@ -296,7 +296,7 @@
          }
       },
 	        {
-         "id" : "Kipik Debuff DmgH 3",
+         "id" : "Wilt Debuff DmgH 3",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
          "amount" : -0.2,
@@ -309,7 +309,7 @@
          }
       },
       {
-         "id" : "Kipik Debuff DmgL 3",
+         "id" : "Wilt Debuff DmgL 3",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_low",
          "amount" : -0.2,

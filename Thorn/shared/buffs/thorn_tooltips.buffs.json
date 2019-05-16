@@ -380,9 +380,9 @@
 	  },
 
 	  {
-         "id" : "Kipik Def Skill ToolTip 1",
+         "id" : "Wilt Def Skill ToolTip 1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikDefensive1",
+         "stat_sub_type" : "WiltDefensive1",
          "amount" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -393,9 +393,9 @@
  		 }
 	  },
 	  {
-         "id" : "Kipik Def Skill ToolTip 2",
+         "id" : "Wilt Def Skill ToolTip 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikDefensive1",
+         "stat_sub_type" : "WiltDefensive1",
          "amount" : -1.1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -406,9 +406,9 @@
  		 }
 	  },
 	  {
-         "id" : "Kipik Def Skill ToolTip 3",
+         "id" : "Wilt Def Skill ToolTip 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikDefensive2",
+         "stat_sub_type" : "WiltDefensive2",
          "amount" : -1.2,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -419,9 +419,9 @@
  		 }
 	  },
 	  {
-         "id" : "Kipik Def Skill ToolTip 4",
+         "id" : "Wilt Def Skill ToolTip 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikDefensive2",
+         "stat_sub_type" : "WiltDefensive2",
          "amount" : -1.3,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -432,9 +432,9 @@
  		 }
 	  },
 	  {
-         "id" : "Kipik Def Skill ToolTip 5",
+         "id" : "Wilt Def Skill ToolTip 5",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikDefensive3",
+         "stat_sub_type" : "WiltDefensive3",
          "amount" : -1.4,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -445,9 +445,9 @@
  		 }
 	  },	  
 	  {
-         "id" : "Kipik Off Skill ToolTip 1",
+         "id" : "Wilt Off Skill ToolTip 1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikOffensive1",
+         "stat_sub_type" : "WiltOffensive1",
          "amount" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -458,9 +458,9 @@
  		 }
 	  },
 	  {
-         "id" : "Kipik Off Skill ToolTip 2",
+         "id" : "Wilt Off Skill ToolTip 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikOffensive1",
+         "stat_sub_type" : "WiltOffensive1",
          "amount" : -1.1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -471,9 +471,9 @@
  		 }
 	  },
 	  {
-         "id" : "Kipik Off Skill ToolTip 3",
+         "id" : "Wilt Off Skill ToolTip 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikOffensive2",
+         "stat_sub_type" : "WiltOffensive2",
          "amount" : -1.2,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -484,9 +484,9 @@
  		 }
 	  },
 	  {
-         "id" : "Kipik Off Skill ToolTip 4",
+         "id" : "Wilt Off Skill ToolTip 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikOffensive2",
+         "stat_sub_type" : "WiltOffensive2",
          "amount" : -1.3,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -497,9 +497,9 @@
  		 }
 	  },
 	  {
-         "id" : "Kipik Off Skill ToolTip 5",
+         "id" : "Wilt Off Skill ToolTip 5",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikOffensive3",
+         "stat_sub_type" : "WiltOffensive3",
          "amount" : -1.4,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -510,9 +510,9 @@
  		 }
 	  },	  
 	  {
-         "id" : "Kipik Bleed Skill ToolTip 1",
+         "id" : "Wilt Bleed Skill ToolTip 1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikBleed1",
+         "stat_sub_type" : "WiltBleed1",
          "amount" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -523,9 +523,9 @@
  		 }
 	  },
 	  {
-         "id" : "Kipik Bleed Skill ToolTip 2",
+         "id" : "Wilt Bleed Skill ToolTip 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikBleed2",
+         "stat_sub_type" : "WiltBleed2",
          "amount" : -1.1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -536,9 +536,9 @@
  		 }
 	  },
 	  {
-         "id" : "Kipik Bleed Skill ToolTip 3",
+         "id" : "Wilt Bleed Skill ToolTip 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikBleed3",
+         "stat_sub_type" : "WiltBleed3",
          "amount" : -1.2,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -549,9 +549,9 @@
  		 }
 	  },
 	  {
-         "id" : "Kipik Bleed Skill ToolTip 4",
+         "id" : "Wilt Bleed Skill ToolTip 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikBleed4",
+         "stat_sub_type" : "WiltBleed4",
          "amount" : -1.3,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -562,9 +562,9 @@
  		 }
 	  },
 	  {
-         "id" : "Kipik Bleed Skill ToolTip 5",
+         "id" : "Wilt Bleed Skill ToolTip 5",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "KipikBleed5",
+         "stat_sub_type" : "WiltBleed5",
          "amount" : -1.4,
          "remove_if_not_active" : true,
          "rule_type" : "always",
