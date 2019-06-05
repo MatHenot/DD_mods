@@ -1,0 +1,20 @@
+
+thorn.sprite.heeder_fx.png
+size: 666,1506
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Calque 6
+  rotate: true
+  xy: 2, 2
+  size: 512, 662
+  orig: 512, 662
+  offset: 0, 0
+  index: -1
+Groupe 1 copie 2
+  rotate: false
+  xy: 2, 516
+  size: 534, 988
+  orig: 534, 988
+  offset: 0, 0
+  index: -1
