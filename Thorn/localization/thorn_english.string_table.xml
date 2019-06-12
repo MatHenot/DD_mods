@@ -157,7 +157,15 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|stress}Stress{colour_end} -5]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_T_lightstress"><![CDATA[No stress received from light level]]></entry>
-		
+
+
+    <entry id="str_affliction_name_blindness"><![CDATA[Blindness]]></entry>
+    <entry id="str_affliction_description_blindness"><![CDATA[Description abstraite, exemple pour irrationnal : Two and two make three while six and seven break free.]]></entry>
+	
+	<entry id="str_heart_attack_blindness"><![CDATA[]]></entry>
+	<entry id="str_heart_attack_blindness"><![CDATA[]]></entry>
+	<entry id="str_heart_attack_blindness"><![CDATA[]]></entry>
+	
     <entry id="thorn+str_afflicted_blindness"><![CDATA[début d'affliction]]></entry>
     <entry id="thorn+str_afflicted_blindness"><![CDATA[]]></entry>
     <entry id="thorn+str_afflicted_blindness"><![CDATA[]]></entry>
@@ -205,6 +213,12 @@
     <entry id="thorn+str_block_camping_skill_target_blindness"><![CDATA[]]></entry>
     <entry id="thorn+str_block_camping_skill_target_blindness"><![CDATA[]]></entry>
 
+    <entry id="str_virtue_name_farseeing"><![CDATA[Farseeing]]></entry>
+    <entry id="str_virtue_description_farseeing"><![CDATA[+10 ACC, +10 DEF]]></entry>
+
+    <entry id="thorn+str_virtued_farseeing"><![CDATA[début de virtue]]></entry>
+    <entry id="thorn+str_virtued_farseeing"><![CDATA[]]></entry>
+    <entry id="thorn+str_virtued_farseeing"><![CDATA[]]></entry>
     <entry id="thorn+str_stress_heal_party_farseeing"><![CDATA[stress heal de groupe]]></entry>
     <entry id="thorn+str_stress_heal_party_farseeing"><![CDATA[]]></entry>
     <entry id="thorn+str_stress_heal_party_farseeing"><![CDATA[]]></entry>	
