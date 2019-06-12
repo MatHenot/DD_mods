@@ -15,9 +15,9 @@ armour: .name "thorn_armour_4" .icon "eqp_armour_4.png"
 combat_skill: .id "stance" .icon "one" .anim "attack_transform" .fx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1 .nil true
 combat_skill: .id "thrust" .icon "two" .anim "thrust" .fx "thrust_fx" .targfx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "wilt" .icon "three" .anim "wilt" .fx "wilt_fx" .targfx "tmark_target" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
-combat_skill: .id "gash" .icon "four" .anim "gash" .fx "gash_fx" .targchestfx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "gash" .icon "four" .anim "gash" .fx "gash_fx" .targchestfx "blood_splatter" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "dare" .icon "five" .anim "dare" .fx "dare_fx" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1 .nil true 
-combat_skill: .id "blossom" .icon "six" .anim "blossom" .fx "blossom_fx" .condensed_tooltip_stats true  .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "blossom" .icon "six" .anim "blossom" .fx "blossom_fx" .targchestfx "blossom_targfx" .condensed_tooltip_stats true  .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "heeder" .icon "seven" .anim "heeder" .fx "heeder_fx" .targchestfx "heeder_targfx" .can_display_performer_selection_after_turn false .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 
 combat_move_skill: .id "move" .icon "generic_move" .anim "attack_transform"

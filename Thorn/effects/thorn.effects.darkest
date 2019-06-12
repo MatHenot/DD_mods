@@ -119,14 +119,14 @@ effect: .name "Blossom Heal 3" .target "performer" .curio_result_type "positive"
 effect: .name "Blossom Heal 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
 effect: .name "Blossom Heal 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 5 .on_hit true .on_miss false .apply_once true
 
-effect: .name "Blossom Heal Debuff" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "Blossom Heal Debuff" .buff_source_type hero_skill .on_hit true .on_miss false .has_description false
-effect: .name "Blossom Heal Buff" .target "performer_group_other" .curio_result_type "positive" .chance 100% .buff_ids "Blossom Heal Buff" .buff_source_type hero_skill .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Debuff" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "Blossom Heal Debuff" .buff_source_type hero_skill .on_hit true .on_miss false .has_description false
+effect: .name "Blossom Heal Buff" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "Blossom Heal Buff" .buff_source_type hero_skill .on_hit true .on_miss false .queue true .has_description false
 
-effect: .name "Blossom Heal Guarded 1" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Blossom Heal Guarded 2" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Blossom Heal Guarded 3" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Blossom Heal Guarded 4" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Blossom Heal Guarded 5" .target "performer_group_other" .curio_result_type "positive" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guarded 1" .target "target" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guarded 2" .target "target" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guarded 3" .target "target" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guarded 4" .target "target" .curio_result_type "positive" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guarded 5" .target "target" .curio_result_type "positive" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .has_description false
 
 effect: .name "Blossom ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Blossom ToolTip 1" .on_hit false .on_miss true
 effect: .name "Blossom ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Blossom ToolTip 2" .on_hit false .on_miss true
