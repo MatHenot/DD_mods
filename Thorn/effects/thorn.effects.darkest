@@ -101,11 +101,11 @@ effect: .name "Wilt Skill ToolTip 5" .target "performer" .curio_result_type "neg
 //Blossom
 
 
-effect: .name "Blossom Prot 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 1" .on_hit true .on_miss true .has_description false
-effect: .name "Blossom Prot 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 2" .on_hit true .on_miss true .has_description false
-effect: .name "Blossom Prot 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 3" .on_hit true .on_miss true .has_description false
-effect: .name "Blossom Prot 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 4" .on_hit true .on_miss true .has_description false
-effect: .name "Blossom Prot 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 5" .on_hit true .on_miss true .has_description false
+effect: .name "Blossom Prot 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 1" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 2" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 3" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 4" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Heeder Prot 5" .on_hit true .on_miss true .apply_once true .has_description false
 
 effect: .name "Blossom Fake Prot 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit false .on_miss true 
 effect: .name "Blossom Fake Prot 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .protection_rating_add 13% .on_hit false .on_miss true 
@@ -229,7 +229,7 @@ effect: .name "Dare Mode ToolTip" .target "performer_group_other" .curio_result_
 
 effect: .name "T_Miss_Bleed" .target "target" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .on_hit false .on_miss true .can_apply_on_death true 
 effect: .name "T_Clear_Riposte" .target "target" .chance 100% .clear_riposte 1 .on_hit true .on_miss false .apply_once true
-effect: .name "T_Riposte_StressHeal" .target "performer" .curio_result_type "positive" .chance 100% .healstress 10 .on_hit true .on_miss false
+effect: .name "T_Riposte_StressHeal" .target "performer" .curio_result_type "positive" .chance 100% .healstress 20 .on_hit true .on_miss false
 effect: .name "T_Block" .target performer .chance 100% .health_damage_blocks 1 .on_hit true .on_miss false .queue true
 
 

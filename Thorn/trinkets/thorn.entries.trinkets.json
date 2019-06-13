@@ -80,8 +80,9 @@
          "id" : "thorn_signet_ring",
          "buffs" : 
          [
+			"DMGL10",
+			"DMGH10",
             "SPD2",
-			"RESOLVECHECK10",
 			"T_Signet_Riposte_StressHeal",
 			"T_Signet_ToolTip",
 			"T_Signet_StressHeal_Debuff"
