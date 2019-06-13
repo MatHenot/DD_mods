@@ -107,29 +107,36 @@
 	{colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}
 	+20%% {colour_start|stun}Stun{colour_end} Skill Chance vs {colour_start|mark}Marked{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% DMG vs {colour_start|mark}Marked{colour_end}]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltBleed1"><![CDATA[Other Enemies:
+
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+	+25%% {colour_start|bleed}Bleed{colour_end} Amount Received /
+	-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+	+33%% {colour_start|bleed}Bleed{colour_end} Amount Received /
+	-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
+	+50%% {colour_start|bleed}Bleed{colour_end} Amount Received /
+	-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive1"><![CDATA[Other Enemies:
+	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 1 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive2"><![CDATA[Other Enemies:
+	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 1 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive3"><![CDATA[Other Enemies:
+	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive4"><![CDATA[Other Enemies:
+	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive5"><![CDATA[Other Enemies:
+	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive1"><![CDATA[Other Enemies:
 	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltBleed2"><![CDATA[Other Enemies:
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive2"><![CDATA[Other Enemies:
 	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltBleed3"><![CDATA[Other Enemies:
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive3"><![CDATA[Other Enemies:
 	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltBleed4"><![CDATA[Other Enemies:
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive4"><![CDATA[Other Enemies:
 	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltBleed5"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4 pts/rd for 3 rds]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-3 ACC / -10%% DMG {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	+5%% Crits / +25%% {colour_start|bleed}Bleed{colour_end} Amount Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-4 ACC / -15%% DMG {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	+7%% Crits / +33%% {colour_start|bleed}Bleed{colour_end} Amount Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	-5 ACC / -20%% DMG {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	+10%% Crits / +50%% {colour_start|bleed}Bleed{colour_end} Amount Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive5"><![CDATA[Other Enemies:
+	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom1"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
 	{colour_start|healhp}Heal{colour_end} 3 HP]]></entry>

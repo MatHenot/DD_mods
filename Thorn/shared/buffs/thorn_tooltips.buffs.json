@@ -378,7 +378,73 @@
             "string" : ""
  		 }
 	  },
-
+	  
+	  
+	  {
+         "id" : "Wilt Debuff Skill ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "WiltDebuff1",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Wilt Debuff Skill ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "WiltDebuff1",
+         "amount" : -1.1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Wilt Debuff Skill ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "WiltDebuff2",
+         "amount" : -1.2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Wilt Debuff Skill ToolTip 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "WiltDebuff2",
+         "amount" : -1.3,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Wilt Debuff Skill ToolTip 5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "WiltDebuff3",
+         "amount" : -1.4,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
 	  {
          "id" : "Wilt Def Skill ToolTip 1",
          "stat_type" : "upgrade_discount",
@@ -395,7 +461,7 @@
 	  {
          "id" : "Wilt Def Skill ToolTip 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltDefensive1",
+         "stat_sub_type" : "WiltDefensive2",
          "amount" : -1.1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -408,7 +474,7 @@
 	  {
          "id" : "Wilt Def Skill ToolTip 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltDefensive2",
+         "stat_sub_type" : "WiltDefensive3",
          "amount" : -1.2,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -421,7 +487,7 @@
 	  {
          "id" : "Wilt Def Skill ToolTip 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltDefensive2",
+         "stat_sub_type" : "WiltDefensive4",
          "amount" : -1.3,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -434,7 +500,7 @@
 	  {
          "id" : "Wilt Def Skill ToolTip 5",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltDefensive3",
+         "stat_sub_type" : "WiltDefensive5",
          "amount" : -1.4,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -460,7 +526,7 @@
 	  {
          "id" : "Wilt Off Skill ToolTip 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltOffensive1",
+         "stat_sub_type" : "WiltOffensive2",
          "amount" : -1.1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -473,7 +539,7 @@
 	  {
          "id" : "Wilt Off Skill ToolTip 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltOffensive2",
+         "stat_sub_type" : "WiltOffensive3",
          "amount" : -1.2,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -486,7 +552,7 @@
 	  {
          "id" : "Wilt Off Skill ToolTip 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltOffensive2",
+         "stat_sub_type" : "WiltOffensive4",
          "amount" : -1.3,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -499,7 +565,7 @@
 	  {
          "id" : "Wilt Off Skill ToolTip 5",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltOffensive3",
+         "stat_sub_type" : "WiltOffensive5",
          "amount" : -1.4,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -509,71 +575,6 @@
             "string" : ""
  		 }
 	  },	  
-	  {
-         "id" : "Wilt Bleed Skill ToolTip 1",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltBleed1",
-         "amount" : -1,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
- 		 }
-	  },
-	  {
-         "id" : "Wilt Bleed Skill ToolTip 2",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltBleed2",
-         "amount" : -1.1,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
- 		 }
-	  },
-	  {
-         "id" : "Wilt Bleed Skill ToolTip 3",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltBleed3",
-         "amount" : -1.2,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
- 		 }
-	  },
-	  {
-         "id" : "Wilt Bleed Skill ToolTip 4",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltBleed4",
-         "amount" : -1.3,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
- 		 }
-	  },
-	  {
-         "id" : "Wilt Bleed Skill ToolTip 5",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltBleed5",
-         "amount" : -1.4,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
- 		 }
-	  },
 
 
 	  {
