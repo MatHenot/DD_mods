@@ -165,6 +165,13 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_T_lightstress"><![CDATA[No stress received from light level]]></entry>
 
+	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[Blindness]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[Description abstraite, exemple pour irrationnal : Two and two make three while six and seven break free.]]></entry>
