@@ -67,6 +67,8 @@ effect: .name "Thrust Skill ToolTip 5" .target "performer" .curio_result_type "p
 
 //Wilt
 
+effect: .name "Wilt Off" .target "performer" .curio_result_type "positive" .chance 100% .set_mode offensive .on_hit true .on_miss true .has_description false
+
 effect: .name "Wilt Mark" .target "target" .chance 100% .tag 1 .duration 3 .on_hit true .on_miss false
 
 effect: .name "Wilt Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "Wilt Debuff PRE 1" "Wilt Bleed Received 1" .on_hit true .on_miss false .has_description false
@@ -75,17 +77,17 @@ effect: .name "Wilt Debuff 3" .target "target" .curio_result_type "negative" .ch
 effect: .name "Wilt Debuff 4" .target "target" .curio_result_type "negative" .chance 130% .buff_ids "Wilt Debuff PRE 2" "Wilt Bleed Received 2" .on_hit true .on_miss false .has_description false
 effect: .name "Wilt Debuff 5" .target "target" .curio_result_type "negative" .chance 140% .buff_ids "Wilt Debuff PRE 3" "Wilt Bleed Received 3" .on_hit true .on_miss false .has_description false
 
-effect: .name "Wilt Bleed DEF 1" .target "target_group_other" .curio_result_type "negative" .dotBleed 1 .duration 3 .chance 100% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
-effect: .name "Wilt Bleed DEF 2" .target "target_group_other" .curio_result_type "negative" .dotBleed 1 .duration 3 .chance 110% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
-effect: .name "Wilt Bleed DEF 3" .target "target_group_other" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 120% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
-effect: .name "Wilt Bleed DEF 4" .target "target_group_other" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 130% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
-effect: .name "Wilt Bleed DEF 5" .target "target_group_other" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 140% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed Def 1" .target "target_group_other" .curio_result_type "negative" .dotBleed 1 .duration 3 .chance 100% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed Def 2" .target "target_group_other" .curio_result_type "negative" .dotBleed 1 .duration 3 .chance 110% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed Def 3" .target "target_group_other" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 120% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed Def 4" .target "target_group_other" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 130% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed Def 5" .target "target_group_other" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 140% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
 
-effect: .name "Wilt Bleed OFF 1" .target "target_group_other" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 100% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
-effect: .name "Wilt Bleed OFF 2" .target "target_group_other" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 110% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
-effect: .name "Wilt Bleed OFF 3" .target "target_group_other" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 120% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
-effect: .name "Wilt Bleed OFF 4" .target "target_group_other" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 130% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
-effect: .name "Wilt Bleed OFF 5" .target "target_group_other" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed Off 1" .target "target_group_other" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 100% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed Off 2" .target "target_group_other" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 110% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed Off 3" .target "target_group_other" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 120% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed Off 4" .target "target_group_other" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 130% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed Off 5" .target "target_group_other" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
 
 effect: .name "Wilt Skill ToolTip 1" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Wilt Debuff Skill ToolTip 1" "Defensive Skill ToolTip" "Wilt Def Skill ToolTip 1" "Offensive Skill ToolTip" "Wilt Off Skill ToolTip 1" .on_hit true .on_miss true .skill_instant true
 effect: .name "Wilt Skill ToolTip 2" .target "performer" .curio_result_type "negative" .chance 100% .buff_ids "Wilt Debuff Skill ToolTip 2" "Defensive Skill ToolTip" "Wilt Def Skill ToolTip 2" "Offensive Skill ToolTip" "Wilt Off Skill ToolTip 2" .on_hit true .on_miss true .skill_instant true
