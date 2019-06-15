@@ -160,10 +160,12 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
 	{colour_start|notable}Valid in Offensive mode{colour_end}]]></entry>
 
+	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
+
 	<entry id="buff_stat_tooltip_upgrade_discount_T_Fencer"><![CDATA[On Skill Hit: Cancels {colour_start|riposte}Riposte{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|stress}Stress{colour_end} -5]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_T_lightstress"><![CDATA[No stress received from light level]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[No stress received from light level]]></entry>
 
 	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
 	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>

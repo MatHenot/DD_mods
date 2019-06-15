@@ -274,6 +274,14 @@
 					"type" : "buff",
 					"sub_type" : "C_Ambush",
 					"amount" :  -0.20
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1 }, 
+					"type" : "buff",
+					"sub_type" : "C_ambush_ToolTip",
+					"amount" :  0
 				}
 			],
 			"hero_classes" : ["thorn"],

@@ -45,27 +45,27 @@
             "data": [
                 {
                     "type": "embark_party_buff",
-                    "string_data": "T_lightstress_75",
+                    "string_data": "E_lightstress_75",
                     "number_data": 0.0
                 },
                 {
                     "type": "embark_party_buff",
-                    "string_data": "T_lightstress_50",
+                    "string_data": "E_lightstress_50",
                     "number_data": 0.0
                 },
                 {
                     "type": "embark_party_buff",
-                    "string_data": "T_lightstress_25",
+                    "string_data": "E_lightstress_25",
                     "number_data": 0.0
                 },
                 {
                     "type": "embark_party_buff",
-                    "string_data": "T_lightstress_0",
+                    "string_data": "E_lightstress_0",
                     "number_data": 0.0
                 },                
 				{
                     "type": "embark_party_buff",
-                    "string_data": "T_lightstress_tooltip",
+                    "string_data": "E_lightstress_tooltip",
                     "number_data": 0.0
                 }
             ]

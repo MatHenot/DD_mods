@@ -2,7 +2,7 @@
    "buffs":
    [
 	  {
-         "id" : "T_lightstress_75",
+         "id" : "E_lightstress_75",
          "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type" : "",
          "amount" : -0.0909,
@@ -18,7 +18,7 @@
 		 "has_description" : false
       },
 	  {
-         "id" : "T_lightstress_50",
+         "id" : "E_lightstress_50",
          "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type" : "",
          "amount" : -0.1091,
@@ -34,7 +34,7 @@
 		 "has_description" : false
       },
 	  {
-         "id" : "T_lightstress_25",
+         "id" : "E_lightstress_25",
          "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type" : "",
          "amount" : -0.0593,
@@ -50,7 +50,7 @@
 		 "has_description" : false
       },
 	  {
-         "id" : "T_lightstress_0",
+         "id" : "E_lightstress_0",
          "stat_type" : "stress_dmg_received_percent",
          "stat_sub_type" : "",
          "amount" : -0.0741,

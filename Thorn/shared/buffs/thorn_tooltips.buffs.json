@@ -1120,13 +1120,28 @@
          }
 	  },
 	  {
-         "id" : "T_lightstress_tooltip",
+         "id" : "E_lightstress_ToolTip",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "T_lightstress",
+         "stat_sub_type" : "E_lightstress",
          "amount" : -1,
          "duration_type" : "quest_end",
          "duration" : 1,
          "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+
+	  {
+         "id" : "C_ambush_ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "C_Ambush",
+         "amount" : -1,
+         "duration" : 1,
+         "remove_if_not_active" : true,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {

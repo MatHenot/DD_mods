@@ -218,7 +218,7 @@ effect: .name "Dare Riposte ToolTip 5" .target "performer" .curio_result_type "p
 
 effect: .name "Dare Dodge"  .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Dodge" .on_hit true .on_miss true .has_description false
 
-effect: .name "Dare Dodge Tooltip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Fake Dodge" .on_hit false .on_miss true
+effect: .name "Dare Dodge ToolTip" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Dare Fake Dodge" .on_hit false .on_miss true
 
 effect: .name "Dare Self Mark" .target "performer" .tag 1 .duration 2 .on_hit true .on_miss true
 
