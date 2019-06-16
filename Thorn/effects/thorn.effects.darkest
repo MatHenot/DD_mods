@@ -238,12 +238,11 @@ effect: .name "T_Block" .target performer .chance 100% .health_damage_blocks 1 .
 
 
 
-//--------------------VIRTUE----------------------
+//--------------------VIRTUE/AFFLICTION----------------------
+
 
 effect: .name "FarseeingBlock" .target "target" .chance 100% .health_damage_blocks 1 .on_hit true .on_miss false .queue true
-effect: .name "FarseeingPartyBuff1" .target "target" .curio_result_type "positive" .chance 100% .keyStatus "tagged"	.combat_stat_buff 1 .damage_low_multiply 15% .damage_high_multiply 15% .on_hit true .on_miss true .queue true
-effect: .name "FarseeingPartyBuff2" .target "target" .curio_result_type "positive" .chance 100% .keyStatus "tagged"	.combat_stat_buff 1 .crit_chance_add 10% .attack_rating_add 10% .on_hit true .on_miss true .queue true
-effect: .name "T_ClearGuardsPerformer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2 .has_description false
-effect: .name "T_ClearGuardsTarget" .target "target" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2 .has_description false
-effect: .name "T_Guard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 2
+effect: .name "FarseeingPartyBuff1" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "V_MarkedDmg_L" "V_MarkedDmg_H" .on_hit true .on_miss true .queue true
+effect: .name "FarseeingPartyBuff2" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "V_Crit" "V_PRE" .on_hit true .on_miss true .queue true
+effect: .name "AffliGuard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 2
 

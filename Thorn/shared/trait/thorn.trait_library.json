@@ -21,7 +21,7 @@
          ],
          "combat_start_turn_act_outs":
          [
-            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 10},
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 9},
             { "id": "stress_heal_party", "data": { "number_value": 0.0, "string_value": "HealStressVirtuedParty" }, "chance": 1},
             { "id": "buff_random_party_member", "data": { "number_value": 0.0, "string_value": "FarseeingBlock" }, "chance": 1},
             { "id": "buff_party", "data": { "number_value": 0.0, "string_value": "FarseeingPartyBuff1" }, "chance": 1},
@@ -58,7 +58,7 @@
             { "id": "random_command", "data": { "number_value": 0.0, "string_value": "" }, "chance": 1},
 			{ "id": "attack_friendly", "data": { "number_value": 0.15,"string_value": "Bleed 3" }, "chance": 2, "valid_hero_class_ids":["thorn"]},
             { "id": "mark_self", "data": { "number_value": 0.0, "string_value": "Mark Self" }, "chance": 1},
-            { "id": "buff_random_party_member", "data": { "number_value": 0.0, "string_value": "T_Guard"}, "chance": 1}
+            { "id": "buff_random_party_member", "data": { "number_value": 0.0, "string_value": "AffliGuard"}, "chance": 1}
          ],
          "reaction_act_outs":
          [

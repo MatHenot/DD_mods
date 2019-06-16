@@ -167,13 +167,13 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[No stress received from light level]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[I can't see them!]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[Time to withdraw.]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[I-I didn't see that coming...]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[It's way too risky!]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[No way! I need to fall back.]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[I need some time to recover.]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[I'm not able to focus!]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[Blindness]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[Description abstraite, exemple pour irrationnal : Two and two make three while six and seven break free.]]></entry>
@@ -233,19 +233,19 @@
     <entry id="str_virtue_description_farseeing"><![CDATA[+10 ACC, +10 DEF]]></entry>
 
     <entry id="thorn+str_virtued_farseeing"><![CDATA[début de virtue]]></entry>
-    <entry id="thorn+str_virtued_farseeing"><![CDATA[]]></entry>
-    <entry id="thorn+str_virtued_farseeing"><![CDATA[]]></entry>
+    <entry id="thorn+str_virtued_farseeing"><![CDATA[a]]></entry>
+    <entry id="thorn+str_virtued_farseeing"><![CDATA[a]]></entry>
     <entry id="thorn+str_stress_heal_party_farseeing"><![CDATA[stress heal de groupe]]></entry>
-    <entry id="thorn+str_stress_heal_party_farseeing"><![CDATA[]]></entry>
-    <entry id="thorn+str_stress_heal_party_farseeing"><![CDATA[]]></entry>	
+    <entry id="thorn+str_stress_heal_party_farseeing"><![CDATA[a]]></entry>
+    <entry id="thorn+str_stress_heal_party_farseeing"><![CDATA[a]]></entry>	
     <entry id="thorn+str_buff_random_party_member_farseeing"><![CDATA[donne un aegis à un allié]]></entry>
-    <entry id="thorn+str_buff_random_party_member_farseeing"><![CDATA[]]></entry>
-    <entry id="thorn+str_buff_random_party_member_farseeing"><![CDATA[]]></entry>
+    <entry id="thorn+str_buff_random_party_member_farseeing"><![CDATA[a]]></entry>
+    <entry id="thorn+str_buff_random_party_member_farseeing"><![CDATA[a]]></entry>
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[buff contre les ennemis marked]]></entry>
-	<entry id="thorn+str_buff_party_farseeing"><![CDATA[]]></entry>
-	<entry id="thorn+str_buff_party_farseeing"><![CDATA[]]></entry>
-	<entry id="thorn+str_buff_party_farseeing"><![CDATA[]]></entry>
-	<entry id="thorn+str_buff_party_farseeing"><![CDATA[]]></entry>
+	<entry id="thorn+str_buff_party_farseeing"><![CDATA[a]]></entry>
+	<entry id="thorn+str_buff_party_farseeing"><![CDATA[a]]></entry>
+	<entry id="thorn+str_buff_party_farseeing"><![CDATA[a]]></entry>
+	<entry id="thorn+str_buff_party_farseeing"><![CDATA[a]]></entry>
 
     <entry id="thorn+str_bark_encourage"><![CDATA[The Master would be proud of you.]]></entry>
     <entry id="thorn+str_bark_encourage"><![CDATA[Close your eyes. Clear your mind.]]></entry>
