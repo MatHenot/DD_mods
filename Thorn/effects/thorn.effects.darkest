@@ -234,7 +234,7 @@ effect: .name "Dare Mode ToolTip" .target "performer_group_other" .curio_result_
 effect: .name "T_Miss_Bleed" .target "target" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .on_hit false .on_miss true .can_apply_on_death true 
 effect: .name "T_Clear_Riposte" .target "target" .chance 100% .clear_riposte 1 .on_hit true .on_miss false .apply_once true
 effect: .name "T_Riposte_StressHeal" .target "performer" .curio_result_type "positive" .chance 100% .healstress 20 .on_hit true .on_miss false
-effect: .name "T_Block" .target performer .chance 100% .health_damage_blocks 1 .on_hit true .on_miss false .queue true
+effect: .name "T_Block" .target performer .chance 50% .health_damage_blocks 1 .on_hit true .on_miss false .queue true
 
 
 

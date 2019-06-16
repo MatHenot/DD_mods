@@ -21,7 +21,7 @@
          ],
          "combat_start_turn_act_outs":
          [
-            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 9},
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": },
             { "id": "stress_heal_party", "data": { "number_value": 0.0, "string_value": "HealStressVirtuedParty" }, "chance": 1},
             { "id": "buff_random_party_member", "data": { "number_value": 0.0, "string_value": "FarseeingBlock" }, "chance": 1},
             { "id": "buff_party", "data": { "number_value": 0.0, "string_value": "FarseeingPartyBuff1" }, "chance": 1},
