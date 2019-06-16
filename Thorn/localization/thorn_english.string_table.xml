@@ -99,10 +99,10 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[
 	Offensive:
 	Change to mode: Defensive
-	Cancel Offensive effects]]></entry>
+	Cancel Offensive effects
+	New Action with -10 SPD]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[
-	When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
 	Back to Defensive mode]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
 	

@@ -2,23 +2,6 @@
    "buffs":
    [
 	  {
-         "id" : "Offensive Speed",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 5,
-         "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "defensive"
-         },
-		 "has_description" : false
-      },
-
-	  {
          "id" : "exit_riposte_offensive",
          "stat_type" : "riposte",
          "stat_sub_type" : "Hit switch to Defensive",
@@ -64,6 +47,21 @@
          "rule_data" : {
             "float" : 0,
             "string" : "dare"
+         }
+      },
+	  {
+         "id" : "low_speed_transf",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -10,
+         "duration_type" : "before_turn",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
          }
       },
 	  {

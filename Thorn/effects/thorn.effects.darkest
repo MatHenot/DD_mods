@@ -27,8 +27,8 @@ effect: .name "Stance Skill ToolTip 5" .target "performer" .curio_result_type "p
 
 //Transform -- Offensive to Defensive Effects
 
-effect: .name "switch to Defensive" .target "performer" .set_mode defensive .untag 1 .clear_riposte 1 .on_hit true .on_miss true .has_description false
-effect: .name "thorn Add turn" .target "performer" .curio_result_type "positive" .chance 100% .initiative_change 1 .on_hit true .on_miss true .queue true
+effect: .name "switch to Defensive" .target "performer" .chance 100% .set_mode defensive .untag 1 .clear_riposte 1 .buff_ids "low_speed_transf" .on_hit true .on_miss true .has_description false
+effect: .name "thorn Add turn" .target "performer" .chance 100% .initiative_change 1 .on_hit true .on_miss true .queue true
 
 
 //Transformation end by hit
