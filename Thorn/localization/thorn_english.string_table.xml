@@ -147,11 +147,11 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Heeder"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 1pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 1pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 2pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/rd for 3 rds]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
 	{colour_start|notable}Valid in Defensive mode{colour_end}

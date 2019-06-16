@@ -29,7 +29,7 @@
         {
             "id": "pierce_darkness",
             "base_chance": 2.0,
-            "per_not_rolled_additional_chance": 0.0,
+            "per_not_rolled_additional_chance": 1.0,
             "cooldown": 8,
             "requirements": {
                 "minimum_week": 8,
@@ -65,7 +65,7 @@
                 },                
 				{
                     "type": "embark_party_buff",
-                    "string_data": "E_lightstress_tooltip",
+                    "string_data": "E_lightstress_ToolTip",
                     "number_data": 0.0
                 }
             ]
