@@ -27,8 +27,8 @@ effect: .name "Stance Skill ToolTip 5" .target "performer" .curio_result_type "p
 
 //Transform -- Offensive to Defensive Effects
 
-effect: .name "switch to Defensive" .target "performer" .set_mode defensive .untag 1 .clear_riposte 1 .on_hit true .on_miss true .has_description false
-effect: .name "thorn Add turn" .target "performer" .curio_result_type "positive" .chance 100% .initiative_change 1 .on_hit true .on_miss true .queue true
+effect: .name "switch to Defensive" .target "performer" .chance 100% .set_mode defensive .untag 1 .clear_riposte 1 .buff_ids "low_speed_transf" .on_hit true .on_miss true .has_description false
+effect: .name "thorn Add turn" .target "performer" .chance 100% .initiative_change 1 .on_hit true .on_miss true .queue true
 
 
 //Transformation end by hit
@@ -173,19 +173,17 @@ effect: .name "Heeder Mode ToolTip" .target "performer" .curio_result_type "posi
 
 effect: .name "switch to Gash" .target "performer" .set_mode gash .chance 100% .on_hit true .on_miss true .has_description false
 
-effect: .name "Gash Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 1" .on_hit true .on_miss true .can_apply_on_death true .has_description false
-effect: .name "Gash Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 2" .on_hit true .on_miss true .can_apply_on_death true .has_description false
-effect: .name "Gash Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 3" .on_hit true .on_miss true .can_apply_on_death true .has_description false
-effect: .name "Gash Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 4" .on_hit true .on_miss true .can_apply_on_death true .has_description false
-effect: .name "Gash Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Bleed 5" .on_hit true .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Gash Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Bleed 1" .on_hit true .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Gash Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Bleed 2" .on_hit true .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Gash Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Bleed 3" .on_hit true .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Gash Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Bleed 4" .on_hit true .on_miss true .can_apply_on_death true .has_description false
+effect: .name "Gash Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Bleed 5" .on_hit true .on_miss true .can_apply_on_death true .has_description false
 
-effect: .name "Gash Bleed 1" .target "target" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 100% .on_hit true .on_miss false .can_apply_on_death true 
-effect: .name "Gash Bleed 2" .target "target" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 110% .on_hit true .on_miss false .can_apply_on_death true 
-effect: .name "Gash Bleed 3" .target "target" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 120% .on_hit true .on_miss false .can_apply_on_death true 
-effect: .name "Gash Bleed 4" .target "target" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 130% .on_hit true .on_miss false .can_apply_on_death true 
-effect: .name "Gash Bleed 5" .target "target" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .on_hit true .on_miss false .can_apply_on_death true 
-
-effect: .name "Gash Dodge" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Dodge" .on_hit true .on_miss true .has_description false
+effect: .name "Gash Bleed 1" .target "target" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 100% .buff_ids "bleed_debuff_1" .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Gash Bleed 2" .target "target" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 110% .buff_ids "bleed_debuff_2" .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Bleed 3" .target "target" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 120% .buff_ids "bleed_debuff_3" .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Bleed 4" .target "target" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 130% .buff_ids "bleed_debuff_4" .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Bleed 5" .target "target" .curio_result_type "negative" .dotBleed 4 .duration 3 .chance 140% .buff_ids "bleed_debuff_5" .on_hit true .on_miss false .can_apply_on_death true
 
 effect: .name "Gash Riposte ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Riposte ToolTip 1" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
 effect: .name "Gash Riposte ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Riposte ToolTip 2" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
@@ -193,11 +191,17 @@ effect: .name "Gash Riposte ToolTip 3" .target "performer" .curio_result_type "p
 effect: .name "Gash Riposte ToolTip 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Riposte ToolTip 4" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
 effect: .name "Gash Riposte ToolTip 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Riposte ToolTip 5" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
 
-effect: .name "Gash Skill ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 1" "Gash Fake Dodge" "Gash Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
-effect: .name "Gash Skill ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 2" "Gash Fake Dodge" "Gash Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
-effect: .name "Gash Skill ToolTip 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 3" "Gash Fake Dodge" "Gash Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
-effect: .name "Gash Skill ToolTip 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 4" "Gash Fake Dodge" "Gash Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
-effect: .name "Gash Skill ToolTip 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 5" "Gash Fake Dodge" "Gash Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Riposte Bleed 1" .target "target" .curio_result_type "negative" .dotBleed 1 .duration 3 .chance 100% .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Riposte Bleed 2" .target "target" .curio_result_type "negative" .dotBleed 1 .duration 3 .chance 110% .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Riposte Bleed 3" .target "target" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 120% .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Riposte Bleed 4" .target "target" .curio_result_type "negative" .dotBleed 2 .duration 3 .chance 130% .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "Gash Riposte Bleed 5" .target "target" .curio_result_type "negative" .dotBleed 3 .duration 3 .chance 140% .on_hit true .on_miss false .can_apply_on_death true 
+
+effect: .name "Gash Skill ToolTip 1" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 1" "Gash Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip 2" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 2" "Gash Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip 3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 3" "Gash Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip 4" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 4" "Gash Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip 5" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 5" "Gash Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
 
 
 //Dare

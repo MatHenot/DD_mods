@@ -1119,6 +1119,7 @@
             "string" : ""
          }
 	  },
+	  
 	  {
          "id" : "E_lightstress_ToolTip",
          "stat_type" : "upgrade_discount",

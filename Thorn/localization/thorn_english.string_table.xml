@@ -74,6 +74,14 @@
     <entry id="thorn_armour_4"><![CDATA["Queen's Glory"]]></entry>
     <entry id="upgrade_tree_name_thorn.armour"><![CDATA[Leather Armor]]></entry>
 
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We would just bother each other.]]></entry>
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[It would be too hard to focus.]]></entry>
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We couldn't work together.]]></entry>
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We need not to be too close.]]></entry>
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[Two blind people are too heavy a burden.]]></entry>
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[This would be too risky.]]></entry>
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We would just loss our focus.]]></entry>
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[One disabled is enough.]]></entry>
 
 	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush Chance]]></entry>
     <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Healing Received from Skills]]></entry>
@@ -91,10 +99,10 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[
 	Offensive:
 	Change to mode: Defensive
-	Cancel Offensive effects]]></entry>
+	Cancel Offensive effects
+	New Action with -10 SPD]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[
-	When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
 	Back to Defensive mode]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
 	
@@ -147,11 +155,11 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_Heeder"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 1pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 1pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 2pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/rd for 3 rds]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
 	{colour_start|notable}Valid in Defensive mode{colour_end}
@@ -172,8 +180,9 @@
 	<entry id="str_thorn_backtodef"><![CDATA[I-I didn't see that coming...]]></entry>
 	<entry id="str_thorn_backtodef"><![CDATA[Oof!]]></entry>
 	<entry id="str_thorn_backtodef"><![CDATA[?!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Wh..?]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[...need to focus!]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[Wh...?]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[...way too risky!]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[Altered Senses]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[There's none so blind as those who can not listen.]]></entry>
