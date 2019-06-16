@@ -8,10 +8,10 @@
     <entry id="action_verbose_body_blacksmith_thorn"><![CDATA[Her leather outfit, vestige of her past, protects her while giving complete freedom of movement. An indispensable tool for the Thorn, her sword cane is both guide and killer, an eternal reminder of what she has lost and what she has become.]]></entry>
     <entry id="action_verbose_body_camping_trainer_thorn"><![CDATA[After offering a good sparring session, the Thorn will eventually rest, still will never sleep on both ears. By focusing on the twisted sounds around them, she will help her companions to see through darkness.]]></entry>	
   	
-	<entry id="town_event_title_first_thorn"><![CDATA[First Thorn]]></entry>
-	<entry id="town_event_description_first_thorn"><![CDATA[First Thorn.]]></entry>
-	<entry id="town_event_title_pierce_darkness"><![CDATA[Pierce through the darkness]]></entry>
-	<entry id="town_event_description_pierce_darkness"><![CDATA[Pierce through the darkness.]]></entry>
+	<entry id="town_event_title_first_thorn"><![CDATA[Blind Journey]]></entry>
+	<entry id="town_event_description_first_thorn"><![CDATA[Was she lost, or did she arrive at her destination? She is blind, and yet much more alert than it seems.]]></entry>
+	<entry id="town_event_title_pierce_darkness"><![CDATA[Pierce Through the Darkness]]></entry>
+	<entry id="town_event_description_pierce_darkness"><![CDATA[To fight against darkness, one must be used to it. The Thorn is here to help heroes not to rely on their eyes. Do not take off your blindfold.]]></entry>
 	
 	<entry id="str_inventory_title_trinketthorn_headband"><![CDATA[Headband]]></entry>
 	<entry id="str_inventory_title_trinketthorn_potpourri"><![CDATA[Potpourri]]></entry>
@@ -168,31 +168,31 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[No stress received from light level]]></entry>
 
 	<entry id="str_thorn_backtodef"><![CDATA[I can't see them!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Time to withdraw.]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[Huh!]]></entry>
 	<entry id="str_thorn_backtodef"><![CDATA[I-I didn't see that coming...]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[It's way too risky!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[No way! I need to fall back.]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[I need some time to recover.]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[I'm not able to focus!]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[Oof!]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[?!]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[...]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[Wh..?]]></entry>
 
-    <entry id="str_affliction_name_blindness"><![CDATA[Blindness]]></entry>
-    <entry id="str_affliction_description_blindness"><![CDATA[Description abstraite, exemple pour irrationnal : Two and two make three while six and seven break free.]]></entry>
+    <entry id="str_affliction_name_blindness"><![CDATA[Altered Senses]]></entry>
+    <entry id="str_affliction_description_blindness"><![CDATA[There's none so blind as those who can not listen.]]></entry>
 	
-	<entry id="str_heart_attack_blindness"><![CDATA[]]></entry>
-	<entry id="str_heart_attack_blindness"><![CDATA[]]></entry>
-	<entry id="str_heart_attack_blindness"><![CDATA[]]></entry>
+	<entry id="str_heart_attack_blindness"><![CDATA[DARKNESS REACHED ME...]]></entry>
+	<entry id="str_heart_attack_blindness"><![CDATA[TOO MUCH SENSATIONS!]]></entry>
+	<entry id="str_heart_attack_blindness"><![CDATA[Overwhelming...]]></entry>
 	
-    <entry id="thorn+str_afflicted_blindness"><![CDATA[début d'affliction]]></entry>
-    <entry id="thorn+str_afflicted_blindness"><![CDATA[]]></entry>
-    <entry id="thorn+str_afflicted_blindness"><![CDATA[]]></entry>
-    <entry id="thorn+str_afflicted_blindness"><![CDATA[]]></entry>
-	<entry id="thorn+str_afflicted_blindness"><![CDATA[]]></entry>
-	<entry id="thorn+str_bark_stress_blindness"><![CDATA[random bark qui stress]]></entry>
-    <entry id="thorn+str_bark_stress_blindness"><![CDATA[]]></entry>
-    <entry id="thorn+str_bark_stress_blindness"><![CDATA[]]></entry>
-    <entry id="thorn+str_random_command_blindness"><![CDATA[skill random]]></entry>
-    <entry id="thorn+str_random_command_blindness"><![CDATA[]]></entry>
-    <entry id="thorn+str_random_command_blindness"><![CDATA[]]></entry>
+    <entry id="thorn+str_afflicted_blindness"><![CDATA[Too many unknown sensations...]]></entry>
+    <entry id="thorn+str_afflicted_blindness"><![CDATA[What is happening? Why can't I feel anything?]]></entry>
+    <entry id="thorn+str_afflicted_blindness"><![CDATA[TH...THIS IS OVERWHELMING!]]></entry>
+    <entry id="thorn+str_afflicted_blindness"><![CDATA[I'M BLIND AGAIN!]]></entry>
+	<entry id="thorn+str_afflicted_blindness"><![CDATA[I AM LOST!]]></entry>
+	<entry id="thorn+str_bark_stress_blindness"><![CDATA[ARE YOU ALL CRIPPLED? DO SOMETHING!]]></entry>
+    <entry id="thorn+str_bark_stress_blindness"><![CDATA[Can't you feel the emptiness?]]></entry>
+    <entry id="thorn+str_bark_stress_blindness"><![CDATA[Is that...IT'S A HORDE OF THEM! RUN!]]></entry>
+    <entry id="thorn+str_random_command_blindness"><![CDATA[Let me try this. Where are you?]]></entry>
+    <entry id="thorn+str_random_command_blindness"><![CDATA[All good, I got this.]]></entry>
+    <entry id="thorn+str_random_command_blindness"><![CDATA[This is the right choice.]]></entry>
     <entry id="thorn+str_attack_friendly_blindness"><![CDATA[thorn attaque un allié]]></entry>
     <entry id="thorn+str_attack_friendly_blindness"><![CDATA[]]></entry>
     <entry id="thorn+str_attack_friendly_blindness"><![CDATA[]]></entry>
