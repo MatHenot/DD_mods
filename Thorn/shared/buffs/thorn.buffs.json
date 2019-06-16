@@ -2,7 +2,7 @@
    "buffs":
    [
 	  {
-         "id" : "exit_riposte_offensive",
+         "id" : "exit_riposte",
          "stat_type" : "riposte",
          "stat_sub_type" : "Hit switch to Defensive",
          "amount" : 1,
@@ -11,43 +11,12 @@
          "source" : "bsrc_riposte",
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
-         "is_false_rule" : false,
+         "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
-            "string" : "offensive"
-         }
-      },
-	  {
-         "id" : "exit_riposte_gash",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Hit switch to Defensive",
-         "amount" : 1,
-         "duration_type" : "before_turn",
-         "duration" : 1,
-         "source" : "bsrc_riposte",
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "gash"
-         }
-      },
-	  {
-         "id" : "exit_riposte_dare",
-         "stat_type" : "riposte",
-         "stat_sub_type" : "Hit switch to Defensive",
-         "amount" : 1,
-         "duration_type" : "before_turn",
-         "duration" : 1,
-         "source" : "bsrc_riposte",
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "dare"
-         }
+            "string" : "defensive"
+         },
+		 "has_description" : false
       },
 	  {
          "id" : "low_speed_transf",
@@ -78,7 +47,7 @@
             "float" : 0,
             "string" : "defensive"
          },
-		"fx": "transfofx2"
+		"fx": "transfofx"
       },
 	  
       {
