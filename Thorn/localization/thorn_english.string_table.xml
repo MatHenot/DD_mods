@@ -58,7 +58,7 @@
     <entry id="camping_skill_name_thorncamp1"><![CDATA[SHARPENED EARS]]></entry>
     <entry id="camping_skill_name_thorncamp2"><![CDATA[SPARRING]]></entry>
     <entry id="camping_skill_name_thorncamp3"><![CDATA[ALERT BELLS]]></entry>
-    <entry id="camping_skill_name_thorncamp4"><![CDATA[DON'T TRUST YOUR EYES]]></entry>
+    <entry id="camping_skill_name_thorncamp4"><![CDATA[FOCUS]]></entry>
 	
 	<entry id="thorn_weapon_0"><![CDATA[Combat Stick]]></entry>
     <entry id="thorn_weapon_1"><![CDATA[Blunt Swordstick]]></entry>
@@ -268,16 +268,16 @@
     
     <entry id="thorn+str_bark_thorncamp1"><![CDATA[Can you hear that?]]></entry>
 	<entry id="thorn+str_bark_thorncamp1"><![CDATA[Make no sound, we will sneak on them.]]></entry>
-	<entry id="thorn+str_bark_thorncamp1"><![CDATA[The sound will betray them.]]></entry>
+	<entry id="thorn+str_bark_thorncamp1"><![CDATA[They don't know things such as discretion.]]></entry>
     <entry id="thorn+str_bark_thorncamp2"><![CDATA[Time to train, you'll rest later.]]></entry>
-	<entry id="thorn+str_bark_thorncamp2"><![CDATA[Up, left, Parry! and ATTACK!]]></entry>
+	<entry id="thorn+str_bark_thorncamp2"><![CDATA[Up, left, Parry... and ATTACK!]]></entry>
 	<entry id="thorn+str_bark_thorncamp2"><![CDATA[Lower on your legs!]]></entry>
     <entry id="thorn+str_bark_thorncamp3"><![CDATA[This should prevent intruders.]]></entry>
 	<entry id="thorn+str_bark_thorncamp3"><![CDATA[If anyone comes, we'll hear them in time.]]></entry>
 	<entry id="thorn+str_bark_thorncamp3"><![CDATA[A trap for the wanderers.]]></entry>
     <entry id="thorn+str_bark_thorncamp4"><![CDATA[Get used to the darkness.]]></entry>
-	<entry id="thorn+str_bark_thorncamp4"><![CDATA[You can not trust what you see.]]></entry>
-	<entry id="thorn+str_bark_thorncamp4"><![CDATA[You don't need to see, you need to feel everything.]]></entry>
+	<entry id="thorn+str_bark_thorncamp4"><![CDATA[You trust too much in what you see.]]></entry>
+	<entry id="thorn+str_bark_thorncamp4"><![CDATA[You don't need to see, you need to feel.]]></entry>
         
 	<entry id="thorn+str_critbyhero"><![CDATA[An easy fight!]]></entry>
     <entry id="thorn+str_critbyhero"><![CDATA[Get me a worthy opponent!]]></entry>
@@ -286,10 +286,10 @@
     <entry id="thorn+str_critbyhero"><![CDATA[Cheer for me!]]></entry>
     <entry id="thorn+str_critbyhero"><![CDATA[Easier than in my trainings.]]></entry>
 	
-	<entry id="thorn+str_monster_user_selected_targets_kill_pill"><![CDATA[I know eternal darkness. I'm ready...]]></entry>
-    <entry id="thorn+str_monster_attack_unholy_smite"><![CDATA[WHAT WAS THAT?!]]></entry>
+	<entry id="thorn+str_monster_user_selected_targets_kill_pill"><![CDATA[I already live in eternal darkness. I'm ready for that.]]></entry>
+    <entry id="thorn+str_monster_attack_unholy_smite"><![CDATA[That sounds like nothing on earth!!]]></entry>
     <entry id="thorn+str_monster_attack_unholy_judgement"><![CDATA[I sense... evil!]]></entry>
-    <entry id="thorn+str_monster_attack_unholy_curse"><![CDATA[That is an awfull thing to remind me..]]></entry>
+    <entry id="thorn+str_monster_attack_unholy_curse"><![CDATA[Decay and wilt will encompass our world...]]></entry>
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[I smell... flowers...]]></entry>
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[I'm fading...]]></entry>
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[The last petal fell.]]></entry>
