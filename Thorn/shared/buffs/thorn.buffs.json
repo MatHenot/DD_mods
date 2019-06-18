@@ -34,22 +34,6 @@
          },
 		 "has_description" : false
       },
-	  {
-         "id" : "transfofx",
-         "stat_type" : "status",
-         "stat_sub_type" : "",
-         "amount" : 0,
-         "duration_type" : "combat_end",
-         "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "defensive"
-         },
-		"fx": "transfofx"
-      },
 	  
       {
          "id" : "Random Attack",
