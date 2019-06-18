@@ -1,20 +1,27 @@
 
 thorn.sprite.wilt_fx.png
-size: 1695,261
+size: 1654,577
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 imagesfx/deff
   rotate: false
-  xy: 2, 2
+  xy: 2, 318
   size: 1001, 257
   orig: 1001, 257
   offset: 0, 0
   index: -1
 imagesfx/off
   rotate: false
-  xy: 1005, 78
+  xy: 2, 135
   size: 688, 181
   orig: 688, 181
+  offset: 0, 0
+  index: -1
+imagesfx/thornsd
+  rotate: false
+  xy: 1005, 2
+  size: 647, 573
+  orig: 647, 573
   offset: 0, 0
   index: -1
