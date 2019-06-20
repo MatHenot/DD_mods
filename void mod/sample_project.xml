@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<ItemDescriptionShort/>
+	<ModDataPath>c:/absolute_path_to_your_mod_folders_data_directory/data/</ModDataPath>
+	<Title>Void mod</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>private</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>0</VersionMajor>
+	<VersionMinor>0</VersionMinor>
+	<TargetBuild>0</TargetBuild>
+	<Tags>
+		<Tags>tag1</Tags>
+		<Tags>tag2</Tags>
+	</Tags>
+	<ItemDescription/>
+	<PublishedFileId>1774102379</PublishedFileId>
+</project>
+
