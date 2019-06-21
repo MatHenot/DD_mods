@@ -79,7 +79,7 @@
 	  },
 	  
       {
-         "id" : "Wilt Crit 1",
+         "id" : "Listen Crit 1",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
          "amount" : 0.05,
@@ -92,7 +92,7 @@
          }
       },
       {
-         "id" : "Wilt Crit 2",
+         "id" : "Listen Crit 2",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
          "amount" : 0.07,
@@ -105,7 +105,7 @@
          }
       },
       {
-         "id" : "Wilt Crit 3",
+         "id" : "Listen Crit 3",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
          "amount" : 0.1,
@@ -157,7 +157,7 @@
          }
       },
       {
-         "id" : "Wilt Debuff PRE 1",
+         "id" : "Listen Debuff PRE 1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : -0.05,
@@ -170,7 +170,7 @@
          }
       },        
 	  {
-         "id" : "Wilt Debuff PRE 2",
+         "id" : "Listen Debuff PRE 2",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : -0.07,
@@ -183,7 +183,7 @@
          }
       },        
 	  {
-         "id" : "Wilt Debuff PRE 3",
+         "id" : "Listen Debuff PRE 3",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
          "amount" : -0.10,

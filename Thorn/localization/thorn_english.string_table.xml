@@ -74,14 +74,6 @@
     <entry id="thorn_armour_4"><![CDATA["Queen's Glory"]]></entry>
     <entry id="upgrade_tree_name_thorn.armour"><![CDATA[Leather Armor]]></entry>
 
-	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We would just bother each other.]]></entry>
-	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[It would be too hard to focus.]]></entry>
-	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We couldn't work together.]]></entry>
-	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We need not to be too close.]]></entry>
-	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[Two blind people are too heavy a burden.]]></entry>
-	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[This would be too risky.]]></entry>
-	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We would just lose our focus.]]></entry>
-	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[One disabled is enough.]]></entry>
 
 	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush Chance]]></entry>
     <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Healing Received from Skills]]></entry>
@@ -174,6 +166,15 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|stress}Stress{colour_end} -5]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[No stress received from light level]]></entry>
+
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We would just bother each other.]]></entry>
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[It would be too hard to focus.]]></entry>
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We couldn't work together.]]></entry>
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We need not to be too close.]]></entry>
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[Two blind people are too heavy a burden.]]></entry>
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[This would be too risky.]]></entry>
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We would just lose our focus.]]></entry>
+	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[One disabled is enough.]]></entry>
 
 	<entry id="str_thorn_backtodef"><![CDATA[I can't see them!]]></entry>
 	<entry id="str_thorn_backtodef"><![CDATA[Huh!]]></entry>
