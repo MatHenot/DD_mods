@@ -379,9 +379,8 @@
  		 }
 	  },
 	  
-	  
 	  {
-         "id" : "Wilt Debuff Skill ToolTip 1",
+         "id" : "Wilt Bleed Debuff ToolTip 1",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "WiltDebuff1",
          "amount" : -1,
@@ -394,7 +393,7 @@
  		 }
 	  },
 	  {
-         "id" : "Wilt Debuff Skill ToolTip 2",
+         "id" : "Wilt Bleed Debuff ToolTip 2",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "WiltDebuff1",
          "amount" : -1.1,
@@ -407,7 +406,7 @@
  		 }
 	  },
 	  {
-         "id" : "Wilt Debuff Skill ToolTip 3",
+         "id" : "Wilt Bleed Debuff ToolTip 3",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "WiltDebuff2",
          "amount" : -1.2,
@@ -420,7 +419,7 @@
  		 }
 	  },
 	  {
-         "id" : "Wilt Debuff Skill ToolTip 4",
+         "id" : "Wilt Bleed Debuff ToolTip 4",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "WiltDebuff2",
          "amount" : -1.3,
@@ -433,7 +432,7 @@
  		 }
 	  },
 	  {
-         "id" : "Wilt Debuff Skill ToolTip 5",
+         "id" : "Wilt Bleed Debuff ToolTip 5",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "WiltDebuff3",
          "amount" : -1.4,
@@ -444,76 +443,12 @@
             "float" : 0,
             "string" : ""
  		 }
-	  },
-	  {
-         "id" : "Wilt Def Skill ToolTip 1",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltDefensive1",
-         "amount" : -1,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
- 		 }
-	  },
-	  {
-         "id" : "Wilt Def Skill ToolTip 2",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltDefensive2",
-         "amount" : -1.1,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
- 		 }
-	  },
-	  {
-         "id" : "Wilt Def Skill ToolTip 3",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltDefensive3",
-         "amount" : -1.2,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
- 		 }
-	  },
-	  {
-         "id" : "Wilt Def Skill ToolTip 4",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltDefensive4",
-         "amount" : -1.3,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
- 		 }
-	  },
-	  {
-         "id" : "Wilt Def Skill ToolTip 5",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltDefensive5",
-         "amount" : -1.4,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
- 		 }
 	  },	  
+
 	  {
-         "id" : "Wilt Off Skill ToolTip 1",
+         "id" : "Bleed ToolTip 1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltOffensive1",
+         "stat_sub_type" : "BleedTT1",
          "amount" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -524,9 +459,9 @@
  		 }
 	  },
 	  {
-         "id" : "Wilt Off Skill ToolTip 2",
+         "id" : "Bleed ToolTip 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltOffensive2",
+         "stat_sub_type" : "BleedTT1",
          "amount" : -1.1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -537,9 +472,9 @@
  		 }
 	  },
 	  {
-         "id" : "Wilt Off Skill ToolTip 3",
+         "id" : "Bleed ToolTip 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltOffensive3",
+         "stat_sub_type" : "BleedTT2",
          "amount" : -1.2,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -550,9 +485,9 @@
  		 }
 	  },
 	  {
-         "id" : "Wilt Off Skill ToolTip 4",
+         "id" : "Bleed ToolTip 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltOffensive4",
+         "stat_sub_type" : "BleedTT2",
          "amount" : -1.3,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -563,9 +498,9 @@
  		 }
 	  },
 	  {
-         "id" : "Wilt Off Skill ToolTip 5",
+         "id" : "Bleed ToolTip 5",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltOffensive5",
+         "stat_sub_type" : "BleedTT3",
          "amount" : -1.4,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -616,20 +551,6 @@
             "string" : ""
          }
 	  },
-	  {
-         "id" : "Blossom Mode ToolTip",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "DefModeValid",
-         "amount" : 1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	 
 	 
 	  {
          "id" : "Heeder Riposte ToolTip",
@@ -661,21 +582,73 @@
             "string" : ""
          }
       },
+	  
+	  
 	  {
-         "id" : "Heeder Mode ToolTip",
+         "id" : "Gash Bleed Debuff ToolTip 1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "DefModeValid",
+         "stat_sub_type" : "GashDebuff1",
          "amount" : -1,
-         "remove_if_not_active" : false,
+         "remove_if_not_active" : true,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+ 		 }
 	  },
-	  
-	  
+	  {
+         "id" : "Gash Bleed Debuff ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GashDebuff2",
+         "amount" : -1.1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Gash Bleed Debuff ToolTip 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GashDebuff3",
+         "amount" : -1.2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Gash Bleed Debuff ToolTip 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GashDebuff4",
+         "amount" : -1.3,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Gash Bleed Debuff ToolTip 5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GashDebuff5",
+         "amount" : -1.4,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },	  
 	  {
          "id" : "Gash Riposte ToolTip 1",
          "stat_type" : "upgrade_discount",
@@ -833,19 +806,6 @@
          "amount" : 0.05,
          "duration" : 2,
          "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
-         "id" : "Gash Mode ToolTip",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "OffModeValid",
-         "amount" : 1,
-         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1079,12 +1039,27 @@
             "string" : ""
          }
 	  },
+
+
 	  {
-         "id" : "Dare Mode ToolTip",
+         "id" : "Defensive Mode ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "DefModeValid",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },	  
+	  {
+         "id" : "Offensive Mode ToolTip",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "OffModeValid",
          "amount" : -1,
-         "remove_if_not_active" : false,
+         "remove_if_not_active" : true,
 		 "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1092,6 +1067,33 @@
             "string" : ""
          }
 	  },
+	  {
+         "id" : "Debuff Target ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "DebuffTT",
+         "amount" : -1.0,
+         "remove_if_not_active" : true,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Other Enemies ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "OtherNME",
+         "amount" : -1.0,
+         "remove_if_not_active" : true,
+		 "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+
 	  
 	  {
          "id" : "T_Fencer_ToolTip",

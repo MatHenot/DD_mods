@@ -41,6 +41,7 @@
 	
 	<entry id="combat_skill_name_thorn_stance"><![CDATA[Fencer Stance]]></entry>
     <entry id="combat_skill_name_thorn_thrust"><![CDATA[Thrust]]></entry>
+	<entry id="combat_skill_name_thorn_listen"><![CDATA[Listen]]></entry>
     <entry id="combat_skill_name_thorn_blossom"><![CDATA[Blossom]]></entry>
     <entry id="combat_skill_name_thorn_heeder"><![CDATA[Heeder]]></entry>
     <entry id="combat_skill_name_thorn_gash"><![CDATA[Gash]]></entry>
@@ -50,6 +51,7 @@
     <entry id="upgrade_tree_name_thorn.stance"><![CDATA[Fencer Stance]]></entry>
     <entry id="upgrade_tree_name_thorn.thrust"><![CDATA[Thrust]]></entry>
     <entry id="upgrade_tree_name_thorn.wilt"><![CDATA[Wilt]]></entry>
+    <entry id="upgrade_tree_name_thorn.listen"><![CDATA[Listen]]></entry>
     <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[Blossom]]></entry>
     <entry id="upgrade_tree_name_thorn.heeder"><![CDATA[Heeder]]></entry>
     <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Gash]]></entry>
@@ -73,99 +75,6 @@
     <entry id="thorn_armour_3"><![CDATA[Duelist Brigandine]]></entry>
     <entry id="thorn_armour_4"><![CDATA["Queen's Glory"]]></entry>
     <entry id="upgrade_tree_name_thorn.armour"><![CDATA[Leather Armor]]></entry>
-
-
-	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush Chance]]></entry>
-    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Healing Received from Skills]]></entry>
-	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Received]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
-	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceA"><![CDATA[Defensive:
-	Change to mode: Offensive
-	Activates {colour_start|riposte}Riposte{colour_end}
-	{colour_start|riposte}Riposte{colour_end}: %d%% DMG]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceB"><![CDATA[{colour_start|riposte}Riposte{colour_end}: +%d ACC
-	Cancel Defensive effects]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[
-	Offensive:
-	Change to mode: Defensive
-	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
-	Back to Defensive mode]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[
-	Defensive:]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Offensive"><![CDATA[
-	Offensive:]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensive"><![CDATA[DMG mod: -50%%
-	{colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}
-	+20%% {colour_start|stun}Stun{colour_end} Skill Chance vs {colour_start|mark}Marked{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% DMG vs {colour_start|mark}Marked{colour_end}]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	+25%% {colour_start|bleed}Bleed{colour_end} Amount Received /
-	-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	+33%% {colour_start|bleed}Bleed{colour_end} Amount Received /
-	-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	+50%% {colour_start|bleed}Bleed{colour_end} Amount Received /
-	-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive1"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 1 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive2"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 1 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive3"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive4"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive5"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive1"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive2"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive3"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive4"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive5"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom1"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 3 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom2"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 4 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom3"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_Heeder"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 1pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 1pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/rd for 3 rds]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
-	{colour_start|notable}Valid in Defensive mode{colour_end}
-	
-	]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
-	{colour_start|notable}Valid in Offensive mode{colour_end}]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_T_Fencer"><![CDATA[On Skill Hit: Cancels {colour_start|riposte}Riposte{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|stress}Stress{colour_end} -5]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[No stress received from light level]]></entry>
 
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We would just bother each other.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[It would be too hard to focus.]]></entry>
@@ -297,7 +206,7 @@
    
   </language>
   
-    <language id="french">
+  <language id="french">
   
 	<entry id="hero_class_name_thorn"><![CDATA[Épine]]></entry>
 	
@@ -379,98 +288,6 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[Ce serait trop risqué.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[Nous ne ferions que perdre notre concentration.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[Une handicapée suffit.]]></entry>
-
-	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush Chance]]></entry>
-    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Healing Received from Skills]]></entry>
-	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Received]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
-	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceA"><![CDATA[Defensive:
-	Change to mode: Offensive
-	Activates {colour_start|riposte}Riposte{colour_end}
-	{colour_start|riposte}Riposte{colour_end}: %d%% DMG]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceB"><![CDATA[{colour_start|riposte}Riposte{colour_end}: +%d ACC
-	Cancel Defensive effects]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[
-	Offensive:
-	Change to mode: Defensive
-	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
-	Back to Defensive mode]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[
-	Defensive:]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Offensive"><![CDATA[
-	Offensive:]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensive"><![CDATA[DMG mod: -50%%
-	{colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}
-	+20%% {colour_start|stun}Stun{colour_end} Skill Chance vs {colour_start|mark}Marked{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% DMG vs {colour_start|mark}Marked{colour_end}]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	+25%% {colour_start|bleed}Bleed{colour_end} Amount Received /
-	-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	+33%% {colour_start|bleed}Bleed{colour_end} Amount Received /
-	-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}
-	+50%% {colour_start|bleed}Bleed{colour_end} Amount Received /
-	-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive1"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 1 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive2"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 1 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive3"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive4"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDefensive5"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive1"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive2"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive3"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive4"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltOffensive5"><![CDATA[Other Enemies:
-	{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom1"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 3 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom2"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 4 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom3"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_Heeder"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
-	
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 1pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 1pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/rd for 3 rds]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
-	{colour_start|notable}Valid in Defensive mode{colour_end}
-	
-	]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
-	{colour_start|notable}Valid in Offensive mode{colour_end}]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_T_Fencer"><![CDATA[On Skill Hit: Cancels {colour_start|riposte}Riposte{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|stress}Stress{colour_end} -5]]></entry>
-
-	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[No stress received from light level]]></entry>
 
 	<entry id="str_thorn_backtodef"><![CDATA[Je ne peux pas les voir !]]></entry>
 	<entry id="str_thorn_backtodef"><![CDATA[Huh !]]></entry>
