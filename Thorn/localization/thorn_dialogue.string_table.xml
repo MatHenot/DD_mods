@@ -24,20 +24,6 @@
 	<entry id="str_inventory_title_trinketthorn_bell"><![CDATA[Shattered Bell]]></entry>	
 	<entry id="str_inventory_title_trinketthorn_head"><![CDATA[Marlene's Head]]></entry>
 	<entry id="str_inventory_title_trinketthorn_black_obi"><![CDATA[Black Obi]]></entry>
-
-    <entry id="actor_mode_name_offensive"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_dare"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_gash"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_defensive"><![CDATA[Defensive]]></entry>
-    <entry id="str_skill_mode_info_offensive"><![CDATA[]]></entry>
-    <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
-    <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
-    <entry id="str_skill_mode_info_defensive"><![CDATA[
-	{colour_start|notable}Valid in both modes{colour_end}]]></entry>
-	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Offensive]]></entry>
-	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Offensive]]></entry>
-	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Offensive]]></entry>
-    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[Defensive]]></entry>
 	
 	<entry id="combat_skill_name_thorn_stance"><![CDATA[Fencer Stance]]></entry>
     <entry id="combat_skill_name_thorn_thrust"><![CDATA[Thrust]]></entry>
@@ -50,8 +36,8 @@
     <entry id="combat_skill_name_thorn_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_thorn.stance"><![CDATA[Fencer Stance]]></entry>
     <entry id="upgrade_tree_name_thorn.thrust"><![CDATA[Thrust]]></entry>
-    <entry id="upgrade_tree_name_thorn.wilt"><![CDATA[Wilt]]></entry>
-    <entry id="upgrade_tree_name_thorn.listen"><![CDATA[Listen]]></entry>
+    <entry id="upgrade_tree_name_thorn.listen"><![CDATA[Listen]]></entry>    
+	<entry id="upgrade_tree_name_thorn.wilt"><![CDATA[Wilt]]></entry>
     <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[Blossom]]></entry>
     <entry id="upgrade_tree_name_thorn.heeder"><![CDATA[Heeder]]></entry>
     <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Gash]]></entry>
@@ -223,30 +209,17 @@
 	<entry id="str_inventory_title_trinketthorn_potpourri"><![CDATA[Potpourri]]></entry>
 	<entry id="str_inventory_title_trinketthorn_maingauche"><![CDATA[Main Gauche]]></entry>
 	<entry id="str_inventory_title_trinketthorn_fencers_precepts"><![CDATA[Les Préceptes de l'Escrimeur]]></entry>
-	<entry id="str_inventory_title_trinketthorn_signet_ring"><![CDATA[Chevalière du solitaire]]></entry>
+	<entry id="str_inventory_title_trinketthorn_signet_ring"><![CDATA[Chevalière du Solitaire]]></entry>
 	<entry id="str_inventory_set_title_cc_thorn"><![CDATA["Au Service de ma Dame."]]></entry>
 	<entry id="str_inventory_title_trinketthorn_rose_emblem"><![CDATA[Emblème de la Favorite]]></entry>
 	<entry id="str_inventory_title_trinketthorn_rapier_guard"><![CDATA[Garde de Rapière de la Championne]]></entry>
-	<entry id="str_inventory_title_trinketthorn_bell"><![CDATA[Clochette Brisée]]></entry>	
+	<entry id="str_inventory_title_trinketthorn_bell"><![CDATA[Grelos Brisée]]></entry>	
 	<entry id="str_inventory_title_trinketthorn_head"><![CDATA[Tête de Marlène]]></entry>
 	<entry id="str_inventory_title_trinketthorn_black_obi"><![CDATA[Obi Noir]]></entry>
-
-    <entry id="actor_mode_name_offensive"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_dare"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_gash"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_defensive"><![CDATA[Defensive]]></entry>
-    <entry id="str_skill_mode_info_offensive"><![CDATA[]]></entry>
-    <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
-    <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
-    <entry id="str_skill_mode_info_defensive"><![CDATA[
-	{colour_start|notable}Valid in both modes{colour_end}]]></entry>
-	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Offensive]]></entry>
-	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Offensive]]></entry>
-	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Offensive]]></entry>
-    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[Defensive]]></entry>
 	
 	<entry id="combat_skill_name_thorn_stance"><![CDATA[Pose d'Escrime]]></entry>
-    <entry id="combat_skill_name_thorn_thrust"><![CDATA[Poussée]]></entry>
+    <entry id="combat_skill_name_thorn_thrust"><![CDATA[Estoc]]></entry>
+	<entry id="combat_skill_name_thorn_listen"><![CDATA[Listen]]></entry>
     <entry id="combat_skill_name_thorn_blossom"><![CDATA[Floraison]]></entry>
     <entry id="combat_skill_name_thorn_heeder"><![CDATA[Heeder]]></entry>
     <entry id="combat_skill_name_thorn_gash"><![CDATA[Entailles]]></entry>
@@ -254,7 +227,8 @@
     <entry id="combat_skill_name_thorn_wilt"><![CDATA[Flétrissement]]></entry>
     <entry id="combat_skill_name_thorn_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_thorn.stance"><![CDATA[Pose d'Escrime]]></entry>
-    <entry id="upgrade_tree_name_thorn.thrust"><![CDATA[Poussée]]></entry>
+    <entry id="upgrade_tree_name_thorn.listen"><![CDATA[Listen]]></entry> 
+    <entry id="upgrade_tree_name_thorn.thrust"><![CDATA[Estoc]]></entry>
     <entry id="upgrade_tree_name_thorn.wilt"><![CDATA[Flétrissement]]></entry>
     <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[Floraison]]></entry>
     <entry id="upgrade_tree_name_thorn.heeder"><![CDATA[Heeder]]></entry>
@@ -263,7 +237,7 @@
 
     <entry id="camping_skill_name_thorncamp1"><![CDATA[OREILLES AFFUTEES]]></entry>
     <entry id="camping_skill_name_thorncamp2"><![CDATA[SPARRING]]></entry>
-    <entry id="camping_skill_name_thorncamp3"><![CDATA[CLOCHETTE D'ALARME]]></entry>
+    <entry id="camping_skill_name_thorncamp3"><![CDATA[GRELOS D'ALARME]]></entry>
     <entry id="camping_skill_name_thorncamp4"><![CDATA[FOCUS]]></entry>
 	
 	<entry id="thorn_weapon_0"><![CDATA[Bâton de Combat]]></entry>

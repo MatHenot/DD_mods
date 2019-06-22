@@ -19,11 +19,11 @@ effect: .name "Offensive Riposte 3" .target "performer" .chance 100% .riposte 1 
 effect: .name "Offensive Riposte 4" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -20% .damage_high_multiply -20% .attack_rating_add 20% .queue true .has_description false
 effect: .name "Offensive Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -15% .damage_high_multiply -15% .queue true .has_description false
 
-effect: .name "Stance Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Stance Skill ToolTip A1" "Stance Skill ToolTip B1" "Stance End Skill ToolTip A" "Stance End Skill ToolTip B" "Stance Skill ToolTip C" .on_hit false .on_miss true .skill_instant true
-effect: .name "Stance Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Stance Skill ToolTip A2" "Stance Skill ToolTip B2" "Stance End Skill ToolTip A" "Stance End Skill ToolTip B" "Stance Skill ToolTip C" .on_hit false .on_miss true .skill_instant true
-effect: .name "Stance Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Stance Skill ToolTip A3" "Stance Skill ToolTip B3" "Stance End Skill ToolTip A" "Stance End Skill ToolTip B" "Stance Skill ToolTip C" .on_hit false .on_miss true .skill_instant true
-effect: .name "Stance Skill ToolTip 4" .target "performer" .chance 100% .buff_ids "Stance Skill ToolTip A4" "Stance Skill ToolTip B4" "Stance End Skill ToolTip A" "Stance End Skill ToolTip B" "Stance Skill ToolTip C" .on_hit false .on_miss true .skill_instant true
-effect: .name "Stance Skill ToolTip 5" .target "performer" .chance 100% .buff_ids "Stance Skill ToolTip A5" "Stance Skill ToolTip B5" "Stance End Skill ToolTip A" "Stance End Skill ToolTip B" "Stance Skill ToolTip C" .on_hit false .on_miss true .skill_instant true
+effect: .name "Stance Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Stance Skill ToolTip A1" "Stance Skill ToolTip B1" "Stance End Skill ToolTip A" "Stance End Skill ToolTip B" "Offensive Skill ToolTip" "Stance Skill ToolTip C" .on_hit false .on_miss true .skill_instant true
+effect: .name "Stance Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Stance Skill ToolTip A2" "Stance Skill ToolTip B2" "Stance End Skill ToolTip A" "Stance End Skill ToolTip B" "Offensive Skill ToolTip" "Stance Skill ToolTip C" .on_hit false .on_miss true .skill_instant true
+effect: .name "Stance Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Stance Skill ToolTip A3" "Stance Skill ToolTip B3" "Stance End Skill ToolTip A" "Stance End Skill ToolTip B" "Offensive Skill ToolTip" "Stance Skill ToolTip C" .on_hit false .on_miss true .skill_instant true
+effect: .name "Stance Skill ToolTip 4" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Stance Skill ToolTip A4" "Stance Skill ToolTip B4" "Stance End Skill ToolTip A" "Stance End Skill ToolTip B" "Offensive Skill ToolTip" "Stance Skill ToolTip C" .on_hit false .on_miss true .skill_instant true
+effect: .name "Stance Skill ToolTip 5" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Stance Skill ToolTip A5" "Stance Skill ToolTip B5" "Stance End Skill ToolTip A" "Stance End Skill ToolTip B" "Offensive Skill ToolTip" "Stance Skill ToolTip C" .on_hit false .on_miss true .skill_instant true
 
 //Transform -- Offensive to Defensive Effects
 
@@ -68,20 +68,33 @@ effect: .name "Thrust Skill ToolTip 4" .target "performer" .chance 100% .buff_id
 effect: .name "Thrust Skill ToolTip 5" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip 5" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 5" .skill_instant true .on_hit false .on_miss true
 
 
-//--------------------DEFENSIVE--------------------
-
-
 //Listen
 
 effect: .name "Listen Mark" .target "target" .chance 100% .tag 1 .duration 3 .on_hit true .on_miss false
 
-effect: .name "Listen Debuff 1" .target "target" .chance 100% .buff_ids "Listen Debuff PRE 1" "Listen Crit 1" .on_hit true .on_miss false
-effect: .name "Listen Debuff 2" .target "target" .chance 110% .buff_ids "Listen Debuff PRE 1" "Listen Crit 1" .on_hit true .on_miss false
-effect: .name "Listen Debuff 3" .target "target" .chance 120% .buff_ids "Listen Debuff PRE 2" "Listen Crit 2" .on_hit true .on_miss false
-effect: .name "Listen Debuff 4" .target "target" .chance 130% .buff_ids "Listen Debuff PRE 2" "Listen Crit 2" .on_hit true .on_miss false
-effect: .name "Listen Debuff 5" .target "target" .chance 140% .buff_ids "Listen Debuff PRE 3" "Listen Crit 3" .on_hit true .on_miss false
+effect: .name "Listen Off" .target "performer" .chance 100% .set_mode offensive .skill_instant true .on_hit true .on_miss true .has_description false
 
-effect: .name "Listen Skill ToolTip" .target "performer" .chance 100% .buff_ids "Defensive Mode ToolTip" .on_hit true .on_miss false .skill_instant true
+effect: .name "Listen Debuff 1" .target "target" .chance 100% .buff_ids "Listen Debuff PRE 1" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Debuff 2" .target "target" .chance 110% .buff_ids "Listen Debuff PRE 1" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Debuff 3" .target "target" .chance 120% .buff_ids "Listen Debuff PRE 2" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Debuff 4" .target "target" .chance 130% .buff_ids "Listen Debuff PRE 2" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Debuff 5" .target "target" .chance 140% .buff_ids "Listen Debuff PRE 3" .on_hit true .on_miss false .has_description false
+
+effect: .name "Listen Off Debuff 1" .target "target" .chance 100% .buff_ids "Listen Crit 1" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off Debuff 2" .target "target" .chance 110% .buff_ids "Listen Crit 1" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off Debuff 3" .target "target" .chance 120% .buff_ids "Listen Crit 2" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off Debuff 4" .target "target" .chance 130% .buff_ids "Listen Crit 2" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off Debuff 5" .target "target" .chance 140% .buff_ids "Listen Crit 3" .on_hit true .on_miss false .has_description false
+
+effect: .name "Listen Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Listen Debuff ToolTip A1" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Debuff ToolTip B1" .on_hit true .on_miss false .skill_instant true
+effect: .name "Listen Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Listen Debuff ToolTip A2" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Debuff ToolTip B2" .on_hit true .on_miss false .skill_instant true
+effect: .name "Listen Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Listen Debuff ToolTip A3" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Debuff ToolTip B3" .on_hit true .on_miss false .skill_instant true
+effect: .name "Listen Skill ToolTip 4" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Listen Debuff ToolTip A4" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Debuff ToolTip B4" .on_hit true .on_miss false .skill_instant true
+effect: .name "Listen Skill ToolTip 5" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Listen Debuff ToolTip A5" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Debuff ToolTip B5" .on_hit true .on_miss false .skill_instant true
+
+
+
+//--------------------DEFENSIVE--------------------
 
 
 //Blossom

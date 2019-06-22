@@ -378,6 +378,137 @@
             "string" : ""
  		 }
 	  },
+
+	  {
+         "id" : "Listen Debuff ToolTip A1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ListenDebuffA1",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Listen Debuff ToolTip A2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ListenDebuffA1",
+         "amount" : -1.1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Listen Debuff ToolTip A3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ListenDebuffA2",
+         "amount" : -1.2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Listen Debuff ToolTip A4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ListenDebuffA2",
+         "amount" : -1.3,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Listen Debuff ToolTip A5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ListenDebuffA3",
+         "amount" : -1.4,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Listen Debuff ToolTip B1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ListenDebuffB1",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Listen Debuff ToolTip B2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ListenDebuffB1",
+         "amount" : -1.1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Listen Debuff ToolTip B3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ListenDebuffB2",
+         "amount" : -1.2,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Listen Debuff ToolTip B4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ListenDebuffB2",
+         "amount" : -1.3,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Listen Debuff ToolTip B5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ListenDebuffB3",
+         "amount" : -1.4,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
 	  
 	  {
          "id" : "Wilt Bleed Debuff ToolTip 1",
