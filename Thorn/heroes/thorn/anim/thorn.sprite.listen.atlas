@@ -1,19 +1,19 @@
 
-thorn.sprite.wilt.png
-size: 1324,1021
+thorn.sprite.listen.png
+size: 965,857
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/NewSkillOff
-  rotate: false
+images/NewSkillDef
+  rotate: true
   xy: 2, 2
-  size: 1253, 1017
-  orig: 1253, 1017
+  size: 853, 894
+  orig: 853, 894
   offset: 0, 0
   index: -1
 images/ombre
   rotate: true
-  xy: 1257, 660
+  xy: 898, 496
   size: 359, 65
   orig: 359, 65
   offset: 0, 0
