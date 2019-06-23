@@ -27,26 +27,26 @@
 	
 	<entry id="combat_skill_name_thorn_stance"><![CDATA[Fencer Stance]]></entry>
     <entry id="combat_skill_name_thorn_thrust"><![CDATA[Thrust]]></entry>
-	<entry id="combat_skill_name_thorn_listen"><![CDATA[Listen]]></entry>
+	<entry id="combat_skill_name_thorn_listen"><![CDATA[Single Out]]></entry>
     <entry id="combat_skill_name_thorn_blossom"><![CDATA[Blossom]]></entry>
-    <entry id="combat_skill_name_thorn_heeder"><![CDATA[Heeder]]></entry>
+    <entry id="combat_skill_name_thorn_heeder"><![CDATA[Hearken]]></entry>
     <entry id="combat_skill_name_thorn_gash"><![CDATA[Gash]]></entry>
     <entry id="combat_skill_name_thorn_dare"><![CDATA[Dare]]></entry>
     <entry id="combat_skill_name_thorn_wilt"><![CDATA[Wilt]]></entry>
     <entry id="combat_skill_name_thorn_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_thorn.stance"><![CDATA[Fencer Stance]]></entry>
     <entry id="upgrade_tree_name_thorn.thrust"><![CDATA[Thrust]]></entry>
-    <entry id="upgrade_tree_name_thorn.listen"><![CDATA[Listen]]></entry>    
-	<entry id="upgrade_tree_name_thorn.wilt"><![CDATA[Wilt]]></entry>
+    <entry id="upgrade_tree_name_thorn.listen"><![CDATA[Single Out]]></entry>    
     <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[Blossom]]></entry>
-    <entry id="upgrade_tree_name_thorn.heeder"><![CDATA[Heeder]]></entry>
+    <entry id="upgrade_tree_name_thorn.heeder"><![CDATA[Hearken]]></entry>
     <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Gash]]></entry>
     <entry id="upgrade_tree_name_thorn.dare"><![CDATA[Dare]]></entry>
+	<entry id="upgrade_tree_name_thorn.wilt"><![CDATA[Wilt]]></entry>
 
-    <entry id="camping_skill_name_thorncamp1"><![CDATA[SHARPENED EARS]]></entry>
+    <entry id="camping_skill_name_thorncamp1"><![CDATA[HONE SENSES]]></entry>
     <entry id="camping_skill_name_thorncamp2"><![CDATA[SPARRING]]></entry>
     <entry id="camping_skill_name_thorncamp3"><![CDATA[ALERT BELLS]]></entry>
-    <entry id="camping_skill_name_thorncamp4"><![CDATA[FOCUS]]></entry>
+    <entry id="camping_skill_name_thorncamp4"><![CDATA[HEARING FOCUS]]></entry>
 	
 	<entry id="thorn_weapon_0"><![CDATA[Combat Stick]]></entry>
     <entry id="thorn_weapon_1"><![CDATA[Blunt Swordstick]]></entry>
@@ -75,7 +75,7 @@
 	<entry id="str_thorn_backtodef"><![CDATA[Huh!]]></entry>
 	<entry id="str_thorn_backtodef"><![CDATA[I-I didn't see that coming...]]></entry>
 	<entry id="str_thorn_backtodef"><![CDATA[Oof!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[?!]]></entry>
+	<entry id="str_thorn_backtodef"><![CDATA[What the?!]]></entry>
 	<entry id="str_thorn_backtodef"><![CDATA[...need to focus!]]></entry>
 	<entry id="str_thorn_backtodef"><![CDATA[Wh...?]]></entry>
 	<entry id="str_thorn_backtodef"><![CDATA[...way too risky!]]></entry>
