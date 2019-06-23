@@ -714,7 +714,19 @@
          }
       },
 	  
-	  
+	  {
+         "id" : "One Turn",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "OneTurn",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },	  
 	  {
          "id" : "Gash Bleed Debuff ToolTip 1",
          "stat_type" : "upgrade_discount",

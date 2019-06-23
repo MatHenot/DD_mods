@@ -73,6 +73,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+33%% {colour_start|bleed}Bleed{colour_end} Amount Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+50%% {colour_start|bleed}Bleed{colour_end} Amount Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 
+	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Lasts One Round{colour_end}]]></entry>
+
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
