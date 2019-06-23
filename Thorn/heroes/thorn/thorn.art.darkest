@@ -14,7 +14,7 @@ armour: .name "thorn_armour_4" .icon "eqp_armour_4.png"
 
 
 combat_skill: .id "thrust" .icon "two" .anim "thrust" .fx "thrust_fx" .targfx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
-combat_skill: .id "listen" .icon "eight" .anim "listen" .fx "wilt_fx" .targfx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
+combat_skill: .id "listen" .icon "eight" .anim "listen" .fx "listen_fx" .targfx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "wilt" .icon "three" .anim "wilt" .fx "wilt_fx" .targfx "tmark_target" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "gash" .icon "four" .anim "gash" .fx "gash_fx" .targchestfx "gash_targfx" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1 .area_pos_offset 50 0 .target_area_pos_offset 50 0
 combat_skill: .id "dare" .icon "five" .anim "dare" .fx "dare_fx" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
