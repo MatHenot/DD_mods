@@ -380,9 +380,9 @@
 	  },
 
 	  {
-         "id" : "Listen Debuff ToolTip A1",
+         "id" : "Listen Def ToolTip 1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenDebuffA1",
+         "stat_sub_type" : "ListenDef1",
          "amount" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -393,9 +393,9 @@
  		 }
 	  },
 	  {
-         "id" : "Listen Debuff ToolTip A2",
+         "id" : "Listen Def ToolTip 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenDebuffA1",
+         "stat_sub_type" : "ListenDef1",
          "amount" : -1.1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -406,9 +406,9 @@
  		 }
 	  },
 	  {
-         "id" : "Listen Debuff ToolTip A3",
+         "id" : "Listen Def ToolTip 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenDebuffA2",
+         "stat_sub_type" : "ListenDef2",
          "amount" : -1.2,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -419,9 +419,9 @@
  		 }
 	  },
 	  {
-         "id" : "Listen Debuff ToolTip A4",
+         "id" : "Listen Def ToolTip 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenDebuffA2",
+         "stat_sub_type" : "ListenDef2",
          "amount" : -1.3,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -432,9 +432,9 @@
  		 }
 	  },
 	  {
-         "id" : "Listen Debuff ToolTip A5",
+         "id" : "Listen Def ToolTip 5",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenDebuffA3",
+         "stat_sub_type" : "ListenDef3",
          "amount" : -1.4,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -445,9 +445,9 @@
  		 }
 	  },
 	  {
-         "id" : "Listen Debuff ToolTip B1",
+         "id" : "Listen Off ToolTip 1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenDebuffB1",
+         "stat_sub_type" : "ListenOff1",
          "amount" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -458,9 +458,9 @@
  		 }
 	  },
 	  {
-         "id" : "Listen Debuff ToolTip B2",
+         "id" : "Listen Off ToolTip 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenDebuffB1",
+         "stat_sub_type" : "ListenOff1",
          "amount" : -1.1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -471,9 +471,9 @@
  		 }
 	  },
 	  {
-         "id" : "Listen Debuff ToolTip B3",
+         "id" : "Listen Off ToolTip 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenDebuffB2",
+         "stat_sub_type" : "ListenOff2",
          "amount" : -1.2,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -484,9 +484,9 @@
  		 }
 	  },
 	  {
-         "id" : "Listen Debuff ToolTip B4",
+         "id" : "Listen Off ToolTip 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenDebuffB2",
+         "stat_sub_type" : "ListenOff2",
          "amount" : -1.3,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -497,9 +497,9 @@
  		 }
 	  },
 	  {
-         "id" : "Listen Debuff ToolTip B5",
+         "id" : "Listen Off ToolTip 5",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenDebuffB3",
+         "stat_sub_type" : "ListenOff3",
          "amount" : -1.4,
          "remove_if_not_active" : true,
          "rule_type" : "always",

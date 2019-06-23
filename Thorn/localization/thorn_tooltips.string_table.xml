@@ -20,20 +20,20 @@
     <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_defensive"><![CDATA[
-	{colour_start|notable}Available in both Stances{colour_end}]]></entry>
-	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[{colour_start|notable}Offensive{colour_end}]]></entry>
-	<entry id="buff_rule_data_tooltip_dare"><![CDATA[{colour_start|notable}Offensive{colour_end}]]></entry>
-	<entry id="buff_rule_data_tooltip_gash"><![CDATA[{colour_start|notable}Offensive{colour_end}]]></entry>
-    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[{colour_start|notable}Defensive{colour_end}]]></entry>
+	{colour_start|specificclass}Available in both Stances{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Offensive]]></entry>
+	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Offensive]]></entry>
+	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Offensive]]></entry>
+    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[Defensive]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[
-	{colour_start|notable}Defensive{colour_end}:]]></entry>
+	Defensive:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Offensive"><![CDATA[
-	{colour_start|notable}Offensive{colour_end}:]]></entry>
+	Offensive:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
-	{colour_start|notable}Offensive Stance Only{colour_end}]]></entry>
+	{colour_start|specificclass}Offensive Stance Only{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
-	{colour_start|notable}Defensive Stance Only{colour_end}
+	{colour_start|specificclass}Defensive Stance Only{colour_end}
 	
 	]]></entry>
 
@@ -56,12 +56,18 @@
 	+20%% {colour_start|stun}Stun{colour_end} Skill Chance vs {colour_start|mark}Marked{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% DMG vs {colour_start|mark}Marked{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDebuffA1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDebuffA2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDebuffA3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDebuffB1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDebuffB2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDebuffB3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Amount Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+33%% {colour_start|bleed}Bleed{colour_end} Amount Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	

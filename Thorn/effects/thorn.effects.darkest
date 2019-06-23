@@ -72,25 +72,25 @@ effect: .name "Thrust Skill ToolTip 5" .target "performer" .chance 100% .buff_id
 
 effect: .name "Listen Mark" .target "target" .chance 100% .tag 1 .duration 3 .on_hit true .on_miss false
 
-effect: .name "Listen Off" .target "performer" .chance 100% .set_mode offensive .skill_instant true .on_hit true .on_miss true .has_description false
+effect: .name "Listen Off Mode" .target "performer" .chance 100% .set_mode offensive .skill_instant true .on_hit true .on_miss true .has_description false
 
-effect: .name "Listen Debuff 1" .target "target" .chance 100% .buff_ids "Listen Debuff PRE 1" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Debuff 2" .target "target" .chance 110% .buff_ids "Listen Debuff PRE 1" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Debuff 3" .target "target" .chance 120% .buff_ids "Listen Debuff PRE 2" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Debuff 4" .target "target" .chance 130% .buff_ids "Listen Debuff PRE 2" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Debuff 5" .target "target" .chance 140% .buff_ids "Listen Debuff PRE 3" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Def 1" .target "target" .chance 100% .unstealth 1 .buff_ids "Listen PRE 1" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Def 2" .target "target" .chance 110% .unstealth 1 .buff_ids "Listen PRE 1" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Def 3" .target "target" .chance 120% .unstealth 1 .buff_ids "Listen PRE 2" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Def 4" .target "target" .chance 130% .unstealth 1 .buff_ids "Listen PRE 2" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Def 5" .target "target" .chance 140% .unstealth 1 .buff_ids "Listen PRE 3" .on_hit true .on_miss false .has_description false
 
-effect: .name "Listen Off Debuff 1" .target "target" .chance 100% .buff_ids "Listen Crit 1" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Off Debuff 2" .target "target" .chance 110% .buff_ids "Listen Crit 1" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Off Debuff 3" .target "target" .chance 120% .buff_ids "Listen Crit 2" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Off Debuff 4" .target "target" .chance 130% .buff_ids "Listen Crit 2" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Off Debuff 5" .target "target" .chance 140% .buff_ids "Listen Crit 3" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off 1" .target "target" .chance 100% .clearguarded 1 .buff_ids "Listen Crit 1" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off 2" .target "target" .chance 110% .clearguarded 1 .buff_ids "Listen Crit 1" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off 3" .target "target" .chance 120% .clearguarded 1 .buff_ids "Listen Crit 2" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off 4" .target "target" .chance 130% .clearguarded 1 .buff_ids "Listen Crit 2" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off 5" .target "target" .chance 140% .clearguarded 1 .buff_ids "Listen Crit 3" .on_hit true .on_miss false .has_description false
 
-effect: .name "Listen Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Listen Debuff ToolTip A1" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Debuff ToolTip B1" .on_hit true .on_miss false .skill_instant true
-effect: .name "Listen Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Listen Debuff ToolTip A2" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Debuff ToolTip B2" .on_hit true .on_miss false .skill_instant true
-effect: .name "Listen Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Listen Debuff ToolTip A3" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Debuff ToolTip B3" .on_hit true .on_miss false .skill_instant true
-effect: .name "Listen Skill ToolTip 4" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Listen Debuff ToolTip A4" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Debuff ToolTip B4" .on_hit true .on_miss false .skill_instant true
-effect: .name "Listen Skill ToolTip 5" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Listen Debuff ToolTip A5" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Debuff ToolTip B5" .on_hit true .on_miss false .skill_instant true
+effect: .name "Listen Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Debuff Target ToolTip" "Listen Def ToolTip 1" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Off ToolTip 1" .on_hit true .on_miss false .skill_instant true
+effect: .name "Listen Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Debuff Target ToolTip" "Listen Def ToolTip 2" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Off ToolTip 2" .on_hit true .on_miss false .skill_instant true
+effect: .name "Listen Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Debuff Target ToolTip" "Listen Def ToolTip 3" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Off ToolTip 3" .on_hit true .on_miss false .skill_instant true
+effect: .name "Listen Skill ToolTip 4" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Debuff Target ToolTip" "Listen Def ToolTip 4" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Off ToolTip 4" .on_hit true .on_miss false .skill_instant true
+effect: .name "Listen Skill ToolTip 5" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Debuff Target ToolTip" "Listen Def ToolTip 5" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Off ToolTip 5" .on_hit true .on_miss false .skill_instant true
 
 
 
