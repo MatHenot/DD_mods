@@ -34,7 +34,7 @@
 		
 	    {"event_id": "event:/char/ally/thorn_blossom_defensive",				"guid_override":"{e6d7db11-47f9-4c40-8557-639dbda9a12d}"},
 		
-        {"event_id": "event:/char/ally/thorn_heeder_defensive",					"guid_override":"{7ed190e2-67bd-4dd1-bf1c-23cb50f814ef}"},
+        {"event_id": "event:/char/ally/thorn_hearken_defensive",					"guid_override":"{7ed190e2-67bd-4dd1-bf1c-23cb50f814ef}"},
 
 		{"event_id": "event:/char/ally/thorn_riposte1_defensive",				"guid_override":"{c6173beb-378d-4eb9-a730-ec62176bcb4f}"},
 		{"event_id": "event:/char/ally/thorn_riposte1_miss_defensive",			"guid_override":"{28594a10-3457-4209-b76c-c71056537b23}"},

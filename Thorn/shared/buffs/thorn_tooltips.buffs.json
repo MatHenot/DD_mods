@@ -684,9 +684,9 @@
 	  },
 	 
 	  {
-         "id" : "Heeder Riposte ToolTip",
+         "id" : "hearken Riposte ToolTip",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "Heeder",
+         "stat_sub_type" : "hearken",
          "amount" : 1,
          "duration" : 3,
          "source" : "bsrc_riposte",
@@ -699,9 +699,9 @@
          }
       },
 	  {
-         "id" : "Heeder Fake Riposte ToolTip",
+         "id" : "hearken Fake Riposte ToolTip",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "Heeder",
+         "stat_sub_type" : "hearken",
          "amount" : 1,
          "duration" : 3,
          "source" : "bsrc_riposte",

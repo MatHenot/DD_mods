@@ -99,11 +99,11 @@ effect: .name "Listen Skill ToolTip 5" .target "performer" .chance 100% .buff_id
 
 //Blossom
 
-effect: .name "Blossom Prot 1" .target "performer" .chance 100% .buff_ids "Heeder Prot 1" .on_hit true .on_miss true .apply_once true .has_description false
-effect: .name "Blossom Prot 2" .target "performer" .chance 100% .buff_ids "Heeder Prot 2" .on_hit true .on_miss true .apply_once true .has_description false
-effect: .name "Blossom Prot 3" .target "performer" .chance 100% .buff_ids "Heeder Prot 3" .on_hit true .on_miss true .apply_once true .has_description false
-effect: .name "Blossom Prot 4" .target "performer" .chance 100% .buff_ids "Heeder Prot 4" .on_hit true .on_miss true .apply_once true .has_description false
-effect: .name "Blossom Prot 5" .target "performer" .chance 100% .buff_ids "Heeder Prot 5" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 1" .target "performer" .chance 100% .buff_ids "hearken Prot 1" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 2" .target "performer" .chance 100% .buff_ids "hearken Prot 2" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 3" .target "performer" .chance 100% .buff_ids "hearken Prot 3" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 4" .target "performer" .chance 100% .buff_ids "hearken Prot 4" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 5" .target "performer" .chance 100% .buff_ids "hearken Prot 5" .on_hit true .on_miss true .apply_once true .has_description false
 
 effect: .name "Blossom Fake Prot 1" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit false .on_miss true 
 effect: .name "Blossom Fake Prot 2" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 13% .on_hit false .on_miss true 
@@ -131,27 +131,27 @@ effect: .name "Blossom Skill ToolTip 2" .target "performer" .chance 100% .buff_i
 effect: .name "Blossom Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Blossom ToolTip 3" "Defensive Mode ToolTip" .on_hit false .on_miss true
 
 
-//Heeder
+//hearken
 
-effect: .name "Heeder Guard" .target "target" .chance 100% .guard 1 .duration 3 .on_hit true .on_miss true
+effect: .name "hearken Guard" .target "target" .chance 100% .guard 1 .duration 3 .on_hit true .on_miss true
 
-effect: .name "Heeder StressHeal 1" .target "target" .chance 100% .healstress 4 .on_hit true .on_miss false
-effect: .name "Heeder StressHeal 2" .target "target" .chance 100% .healstress 4 .on_hit true .on_miss false
-effect: .name "Heeder StressHeal 3" .target "target" .chance 100% .healstress 5 .on_hit true .on_miss false
-effect: .name "Heeder StressHeal 4" .target "target" .chance 100% .healstress 5 .on_hit true .on_miss false
-effect: .name "Heeder StressHeal 5" .target "target" .chance 100% .healstress 6 .on_hit true .on_miss false
+effect: .name "hearken StressHeal 1" .target "target" .chance 100% .healstress 4 .on_hit true .on_miss false
+effect: .name "hearken StressHeal 2" .target "target" .chance 100% .healstress 4 .on_hit true .on_miss false
+effect: .name "hearken StressHeal 3" .target "target" .chance 100% .healstress 5 .on_hit true .on_miss false
+effect: .name "hearken StressHeal 4" .target "target" .chance 100% .healstress 5 .on_hit true .on_miss false
+effect: .name "hearken StressHeal 5" .target "target" .chance 100% .healstress 6 .on_hit true .on_miss false
 
-effect: .name "Heeder Riposte Clear" .target "performer" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false
+effect: .name "hearken Riposte Clear" .target "performer" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false
 
-effect: .name "Heeder Riposte" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -30% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "Heeder Mark" .on_hit true .on_miss true .queue true
+effect: .name "hearken Riposte" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -30% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
 
-effect: .name "Heeder Riposte Crit" .target "performer" .chance 100% .riposte 1 .duration 3 .crit_chance_add -100% .on_hit true .on_miss true .queue true .has_description false
+effect: .name "hearken Riposte Crit" .target "performer" .chance 100% .riposte 1 .duration 3 .crit_chance_add -100% .on_hit true .on_miss true .queue true .has_description false
 
-effect: .name "Heeder Mark" .target "target" .chance 100% .tag 1 .duration 3 .actor_dot ripdef_fx .on_hit true .on_miss false
+effect: .name "hearken Mark" .target "target" .chance 100% .tag 1 .duration 3 .actor_dot ripdef_fx .on_hit true .on_miss false
 
-effect: .name "Heeder Riposte ToolTip" .target "performer" .chance 100% .buff_ids "Heeder Riposte ToolTip" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "hearken Riposte ToolTip" .target "performer" .chance 100% .buff_ids "hearken Riposte ToolTip" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
 
-effect: .name "Heeder Skill ToolTip" .target "performer" .chance 100% .buff_ids "Heeder Fake Riposte ToolTip" "Defensive Mode ToolTip" .on_hit false .on_miss true .skill_instant true
+effect: .name "hearken Skill ToolTip" .target "performer" .chance 100% .buff_ids "hearken Fake Riposte ToolTip" "Defensive Mode ToolTip" .on_hit false .on_miss true .skill_instant true
 
 
 

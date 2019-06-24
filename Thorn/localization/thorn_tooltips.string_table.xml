@@ -93,7 +93,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom3"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
 	{colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_Heeder"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
 

@@ -217,7 +217,7 @@
       },
 
 	  {
-         "id" : "Heeder Prot 1",
+         "id" : "hearken Prot 1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "protection_rating",
          "amount" : 0.10,
@@ -231,7 +231,7 @@
          }
 	  },
 	  {
-         "id" : "Heeder Prot 2",
+         "id" : "hearken Prot 2",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "protection_rating",
          "amount" : 0.13,
@@ -245,7 +245,7 @@
          }
 	  },
 	  {
-         "id" : "Heeder Prot 3",
+         "id" : "hearken Prot 3",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "protection_rating",
          "amount" : 0.17,
@@ -259,7 +259,7 @@
          }
 	  },
 	  {
-         "id" : "Heeder Prot 4",
+         "id" : "hearken Prot 4",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "protection_rating",
          "amount" : 0.21,
@@ -273,7 +273,7 @@
          }
 	  },
 	  {
-         "id" : "Heeder Prot 5",
+         "id" : "hearken Prot 5",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "protection_rating",
          "amount" : 0.25,
