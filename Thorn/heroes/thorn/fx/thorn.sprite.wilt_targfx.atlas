@@ -1,69 +1,69 @@
 
 thorn.sprite.wilt_targfx.png
-size: 725,440
+size: 738,445
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 cerclethorn
-  rotate: true
-  xy: 449, 214
+  rotate: false
+  xy: 449, 202
   size: 224, 241
   orig: 224, 241
   offset: 0, 0
   index: -1
 middlethirn
-  rotate: true
-  xy: 449, 79
+  rotate: false
+  xy: 449, 80
   size: 133, 120
   orig: 133, 120
   offset: 0, 0
   index: -1
 splatter
   rotate: true
-  xy: 2, 2
+  xy: 2, 7
   size: 436, 445
   orig: 436, 445
   offset: 0, 0
   index: -1
 thorn1
   rotate: false
-  xy: 449, 12
-  size: 108, 65
-  orig: 108, 65
+  xy: 449, 2
+  size: 119, 76
+  orig: 119, 76
   offset: 0, 0
   index: -1
 thorn2
   rotate: true
-  xy: 571, 106
-  size: 106, 94
-  orig: 106, 94
+  xy: 584, 94
+  size: 106, 97
+  orig: 106, 97
   offset: 0, 0
   index: -1
 thorn3
-  rotate: true
-  xy: 649, 38
-  size: 66, 71
-  orig: 66, 71
+  rotate: false
+  xy: 675, 277
+  size: 61, 71
+  orig: 61, 71
   offset: 0, 0
   index: -1
 thorn4
   rotate: true
-  xy: 667, 138
-  size: 74, 43
-  orig: 74, 43
+  xy: 683, 126
+  size: 78, 46
+  orig: 78, 46
   offset: 0, 0
   index: -1
 thorn5
-  rotate: false
-  xy: 559, 20
-  size: 88, 57
-  orig: 88, 57
+  rotate: true
+  xy: 675, 350
+  size: 93, 61
+  orig: 93, 61
   offset: 0, 0
   index: -1
 thorn6
   rotate: true
-  xy: 692, 374
-  size: 64, 31
-  orig: 64, 31
+  xy: 675, 206
+  size: 69, 32
+  orig: 69, 32
   offset: 0, 0
   index: -1
