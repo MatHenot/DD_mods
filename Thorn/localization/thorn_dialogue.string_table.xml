@@ -4,14 +4,14 @@
   
 	<entry id="hero_class_name_thorn"><![CDATA[Thorn]]></entry>
 	
-	<entry id="action_verbose_body_guild_thorn"><![CDATA[Although having lost sight, the Thorn compensates with a very sharp sense of hearing. She can easily spot her enemies and prevent their attacks, efficiently protecting her allies. When she draws her blade, she recovers her unmatched duelist reflexes, adapting her guard to upcoming opponents. If she manages to read their movements, she will know how to throw a fatal blow.]]></entry>
-    <entry id="action_verbose_body_blacksmith_thorn"><![CDATA[Her leather outfit, vestige of her past, protects her while giving complete freedom of movement. An indispensable tool for the Thorn, her sword cane is both guide and killer, an eternal reminder of what she has lost and what she has become.]]></entry>
-    <entry id="action_verbose_body_camping_trainer_thorn"><![CDATA[After offering a good sparring session, the Thorn will eventually rest, still will never sleep on both ears. By focusing on the twisted sounds around them, she will help her companions to see through darkness.]]></entry>	
+	<entry id="action_verbose_body_guild_thorn"><![CDATA[Though she has lost her sight, the Thorn compensates with a very sharp sense of hearing. She can easily track her enemies and prevent their attacks, efficiently protecting her allies. When she draws her blade, she recovers her unmatched duelist reflexes, adapting her defensive strategies to upcoming opponents. If she manages to read their movements, she will know how to deliver a fatal blow.]]></entry>
+    <entry id="action_verbose_body_blacksmith_thorn"><![CDATA[The Thorn's leather outfit, a vestige of her past, protects her while giving complete freedom of movement. Her sword cane is an indispensable asset to her, both her guide and her weapon of choice, an eternal reminder of what she has lost and what she has become.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_thorn"><![CDATA[After offering a good sparring session, the Thorn will eventually rest, yet ready to spring awake at a moment's notice. By focusing on the twisted sounds around them, she helps in training her companions to move through the shadows with ease.]]></entry>	
   	
 	<entry id="town_event_title_first_thorn"><![CDATA[Blind Journey]]></entry>
-	<entry id="town_event_description_first_thorn"><![CDATA[Was she lost, or did she arrive at her destination? She is blind, and yet much more alert than it seems.]]></entry>
-	<entry id="town_event_title_pierce_darkness"><![CDATA[Pierce Through the Darkness]]></entry>
-	<entry id="town_event_description_pierce_darkness"><![CDATA[To fight against darkness, one must be used to it. The Thorn is here to help heroes not to rely on their eyes. Do not take off your blindfold.]]></entry>
+	<entry id="town_event_description_first_thorn"><![CDATA[Is she lost, or is this where she meant to find herself? This woman is blind, yet much more perceptive than most.]]></entry>
+	<entry id="town_event_title_pierce_darkness"><![CDATA[Pierce Through the Dark]]></entry>
+	<entry id="town_event_description_pierce_darkness"><![CDATA[To fight the darkness, one must adopt it. The Thorn is here to help your heroes to rely not on their eyes. Do not take off your blindfold.]]></entry>
 	
 	<entry id="str_inventory_title_trinketthorn_headband"><![CDATA[Headband]]></entry>
 	<entry id="str_inventory_title_trinketthorn_potpourri"><![CDATA[Potpourri]]></entry>
@@ -44,8 +44,8 @@
 	<entry id="upgrade_tree_name_thorn.wilt"><![CDATA[Wilt]]></entry>
 
     <entry id="camping_skill_name_thorncamp1"><![CDATA[HONE SENSES]]></entry>
-    <entry id="camping_skill_name_thorncamp2"><![CDATA[SPARRING]]></entry>
-    <entry id="camping_skill_name_thorncamp3"><![CDATA[ALERT BELLS]]></entry>
+    <entry id="camping_skill_name_thorncamp2"><![CDATA[SPARRING SESSION]]></entry>
+    <entry id="camping_skill_name_thorncamp3"><![CDATA[WARNING BELLS]]></entry>
     <entry id="camping_skill_name_thorncamp4"><![CDATA[HEARING FOCUS]]></entry>
 	
 	<entry id="thorn_weapon_0"><![CDATA[Combat Stick]]></entry>
@@ -80,14 +80,14 @@
 	<entry id="str_thorn_backtodef"><![CDATA[How...?]]></entry>
 	<entry id="str_thorn_backtodef"><![CDATA[...way too risky!]]></entry>
 
-    <entry id="str_affliction_name_blindness"><![CDATA[Altered Senses]]></entry>
-    <entry id="str_affliction_description_blindness"><![CDATA[There's none so blind as those who can not listen.]]></entry>
+    <entry id="str_affliction_name_blindness"><![CDATA[Lost]]></entry>
+    <entry id="str_affliction_description_blindness"><![CDATA[There are none so blind as those who cannot listen...]]></entry>
 	
 	<entry id="str_heart_attack_blindness"><![CDATA[DARKNESS REACHED ME...]]></entry>
 	<entry id="str_heart_attack_blindness"><![CDATA[The rose has faded!]]></entry>
 	<entry id="str_heart_attack_blindness"><![CDATA[Overwhelming...]]></entry>
 	
-    <entry id="thorn+str_afflicted_blindness"><![CDATA[Too much unknowns...]]></entry>
+    <entry id="thorn+str_afflicted_blindness"><![CDATA[So much unknown...]]></entry>
     <entry id="thorn+str_afflicted_blindness"><![CDATA[What is happening? Why can't I feel anything?]]></entry>
     <entry id="thorn+str_afflicted_blindness"><![CDATA[TH... THIS IS OVERWHELMING!]]></entry>
     <entry id="thorn+str_afflicted_blindness"><![CDATA[I'M BLIND AGAIN!]]></entry>
@@ -96,7 +96,7 @@
     <entry id="thorn+str_bark_stress_blindness"><![CDATA[Can't you feel the emptiness?]]></entry>
     <entry id="thorn+str_bark_stress_blindness"><![CDATA[Is that... THERE IS A HORDE OF THEM! RUN!]]></entry>
     <entry id="thorn+str_random_command_blindness"><![CDATA[Let me try this. Where are you?]]></entry>
-    <entry id="thorn+str_random_command_blindness"><![CDATA[All good, I got this... I think.]]></entry>
+    <entry id="thorn+str_random_command_blindness"><![CDATA[All good, I can do this... I think.]]></entry>
     <entry id="thorn+str_random_command_blindness"><![CDATA[Where is my target?]]></entry>
     <entry id="thorn+str_attack_friendly_blindness"><![CDATA[DIE, YOU MONSTER!]]></entry>
     <entry id="thorn+str_attack_friendly_blindness"><![CDATA[They are all around!]]></entry>
@@ -112,21 +112,21 @@
     <entry id="thorn+str_block_move_blindness"><![CDATA[I won't move in this chaos.]]></entry>
     <entry id="thorn+str_block_move_blindness"><![CDATA[I can't, I don't sense anything.]]></entry>
     <entry id="thorn+str_block_move_blindness"><![CDATA[I know where I am. I'm staying.]]></entry>
-    <entry id="thorn+str_block_combat_retreat_blindness"><![CDATA[I can't walk in that condition!]]></entry>
-    <entry id="thorn+str_block_combat_retreat_blindness"><![CDATA[I can't hear no more threat, lets just end this!]]></entry>
+    <entry id="thorn+str_block_combat_retreat_blindness"><![CDATA[I can't walk in this condition!]]></entry>
+    <entry id="thorn+str_block_combat_retreat_blindness"><![CDATA[I can't hear any more threats, lets just end this!]]></entry>
     <entry id="thorn+str_block_combat_retreat_blindness"><![CDATA[WHERE? Where would we go?]]></entry>
     <entry id="thorn+str_comment_self_hit_blindness"><![CDATA[Where did that come from?]]></entry>
     <entry id="thorn+str_comment_self_hit_blindness"><![CDATA[I didn't hear it!]]></entry>
-    <entry id="thorn+str_comment_self_hit_blindness"><![CDATA[Uh!! No way, they're too quick!]]></entry>
-    <entry id="thorn+str_comment_self_missed_blindness"><![CDATA[Wh... YOU COULD HAVE WARNED ME!]]></entry>
-    <entry id="thorn+str_comment_self_missed_blindness"><![CDATA[Did something passed by?]]></entry>
-    <entry id="thorn+str_comment_self_missed_blindness"><![CDATA[WOW! That was close, right?]]></entry>
-    <entry id="thorn+str_comment_ally_hit_blindness"><![CDATA[What happened? Did you got it?]]></entry>
+    <entry id="thorn+str_comment_self_hit_blindness"><![CDATA[Agh!! Th-they're too quick!]]></entry>
+    <entry id="thorn+str_comment_self_missed_blindness"><![CDATA[Wh... You could have warned me!]]></entry>
+    <entry id="thorn+str_comment_self_missed_blindness"><![CDATA[Did something pass by?]]></entry>
+    <entry id="thorn+str_comment_self_missed_blindness"><![CDATA[Whoa! That was close, wasn't it?]]></entry>
+    <entry id="thorn+str_comment_ally_hit_blindness"><![CDATA[What happened? Did you get it?]]></entry>
     <entry id="thorn+str_comment_ally_hit_blindness"><![CDATA[I can't protect you if you don't stay close!]]></entry>
     <entry id="thorn+str_comment_ally_hit_blindness"><![CDATA[You got him! Or... was it the opposite?]]></entry>
     <entry id="thorn+str_comment_ally_attack_missed_blindness"><![CDATA[Even I can't miss that!]]></entry>
-    <entry id="thorn+str_comment_ally_attack_missed_blindness"><![CDATA[WHAT ARE YOU DOING, THEY ARE RIGHT HERE!]]></entry>
-    <entry id="thorn+str_comment_ally_attack_missed_blindness"><![CDATA[NICE! What did you hit exactly?]]></entry>
+    <entry id="thorn+str_comment_ally_attack_missed_blindness"><![CDATA[What are you doing? They're right here!]]></entry>
+    <entry id="thorn+str_comment_ally_attack_missed_blindness"><![CDATA[Nice! ...Er, What did you hit exactly?]]></entry>
     <entry id="thorn+str_block_camping_skill_performer_blindness"><![CDATA[I won't be able to do that now.]]></entry>
     <entry id="thorn+str_block_camping_skill_performer_blindness"><![CDATA[That's too risky, I'm too confused.]]></entry>
     <entry id="thorn+str_block_camping_skill_performer_blindness"><![CDATA[Too much noise! I can't focus on anything...]]></entry>
@@ -134,28 +134,28 @@
     <entry id="thorn+str_block_camping_skill_target_blindness"><![CDATA[AH! SOMETHING'S TRYING TO HIT ME!]]></entry>
     <entry id="thorn+str_block_camping_skill_target_blindness"><![CDATA[I don't need your pity...]]></entry>
 
-    <entry id="str_virtue_name_farseeing"><![CDATA[Farseeing]]></entry>
-    <entry id="str_virtue_description_farseeing"><![CDATA[+10 ACC, +10 DEF]]></entry>
+    <entry id="str_virtue_name_farseeing"><![CDATA[Vigilant]]></entry>
+    <entry id="str_virtue_description_farseeing"><![CDATA[+10 ACC, +10 DODGE]]></entry>
 
     <entry id="thorn+str_virtued_farseeing"><![CDATA[Everything is clear now!]]></entry>
-    <entry id="thorn+str_virtued_farseeing"><![CDATA[I CAN SEE EVERYTHING!]]></entry>
+    <entry id="thorn+str_virtued_farseeing"><![CDATA[I can see everything!]]></entry>
     <entry id="thorn+str_virtued_farseeing"><![CDATA[DARKNESS DISSIPATE!]]></entry>
-    <entry id="thorn+str_stress_heal_party_farseeing"><![CDATA[I can hear the crowd cheering us!]]></entry>
+    <entry id="thorn+str_stress_heal_party_farseeing"><![CDATA[I can hear the crowd cheering us on!]]></entry>
     <entry id="thorn+str_stress_heal_party_farseeing"><![CDATA[Victory is at hand!]]></entry>
     <entry id="thorn+str_stress_heal_party_farseeing"><![CDATA[This fight is already won!]]></entry>	
-    <entry id="thorn+str_buff_random_party_member_farseeing"><![CDATA[They will hit you right here, carefull.]]></entry>
+    <entry id="thorn+str_buff_random_party_member_farseeing"><![CDATA[They will hit you right here. Be careful.]]></entry>
     <entry id="thorn+str_buff_random_party_member_farseeing"><![CDATA[Everything goes as planned.]]></entry>
-    <entry id="thorn+str_buff_random_party_member_farseeing"><![CDATA[Read the enemy, this is an easy parry.]]></entry>
+    <entry id="thorn+str_buff_random_party_member_farseeing"><![CDATA[Read the enemy. This is an easy parry.]]></entry>
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Just hit where I tell you.]]></entry>
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Here, there is a flaw in their defense.]]></entry>
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Time to go on the offensive!]]></entry>
-	<entry id="thorn+str_buff_party_farseeing"><![CDATA[FOCUS AND STRIKE!]]></entry>
+	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Focus and strike!]]></entry>
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Follow my lead!]]></entry>
 
     <entry id="thorn+str_bark_encourage"><![CDATA[The crowd will chant your name.]]></entry>
     <entry id="thorn+str_bark_encourage"><![CDATA[Your training paid off. I'm proud of you.]]></entry>
-    <entry id="thorn+str_bark_encourage"><![CDATA[You fought as a Master.]]></entry>
-    <entry id="thorn+str_bark_first_aid"><![CDATA[I've got something for your pain.]]></entry>
+    <entry id="thorn+str_bark_encourage"><![CDATA[You fought as a true Master.]]></entry>
+    <entry id="thorn+str_bark_first_aid"><![CDATA[I have something for your pain.]]></entry>
     <entry id="thorn+str_bark_first_aid"><![CDATA[These wounds will heal quickly.]]></entry>
     <entry id="thorn+str_bark_first_aid"><![CDATA[Let me help you.]]></entry>
     <entry id="thorn+str_bark_pep_talk"><![CDATA[Your bravery will prevail.]]></entry>
@@ -176,14 +176,14 @@
 	<entry id="thorn+str_bark_thorncamp4"><![CDATA[You don't need to see, you need to feel.]]></entry>
         
 	<entry id="thorn+str_critbyhero"><![CDATA[An easy fight!]]></entry>
-    <entry id="thorn+str_critbyhero"><![CDATA[Get me a worthy opponent!]]></entry>
+    <entry id="thorn+str_critbyhero"><![CDATA[Bring me a worthy opponent!]]></entry>
     <entry id="thorn+str_critbyhero"><![CDATA[Nobody can escape me!]]></entry>
     <entry id="thorn+str_critbyhero"><![CDATA[I can smell the roses already.]]></entry>
     <entry id="thorn+str_critbyhero"><![CDATA[Cheer for me!]]></entry>
     <entry id="thorn+str_critbyhero"><![CDATA[Easier than in my trainings.]]></entry>
 	
 	<entry id="thorn+str_monster_user_selected_targets_kill_pill"><![CDATA[I know eternal darkness. I'm ready...]]></entry>
-    <entry id="thorn+str_monster_attack_unholy_smite"><![CDATA[That sounds like nothing on earth!!]]></entry>
+    <entry id="thorn+str_monster_attack_unholy_smite"><![CDATA[It sounds like nothing on earth!!]]></entry>
     <entry id="thorn+str_monster_attack_unholy_judgement"><![CDATA[I sense... evil!]]></entry>
     <entry id="thorn+str_monster_attack_unholy_curse"><![CDATA[Decay and wilt will encompass our world...]]></entry>
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[I smell... flowers...]]></entry>
