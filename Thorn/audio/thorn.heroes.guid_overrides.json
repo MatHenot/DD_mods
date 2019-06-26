@@ -6,13 +6,21 @@
 
 		{"event_id": "event:/char/ally/thorn_thrust_defensive",					"guid_override":"{3bf510ab-a822-4132-ae7d-b8051dbaf1c5}"},
 		{"event_id": "event:/char/ally/thorn_thrust_miss_defensive",			"guid_override":"{514175d6-2820-40f4-a623-ea39aa1f689d}"},
-
 		{"event_id": "event:/char/ally/thorn_thrust_offensive",					"guid_override":"{9984ea38-20a8-4a1e-8953-352b59fda64c}"},		
 		{"event_id": "event:/char/ally/thorn_thrust_gash",						"guid_override":"{9984ea38-20a8-4a1e-8953-352b59fda64c}"},
 		{"event_id": "event:/char/ally/thorn_thrust_dare",						"guid_override":"{9984ea38-20a8-4a1e-8953-352b59fda64c}"},
 		{"event_id": "event:/char/ally/thorn_thrust_miss_offensive",			"guid_override":"{a65e2950-6196-41d5-921d-81138688aee6}"},
 		{"event_id": "event:/char/ally/thorn_thrust_miss_gash",					"guid_override":"{a65e2950-6196-41d5-921d-81138688aee6}"},
 		{"event_id": "event:/char/ally/thorn_thrust_miss_dare",					"guid_override":"{a65e2950-6196-41d5-921d-81138688aee6}"},
+
+		{"event_id": "event:/char/ally/thorn_listen_defensive",					"guid_override":"{d8dcf15b-1951-42b3-a611-35b704bafdf8}"},
+		{"event_id": "event:/char/ally/thorn_listen_miss_defensive",			"guid_override":"{2cc5f078-8361-4863-8815-e5007563575a}"},
+		{"event_id": "event:/char/ally/thorn_listen_offensive",					"guid_override":"{be0f10c7-627e-4f23-abc3-d972be13b8a2}"},
+		{"event_id": "event:/char/ally/thorn_listen_gash",						"guid_override":"{be0f10c7-627e-4f23-abc3-d972be13b8a2}"},
+		{"event_id": "event:/char/ally/thorn_listen_dare",						"guid_override":"{be0f10c7-627e-4f23-abc3-d972be13b8a2}"},
+		{"event_id": "event:/char/ally/thorn_listen_miss_offensive",			"guid_override":"{92689e3d-f66c-4a22-83dd-7530fc722839}"},
+		{"event_id": "event:/char/ally/thorn_listen_miss_gash",					"guid_override":"{92689e3d-f66c-4a22-83dd-7530fc722839}"},
+		{"event_id": "event:/char/ally/thorn_listen_miss_dare",					"guid_override":"{92689e3d-f66c-4a22-83dd-7530fc722839}"},
 
         {"event_id": "event:/char/ally/thorn_wilt_offensive",					"guid_override":"{805624b8-9489-4986-9afe-6e32fdf81ac3}"},
         {"event_id": "event:/char/ally/thorn_wilt_gash",						"guid_override":"{805624b8-9489-4986-9afe-6e32fdf81ac3}"},
@@ -34,11 +42,13 @@
 		
 	    {"event_id": "event:/char/ally/thorn_blossom_defensive",				"guid_override":"{e6d7db11-47f9-4c40-8557-639dbda9a12d}"},
 		
-        {"event_id": "event:/char/ally/thorn_hearken_defensive",					"guid_override":"{7ed190e2-67bd-4dd1-bf1c-23cb50f814ef}"},
+        {"event_id": "event:/char/ally/thorn_hearken_defensive",				"guid_override":"{7ed190e2-67bd-4dd1-bf1c-23cb50f814ef}"},
 
 		{"event_id": "event:/char/ally/thorn_riposte1_defensive",				"guid_override":"{c6173beb-378d-4eb9-a730-ec62176bcb4f}"},
-		{"event_id": "event:/char/ally/thorn_riposte1_miss_defensive",			"guid_override":"{28594a10-3457-4209-b76c-c71056537b23}"},
-		
+		{"event_id": "event:/char/ally/thorn_riposte1_miss_defensive",			"guid_override":"{c6173beb-378d-4eb9-a730-ec62176bcb4f}"},
+		{"event_id": "event:/general/status/actor_dot_ripdef_fx_onset",			"guid_override":"{07194b2e-d05c-4b5c-a3e3-96bba9749235}"},
+		{"event_id": "event:/general/status/actor_dot_ripdef_fx_increment",		"guid_override":"{dc678f20-5221-4f72-9624-bb091b632548}"},
+				
 		{"event_id": "event:/char/ally/thorn_riposte1_offensive",				"guid_override":"{67c8c6e2-4cb7-4df3-ba4e-77d1c0687334}"},
         {"event_id": "event:/char/ally/thorn_riposte1_miss_offensive",			"guid_override":"{b779dc40-42a4-408c-9f03-925c5d031bcb}"},
 		
