@@ -20,7 +20,7 @@
     <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_defensive"><![CDATA[
-	{colour_start|specificclass}Available in both Stances{colour_end}]]></entry>
+	{colour_start|specificclass}Available in Both Stances{colour_end}]]></entry>
 	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Offensive]]></entry>
 	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Offensive]]></entry>
 	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Offensive]]></entry>
@@ -51,7 +51,7 @@
 	Back to Defensive mode]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensive"><![CDATA[DMG mod: -50%%
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensive"><![CDATA[-50%% DMG
 	{colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}
 	+20%% {colour_start|stun}Stun{colour_end} Skill Chance vs {colour_start|mark}Marked{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% DMG vs {colour_start|mark}Marked{colour_end}]]></entry>

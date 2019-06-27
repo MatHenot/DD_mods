@@ -4,7 +4,7 @@
   
 	<entry id="hero_class_name_thorn"><![CDATA[Thorn]]></entry>
 	
-	<entry id="action_verbose_body_guild_thorn"><![CDATA[Though she has lost her sight, the Thorn compensates with a very sharp sense of hearing. She can easily track her enemies and prevent their attacks, efficiently protecting her allies. When she draws her blade, she recovers her unmatched duelist reflexes, adapting her defensive strategies to upcoming opponents. If she manages to read their movements, she will know how to deliver a fatal blow.]]></entry>
+	<entry id="action_verbose_body_guild_thorn"><![CDATA[Though she has lost her sight, the Thorn compensates with a very sharp sense of hearing. She can easily track her enemies and prevent their attacks, efficiently protecting her allies. When she draws her blade, she recovers her unmatched duelist reflexes, adapting her guard to upcoming opponents. If she manages to read their movements, she will know how to deliver a fatal blow.]]></entry>
     <entry id="action_verbose_body_blacksmith_thorn"><![CDATA[The Thorn's leather outfit, a vestige of her past, protects her while giving complete freedom of movement. Her sword cane is an indispensable asset to her, both her guide and her weapon of choice, an eternal reminder of what she has lost and what she has become.]]></entry>
     <entry id="action_verbose_body_camping_trainer_thorn"><![CDATA[After offering a good sparring session, the Thorn will eventually rest, yet ready to spring awake at a moment's notice. By focusing on the twisted sounds around them, she helps in training her companions to move through the shadows with ease.]]></entry>	
   	
@@ -126,7 +126,7 @@
     <entry id="thorn+str_comment_ally_hit_blindness"><![CDATA[You got him! Or... was it the opposite?]]></entry>
     <entry id="thorn+str_comment_ally_attack_missed_blindness"><![CDATA[Even I can't miss that!]]></entry>
     <entry id="thorn+str_comment_ally_attack_missed_blindness"><![CDATA[What are you doing? They're right here!]]></entry>
-    <entry id="thorn+str_comment_ally_attack_missed_blindness"><![CDATA[Nice! ...Er, What did you hit exactly?]]></entry>
+    <entry id="thorn+str_comment_ally_attack_missed_blindness"><![CDATA[Nice! ...Er, what did you hit exactly?]]></entry>
     <entry id="thorn+str_block_camping_skill_performer_blindness"><![CDATA[I won't be able to do that now.]]></entry>
     <entry id="thorn+str_block_camping_skill_performer_blindness"><![CDATA[That's too risky, I'm too confused.]]></entry>
     <entry id="thorn+str_block_camping_skill_performer_blindness"><![CDATA[Too much noise! I can't focus on anything...]]></entry>
@@ -134,7 +134,7 @@
     <entry id="thorn+str_block_camping_skill_target_blindness"><![CDATA[AH! SOMETHING'S TRYING TO HIT ME!]]></entry>
     <entry id="thorn+str_block_camping_skill_target_blindness"><![CDATA[I don't need your pity...]]></entry>
 
-    <entry id="str_virtue_name_farseeing"><![CDATA[Vigilant]]></entry>
+    <entry id="str_virtue_name_farseeing"><![CDATA[Farseeing]]></entry>
     <entry id="str_virtue_description_farseeing"><![CDATA[+10 ACC, +10 DODGE]]></entry>
 
     <entry id="thorn+str_virtued_farseeing"><![CDATA[Everything is clear now!]]></entry>
@@ -197,7 +197,7 @@
 	<entry id="hero_class_name_thorn"><![CDATA[Épine]]></entry>
 	
 	<entry id="action_verbose_body_guild_thorn"><![CDATA[Bien qu'ayant perdu la vue, l'Épine compense avec un sens de l'ouïe aiguisé. Elle peut facilement repérer ses ennemis et empêcher leurs attaques, protégeant efficacement ses alliés. Quand elle tire sa lame, elle retrouve ses réflexes de duelliste, adaptant sa garde en fonction de ses adversaires. Si elle parvient à lire leurs mouvements, elle saura porter le coup fatal.]]></entry>
-    <entry id="action_verbose_body_blacksmith_thorn"><![CDATA[Sa tenue en cuir, vestige de son passé, la protège tout en lui laissant une grande liberté de mouvement. Outil indispensable pour l'Épine, sa canne à épée est à la fois guide et tueuse, un rappel éternel de ce qu'elle a perdu et de ce qu'elle est devenue.]]></entry>
+    <entry id="action_verbose_body_blacksmith_thorn"><![CDATA[La tenue en cuir de l'Épine, vestige de son passé, la protège tout en lui laissant une grande liberté de mouvement. Outil indispensable, sa canne-épée est à la fois guide et tueuse, un rappel éternel de ce qu'elle a perdu et de ce qu'elle est devenue.]]></entry>
     <entry id="action_verbose_body_camping_trainer_thorn"><![CDATA[Après avoir partagé une bonne séance d'entraînement, l'Epine finira par se reposer, mais sans dormir sur ses deux oreilles. En se concentrant sur les sons qui les entourent, elle aidera ses compagnons à voir au travers de l'obscurité.]]></entry>	
   	
 	<entry id="town_event_title_first_thorn"><![CDATA[Voyage Aveugle]]></entry>
@@ -208,7 +208,7 @@
 	<entry id="str_inventory_title_trinketthorn_headband"><![CDATA[Serre-Tête]]></entry>
 	<entry id="str_inventory_title_trinketthorn_potpourri"><![CDATA[Potpourri]]></entry>
 	<entry id="str_inventory_title_trinketthorn_maingauche"><![CDATA[Main Gauche]]></entry>
-	<entry id="str_inventory_title_trinketthorn_fencers_precepts"><![CDATA[Les Préceptes de l'Escrimeur]]></entry>
+	<entry id="str_inventory_title_trinketthorn_fencers_precepts"><![CDATA[Préceptes de l'Escrimeur]]></entry>
 	<entry id="str_inventory_title_trinketthorn_signet_ring"><![CDATA[Chevalière du Solitaire]]></entry>
 	<entry id="str_inventory_set_title_cc_thorn"><![CDATA["Au Service de ma Dame."]]></entry>
 	<entry id="str_inventory_title_trinketthorn_rose_emblem"><![CDATA[Emblème de la Favorite]]></entry>
@@ -272,7 +272,7 @@
 	<entry id="str_thorn_backtodef"><![CDATA[Comment...?]]></entry>
 	<entry id="str_thorn_backtodef"><![CDATA[...trop risqué !]]></entry>
 
-    <entry id="str_affliction_name_blindness"><![CDATA[Sens Altérés]]></entry>
+    <entry id="str_affliction_name_blindness"><![CDATA[Perdue]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[Personne n'est aussi aveugle que celui qui ne sait écouter.]]></entry>
 	
 	<entry id="str_heart_attack_blindness"><![CDATA[LES TÉNÈBRES M'ATTEIGNENT...]]></entry>
@@ -309,16 +309,16 @@
     <entry id="thorn+str_block_combat_retreat_blindness"><![CDATA[OÙ ? Où irions nous ?]]></entry>
     <entry id="thorn+str_comment_self_hit_blindness"><![CDATA[D'où vient cela ?]]></entry>
     <entry id="thorn+str_comment_self_hit_blindness"><![CDATA[Je ne l'ai pas entendu !]]></entry>
-    <entry id="thorn+str_comment_self_hit_blindness"><![CDATA[Uh !! Impossible, ils sont trop rapides !]]></entry>
+    <entry id="thorn+str_comment_self_hit_blindness"><![CDATA[AH !! Impossible, ils sont trop rapides !]]></entry>
     <entry id="thorn+str_comment_self_missed_blindness"><![CDATA[Qu... VOUS AURIEZ PU ME PRÉVENIR !]]></entry>
     <entry id="thorn+str_comment_self_missed_blindness"><![CDATA[Quelque chose est passé ?]]></entry>
-    <entry id="thorn+str_comment_self_missed_blindness"><![CDATA[WOW ! C'est passé proche, non ??]]></entry>
+    <entry id="thorn+str_comment_self_missed_blindness"><![CDATA[Whoa ! C'est passé proche, non ??]]></entry>
     <entry id="thorn+str_comment_ally_hit_blindness"><![CDATA[Qu'est-il arrivé ? Tu l'as eu ?]]></entry>
     <entry id="thorn+str_comment_ally_hit_blindness"><![CDATA[Je ne peux pas te protéger si tu ne restes pas près de moi !]]></entry>
     <entry id="thorn+str_comment_ally_hit_blindness"><![CDATA[Tu l'as eu ! Ou bien... était-ce le contraire ?]]></entry>
     <entry id="thorn+str_comment_ally_attack_missed_blindness"><![CDATA[Même moi je ne saurais manquer ça !]]></entry>
-    <entry id="thorn+str_comment_ally_attack_missed_blindness"><![CDATA[QUE FAITES-VOUS, ILS SONT JUSTE ICI !]]></entry>
-    <entry id="thorn+str_comment_ally_attack_missed_blindness"><![CDATA[PARFAIT ! Qu'as-tu frappé exactement ?]]></entry>
+    <entry id="thorn+str_comment_ally_attack_missed_blindness"><![CDATA[Que faites vous ? Ils sont juste là !]]></entry>
+    <entry id="thorn+str_comment_ally_attack_missed_blindness"><![CDATA[PARFAIT ! Euh, qu'as-tu frappé exactement ?]]></entry>
     <entry id="thorn+str_block_camping_skill_performer_blindness"><![CDATA[Je ne serai pas capable de faire ça maintenant.]]></entry>
     <entry id="thorn+str_block_camping_skill_performer_blindness"><![CDATA[C'est trop risqué, je suis trop confuse.]]></entry>
     <entry id="thorn+str_block_camping_skill_performer_blindness"><![CDATA[Trop de bruit ! Je ne peux pas me concentrer...]]></entry>
@@ -326,11 +326,11 @@
     <entry id="thorn+str_block_camping_skill_target_blindness"><![CDATA[AH ! QUELQUE CHOSE ESSAIE DE ME FRAPPER !]]></entry>
     <entry id="thorn+str_block_camping_skill_target_blindness"><![CDATA[Je n'ai pas besoin de ta pitié...]]></entry>
 
-    <entry id="str_virtue_name_farseeing"><![CDATA[Clairvoyance]]></entry>
+    <entry id="str_virtue_name_farseeing"><![CDATA[Clairvoyante]]></entry>
     <entry id="str_virtue_description_farseeing"><![CDATA[+10 ACC, +10 DEF]]></entry>
 
     <entry id="thorn+str_virtued_farseeing"><![CDATA[Tout est clair à présent !]]></entry>
-    <entry id="thorn+str_virtued_farseeing"><![CDATA[JE PEUX TOUT VOIR !]]></entry>
+    <entry id="thorn+str_virtued_farseeing"><![CDATA[Je vois TOUT !]]></entry>
     <entry id="thorn+str_virtued_farseeing"><![CDATA[L'OBSCURITE DISPARAÎT !]]></entry>
     <entry id="thorn+str_stress_heal_party_farseeing"><![CDATA[Je peux entendre la foule scander !]]></entry>
     <entry id="thorn+str_stress_heal_party_farseeing"><![CDATA[La victoire est à portée de main !]]></entry>
@@ -341,7 +341,7 @@
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Frappez là où je vous dis.]]></entry>
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Ici, il y a une faille dans leur défense.]]></entry>
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Il est temps de passer à l'offensive !]]></entry>
-	<entry id="thorn+str_buff_party_farseeing"><![CDATA[CONCENTRE-TOI ET FRAPPE !]]></entry>
+	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Concentre-toi puis FRAPPE !]]></entry>
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Suivez mes directives !]]></entry>
 
     <entry id="thorn+str_bark_encourage"><![CDATA[La foule scandera ton nom.]]></entry>
