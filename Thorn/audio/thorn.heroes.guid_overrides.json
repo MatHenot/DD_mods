@@ -57,6 +57,7 @@
 		
 		{"event_id": "event:/char/ally/thorn_riposte1_dare",					"guid_override":"{be6e03e0-46c4-4d56-858b-1cad5d57a6ad}"},
         {"event_id": "event:/char/ally/thorn_riposte1_miss_dare",				"guid_override":"{e07886c5-2930-4757-be1e-15396bddceb3}"}
+		
 
     ]
 }
