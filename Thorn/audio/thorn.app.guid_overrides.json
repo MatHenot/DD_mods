@@ -2,7 +2,5 @@
     "event_guid_overrides":
     [
         {"event_id": "event:/general/party/hero_step",							"guid_override":"{baabb997-0f91-4b40-a530-62f378bda945}"}
-		
-
     ]
 }
