@@ -249,9 +249,9 @@
 	  },	  
 
 	  {
-         "id" : "Thrust Def Skill ToolTip 1",
+         "id" : "Thrust Def Skill ToolTip A1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ThrustDefensive",
+         "stat_sub_type" : "ThrustDefensiveA",
          "amount" : -0.9,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -262,9 +262,9 @@
  		 }
 	  },
 	  {
-         "id" : "Thrust Def Skill ToolTip 2",
+         "id" : "Thrust Def Skill ToolTip A2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ThrustDefensive",
+         "stat_sub_type" : "ThrustDefensiveA",
          "amount" : -1.0,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -275,9 +275,9 @@
  		 }
 	  },
 	  {
-         "id" : "Thrust Def Skill ToolTip 3",
+         "id" : "Thrust Def Skill ToolTip A3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ThrustDefensive",
+         "stat_sub_type" : "ThrustDefensiveA",
          "amount" : -1.1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -288,9 +288,9 @@
  		 }
 	  },
 	  {
-         "id" : "Thrust Def Skill ToolTip 4",
+         "id" : "Thrust Def Skill ToolTip A4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ThrustDefensive",
+         "stat_sub_type" : "ThrustDefensiveA",
          "amount" : -1.2,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -301,10 +301,23 @@
  		 }
 	  },
 	  {
-         "id" : "Thrust Def Skill ToolTip 5",
+         "id" : "Thrust Def Skill ToolTip A5",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ThrustDefensive",
+         "stat_sub_type" : "ThrustDefensiveA",
          "amount" : -1.3,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Thrust Def Skill ToolTip B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "ThrustDefensiveB",
+         "amount" : -0.2,
          "remove_if_not_active" : true,
          "rule_type" : "always",
          "is_false_rule" : false,

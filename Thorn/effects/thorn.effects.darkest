@@ -61,11 +61,11 @@ effect: .name "Thrust Def Stun 3" .target "target" .chance 110% .stun 1	.on_hit 
 effect: .name "Thrust Def Stun 4" .target "target" .chance 120% .stun 1	.on_hit true .on_miss false .queue true .has_description false
 effect: .name "Thrust Def Stun 5" .target "target" .chance 130% .stun 1	.on_hit true .on_miss false .queue true .has_description false
 
-effect: .name "Thrust Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip 1" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 1" .skill_instant true .on_hit false .on_miss true
-effect: .name "Thrust Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip 2" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 2" .skill_instant true .on_hit false .on_miss true
-effect: .name "Thrust Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip 3" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 3" .skill_instant true .on_hit false .on_miss true
-effect: .name "Thrust Skill ToolTip 4" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip 4" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 4" .skill_instant true .on_hit false .on_miss true
-effect: .name "Thrust Skill ToolTip 5" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip 5" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 5" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip A1" "Thrust Def Skill ToolTip B" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 1" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip A2" "Thrust Def Skill ToolTip B" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 2" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip A3" "Thrust Def Skill ToolTip B" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 3" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip 4" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip A4" "Thrust Def Skill ToolTip B" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 4" .skill_instant true .on_hit false .on_miss true
+effect: .name "Thrust Skill ToolTip 5" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Thrust Def Skill ToolTip A5" "Thrust Def Skill ToolTip B" "Offensive Skill ToolTip" "Thrust Off Skill ToolTip 5" .skill_instant true .on_hit false .on_miss true
 
 
 //Listen
