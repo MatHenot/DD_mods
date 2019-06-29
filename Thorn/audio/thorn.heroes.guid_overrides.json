@@ -3,6 +3,8 @@
     [
         {"event_id": "event:/_defensive",										"guid_override":"{ec545860-0e42-4245-ad99-177eb7835a51}"},
         {"event_id": "event:/_offensive",										"guid_override":"{9736de15-4233-485b-8f44-d65e6ae8dab4}"},
+		{"event_id": "event:/_gash",											"guid_override":"{9736de15-4233-485b-8f44-d65e6ae8dab4}"},
+		{"event_id": "event:/_dare",											"guid_override":"{9736de15-4233-485b-8f44-d65e6ae8dab4}"},
 
 		{"event_id": "event:/char/ally/thorn_thrust_defensive",					"guid_override":"{3bf510ab-a822-4132-ae7d-b8051dbaf1c5}"},
 		{"event_id": "event:/char/ally/thorn_thrust_miss_defensive",			"guid_override":"{514175d6-2820-40f4-a623-ea39aa1f689d}"},
