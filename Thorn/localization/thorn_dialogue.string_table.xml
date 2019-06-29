@@ -151,6 +151,7 @@
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Time to go on the offensive!]]></entry>
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Focus and strike!]]></entry>
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Follow my lead!]]></entry>
+	<entry id="thorn+str_buff_party_farseeing"><![CDATA[En garde!]]></entry>
 
     <entry id="thorn+str_bark_encourage"><![CDATA[The crowd will chant your name.]]></entry>
     <entry id="thorn+str_bark_encourage"><![CDATA[Your training paid off. I'm proud of you.]]></entry>
@@ -343,6 +344,7 @@
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Il est temps de passer à l'offensive !]]></entry>
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Concentre-toi puis FRAPPE !]]></entry>
 	<entry id="thorn+str_buff_party_farseeing"><![CDATA[Suivez mes directives !]]></entry>
+	<entry id="thorn+str_buff_party_farseeing"><![CDATA[En garde !]]></entry>
 
     <entry id="thorn+str_bark_encourage"><![CDATA[La foule scandera ton nom.]]></entry>
     <entry id="thorn+str_bark_encourage"><![CDATA[Ton entrainement a porté ses fruits. Je suis fier de toi.]]></entry>
