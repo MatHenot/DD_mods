@@ -10,6 +10,11 @@
             "id": "playtest",
             "award_category": "universal",
             "insert_before": "trophy"
+        },
+		{
+            "id": "sakura2",
+            "award_category": "universal",
+            "insert_before": "sakura"
         }
 	]
 }

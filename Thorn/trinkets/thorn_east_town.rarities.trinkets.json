@@ -1,0 +1,20 @@
+{
+   "rarities":
+   [
+        {
+            "id": "sakura",
+            "award_category": "universal",
+            "insert_before": "crow"
+        },
+		{
+            "id": "playtest",
+            "award_category": "universal",
+            "insert_before": "trophy"
+        },
+		{
+            "id": "sakura2",
+            "award_category": "universal",
+            "insert_before": "sakura"
+        }
+	]
+}

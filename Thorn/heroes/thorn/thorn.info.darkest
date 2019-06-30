@@ -105,4 +105,4 @@ hp_reaction: .hp_ratio 0.075 .is_under true .effects "thorn hit received"
 hp_reaction: .hp_ratio 0.050 .is_under true .effects "thorn hit received"
 hp_reaction: .hp_ratio 0.025 .is_under true .effects "thorn hit received"
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
-generation: .is_generation_enabled true .town_event_dependency "first_thorn" .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 7 .card_chance 1.0
+generation: .is_generation_enabled true .town_event_dependency "first_thorn" .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 6 .card_chance 1.0

@@ -43,11 +43,11 @@ effect: .name "SC constriction A3" .target "target" .curio_result_type "negative
 effect: .name "SC constriction A4" .target "target" .curio_result_type "negative" .chance 120% .stun 1 .on_hit true .on_miss false .queue true
 effect: .name "SC constriction A5" .target "target" .curio_result_type "negative" .chance 130% .stun 1 .on_hit true .on_miss false .queue true
 
-effect: .name "SC constriction B1" .target "target" .curio_result_type "negative" .chance 90%  .combat_stat_buff 1 .defense_rating_add -5%  .duration 2 .on_hit true .on_miss false
-effect: .name "SC constriction B2" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .defense_rating_add -7%  .duration 2 .on_hit true .on_miss false
-effect: .name "SC constriction B3" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .defense_rating_add -10% .duration 2 .on_hit true .on_miss false
-effect: .name "SC constriction B4" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .defense_rating_add -12% .duration 2 .on_hit true .on_miss false
-effect: .name "SC constriction B5" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .defense_rating_add -15% .duration 2 .on_hit true .on_miss false
+effect: .name "SC constriction B1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .defense_rating_add -5%  .duration 2 .on_hit true .on_miss false
+effect: .name "SC constriction B2" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .defense_rating_add -7%  .duration 2 .on_hit true .on_miss false
+effect: .name "SC constriction B3" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .defense_rating_add -10% .duration 2 .on_hit true .on_miss false
+effect: .name "SC constriction B4" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .defense_rating_add -12% .duration 2 .on_hit true .on_miss false
+effect: .name "SC constriction B5" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .defense_rating_add -15% .duration 2 .on_hit true .on_miss false
 
 //rattling trap
 
