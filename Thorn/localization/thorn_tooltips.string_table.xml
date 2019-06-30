@@ -793,106 +793,106 @@
 		Thanks for your work!	
 	-->
 	
-    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Healing Received from Skills]]></entry>
-	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Received]]></entry>
-	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
-    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflection]]></entry>
+    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[{colour_start|stress}스트레스{colour_end} 해소로 받는 효과 %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[{colour_start|bleed}출혈{colour_end} 지속시간 %+d%%]]></entry>
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[피해 반사 %+d%%]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_DebuffTT"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_OtherNME"><![CDATA[Other Enemies:]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_DebuffTT"><![CDATA[{colour_start|debuff}대상 약화:{colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_OtherNME"><![CDATA[선택한 적 이외:]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT1"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %d%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT2"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT3"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 4 피해, 4턴 지속]]></entry>
 
-    <entry id="actor_mode_name_offensive"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_dare"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_gash"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_defensive"><![CDATA[Defensive]]></entry>
+    <entry id="actor_mode_name_offensive"><![CDATA[공격자세]]></entry>
+    <entry id="actor_mode_name_dare"><![CDATA[공격자세]]></entry>
+    <entry id="actor_mode_name_gash"><![CDATA[공격자세]]></entry>
+    <entry id="actor_mode_name_defensive"><![CDATA[방어자세]]></entry>
     <entry id="str_skill_mode_info_offensive"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_defensive"><![CDATA[
-	{colour_start|specificclass}Available in Both Stances{colour_end}]]></entry>
-	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Offensive]]></entry>
-	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Offensive]]></entry>
-	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Offensive]]></entry>
-    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[Defensive]]></entry>
+	{colour_start|specificclass}모든 자세에서 가능{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[공격자세]]></entry>
+	<entry id="buff_rule_data_tooltip_dare"><![CDATA[공격자세]]></entry>
+	<entry id="buff_rule_data_tooltip_gash"><![CDATA[공격자세]]></entry>
+    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[방어자세]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[
-	Defensive:]]></entry>
+	방어자세:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Offensive"><![CDATA[
-	Offensive:]]></entry>
+	공격자세:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
-	{colour_start|specificclass}Offensive Stance Only{colour_end}]]></entry>
+	{colour_start|specificclass}공격자세일 때만 가능{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
-	{colour_start|specificclass}Defensive Stance Only{colour_end}
+	{colour_start|specificclass}방어자세일 때만 가능{colour_end}
 	
 	]]></entry>
 
-	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceA"><![CDATA[Change to mode: Offensive
-	Activates {colour_start|riposte}Riposte{colour_end}
-	{colour_start|riposte}Riposte{colour_end}: %d%% DMG]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceB"><![CDATA[{colour_start|riposte}Riposte{colour_end}: +%d ACC
-	Cancel Defensive effects]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
-	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
-	Back to Defensive mode]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
+	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[피격시 33%% 확률로 방어자세를 취함]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[피격시 33%% 확률로 방어자세를 취함]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceA"><![CDATA[자세 변경: 공격자세
+	{colour_start|riposte}반격{colour_end} 활성화
+	{colour_start|riposte}반격{colour_end}: 피해 %d%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceB"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중 +%d
+	방어자세 해제]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[자세 변경: 방어자세
+	공격자세 해제
+	다음 행동시 속도 -10]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[피격시: {colour_start|skill_unselectable}(33%% 확률){colour_end}
+	방어자세로 복귀]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}스트레스{colour_end} +7]]></entry>	
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[-50%% DMG
-	{colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveB"><![CDATA[+%d%% {colour_start|stun}Stun{colour_end} Skill Chance vs {colour_start|mark}Marked{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% DMG vs {colour_start|mark}Marked{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[피해 -50%%
+	{colour_start|stun}기절{colour_end} {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveB"><![CDATA[{colour_start|stun}기절{colour_end} 기술 확률 +%d%% ("{colour_start|mark}표식 찍힘{colour_end}" 상대)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[피해 +%d%% ("{colour_start|mark}표식 찍힘{colour_end}" 상대)]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[명중 -5 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	{colour_start|stealth}은신 해제{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[명중 -7 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	{colour_start|stealth}은신 해제{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[명중 -10 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	{colour_start|stealth}은신 해제{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[치명타 받을 확률 +5%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	보호 해제]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[치명타 받을 확률 +7%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	보호 해제]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[치명타 받을 확률 +10%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	보호 해제]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+33%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+50%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 +25%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 +33%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 +50%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
 
-	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Lasts One Round{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}한 라운드 동안 지속{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[-30%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[-33%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>		
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 1pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 1pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -20%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -23%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -26%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -30%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -33%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>		
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 100%%){colour_end} 턴당 1 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 110%%){colour_end} 턴당 1 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 120%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 130%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 140%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom1"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 3 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom2"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 4 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom3"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom1"><![CDATA[{colour_start|guard}보호{colour_end} 받는 영웅:
+	3 {colour_start|healhp}회복{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom2"><![CDATA[{colour_start|guard}보호{colour_end} 받는 영웅:
+	4 {colour_start|healhp}회복{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom3"><![CDATA[{colour_start|guard}보호{colour_end} 받는 영웅:
+	5 {colour_start|healhp}회복{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|mark}표식{colour_end} 찍기]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[야습 확률 대폭 감소]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_T_Fencer"><![CDATA[On Skill Hit: Cancels {colour_start|riposte}Riposte{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|stress}Stress{colour_end} -5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_T_Fencer"><![CDATA[On Skill Hit: Cancels {colour_start|riposte}반격{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|stress}스트레스{colour_end} -5]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[No stress received from light level]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[밝기에 따른 스트레스 받지 않음]]></entry>
 
   </language>
 
@@ -905,106 +905,106 @@
 		Thanks for your work!	
 	-->
 	
-    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Healing Received from Skills]]></entry>
-	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Received]]></entry>
-	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
-    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflection]]></entry>
+    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[{colour_start|stress}스트레스{colour_end} 해소로 받는 효과 %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[{colour_start|bleed}출혈{colour_end} 지속시간 %+d%%]]></entry>
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[피해 반사 %+d%%]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_DebuffTT"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_OtherNME"><![CDATA[Other Enemies:]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_DebuffTT"><![CDATA[{colour_start|debuff}대상 약화:{colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_OtherNME"><![CDATA[선택한 적 이외:]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT1"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %d%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT2"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT3"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 4 피해, 4턴 지속]]></entry>
 
-    <entry id="actor_mode_name_offensive"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_dare"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_gash"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_defensive"><![CDATA[Defensive]]></entry>
+    <entry id="actor_mode_name_offensive"><![CDATA[공격자세]]></entry>
+    <entry id="actor_mode_name_dare"><![CDATA[공격자세]]></entry>
+    <entry id="actor_mode_name_gash"><![CDATA[공격자세]]></entry>
+    <entry id="actor_mode_name_defensive"><![CDATA[방어자세]]></entry>
     <entry id="str_skill_mode_info_offensive"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_defensive"><![CDATA[
-	{colour_start|specificclass}Available in Both Stances{colour_end}]]></entry>
-	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Offensive]]></entry>
-	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Offensive]]></entry>
-	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Offensive]]></entry>
-    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[Defensive]]></entry>
+	{colour_start|specificclass}모든 자세에서 가능{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[공격자세]]></entry>
+	<entry id="buff_rule_data_tooltip_dare"><![CDATA[공격자세]]></entry>
+	<entry id="buff_rule_data_tooltip_gash"><![CDATA[공격자세]]></entry>
+    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[방어자세]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[
-	Defensive:]]></entry>
+	방어자세:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Offensive"><![CDATA[
-	Offensive:]]></entry>
+	공격자세:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
-	{colour_start|specificclass}Offensive Stance Only{colour_end}]]></entry>
+	{colour_start|specificclass}공격자세일 때만 가능{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
-	{colour_start|specificclass}Defensive Stance Only{colour_end}
+	{colour_start|specificclass}방어자세일 때만 가능{colour_end}
 	
 	]]></entry>
 
-	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceA"><![CDATA[Change to mode: Offensive
-	Activates {colour_start|riposte}Riposte{colour_end}
-	{colour_start|riposte}Riposte{colour_end}: %d%% DMG]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceB"><![CDATA[{colour_start|riposte}Riposte{colour_end}: +%d ACC
-	Cancel Defensive effects]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
-	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
-	Back to Defensive mode]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
+	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[피격시 33%% 확률로 방어자세를 취함]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[피격시 33%% 확률로 방어자세를 취함]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceA"><![CDATA[자세 변경: 공격자세
+	{colour_start|riposte}반격{colour_end} 활성화
+	{colour_start|riposte}반격{colour_end}: 피해 %d%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceB"><![CDATA[{colour_start|riposte}반격{colour_end}: 명중 +%d
+	방어자세 해제]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[자세 변경: 방어자세
+	공격자세 해제
+	다음 행동시 속도 -10]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[피격시: {colour_start|skill_unselectable}(33%% 확률){colour_end}
+	방어자세로 복귀]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}스트레스{colour_end} +7]]></entry>	
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[-50%% DMG
-	{colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveB"><![CDATA[+%d%% {colour_start|stun}Stun{colour_end} Skill Chance vs {colour_start|mark}Marked{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% DMG vs {colour_start|mark}Marked{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[피해 -50%%
+	{colour_start|stun}기절{colour_end} {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveB"><![CDATA[{colour_start|stun}기절{colour_end} 기술 확률 +%d%% ("{colour_start|mark}표식 찍힘{colour_end}" 상대)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[피해 +%d%% ("{colour_start|mark}표식 찍힘{colour_end}" 상대)]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[명중 -5 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	{colour_start|stealth}은신 해제{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[명중 -7 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	{colour_start|stealth}은신 해제{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[명중 -10 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	{colour_start|stealth}은신 해제{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[치명타 받을 확률 +5%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	보호 해제]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[치명타 받을 확률 +7%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	보호 해제]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[치명타 받을 확률 +10%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	보호 해제]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+33%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+50%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 +25%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 +33%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 +50%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
 
-	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Lasts One Round{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}한 라운드 동안 지속{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[-30%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[-33%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>		
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 1pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 1pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -20%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -23%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -26%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -30%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -33%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>		
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 100%%){colour_end} 턴당 1 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 110%%){colour_end} 턴당 1 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 120%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 130%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 140%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom1"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 3 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom2"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 4 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom3"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom1"><![CDATA[{colour_start|guard}보호{colour_end} 받는 영웅:
+	3 {colour_start|healhp}회복{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom2"><![CDATA[{colour_start|guard}보호{colour_end} 받는 영웅:
+	4 {colour_start|healhp}회복{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom3"><![CDATA[{colour_start|guard}보호{colour_end} 받는 영웅:
+	5 {colour_start|healhp}회복{colour_end}]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|mark}표식{colour_end} 찍기]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[야습 확률 대폭 감소]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_T_Fencer"><![CDATA[On Skill Hit: Cancels {colour_start|riposte}Riposte{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|stress}Stress{colour_end} -5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_T_Fencer"><![CDATA[On Skill Hit: Cancels {colour_start|riposte}반격{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|stress}스트레스{colour_end} -5]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[No stress received from light level]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[밝기에 따른 스트레스 받지 않음]]></entry>
 
   </language>
 
