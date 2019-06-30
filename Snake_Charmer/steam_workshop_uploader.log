@@ -234,9 +234,9 @@ localization/snake_charmer_russian.string_table.xml
 localization/snake_charmer_schinese.string_table.xml
 localization/snake_charmer_spanish.string_table.xml
 localization/snake_charmer_tchinese.string_table.xml
+trinkets/SC_east_town.rarities.trinkets.json
 trinkets/com.rarities.trinkets.json
 trinkets/crimson_court.rarities.trinkets.json
-trinkets/east_town.rarities.trinkets.json
 trinkets/snake_charmer.entries.trinkets.json
 trinkets/snake_charmer.sets.trinkets.json
 modfiles.txt
@@ -244,6 +244,6 @@ preview_icon.png
 project.xml
 snake_charmer.xml
 
-Submitting.........................................................................................................................................Submitted.
+Submitting..................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Snake_Charmer\project.xml
 

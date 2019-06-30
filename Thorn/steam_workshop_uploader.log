@@ -244,6 +244,7 @@ localization/1785514611_spanish.loc
 localization/1785514611_tchinese.loc
 localization/thorn_dialogue.string_table.xml
 localization/thorn_tooltips.string_table.xml
+overlays/poptext_damage_reflect.png
 overlays/poptext_health_damage_block.png
 overlays/poptext_health_damage_block_onset.png
 overlays/tray_health_damage_block.png
@@ -251,10 +252,11 @@ trinkets/com.rarities.trinkets.json
 trinkets/crimson_court.rarities.trinkets.json
 trinkets/thorn.entries.trinkets.json
 trinkets/thorn.sets.trinkets.json
+trinkets/thorn_east_town.rarities.trinkets.json
 modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting................................................................................................................................................................................................Submitted.
+Submitting............................................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Thorn\project.xml
 
