@@ -75,16 +75,16 @@ effect: .name "Listen Mark" .target "target" .chance 100% .tag 1 .duration 3 .on
 effect: .name "Listen Off Mode" .target "performer" .chance 100% .set_mode offensive .skill_instant true .on_hit true .on_miss true .has_description false
 
 effect: .name "Listen Def 1" .target "target" .chance 100% .unstealth 1 .buff_ids "Listen PRE 1" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Def 2" .target "target" .chance 110% .unstealth 1 .buff_ids "Listen PRE 1" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Def 3" .target "target" .chance 120% .unstealth 1 .buff_ids "Listen PRE 2" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Def 4" .target "target" .chance 130% .unstealth 1 .buff_ids "Listen PRE 2" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Def 5" .target "target" .chance 140% .unstealth 1 .buff_ids "Listen PRE 3" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Def 2" .target "target" .chance 110% .unstealth 1 .buff_ids "Listen PRE 2" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Def 3" .target "target" .chance 120% .unstealth 1 .buff_ids "Listen PRE 3" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Def 4" .target "target" .chance 130% .unstealth 1 .buff_ids "Listen PRE 4" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Def 5" .target "target" .chance 140% .unstealth 1 .buff_ids "Listen PRE 5" .on_hit true .on_miss false .has_description false
 
 effect: .name "Listen Off 1" .target "target" .chance 100% .clearguarded 1 .buff_ids "Listen Crit 1" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Off 2" .target "target" .chance 110% .clearguarded 1 .buff_ids "Listen Crit 1" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Off 3" .target "target" .chance 120% .clearguarded 1 .buff_ids "Listen Crit 2" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Off 4" .target "target" .chance 130% .clearguarded 1 .buff_ids "Listen Crit 2" .on_hit true .on_miss false .has_description false
-effect: .name "Listen Off 5" .target "target" .chance 140% .clearguarded 1 .buff_ids "Listen Crit 3" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off 2" .target "target" .chance 110% .clearguarded 1 .buff_ids "Listen Crit 2" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off 3" .target "target" .chance 120% .clearguarded 1 .buff_ids "Listen Crit 3" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off 4" .target "target" .chance 130% .clearguarded 1 .buff_ids "Listen Crit 4" .on_hit true .on_miss false .has_description false
+effect: .name "Listen Off 5" .target "target" .chance 140% .clearguarded 1 .buff_ids "Listen Crit 5" .on_hit true .on_miss false .has_description false
 
 effect: .name "Listen Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Debuff Target ToolTip" "Listen Def ToolTip 1" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Off ToolTip 1" .on_hit true .on_miss false .skill_instant true
 effect: .name "Listen Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Defensive Skill ToolTip" "Debuff Target ToolTip" "Listen Def ToolTip 2" "Offensive Skill ToolTip" "Debuff Target ToolTip" "Listen Off ToolTip 2" .on_hit true .on_miss false .skill_instant true
@@ -111,11 +111,11 @@ effect: .name "Blossom Fake Prot 3" .target "performer" .chance 100% .combat_sta
 effect: .name "Blossom Fake Prot 4" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 21% .on_hit false .on_miss true .apply_once true
 effect: .name "Blossom Fake Prot 5" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 25% .on_hit false .on_miss true .apply_once true
 
-effect: .name "Blossom Heal 1" .target "performer" .chance 100% .heal 3 .on_hit true .on_miss false .apply_once true
-effect: .name "Blossom Heal 2" .target "performer" .chance 100% .heal 3 .on_hit true .on_miss false .apply_once true
-effect: .name "Blossom Heal 3" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
-effect: .name "Blossom Heal 4" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
-effect: .name "Blossom Heal 5" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Self Heal 1" .target "performer" .chance 100% .heal 3 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Self Heal 2" .target "performer" .chance 100% .heal 3 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Self Heal 3" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Self Heal 4" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Self Heal 5" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .apply_once true
 
 effect: .name "Blossom Heal Debuff" .target "target" .chance 100% .buff_ids "Blossom Heal Debuff" .buff_source_type hero_skill .on_hit true .on_miss false .has_description false
 effect: .name "Blossom Heal Buff" .target "target" .chance 100% .buff_ids "Blossom Heal Buff" .buff_source_type hero_skill .on_hit true .on_miss false .queue true .has_description false
@@ -135,15 +135,17 @@ effect: .name "Blossom Skill ToolTip 3" .target "performer" .chance 100% .buff_i
 
 effect: .name "hearken Guard" .target "target" .chance 100% .guard 1 .duration 3 .on_hit true .on_miss true
 
-effect: .name "hearken StressHeal 1" .target "target" .chance 100% .healstress 4 .on_hit true .on_miss false
+effect: .name "hearken StressHeal 1" .target "target" .chance 100% .healstress 3 .on_hit true .on_miss false
 effect: .name "hearken StressHeal 2" .target "target" .chance 100% .healstress 4 .on_hit true .on_miss false
 effect: .name "hearken StressHeal 3" .target "target" .chance 100% .healstress 5 .on_hit true .on_miss false
-effect: .name "hearken StressHeal 4" .target "target" .chance 100% .healstress 5 .on_hit true .on_miss false
-effect: .name "hearken StressHeal 5" .target "target" .chance 100% .healstress 6 .on_hit true .on_miss false
+effect: .name "hearken StressHeal 4" .target "target" .chance 100% .healstress 6 .on_hit true .on_miss false
+effect: .name "hearken StressHeal 5" .target "target" .chance 100% .healstress 7 .on_hit true .on_miss false
 
 effect: .name "hearken Riposte Clear" .target "performer" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false
 
-effect: .name "hearken Riposte" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -30% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
+effect: .name "hearken Riposte 1" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -35% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
+effect: .name "hearken Riposte 2" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -30% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
+effect: .name "hearken Riposte 3" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -25% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
 
 effect: .name "hearken Riposte Crit" .target "performer" .chance 100% .riposte 1 .duration 3 .crit_chance_add -100% .on_hit true .on_miss true .queue true .has_description false
 
