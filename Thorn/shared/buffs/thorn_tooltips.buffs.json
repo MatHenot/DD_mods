@@ -408,7 +408,7 @@
 	  {
          "id" : "Listen Def ToolTip 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenDef1",
+         "stat_sub_type" : "ListenDef2",
          "amount" : -1.1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -421,7 +421,7 @@
 	  {
          "id" : "Listen Def ToolTip 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenDef2",
+         "stat_sub_type" : "ListenDef3",
          "amount" : -1.2,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -434,7 +434,7 @@
 	  {
          "id" : "Listen Def ToolTip 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenDef2",
+         "stat_sub_type" : "ListenDef4",
          "amount" : -1.3,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -447,7 +447,7 @@
 	  {
          "id" : "Listen Def ToolTip 5",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenDef3",
+         "stat_sub_type" : "ListenDef5",
          "amount" : -1.4,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -473,7 +473,7 @@
 	  {
          "id" : "Listen Off ToolTip 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenOff1",
+         "stat_sub_type" : "ListenOff2",
          "amount" : -1.1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -486,7 +486,7 @@
 	  {
          "id" : "Listen Off ToolTip 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenOff2",
+         "stat_sub_type" : "ListenOff3",
          "amount" : -1.2,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -499,7 +499,7 @@
 	  {
          "id" : "Listen Off ToolTip 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenOff2",
+         "stat_sub_type" : "ListenOff4",
          "amount" : -1.3,
          "remove_if_not_active" : true,
          "rule_type" : "always",
@@ -512,7 +512,7 @@
 	  {
          "id" : "Listen Off ToolTip 5",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "ListenOff3",
+         "stat_sub_type" : "ListenOff5",
          "amount" : -1.4,
          "remove_if_not_active" : true,
          "rule_type" : "always",

@@ -22,7 +22,7 @@
          "id" : "low_speed_transf",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
-         "amount" : -10,
+         "amount" : -7,
          "duration_type" : "before_turn",
          "duration" : 1,
          "remove_if_not_active" : true,
@@ -81,7 +81,7 @@
          "id" : "Listen Crit 2",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
-         "amount" : 0.07,
+         "amount" : 0.06,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -92,6 +92,32 @@
       },
       {
          "id" : "Listen Crit 3",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Listen Crit 4",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Listen Crit 5",
          "stat_type" : "crit_received_chance",
          "stat_sub_type" : "",
          "amount" : 0.1,
@@ -120,7 +146,7 @@
          "id" : "Listen PRE 2",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
-         "amount" : -0.07,
+         "amount" : -0.06,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -133,6 +159,32 @@
          "id" : "Listen PRE 3",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "attack_rating",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Listen PRE 4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Listen PRE 5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
          "amount" : -0.10,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -142,7 +194,7 @@
             "string" : ""
          }
       },
-
+	  
       {
          "id" : "Wilt Bleed Received 1",
          "stat_type" : "hp_dot_bleed_amount_received_percent",

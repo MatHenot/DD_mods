@@ -54,7 +54,7 @@
 	Cancel Defensive effects]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
 	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
+	New Action with -7 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
 	Back to Defensive mode]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
@@ -66,15 +66,23 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-6 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[-8 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+6%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[+8%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -166,7 +174,7 @@
 	Annule les effets Défensifs]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Passe en pose : Défensive
 	Annule les effets Offensifs
-	Nouvelle action avec VIT -10]]></entry>
+	Nouvelle action avec VIT -7]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[Lorsque touché: {colour_start|skill_unselectable}(33%% chance){colour_end}
 	Retour en pose Défensive]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
@@ -178,15 +186,23 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[PRÉ -5 {colour_start|skill_unselectable}(base : %d%%){colour_end}
 	{colour_start|stealth}Sortie de furtivité{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[PRÉ -7 {colour_start|skill_unselectable}(base : %d%%){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[PRÉ -6 {colour_start|skill_unselectable}(base : %d%%){colour_end}
 	{colour_start|stealth}Sortie de furtivité{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[PRÉ -10 {colour_start|skill_unselectable}(base : %d%%){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[PRÉ -7 {colour_start|skill_unselectable}(base : %d%%){colour_end}
+	{colour_start|stealth}Sortie de furtivité{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[PRÉ -8 {colour_start|skill_unselectable}(base : %d%%){colour_end}
+	{colour_start|stealth}Sortie de furtivité{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[PRÉ -10 {colour_start|skill_unselectable}(base : %d%%){colour_end}
 	{colour_start|stealth}Sortie de furtivité{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[Chances de crits reçus +5%% {colour_start|skill_unselectable}(base : %d%%){colour_end}
 	Si gardé : Destruction de garde]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[Chances de crits reçus +7%% {colour_start|skill_unselectable}(base : %d%%){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[Chances de crits reçus +6%% {colour_start|skill_unselectable}(base : %d%%){colour_end}
 	Si gardé : Destruction de garde]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[Chances de crits reçus +10%% {colour_start|skill_unselectable}(base : %d%%){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[Chances de crits reçus +7%% {colour_start|skill_unselectable}(base : %d%%){colour_end}
+	Si gardé : Destruction de garde]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[Chances de crits reçus +8%% {colour_start|skill_unselectable}(base : %d%%){colour_end}
+	Si gardé : Destruction de garde]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[Chances de crits reçus +10%% {colour_start|skill_unselectable}(base : %d%%){colour_end}
 	Si gardé : Destruction de garde]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[Montant de {colour_start|bleed}saignement{colour_end} reçu +25%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
@@ -278,7 +294,7 @@
 	Cancel Defensive effects]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
 	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
+	New Action with -7 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
 	Back to Defensive mode]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
@@ -289,17 +305,6 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% DMG vs {colour_start|mark}Marked{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	On Guarded: Breaks Guard]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+33%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -390,7 +395,7 @@
 	Cancel Defensive effects]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
 	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
+	New Action with -7 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
 	Back to Defensive mode]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
@@ -402,15 +407,23 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-6 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[-8 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+6%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[+8%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -502,7 +515,7 @@
 	Cancel Defensive effects]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
 	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
+	New Action with -7 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
 	Back to Defensive mode]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
@@ -514,15 +527,23 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-6 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[-8 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+6%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[+8%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -614,7 +635,7 @@
 	Cancel Defensive effects]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
 	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
+	New Action with -7 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
 	Back to Defensive mode]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
@@ -626,15 +647,23 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-6 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[-8 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+6%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[+8%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -726,7 +755,7 @@
 	Cancel Defensive effects]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
 	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
+	New Action with -7 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
 	Back to Defensive mode]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
@@ -738,15 +767,23 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-6 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[-8 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+6%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[+8%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -838,7 +875,7 @@
 	방어자세 해제]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[자세 변경: 방어자세
 	공격자세 해제
-	다음 행동시 속도 -10]]></entry>
+	다음 행동시 속도 -7]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[피격시: {colour_start|skill_unselectable}(33%% 확률){colour_end}
 	방어자세로 복귀]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}스트레스{colour_end} +7]]></entry>	
@@ -850,15 +887,23 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[명중 -5 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
 	{colour_start|stealth}은신 해제{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[명중 -7 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[명중 -6 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
 	{colour_start|stealth}은신 해제{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[명중 -10 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[명중 -7 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	{colour_start|stealth}은신 해제{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[명중 -8 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	{colour_start|stealth}은신 해제{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[명중 -10 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
 	{colour_start|stealth}은신 해제{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[치명타 받을 확률 +5%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
 	보호 해제]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[치명타 받을 확률 +7%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[치명타 받을 확률 +6%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
 	보호 해제]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[치명타 받을 확률 +10%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[치명타 받을 확률 +7%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	보호 해제]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[치명타 받을 확률 +8%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	보호 해제]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[치명타 받을 확률 +10%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
 	보호 해제]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 +25%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
@@ -950,7 +995,7 @@
 	방어자세 해제]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[자세 변경: 방어자세
 	공격자세 해제
-	다음 행동시 속도 -10]]></entry>
+	다음 행동시 속도 -7]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[피격시: {colour_start|skill_unselectable}(33%% 확률){colour_end}
 	방어자세로 복귀]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}스트레스{colour_end} +7]]></entry>	
@@ -962,15 +1007,23 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[명중 -5 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
 	{colour_start|stealth}은신 해제{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[명중 -7 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[명중 -6 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
 	{colour_start|stealth}은신 해제{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[명중 -10 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[명중 -7 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	{colour_start|stealth}은신 해제{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[명중 -8 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	{colour_start|stealth}은신 해제{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[명중 -10 {colour_start|skill_unselectable}(기본 %d%%){colour_end}
 	{colour_start|stealth}은신 해제{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[치명타 받을 확률 +5%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
 	보호 해제]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[치명타 받을 확률 +7%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[치명타 받을 확률 +6%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
 	보호 해제]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[치명타 받을 확률 +10%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[치명타 받을 확률 +7%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	보호 해제]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[치명타 받을 확률 +8%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
+	보호 해제]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[치명타 받을 확률 +10%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}
 	보호 해제]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 +25%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
@@ -1062,7 +1115,7 @@
 	Cancel Defensive effects]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
 	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
+	New Action with -7 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
 	Back to Defensive mode]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
@@ -1074,15 +1127,23 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-6 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[-8 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+6%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[+8%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -1174,7 +1235,7 @@
 	Cancel Defensive effects]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
 	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
+	New Action with -7 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
 	Back to Defensive mode]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
@@ -1186,15 +1247,23 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-6 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[-8 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+6%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[+8%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -1286,7 +1355,7 @@
 	Cancel Defensive effects]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
 	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
+	New Action with -7 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
 	Back to Defensive mode]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
@@ -1298,15 +1367,23 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-6 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[-8 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+6%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[+8%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -1398,7 +1475,7 @@
 	Cancel Defensive effects]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
 	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
+	New Action with -7 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
 	Back to Defensive mode]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
@@ -1410,15 +1487,23 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-6 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[-8 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+6%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[+8%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -1510,7 +1595,7 @@
 	Cancel Defensive effects]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
 	Cancel Offensive effects
-	New Action with -10 SPD]]></entry>
+	New Action with -7 SPD]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
 	Back to Defensive mode]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
@@ -1522,15 +1607,23 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-6 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[-8 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
+	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
 	{colour_start|stealth}De-stealth{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+6%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[+8%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
+	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
 	On Guarded: Breaks Guard]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
