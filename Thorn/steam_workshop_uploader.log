@@ -196,6 +196,7 @@ panels/icons_equip/trinket/inv_trinket+thorn_potpourri.png
 panels/icons_equip/trinket/inv_trinket+thorn_rapier_guard.png
 panels/icons_equip/trinket/inv_trinket+thorn_rose_emblem.png
 panels/icons_equip/trinket/inv_trinket+thorn_signet_ring.png
+panels/icons_equip/trinket/rarity_sakura.png
 raid/camping/skill_icons/camp_skill_thorncamp1.png
 raid/camping/skill_icons/camp_skill_thorncamp2.png
 raid/camping/skill_icons/camp_skill_thorncamp3.png
@@ -242,6 +243,7 @@ localization/1785514611_russian.loc
 localization/1785514611_schinese.loc
 localization/1785514611_spanish.loc
 localization/1785514611_tchinese.loc
+localization/missing_files.txt
 localization/thorn_dialogue.string_table.xml
 localization/thorn_tooltips.string_table.xml
 overlays/poptext_damage_reflect.png
@@ -257,6 +259,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting............................................................................................................................................................................Submitted.
+Submitting.........................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Thorn\project.xml
 

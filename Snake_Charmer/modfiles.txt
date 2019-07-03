@@ -142,6 +142,7 @@ panels/icons_equip/trinket/inv_trinket+snake_charmer_reptilian_plates.png 48478
 panels/icons_equip/trinket/inv_trinket+snake_charmer_shinobue.png 22367
 panels/icons_equip/trinket/inv_trinket+snake_charmer_used_gloves.png 42959
 panels/icons_equip/trinket/inv_trinket+snake_charmer_vision_pendant.png 49046
+panels/icons_equip/trinket/rarity_sakura.png 7823
 raid/camping/skill_icons/camp_skill_exotic_spices.png 42401
 raid/camping/skill_icons/camp_skill_melody.png 36150
 raid/camping/skill_icons/camp_skill_mithridatism.png 42492
@@ -198,12 +199,12 @@ localization/snake_charmer_russian.string_table.xml 62803
 localization/snake_charmer_schinese.string_table.xml 50263
 localization/snake_charmer_spanish.string_table.xml 52519
 localization/snake_charmer_tchinese.string_table.xml 50262
-trinkets/SC_east_town.rarities.trinkets.json 423
+trinkets/SC_east_town.rarities.trinkets.json 162
 trinkets/com.rarities.trinkets.json 428
 trinkets/crimson_court.rarities.trinkets.json 171
 trinkets/snake_charmer.entries.trinkets.json 4546
 trinkets/snake_charmer.sets.trinkets.json 194
-modfiles.txt 14036
+modfiles.txt 14039
 preview_icon.png 627215
 project.xml 700
 snake_charmer.xml 726
