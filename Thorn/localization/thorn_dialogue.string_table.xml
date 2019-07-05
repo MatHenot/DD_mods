@@ -2514,7 +2514,7 @@
 	<entry id="hero_class_name_thorn"><![CDATA[Espina]]></entry>
 	
 	<entry id="action_verbose_body_guild_thorn"><![CDATA[A pesar de que ha perdido la visión, la espina lo compensa con un sentido del oído muy agudizado. Ella es capaz de seguir a sus enemigos y anticiparse a sus ataques con facilidad, protegiendo a sus aliados de forma eficaz. Cuando desenvaina su espada, recupera sus inigualables reflejos de duelista, adaptando su guardia a los oponentes. Si consigue sentir sus movimientos correctamente, ella sabe muy bien como asestar el golpe letal.]]></entry>
-    <entry id="action_verbose_body_blacksmith_thorn"><![CDATA[Los ropajes de cuero de la espina, un vestigio de su pasado, la protegen sin restringirle el movimiento. Su vara-estoque es una pieza de equipamiento imprescindible para ella, pues es su guía y su arma predilecta, un eterno recuerdo tanto de lo que ella ha perdido tanto de en lo que se ha convertido.]]></entry>
+    <entry id="action_verbose_body_blacksmith_thorn"><![CDATA[Los ropajes de cuero de la espina, un vestigio de su pasado, la protegen sin restringirle el movimiento. Su vara-estoque es una pieza de equipamiento imprescindible para ella, pues es su guía y su arma predilecta, un eterno recuerdo tanto de lo que ella ha perdido como de en lo que se ha convertido.]]></entry>
     <entry id="action_verbose_body_camping_trainer_thorn"><![CDATA[Después de ofrecer una buena sesión de prácticas, la espina eventualmente descansará, aunque siempre lista para despertarse sobresaltada en cualquier momento. Al concentrarse en los sonidos circundantes, ella ayuda a entrenar a sus compañeros a moverse a través de las sombras con facilidad.]]></entry>	
   	
 	<entry id="town_event_title_first_thorn"><![CDATA[Viaje a ciegas]]></entry>
@@ -2537,7 +2537,7 @@
 	<entry id="combat_skill_name_thorn_stance"><![CDATA[Posición de esgrima]]></entry>
     <entry id="combat_skill_name_thorn_thrust"><![CDATA[Estocada de línea en cruz]]></entry>
 	<entry id="combat_skill_name_thorn_listen"><![CDATA[Escuchar]]></entry>
-    <entry id="combat_skill_name_thorn_blossom"><![CDATA[Florecemiento]]></entry>
+    <entry id="combat_skill_name_thorn_blossom"><![CDATA[Florecimiento]]></entry>
     <entry id="combat_skill_name_thorn_hearken"><![CDATA[Prestar atención]]></entry>
     <entry id="combat_skill_name_thorn_gash"><![CDATA[Estocadas trepidantes]]></entry>
     <entry id="combat_skill_name_thorn_dare"><![CDATA[Retar]]></entry>
@@ -2546,7 +2546,7 @@
     <entry id="upgrade_tree_name_thorn.stance"><![CDATA[Posición de esgrima]]></entry>
     <entry id="upgrade_tree_name_thorn.thrust"><![CDATA[Estocada de línea en cruz]]></entry>
     <entry id="upgrade_tree_name_thorn.listen"><![CDATA[Escuchar]]></entry>    
-    <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[Florecemiento]]></entry>
+    <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[Florecimiento]]></entry>
     <entry id="upgrade_tree_name_thorn.hearken"><![CDATA[Prestar atención]]></entry>
     <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Estocadas trepidantes]]></entry>
     <entry id="upgrade_tree_name_thorn.dare"><![CDATA[Retar]]></entry>

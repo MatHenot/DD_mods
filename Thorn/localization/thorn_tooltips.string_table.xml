@@ -1595,7 +1595,7 @@
 	Cancela efectos de posición defensiva]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Cambiar a posición: defensiva
 	Cancela los efectos de la posición ofensiva
-	Nueva acción con -10 VEL]]></entry>
+	Nueva acción con -7 VEL]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[Al ser impactada: {colour_start|skill_unselectable}(33%% de posibilidades){colour_end}
 	volver a modo defensivo]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Esfuerzo{colour_end} +7]]></entry>	
@@ -1606,16 +1606,24 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% DAÑO contra {colour_start|mark}señalado{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 PRE {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 PRE {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 PRE {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
+	Anular {colour_start|stealth}sigilo{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-6 PRE {colour_start|skill_unselectable}(%d%% base){colour_end}
+	Anular {colour_start|stealth}sigilo{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-7 PRE {colour_start|skill_unselectable}(%d%% base){colour_end}
+	Anular {colour_start|stealth}sigilo{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[-8 PRE {colour_start|skill_unselectable}(%d%% base){colour_end}
+	Anular {colour_start|stealth}sigilo{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[-10 PRE {colour_start|skill_unselectable}(%d%% base){colour_end}
+	Anular {colour_start|stealth}sigilo{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[Probabilidad de recibir daños críticos +5%% {colour_start|skill_unselectable}(%d%% base){colour_end}
 	En protegido: rompe la guardia]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[Probabilidad de recibir daños críticos +7%% {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[Probabilidad de recibir daños críticos +6%% {colour_start|skill_unselectable}(%d%% base){colour_end}
 	En protegido: rompe la guardia]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[Probabilidad de recibir daños críticos +10%% {colour_start|skill_unselectable}(%d%% base){colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[Probabilidad de recibir daños críticos +7%% {colour_start|skill_unselectable}(%d%% base){colour_end}
+	En protegido: rompe la guardia]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[Probabilidad de recibir daños críticos +8%% {colour_start|skill_unselectable}(%d%% base){colour_end}
+	En protegido: rompe la guardia]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[Probabilidad de recibir daños críticos +10%% {colour_start|skill_unselectable}(%d%% base){colour_end}
 	En protegido: rompe la guardia]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% de {colour_start|bleed}hemorragia{colour_end} recibida {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	

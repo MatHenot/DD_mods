@@ -75,7 +75,7 @@
 	<entry id="buff_rule_tooltip_has_item_id"><![CDATA[%s sí %s está en el inventario]]></entry>
     <entry id="buff_rule_data_tooltip_antivenom"><![CDATA[Antídoto]]></entry>
 
-    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[Daño de {colour_start|blight}Blight{colour_end} %+d%%]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[Daño de {colour_start|blight}Infección{colour_end} %+d%%]]></entry>
 
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[Constricción]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Encantamiento vicioso]]></entry>
