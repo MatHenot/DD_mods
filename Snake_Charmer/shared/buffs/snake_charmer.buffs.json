@@ -187,7 +187,8 @@
 			"rule_data": {
 				"float": 0,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R2_1",
@@ -200,7 +201,8 @@
 			"rule_data": {
 				"float": 1,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R3_1",
@@ -213,7 +215,8 @@
 			"rule_data": {
 				"float": 2,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R4_1",
@@ -226,7 +229,8 @@
 			"rule_data": {
 				"float": 3,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 
 		{
@@ -240,7 +244,8 @@
 			"rule_data": {
 				"float": 0,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R2_2",
@@ -253,7 +258,8 @@
 			"rule_data": {
 				"float": 1,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R3_2",
@@ -266,7 +272,8 @@
 			"rule_data": {
 				"float": 2,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R4_2",
@@ -279,7 +286,8 @@
 			"rule_data": {
 				"float": 3,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 
 		{
@@ -293,7 +301,8 @@
 			"rule_data": {
 				"float": 0,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R2_3",
@@ -306,7 +315,8 @@
 			"rule_data": {
 				"float": 1,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R3_3",
@@ -319,7 +329,8 @@
 			"rule_data": {
 				"float": 2,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R4_3",
@@ -332,7 +343,8 @@
 			"rule_data": {
 				"float": 3,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 
 		{
@@ -346,7 +358,8 @@
 			"rule_data": {
 				"float": 0,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R2_4",
@@ -359,7 +372,8 @@
 			"rule_data": {
 				"float": 1,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R3_4",
@@ -372,7 +386,8 @@
 			"rule_data": {
 				"float": 2,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R4_4",
@@ -385,7 +400,8 @@
 			"rule_data": {
 				"float": 3,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 
 		{
@@ -399,7 +415,8 @@
 			"rule_data": {
 				"float": 0,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R2_5",
@@ -412,7 +429,8 @@
 			"rule_data": {
 				"float": 1,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R3_5",
@@ -425,7 +443,8 @@
 			"rule_data": {
 				"float": 2,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 		{
 			"id": "RT_prot_R4_5",
@@ -438,7 +457,8 @@
 			"rule_data": {
 				"float": 3,
 				"string": ""
-			}
+			},
+			"remove_on_battle_complete" : true
 		},
 
 		{
