@@ -83,7 +83,6 @@
 			"DMGL10",
 			"DMGH10",
             "SPD2",
-			"T_Signet_Riposte_StressHeal",
 			"T_Signet_ToolTip",
 			"T_Signet_StressHeal_Debuff"
          ],
@@ -94,7 +93,15 @@
          "rarity" : "very_rare",
          "price" : 25000,
          "limit" : 0,
-         "origin_dungeon" : ""
+         "origin_dungeon" : "", 
+		 "friendly_skill_additional_effects":
+		[
+            "T_Signet_Riposte_StressHeal"
+        ],
+         "attack_skill_additional_effects":
+        [
+            "T_Signet_Riposte_StressHeal"
+        ]
       },
 
 	  {

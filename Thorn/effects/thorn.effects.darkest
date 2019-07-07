@@ -256,6 +256,7 @@ effect: .name "Dare Skill ToolTip" .target "performer_group_other" .chance 100% 
 
 effect: .name "T_Miss_Bleed" .target "target" .dotBleed 4 .duration 3 .chance 140% .on_hit false .on_miss true .can_apply_on_death true 
 effect: .name "T_Clear_Riposte" .target "target" .chance 100% .clear_riposte 1 .on_hit true .on_miss false .apply_once true
+effect: .name "T_Signet_Riposte_StressHeal" .target "performer" .chance 100% .buff_ids "T_Signet_Riposte_StressHeal" .buff_source_type bsrc_virtue .on_hit true .on_miss true .apply_once true .has_description false
 effect: .name "T_Riposte_StressHeal" .target "performer" .chance 100% .healstress 20 .on_hit true .on_miss false
 effect: .name "T_Block" .target performer .chance 50% .health_damage_blocks 1 .on_hit true .on_miss false .queue true
 

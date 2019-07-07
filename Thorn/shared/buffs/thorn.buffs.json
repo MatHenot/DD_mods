@@ -26,13 +26,13 @@
          "duration_type" : "before_turn",
          "duration" : 1,
          "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
          "rule_data" : {
             "float" : 1,
-            "string" : "defensive"
+            "string" : ""
          },
-		 "has_description" : false
+		 "remove_on_battle_complete" : true
       },
 
 	  {
@@ -388,13 +388,16 @@
          "stat_type" : "riposte",
          "stat_sub_type" : "T_Riposte_StressHeal",
          "amount" : 1,
+		 "duration" : 2,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "remove_on_battle_complete" : true,
+		 "has_description" : false
       },
 	  {
          "id" : "T_Signet_StressHeal_Debuff",
