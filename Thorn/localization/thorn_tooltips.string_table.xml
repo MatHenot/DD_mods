@@ -1190,117 +1190,109 @@
 		Thanks for your work!	
 	-->
 	
-    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%% {colour_start|stress}Stress{colour_end} Healing Received from Skills]]></entry>
-	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Received]]></entry>
-	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Duration]]></entry>
-    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflection]]></entry>
+    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%% Лечения {colour_start|stress}Стресса{colour_end} Полученного от Навыков]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%% {colour_start|bleed}Кровотечения{colour_end} Получено]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% длительности {colour_start|bleed}Кровотечения{colour_end}]]></entry>
+    <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Урона Отражено ]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_DebuffTT"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_OtherNME"><![CDATA[Other Enemies:]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_DebuffTT"><![CDATA[{colour_start|debuff}Ослабление цели:{colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_OtherNME"><![CDATA[Другие Противники:]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT1"><![CDATA[{colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(%d%%){colour_end} 2 ОЗ/ход на 3 ход(а)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT2"><![CDATA[{colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(%d%%){colour_end} 3 ОЗ/ход на 3 ход(а)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BleedTT3"><![CDATA[{colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(%d%%){colour_end} 4 ОЗ/ход на 3 ход(а)]]></entry>
 
-    <entry id="actor_mode_name_offensive"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_dare"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_gash"><![CDATA[Offensive]]></entry>
-    <entry id="actor_mode_name_defensive"><![CDATA[Defensive]]></entry>
+    <entry id="actor_mode_name_offensive"><![CDATA[Боевая Стойка]]></entry>
+    <entry id="actor_mode_name_dare"><![CDATA[Боевая Стойка]]></entry>
+    <entry id="actor_mode_name_gash"><![CDATA[Боевая Стойка]]></entry>
+    <entry id="actor_mode_name_defensive"><![CDATA[Защитная Стойка]]></entry>
     <entry id="str_skill_mode_info_offensive"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_defensive"><![CDATA[
-	{colour_start|specificclass}Available in Both Stances{colour_end}]]></entry>
-	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Offensive]]></entry>
-	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Offensive]]></entry>
-	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Offensive]]></entry>
-    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[Defensive]]></entry>
+	{colour_start|specificclass}Доступно в обеих стойках{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Боевая Стойка]]></entry>
+	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Боевая Стойка]]></entry>
+	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Боевая Стойка]]></entry>
+    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[Защитная Стойка]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[
-	Defensive:]]></entry>
+	Защитная Стойка:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Offensive"><![CDATA[
-	Offensive:]]></entry>
+	Боевая Стойка:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
-	{colour_start|specificclass}Offensive Stance Only{colour_end}]]></entry>
+	{colour_start|specificclass}Только в Боевой стойке{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
-	{colour_start|specificclass}Defensive Stance Only{colour_end}
+	{colour_start|specificclass}Только в Защитной стойке{colour_end}
 	
 	]]></entry>
 
-	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceA"><![CDATA[Change to mode: Offensive
-	Activates {colour_start|riposte}Riposte{colour_end}
-	{colour_start|riposte}Riposte{colour_end}: %d%% DMG]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceB"><![CDATA[{colour_start|riposte}Riposte{colour_end}: +%d ACC
-	Cancel Defensive effects]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
-	Cancel Offensive effects
-	New Action with -7 SPD]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
-	Back to Defensive mode]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
+	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[33%% шанс перейти в Защитную стойку при попадании]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[33%% шанс перейти в Защитную стойку при попадании]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceA"><![CDATA[Перейти в стойку: Боевая
+	Активирует {colour_start|riposte}Ответный Удар{colour_end}
+	{colour_start|riposte}Ответный Удар{colour_end}: %d%% УРОНА]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceB"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: +%d ТОЧН
+	Отменяет эффекты Защитной стойки]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Перейти в стойку: Защитная
+	Отменяет эффекты Боевой стойки
+	Следующее Действие с эффектом -10 СКОР]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[При попадании: {colour_start|skill_unselectable}(33%%){colour_end}
+	Возврат в Защитную стойку]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Стресс{colour_end} +7]]></entry>	
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[-50%% DMG
-	{colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveB"><![CDATA[+%d%% {colour_start|stun}Stun{colour_end} Skill Chance vs {colour_start|mark}Marked{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% DMG vs {colour_start|mark}Marked{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[-50%% УРОНа
+	{colour_start|stun}Оглушение{colour_end} {colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveB"><![CDATA[+%d%% шанс {colour_start|stun}Оглушить{colour_end} если враг {colour_start|mark}Помечен{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% к УРОНУ если враг {colour_start|mark}Помечен{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-6 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[-8 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+6%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[+8%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	On Guarded: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	On Guarded: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ТОЧН {colour_start|skill_unselectable}(%d%%){colour_end}
+	{colour_start|stealth}Раскрывает{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-7 ТОЧН {colour_start|skill_unselectable}(%d%%){colour_end}
+	{colour_start|stealth}Раскрывает{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-10 ТОЧН {colour_start|skill_unselectable}(%d%%){colour_end}
+	{colour_start|stealth}Раскрывает{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Шанс получить крит.удар {colour_start|skill_unselectable}(%d%%){colour_end}
+	Если защищён: Прерывает защиту]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+7%% Шанс получить крит.удар {colour_start|skill_unselectable}(%d%%){colour_end}
+	Если защищён: Прерывает защиту]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+10%% Шанс получить крит.удар {colour_start|skill_unselectable}(%d%%){colour_end}
+	Если защищён: Прерывает защиту]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+33%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+50%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Кровотечения{colour_end} Получено {colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+33%% {colour_start|bleed}Кровотечения{colour_end} Получено {colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+50%% {colour_start|bleed}Кровотечения{colour_end} Получено {colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>	
 
-	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Lasts One Round{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Действует один раунд{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[-30%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[-33%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>		
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 1pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 1pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% Сопротивления {colour_start|bleed}Кровотечению{colour_end}{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% Сопротивления {colour_start|bleed}Кровотечению{colour_end}{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% Сопротивления {colour_start|bleed}Кровотечению{colour_end}{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[-30%% Сопротивления {colour_start|bleed}Кровотечению{colour_end}{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[-33%% Сопротивления {colour_start|bleed}Кровотечению{colour_end}{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>		
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(100%%){colour_end} 1 ОЗ/ход на 3 ход(а)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(110%%){colour_end} 1 ОЗ/ход на 3 ход(а)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(120%%){colour_end} 2 ОЗ/ход на 3 ход(а)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(130%%){colour_end} 2 ОЗ/ход на 3 ход(а)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(140%%){colour_end} 3 ОЗ/ход на 3 ход(а)]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom1"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 3 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom2"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 4 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom3"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom1"><![CDATA[{colour_start|guard}Защищённые{colour_end} Герои:
+	{colour_start|healhp}Исцеляет{colour_end} 3 ОЗ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom2"><![CDATA[{colour_start|guard}Защищённые{colour_end} Герои:
+	{colour_start|healhp}Исцеляет{colour_end} 4 ОЗ]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom3"><![CDATA[{colour_start|guard}Защищённые{colour_end} Герои:
+	{colour_start|healhp}Исцеляет{colour_end} 5 ОЗ]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|mark}Помечает{colour_end} При ударе]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Значительно снижает шанс Засады]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_T_Fencer"><![CDATA[On Skill Hit: Cancels {colour_start|riposte}Riposte{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|stress}Stress{colour_end} -5]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_T_Fencer"><![CDATA[При попадании навыком: Снимает эффект {colour_start|riposte}Ответного Удара{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|stress}Стресс{colour_end} -5]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[No stress received from light level]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[Не получает стресса от уровня освещённости]]></entry>
 
   </language>
-
+  
   <language id="schinese">
  
 	<!--
