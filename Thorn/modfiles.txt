@@ -215,13 +215,13 @@ localization/1785514611_japanese.loc 16882
 localization/1785514611_koreana.loc 18078
 localization/1785514611_koreanb.loc 18078
 localization/1785514611_polish.loc 16882
-localization/1785514611_russian.loc 16882
+localization/1785514611_russian.loc 23318
 localization/1785514611_schinese.loc 16882
 localization/1785514611_spanish.loc 18731
 localization/1785514611_tchinese.loc 16882
-localization/missing_files.txt 721
-localization/thorn_dialogue.string_table.xml 237147
-localization/thorn_tooltips.string_table.xml 148689
+localization/missing_files.txt 1001
+localization/thorn_dialogue.string_table.xml 242052
+localization/thorn_tooltips.string_table.xml 149830
 overlays/poptext_damage_reflect.png 5169
 overlays/poptext_health_damage_block.png 5439
 overlays/poptext_health_damage_block_onset.png 5442
@@ -231,6 +231,6 @@ trinkets/crimson_court.rarities.trinkets.json 171
 trinkets/thorn.entries.trinkets.json 4156
 trinkets/thorn.sets.trinkets.json 153
 trinkets/thorn_east_town.rarities.trinkets.json 162
-modfiles.txt 12042
+modfiles.txt 12041
 preview_icon.png 409070
 project.xml 581
