@@ -77,9 +77,9 @@
          }
 	  },
 	  {
-         "id" : "Stance Skill ToolTip A",
+         "id" : "Stance Skill TT Def A",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "StanceA",
+         "stat_sub_type" : "StanceDefA",
          "amount" : 0.15,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -90,9 +90,9 @@
          }
 	  },
 	  {
-         "id" : "Stance Skill ToolTip B",
+         "id" : "Stance Skill TT Def B",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "StanceB",
+         "stat_sub_type" : "StanceDefB",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -103,9 +103,22 @@
          }
 	  },
 	  {
-         "id" : "Stance Skill ToolTip C",
+         "id" : "Stance Skill TT Off",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "StanceC",
+         "stat_sub_type" : "StanceOff",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+	  },
+	  {
+         "id" : "Stance Skill TT Shck",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "StanceShck",
          "amount" : -1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -134,6 +147,32 @@
          "id" : "Offensive Skill ToolTip",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Offensive",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },	
+	  {
+         "id" : "Shocked Skill ToolTip",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Shocked",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+ 		 }
+	  },
+	  {
+         "id" : "Blank TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Blank",
          "amount" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
