@@ -50,14 +50,14 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceA"><![CDATA[Change to mode: Offensive
 	Activates {colour_start|riposte}Riposte{colour_end}
 	{colour_start|riposte}Riposte{colour_end}: %d%% DMG]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceB"><![CDATA[{colour_start|riposte}Riposte{colour_end}: +%d ACC
-	Cancel Defensive effects]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceB"><![CDATA[Cancel Defensive effects]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceC"><![CDATA[Change to mode: Defensive
 	Cancel Offensive effects
-	New Action with -7 SPD]]></entry>
+	+5 SPD (1rd)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
-	Back to Defensive mode]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|stress}Stress{colour_end} +7]]></entry>	
+	to be Destabilized:]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[Cancel {colour_start|riposte}Riposte{colour_end}
+	{colour_start|stress}Stress{colour_end} +7]]></entry>	
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[-50%% DMG
 	{colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>

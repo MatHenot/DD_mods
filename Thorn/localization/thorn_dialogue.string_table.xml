@@ -71,14 +71,14 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We would just lose our focus.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[One disabled is enough.]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[I can't see them!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Huh!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[I-I didn't see that coming...]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Oof!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[What the?!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...need to focus!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[How...?]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...way too risky!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[I can't see them!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Huh!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[I-I didn't see that coming...]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Oof!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[What the?!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...need to focus!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[How...?]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...way too risky!]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[Lost]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[There are none so blind as those who cannot listen...]]></entry>
@@ -264,14 +264,14 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[Nous ne ferions que perdre notre concentration.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[Une handicapée suffit amplement.]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[Je n'arrive pas à les sentir !]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Huh !]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[J... Je ne l'ai pas vu venir...]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Oof !]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Qu'est-ce ?!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...besoin de me concentrer !]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Comment...?]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...trop risqué !]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Je n'arrive pas à les sentir !]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Huh !]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[J... Je ne l'ai pas vu venir...]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Oof !]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Qu'est-ce ?!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...besoin de me concentrer !]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Comment...?]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...trop risqué !]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[Perdue]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[Personne n'est aussi aveugle que celui qui ne sait écouter.]]></entry>
@@ -457,14 +457,14 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We would just lose our focus.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[One disabled is enough.]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[I can't see them!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Huh!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[I-I didn't see that coming...]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Oof!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[What the?!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...need to focus!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[How...?]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...way too risky!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[I can't see them!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Huh!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[I-I didn't see that coming...]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Oof!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[What the?!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...need to focus!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[How...?]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...way too risky!]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[Lost]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[There are none so blind as those who cannot listen...]]></entry>
@@ -650,14 +650,14 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We would just lose our focus.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[One disabled is enough.]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[I can't see them!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Huh!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[I-I didn't see that coming...]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Oof!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[What the?!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...need to focus!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[How...?]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...way too risky!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[I can't see them!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Huh!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[I-I didn't see that coming...]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Oof!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[What the?!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...need to focus!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[How...?]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...way too risky!]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[Lost]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[There are none so blind as those who cannot listen...]]></entry>
@@ -843,14 +843,14 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We would just lose our focus.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[One disabled is enough.]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[I can't see them!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Huh!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[I-I didn't see that coming...]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Oof!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[What the?!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...need to focus!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[How...?]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...way too risky!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[I can't see them!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Huh!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[I-I didn't see that coming...]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Oof!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[What the?!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...need to focus!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[How...?]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...way too risky!]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[Lost]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[There are none so blind as those who cannot listen...]]></entry>
@@ -1036,14 +1036,14 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We would just lose our focus.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[One disabled is enough.]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[I can't see them!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Huh!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[I-I didn't see that coming...]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Oof!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[What the?!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...need to focus!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[How...?]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...way too risky!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[I can't see them!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Huh!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[I-I didn't see that coming...]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Oof!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[What the?!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...need to focus!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[How...?]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...way too risky!]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[Lost]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[There are none so blind as those who cannot listen...]]></entry>
@@ -1229,14 +1229,14 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We would just lose our focus.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[One disabled is enough.]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[I can't see them!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Huh!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[I-I didn't see that coming...]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Oof!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[What the?!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...need to focus!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[How...?]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...way too risky!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[I can't see them!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Huh!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[I-I didn't see that coming...]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Oof!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[What the?!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...need to focus!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[How...?]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...way too risky!]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[Lost]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[There are none so blind as those who cannot listen...]]></entry>
@@ -1422,14 +1422,14 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[집중이 흐트러질 것입니다.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[장애인은 저로 충분합니다.]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[보이지 않습니다!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[어흑!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[전... 아무것도 볼 수 없습니다...]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[으읏!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[이 무슨?!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[집중해야 합니다!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[어떻게...?]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[너무 무모합니다!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[보이지 않습니다!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[어흑!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[전... 아무것도 볼 수 없습니다...]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[으읏!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[이 무슨?!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[집중해야 합니다!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[어떻게...?]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[너무 무모합니다!]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[방황함]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[귀까지 들리지 않는다면 무엇을 느낄 수 있을까요...]]></entry>
@@ -1615,14 +1615,14 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[집중이 흐트러질 것입니다.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[장애인은 저로 충분합니다.]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[보이지 않습니다!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[어흑!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[전... 아무것도 볼 수 없습니다...]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[으읏!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[이 무슨?!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[집중해야 합니다!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[어떻게...?]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[너무 무모합니다!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[보이지 않습니다!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[어흑!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[전... 아무것도 볼 수 없습니다...]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[으읏!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[이 무슨?!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[집중해야 합니다!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[어떻게...?]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[너무 무모합니다!]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[방황함]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[귀까지 들리지 않는다면 무엇을 느낄 수 있을까요...]]></entry>
@@ -1808,14 +1808,14 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[We would just lose our focus.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[One disabled is enough.]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[I can't see them!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Huh!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[I-I didn't see that coming...]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Oof!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[What the?!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...need to focus!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[How...?]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...way too risky!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[I can't see them!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Huh!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[I-I didn't see that coming...]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Oof!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[What the?!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...need to focus!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[How...?]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...way too risky!]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[Lost]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[There are none so blind as those who cannot listen...]]></entry>
@@ -2001,14 +2001,14 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[Мы просто не сосредоточиться.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[Одного инвалида хватит.]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[Я не вижу их!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Чего!?]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[А вот это я и проглядела...]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Ууф!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Что за?!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...нужно сосредоточиться!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Как...?]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...Слишком рискованно!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Я не вижу их!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Чего!?]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[А вот это я и проглядела...]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Ууф!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Что за?!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...нужно сосредоточиться!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Как...?]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...Слишком рискованно!]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[Потерянность]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[По настоящему слепы лишь те, кто не хочет слушать...]]></entry>
@@ -2194,14 +2194,14 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[我们会集中不到]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[一个残障的就够了]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[我没看到他们！]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[唔]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[我…我没预料到这…]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Oof!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[什么？！]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[…集中精神！]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[怎么会…？]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[…太危险了！]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[我没看到他们！]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[唔]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[我…我没预料到这…]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Oof!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[什么？！]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[…集中精神！]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[怎么会…？]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[…太危险了！]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[迷失]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[连聆听也做不到的人才是真正的盲人]]></entry>
@@ -2387,14 +2387,14 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[我们会集中不到]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[一个残障的就够了]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[我没看到他们！]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[唔]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[我…我没预料到这…]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Oof!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[什么？！]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[…集中精神！]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[怎么会…？]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[…太危险了！]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[我没看到他们！]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[唔]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[我…我没预料到这…]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Oof!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[什么？！]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[…集中精神！]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[怎么会…？]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[…太危险了！]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[迷失]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[连聆听也做不到的人才是真正的盲人]]></entry>
@@ -2580,14 +2580,14 @@
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[Simplemente perderíamos nuestra concentración.]]></entry>
 	<entry id="str_incompatible_party_member_multiple_thorn"><![CDATA[Una discapacitada es suficiente.]]></entry>
 
-	<entry id="str_thorn_backtodef"><![CDATA[¡No puedo verles!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[¡Juas!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[Y-yo no lo ví venir...]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[¡Puf!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[¡¿Pero qué?!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...¡necesito concentrarme!]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[¿Cómo...?]]></entry>
-	<entry id="str_thorn_backtodef"><![CDATA[...¡demasiado arriesgado!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[¡No puedo verles!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[¡Juas!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[Y-yo no lo ví venir...]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[¡Puf!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[¡¿Pero qué?!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...¡necesito concentrarme!]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[¿Cómo...?]]></entry>
+	<entry id="str_thorn_shocked"><![CDATA[...¡demasiado arriesgado!]]></entry>
 
     <entry id="str_affliction_name_blindness"><![CDATA[Perdida]]></entry>
     <entry id="str_affliction_description_blindness"><![CDATA[No hay nadie tan ciego como aquellos que tampoco pueden escuchar...]]></entry>

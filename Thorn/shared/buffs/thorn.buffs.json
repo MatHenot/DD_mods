@@ -4,7 +4,7 @@
 	  {
          "id" : "exit_riposte",
          "stat_type" : "riposte",
-         "stat_sub_type" : "Hit switch to Defensive",
+         "stat_sub_type" : "switch to Shocked",
          "amount" : 1,
          "duration_type" : "before_turn",
          "duration" : 1,
@@ -19,10 +19,10 @@
 		 "has_description" : false
       },
 	  {
-         "id" : "low_speed_transf",
+         "id" : "speed_transf",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
-         "amount" : -7,
+         "amount" : 5,
          "duration_type" : "before_turn",
          "duration" : 1,
          "remove_if_not_active" : true,
