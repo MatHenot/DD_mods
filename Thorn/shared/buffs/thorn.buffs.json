@@ -14,7 +14,7 @@
          "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
-            "string" : "defensive"
+            "string" : "shocked"
          },
 		 "has_description" : false
       },
@@ -236,10 +236,10 @@
       },
 	  
       {
-         "id" : "Blossom Heal Debuff",
+         "id" : "Blossom Heal Debuff 1",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
-         "amount" : -500,
+         "amount" : -1,
 		 "duration_type" : "before_turn",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -252,10 +252,74 @@
 		 "has_description" : false
       },
       {
-         "id" : "Blossom Heal Buff",
+         "id" : "Blossom Heal Buff 1",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
-         "amount" : 500,
+         "amount" : 1,
+		 "duration_type" : "before_turn",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_guarded",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+      {
+         "id" : "Blossom Heal Debuff 2",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.8,
+		 "duration_type" : "before_turn",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_guarded",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+      {
+         "id" : "Blossom Heal Buff 2",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.8,
+		 "duration_type" : "before_turn",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_guarded",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+      {
+         "id" : "Blossom Heal Debuff 3",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.67,
+		 "duration_type" : "before_turn",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_guarded",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+      {
+         "id" : "Blossom Heal Buff 3",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.67,
 		 "duration_type" : "before_turn",
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -340,10 +404,40 @@
 	  },
  
 	  {
-         "id" : "Dare Dodge",
+         "id" : "Dare Dodge 1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
-         "amount" : -0.10,
+         "amount" : 0.05,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "dare"
+		 },
+		 "is_clear_debuff_valid": false
+	  } ,
+	  {
+         "id" : "Dare Dodge 2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.07,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "dare"
+		 },
+		 "is_clear_debuff_valid": false
+	  } ,
+	  {
+         "id" : "Dare Dodge 3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.10,
          "duration" : 2,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",

@@ -6,7 +6,7 @@ effect: .name "PRE vs Marked 1" .target "performer" .chance 100% .keyStatus "tag
 effect: .name "PRE vs Marked 2" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.15 .on_hit true .on_miss false .skill_instant true
 effect: .name "PRE vs Marked 3" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.20 .on_hit true .on_miss false .skill_instant true
 
-//effect: .name "switch Add turn" .target "performer" .chance 100% .initiative_change 1 .on_hit true .on_miss true .has_description false
+effect: .name "switch Add turn" .target "performer" .chance 100% .initiative_change 1 .on_hit true .on_miss true .has_description false .skill_instant true
 
 
 
@@ -19,17 +19,17 @@ effect: .name "Stance ShckTT" .target "performer" .chance 100% .buff_ids "Shocke
 //Transform -- Defensive to Offensive Effects
 
 effect: .name "switch to Offensive" .target "performer" .chance 100% .set_mode offensive .clearguarding 1 cleanguarded 1 .clear_riposte 1 .buff_ids "Offensive End ToolTip" .on_hit true .on_miss true .has_description false
-effect: .name "Offensive Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -15% .damage_high_multiply -15% .queue true .has_description false
+effect: .name "Offensive Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -15% .damage_high_multiply -15% .duration -1 .on_hit true .on_miss true .queue true .has_description false
 
 //Transform -- Offensive to Shocked Effects
 
-effect: .name "thorn hit received" .target "performer" .chance 33% .buff_ids "exit_riposte" .on_hit true .on_miss true .apply_once true
-effect: .name "switch to Shocked" .target "performer" .chance 100% .set_mode shocked .untag 1 .clear_riposte 1 .bark str_thorn_shocked .stress 7 .on_hit true .on_miss true .queue true
+effect: .name "thorn hit received" .target "performer" .chance 100% .buff_ids "exit_riposte" .on_hit true .on_miss true .apply_once true
+effect: .name "switch to Shocked" .target "performer" .chance 100% .set_mode shocked .untag 1 .clear_riposte 1 .bark str_thorn_shocked .stress 5 .on_hit true .on_miss true .queue true
 
 //Transform -- Shocked to Offensive Effects
 
-effect: .name "switch to Offensive Shck" .target "target_enemy_group" .chance 100% .set_mode offensive .clearguarding 1 cleanguarded 1 .clear_riposte 1 .initiative_change 1 .buff_ids "Offensive End ToolTip" .on_hit true .on_miss true .has_description false .swap_source_and_target true .apply_once true 
-effect: .name "Offensive Riposte Shck" .target "target_enemy_group" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .damage_low_multiply -15% .damage_high_multiply -15% .queue true .has_description false .swap_source_and_target true .apply_once true 
+effect: .name "switch to Offensive Shck" .target "target_enemy_group" .chance 100% .set_mode offensive .clearguarding 1 cleanguarded 1 .clear_riposte 1 .buff_ids "Offensive End ToolTip" .apply_once true .on_hit true .on_miss true .has_description false .swap_source_and_target true 
+effect: .name "Offensive Riposte Shck" .target "target_enemy_group" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -15% .damage_high_multiply -15% .duration -1 .apply_once true .on_hit true .on_miss true .queue true .has_description false .swap_source_and_target true
 
 //Transform -- Offensive to Defensive Effects
 
@@ -109,23 +109,23 @@ effect: .name "Blossom Fake Prot 4" .target "performer" .chance 100% .combat_sta
 effect: .name "Blossom Fake Prot 5" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 25% .on_hit false .on_miss true .apply_once true
 
 effect: .name "Blossom Self Heal 1" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
-effect: .name "Blossom Self Heal 2" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
-effect: .name "Blossom Self Heal 3" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .apply_once true
-effect: .name "Blossom Self Heal 4" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .apply_once true
-effect: .name "Blossom Self Heal 5" .target "performer" .chance 100% .heal 6 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Self Heal 2" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Self Heal 3" .target "performer" .chance 100% .heal 6 .on_hit true .on_miss false .apply_once true
 
-effect: .name "Blossom Heal Debuff" .target "target" .chance 100% .buff_ids "Blossom Heal Debuff" .buff_source_type hero_skill .on_hit true .on_miss false .has_description false
-effect: .name "Blossom Heal Buff" .target "target" .chance 100% .buff_ids "Blossom Heal Buff" .buff_source_type hero_skill .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Debuff 1" .target "target" .chance 100% .buff_ids "Blossom Heal Debuff 1" .buff_source_type hero_skill .on_hit true .on_miss false .has_description false
+effect: .name "Blossom Heal Buff 1" .target "target" .chance 100% .buff_ids "Blossom Heal Buff 1" .buff_source_type hero_skill .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Debuff 2" .target "target" .chance 100% .buff_ids "Blossom Heal Debuff 2" .buff_source_type hero_skill .on_hit true .on_miss false .has_description false
+effect: .name "Blossom Heal Buff 2" .target "target" .chance 100% .buff_ids "Blossom Heal Buff 2" .buff_source_type hero_skill .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Debuff 3" .target "target" .chance 100% .buff_ids "Blossom Heal Debuff 3" .buff_source_type hero_skill .on_hit true .on_miss false .has_description false
+effect: .name "Blossom Heal Buff 3" .target "target" .chance 100% .buff_ids "Blossom Heal Buff 3" .buff_source_type hero_skill .on_hit true .on_miss false .queue true .has_description false
 
 effect: .name "Blossom Heal Guarded 1" .target "target" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Blossom Heal Guarded 2" .target "target" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Blossom Heal Guarded 3" .target "target" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Blossom Heal Guarded 4" .target "target" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Blossom Heal Guarded 5" .target "target" .chance 100% .heal 6 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guarded 2" .target "target" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guarded 3" .target "target" .chance 100% .heal 6 .on_hit true .on_miss false .queue true .has_description false
 
-effect: .name "Blossom Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Blossom ToolTip 1" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
-effect: .name "Blossom Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Blossom ToolTip 2" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
-effect: .name "Blossom Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Blossom ToolTip 3" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
+effect: .name "Blossom Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Blossom ToolTip A1" "Blossom ToolTip B1" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
+effect: .name "Blossom Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Blossom ToolTip A2" "Blossom ToolTip B2" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
+effect: .name "Blossom Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Blossom ToolTip A3" "Blossom ToolTip B3" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
 
 
 //hearken
@@ -140,11 +140,9 @@ effect: .name "hearken StressHeal 5" .target "target" .chance 100% .healstress 7
 
 effect: .name "hearken Riposte Clear" .target "performer" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false
 
-effect: .name "hearken Riposte 1" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -50% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
-effect: .name "hearken Riposte 2" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -45% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
-effect: .name "hearken Riposte 3" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -35% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
-effect: .name "hearken Riposte 4" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -30% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
-effect: .name "hearken Riposte 5" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -20% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
+effect: .name "hearken Riposte 1" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -30% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
+effect: .name "hearken Riposte 2" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -25% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
+effect: .name "hearken Riposte 3" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -20% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
 
 effect: .name "hearken Riposte Crit" .target "performer" .chance 100% .riposte 1 .duration 3 .crit_chance_add -100% .on_hit true .on_miss true .queue true .has_description false
 
@@ -243,7 +241,9 @@ effect: .name "Dare Riposte ToolTip 3" .target "performer" .chance 100% .buff_id
 effect: .name "Dare Riposte ToolTip 4" .target "performer" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 4" "Dare Riposte ToolTip DMGH 4" "Dare Riposte ToolTip crit 4" .on_hit false .on_miss true
 effect: .name "Dare Riposte ToolTip 5" .target "performer" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 5" "Dare Riposte ToolTip DMGH 5" "Dare Riposte ToolTip crit 5" .on_hit false .on_miss true
 
-effect: .name "Dare Dodge" .target "performer" .chance 100% .buff_ids "Dare Dodge" .on_hit true .on_miss true .has_description false
+effect: .name "Dare Dodge 1" .target "performer" .chance 100% .buff_ids "Dare Dodge 1" .on_hit true .on_miss true .has_description false
+effect: .name "Dare Dodge 2" .target "performer" .chance 100% .buff_ids "Dare Dodge 2" .on_hit true .on_miss true .has_description false
+effect: .name "Dare Dodge 3" .target "performer" .chance 100% .buff_ids "Dare Dodge 3" .on_hit true .on_miss true .has_description false
 
 effect: .name "Dare Dodge ToolTip" .target "performer" .chance 100% .buff_ids "Dare Fake Dodge" "One Turn" .on_hit false .on_miss true
 effect: .name "Dare Skill ToolTip" .target "performer_group_other" .chance 100% .buff_ids "Offensive Mode ToolTip" .on_hit false .on_miss true

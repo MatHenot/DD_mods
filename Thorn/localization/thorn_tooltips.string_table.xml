@@ -45,20 +45,19 @@
 	
 	]]></entry>
 
-	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[33%% chance to go to Defensive mode when Hit]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[33%% chance to be Destabilized when Hit]]></entry>
+	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s if NOT in mode %s]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[Destabilized when Hit]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefA"><![CDATA[Change to mode: Offensive
 	Activates {colour_start|riposte}Riposte{colour_end}
 	{colour_start|riposte}Riposte{colour_end}: %d%% DMG]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefB"><![CDATA[Cancel Defensive effects]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[When hit: {colour_start|skill_unselectable}(33%% chance){colour_end}
-	to be Destabilized:]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[{colour_start|specificclass}Destabilized{colour_end} when Hit:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[Cancel {colour_start|riposte}Riposte{colour_end}
-	{colour_start|stress}Stress{colour_end} +7]]></entry>	
+	{colour_start|stress}Stress{colour_end} +5]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceOff"><![CDATA[Change to mode: Defensive
 	Cancel Offensive effects
-	+5 SPD for 1 rd]]></entry>
+	Adds one {colour_start|notable}action{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceShck"><![CDATA[Change to mode: Offensive
 	Reactivates {colour_start|riposte}Riposte{colour_end}
 	Adds one {colour_start|notable}action{colour_end}]]></entry>
@@ -106,12 +105,18 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/rd for 3 rds]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom1"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
+	<entry id="buff_stat_tooltip_upgrade_discount_BlossomA1"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
 	{colour_start|healhp}Heal{colour_end} 4 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom2"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
+	<entry id="buff_stat_tooltip_upgrade_discount_BlossomA2"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
 	{colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom3"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
+	<entry id="buff_stat_tooltip_upgrade_discount_BlossomA3"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
 	{colour_start|healhp}Heal{colour_end} 6 HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BlossomB1"><![CDATA[Other Heroes:
+	{colour_start|healhp}Heal{colour_end} 0 HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BlossomB2"><![CDATA[Other Heroes:
+	{colour_start|healhp}Heal{colour_end} 1 HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BlossomB3"><![CDATA[Other Heroes:
+	{colour_start|healhp}Heal{colour_end} 2 HP]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
 
