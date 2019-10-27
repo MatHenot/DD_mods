@@ -14,7 +14,7 @@
          "is_false_rule" : true,
          "rule_data" : {
             "float" : 0,
-            "string" : "shocked"
+            "string" : "defensive"
          },
 		 "has_description" : false
       },
@@ -236,15 +236,15 @@
       },
 	  
       {
-         "id" : "Blossom Heal Debuff 1",
-         "stat_type" : "hp_heal_received_percent",
+         "id" : "Blossom Heal Debuff",
+         "stat_type" : "hp_heal_percent",
          "stat_sub_type" : "",
-         "amount" : -1,
+         "amount" : -2,
 		 "duration_type" : "before_turn",
 		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "is_guarded",
-         "is_false_rule" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
@@ -252,15 +252,15 @@
 		 "has_description" : false
       },
       {
-         "id" : "Blossom Heal Buff 1",
-         "stat_type" : "hp_heal_received_percent",
+         "id" : "Blossom Heal Buff Guarding",
+         "stat_type" : "hp_heal_percent",
          "stat_sub_type" : "",
-         "amount" : 1,
+         "amount" : 2,
 		 "duration_type" : "before_turn",
 		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "is_guarded",
-         "is_false_rule" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_is_guarding",
+         "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
@@ -268,68 +268,19 @@
 		 "has_description" : false
       },
       {
-         "id" : "Blossom Heal Debuff 2",
-         "stat_type" : "hp_heal_received_percent",
+         "id" : "Blossom Heal Buff Guarded",
+         "stat_type" : "hp_heal_percent",
          "stat_sub_type" : "",
-         "amount" : -0.8,
+         "amount" : 2,
 		 "duration_type" : "before_turn",
 		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "is_guarded",
-         "is_false_rule" : true,
+         "remove_if_not_active" : false,
+         "rule_type" : "target_is_guarded",
+         "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         },
-		 "has_description" : false
-      },
-      {
-         "id" : "Blossom Heal Buff 2",
-         "stat_type" : "hp_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.8,
-		 "duration_type" : "before_turn",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "is_guarded",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description" : false
-      },
-      {
-         "id" : "Blossom Heal Debuff 3",
-         "stat_type" : "hp_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : -0.67,
-		 "duration_type" : "before_turn",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "is_guarded",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description" : false
-      },
-      {
-         "id" : "Blossom Heal Buff 3",
-         "stat_type" : "hp_heal_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.67,
-		 "duration_type" : "before_turn",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "is_guarded",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         },
-		 "has_description" : false
+         }
       },
 
 	  {

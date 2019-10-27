@@ -105,18 +105,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/rd for 3 rds]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_BlossomA1"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 4 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BlossomA2"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 5 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BlossomA3"><![CDATA[{colour_start|guard}Guarded{colour_end} Heroes:
-	{colour_start|healhp}Heal{colour_end} 6 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BlossomB1"><![CDATA[Other Heroes:
-	{colour_start|healhp}Heal{colour_end} 0 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BlossomB2"><![CDATA[Other Heroes:
-	{colour_start|healhp}Heal{colour_end} 1 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BlossomB3"><![CDATA[Other Heroes:
-	{colour_start|healhp}Heal{colour_end} 2 HP]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarded{colour_end} and {colour_start|guard}Guarding{colour_end} Allies:
+	{colour_start|healhp}Heal{colour_end} %d HP]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
 

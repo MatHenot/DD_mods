@@ -592,10 +592,10 @@
 
 
 	  {
-         "id" : "Blossom ToolTip A1",
+         "id" : "Blossom ToolTip 1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "BlossomA1",
-         "amount" : 0.03,
+         "stat_sub_type" : "Blossom",
+         "amount" : -0.03,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -605,10 +605,10 @@
          }
 	  }, 
 	  {
-         "id" : "Blossom ToolTip A2",
+         "id" : "Blossom ToolTip 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "BlossomA2",
-         "amount" : 0.04,
+         "stat_sub_type" : "Blossom",
+         "amount" : -0.04,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -618,49 +618,10 @@
          }
 	  },
 	  {
-         "id" : "Blossom ToolTip A3",
+         "id" : "Blossom ToolTip 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "BlossomA3",
-         "amount" : 0.05,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
-         "id" : "Blossom ToolTip B1",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "BlossomB1",
-         "amount" : 0.03,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  }, 
-	  {
-         "id" : "Blossom ToolTip B2",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "BlossomB2",
-         "amount" : 0.04,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-	  },
-	  {
-         "id" : "Blossom ToolTip B3",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "BlossomB3",
-         "amount" : 0.05,
+         "stat_sub_type" : "Blossom",
+         "amount" : -0.05,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

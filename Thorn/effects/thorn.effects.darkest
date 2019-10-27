@@ -108,24 +108,19 @@ effect: .name "Blossom Fake Prot 3" .target "performer" .chance 100% .combat_sta
 effect: .name "Blossom Fake Prot 4" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 21% .on_hit false .on_miss true .apply_once true
 effect: .name "Blossom Fake Prot 5" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 25% .on_hit false .on_miss true .apply_once true
 
-effect: .name "Blossom Self Heal 1" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
-effect: .name "Blossom Self Heal 2" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .apply_once true
-effect: .name "Blossom Self Heal 3" .target "performer" .chance 100% .heal 6 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Self Heal 1" .target "performer" .chance 100% .heal 3 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Self Heal 2" .target "performer" .chance 100% .heal 4 .on_hit true .on_miss false .apply_once true
+effect: .name "Blossom Self Heal 3" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .apply_once true
 
-effect: .name "Blossom Heal Debuff 1" .target "target" .chance 100% .buff_ids "Blossom Heal Debuff 1" .buff_source_type hero_skill .on_hit true .on_miss false .has_description false
-effect: .name "Blossom Heal Buff 1" .target "target" .chance 100% .buff_ids "Blossom Heal Buff 1" .buff_source_type hero_skill .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Blossom Heal Debuff 2" .target "target" .chance 100% .buff_ids "Blossom Heal Debuff 2" .buff_source_type hero_skill .on_hit true .on_miss false .has_description false
-effect: .name "Blossom Heal Buff 2" .target "target" .chance 100% .buff_ids "Blossom Heal Buff 2" .buff_source_type hero_skill .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Blossom Heal Debuff 3" .target "target" .chance 100% .buff_ids "Blossom Heal Debuff 3" .buff_source_type hero_skill .on_hit true .on_miss false .has_description false
-effect: .name "Blossom Heal Buff 3" .target "target" .chance 100% .buff_ids "Blossom Heal Buff 3" .buff_source_type hero_skill .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Buff" .target "performer" .chance 100% .buff_ids "Blossom Heal Debuff" "Blossom Heal Buff Guarding" "Blossom Heal Buff Guarded" .buff_source_type hero_skill .on_hit true .on_miss false .apply_once true .has_description false
 
-effect: .name "Blossom Heal Guarded 1" .target "target" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Blossom Heal Guarded 2" .target "target" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .has_description false
-effect: .name "Blossom Heal Guarded 3" .target "target" .chance 100% .heal 6 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guard 1" .target "target" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guard 2" .target "target" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
+effect: .name "Blossom Heal Guard 3" .target "target" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .has_description false
 
-effect: .name "Blossom Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Blossom ToolTip A1" "Blossom ToolTip B1" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
-effect: .name "Blossom Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Blossom ToolTip A2" "Blossom ToolTip B2" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
-effect: .name "Blossom Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Blossom ToolTip A3" "Blossom ToolTip B3" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
+effect: .name "Blossom Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Blossom ToolTip 1" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
+effect: .name "Blossom Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Blossom ToolTip 2" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
+effect: .name "Blossom Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Blossom ToolTip 3" "Defensive Mode ToolTip" .on_hit false .on_miss true .apply_once true
 
 
 //hearken
