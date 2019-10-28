@@ -19,21 +19,21 @@ effect: .name "Stance ShckTT" .target "performer" .chance 100% .buff_ids "Shocke
 //Transform -- Defensive to Offensive Effects
 
 effect: .name "switch to Offensive" .target "performer" .chance 100% .set_mode offensive .clearguarding 1 cleanguarded 1 .clear_riposte 1 .buff_ids "Offensive End ToolTip" .on_hit true .on_miss true .has_description false
-effect: .name "Offensive Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -15% .damage_high_multiply -15% .duration -1 .on_hit true .on_miss true .queue true .has_description false
+effect: .name "Offensive Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -20% .damage_high_multiply -20% .duration -1 .on_hit true .on_miss true .queue true .has_description false
 
 //Transform -- Offensive to Shocked Effects
 
-effect: .name "thorn hit received" .target "performer" .chance 100% .buff_ids "exit_riposte" .on_hit true .on_miss true .apply_once true
+effect: .name "thorn hit received" .target "performer" .chance 100% .buff_ids "exit_riposte" .buff_source_type riposte .on_hit true .on_miss true .apply_once true
 effect: .name "switch to Shocked" .target "performer" .chance 100% .set_mode shocked .untag 1 .clear_riposte 1 .bark str_thorn_shocked .stress 5 .on_hit true .on_miss true .queue true
 
 //Transform -- Shocked to Offensive Effects
 
-effect: .name "switch to Offensive Shck" .target "target_enemy_group" .chance 100% .set_mode offensive .clearguarding 1 cleanguarded 1 .clear_riposte 1 .buff_ids "Offensive End ToolTip" .apply_once true .on_hit true .on_miss true .has_description false .swap_source_and_target true 
-effect: .name "Offensive Riposte Shck" .target "target_enemy_group" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -15% .damage_high_multiply -15% .duration -1 .apply_once true .on_hit true .on_miss true .queue true .has_description false .swap_source_and_target true
+effect: .name "switch to Offensive Shck" .target "target_enemy_group" .chance 100% .set_mode offensive .clearguarding 1 cleanguarded 1 .clear_riposte 1 .buff_ids "Offensive End ToolTip" .on_hit true .on_miss true .has_description false .swap_source_and_target true 
+effect: .name "Offensive Riposte Shck" .target "target_enemy_group" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -20% .damage_high_multiply -20% .duration -1 .on_hit true .on_miss true .queue true .has_description false .swap_source_and_target true
 
 //Transform -- Offensive to Defensive Effects
 
-effect: .name "switch to Defensive" .target "performer" .chance 100% .set_mode defensive .untag 1 .clear_riposte 1 .buff_ids "speed_transf" .on_hit true .on_miss true .has_description false
+effect: .name "switch to Defensive" .target "performer" .chance 100% .set_mode defensive .untag 1 .clear_riposte 1 .on_hit true .on_miss true .has_description false
 
 
 
