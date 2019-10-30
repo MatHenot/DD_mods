@@ -29,7 +29,36 @@
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 1,
+            "float" : 0,
+            "string" : ""
+         },
+		 "remove_on_battle_complete" : true
+      },
+
+	  {
+         "id" : "Shck riposte DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "remove_on_battle_complete" : true
+      },
+	  {
+         "id" : "Shck riposte DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
             "string" : ""
          },
 		 "remove_on_battle_complete" : true
@@ -194,7 +223,46 @@
             "string" : ""
          }
       },
-	  
+
+	  {
+         "id" : "Wilt Speed 1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Wilt Speed 2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "Wilt Speed 3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
       {
          "id" : "Wilt Bleed Received 1",
          "stat_type" : "hp_dot_bleed_amount_received_percent",

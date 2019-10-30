@@ -57,10 +57,10 @@
 	{colour_start|stress}Stress{colour_end} +5]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceOff"><![CDATA[Change to mode: Defensive
 	Cancel Offensive effects
-	Adds one {colour_start|notable}action{colour_end}]]></entry>
+	{colour_start|notable}Continue Turn{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceShck"><![CDATA[Change to mode: Offensive
 	Reactivates {colour_start|riposte}Riposte{colour_end}
-	Adds one {colour_start|notable}action{colour_end}]]></entry>
+	{colour_start|notable}Continue Turn{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[-50%% DMG
 	{colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
@@ -105,7 +105,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/rd for 3 rds]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarded{colour_end} and {colour_start|guard}Guarding{colour_end} Allies:
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}Heal{colour_end} %d HP]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>

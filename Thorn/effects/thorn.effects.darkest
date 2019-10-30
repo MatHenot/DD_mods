@@ -7,6 +7,7 @@ effect: .name "PRE vs Marked 2" .target "performer" .chance 100% .keyStatus "tag
 effect: .name "PRE vs Marked 3" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.20 .on_hit true .on_miss false .skill_instant true
 
 effect: .name "switch Add turn" .target "performer" .chance 100% .initiative_change 1 .on_hit true .on_miss true .has_description false .skill_instant true
+effect: .name "switch End turn" .target "performer" .chance 100% .initiative_change -1 .on_hit true .on_miss true .has_description false
 
 
 
@@ -29,7 +30,8 @@ effect: .name "switch to Shocked" .target "performer" .chance 100% .set_mode sho
 //Transform -- Shocked to Offensive Effects
 
 effect: .name "switch to Offensive Shck" .target "target_enemy_group" .chance 100% .set_mode offensive .clearguarding 1 cleanguarded 1 .clear_riposte 1 .buff_ids "Offensive End ToolTip" .on_hit true .on_miss true .has_description false .swap_source_and_target true 
-effect: .name "Offensive Riposte Shck" .target "target_enemy_group" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -20% .damage_high_multiply -20% .duration -1 .on_hit true .on_miss true .queue true .has_description false .swap_source_and_target true
+effect: .name "Offensive Riposte Shck" .target "target_enemy_group" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .queue true .has_description false .swap_source_and_target true
+effect: .name "Offensive Riposte Buff Shck" .target "performer" .chance 100% .duration -1 .buff_ids "Shck riposte DMGL" "Shck riposte DMGH" .buff_source_type bsrc_riposte .on_hit true .on_miss true .queue true .has_description false
 
 //Transform -- Offensive to Defensive Effects
 
@@ -155,6 +157,10 @@ effect: .name "hearken Skill ToolTip" .target "performer" .chance 100% .buff_ids
 //Wilt
 
 effect: .name "Wilt Off" .target "performer" .chance 100% .set_mode offensive .on_hit true .on_miss true .has_description false
+
+effect: .name "Wilt Speed 1" .target "performer" .chance 100% .buff_ids "Wilt Speed 1" .on_hit true .on_miss true
+effect: .name "Wilt Speed 2" .target "performer" .chance 100% .buff_ids "Wilt Speed 2" .on_hit true .on_miss true
+effect: .name "Wilt Speed 3" .target "performer" .chance 100% .buff_ids "Wilt Speed 3" .on_hit true .on_miss true
 
 effect: .name "Wilt Debuff 1" .target "target" .chance 100% .buff_ids "Wilt Bleed Received 1" .on_hit true .on_miss false .has_description false
 effect: .name "Wilt Debuff 2" .target "target" .chance 110% .buff_ids "Wilt Bleed Received 1" .on_hit true .on_miss false .has_description false
