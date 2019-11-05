@@ -651,7 +651,7 @@
          "id" : "C_Listen_Scout",
          "stat_type" : "scouting_chance",
          "stat_sub_type" : "",
-         "amount" : -1,
+         "amount" : -0.1,
          "duration_type" : "combat_end",
          "duration" : 4,
          "remove_if_not_active" : false,
