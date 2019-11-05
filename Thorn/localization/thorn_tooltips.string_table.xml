@@ -64,26 +64,26 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveB"><![CDATA[+%d%% {colour_start|stun}Stun{colour_end} Skill Chance vs {colour_start|mark}Marked{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% DMG vs {colour_start|mark}Marked{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[-6 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[-8 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}
-	{colour_start|stealth}De-stealth{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	If {colour_start|guard}Guarded{colour_end}: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[+6%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	If {colour_start|guard}Guarded{colour_end}: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	If {colour_start|guard}Guarded{colour_end}: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[+8%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	If {colour_start|guard}Guarded{colour_end}: Breaks Guard]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}
-	If {colour_start|guard}Guarded{colour_end}: Breaks Guard]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[{colour_start|stealth}De-stealth{colour_end}
+	-5 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[{colour_start|stealth}De-stealth{colour_end}
+	-6 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[{colour_start|stealth}De-stealth{colour_end}
+	-7 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[{colour_start|stealth}De-stealth{colour_end}
+	-8 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[{colour_start|stealth}De-stealth{colour_end}
+	-10 ACC {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[If {colour_start|guard}Guarded{colour_end}: Breaks Guard
+	+5%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[If {colour_start|guard}Guarded{colour_end}: Breaks Guard
+	+6%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[If {colour_start|guard}Guarded{colour_end}: Breaks Guard
+	+7%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[If {colour_start|guard}Guarded{colour_end}: Breaks Guard
+	+8%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[If {colour_start|guard}Guarded{colour_end}: Breaks Guard
+	+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
@@ -104,11 +104,11 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[-30%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[-33%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>		
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 1pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 1pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/rd for 3 rds]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}Heal{colour_end} %d HP]]></entry>

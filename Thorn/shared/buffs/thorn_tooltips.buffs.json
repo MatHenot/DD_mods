@@ -1221,7 +1221,7 @@
          }
       },
 	  {
-         "id" : "Dare Fake Dodge 1",
+         "id" : "Gash Fake Dodge 1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.05,
@@ -1235,7 +1235,7 @@
          }
 	  },
 	  {
-         "id" : "Dare Fake Dodge 2",
+         "id" : "Gash Fake Dodge 2",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.06,
@@ -1249,7 +1249,7 @@
          }
 	  },
 	  {
-         "id" : "Dare Fake Dodge 3",
+         "id" : "Gash Fake Dodge 3",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.07,

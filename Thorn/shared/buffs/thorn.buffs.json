@@ -412,7 +412,7 @@
 	  },
  
 	  {
-         "id" : "Dare Dodge 1",
+         "id" : "Gash Dodge 1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.05,
@@ -427,7 +427,7 @@
 		 "is_clear_debuff_valid": false
 	  } ,
 	  {
-         "id" : "Dare Dodge 2",
+         "id" : "Gash Dodge 2",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.06,
@@ -442,7 +442,7 @@
 		 "is_clear_debuff_valid": false
 	  } ,
 	  {
-         "id" : "Dare Dodge 3",
+         "id" : "Gash Dodge 3",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "defense_rating",
          "amount" : 0.07,
