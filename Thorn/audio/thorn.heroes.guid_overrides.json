@@ -5,6 +5,7 @@
         {"event_id": "event:/_offensive",										"guid_override":"{9736de15-4233-485b-8f44-d65e6ae8dab4}"},
 		{"event_id": "event:/_gash",											"guid_override":"{9736de15-4233-485b-8f44-d65e6ae8dab4}"},
 		{"event_id": "event:/_dare",											"guid_override":"{9736de15-4233-485b-8f44-d65e6ae8dab4}"},
+		{"event_id": "event:/_shocked",											"guid_override":"{6871d1e0-1ffe-4b14-86d5-5ff88c9e4baf}"},
 
 		{"event_id": "event:/char/ally/thorn_thrust_defensive",					"guid_override":"{3bf510ab-a822-4132-ae7d-b8051dbaf1c5}"},
 		{"event_id": "event:/char/ally/thorn_thrust_miss_defensive",			"guid_override":"{514175d6-2820-40f4-a623-ea39aa1f689d}"},
@@ -63,7 +64,11 @@
 	    {"event_id": "event:/camp/skill/thorncamp1",							"guid_override":"{5475f6a9-118f-42d4-bf96-32e1bc71029a}"},
         {"event_id": "event:/camp/skill/thorncamp2",							"guid_override":"{a5078194-c481-4a77-8cad-6dd90d0a05d1}"},
         {"event_id": "event:/camp/skill/thorncamp3",             				"guid_override":"{e5d81220-6d0c-462e-b43c-2e8168756081}"},
-        {"event_id": "event:/camp/skill/thorncamp4",               				"guid_override":"{55279eaf-8be8-449a-9b10-fd0417e9396a}"}
+        {"event_id": "event:/camp/skill/thorncamp4",               				"guid_override":"{55279eaf-8be8-449a-9b10-fd0417e9396a}"},
+
+		{"event_id": "event:/general/status/buff_fx_soundfx1_idle",				"guid_override":"{a524addd-19c8-4988-a251-85ceb545fd6a}"},
+		{"event_id": "event:/general/status/buff_fx_soundfx1_onset",			"guid_override":"{24c5e6c1-5cfa-4799-a7ac-de4f75b5784e}"},
+		{"event_id": "event:/general/status/buff_fx_soundfx1_release",			"guid_override":"{d49597ff-607a-4b04-b15a-c9b9f17cc843}"}
 		
 
     ]
