@@ -655,7 +655,7 @@
   <!-- Monster Attacks -->
   <entry id="str_monster_skill_claws"><![CDATA[열두 개의 발톱]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[들이받기]]></entry>
-  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[죽이고 죽이기]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[왕의 저주]]></entry>
   <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[남은 음식들]]></entry>
@@ -673,15 +673,15 @@
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[하수구에 들어가봅니다.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[당신은 하수구에 들어갔습니다...]]></entry>
   <!-- Trinkets -->  
-  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
-  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
-  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[뒤틀린 꼬리]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[왕의 심장]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[왕족의 발톱]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[설치류 꼬챙이]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["해충은 빠르게 번식하는 법..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[적 처치시: 영웅에게: 0~2 피해]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[아군 대상 기술: {colour_start|stun}기절{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[해당 열에만 적용:]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[해충]]></entry>
   </language>
   
   <language id="koreanb">
@@ -712,7 +712,7 @@
   <!-- Monster Attacks -->
   <entry id="str_monster_skill_claws"><![CDATA[열두 개의 발톱]]></entry>
   <entry id="str_monster_skill_headbutt"><![CDATA[들이받기]]></entry>
-  <entry id="str_monster_skill_killkill"><![CDATA[Kill Kill]]></entry>
+  <entry id="str_monster_skill_killkill"><![CDATA[죽이고 죽이기]]></entry>
   <entry id="str_monster_skill_curse"><![CDATA[왕의 저주]]></entry>
   <entry id="str_monster_skill_curse2"><![CDATA[Rouet's Plague]]></entry>
   <entry id="str_monster_skill_devour"><![CDATA[남은 음식들]]></entry>
@@ -730,15 +730,15 @@
   <entry id="str_curio_tooltip_investigate_manhole"><![CDATA[하수구에 들어가봅니다.]]></entry>
   <entry id="str_curio_manhole_summon"><![CDATA[당신은 하수구에 들어갔습니다...]]></entry>
   <!-- Trinkets -->  
-  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[Tails Node]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[King's Heart]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[Royal Claw]]></entry>
-  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[Rodent Stake]]></entry>
-  <entry id="str_inventory_set_title_rat_set"><![CDATA["Vermin proliferates quickly..."]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[On Monster Kill: Other Heroes: 0 to 2 DMG]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[Friendly Skill: {colour_start|stun}Stun{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
-  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[On Targeted Ranks Only:]]></entry>
-  <entry id="trinket_rarity_rats"><![CDATA[Vermine]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_tails"><![CDATA[뒤틀린 꼬리]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heart"><![CDATA[왕의 심장]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_claw"><![CDATA[왕족의 발톱]]></entry>
+  <entry id="str_inventory_title_trinketrat_king_heads"><![CDATA[설치류 꼬챙이]]></entry>
+  <entry id="str_inventory_set_title_rat_set"><![CDATA["해충은 빠르게 번식하는 법..."]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Tails"><![CDATA[적 처치시: 영웅에게: 0~2 피해]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Claw"><![CDATA[아군 대상 기술: {colour_start|stun}기절{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_T_Heads"><![CDATA[해당 열에만 적용:]]></entry>
+  <entry id="trinket_rarity_rats"><![CDATA[해충]]></entry>
   </language>
   
 </root>
