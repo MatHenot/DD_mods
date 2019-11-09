@@ -25,7 +25,7 @@ effect: .name "Offensive Riposte" .target "performer" .chance 100% .riposte 1 .r
 //Transform -- Offensive to Shocked Effects
 
 effect: .name "thorn hit received" .target "performer" .chance 100% .buff_ids "exit_riposte" .buff_source_type riposte .on_hit true .on_miss true .apply_once true
-effect: .name "switch to Shocked" .target "performer" .chance 100% .set_mode shocked .untag 1 .clear_riposte 1 .bark str_thorn_shocked .stress 5 .on_hit true .on_miss true .queue true
+effect: .name "switch to Shocked" .target "performer" .chance 100% .set_mode shocked .clear_riposte 1 .bark str_thorn_shocked .stress 5 .on_hit true .on_miss true .queue true
 
 //Transform -- Shocked to Offensive Effects
 
