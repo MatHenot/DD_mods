@@ -83,7 +83,7 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_reptilian_plates"><![CDATA[Minimum DMG only:]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_VC_A"><![CDATA[Adds one {colour_start|notable}action{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_VC_A"><![CDATA[Adds one {colour_start|notable}Action{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_VC_B"><![CDATA[-20%% All Skill Effects Chance]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_shinobue"><![CDATA[+15%% All Skill Effects Chance]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_CT_1"><![CDATA[{colour_start|stress}Stress{colour_end} -7 to -9]]></entry>
