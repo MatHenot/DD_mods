@@ -30,7 +30,7 @@
 	<entry id="combat_skill_name_thorn_listen"><![CDATA[Single Out]]></entry>
     <entry id="combat_skill_name_thorn_blossom"><![CDATA[Blossom]]></entry>
     <entry id="combat_skill_name_thorn_hearken"><![CDATA[Hearken]]></entry>
-    <entry id="combat_skill_name_thorn_gash"><![CDATA[Gash]]></entry>
+    <entry id="combat_skill_name_thorn_gash"><![CDATA[Perforate]]></entry>
     <entry id="combat_skill_name_thorn_dare"><![CDATA[Dare]]></entry>
     <entry id="combat_skill_name_thorn_wilt"><![CDATA[Wilt]]></entry>
     <entry id="combat_skill_name_thorn_move"><![CDATA[Move]]></entry>
@@ -39,7 +39,7 @@
     <entry id="upgrade_tree_name_thorn.listen"><![CDATA[Single Out]]></entry>    
     <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[Blossom]]></entry>
     <entry id="upgrade_tree_name_thorn.hearken"><![CDATA[Hearken]]></entry>
-    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Gash]]></entry>
+    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Perforate]]></entry>
     <entry id="upgrade_tree_name_thorn.dare"><![CDATA[Dare]]></entry>
 	<entry id="upgrade_tree_name_thorn.wilt"><![CDATA[Wilt]]></entry>
 
@@ -223,7 +223,7 @@
 	<entry id="combat_skill_name_thorn_listen"><![CDATA[Distinguer]]></entry>
     <entry id="combat_skill_name_thorn_blossom"><![CDATA[Floraison]]></entry>
     <entry id="combat_skill_name_thorn_hearken"><![CDATA[Écoute Attentive]]></entry>
-    <entry id="combat_skill_name_thorn_gash"><![CDATA[Entailles]]></entry>
+    <entry id="combat_skill_name_thorn_gash"><![CDATA[Perforation]]></entry>
     <entry id="combat_skill_name_thorn_dare"><![CDATA[Défi]]></entry>
     <entry id="combat_skill_name_thorn_wilt"><![CDATA[Flétrissement]]></entry>
     <entry id="combat_skill_name_thorn_move"><![CDATA[Move]]></entry>
@@ -233,7 +233,7 @@
     <entry id="upgrade_tree_name_thorn.wilt"><![CDATA[Flétrissement]]></entry>
     <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[Floraison]]></entry>
     <entry id="upgrade_tree_name_thorn.hearken"><![CDATA[Écoute Attentive]]></entry>
-    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Entailles]]></entry>
+    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Perforation]]></entry>
     <entry id="upgrade_tree_name_thorn.dare"><![CDATA[Défi]]></entry>
 
     <entry id="camping_skill_name_thorncamp1"><![CDATA[SENS AFFUTÉS]]></entry>
@@ -1381,7 +1381,7 @@
 	<entry id="combat_skill_name_thorn_listen"><![CDATA[탐지]]></entry>
     <entry id="combat_skill_name_thorn_blossom"><![CDATA[만개]]></entry>
     <entry id="combat_skill_name_thorn_hearken"><![CDATA[귀 기울기기]]></entry>
-    <entry id="combat_skill_name_thorn_gash"><![CDATA[깊이 찌르기]]></entry>
+    <entry id="combat_skill_name_thorn_gash"><![CDATA[구멍 뚫기]]></entry>
     <entry id="combat_skill_name_thorn_dare"><![CDATA[도발]]></entry>
     <entry id="combat_skill_name_thorn_wilt"><![CDATA[낙화]]></entry>
     <entry id="combat_skill_name_thorn_move"><![CDATA[이동]]></entry>
@@ -1390,7 +1390,7 @@
     <entry id="upgrade_tree_name_thorn.listen"><![CDATA[탐지]]></entry>    
     <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[만개]]></entry>
     <entry id="upgrade_tree_name_thorn.hearken"><![CDATA[귀 기울이기]]></entry>
-    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[깊이 찌르기]]></entry>
+    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[구멍 뚫기]]></entry>
     <entry id="upgrade_tree_name_thorn.dare"><![CDATA[도발]]></entry>
 	<entry id="upgrade_tree_name_thorn.wilt"><![CDATA[낙화]]></entry>
 
@@ -1574,7 +1574,7 @@
 	<entry id="combat_skill_name_thorn_listen"><![CDATA[탐지]]></entry>
     <entry id="combat_skill_name_thorn_blossom"><![CDATA[만개]]></entry>
     <entry id="combat_skill_name_thorn_hearken"><![CDATA[귀 기울기기]]></entry>
-    <entry id="combat_skill_name_thorn_gash"><![CDATA[깊이 찌르기]]></entry>
+    <entry id="combat_skill_name_thorn_gash"><![CDATA[구멍 뚫기]]></entry>
     <entry id="combat_skill_name_thorn_dare"><![CDATA[도발]]></entry>
     <entry id="combat_skill_name_thorn_wilt"><![CDATA[낙화]]></entry>
     <entry id="combat_skill_name_thorn_move"><![CDATA[이동]]></entry>
@@ -1583,7 +1583,7 @@
     <entry id="upgrade_tree_name_thorn.listen"><![CDATA[탐지]]></entry>    
     <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[만개]]></entry>
     <entry id="upgrade_tree_name_thorn.hearken"><![CDATA[귀 기울이기]]></entry>
-    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[깊이 찌르기]]></entry>
+    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[구멍 뚫기]]></entry>
     <entry id="upgrade_tree_name_thorn.dare"><![CDATA[도발]]></entry>
 	<entry id="upgrade_tree_name_thorn.wilt"><![CDATA[낙화]]></entry>
 
@@ -1960,7 +1960,7 @@
 	<entry id="combat_skill_name_thorn_listen"><![CDATA[Приклонить Слух]]></entry>
     <entry id="combat_skill_name_thorn_blossom"><![CDATA[Цветение]]></entry>
     <entry id="combat_skill_name_thorn_hearken"><![CDATA[Внять]]></entry>
-    <entry id="combat_skill_name_thorn_gash"><![CDATA[Глубокая Рана]]></entry>
+    <entry id="combat_skill_name_thorn_gash"><![CDATA[Перфорация]]></entry>
     <entry id="combat_skill_name_thorn_dare"><![CDATA[Вызов]]></entry>
     <entry id="combat_skill_name_thorn_wilt"><![CDATA[Увядание]]></entry>
     <entry id="combat_skill_name_thorn_move"><![CDATA[Перемещение]]></entry>
@@ -1969,7 +1969,7 @@
     <entry id="upgrade_tree_name_thorn.listen"><![CDATA[Приклонить Слух]]></entry>    
     <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[Цветение]]></entry>
     <entry id="upgrade_tree_name_thorn.hearken"><![CDATA[Внять]]></entry>
-    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Глубокая Рана]]></entry>
+    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Перфорация]]></entry>
     <entry id="upgrade_tree_name_thorn.dare"><![CDATA[Вызов]]></entry>
 	<entry id="upgrade_tree_name_thorn.wilt"><![CDATA[Увядание]]></entry>
 
@@ -2153,7 +2153,7 @@
 	<entry id="combat_skill_name_thorn_listen"><![CDATA[单挑]]></entry>
     <entry id="combat_skill_name_thorn_blossom"><![CDATA[盛开]]></entry>
     <entry id="combat_skill_name_thorn_hearken"><![CDATA[倾听]]></entry>
-    <entry id="combat_skill_name_thorn_gash"><![CDATA[刺破]]></entry>
+    <entry id="combat_skill_name_thorn_gash"><![CDATA[穿孔]]></entry>
     <entry id="combat_skill_name_thorn_dare"><![CDATA[挑衅]]></entry>
     <entry id="combat_skill_name_thorn_wilt"><![CDATA[凋谢]]></entry>
     <entry id="combat_skill_name_thorn_move"><![CDATA[移动]]></entry>
@@ -2162,7 +2162,7 @@
     <entry id="upgrade_tree_name_thorn.listen"><![CDATA[单挑]]></entry>    
     <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[盛开]]></entry>
     <entry id="upgrade_tree_name_thorn.hearken"><![CDATA[倾听]]></entry>
-    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[刺破]]></entry>
+    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[穿孔]]></entry>
     <entry id="upgrade_tree_name_thorn.dare"><![CDATA[挑衅]]></entry>
 	<entry id="upgrade_tree_name_thorn.wilt"><![CDATA[凋谢]]></entry>
 
@@ -2346,7 +2346,7 @@
 	<entry id="combat_skill_name_thorn_listen"><![CDATA[单挑]]></entry>
     <entry id="combat_skill_name_thorn_blossom"><![CDATA[盛开]]></entry>
     <entry id="combat_skill_name_thorn_hearken"><![CDATA[倾听]]></entry>
-    <entry id="combat_skill_name_thorn_gash"><![CDATA[刺破]]></entry>
+    <entry id="combat_skill_name_thorn_gash"><![CDATA[穿孔]]></entry>
     <entry id="combat_skill_name_thorn_dare"><![CDATA[挑衅]]></entry>
     <entry id="combat_skill_name_thorn_wilt"><![CDATA[凋谢]]></entry>
     <entry id="combat_skill_name_thorn_move"><![CDATA[移动]]></entry>
@@ -2355,7 +2355,7 @@
     <entry id="upgrade_tree_name_thorn.listen"><![CDATA[单挑]]></entry>    
     <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[盛开]]></entry>
     <entry id="upgrade_tree_name_thorn.hearken"><![CDATA[倾听]]></entry>
-    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[刺破]]></entry>
+    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[穿孔]]></entry>
     <entry id="upgrade_tree_name_thorn.dare"><![CDATA[挑衅]]></entry>
 	<entry id="upgrade_tree_name_thorn.wilt"><![CDATA[凋谢]]></entry>
 
@@ -2539,7 +2539,7 @@
 	<entry id="combat_skill_name_thorn_listen"><![CDATA[Escuchar]]></entry>
     <entry id="combat_skill_name_thorn_blossom"><![CDATA[Florecimiento]]></entry>
     <entry id="combat_skill_name_thorn_hearken"><![CDATA[Prestar atención]]></entry>
-    <entry id="combat_skill_name_thorn_gash"><![CDATA[Estocadas trepidantes]]></entry>
+    <entry id="combat_skill_name_thorn_gash"><![CDATA[Perforación]]></entry>
     <entry id="combat_skill_name_thorn_dare"><![CDATA[Retar]]></entry>
     <entry id="combat_skill_name_thorn_wilt"><![CDATA[Marchitar]]></entry>
     <entry id="combat_skill_name_thorn_move"><![CDATA[Movimiento]]></entry>
@@ -2548,7 +2548,7 @@
     <entry id="upgrade_tree_name_thorn.listen"><![CDATA[Escuchar]]></entry>    
     <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[Florecimiento]]></entry>
     <entry id="upgrade_tree_name_thorn.hearken"><![CDATA[Prestar atención]]></entry>
-    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Estocadas trepidantes]]></entry>
+    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Perforación]]></entry>
     <entry id="upgrade_tree_name_thorn.dare"><![CDATA[Retar]]></entry>
 	<entry id="upgrade_tree_name_thorn.wilt"><![CDATA[Marchitar]]></entry>
 
