@@ -214,37 +214,12 @@
       },
 
 	  {
-         "id" : "Wilt Speed 1",
+         "id" : "Wilt Speed",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
-         "amount" : 2,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_mode",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "defensive"
-         }
-      },
-	  {
-         "id" : "Wilt Speed 2",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 3,
-         "remove_if_not_active" : false,
-         "rule_type" : "in_mode",
-         "is_false_rule" : true,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "defensive"
-         }
-      },
-	  {
-         "id" : "Wilt Speed 3",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "speed_rating",
-         "amount" : 4,
-         "remove_if_not_active" : false,
+         "amount" : 5,
+		 "duration" : 2
+         "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : true,
          "rule_data" : {
@@ -291,6 +266,21 @@
             "string" : ""
          }
       },
+	  
+	  {
+         "id" : "Dare Dodge",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "defensive"
+		 }
+	  } ,
 	  
       {
          "id" : "Blossom Heal Debuff",
@@ -410,24 +400,6 @@
             "string" : "defensive"
          }
 	  },
- 
-	  {
-         "id" : "Dare Dodge",
-         "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "defense_rating",
-         "amount" : 0.05,
-         "duration" : 2,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "dare"
-		 },
-		 "is_clear_debuff_valid": false
-	  } ,
-	  
-	  
 	  
 	  {
          "id" : "T_Maingauche_Riposte",
