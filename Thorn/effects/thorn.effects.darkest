@@ -2,9 +2,7 @@
 
 //effect: .name "Random Attack" .target "performer" .buff_ids "Random Attack" .on_hit true .on_miss true .skill_instant true .has_description false
 
-effect: .name "PRE vs Marked 1" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.10 .on_hit true .on_miss false .skill_instant true
-effect: .name "PRE vs Marked 2" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.15 .on_hit true .on_miss false .skill_instant true
-effect: .name "PRE vs Marked 3" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.20 .on_hit true .on_miss false .skill_instant true
+effect: .name "PRE vs Marked" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.20 .on_hit true .on_miss false .skill_instant true
 
 effect: .name "switch Add turn" .target "performer" .chance 100% .initiative_change 1 .on_hit true .on_miss true .has_description false .skill_instant true
 effect: .name "switch End turn" .target "performer" .chance 100% .initiative_change -1 .on_hit true .on_miss true .has_description false
@@ -182,6 +180,8 @@ effect: .name "Wilt Skill ToolTip 5" .target "performer" .chance 100% .buff_ids 
 //Gash
 
 effect: .name "switch to Gash" .target "performer" .set_mode gash .chance 100% .on_hit true .on_miss true .has_description false
+
+effect: .name "Gash Pierce" .target "performer" .chance 100% .buff_ids "T_RapierGuard_Pierce" .on_hit true .on_miss false .skill_instant true
 
 effect: .name "Gash Riposte 1" .target "performer" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Bleed 1" .on_hit true .on_miss true .can_apply_on_death true .has_description false
 effect: .name "Gash Riposte 2" .target "performer" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Bleed 2" .on_hit true .on_miss true .can_apply_on_death true .has_description false
