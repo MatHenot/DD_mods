@@ -218,7 +218,7 @@
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
          "amount" : 5,
-		 "duration" : 2
+		 "duration" : 2,
          "remove_if_not_active" : true,
          "rule_type" : "in_mode",
          "is_false_rule" : true,
