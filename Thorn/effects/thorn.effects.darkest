@@ -156,7 +156,9 @@ effect: .name "hearken Skill ToolTip" .target "performer" .chance 100% .buff_ids
 
 effect: .name "Wilt Off" .target "performer" .chance 100% .set_mode offensive .on_hit true .on_miss true .has_description false
 
-effect: .name "Wilt Speed" .target "performer" .chance 100% .buff_ids "Wilt Speed" .on_hit true .on_miss true .has_description false
+effect: .name "Wilt Speed 1" .target "performer" .chance 100% .buff_ids "Wilt Speed 1" .on_hit true .on_miss true .has_description false
+effect: .name "Wilt Speed 2" .target "performer" .chance 100% .buff_ids "Wilt Speed 2" .on_hit true .on_miss true .has_description false
+effect: .name "Wilt Speed 3" .target "performer" .chance 100% .buff_ids "Wilt Speed 3" .on_hit true .on_miss true .has_description false
 
 effect: .name "Wilt Debuff 1" .target "target_group_other" .chance 100% .buff_ids "Wilt Bleed Received 1" .on_hit true .on_miss false .has_description false
 effect: .name "Wilt Debuff 2" .target "target_group_other" .chance 110% .buff_ids "Wilt Bleed Received 1" .on_hit true .on_miss false .has_description false

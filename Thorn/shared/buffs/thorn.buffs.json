@@ -214,12 +214,37 @@
       },
 
 	  {
-         "id" : "Wilt Speed",
+         "id" : "Wilt Speed 1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "defensive"
+         }
+      },
+	  {
+         "id" : "Wilt Speed 2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "defensive"
+         }
+      },
+	  {
+         "id" : "Wilt Speed 3",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "speed_rating",
          "amount" : 5,
-		 "duration" : 2,
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "in_mode",
          "is_false_rule" : true,
          "rule_data" : {
