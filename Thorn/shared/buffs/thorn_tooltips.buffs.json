@@ -589,36 +589,10 @@
  		 }
 	  },
 	  {
-         "id" : "Wilt Speed ToolTip 1",
+         "id" : "Wilt Speed ToolTip",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "WiltSpeed",
-         "amount" : -0.02,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
- 		 }
-	  },
-	  {
-         "id" : "Wilt Speed ToolTip 2",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltSpeed",
-         "amount" : -0.03,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
- 		 }
-	  },
-	  {
-         "id" : "Wilt Speed ToolTip 3",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "WiltSpeed",
-         "amount" : -0.04,
+         "amount" : -0.05,
          "remove_if_not_active" : true,
          "rule_type" : "always",
          "is_false_rule" : false,

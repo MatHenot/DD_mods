@@ -172,11 +172,11 @@ effect: .name "Wilt Bleed 3" .target "target" .dotBleed 4 .duration 3 .chance 12
 effect: .name "Wilt Bleed 4" .target "target" .dotBleed 4 .duration 3 .chance 130% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
 effect: .name "Wilt Bleed 5" .target "target" .dotBleed 5 .duration 3 .chance 140% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
 
-effect: .name "Wilt Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 1" "Wilt Speed ToolTip 1" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 1" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
-effect: .name "Wilt Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 2" "Wilt Speed ToolTip 1" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 2" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
-effect: .name "Wilt Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 3" "Wilt Speed ToolTip 2" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 3" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
-effect: .name "Wilt Skill ToolTip 4" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 4" "Wilt Speed ToolTip 2" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 4" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
-effect: .name "Wilt Skill ToolTip 5" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 5" "Wilt Speed ToolTip 3" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 5" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
+effect: .name "Wilt Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 1" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 1" "Wilt Speed ToolTip" "One Turn" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
+effect: .name "Wilt Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 2" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 2" "Wilt Speed ToolTip" "One Turn" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
+effect: .name "Wilt Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 3" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 3" "Wilt Speed ToolTip" "One Turn" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
+effect: .name "Wilt Skill ToolTip 4" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 4" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 4" "Wilt Speed ToolTip" "One Turn" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
+effect: .name "Wilt Skill ToolTip 5" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 5" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 5" "Wilt Speed ToolTip" "One Turn" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
 
 
 //Gash
@@ -213,11 +213,11 @@ effect: .name "Gash Skill ToolTip A3" .target "performer" .chance 100% .buff_ids
 effect: .name "Gash Skill ToolTip A4" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Gash Bleed Debuff ToolTip 4" .on_hit true .on_miss true .skill_instant true
 effect: .name "Gash Skill ToolTip A5" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Gash Bleed Debuff ToolTip 5" .on_hit true .on_miss true .skill_instant true
 
-effect: .name "Gash Skill ToolTip B1" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 1" "Gash Fake Dodge 1" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
-effect: .name "Gash Skill ToolTip B2" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 2" "Gash Fake Dodge 1" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
-effect: .name "Gash Skill ToolTip B3" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 3" "Gash Fake Dodge 2" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
-effect: .name "Gash Skill ToolTip B4" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 4" "Gash Fake Dodge 2" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
-effect: .name "Gash Skill ToolTip B5" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 5" "Gash Fake Dodge 3" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip B1" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 1" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip B2" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 2" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip B3" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 3" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip B4" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 4" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip B5" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 5" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
 
 
 //Dare
