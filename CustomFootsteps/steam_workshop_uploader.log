@@ -1,0 +1,26 @@
+
+-------------------------------------------------------------------------------
+Parsing project file - D:\DD_mods\CustomFootsteps\project.xml
+Mod Data Directory = D:/DD_mods/CustomFootsteps/
+
+-------------------------------------------------------------------------------
+Processing Map Files files...
+
+-------------------------------------------------------------------------------
+Searching for preview icon file D:/DD_mods/CustomFootsteps/preview_icon.png...FOUND!
+<UploadMode> - Set to direct_upload
+
+
+-------------------------------------------------------------------------------
+Modded files...
+
+audio/secondary_banks/customsteps.bank
+audio/customsteps.campaign.guid_overrides.json
+audio/customsteps.campaign.load_order.json
+modfiles.txt
+preview_icon.png
+project.xml
+
+Submitting....................................................................................Submitted.
+Saving project file D:\DD_mods\CustomFootsteps\project.xml
+
