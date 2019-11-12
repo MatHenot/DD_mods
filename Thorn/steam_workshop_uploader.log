@@ -159,6 +159,12 @@ heroes/thorn/fx/thorn.sprite.ripdef_fx.skel
 heroes/thorn/fx/thorn.sprite.riposte_fx.atlas
 heroes/thorn/fx/thorn.sprite.riposte_fx.png
 heroes/thorn/fx/thorn.sprite.riposte_fx.skel
+heroes/thorn/fx/thorn.sprite.soundfx1.atlas
+heroes/thorn/fx/thorn.sprite.soundfx1.png
+heroes/thorn/fx/thorn.sprite.soundfx1.skel
+heroes/thorn/fx/thorn.sprite.soundfx2.atlas
+heroes/thorn/fx/thorn.sprite.soundfx2.png
+heroes/thorn/fx/thorn.sprite.soundfx2.skel
 heroes/thorn/fx/thorn.sprite.thrust_fx.atlas
 heroes/thorn/fx/thorn.sprite.thrust_fx.png
 heroes/thorn/fx/thorn.sprite.thrust_fx.skel
@@ -201,7 +207,6 @@ raid/camping/skill_icons/camp_skill_thorncamp1.png
 raid/camping/skill_icons/camp_skill_thorncamp2.png
 raid/camping/skill_icons/camp_skill_thorncamp3.png
 raid/camping/skill_icons/camp_skill_thorncamp4.png
-audio/secondary_banks/general_thorn.bank
 audio/secondary_banks/hero_thorn.bank
 campaign/roster/thorn.roster.additional_variables.json
 campaign/town_events/thorn.town_events.events.json
@@ -223,8 +228,6 @@ shared/buffs/thorn.buffs.json
 shared/buffs/thorn_tooltips.buffs.json
 shared/trait/thorn.trait_library.json
 upgrades/heroes/thorn.upgrades.json
-audio/thorn.app.guid_overrides.json
-audio/thorn.app.load_order.json
 audio/thorn.heroes.guid_overrides.json
 audio/thorn.heroes.load_order.json
 colours/thorn.colours.darkest
@@ -243,7 +246,6 @@ localization/1785514611_russian.loc
 localization/1785514611_schinese.loc
 localization/1785514611_spanish.loc
 localization/1785514611_tchinese.loc
-localization/missing_files.txt
 localization/thorn_dialogue.string_table.xml
 localization/thorn_tooltips.string_table.xml
 overlays/poptext_damage_reflect.png
@@ -259,6 +261,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting................................................................................................................................................................Submitted.
+Submitting.................................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Thorn\project.xml
 
