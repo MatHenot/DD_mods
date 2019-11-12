@@ -183,7 +183,7 @@ effect: .name "Wilt Skill ToolTip 5" .target "performer" .chance 100% .buff_ids 
 
 effect: .name "switch to Gash" .target "performer" .set_mode gash .chance 100% .on_hit true .on_miss true .has_description false
 
-effect: .name "Gash Pierce" .target "performer" .chance 100% .buff_ids "T_RapierGuard_Pierce" .on_hit true .on_miss false .skill_instant true
+effect: .name "Gash Pierce" .target "performer" .chance 100% .buff_ids "Gash Pierce" .on_hit true .on_miss false .skill_instant true
 
 effect: .name "Gash Riposte 1" .target "performer" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Bleed 1" .on_hit true .on_miss true .can_apply_on_death true .has_description false
 effect: .name "Gash Riposte 2" .target "performer" .chance 100% .riposte 1 .duration 2 .riposte_effect "Gash Riposte Bleed 2" .on_hit true .on_miss true .can_apply_on_death true .has_description false
