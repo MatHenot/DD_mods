@@ -96,9 +96,6 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Lasts One Round{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -220,19 +217,16 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Dure un tour{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[Résistance aux {colour_start|bleed}saignements{colour_end} -20%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[Résistance aux {colour_start|bleed}saignements{colour_end} -23%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[Résistance aux {colour_start|bleed}saignements{colour_end} -26%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[Résistance aux {colour_start|bleed}saignements{colour_end} -30%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[Résistance aux {colour_start|bleed}saignements{colour_end} -33%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>		
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 100%%){colour_end} 1 pts/tr sur 3 trs]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 110%%){colour_end} 1 pts/tr sur 3 trs]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 120%%){colour_end} 2 pts/tr sur 3 trs]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 130%%){colour_end} 2 pts/tr sur 3 trs]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 140%%){colour_end} 3 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 100%%){colour_end} 2 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 110%%){colour_end} 2 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 120%%){colour_end} 3 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 130%%){colour_end} 3 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : 140%%){colour_end} 4 pts/tr sur 3 trs]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[Alliés {colour_start|guard}protégeant{colour_end} ou {colour_start|guard}protégés{colour_end} :
 	{colour_start|healhp}Soigne{colour_end} %d PV]]></entry>
@@ -344,9 +338,6 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Lasts One Round{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -468,9 +459,6 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Lasts One Round{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -592,9 +580,6 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Lasts One Round{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -716,9 +701,6 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Lasts One Round{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -840,9 +822,6 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Lasts One Round{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -964,19 +943,16 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}한 라운드 동안 지속{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT1"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %d%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT2"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT3"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 4 피해, 3턴 지속]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -20%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -23%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -26%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -30%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -33%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>		
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 100%%){colour_end} 턴당 1 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 110%%){colour_end} 턴당 1 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 120%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 130%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 140%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 100%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 110%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 120%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 130%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 140%%){colour_end} 턴당 4 피해, 3턴 지속]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}Heal{colour_end} %d HP]]></entry>
@@ -1088,19 +1064,16 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}한 라운드 동안 지속{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT1"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %d%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT2"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT3"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 4 피해, 3턴 지속]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -20%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -23%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -26%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -30%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[{colour_start|bleed}출혈{colour_end} 저항 -33%%  {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>		
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 100%%){colour_end} 턴당 1 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 110%%){colour_end} 턴당 1 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 120%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 130%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 140%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 100%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 110%%){colour_end} 턴당 2 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 120%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 130%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 140%%){colour_end} 턴당 4 피해, 3턴 지속]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}Heal{colour_end} %d HP]]></entry>
@@ -1212,9 +1185,6 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Lasts One Round{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% {colour_start|bleed}Bleed{colour_end} Resist {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
@@ -1336,19 +1306,16 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Действует один раунд{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT1"><![CDATA[{colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(%d%%){colour_end} 2 ОЗ/ход на 3 ход(а)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT2"><![CDATA[{colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(%d%%){colour_end} 3 ОЗ/ход на 3 ход(а)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT3"><![CDATA[{colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(%d%%){colour_end} 4 ОЗ/ход на 3 ход(а)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% Сопротивления {colour_start|bleed}Кровотечению{colour_end}{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% Сопротивления {colour_start|bleed}Кровотечению{colour_end}{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% Сопротивления {colour_start|bleed}Кровотечению{colour_end}{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[-30%% Сопротивления {colour_start|bleed}Кровотечению{colour_end}{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[-33%% Сопротивления {colour_start|bleed}Кровотечению{colour_end}{colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>		
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(100%%){colour_end} 1 ОЗ/ход на 3 ход(а)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(110%%){colour_end} 1 ОЗ/ход на 3 ход(а)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(120%%){colour_end} 2 ОЗ/ход на 3 ход(а)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(130%%){colour_end} 2 ОЗ/ход на 3 ход(а)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(140%%){colour_end} 3 ОЗ/ход на 3 ход(а)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(100%%){colour_end} 2 ОЗ/ход на 3 ход(а)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(110%%){colour_end} 2 ОЗ/ход на 3 ход(а)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(120%%){colour_end} 3 ОЗ/ход на 3 ход(а)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(130%%){colour_end} 3 ОЗ/ход на 3 ход(а)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(140%%){colour_end} 4 ОЗ/ход на 3 ход(а)]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}Исцеляет{colour_end} %d ОЗ]]></entry>
@@ -1460,19 +1427,16 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}最后一回合{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT1"><![CDATA[{colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础%d%%){colour_end} 2点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT2"><![CDATA[{colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础%d%%){colour_end} 3点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT3"><![CDATA[{colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础%d%%){colour_end} 4点/回合 持续3回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% {colour_start|bleed}流血{colour_end}抗性 {colour_start|skill_unselectable}(基础%d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% {colour_start|bleed}流血{colour_end}抗性 {colour_start|skill_unselectable}(基础%d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% {colour_start|bleed}流血{colour_end}抗性 {colour_start|skill_unselectable}(基础%d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[-30%% {colour_start|bleed}流血{colour_end}抗性 {colour_start|skill_unselectable}(基础%d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[-33%% {colour_start|bleed}流血{colour_end}抗性 {colour_start|skill_unselectable}(基础%d%%){colour_end}]]></entry>		
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础100%%){colour_end} 1点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础110%%){colour_end} 1点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础120%%){colour_end} 2点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础130%%){colour_end} 2点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础140%%){colour_end} 3点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础100%%){colour_end} 2点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础110%%){colour_end} 2点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础120%%){colour_end} 3点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础130%%){colour_end} 3点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础140%%){colour_end} 4点/回合 持续3回合]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}治疗{colour_end}%d点生命]]></entry>
@@ -1584,19 +1548,16 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}最后一回合{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT1"><![CDATA[{colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础%d%%){colour_end} 2点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT2"><![CDATA[{colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础%d%%){colour_end} 3点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT3"><![CDATA[{colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础%d%%){colour_end} 4点/回合 持续3回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% {colour_start|bleed}流血{colour_end}抗性 {colour_start|skill_unselectable}(基础%d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% {colour_start|bleed}流血{colour_end}抗性 {colour_start|skill_unselectable}(基础%d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% {colour_start|bleed}流血{colour_end}抗性 {colour_start|skill_unselectable}(基础%d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[-30%% {colour_start|bleed}流血{colour_end}抗性 {colour_start|skill_unselectable}(基础%d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[-33%% {colour_start|bleed}流血{colour_end}抗性 {colour_start|skill_unselectable}(基础%d%%){colour_end}]]></entry>		
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础100%%){colour_end} 1点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础110%%){colour_end} 1点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础120%%){colour_end} 2点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础130%%){colour_end} 2点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础140%%){colour_end} 3点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础100%%){colour_end} 2点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础110%%){colour_end} 2点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础120%%){colour_end} 3点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础130%%){colour_end} 3点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}反击:{colour_end} {colour_start|bleed}流血{colour_end} {colour_start|skill_unselectable}(基础140%%){colour_end} 4点/回合 持续3回合]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}治疗{colour_end}%d点生命]]></entry>
@@ -1708,19 +1669,16 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Dura una ronda{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT1"><![CDATA[{colour_start|bleed}Hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 2 pts/rd por 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT2"><![CDATA[{colour_start|bleed}Hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd por 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_GBleedTT3"><![CDATA[{colour_start|bleed}Hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd por 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%% de resistencia a la {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%% de resistencia a la {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% de resistencia a la {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[-30%% de resistencia a la {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[-33%% de resistencia a la {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>		
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 1pts/r por 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 1pts/r por 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 2pts/r por 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/r por 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/r por 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/r por 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/r por 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/r por 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/r por 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/r por 3 rds]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}Curar{colour_end} %d PS]]></entry>
