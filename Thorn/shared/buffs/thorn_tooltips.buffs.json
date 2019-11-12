@@ -80,7 +80,7 @@
          "id" : "Stance Skill TT Def A",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "StanceDefA",
-         "amount" : 0.20,
+         "amount" : 0.15,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
