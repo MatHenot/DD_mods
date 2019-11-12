@@ -77,7 +77,7 @@ heroes/thorn/anim/thorn.sprite.blossom.skel 410
 heroes/thorn/anim/thorn.sprite.camp.atlas 306
 heroes/thorn/anim/thorn.sprite.camp.skel 430
 heroes/thorn/anim/thorn.sprite.combat.atlas 3912
-heroes/thorn/anim/thorn.sprite.combat.skel 140806
+heroes/thorn/anim/thorn.sprite.combat.skel 140815
 heroes/thorn/anim/thorn.sprite.dare.atlas 305
 heroes/thorn/anim/thorn.sprite.dare.skel 355
 heroes/thorn/anim/thorn.sprite.defend.atlas 656
