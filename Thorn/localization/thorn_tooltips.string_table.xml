@@ -1606,7 +1606,7 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[{colour_start|specificclass}Defensiva:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Offensive"><![CDATA[{colour_start|specificclass}Ofensiva:{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Shocked"><![CDATA[{colour_start|specificclass}Destabilized:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Shocked"><![CDATA[{colour_start|specificclass}Desestabilizada:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Blank"><![CDATA[]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
 	{colour_start|specificclass}Solo posición ofensiva{colour_end}]]></entry>
@@ -1615,22 +1615,22 @@
 	
 	]]></entry>
 
-	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s if NOT in mode %s]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[Destabilized when Hit]]></entry>
+	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s sí NO está en modo %s]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[Se desestabiliza si le impactan]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefA"><![CDATA[Cambiar a posición: ofensiva
 	Activa la {colour_start|riposte}estocada{colour_end}
 	{colour_start|riposte}Estocada{colour_end}: %d%% DAÑO]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefB"><![CDATA[Cancel Defensive effects]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[{colour_start|specificclass}Destabilized{colour_end} when Hit:]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[Cancel {colour_start|riposte}Riposte{colour_end}
-	{colour_start|stress}Esfuerzo{colour_end} +5]]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceOff"><![CDATA[Change to mode: Defensive
-	Cancel Offensive effects
-	{colour_start|notable}Continue Turn{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceShck"><![CDATA[Change to mode: Offensive
-	Reactivates {colour_start|riposte}Riposte{colour_end}
-	{colour_start|notable}Continue Turn{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefB"><![CDATA[Cancela los efectos defensivos]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[{colour_start|specificclass}Desestabilizada{colour_end} al ser impactada:]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[Cancela la {colour_start|riposte}estocada{colour_end}
+	{colour_start|stress}Estrés{colour_end} +5]]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceOff"><![CDATA[Cambiar a posición: defensiva
+	Cancela los efectos ofensivos
+	{colour_start|notable}Continua el turno{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceShck"><![CDATA[Cambiar a posición: ofensiva
+	Reactiva la {colour_start|riposte}estocada{colour_end}
+	{colour_start|notable}Continua el turno{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[-50%% DAÑO
 	{colour_start|stun}Aturdir{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
@@ -1664,8 +1664,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% de {colour_start|bleed}hemorragia{colour_end} recibida {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+33%% de {colour_start|bleed}hemorragia{colour_end} recibida {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+50%% de {colour_start|bleed}hemorragia{colour_end} recibida {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
-	<entry id="buff_stat_tooltip_upgrade_discount_WiltSpeed"><![CDATA[Self:
-	+%d SPD]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WiltSpeed"><![CDATA[Así misma:
+	+%d VEL]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}Dura una ronda{colour_end}]]></entry>
 
@@ -1674,14 +1674,14 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%% de resistencia a la {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[-30%% de resistencia a la {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[-33%% de resistencia a la {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>		
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 2pts/r por 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 2pts/r por 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 3pts/r por 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 3pts/r por 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/r por 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end} 1pts/r por 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end} 1pts/r por 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end} 2pts/r por 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end} 2pts/r por 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|bleed}hemorragia{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 3pts/r por 3 rds]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
-	{colour_start|healhp}Curar{colour_end} %d PS]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[Los aliados que estén usando {colour_start|guard}Guardia{colour_end} o {colour_start|guard}Protegidos{colour_end}:
+	reciben una {colour_start|healhp}curación{colour_end} de %d PS]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|mark}marca{colour_end} al impactar]]></entry>
 
