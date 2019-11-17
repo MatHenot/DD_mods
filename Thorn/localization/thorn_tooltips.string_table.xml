@@ -1432,11 +1432,11 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff3"><![CDATA[-26%%{colour_start|bleed}流血{colour_end}抗性{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff4"><![CDATA[-30%%{colour_start|bleed}流血{colour_end}抗性{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff5"><![CDATA[-33%%{colour_start|bleed}流血{colour_end}抗性{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>		
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（100%基础概率）{colour_end}1点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（110%基础概率）{colour_end}1点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（120%基础概率）{colour_end}2点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（130%基础概率）{colour_end}2点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（140%基础概率）{colour_end}3点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash1"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（100%%基础概率）{colour_end}1点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash2"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（110%%基础概率）{colour_end}1点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash3"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（120%%基础概率）{colour_end}2点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash4"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（130%%基础概率）{colour_end}2点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（140%%基础概率）{colour_end}3点/回合 持续3回合]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}守护{colour_end}和{colour_start|guard}被守护{colour_end}的队友：
 	{colour_start|healhp}治疗{colour_end}%d点生命]]></entry>
