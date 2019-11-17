@@ -219,11 +219,11 @@ localization/1785514611_koreana.loc 18091
 localization/1785514611_koreanb.loc 18091
 localization/1785514611_polish.loc 16997
 localization/1785514611_russian.loc 23815
-localization/1785514611_schinese.loc 17266
+localization/1785514611_schinese.loc 17271
 localization/1785514611_spanish.loc 18710
-localization/1785514611_tchinese.loc 17266
+localization/1785514611_tchinese.loc 17271
 localization/thorn_dialogue.string_table.xml 241920
-localization/thorn_tooltips.string_table.xml 157463
+localization/thorn_tooltips.string_table.xml 157473
 overlays/poptext_damage_reflect.png 5169
 overlays/poptext_health_damage_block.png 5439
 overlays/poptext_health_damage_block_onset.png 5442
