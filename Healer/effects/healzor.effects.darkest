@@ -1,29 +1,29 @@
 //SNAKECHARMER SKILL EFFECTS
 
+//Common
 
-//trinkets
+effect: .name "HealRefresh" .target "performer" .chance 100% .on_hit true .on_miss false .refreshes_skill_uses true .queue true
+effect: .name "StealHeal" .target "target" .curio_result_type "positive" .chance 100% .swap_source_and_target true .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss false
 
-effect: .name "SC T Blight" .target "target" .curio_result_type "negative" .chance 120% .dotPoison 3 .duration 2 .on_hit true .on_miss false .can_apply_on_death true .individual_target_actor_rolls true
-effect: .name "SC T Ally Buff" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2 .defense_rating_add 0.05 .duration 2 .on_hit true .on_miss false
-effect: .name "SC T shinobue Buff" .target "target" .curio_result_type "positive" .chance 100% .buff_ids "SC_T_shinobue_PoisChance" "SC_T_shinobue_BleedChance" "SC_T_shinobue_StunChance" "SC_T_shinobue_DebChance" "SC_T_shinobue_MoveChance" .apply_once true .on_hit true .on_miss false .has_description false
-effect: .name "SC T shinobue ToolTip" .target "target" .curio_result_type "positive" .chance 100% .buff_ids SC_T_shinobue_ToolTip .apply_once true .on_hit false .on_miss true
+//freeheal
 
+effect: .name "freeheal 1" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 1	.on_hit true .on_miss true
+effect: .name "freeheal 2" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 1	.on_hit true .on_miss true
+effect: .name "freeheal 3" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 4 .duration 1	.on_hit true .on_miss true
 
-//venomous fang
-
-effect: .name "SC venomous fang 1" .target "target" .curio_result_type "negative" .chance 100% .dotPoison 4 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "SC venomous fang 2" .target "target" .curio_result_type "negative" .chance 110% .dotPoison 4 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "SC venomous fang 3" .target "target" .curio_result_type "negative" .chance 120% .dotPoison 5 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "SC venomous fang 4" .target "target" .curio_result_type "negative" .chance 130% .dotPoison 5 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "SC venomous fang 5" .target "target" .curio_result_type "negative" .chance 140% .dotPoison 6 .duration 2 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "freeheal random" .target "target" .curio_result_type "positive" .chance 50% .dotHpHeal 1 .duration 1	.on_hit true .on_miss true
 
 //mamba dance
 
-effect: .name "SC mamba dance 1" .target "target" .curio_result_type "negative" .chance 100% .buff_ids "SC_MB_blight_debuff_1" .on_hit true .on_miss false
-effect: .name "SC mamba dance 2" .target "target" .curio_result_type "negative" .chance 110% .buff_ids "SC_MB_blight_debuff_2" .on_hit true .on_miss false
-effect: .name "SC mamba dance 3" .target "target" .curio_result_type "negative" .chance 120% .buff_ids "SC_MB_blight_debuff_3" .on_hit true .on_miss false
-effect: .name "SC mamba dance 4" .target "target" .curio_result_type "negative" .chance 130% .buff_ids "SC_MB_blight_debuff_4" .on_hit true .on_miss false
-effect: .name "SC mamba dance 5" .target "target" .curio_result_type "negative" .chance 140% .buff_ids "SC_MB_blight_debuff_5" .on_hit true .on_miss false
+effect: .name "Mark" .target "target" .curio_result_type "positive" .chance 100% .tag 1 .duration 3	.on_hit true .on_miss false
+
+effect: .name "DMG rec 1" .target "target" .chance 100% .buff_ids "DMG rec 1" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "DMG rec 2" .target "target" .chance 110% .buff_ids "DMG rec 2" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "DMG rec 3" .target "target" .chance 120% .buff_ids "DMG rec 3" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "DMG rec 4" .target "target" .chance 130% .buff_ids "DMG rec 4" .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "DMG rec 5" .target "target" .chance 140% .buff_ids "DMG rec 5" .duration 2 .on_hit true .on_miss false .queue true
+
+effect: .name "Bigheal" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 4 .duration 3 .on_hit true .on_miss true
 
 //feast
 
@@ -137,3 +137,6 @@ effect: .name "SC CT C2" .target "target" .curio_result_type "negative" .chance 
 effect: .name "SC CT C3" .target "target" .curio_result_type "negative" .chance 90%  .dotPoison 2 .duration 2 .on_hit true .on_miss false .queue true .can_apply_on_death true
 effect: .name "SC CT C4" .target "target" .curio_result_type "negative" .chance 100% .dotPoison 2 .duration 2 .on_hit true .on_miss false .queue true .can_apply_on_death true .has_description false
 effect: .name "SC CT C5" .target "target" .curio_result_type "negative" .chance 110% .dotPoison 3 .duration 2 .on_hit true .on_miss false .queue true .can_apply_on_death true .has_description false
+
+
+//trinkets
