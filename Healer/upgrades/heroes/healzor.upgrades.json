@@ -2,7 +2,7 @@
    "trees":
    [
       {
-         "id" : "Healzor.weapon",
+         "id" : "healzor.weapon",
          "is_instanced" : true,
          "tags" : ["weapon", "first_level_not_upgrade"],
          "requirements" : 
@@ -27,7 +27,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.weapon", "requirement_code" : "0" },
+                  { "tree_id" : "healzor.weapon", "requirement_code" : "0" },
                   { "tree_id" : "blacksmith.weapon", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -40,7 +40,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.weapon", "requirement_code" : "1" },
+                  { "tree_id" : "healzor.weapon", "requirement_code" : "1" },
                   { "tree_id" : "blacksmith.weapon", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -53,7 +53,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.weapon", "requirement_code" : "2" },
+                  { "tree_id" : "healzor.weapon", "requirement_code" : "2" },
                   { "tree_id" : "blacksmith.weapon", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -61,7 +61,7 @@
          ]
       },
       {
-         "id" : "Healzor.armour",
+         "id" : "healzor.armour",
          "is_instanced" : true,
          "tags" : ["armour", "first_level_not_upgrade"],
          "requirements" : 
@@ -86,7 +86,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.armour", "requirement_code" : "0" },
+                  { "tree_id" : "healzor.armour", "requirement_code" : "0" },
                   { "tree_id" : "blacksmith.armour", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -99,7 +99,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.armour", "requirement_code" : "1" },
+                  { "tree_id" : "healzor.armour", "requirement_code" : "1" },
                   { "tree_id" : "blacksmith.armour", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -112,7 +112,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.armour", "requirement_code" : "2" },
+                  { "tree_id" : "healzor.armour", "requirement_code" : "2" },
                   { "tree_id" : "blacksmith.armour", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -120,7 +120,7 @@
          ]
       },
       {
-         "id" : "Healzor.venomous_fang",
+         "id" : "healzor.freeheal",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -144,7 +144,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.venomous_fang", "requirement_code" : "0" },
+                  { "tree_id" : "healzor.freeheal", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -157,7 +157,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.venomous_fang", "requirement_code" : "1" },
+                  { "tree_id" : "healzor.freeheal", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -170,7 +170,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.venomous_fang", "requirement_code" : "2" },
+                  { "tree_id" : "healzor.freeheal", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -183,7 +183,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.venomous_fang", "requirement_code" : "3" },
+                  { "tree_id" : "healzor.freeheal", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -191,7 +191,7 @@
          ]
       },
       {
-         "id" : "Healzor.mamba_dance",
+         "id" : "healzor.groupheal",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -215,7 +215,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.mamba_dance", "requirement_code" : "0" },
+                  { "tree_id" : "healzor.groupheal", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -228,7 +228,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.mamba_dance", "requirement_code" : "1" },
+                  { "tree_id" : "healzor.groupheal", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -241,7 +241,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.mamba_dance", "requirement_code" : "2" },
+                  { "tree_id" : "healzor.groupheal", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -254,7 +254,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.mamba_dance", "requirement_code" : "3" },
+                  { "tree_id" : "healzor.groupheal", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -262,7 +262,7 @@
          ]
       },
       {
-         "id" : "Healzor.feast",
+         "id" : "healzor.mark",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -286,7 +286,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.feast", "requirement_code" : "0" },
+                  { "tree_id" : "healzor.mark", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -299,7 +299,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.feast", "requirement_code" : "1" },
+                  { "tree_id" : "healzor.mark", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -312,7 +312,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.feast", "requirement_code" : "2" },
+                  { "tree_id" : "healzor.mark", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -325,7 +325,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.feast", "requirement_code" : "3" },
+                  { "tree_id" : "healzor.mark", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -333,7 +333,7 @@
          ]
       },
       {
-         "id" : "Healzor.constriction",
+         "id" : "healzor.11",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -357,7 +357,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.constriction", "requirement_code" : "0" },
+                  { "tree_id" : "healzor.11", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -370,7 +370,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.constriction", "requirement_code" : "1" },
+                  { "tree_id" : "healzor.11", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -383,7 +383,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.constriction", "requirement_code" : "2" },
+                  { "tree_id" : "healzor.11", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -396,7 +396,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.constriction", "requirement_code" : "3" },
+                  { "tree_id" : "healzor.11", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -404,7 +404,7 @@
          ]
       },
 	  {
-         "id" : "Healzor.rattling_trap",
+         "id" : "healzor.22",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -428,7 +428,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.rattling_trap", "requirement_code" : "0" },
+                  { "tree_id" : "healzor.22", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -441,7 +441,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.rattling_trap", "requirement_code" : "1" },
+                  { "tree_id" : "healzor.22", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -454,7 +454,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.rattling_trap", "requirement_code" : "2" },
+                  { "tree_id" : "healzor.22", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -467,7 +467,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.rattling_trap", "requirement_code" : "3" },
+                  { "tree_id" : "healzor.22", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -475,7 +475,7 @@
          ]
       },
       {
-         "id" : "Healzor.vicious_charm",
+         "id" : "healzor.33",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -499,7 +499,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.vicious_charm", "requirement_code" : "0" },
+                  { "tree_id" : "healzor.33", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -512,7 +512,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.vicious_charm", "requirement_code" : "1" },
+                  { "tree_id" : "healzor.33", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -525,7 +525,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.vicious_charm", "requirement_code" : "2" },
+                  { "tree_id" : "healzor.33", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -538,7 +538,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.vicious_charm", "requirement_code" : "3" },
+                  { "tree_id" : "healzor.33", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
@@ -546,7 +546,7 @@
          ]
       },
       {
-         "id" : "Healzor.calming_toxin",
+         "id" : "healzor.44",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -570,7 +570,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.calming_toxin", "requirement_code" : "0" },
+                  { "tree_id" : "healzor.44", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -583,7 +583,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.calming_toxin", "requirement_code" : "1" },
+                  { "tree_id" : "healzor.44", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -596,7 +596,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.calming_toxin", "requirement_code" : "2" },
+                  { "tree_id" : "healzor.44", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -609,7 +609,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "Healzor.calming_toxin", "requirement_code" : "3" },
+                  { "tree_id" : "healzor.44", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5
