@@ -333,7 +333,7 @@
          ]
       },
       {
-         "id" : "healzor.11",
+         "id" : "healzor.marmite",
          "is_instanced" : true,
          "tags" : ["combat_skill"],
          "requirements" : 
@@ -357,7 +357,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "healzor.11", "requirement_code" : "0" },
+                  { "tree_id" : "healzor.marmite", "requirement_code" : "0" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "a" }
                ],
                "prerequisite_resolve_level" : 1
@@ -370,7 +370,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "healzor.11", "requirement_code" : "1" },
+                  { "tree_id" : "healzor.marmite", "requirement_code" : "1" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "b" }
                ],
                "prerequisite_resolve_level" : 2
@@ -383,7 +383,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "healzor.11", "requirement_code" : "2" },
+                  { "tree_id" : "healzor.marmite", "requirement_code" : "2" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "c" }
                ],
                "prerequisite_resolve_level" : 3
@@ -396,7 +396,7 @@
                ],
                "prerequisite_requirements" :
                [
-                  { "tree_id" : "healzor.11", "requirement_code" : "3" },
+                  { "tree_id" : "healzor.marmite", "requirement_code" : "3" },
                   { "tree_id" : "guild.skill_levels", "requirement_code" : "d" }
                ],
                "prerequisite_resolve_level" : 5

@@ -1,0 +1,195 @@
+{
+    "entries":
+    [
+		{
+            "id": "marmite1",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                  {
+                    "completion_chance": 0.00,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+					"marmite heal 1"
+					]
+				  },
+                  {
+                    "completion_chance": 0.00,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+					"marmite heal 1"
+					]
+				  },
+                  {
+                    "completion_chance": 100.00,
+                    "completion_effects":
+                    [
+					"marmite final heal 1",
+					"marmite switch to human"
+                    ],
+                    "increment_effects":
+                    [
+					]
+				  }
+			]
+		},
+		{
+            "id": "marmite2",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                  {
+                    "completion_chance": 0.00,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+					"marmite heal 2"
+					]
+				  },
+                  {
+                    "completion_chance": 0.00,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+					"marmite heal 2"
+					]
+				  },
+                  {
+                    "completion_chance": 100.00,
+                    "completion_effects":
+                    [
+					"marmite final heal 2",
+					"marmite switch to human"
+                    ],
+                    "increment_effects":
+                    [
+					]
+				  }
+			]
+		},
+		{
+            "id": "marmite3",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                  {
+                    "completion_chance": 0.00,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+					"marmite heal 3"
+					]
+				  },
+                  {
+                    "completion_chance": 0.00,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+					"marmite heal 3"
+					]
+				  },
+                  {
+                    "completion_chance": 100.00,
+                    "completion_effects":
+                    [
+					"marmite final heal 3",
+					"marmite switch to human"
+                    ],
+                    "increment_effects":
+                    [
+					]
+				  }
+			]
+		},
+		{
+            "id": "marmite4",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                  {
+                    "completion_chance": 0.00,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+					"marmite heal 4"
+					]
+				  },
+                  {
+                    "completion_chance": 0.00,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+					"marmite heal 4"
+					]
+				  },
+                  {
+                    "completion_chance": 100.00,
+                    "completion_effects":
+                    [
+					"marmite final heal 4",
+					"marmite switch to human"
+                    ],
+                    "increment_effects":
+                    [
+					]
+				  }
+			]
+		},
+		{
+            "id": "marmite5",
+            "update_duration_type": "after_turn_attack",
+            "duration_elements": 
+            [
+                  {
+                    "completion_chance": 0.00,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+					"marmite heal 5"
+					]
+				  },
+                  {
+                    "completion_chance": 0.00,
+                    "completion_effects":
+                    [
+                    ],
+                    "increment_effects":
+                    [
+					"marmite heal 5"
+					]
+				  },
+                  {
+                    "completion_chance": 100.00,
+                    "completion_effects":
+                    [
+					"marmite final heal 5",
+					"marmite switch to human"
+                    ],
+                    "increment_effects":
+                    [
+					]
+				  }
+			]
+		}
+	]
+}
