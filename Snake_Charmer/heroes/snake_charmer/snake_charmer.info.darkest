@@ -1,10 +1,10 @@
 resistances: .stun 30% .poison 50% .bleed 30% .disease 30% .move 30% .debuff 30% .death_blow 67% .trap 20%
 crit: .effects "on_crit_speed"
-weapon: .name "snake_charmer_weapon_0" .atk 0% .dmg 3 7  .crit 7%  .spd 4
-weapon: .name "snake_charmer_weapon_1" .atk 0% .dmg 3 9  .crit 8%  .spd 4 .upgradeRequirementCode 0
-weapon: .name "snake_charmer_weapon_2" .atk 0% .dmg 4 10 .crit 9%  .spd 5 .upgradeRequirementCode 1
-weapon: .name "snake_charmer_weapon_3" .atk 0% .dmg 4 12 .crit 10% .spd 5 .upgradeRequirementCode 2
-weapon: .name "snake_charmer_weapon_4" .atk 0% .dmg 5 13 .crit 11% .spd 6 .upgradeRequirementCode 3
+weapon: .name "snake_charmer_weapon_0" .atk 0% .dmg 3 7  .crit 9%  .spd 4
+weapon: .name "snake_charmer_weapon_1" .atk 0% .dmg 3 9  .crit 10% .spd 4 .upgradeRequirementCode 0
+weapon: .name "snake_charmer_weapon_2" .atk 0% .dmg 4 10 .crit 11% .spd 5 .upgradeRequirementCode 1
+weapon: .name "snake_charmer_weapon_3" .atk 0% .dmg 4 12 .crit 12% .spd 5 .upgradeRequirementCode 2
+weapon: .name "snake_charmer_weapon_4" .atk 0% .dmg 5 13 .crit 13% .spd 6 .upgradeRequirementCode 3
 armour: .name "snake_charmer_armour_0" .def 5%  .prot 0 .hp 22 .spd 0
 armour: .name "snake_charmer_armour_1" .def 10% .prot 0 .hp 26 .spd 0 .upgradeRequirementCode 0
 armour: .name "snake_charmer_armour_2" .def 15% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 1
