@@ -135,9 +135,9 @@ effect: .name "hearken StressHeal 5" .target "performer" .chance 100% .healstres
 
 effect: .name "hearken Riposte Clear" .target "performer" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false
 
-effect: .name "hearken Riposte 1" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -30% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
-effect: .name "hearken Riposte 2" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -25% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
-effect: .name "hearken Riposte 3" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -20% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
+effect: .name "hearken Riposte 1" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -25% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
+effect: .name "hearken Riposte 2" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -20% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
+effect: .name "hearken Riposte 3" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -15% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
 
 effect: .name "hearken Riposte Crit" .target "performer" .chance 100% .riposte 1 .duration 3 .crit_chance_add -100% .on_hit true .on_miss true .queue true .has_description false
 
