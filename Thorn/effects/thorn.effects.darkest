@@ -33,7 +33,7 @@ effect: .name "Offensive Riposte Shck SFX" .target "performer" .chance 100% .dur
 
 //Transform -- Offensive to Defensive Effects
 
-effect: .name "switch to Defensive" .target "performer" .chance 100% .set_mode defensive .untag 1 .clear_riposte 1 .on_hit true .on_miss true .has_description false
+effect: .name "switch to Defensive" .target "performer" .chance 100% .set_mode defensive .clear_riposte 1 .on_hit true .on_miss true .has_description false
 
 
 
