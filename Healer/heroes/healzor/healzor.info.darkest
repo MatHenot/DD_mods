@@ -10,22 +10,22 @@ armour: .name "healzor_armour_1" .def 15% .prot 0 .hp 23 .spd 0 .upgradeRequirem
 armour: .name "healzor_armour_2" .def 20% .prot 0 .hp 27 .spd 0 .upgradeRequirementCode 1
 armour: .name "healzor_armour_3" .def 25% .prot 0 .hp 31 .spd 0 .upgradeRequirementCode 2
 armour: .name "healzor_armour_4" .def 30% .prot 0 .hp 35 .spd 0 .upgradeRequirementCode 3
-combat_skill: .id "freeheal" .level 0 .launch 123 .target @123 .valid_modes human beast .effect "StealHeal" "freeheal 1" .is_continue_turn true .per_battle_limit 1
-combat_skill: .id "freeheal" .level 1 .launch 123 .target @123 .valid_modes human beast .effect "StealHeal" "freeheal 1" "freeheal random" .is_continue_turn true .per_battle_limit 1
-combat_skill: .id "freeheal" .level 2 .launch 123 .target @123 .valid_modes human beast .effect "StealHeal" "freeheal 2" .is_continue_turn true .per_battle_limit 1
-combat_skill: .id "freeheal" .level 3 .launch 123 .target @123 .valid_modes human beast .effect "StealHeal" "freeheal 2" "freeheal random" .is_continue_turn true .per_battle_limit 1
-combat_skill: .id "freeheal" .level 4 .launch 123 .target @123 .valid_modes human beast .effect "StealHeal" "freeheal 3" .is_continue_turn true .per_battle_limit 1
-combat_skill: .id "groupheal" .level 0 .launch 123 .target ~@23 .self_target_valid false .valid_modes human beast .effect "StealHeal" "freeheal 1" .per_battle_limit 1
-combat_skill: .id "groupheal" .level 1 .launch 123 .target ~@23 .self_target_valid false .valid_modes human beast .effect "StealHeal" "freeheal 1" "freeheal random" .per_battle_limit 1
-combat_skill: .id "groupheal" .level 2 .launch 123 .target ~@23 .self_target_valid false .valid_modes human beast .effect "StealHeal" "freeheal 2" .per_battle_limit 1
-combat_skill: .id "groupheal" .level 3 .launch 123 .target ~@23 .self_target_valid false .valid_modes human beast .effect "StealHeal" "freeheal 2" "freeheal random" .per_battle_limit 1
-combat_skill: .id "groupheal" .level 4 .launch 123 .target ~@23 .self_target_valid false .valid_modes human beast .effect "StealHeal" "freeheal 3" .per_battle_limit 1
+combat_skill: .id "freeheal" .level 0 .launch 123 .target @1234 .valid_modes human beast .effect "StealHeal" "freeheal 1" .is_continue_turn true .per_battle_limit 1
+combat_skill: .id "freeheal" .level 1 .launch 123 .target @1234 .valid_modes human beast .effect "StealHeal" "freeheal 1" "freeheal random" .is_continue_turn true .per_battle_limit 1
+combat_skill: .id "freeheal" .level 2 .launch 123 .target @1234 .valid_modes human beast .effect "StealHeal" "freeheal 2" .is_continue_turn true .per_battle_limit 1
+combat_skill: .id "freeheal" .level 3 .launch 123 .target @1234 .valid_modes human beast .effect "StealHeal" "freeheal 2" "freeheal random" .is_continue_turn true .per_battle_limit 1
+combat_skill: .id "freeheal" .level 4 .launch 123 .target @1234 .valid_modes human beast .effect "StealHeal" "freeheal 3" .is_continue_turn true .per_battle_limit 1
+combat_skill: .id "groupheal" .level 0 .launch 123 .target ~@1234 .self_target_valid false .valid_modes human beast .effect "StealHeal" "freeheal 1" .per_battle_limit 1
+combat_skill: .id "groupheal" .level 1 .launch 123 .target ~@1234 .self_target_valid false .valid_modes human beast .effect "StealHeal" "freeheal 1" "freeheal random" .per_battle_limit 1
+combat_skill: .id "groupheal" .level 2 .launch 123 .target ~@1234 .self_target_valid false .valid_modes human beast .effect "StealHeal" "freeheal 2" .per_battle_limit 1
+combat_skill: .id "groupheal" .level 3 .launch 123 .target ~@1234 .self_target_valid false .valid_modes human beast .effect "StealHeal" "freeheal 2" "freeheal random" .per_battle_limit 1
+combat_skill: .id "groupheal" .level 4 .launch 123 .target ~@1234 .self_target_valid false .valid_modes human beast .effect "StealHeal" "freeheal 3" .per_battle_limit 1
 combat_skill: .id "mark" .level 0 .type "ranged" .atk 100% .dmg -100% .crit 5% .launch 1234 .target 1234 .valid_modes human beast .effect "StealHeal" "Mark" "DMG rec 1" "Bigheal"
 combat_skill: .id "mark" .level 1 .type "ranged" .atk 105% .dmg -100% .crit 6% .launch 1234 .target 1234 .valid_modes human beast .effect "StealHeal" "Mark" "DMG rec 2" "Bigheal"
 combat_skill: .id "mark" .level 2 .type "ranged" .atk 110% .dmg -100% .crit 7% .launch 1234 .target 1234 .valid_modes human beast .effect "StealHeal" "Mark" "DMG rec 3" "Bigheal"
 combat_skill: .id "mark" .level 3 .type "ranged" .atk 115% .dmg -100% .crit 8% .launch 1234 .target 1234 .valid_modes human beast .effect "StealHeal" "Mark" "DMG rec 4" "Bigheal"
 combat_skill: .id "mark" .level 4 .type "ranged" .atk 120% .dmg -100% .crit 9% .launch 1234 .target 1234 .valid_modes human beast .effect "StealHeal" "Mark" "DMG rec 5" "Bigheal"
-combat_skill: .id "marmite" .level 0 .launch 234 .target .valid_modes human beast .effect "marmite 1" .generation_guaranteed true .is_stall_invalidating false
+combat_skill: .id "marmite" .level 0 .launch 234 .target .valid_modes human beast .effect "marmite 1" .is_stall_invalidating false .generation_guaranteed true 
 combat_skill: .id "marmite" .level 1 .launch 234 .target .valid_modes human beast .effect "marmite 2" .is_stall_invalidating false
 combat_skill: .id "marmite" .level 2 .launch 234 .target .valid_modes human beast .effect "marmite 3" .is_stall_invalidating false
 combat_skill: .id "marmite" .level 3 .launch 234 .target .valid_modes human beast .effect "marmite 4" .is_stall_invalidating false
@@ -41,11 +41,11 @@ combat_skill: .id "33" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 10%  .la
 combat_skill: .id "33" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 11% .launch 12 .target 123 .valid_modes human beast .effect "Abyssal Stun 3" "Darkness 1"
 combat_skill: .id "33" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 12% .launch 12 .target 123 .valid_modes human beast .effect "Abyssal Stun 4" "Darkness 1"
 combat_skill: .id "33" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 13% .launch 12 .target 123 .valid_modes human beast .effect "Abyssal Stun 5" "Darkness 1"
-combat_skill: .id "44" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 5%  .launch 234 .target 34 .valid_modes human beast .effect "Pull 2A" "clear_corpses"
-combat_skill: .id "44" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 6%  .launch 234 .target 34 .valid_modes human beast .effect "Pull 2B" "clear_corpses"
-combat_skill: .id "44" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 7% .launch 234 .target 34 .valid_modes human beast .effect "Pull 2C" "clear_corpses"
-combat_skill: .id "44" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 8% .launch 234 .target 34 .valid_modes human beast .effect "Pull 2D" "clear_corpses"
-combat_skill: .id "44" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 9% .launch 234 .target 34 .valid_modes human beast .effect "Pull 2E" "clear_corpses"
+combat_skill: .id "44" .level 0 .heal 100 300 .launch 432 .target @~1234  .is_stall_invalidating false
+combat_skill: .id "44" .level 1 .heal 200 300 .launch 432 .target @~1234  .is_stall_invalidating false
+combat_skill: .id "44" .level 2 .heal 300 300 .launch 432 .target @~1234  .is_stall_invalidating false
+combat_skill: .id "44" .level 3 .heal 300 400 .launch 432 .target @~1234  .is_stall_invalidating false
+combat_skill: .id "44" .level 4 .heal 400 500 .launch 432 .target @~1234  .is_stall_invalidating false
 tag: .id "light"
 tag: .id "non-religious"
 tag: .id "library"

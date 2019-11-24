@@ -30,11 +30,11 @@ effect: .name "Bigheal" .target "target" .chance 100% .dotHpHeal 4 .duration 3 .
 effect: .name "marmite switch to beast" .target "performer" .chance 100% .set_mode beast .on_hit true .on_miss true
 effect: .name "marmite switch to human" .target "performer" .chance 100% .set_mode human .on_hit true .on_miss true
 
-effect: .name "marmite 1" .target "performer" .chance 100% .actor_dot "marmite1" .on_hit true .on_miss true
-effect: .name "marmite 2" .target "performer" .chance 100% .actor_dot "marmite2" .on_hit true .on_miss true
-effect: .name "marmite 3" .target "performer" .chance 100% .actor_dot "marmite3" .on_hit true .on_miss true
-effect: .name "marmite 4" .target "performer" .chance 100% .actor_dot "marmite4" .on_hit true .on_miss true
-effect: .name "marmite 5" .target "performer" .chance 100% .actor_dot "marmite5" .on_hit true .on_miss true
+effect: .name "marmite 1" .target "performer" .chance 100% .actor_dot marmite1 .on_hit true .on_miss true
+effect: .name "marmite 2" .target "performer" .chance 100% .actor_dot marmite2 .on_hit true .on_miss true
+effect: .name "marmite 3" .target "performer" .chance 100% .actor_dot marmite3 .on_hit true .on_miss true
+effect: .name "marmite 4" .target "performer" .chance 100% .actor_dot marmite4 .on_hit true .on_miss true
+effect: .name "marmite 5" .target "performer" .chance 100% .actor_dot marmite5 .on_hit true .on_miss true
 
 effect: .name "marmite heal 1" .target "performer_group" .chance 100% .heal 1 .on_hit true .on_miss true
 effect: .name "marmite heal 2" .target "performer_group" .chance 100% .heal 1 .on_hit true .on_miss true
