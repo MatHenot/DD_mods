@@ -3,7 +3,7 @@
     [
 		{
             "id": "marmite1",
-            "update_duration_type": "after_turn_attack",
+            "update_duration_type": "after_turn",
             "duration_elements": 
             [
                   {
@@ -41,7 +41,7 @@
 		},
 		{
             "id": "marmite2",
-            "update_duration_type": "after_turn_attack",
+            "update_duration_type": "after_turn",
             "duration_elements": 
             [
                   {
@@ -79,7 +79,7 @@
 		},
 		{
             "id": "marmite3",
-            "update_duration_type": "after_turn_attack",
+            "update_duration_type": "after_turn",
             "duration_elements": 
             [
                   {
@@ -117,7 +117,7 @@
 		},
 		{
             "id": "marmite4",
-            "update_duration_type": "after_turn_attack",
+            "update_duration_type": "after_turn",
             "duration_elements": 
             [
                   {
@@ -155,7 +155,7 @@
 		},
 		{
             "id": "marmite5",
-            "update_duration_type": "after_turn_attack",
+            "update_duration_type": "after_turn",
             "duration_elements": 
             [
                   {
