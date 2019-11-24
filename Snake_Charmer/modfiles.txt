@@ -162,14 +162,14 @@ heroes/snake_charmer/snake_charmer.ability.six.png 39194
 heroes/snake_charmer/snake_charmer.ability.three.png 97348
 heroes/snake_charmer/snake_charmer.ability.two.png 96273
 heroes/snake_charmer/snake_charmer.art.darkest 2191
-heroes/snake_charmer/snake_charmer.info.darkest 9581
+heroes/snake_charmer/snake_charmer.info.darkest 9656
 heroes/snake_charmer/snake_charmer_guild_header.png 260742
 raid/camping/snake_charmer.camping_skills.json 5722
-shared/buffs/snake_charmer.buffs.json 33250
+shared/buffs/snake_charmer.buffs.json 35032
 upgrades/heroes/snake_charmer.upgrades.json 21506
 audio/snake_charmer.heroes.guid_overrides.json 2666
 audio/snake_charmer.heroes.load_order.json 88
-effects/snake_charmer.effects.darkest 17805
+effects/snake_charmer.effects.darkest 15927
 localization/1456853110_brazilian.loc 27853
 localization/1456853110_czech.loc 26440
 localization/1456853110_english.loc 26440
@@ -204,7 +204,7 @@ trinkets/com.rarities.trinkets.json 428
 trinkets/crimson_court.rarities.trinkets.json 171
 trinkets/snake_charmer.entries.trinkets.json 4546
 trinkets/snake_charmer.sets.trinkets.json 194
-modfiles.txt 14298
+modfiles.txt 14089
 preview_icon.png 627215
 project.xml 700
 snake_charmer.xml 726
