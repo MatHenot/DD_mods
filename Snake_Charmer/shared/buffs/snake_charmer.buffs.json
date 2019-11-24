@@ -110,72 +110,137 @@
 		},
 
 		{
-			"id": "SC_MB_blight_debuff_1",
-			"stat_type": "resistance",
-			"stat_sub_type": "poison",
-			"amount": -0.2,
-			"remove_if_not_active": false,
-			"rule_type": "always",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": ""
-			}
+         "id" : "SC_MB_Crit_1",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
 		},
 		{
-			"id": "SC_MB_blight_debuff_2",
-			"stat_type": "resistance",
-			"stat_sub_type": "poison",
-			"amount": -0.23,
-			"remove_if_not_active": false,
-			"rule_type": "always",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": ""
-			}
+         "id" : "SC_MB_Crit_2",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
 		},
 		{
-			"id": "SC_MB_blight_debuff_3",
-			"stat_type": "resistance",
-			"stat_sub_type": "poison",
-			"amount": -0.26,
-			"remove_if_not_active": false,
-			"rule_type": "always",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": ""
-			}
+         "id" : "SC_MB_Crit_3",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
 		},
 		{
-			"id": "SC_MB_blight_debuff_4",
-			"stat_type": "resistance",
-			"stat_sub_type": "poison",
-			"amount": -0.30,
-			"remove_if_not_active": false,
-			"rule_type": "always",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": ""
-			}
+         "id" : "SC_MB_Crit_4",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
 		},
 		{
-			"id": "SC_MB_blight_debuff_5",
-			"stat_type": "resistance",
-			"stat_sub_type": "poison",
-			"amount": -0.33,
-			"remove_if_not_active": false,
-			"rule_type": "always",
-			"is_false_rule": false,
-			"rule_data": {
-				"float": 0,
-				"string": ""
-			}
+         "id" : "SC_MB_Crit_5",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
 		},
 
-
+		{
+			"id": "SC_feast_blight_debuff_1",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.1,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_feast_blight_debuff_2",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.12,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_feast_blight_debuff_3",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.15,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_feast_blight_debuff_4",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.17,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		{
+			"id": "SC_feast_blight_debuff_5",
+			"stat_type": "resistance",
+			"stat_sub_type": "poison",
+			"amount": -0.20,
+			"remove_if_not_active": false,
+			"rule_type": "always",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": ""
+			}
+		},
+		
 		{
 			"id": "RT_prot_R1_1",
 			"stat_type": "combat_stat_add",
