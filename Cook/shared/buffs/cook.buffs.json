@@ -66,17 +66,117 @@
          }
       },
 	  {
-         "id" : "DMG rec 5",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.30,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "id" : "Disable Move",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "move",
+         "amount" : 1,
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
-         }
+            "string" : "beast"
+         },
+		 "is_clear_debuff_valid": false
+      },
+	  {
+         "id" : "MHealBuff",
+         "stat_type" : "hp_heal_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "marmite"
+         },
+		 "fx": "SoundFXHeal",
+		 "remove_on_battle_complete" : true
+      },
+	  {
+         "id" : "TT_MHealBuff",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_MHealBuff",
+         "amount" : -0.15,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         },
+		 "remove_on_battle_complete" : true
+      },
+	  {
+         "id" : "MBlightBuff A",
+         "stat_type" : "hp_dot_poison_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.10,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "marmite"
+         },
+		 "fx": "SoundFXBlight",
+		 "remove_on_battle_complete" : true
+      },
+	  {
+         "id" : "TT_MBlightBuff A",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_MHealBuff",
+         "amount" : -0.10,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         },
+		 "remove_on_battle_complete" : true
+      },
+	  {
+         "id" : "MBlightBuff B",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "marmite"
+         },
+		 "remove_on_battle_complete" : true
+      },
+	  {
+         "id" : "TT_MBlightBuff B",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_MHealBuff",
+         "amount" : -0.05,
+		 "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         },
+		 "remove_on_battle_complete" : true
       },
 	]
 }
