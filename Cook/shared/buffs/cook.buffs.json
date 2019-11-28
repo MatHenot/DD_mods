@@ -1,70 +1,6 @@
 {
 	"buffs": [
-	  {
-         "id" : "DMG rec 1",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-			  {
-         "id" : "DMG rec 2",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.22,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "DMG rec 3",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.25,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "DMG rec 4",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.27,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "DMG rec 5",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.30,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
+
 	  {
          "id" : "MHealBuff",
          "stat_type" : "hp_heal_percent",
@@ -162,6 +98,179 @@
             "string" : "beast"
          },
 		 "remove_on_battle_complete" : true
+      },
+	  
+	  {
+         "id" : "TT_CleaverIfBleed",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_CleaverIfBleed",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+	  {
+         "id" : "TT_FreeHealRefresh",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_FreeHealRefresh",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TT_FreeHeal 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_FreeHeal2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TT_FreeHeal 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_FreeHeal4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TT_FreeHealCont",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_FreeHealCont",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
+ 	  {
+         "id" : "TT_bigheal 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_bigheal2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TT_bigheal 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_bigheal4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TT_bigheal 6",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_bigheal6",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }, 
+	  
+	  {
+         "id" : "DMG rec 1",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+			  {
+         "id" : "DMG rec 2",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.22,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "DMG rec 3",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "DMG rec 4",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.27,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "DMG rec 5",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       }
 	]
 }
