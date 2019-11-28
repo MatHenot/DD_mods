@@ -19,8 +19,8 @@ effect: .name "CleaverBlight 3" .target "target" .chance 120% .dotPoison 3 .dura
 effect: .name "CleaverBlight 4" .target "target" .chance 130% .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "CleaverBlight 5" .target "target" .chance 140% .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 
-effect: .name "CleaverNoBlight" .target "performer" .chance 100% .buff_type poison_chance .buff_amount -2 .on_hit true .on_miss false .skill_instant true
-effect: .name "CleaverBlightIfBleed" .target "performer" .chance 100% .buff_type poison_chance .buff_amount 2 .keyStatus "bleeding" .on_hit true .on_miss false .skill_instant true
+effect: .name "CleaverNoBlight" .target "performer" .chance 100% .buff_type poison_chance .buff_amount -2 .on_hit true .on_miss false .skill_instant true .has_description false
+effect: .name "CleaverBlightIfBleed" .target "performer" .chance 100% .buff_type poison_chance .buff_amount 2 .keyStatus "bleeding" .on_hit true .on_miss false .skill_instant true .has_description false
 
 //freeheal
 
@@ -54,8 +54,8 @@ effect: .name "MarmiteLight 4" .target "global" .chance 100% .torch_increase 13	
 effect: .name "MarmiteLight 5" .target "global" .chance 100% .torch_increase 15	.on_hit true .on_miss true .apply_once true .queue true 
 
 effect: .name "MStartHeal 1" .target "performer_group_other" .chance 100% .dotHpHeal 1 .duration 3 .on_hit true .on_miss true
-effect: .name "MStartHeal 1" .target "performer_group_other" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true
-effect: .name "MStartHeal 1" .target "performer_group_other" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true
+effect: .name "MStartHeal 2" .target "performer_group_other" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true
+effect: .name "MStartHeal 3" .target "performer_group_other" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true
 
 effect: .name "MFinalHeal 1" .target "performer_group" .chance 100% .heal 5  .on_hit true .on_miss true
 effect: .name "MFinalHeal 2" .target "performer_group" .chance 100% .heal 6  .on_hit true .on_miss true
@@ -63,11 +63,11 @@ effect: .name "MFinalHeal 3" .target "performer_group" .chance 100% .heal 7  .on
 effect: .name "MFinalHeal 4" .target "performer_group" .chance 100% .heal 8  .on_hit true .on_miss true
 effect: .name "MFinalHeal 5" .target "performer_group" .chance 100% .heal 10 .on_hit true .on_miss true
 
-effect: .name "MFinalBlight 1" .target "target_enemy_group" .chance 90%  .dotPoison 3 .on_hit true .on_miss true
-effect: .name "MFinalBlight 2" .target "target_enemy_group" .chance 100% .dotPoison 3 .on_hit true .on_miss true
-effect: .name "MFinalBlight 3" .target "target_enemy_group" .chance 110% .dotPoison 4 .on_hit true .on_miss true
-effect: .name "MFinalBlight 4" .target "target_enemy_group" .chance 120% .dotPoison 4 .on_hit true .on_miss true
-effect: .name "MFinalBlight 5" .target "target_enemy_group" .chance 130% .dotPoison 5 .on_hit true .on_miss true
+effect: .name "MFinalBlight 1" .target "target_enemy_group" .chance 90%  .dotPoison 3 .duration 3 .on_hit true .on_miss true
+effect: .name "MFinalBlight 2" .target "target_enemy_group" .chance 100% .dotPoison 3 .duration 3 .on_hit true .on_miss true
+effect: .name "MFinalBlight 3" .target "target_enemy_group" .chance 110% .dotPoison 4 .duration 3 .on_hit true .on_miss true
+effect: .name "MFinalBlight 4" .target "target_enemy_group" .chance 120% .dotPoison 4 .duration 3 .on_hit true .on_miss true
+effect: .name "MFinalBlight 5" .target "target_enemy_group" .chance 130% .dotPoison 5 .duration 3 .on_hit true .on_miss true
 
 
 effect: .name "MHealBuff" .target "performer" .chance 100% .buff_ids "MHealBuff" .on_hit true .on_miss true .queue true
