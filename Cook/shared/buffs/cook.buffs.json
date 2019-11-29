@@ -30,7 +30,7 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "beast"
+            "string" : "cooking"
          },
 		 "remove_on_battle_complete" : true
       },
@@ -63,7 +63,7 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "beast"
+            "string" : "cooking"
          },
 		 "remove_on_battle_complete" : true
       },
@@ -95,7 +95,7 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "beast"
+            "string" : "cooking"
          },
 		 "remove_on_battle_complete" : true
       },
