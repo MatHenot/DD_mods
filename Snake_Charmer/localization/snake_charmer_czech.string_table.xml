@@ -77,6 +77,7 @@
 
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} amount]]></entry>
 
+	<entry id="buff_rule_data_tooltip_feast"><![CDATA[Feast]]></entry>
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[Constriction]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Vicious charm]]></entry>
 	<entry id="buff_rule_data_tooltip_calming_toxin"><![CDATA[Calming Toxin]]></entry>

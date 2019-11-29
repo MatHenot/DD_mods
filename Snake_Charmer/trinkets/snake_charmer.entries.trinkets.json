@@ -117,7 +117,7 @@
 		"buffs" : 
          [
 			"SC_T_masters_correspondance_BlightDuration",
-			"DEBUFFSKILL10",
+			"DEBUFFSKILL20",
 			"BLIGHTSKILL-10"
          ],
          "hero_class_requirements":
@@ -137,7 +137,8 @@
 		"buffs" : 
          [
 			"MAXHP-10",
-			"STRESSDMG10"
+			"STRESSDMG10",
+			"SC T COM BlightDebuff"
          ],
          "hero_class_requirements":
          [

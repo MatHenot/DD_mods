@@ -77,6 +77,7 @@
 
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[{colour_start|blight}중독{colour_end} 데미지 %+d%%]]></entry>
 
+	<entry id="buff_rule_data_tooltip_feast"><![CDATA[맘껏 먹어라]]></entry>
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[옥죄어라]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[사악한 부적]]></entry>
 	<entry id="buff_rule_data_tooltip_calming_toxin"><![CDATA[진정시키는 독]]></entry>

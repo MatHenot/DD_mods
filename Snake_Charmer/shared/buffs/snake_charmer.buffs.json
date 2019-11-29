@@ -600,7 +600,7 @@
 			"id": "SC_RT_Prot_ToolTip_1",
 			"stat_type": "upgrade_discount",
 			"stat_sub_type": "riposte_prot",
-			"amount": -0.1,
+			"amount": -0.15,
 			"remove_if_not_active": false,
 			"rule_type": "always",
 			"is_false_rule": false,
@@ -613,7 +613,7 @@
 			"id": "SC_RT_Prot_ToolTip_2",
 			"stat_type": "upgrade_discount",
 			"stat_sub_type": "riposte_prot",
-			"amount": -0.12,
+			"amount": -0.17,
 			"remove_if_not_active": false,
 			"rule_type": "always",
 			"is_false_rule": false,
@@ -626,7 +626,7 @@
 			"id": "SC_RT_Prot_ToolTip_3",
 			"stat_type": "upgrade_discount",
 			"stat_sub_type": "riposte_prot",
-			"amount": -0.15,
+			"amount": -0.20,
 			"remove_if_not_active": false,
 			"rule_type": "always",
 			"is_false_rule": false,
@@ -639,7 +639,7 @@
 			"id": "SC_RT_Prot_ToolTip_4",
 			"stat_type": "upgrade_discount",
 			"stat_sub_type": "riposte_prot",
-			"amount": -0.17,
+			"amount": -0.22,
 			"remove_if_not_active": false,
 			"rule_type": "always",
 			"is_false_rule": false,
@@ -652,7 +652,7 @@
 			"id": "SC_RT_Prot_ToolTip_5",
 			"stat_type": "upgrade_discount",
 			"stat_sub_type": "riposte_prot",
-			"amount": -0.2,
+			"amount": -0.25,
 			"remove_if_not_active": false,
 			"rule_type": "always",
 			"is_false_rule": false,
@@ -1446,6 +1446,20 @@
 			}
 		},
 
+		{
+			"id": "SC T COM BlightDebuff",
+			"stat_type": "poison_chance",
+			"stat_sub_type": "",
+			"amount": -0.30,
+			"remove_if_not_active": false,
+			"rule_type": "skill",
+			"is_false_rule": false,
+			"rule_data": {
+				"float": 0,
+				"string": "feast"
+			}
+		},
+		
 		{
 			"id": "SC_T_shinobue_stressheal",
 			"stat_type": "stress_heal_percent",

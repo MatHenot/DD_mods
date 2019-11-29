@@ -77,6 +77,7 @@
 
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[ущерб от {colour_start|blight}Яд{colour_end} %+d%%]]></entry>
 
+	<entry id="buff_rule_data_tooltip_feast"><![CDATA[Пиршество]]></entry>
 	<entry id="buff_rule_data_tooltip_constriction"><![CDATA[Стягивание]]></entry>
 	<entry id="buff_rule_data_tooltip_vicious_charm"><![CDATA[Леденящее душу очарование]]></entry>
 	<entry id="buff_rule_data_tooltip_calming_toxin"><![CDATA[Успокаивающий токсин]]></entry>
