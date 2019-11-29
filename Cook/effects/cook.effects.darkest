@@ -78,8 +78,8 @@ effect: .name "MarkHeal" .target "target" .chance 100% .dotHpHeal 4 .duration 3 
 
 //marmite
 
-effect: .name "CookingStance" .target "performer" .chance 100% .set_mode beast .immobilize .on_hit true .on_miss true
-effect: .name "NormalStance" .target "performer" .chance 100% .set_mode human .unimmobilize .on_hit true .on_miss true
+effect: .name "CookingStance" .target "performer" .chance 100% .set_mode cooking .immobilize .on_hit true .on_miss true
+effect: .name "NormalStance" .target "performer" .chance 100% .set_mode nocooking .unimmobilize .on_hit true .on_miss true
 
 effect: .name "MarmiteLight 1" .target "global" .chance 100% .torch_increase 10	.on_hit true .on_miss true .apply_once true .queue true
 effect: .name "MarmiteLight 2" .target "global" .chance 100% .torch_increase 11	.on_hit true .on_miss true .apply_once true .queue true

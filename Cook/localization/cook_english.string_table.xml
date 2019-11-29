@@ -62,12 +62,12 @@
     <entry id="cook_armour_4"><![CDATA["The Moulting"]]></entry>
     <entry id="upgrade_tree_name_cook.armour"><![CDATA[Scarf]]></entry>
 
-    <entry id="actor_mode_name_human"><![CDATA[Combat]]></entry>
-    <entry id="actor_mode_name_beast"><![CDATA[Cooking]]></entry>
-    <entry id="str_skill_mode_info_human"><![CDATA[Combat:]]></entry>
-    <entry id="str_skill_mode_info_beast"><![CDATA[Cooking:]]></entry>
-	<entry id="buff_rule_data_tooltip_human"><![CDATA[Combat]]></entry>
-	<entry id="buff_rule_data_tooltip_beast"><![CDATA[Cooking]]></entry>
+    <entry id="actor_mode_name_nocooking"><![CDATA[Combat]]></entry>
+    <entry id="actor_mode_name_cooking"><![CDATA[Cooking]]></entry>
+    <entry id="str_skill_mode_info_nocooking"><![CDATA[{colour_start|specificclass}Combat:{colour_end}]]></entry>
+    <entry id="str_skill_mode_info_cooking"><![CDATA[{colour_start|specificclass}Cooking:{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_nocooking"><![CDATA[Combat]]></entry>
+	<entry id="buff_rule_data_tooltip_cooking"><![CDATA[Cooking]]></entry>
 
 	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s if NOT in mode %s]]></entry>
 	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemies:]]></entry>
