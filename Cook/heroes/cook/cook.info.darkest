@@ -30,11 +30,11 @@ combat_skill: .id "bigheal" .level 1 .launch 123 .target @1234 .self_target_vali
 combat_skill: .id "bigheal" .level 2 .launch 123 .target @1234 .self_target_valid false .valid_modes nocooking cooking .effect "StealHeal" .nocooking_effects "bigheal 5"										.cooking_effects "bigheal 3" "MHealBuff" 
 combat_skill: .id "bigheal" .level 3 .launch 123 .target @1234 .self_target_valid false .valid_modes nocooking cooking .effect "StealHeal" .nocooking_effects "bigheal 6" "bigheal random 50"	"TT_bigheal 6" 	.cooking_effects "bigheal 4" "bigheal random 50" "TT_bigheal 4" "MHealBuff"
 combat_skill: .id "bigheal" .level 4 .launch 123 .target @1234 .self_target_valid false .valid_modes nocooking cooking .effect "StealHeal" .nocooking_effects "bigheal 7"										.cooking_effects "bigheal 5" "MHealBuff" 
-combat_skill: .id "mark" .level 0 .type "ranged" .atk 100% .dmg -100% .crit 5% .launch 1234 .target 1234 .valid_modes nocooking cooking .effect "StealHeal" "FreeHealRefresh" "TT_FreeHealRefresh" "Mark" "MarkHeal" .nocooking_effects "DMG rec 1" .cooking_effects "DMG rec L 1" "MBlightBuff"
-combat_skill: .id "mark" .level 1 .type "ranged" .atk 105% .dmg -100% .crit 6% .launch 1234 .target 1234 .valid_modes nocooking cooking .effect "StealHeal" "FreeHealRefresh" "TT_FreeHealRefresh" "Mark" "MarkHeal" .nocooking_effects "DMG rec 2" .cooking_effects "DMG rec L 2" "MBlightBuff"
-combat_skill: .id "mark" .level 2 .type "ranged" .atk 110% .dmg -100% .crit 7% .launch 1234 .target 1234 .valid_modes nocooking cooking .effect "StealHeal" "FreeHealRefresh" "TT_FreeHealRefresh" "Mark" "MarkHeal" .nocooking_effects "DMG rec 3" .cooking_effects "DMG rec L 3" "MBlightBuff"
-combat_skill: .id "mark" .level 3 .type "ranged" .atk 115% .dmg -100% .crit 8% .launch 1234 .target 1234 .valid_modes nocooking cooking .effect "StealHeal" "FreeHealRefresh" "TT_FreeHealRefresh" "Mark" "MarkHeal" .nocooking_effects "DMG rec 4" .cooking_effects "DMG rec L 4" "MBlightBuff"
-combat_skill: .id "mark" .level 4 .type "ranged" .atk 120% .dmg -100% .crit 9% .launch 1234 .target 1234 .valid_modes nocooking cooking .effect "StealHeal" "FreeHealRefresh" "TT_FreeHealRefresh" "Mark" "MarkHeal" .nocooking_effects "DMG rec 5" .cooking_effects "DMG rec L 5" "MBlightBuff"
+combat_skill: .id "mark" .level 0 .type "ranged" .atk 100% .dmg -100% .crit 5% .launch 1234 .target 1234 .valid_modes nocooking cooking .effect "StealHeal" "FreeHealRefresh" "TT_FreeHealRefresh" "DMG rec 1" "MarkHeal" .nocooking_effects "Mark" .cooking_effects "MBlightBuff"
+combat_skill: .id "mark" .level 1 .type "ranged" .atk 105% .dmg -100% .crit 6% .launch 1234 .target 1234 .valid_modes nocooking cooking .effect "StealHeal" "FreeHealRefresh" "TT_FreeHealRefresh" "DMG rec 2" "MarkHeal" .nocooking_effects "Mark" .cooking_effects "MBlightBuff"
+combat_skill: .id "mark" .level 2 .type "ranged" .atk 110% .dmg -100% .crit 7% .launch 1234 .target 1234 .valid_modes nocooking cooking .effect "StealHeal" "FreeHealRefresh" "TT_FreeHealRefresh" "DMG rec 3" "MarkHeal" .nocooking_effects "Mark" .cooking_effects "MBlightBuff"
+combat_skill: .id "mark" .level 3 .type "ranged" .atk 115% .dmg -100% .crit 8% .launch 1234 .target 1234 .valid_modes nocooking cooking .effect "StealHeal" "FreeHealRefresh" "TT_FreeHealRefresh" "DMG rec 4" "MarkHeal" .nocooking_effects "Mark" .cooking_effects "MBlightBuff"
+combat_skill: .id "mark" .level 4 .type "ranged" .atk 120% .dmg -100% .crit 9% .launch 1234 .target 1234 .valid_modes nocooking cooking .effect "StealHeal" "FreeHealRefresh" "TT_FreeHealRefresh" "DMG rec 5" "MarkHeal" .nocooking_effects "Mark" .cooking_effects "MBlightBuff"
 combat_skill: .id "44" .level 0 .heal 100 300 .launch 432 .target @~1234 .effect "StealHeal" "FreeHealRefresh" "TT_FreeHealRefresh" .nocooking_effects .cooking_effects "MBlightBuff"
 combat_skill: .id "44" .level 1 .heal 200 300 .launch 432 .target @~1234 .effect "StealHeal" "FreeHealRefresh" "TT_FreeHealRefresh" .nocooking_effects .cooking_effects "MBlightBuff"
 combat_skill: .id "44" .level 2 .heal 300 300 .launch 432 .target @~1234 .effect "StealHeal" "FreeHealRefresh" "TT_FreeHealRefresh" .nocooking_effects .cooking_effects "MBlightBuff"
@@ -56,6 +56,6 @@ deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHigh
 controlled: .target_rank 4
 id_index: .index 178
 mode: .id nocooking .is_raid_default true
-mode: .id cooking .battle_complete_combat_skill_id "move"
+mode: .id cooking .battle_complete_combat_skill_id "marmite"
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 7
 generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 8 .card_chance 1000.0

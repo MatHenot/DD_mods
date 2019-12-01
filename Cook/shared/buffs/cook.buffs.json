@@ -99,7 +99,33 @@
          },
 		 "remove_on_battle_complete" : true
       },
-	  
+
+     {
+         "id" : "CleaverNoBlight",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : -2,
+         "remove_if_not_active" : true,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },	 
+     {
+         "id" : "CleaverBlightIfBleed",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },	  
 	  {
          "id" : "TT_CleaverIfBleed",
          "stat_type" : "upgrade_discount",

@@ -2,7 +2,7 @@
 
 //Common
 
-effect: .name "StealHeal" .target "target" .chance 100% .swap_source_and_target true .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss false
+effect: .name "StealHeal" .target "target" .chance 100% .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss false
 
 //Cleaver
 
@@ -18,8 +18,8 @@ effect: .name "CleaverBlight 3" .target "target" .chance 120% .dotPoison 3 .dura
 effect: .name "CleaverBlight 4" .target "target" .chance 130% .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "CleaverBlight 5" .target "target" .chance 140% .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 
-effect: .name "CleaverNoBlight" .target "performer" .chance 100% .buff_type poison_chance .buff_amount -2 .on_hit true .on_miss false .skill_instant true .has_description false
-effect: .name "CleaverBlightIfBleed" .target "performer" .chance 100% .buff_type poison_chance .buff_amount 2 .keyStatus "bleeding" .on_hit true .on_miss false .skill_instant true .has_description false
+effect: .name "CleaverNoBlight" .target "performer" .chance 100% .buff_ids  "CleaverNoBlight" .on_hit true .on_miss false .skill_instant true .has_description false
+effect: .name "CleaverBlightIfBleed" .target "performer" .chance 100% .buff_ids "CleaverBlightIfBleed" .on_hit true .on_miss false .skill_instant true .has_description false
 
 effect: .name "TT_CleaverIfBleed" .target "performer" .chance 100% .buff_ids "TT_CleaverIfBleed" .on_hit true .on_miss false .skill_instant true
 
@@ -28,11 +28,11 @@ effect: .name "TT_CleaverIfBleed" .target "performer" .chance 100% .buff_ids "TT
 effect: .name "FreeHealRefresh" .target "performer" .chance 100% .on_hit true .on_miss false .refreshes_skill_uses true .queue true .skill_instant true .has_description false
 effect: .name "TT_FreeHealRefresh" .target "performer" .chance 100% .buff_ids "TT_FreeHealRefresh" .on_hit true .on_miss false .skill_instant true
 
-effect: .name "freeheal 1" .target "target" .chance 100% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true
-effect: .name "freeheal 2" .target "target" .chance 100% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true .has_description false
-effect: .name "freeheal 3" .target "target" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss true
-effect: .name "freeheal 4" .target "target" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss true .has_description false
-effect: .name "freeheal 5" .target "target" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss true
+effect: .name "freeheal 1" .target "target" .chance 100% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "freeheal 2" .target "target" .chance 100% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true .has_description false .queue true
+effect: .name "freeheal 3" .target "target" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss true .queue true
+effect: .name "freeheal 4" .target "target" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss true .has_description false .queue true
+effect: .name "freeheal 5" .target "target" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss true .queue true
 
 effect: .name "freeheal random 67" .target "target" .chance 67% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true .has_description false
 effect: .name "freeheal random 50" .target "target" .chance 50% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true .has_description false
@@ -44,13 +44,13 @@ effect: .name "TT_FreeHealCont" .target "performer" .chance 100% .buff_ids "TT_F
 
 //bigheal
 
-effect: .name "bigheal 1" .target "target" .chance 100% .dotHpHeal 1 .duration 3 .on_hit true .on_miss true
-effect: .name "bigheal 2" .target "target" .chance 100% .dotHpHeal 1 .duration 3 .on_hit true .on_miss true .has_description false
-effect: .name "bigheal 3" .target "target" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true
-effect: .name "bigheal 4" .target "target" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true .has_description false
-effect: .name "bigheal 5" .target "target" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true
-effect: .name "bigheal 6" .target "target" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true .has_description false
-effect: .name "bigheal 7" .target "target" .chance 100% .dotHpHeal 4 .duration 3 .on_hit true .on_miss true
+effect: .name "bigheal 1" .target "target" .chance 100% .dotHpHeal 1 .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "bigheal 2" .target "target" .chance 100% .dotHpHeal 1 .duration 3 .on_hit true .on_miss true .has_description false .queue true
+effect: .name "bigheal 3" .target "target" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "bigheal 4" .target "target" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true .has_description false .queue true
+effect: .name "bigheal 5" .target "target" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "bigheal 6" .target "target" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true .has_description false .queue true
+effect: .name "bigheal 7" .target "target" .chance 100% .dotHpHeal 4 .duration 3 .on_hit true .on_miss true .queue true
 
 effect: .name "bigheal random 50" .target "target" .chance 50% .dotHpHeal 1 .duration 3 .on_hit true .on_miss true .has_description false
 
@@ -68,12 +68,6 @@ effect: .name "DMG rec 3" .target "target" .chance 120% .buff_ids "DMG rec 3" .d
 effect: .name "DMG rec 4" .target "target" .chance 130% .buff_ids "DMG rec 4" .duration 3 .on_hit true .on_miss false .queue true
 effect: .name "DMG rec 5" .target "target" .chance 140% .buff_ids "DMG rec 5" .duration 3 .on_hit true .on_miss false .queue true
 
-effect: .name "DMG rec L 1" .target "target" .chance 90%  .buff_ids "DMG rec 1" .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "DMG rec L 2" .target "target" .chance 100% .buff_ids "DMG rec 2" .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "DMG rec L 3" .target "target" .chance 110% .buff_ids "DMG rec 3" .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "DMG rec L 4" .target "target" .chance 120% .buff_ids "DMG rec 4" .duration 2 .on_hit true .on_miss false .queue true
-effect: .name "DMG rec L 5" .target "target" .chance 130% .buff_ids "DMG rec 5" .duration 2 .on_hit true .on_miss false .queue true
-
 effect: .name "MarkHeal" .target "target" .chance 100% .dotHpHeal 4 .duration 3 .on_hit true .on_miss true
 
 //marmite
@@ -87,9 +81,9 @@ effect: .name "MarmiteLight 3" .target "global" .chance 100% .torch_increase 12	
 effect: .name "MarmiteLight 4" .target "global" .chance 100% .torch_increase 13	.on_hit true .on_miss true .apply_once true .queue true
 effect: .name "MarmiteLight 5" .target "global" .chance 100% .torch_increase 15	.on_hit true .on_miss true .apply_once true .queue true 
 
-effect: .name "MStartHeal 1" .target "performer_group_other" .chance 100% .dotHpHeal 1 .duration 3 .on_hit true .on_miss true
-effect: .name "MStartHeal 2" .target "performer_group_other" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true
-effect: .name "MStartHeal 3" .target "performer_group_other" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true
+effect: .name "MStartHeal 1" .target "performer_group_other" .chance 100% .dotHpHeal 1 .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "MStartHeal 2" .target "performer_group_other" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "MStartHeal 3" .target "performer_group_other" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true .queue true
 
 effect: .name "MFinalHeal 1" .target "performer_group" .chance 100% .heal 5  .on_hit true .on_miss true
 effect: .name "MFinalHeal 2" .target "performer_group" .chance 100% .heal 6  .on_hit true .on_miss true
