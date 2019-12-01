@@ -1340,9 +1340,9 @@
 		Thanks for your work!	
 	-->
 	
-    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%%受到的{colour_start|stress}压力{colour_end}治疗量（来自技能）]]></entry>
+    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%%受到的来自技能的{colour_start|stress}压力{colour_end}治疗量]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%%受到的{colour_start|bleed}流血{colour_end}技能效果]]></entry>
-	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}流血{colour_end}技能持续时间]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%%{colour_start|bleed}流血{colour_end}技能持续时间]]></entry>
     <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%%伤害反射]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_DebuffTT"><![CDATA[{colour_start|debuff}减益目标：{colour_end}]]></entry>	
@@ -1351,7 +1351,7 @@
     <entry id="actor_mode_name_offensive"><![CDATA[进攻]]></entry>
     <entry id="actor_mode_name_dare"><![CDATA[进攻]]></entry>
     <entry id="actor_mode_name_gash"><![CDATA[进攻]]></entry>
-    <entry id="actor_mode_name_defensive"><![CDATA[防御]]></entry>
+    <entry id="actor_mode_name_defensive"><![CDATA[防守]]></entry>
     <entry id="str_skill_mode_info_offensive"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
@@ -1360,28 +1360,28 @@
 	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[进攻]]></entry>
 	<entry id="buff_rule_data_tooltip_dare"><![CDATA[进攻]]></entry>
 	<entry id="buff_rule_data_tooltip_gash"><![CDATA[进攻]]></entry>
-    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[防御]]></entry>
+    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[防守]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[{colour_start|specificclass}防御：{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[{colour_start|specificclass}防守：{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Offensive"><![CDATA[{colour_start|specificclass}进攻：{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Shocked"><![CDATA[{colour_start|specificclass}不定：{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Shocked"><![CDATA[{colour_start|specificclass}动摇：{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Blank"><![CDATA[]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
 	{colour_start|specificclass}进攻姿态限定{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
-	{colour_start|specificclass}防御姿态限定{colour_end}
+	{colour_start|specificclass}防守姿态限定{colour_end}
 	
 	]]></entry>
 
-	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s如果不在姿态%s]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[不定时被击中]]></entry>
+	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s如果不在%s姿态]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[被击中时动摇]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefA"><![CDATA[切换姿态至：进攻
 	{colour_start|riposte}反击{colour_end}
 	{colour_start|riposte}反击：{colour_end}%d%%伤害]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefB"><![CDATA[Cancel Defensive effects]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[{colour_start|specificclass}不定{colour_end}时被击中：]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[Cancel {colour_start|riposte}反击{colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefB"><![CDATA[取消防守效果]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[被击中时{colour_start|specificclass}动摇{colour_end}：]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[取消{colour_start|riposte}反击{colour_end}
 	{colour_start|stress}压力{colour_end}+5]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceOff"><![CDATA[切换姿态至：防守
 	取消进攻效果
@@ -1396,25 +1396,25 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%%伤害（对{colour_start|mark}标记{colour_end}）]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[{colour_start|stealth}反隐{colour_end}
-	-5精准 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	-5精准{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[{colour_start|stealth}反隐{colour_end}
-	-6精准 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	-6精准{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[{colour_start|stealth}反隐{colour_end}
-	-7精准 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	-7精准{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[{colour_start|stealth}反隐{colour_end}
-	-8精准 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	-8精准{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[{colour_start|stealth}反隐{colour_end}
-	-10精准 {colour_start|skill_unselectable}(%d%%基础概率）{colour_end}]]></entry>
+	-10精准{colour_start|skill_unselectable}(%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[破除守护
-	+5%%被暴击率 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	+5%%被暴击率{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[破除守护
-	+6%%被暴击率 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	+6%%被暴击率{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[破除守护
-	+7%%被暴击率 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	+7%%被暴击率{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[破除守护
-	+8%%被暴击率 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	+8%%被暴击率{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[破除守护
-	+10%%被暴击率 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	+10%%被暴击率{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}3点/回合 持续3回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}4点/回合 持续3回合]]></entry>
@@ -1425,7 +1425,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltSpeed"><![CDATA[自身：
 	+%d速度]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}最后一回合{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}持续一回合{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%%{colour_start|bleed}流血{colour_end}抗性{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%%{colour_start|bleed}流血{colour_end}抗性{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>	
@@ -1443,12 +1443,12 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}反击：{colour_end}命中时：{colour_start|mark}标记{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[大幅减少伏击概率]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[大幅减少伏击怪物成功的概率]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_T_Fencer"><![CDATA[技能命中时：取消{colour_start|riposte}反击{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|stress}压力{colour_end}-5]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[不会被亮度影响所受的压力]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[不会被亮度影响所受到的压力]]></entry>
 
   </language>
 
@@ -1461,9 +1461,9 @@
 		Thanks for your work!	
 	-->
 	
-    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%%受到的{colour_start|stress}压力{colour_end}治疗量（来自技能）]]></entry>
+    <entry id="buff_stat_tooltip_stress_heal_received_percent_effect"><![CDATA[%+d%%受到的来自技能的{colour_start|stress}压力{colour_end}治疗量]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[%+d%%受到的{colour_start|bleed}流血{colour_end}技能效果]]></entry>
-	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%% {colour_start|bleed}流血{colour_end}技能持续时间]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_duration_percent"><![CDATA[%+d%%{colour_start|bleed}流血{colour_end}技能持续时间]]></entry>
     <entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%%伤害反射]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_DebuffTT"><![CDATA[{colour_start|debuff}减益目标：{colour_end}]]></entry>	
@@ -1472,7 +1472,7 @@
     <entry id="actor_mode_name_offensive"><![CDATA[进攻]]></entry>
     <entry id="actor_mode_name_dare"><![CDATA[进攻]]></entry>
     <entry id="actor_mode_name_gash"><![CDATA[进攻]]></entry>
-    <entry id="actor_mode_name_defensive"><![CDATA[防御]]></entry>
+    <entry id="actor_mode_name_defensive"><![CDATA[防守]]></entry>
     <entry id="str_skill_mode_info_offensive"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
@@ -1481,28 +1481,28 @@
 	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[进攻]]></entry>
 	<entry id="buff_rule_data_tooltip_dare"><![CDATA[进攻]]></entry>
 	<entry id="buff_rule_data_tooltip_gash"><![CDATA[进攻]]></entry>
-    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[防御]]></entry>
+    <entry id="buff_rule_data_tooltip_defensive"><![CDATA[防守]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[{colour_start|specificclass}防御：{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[{colour_start|specificclass}防守：{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Offensive"><![CDATA[{colour_start|specificclass}进攻：{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_Shocked"><![CDATA[{colour_start|specificclass}不定：{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_Shocked"><![CDATA[{colour_start|specificclass}动摇：{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Blank"><![CDATA[]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
 	{colour_start|specificclass}进攻姿态限定{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
-	{colour_start|specificclass}防御姿态限定{colour_end}
+	{colour_start|specificclass}防守姿态限定{colour_end}
 	
 	]]></entry>
 
-	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s如果不在姿态%s]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[不定时被击中]]></entry>
+	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s如果不在%s姿态]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[被击中时动摇]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefA"><![CDATA[切换姿态至：进攻
 	{colour_start|riposte}反击{colour_end}
 	{colour_start|riposte}反击：{colour_end}%d%%伤害]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefB"><![CDATA[Cancel Defensive effects]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[{colour_start|specificclass}不定{colour_end}时被击中：]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[Cancel {colour_start|riposte}反击{colour_end}
+	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefB"><![CDATA[取消防守效果]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[被击中时{colour_start|specificclass}动摇{colour_end}：]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[取消{colour_start|riposte}反击{colour_end}
 	{colour_start|stress}压力{colour_end}+5]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceOff"><![CDATA[切换姿态至：防守
 	取消进攻效果
@@ -1517,25 +1517,25 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%%伤害（对{colour_start|mark}标记{colour_end}）]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef1"><![CDATA[{colour_start|stealth}反隐{colour_end}
-	-5精准 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	-5精准{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef2"><![CDATA[{colour_start|stealth}反隐{colour_end}
-	-6精准 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	-6精准{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef3"><![CDATA[{colour_start|stealth}反隐{colour_end}
-	-7精准 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	-7精准{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef4"><![CDATA[{colour_start|stealth}反隐{colour_end}
-	-8精准 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	-8精准{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenDef5"><![CDATA[{colour_start|stealth}反隐{colour_end}
-	-10精准 {colour_start|skill_unselectable}(%d%%基础概率）{colour_end}]]></entry>
+	-10精准{colour_start|skill_unselectable}(%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff1"><![CDATA[破除守护
-	+5%%被暴击率 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	+5%%被暴击率{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff2"><![CDATA[破除守护
-	+6%%被暴击率 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	+6%%被暴击率{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff3"><![CDATA[破除守护
-	+7%%被暴击率 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	+7%%被暴击率{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff4"><![CDATA[破除守护
-	+8%%被暴击率 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	+8%%被暴击率{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[破除守护
-	+10%%被暴击率 {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+	+10%%被暴击率{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}3点/回合 持续3回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}4点/回合 持续3回合]]></entry>
@@ -1546,7 +1546,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltSpeed"><![CDATA[自身：
 	+%d速度]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}最后一回合{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_OneTurn"><![CDATA[{colour_start|skill_unselectable}持续一回合{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff1"><![CDATA[-20%%{colour_start|bleed}流血{colour_end}抗性{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_GashDebuff2"><![CDATA[-23%%{colour_start|bleed}流血{colour_end}抗性{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>	
@@ -1564,12 +1564,12 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}反击：{colour_end}命中时：{colour_start|mark}标记{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[大幅减少伏击概率]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[大幅减少伏击怪物成功的概率]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_T_Fencer"><![CDATA[技能命中时：取消{colour_start|riposte}反击{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_T_Signet"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|stress}压力{colour_end}-5]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[不会被亮度影响所受的压力]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[不会被亮度影响所受到的压力]]></entry>
 
   </language>
 
@@ -1693,4 +1693,5 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_E_lightstress"><![CDATA[No se estresa por el nivel de luz]]></entry>
 
   </language>
+
 </root>
