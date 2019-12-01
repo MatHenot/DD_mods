@@ -25,7 +25,7 @@ effect: .name "TT_CleaverIfBleed" .target "performer" .chance 100% .buff_ids "TT
 
 //freeheal
 
-effect: .name "FreeHealRefresh" .target "performer" .chance 100% .on_hit true .on_miss false .refreshes_skill_uses true .queue true .skill_instant true .has_description false
+effect: .name "FreeHealRefresh" .target "performer" .chance 100% .on_hit true .on_miss false .refreshes_skill_uses true .queue true .has_description false
 effect: .name "TT_FreeHealRefresh" .target "performer" .chance 100% .buff_ids "TT_FreeHealRefresh" .on_hit true .on_miss false .skill_instant true
 
 effect: .name "freeheal 1" .target "target" .chance 100% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true .queue true
