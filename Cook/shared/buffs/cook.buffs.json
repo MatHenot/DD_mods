@@ -1,6 +1,19 @@
 {
 	"buffs": [
-
+	  {
+         "id" : "TT_StealHeal",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_StealHeal",
+         "amount" : 1,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
 	  {
          "id" : "MHealBuff",
          "stat_type" : "hp_heal_percent",
@@ -54,7 +67,7 @@
 	  {
          "id" : "TT_MBlightBuff A",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_MHealBuff",
+         "stat_sub_type" : "TT_MBlightBuffA",
          "amount" : 0.10,
 		 "duration_type" : "combat_end",
 		 "duration" : 1,
@@ -86,7 +99,7 @@
 	  {
          "id" : "TT_MBlightBuff B",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_MHealBuff",
+         "stat_sub_type" : "TT_MBlightBuffB",
          "amount" : 0.05,
 		 "duration_type" : "combat_end",
 		 "duration" : 1,
@@ -99,8 +112,22 @@
          },
 		 "remove_on_battle_complete" : true
       },
+	  {
+         "id" : "TT_MDotHealStop",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_MDotHealStop",
+         "amount" : 1,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
 
-     {
+      {
          "id" : "CleaverNoBlight",
          "stat_type" : "poison_chance",
          "stat_sub_type" : "",
@@ -141,9 +168,9 @@
       },
 
 	  {
-         "id" : "TT_FreeHealRefresh",
+         "id" : "TT_freehealRefresh",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_FreeHealRefresh",
+         "stat_sub_type" : "TT_freehealRefresh",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -154,9 +181,9 @@
          }
       },
 	  {
-         "id" : "TT_FreeHeal 2",
+         "id" : "TT_freeheal 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_FreeHeal2",
+         "stat_sub_type" : "TT_freeheal2",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -167,9 +194,9 @@
          }
       },
 	  {
-         "id" : "TT_FreeHeal 4",
+         "id" : "TT_freeheal 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_FreeHeal4",
+         "stat_sub_type" : "TT_freeheal4",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -180,9 +207,9 @@
          }
       },
 	  {
-         "id" : "TT_FreeHealCont",
+         "id" : "TT_freehealCont",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_FreeHealCont",
+         "stat_sub_type" : "TT_freehealCont",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",

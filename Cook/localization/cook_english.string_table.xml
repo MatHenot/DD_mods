@@ -29,16 +29,16 @@
 	
 	<entry id="combat_skill_name_cook_cleaver"><![CDATA[Cleaver]]></entry>
     <entry id="combat_skill_name_cook_marmite"><![CDATA[Cooking]]></entry>
-    <entry id="combat_skill_name_cook_freeheal"><![CDATA[FreeHeal]]></entry>
-    <entry id="combat_skill_name_cook_bigheal"><![CDATA[BigHeal]]></entry>
+    <entry id="combat_skill_name_cook_freeheal"><![CDATA[freeheal]]></entry>
+    <entry id="combat_skill_name_cook_bigheal"><![CDATA[bigheal]]></entry>
     <entry id="combat_skill_name_cook_mark"><![CDATA[Mark]]></entry>
     <entry id="combat_skill_name_cook_44"><![CDATA[44]]></entry>
     <entry id="combat_skill_name_cook_protect"><![CDATA[Protect]]></entry>
     <entry id="combat_skill_name_cook_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_cook.cleaver"><![CDATA[Cleaver]]></entry>
     <entry id="upgrade_tree_name_cook.marmite"><![CDATA[Cooking]]></entry>
-    <entry id="upgrade_tree_name_cook.freeheal"><![CDATA[FreeHeal]]></entry>
-    <entry id="upgrade_tree_name_cook.bigheal"><![CDATA[BigHeal]]></entry>
+    <entry id="upgrade_tree_name_cook.freeheal"><![CDATA[freeheal]]></entry>
+    <entry id="upgrade_tree_name_cook.bigheal"><![CDATA[bigheal]]></entry>
     <entry id="upgrade_tree_name_cook.mark"><![CDATA[Mark]]></entry>
     <entry id="upgrade_tree_name_cook.44"><![CDATA[44]]></entry>
     <entry id="upgrade_tree_name_cook.protect"><![CDATA[Protect]]></entry>
@@ -71,7 +71,6 @@
 
 	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s if NOT in mode %s]]></entry>
 	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemies:]]></entry>
-	<entry id="effect_tooltip_steal_hp_dot_heal"><![CDATA[{colour_start|healhp}Transfer Restoration{colour_end}]]></entry>
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
@@ -79,12 +78,13 @@
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[%+d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
 	<entry id="buff_rule_data_tooltip_marmite"><![CDATA[Cooking]]></entry>
 
-
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_StealHeal"><![CDATA[Steal {colour_start|healhp}Restoration{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MDotHealStop"><![CDATA[Ends {colour_start|healhp}Restoration{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_CleaverIfBleed"><![CDATA[If {colour_start|bleed}Bleeding:{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_FreeHealCont"><![CDATA[{colour_start|notable}Continue Turn{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_FreeHealRefresh"><![CDATA[{colour_start|notable}Refresh{colour_end} Free Heal]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_FreeHeal2"><![CDATA[{colour_start|healhp}Heal{colour_end} 1-2 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_FreeHeal4"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_freehealCont"><![CDATA[{colour_start|notable}Continue Turn{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_freehealRefresh"><![CDATA[{colour_start|notable}Refresh{colour_end} Free Heal]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_freeheal2"><![CDATA[{colour_start|healhp}Heal{colour_end} 1-2 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_freeheal4"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_bigheal2"><![CDATA[{colour_start|healhp}Heal{colour_end} 1-2 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_bigheal4"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_bigheal6"><![CDATA[{colour_start|healhp}Heal{colour_end} 3-4 pts/rd for 3 rds]]></entry>	
