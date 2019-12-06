@@ -1,6 +1,21 @@
 {
 	"buffs": [
 	  {
+         "id" : "CookMoveBlock",
+         "stat_type" : "disable_combat_skill_attribute",
+         "stat_sub_type" : "move",
+         "amount" : 1,
+		 "duration" : 1,
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "cooking"
+         }
+      },	  
+	  {
          "id" : "TT_StealHeal",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "TT_StealHeal",

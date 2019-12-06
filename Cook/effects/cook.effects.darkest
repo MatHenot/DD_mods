@@ -5,6 +5,10 @@
 effect: .name "StealHeal" .target "target" .chance 100% .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss false .has_description false
 effect: .name "TT_StealHeal" .target "performer" .chance 100% .buff_ids "TT_StealHeal" .on_hit true .on_miss false .skill_instant true
 
+//Move
+
+effect: .name "CookMovePush" .target "performer" .push 1 .chance 500% .on_hit true .on_miss false
+
 //Cleaver
 
 effect: .name "CleaverBleed 1" .target "target" .chance 100% .dotBleed 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
@@ -74,8 +78,8 @@ effect: .name "MarkHeal" .target "target" .chance 100% .dotHpHeal 4 .duration 3 
 
 //marmite
 
-effect: .name "CookingStance" .target "performer" .chance 100% .set_mode cooking .immobilize 1 .on_hit true .on_miss true
-effect: .name "NormalStance" .target "performer" .chance 100% .set_mode nocooking .unimmobilize 1 .on_hit true .on_miss true
+effect: .name "CookingStance" .target "performer" .chance 100% .set_mode cooking .buff_ids "CookMoveBlock" .buff_source_type bsrc_notspecified .on_hit true .on_miss true
+effect: .name "NormalStance" .target "performer" .chance 100% .set_mode nocooking .on_hit true .on_miss true
 
 effect: .name "MarmiteLight 1" .target "global" .chance 100% .torch_increase 10	.on_hit true .on_miss true .apply_once true .queue true
 effect: .name "MarmiteLight 2" .target "global" .chance 100% .torch_increase 11	.on_hit true .on_miss true .apply_once true .queue true
@@ -108,5 +112,6 @@ effect: .name "TT_MBlightBuff" .target "performer" .chance 100% .buff_ids "TT_MB
 effect: .name "MBuffReset" .target "target" .chance 100% .steal_buff_source_type bsrc_notspecified .on_hit true .on_miss true .queue true .has_description false
 
 effect: .name "MDotHealStop" .target "target_group" .chance 100% .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss true .has_description false
+effect: .name "MDotHealStopSelf" .target "performer" .chance 100% .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss true .has_description false
 effect: .name "TT_MDotHealStop" .target "performer_group" .chance 100% .buff_ids "TT_MDotHealStop" .on_hit false .on_miss true
 

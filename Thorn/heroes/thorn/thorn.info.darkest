@@ -7,11 +7,11 @@ weapon: .name "thorn_weapon_1" .atk 5%  .dmg 7 11  .crit 3% .spd 6 .upgradeRequi
 weapon: .name "thorn_weapon_2" .atk 10% .dmg 8 12  .crit 4% .spd 7 .upgradeRequirementCode 1
 weapon: .name "thorn_weapon_3" .atk 15% .dmg 9 14  .crit 5% .spd 7 .upgradeRequirementCode 2
 weapon: .name "thorn_weapon_4" .atk 20% .dmg 10 15 .crit 6% .spd 8 .upgradeRequirementCode 3
-armour: .name "thorn_armour_0" .def 10% .prot 0% .hp 19 .spd 0
-armour: .name "thorn_armour_1" .def 15% .prot 0% .hp 24 .spd 0 .upgradeRequirementCode 0
-armour: .name "thorn_armour_2" .def 20% .prot 0% .hp 29 .spd 0 .upgradeRequirementCode 1
-armour: .name "thorn_armour_3" .def 25% .prot 0% .hp 34 .spd 0 .upgradeRequirementCode 2
-armour: .name "thorn_armour_4" .def 30% .prot 0% .hp 39 .spd 0 .upgradeRequirementCode 3
+armour: .name "thorn_armour_0" .def 15% .prot 0% .hp 19 .spd 0
+armour: .name "thorn_armour_1" .def 20% .prot 0% .hp 24 .spd 0 .upgradeRequirementCode 0
+armour: .name "thorn_armour_2" .def 25% .prot 0% .hp 29 .spd 0 .upgradeRequirementCode 1
+armour: .name "thorn_armour_3" .def 30% .prot 0% .hp 34 .spd 0 .upgradeRequirementCode 2
+armour: .name "thorn_armour_4" .def 35% .prot 0% .hp 39 .spd 0 .upgradeRequirementCode 3
 
 combat_skill: .id "thrust" .level 0 .type "melee" .atk 70% .dmg 0% .crit 5% .launch 21 .target 123 .is_crit_valid True .valid_modes defensive offensive gash dare .ignore_stealth true .effect "PRE vs Marked" "Thrust Skill ToolTip 1" .offensive_effects "Thrust Off 1" .gash_effects "Thrust Off 1" .dare_effects "Thrust Off 1" .defensive_effects "Thrust Def Stun 1" "Thrust Def StunVsMark" "Thrust Def" .generation_guaranteed true
 combat_skill: .id "thrust" .level 1 .type "melee" .atk 70% .dmg 0% .crit 6% .launch 21 .target 123 .is_crit_valid True .valid_modes defensive offensive gash dare .ignore_stealth true .effect "PRE vs Marked" "Thrust Skill ToolTip 2" .offensive_effects "Thrust Off 2" .gash_effects "Thrust Off 2" .dare_effects "Thrust Off 2" .defensive_effects "Thrust Def Stun 2" "Thrust Def StunVsMark" "Thrust Def"

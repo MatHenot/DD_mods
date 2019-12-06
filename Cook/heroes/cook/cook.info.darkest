@@ -15,11 +15,11 @@ combat_skill: .id "marmite" .level 1 .launch 234 .target .valid_modes nocooking 
 combat_skill: .id "marmite" .level 2 .launch 234 .target .valid_modes nocooking cooking .nocooking_effects "CookingStance" "MarmiteLight 3" "MStartHeal 2" .cooking_effects "NormalStance" "MFinalHeal 3" "MFinalBlight 3"
 combat_skill: .id "marmite" .level 3 .launch 234 .target .valid_modes nocooking cooking .nocooking_effects "CookingStance" "MarmiteLight 4" "MStartHeal 2" .cooking_effects "NormalStance" "MFinalHeal 4" "MFinalBlight 4"
 combat_skill: .id "marmite" .level 4 .launch 234 .target .valid_modes nocooking cooking .nocooking_effects "CookingStance" "MarmiteLight 5" "MStartHeal 3" .cooking_effects "NormalStance" "MFinalHeal 5" "MFinalBlight 5"
-combat_skill: .id "marmite" .level 0 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MBuffReset" "MDotHealStop" "TT_MDotHealStop"
-combat_skill: .id "marmite" .level 1 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MBuffReset" "MDotHealStop" "TT_MDotHealStop"
-combat_skill: .id "marmite" .level 2 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MBuffReset" "MDotHealStop" "TT_MDotHealStop"
-combat_skill: .id "marmite" .level 3 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MBuffReset" "MDotHealStop" "TT_MDotHealStop"
-combat_skill: .id "marmite" .level 4 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MBuffReset" "MDotHealStop" "TT_MDotHealStop"
+combat_skill: .id "marmite" .level 0 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MBuffReset" "MDotHealStop" "MDotHealStopSelf" "TT_MDotHealStop"
+combat_skill: .id "marmite" .level 1 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MBuffReset" "MDotHealStop" "MDotHealStopSelf" "TT_MDotHealStop"
+combat_skill: .id "marmite" .level 2 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MBuffReset" "MDotHealStop" "MDotHealStopSelf" "TT_MDotHealStop"
+combat_skill: .id "marmite" .level 3 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MBuffReset" "MDotHealStop" "MDotHealStopSelf" "TT_MDotHealStop"
+combat_skill: .id "marmite" .level 4 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MBuffReset" "MDotHealStop" "MDotHealStopSelf" "TT_MDotHealStop"
 combat_skill: .id "cleaver" .level 0 .type "melee" .atk 85%  .dmg 0% .crit 0% .launch 12 .target 123 .valid_modes nocooking cooking .effect "StealHeal" "TT_StealHeal" "freehealRefresh" "TT_freehealRefresh" "CleaverBleed 1" .nocooking_effects "CleaverNoBlight" "CleaverBlightIfBleed" "TT_CleaverIfBleed" "CleaverBlight 1" .cooking_effects "MBlightBuff" "TT_MBlightBuff" .generation_guaranteed true
 combat_skill: .id "cleaver" .level 1 .type "melee" .atk 90%  .dmg 0% .crit 1% .launch 12 .target 123 .valid_modes nocooking cooking .effect "StealHeal" "TT_StealHeal" "freehealRefresh" "TT_freehealRefresh" "CleaverBleed 2" .nocooking_effects "CleaverNoBlight" "CleaverBlightIfBleed" "TT_CleaverIfBleed" "CleaverBlight 2" .cooking_effects "MBlightBuff" "TT_MBlightBuff" 
 combat_skill: .id "cleaver" .level 2 .type "melee" .atk 95%  .dmg 0% .crit 2% .launch 12 .target 123 .valid_modes nocooking cooking .effect "StealHeal" "TT_StealHeal" "freehealRefresh" "TT_freehealRefresh" "CleaverBleed 3" .nocooking_effects "CleaverNoBlight" "CleaverBlightIfBleed" "TT_CleaverIfBleed" "CleaverBlight 3" .cooking_effects "MBlightBuff" "TT_MBlightBuff" 
@@ -57,7 +57,7 @@ combat_skill: .id "protect" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 8%
 combat_skill: .id "protect" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 9% .launch 1234 .target 1234 .valid_modes nocooking cooking .effect "StealHeal" "TT_StealHeal" .nocooking_effects .cooking_effects "MHealBuff" "TT_MHealBuff" 
 
 
-combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
+combat_move_skill: .id "move" .level 0 .type "move" .move 0 0 .launch 4321 .effect "CookMovePush"
 
 tag: .id "light"
 tag: .id "non-religious"
