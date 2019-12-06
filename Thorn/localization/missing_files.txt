@@ -1,2 +1,0 @@
-str_thorn_shocked,thorn_dialogue,schinese,
-str_thorn_shocked,thorn_dialogue,tchinese,

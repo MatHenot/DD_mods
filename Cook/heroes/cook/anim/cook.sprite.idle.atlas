@@ -1,13 +1,13 @@
 
 cook.sprite.idle.png
-size: 628,1052
+size: 646,1077
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 images/walk
   rotate: false
   xy: 2, 2
-  size: 624, 1048
-  orig: 624, 1048
+  size: 642, 1073
+  orig: 642, 1073
   offset: 0, 0
   index: -1

@@ -1,13 +1,20 @@
 
 cook.sprite.walk.png
-size: 628,1052
+size: 1144,646
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+images/ombre
+  rotate: true
+  xy: 1077, 285
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
 images/walk
-  rotate: false
+  rotate: true
   xy: 2, 2
-  size: 624, 1048
-  orig: 624, 1048
+  size: 642, 1073
+  orig: 642, 1073
   offset: 0, 0
   index: -1
