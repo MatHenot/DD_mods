@@ -1,20 +1,27 @@
 
 cook.sprite.combat.png
-size: 1251,955
+size: 1261,1038
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 images/IDle Sac
   rotate: false
-  xy: 2, 2
-  size: 648, 951
-  orig: 648, 951
+  xy: 697, 99
+  size: 562, 937
+  orig: 562, 937
   offset: 0, 0
   index: -1
 images/IdlenoSac
   rotate: false
-  xy: 652, 28
-  size: 597, 925
-  orig: 597, 925
+  xy: 2, 69
+  size: 693, 967
+  orig: 693, 967
+  offset: 0, 0
+  index: -1
+images/ombre
+  rotate: false
+  xy: 2, 2
+  size: 359, 65
+  orig: 359, 65
   offset: 0, 0
   index: -1

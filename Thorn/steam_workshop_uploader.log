@@ -246,7 +246,6 @@ localization/1785514611_russian.loc
 localization/1785514611_schinese.loc
 localization/1785514611_spanish.loc
 localization/1785514611_tchinese.loc
-localization/missing_files.txt
 localization/thorn_dialogue.string_table.xml
 localization/thorn_tooltips.string_table.xml
 overlays/poptext_damage_reflect.png
@@ -262,6 +261,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting............................................................................................................................................................Submitted.
+Submitting.......................................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Thorn\project.xml
 
