@@ -7,7 +7,7 @@ effect: .name "TT_StealHeal" .target "performer" .chance 100% .buff_ids "TT_Stea
 
 //Move
 
-effect: .name "CookMovePush" .target "performer" .push 1 .chance 500% .on_hit true .on_miss false
+effect: .name "CookMovePush" .target "performer" .push 1 .chance 500% .on_hit true .on_miss false .can_apply_on_death true
 
 //Cleaver
 
@@ -112,6 +112,6 @@ effect: .name "TT_MBlightBuff" .target "performer" .chance 100% .buff_ids "TT_MB
 effect: .name "MBuffReset" .target "target" .chance 100% .steal_buff_source_type bsrc_notspecified .on_hit true .on_miss true .queue true .has_description false
 
 effect: .name "MDotHealStop" .target "target_group" .chance 100% .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss true .has_description false
-effect: .name "MDotHealStopSelf" .target "performer" .chance 100% .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss true .has_description false
+effect: .name "MDotHealStopSelf" .target "target" .chance 100% .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss true .has_description false
 effect: .name "TT_MDotHealStop" .target "performer_group" .chance 100% .buff_ids "TT_MDotHealStop" .on_hit false .on_miss true
 

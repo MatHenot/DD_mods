@@ -2,10 +2,10 @@ resistances: .stun 50% .poison 30% .bleed 30% .disease 30% .move 10% .debuff 50%
 
 crit: .effects "on_crit_acc"
 
-weapon: .name "thorn_weapon_0" .atk 0%  .dmg 6 9   .crit 2% .spd 6
-weapon: .name "thorn_weapon_1" .atk 5%  .dmg 7 11  .crit 3% .spd 6 .upgradeRequirementCode 0
-weapon: .name "thorn_weapon_2" .atk 10% .dmg 8 12  .crit 4% .spd 7 .upgradeRequirementCode 1
-weapon: .name "thorn_weapon_3" .atk 15% .dmg 9 14  .crit 5% .spd 7 .upgradeRequirementCode 2
+weapon: .name "thorn_weapon_0" .atk 0%  .dmg 6  9  .crit 2% .spd 6
+weapon: .name "thorn_weapon_1" .atk 5%  .dmg 7  11 .crit 3% .spd 6 .upgradeRequirementCode 0
+weapon: .name "thorn_weapon_2" .atk 10% .dmg 8  12 .crit 4% .spd 7 .upgradeRequirementCode 1
+weapon: .name "thorn_weapon_3" .atk 15% .dmg 9  14 .crit 5% .spd 7 .upgradeRequirementCode 2
 weapon: .name "thorn_weapon_4" .atk 20% .dmg 10 15 .crit 6% .spd 8 .upgradeRequirementCode 3
 armour: .name "thorn_armour_0" .def 15% .prot 0% .hp 19 .spd 0
 armour: .name "thorn_armour_1" .def 20% .prot 0% .hp 24 .spd 0 .upgradeRequirementCode 0
