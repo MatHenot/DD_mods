@@ -1243,7 +1243,7 @@
          "id" : "C_ambush_ToolTip",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "C_Ambush",
-         "amount" : -1,
+         "amount" : 1,
          "duration" : 1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
