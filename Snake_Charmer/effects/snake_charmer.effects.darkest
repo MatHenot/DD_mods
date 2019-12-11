@@ -5,8 +5,8 @@
 
 effect: .name "SC T Blight" .target "target" .chance 130% .dotPoison 3 .duration 2 .on_hit true .on_miss false .can_apply_on_death true .individual_target_actor_rolls true
 effect: .name "SC T Ally Buff" .target "target" .chance 100% .combat_stat_buff 1 .speed_rating_add 2 .defense_rating_add 0.05 .duration 2 .on_hit true .on_miss false
-effect: .name "SC T shinobue Buff" .target "target" .chance 100% .buff_ids "SC_T_shinobue_PoisChance" "SC_T_shinobue_BleedChance" "SC_T_shinobue_StunChance" "SC_T_shinobue_DebChance" "SC_T_shinobue_MoveChance" .apply_once true .on_hit true .on_miss false .has_description false
-effect: .name "SC T shinobue ToolTip" .target "target" .chance 100% .buff_ids SC_T_shinobue_ToolTip .apply_once true .on_hit false .on_miss true
+effect: .name "SC T shinobue Buff" .target "target" .chance 100% .buff_ids "SC_T_shinobue_PoisChance" "SC_T_shinobue_BleedChance" "SC_T_shinobue_StunChance" "SC_T_shinobue_DebChance" "SC_T_shinobue_MoveChance" .buff_source_type bsrc_notspecified .apply_once true .on_hit true .on_miss false .has_description false
+effect: .name "SC T shinobue ToolTip" .target "target" .chance 100% .buff_ids SC_T_shinobue_ToolTip .apply_once true .on_hit true .on_miss false
 
 
 //venomous fang
@@ -101,9 +101,9 @@ effect: .name "SC vicious charm A3" .target "target" .chance 100% .buff_ids "SC_
 effect: .name "SC vicious charm A4" .target "target" .chance 100% .buff_ids "SC_VC_DMGL_4" "SC_VC_DMGH_4" "SC_VC_Heal_4" "SC_VC_StressHeal_4" .apply_once true .on_hit true .on_miss true
 effect: .name "SC vicious charm A5" .target "target" .chance 100% .buff_ids "SC_VC_DMGL_5" "SC_VC_DMGH_5" "SC_VC_Heal_5" "SC_VC_StressHeal_5" .apply_once true .on_hit true .on_miss true
 
-effect: .name "SC vicious charm ToolTip B" .target "target" .chance 100% .buff_ids "SC_VC_ToolTip_B" .on_hit false .on_miss true
+effect: .name "SC vicious charm ToolTip B" .target "target" .chance 100% .buff_ids "SC_VC_ToolTip_B" .on_hit true .on_miss false
 
-effect: .name "SC vicious charm B" .target "target" .chance 100% .buff_ids "SC_VC_PoisChance" "SC_VC_BleedChance" "SC_VC_StunChance" "SC_VC_DebChance" "SC_VC_MoveChance" .apply_once true .on_hit true .on_miss true .has_description false
+effect: .name "SC vicious charm B" .target "target" .chance 100% .buff_ids "SC_VC_PoisChance" "SC_VC_BleedChance" "SC_VC_StunChance" "SC_VC_DebChance" "SC_VC_MoveChance" .buff_source_type bsrc_notspecified .apply_once true .on_hit true .on_miss true .has_description false
 
 
 //calming toxin
