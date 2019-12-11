@@ -84,9 +84,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_freehealCont"><![CDATA[{colour_start|notable}Continue Turn{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_freeheal2"><![CDATA[{colour_start|healhp}Heal{colour_end} 1-2 pts/rd for 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_freeheal4"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_bigheal2"><![CDATA[{colour_start|healhp}Heal{colour_end} 1-2 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_bigheal4"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_bigheal6"><![CDATA[{colour_start|healhp}Heal{colour_end} 3-4 pts/rd for 3 rds]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_bigheal2"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_bigheal4"><![CDATA[{colour_start|healhp}Heal{colour_end} 3-4 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_ERes"><![CDATA[-%d%% All Resistances]]></entry>	
 
     <entry id="cook+str_afflicted_fearful"><![CDATA[This trip was pure madness!]]></entry>
     <entry id="cook+str_afflicted_fearful"><![CDATA[Nothing could have prepared me for that...]]></entry>
