@@ -30,9 +30,6 @@ effect: .name "TT_CleaverIfBleed" .target "performer" .chance 100% .buff_ids "TT
 
 //freeheal
 
-effect: .name "freehealRefresh" .target "performer" .chance 100% .on_hit true .on_miss false .refreshes_skill_uses true .queue true .has_description false
-effect: .name "TT_freehealRefresh" .target "performer" .chance 100% .buff_ids "TT_freehealRefresh" .on_hit true .on_miss false .skill_instant true
-
 effect: .name "TT_freehealCont" .target "performer" .chance 100% .buff_ids "TT_freehealCont" .on_hit false .on_miss true .skill_instant true
 
 effect: .name "freeheal 1" .target "target" .chance 100% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true .queue true
@@ -63,6 +60,12 @@ effect: .name "bigheal random 50" .target "target" .chance 50% .dotHpHeal 1 .dur
 effect: .name "TT_bigheal 2" .target "performer" .chance 100% .buff_ids "TT_bigheal 2" .on_hit false .on_miss true .skill_instant true
 effect: .name "TT_bigheal 4" .target "performer" .chance 100% .buff_ids "TT_bigheal 4" .on_hit false .on_miss true .skill_instant true
 effect: .name "TT_bigheal 6" .target "performer" .chance 100% .buff_ids "TT_bigheal 6" .on_hit false .on_miss true .skill_instant true
+
+effect: .name "Bigheal HP 1" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.1  .on_hit true .on_miss true
+effect: .name "Bigheal HP 2" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.15 .on_hit true .on_miss true
+effect: .name "Bigheal HP 3" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.2  .on_hit true .on_miss true
+effect: .name "Bigheal HP 4" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.15 .on_hit true .on_miss true
+effect: .name "Bigheal HP 5" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.3  .on_hit true .on_miss true
 
 //mark
 
@@ -115,3 +118,16 @@ effect: .name "MDotHealStop" .target "target_group" .chance 100% .steal_buff_sta
 effect: .name "MDotHealStopSelf" .target "target" .chance 100% .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss true .has_description false
 effect: .name "TT_MDotHealStop" .target "performer_group" .chance 100% .buff_ids "TT_MDotHealStop" .on_hit false .on_miss true
 
+//protect
+
+effect: .name "Cook ClearGuardsPerformer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2 .has_description false
+effect: .name "Cook ClearGuardsTarget" .target "target" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2 .has_description false
+effect: .name "Cook Guard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 2
+
+effect: .name "CookRandom" .target "performer" .chance 100% .buff_ids "CookRandom" .on_hit true .on_miss true .skill_instant true
+
+effect: .name "Protect HRec 1" .target "target" .chance 100% .buff_ids "ProtHRec 1" .on_hit true .on_miss true
+effect: .name "Protect HRec 2" .target "target" .chance 100% .buff_ids "ProtHRec 2" .on_hit true .on_miss true
+effect: .name "Protect HRec 3" .target "target" .chance 100% .buff_ids "ProtHRec 3" .on_hit true .on_miss true
+effect: .name "Protect HRec 4" .target "target" .chance 100% .buff_ids "ProtHRec 4" .on_hit true .on_miss true
+effect: .name "Protect HRec 5" .target "target" .chance 100% .buff_ids "ProtHRec 5" .on_hit true .on_miss true

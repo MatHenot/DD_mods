@@ -82,7 +82,6 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MDotHealStop"><![CDATA[Ends {colour_start|healhp}Restoration{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_CleaverIfBleed"><![CDATA[If {colour_start|bleed}Bleeding:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_freehealCont"><![CDATA[{colour_start|notable}Continue Turn{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_freehealRefresh"><![CDATA[{colour_start|notable}Refresh{colour_end} Free Heal]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_freeheal2"><![CDATA[{colour_start|healhp}Heal{colour_end} 1-2 pts/rd for 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_freeheal4"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_bigheal2"><![CDATA[{colour_start|healhp}Heal{colour_end} 1-2 pts/rd for 3 rds]]></entry>
