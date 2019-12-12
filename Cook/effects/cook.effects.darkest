@@ -59,16 +59,11 @@ effect: .name "Cleav_Bleed 3" .target "target" .chance 120% .dotBleed 3 .duratio
 effect: .name "Cleav_Bleed 4" .target "target" .chance 130% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "Cleav_Bleed 5" .target "target" .chance 140% .dotBleed 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 
-effect: .name "Cleav_Blight 1" .target "target" .chance 100% .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Cleav_Blight 2" .target "target" .chance 110% .dotPoison 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Cleav_Blight 3" .target "target" .chance 120% .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Cleav_Blight 4" .target "target" .chance 130% .dotPoison 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Cleav_Blight 5" .target "target" .chance 140% .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-
-effect: .name "Cleav_NoBlight" .target "performer" .chance 100% .buff_ids  "Cleav_NoBlight" .on_hit true .on_miss false .skill_instant true .has_description false
-effect: .name "Cleav_BlightIfBleed" .target "performer" .chance 100% .buff_ids "Cleav_BlightIfBleed" .on_hit true .on_miss false .skill_instant true .has_description false
-
-effect: .name "TT_Cleav_IfBleed" .target "performer" .chance 100% .buff_ids "TT_Cleav_IfBleed" .on_hit true .on_miss false .skill_instant true
+effect: .name "Cleav_Crit 1" .target "performer" .chance 100% .buff_ids "Cleav_Crit 1" .on_hit true .on_miss false
+effect: .name "Cleav_Crit 2" .target "performer" .chance 100% .buff_ids "Cleav_Crit 2" .on_hit true .on_miss false
+effect: .name "Cleav_Crit 3" .target "performer" .chance 100% .buff_ids "Cleav_Crit 3" .on_hit true .on_miss false
+effect: .name "Cleav_Crit 4" .target "performer" .chance 100% .buff_ids "Cleav_Crit 4" .on_hit true .on_miss false
+effect: .name "Cleav_Crit 5" .target "performer" .chance 100% .buff_ids "Cleav_Crit 5" .on_hit true .on_miss false
 
 //apetizer
 
@@ -134,8 +129,6 @@ effect: .name "TT_CPiece_EffRes 5" .target "target" .chance 140% .buff_ids "TT_C
 effect: .name "Commis_ClearGuardsPerformer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2 .has_description false
 effect: .name "Commis_ClearGuardsTarget" .target "target" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2 .has_description false
 effect: .name "Commis_Guard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 2
-
-effect: .name "Commis_Random" .target "performer" .chance 100% .buff_ids "Commis_Random" .on_hit true .on_miss true .skill_instant true
 
 effect: .name "Commis_HRec 1" .target "target" .chance 100% .buff_ids "Commis_HRec 1" .on_hit true .on_miss true
 effect: .name "Commis_HRec 2" .target "target" .chance 100% .buff_ids "Commis_HRec 2" .on_hit true .on_miss true
