@@ -1,5 +1,21 @@
 {
 	"buffs": [
+ 
+	  {
+         "id" : "TT_Cook_StealHeal",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_Cook_StealHeal",
+         "amount" : 1,
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
 	  {
          "id" : "CookMoveBlock",
          "stat_type" : "disable_combat_skill_attribute",
@@ -14,23 +30,9 @@
             "float" : 0,
             "string" : "cooking"
          }
-      },	  
+      },	
 	  {
-         "id" : "TT_StealHeal",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_StealHeal",
-         "amount" : 1,
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "MHealBuff",
+         "id" : "MCourse_HealBuff",
          "stat_type" : "hp_heal_percent",
          "stat_sub_type" : "",
          "amount" : 0.15,
@@ -41,15 +43,15 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "marmite"
+            "string" : "maincourse"
          },
 		 "fx": "SoundFXHeal",
 		 "remove_on_battle_complete" : true
       },
 	  {
-         "id" : "TT_MHealBuff",
+         "id" : "TT_MCourse_HealBuff",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_MHealBuff",
+         "stat_sub_type" : "TT_MCourse_HealBuff",
          "amount" : 0.15,
 		 "duration_type" : "combat_end",
 		 "duration" : 1,
@@ -63,7 +65,7 @@
 		 "remove_on_battle_complete" : true
       },
 	  {
-         "id" : "MBlightBuff A",
+         "id" : "MCourse_BlightBuff A",
          "stat_type" : "hp_dot_poison_amount_percent",
          "stat_sub_type" : "",
          "amount" : 0.10,
@@ -74,15 +76,15 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "marmite"
+            "string" : "maincourse"
          },
 		 "fx": "SoundFXBlight",
 		 "remove_on_battle_complete" : true
       },
 	  {
-         "id" : "TT_MBlightBuff A",
+         "id" : "TT_MCourse_BlightBuff A",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_MBlightBuffA",
+         "stat_sub_type" : "TT_MCourse_BlightBuffA",
          "amount" : 0.10,
 		 "duration_type" : "combat_end",
 		 "duration" : 1,
@@ -96,7 +98,7 @@
 		 "remove_on_battle_complete" : true
       },
 	  {
-         "id" : "MBlightBuff B",
+         "id" : "MCourse_BlightBuff B",
          "stat_type" : "poison_chance",
          "stat_sub_type" : "",
          "amount" : 0.05,
@@ -107,14 +109,14 @@
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "marmite"
+            "string" : "maincourse"
          },
 		 "remove_on_battle_complete" : true
       },
 	  {
-         "id" : "TT_MBlightBuff B",
+         "id" : "TT_MCourse_BlightBuff B",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_MBlightBuffB",
+         "stat_sub_type" : "TT_MCourse_BlightBuffB",
          "amount" : 0.05,
 		 "duration_type" : "combat_end",
 		 "duration" : 1,
@@ -128,9 +130,9 @@
 		 "remove_on_battle_complete" : true
       },
 	  {
-         "id" : "TT_MDotHealStop",
+         "id" : "TT_MCourse_HealStop",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_MDotHealStop",
+         "stat_sub_type" : "TT_MCourse_HealStop",
          "amount" : 1,
 		 "duration" : 1,
          "remove_if_not_active" : true,
@@ -143,7 +145,7 @@
       },
 
       {
-         "id" : "CleaverNoBlight",
+         "id" : "Cleav_NoBlight",
          "stat_type" : "poison_chance",
          "stat_sub_type" : "",
          "amount" : -2,
@@ -156,7 +158,7 @@
          }
       },	 
      {
-         "id" : "CleaverBlightIfBleed",
+         "id" : "Cleav_BlightIfBleed",
          "stat_type" : "poison_chance",
          "stat_sub_type" : "",
          "amount" : 2,
@@ -169,9 +171,9 @@
          }
       },	  
 	  {
-         "id" : "TT_CleaverIfBleed",
+         "id" : "TT_Cleav_IfBleed",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_CleaverIfBleed",
+         "stat_sub_type" : "TT_Cleav_IfBleed",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -183,9 +185,9 @@
       },
 	  
 	  {
-         "id" : "TT_freeheal 2",
+         "id" : "TT_Apetizer 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_freeheal2",
+         "stat_sub_type" : "TT_Apetizer_2",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -196,9 +198,9 @@
          }
       },
 	  {
-         "id" : "TT_freeheal 4",
+         "id" : "TT_Apetizer 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_freeheal4",
+         "stat_sub_type" : "TT_Apetizer_4",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -209,9 +211,9 @@
          }
       },
 	  {
-         "id" : "TT_freehealCont",
+         "id" : "TT_Apetizer_Cont",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_freehealCont",
+         "stat_sub_type" : "TT_Apetizer_Cont",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -223,9 +225,9 @@
       },
 	  
  	  {
-         "id" : "TT_bigheal 2",
+         "id" : "TT_Entremet 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_bigheal2",
+         "stat_sub_type" : "TT_Entremet_2",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -236,9 +238,9 @@
          }
       },
 	  {
-         "id" : "TT_bigheal 4",
+         "id" : "TT_Entremet 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_bigheal4",
+         "stat_sub_type" : "TT_Entremet_4",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -248,49 +250,9 @@
             "string" : ""
          }
       }, 
-	  
-	  {
-         "id" : "DMG rec 1",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.10,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "DMG rec 2",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.15,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-	  {
-         "id" : "DMG rec 3",
-         "stat_type" : "damage_received_percent",
-         "stat_sub_type" : "",
-         "amount" : 0.20,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
 
 	  {
-         "id" : "CookRandom",
+         "id" : "Commis_Random",
          "stat_type" : "random_target_friendly_chance",
          "stat_sub_type" : "",
          "amount" : 1,
@@ -303,7 +265,7 @@
          }
       },
 	  {
-         "id" : "ProtHRec 1",
+         "id" : "Commis_HRec 1",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.1,
@@ -316,7 +278,7 @@
          }
       },
 	  {
-         "id" : "ProtHRec 2",
+         "id" : "Commis_HRec 2",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.15,
@@ -329,7 +291,7 @@
          }
       },
 	  {
-         "id" : "ProtHRec 3",
+         "id" : "Commis_HRec 3",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.2,
@@ -342,7 +304,7 @@
          }
       },
 	  {
-         "id" : "ProtHRec 4",
+         "id" : "Commis_HRec 4",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.25,
@@ -355,7 +317,7 @@
          }
       },
 	  {
-         "id" : "ProtHRec 5",
+         "id" : "Commis_HRec 5",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.3,
@@ -369,7 +331,46 @@
       },
 	  
 	  {
-         "id" : "ERes_Pois 1",
+         "id" : "CPiece_DMG 1",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.10,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "CPiece_DMG 2",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "CPiece_DMG 3",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },  
+	  {
+         "id" : "CPiece_PoisRes 1",
          "stat_type" : "resistance",
          "stat_sub_type" : "poison",
          "amount" : -0.1,
@@ -382,7 +383,7 @@
          }
       },	
 	  {
-         "id" : "ERes_Pois 2",
+         "id" : "CPiece_PoisRes 2",
          "stat_type" : "resistance",
          "stat_sub_type" : "poison",
          "amount" : -0.15,
@@ -395,7 +396,7 @@
          }
       },
 	  {
-         "id" : "ERes_Pois 3",
+         "id" : "CPiece_PoisRes 3",
          "stat_type" : "resistance",
          "stat_sub_type" : "poison",
          "amount" : -0.2,
@@ -408,7 +409,7 @@
          }
       },
 	  {
-         "id" : "ERes_Bleed 1",
+         "id" : "CPiece_BleedRes 1",
          "stat_type" : "resistance",
          "stat_sub_type" : "bleed",
          "amount" : -0.1,
@@ -421,7 +422,7 @@
          }
       },	
 	  {
-         "id" : "ERes_Bleed 2",
+         "id" : "CPiece_BleedRes 2",
          "stat_type" : "resistance",
          "stat_sub_type" : "bleed",
          "amount" : -0.15,
@@ -434,7 +435,7 @@
          }
       },
 	  {
-         "id" : "ERes_Bleed 3",
+         "id" : "CPiece_BleedRes 3",
          "stat_type" : "resistance",
          "stat_sub_type" : "bleed",
          "amount" : -0.2,
@@ -447,7 +448,7 @@
          }
       },	
 	  {
-         "id" : "ERes_Stun 1",
+         "id" : "CPiece_StunRes 1",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
          "amount" : -0.1,
@@ -460,7 +461,7 @@
          }
       },	
 	  {
-         "id" : "ERes_Stun 2",
+         "id" : "CPiece_StunRes 2",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
          "amount" : -0.15,
@@ -473,7 +474,7 @@
          }
       },
 	  {
-         "id" : "ERes_Stun 3",
+         "id" : "CPiece_StunRes 3",
          "stat_type" : "resistance",
          "stat_sub_type" : "stun",
          "amount" : -0.2,
@@ -486,7 +487,7 @@
          }
       },
 	  {
-         "id" : "ERes_Deb 1",
+         "id" : "CPiece_DebfRes 1",
          "stat_type" : "resistance",
          "stat_sub_type" : "debuff",
          "amount" : -0.1,
@@ -499,7 +500,7 @@
          }
       },	
 	  {
-         "id" : "ERes_Deb 2",
+         "id" : "CPiece_DebfRes 2",
          "stat_type" : "resistance",
          "stat_sub_type" : "debuff",
          "amount" : -0.15,
@@ -512,7 +513,7 @@
          }
       },
 	  {
-         "id" : "ERes_Deb 3",
+         "id" : "CPiece_DebfRes 3",
          "stat_type" : "resistance",
          "stat_sub_type" : "debuff",
          "amount" : -0.2,
@@ -525,7 +526,7 @@
          }
       },
 	  {
-         "id" : "ERes_Move 1",
+         "id" : "CPiece_MoveRes 1",
          "stat_type" : "resistance",
          "stat_sub_type" : "move",
          "amount" : -0.1,
@@ -538,7 +539,7 @@
          }
       },	
 	  {
-         "id" : "ERes_Move 2",
+         "id" : "CPiece_MoveRes 2",
          "stat_type" : "resistance",
          "stat_sub_type" : "move",
          "amount" : -0.15,
@@ -551,7 +552,7 @@
          }
       },
 	  {
-         "id" : "ERes_Move 3",
+         "id" : "CPiece_MoveRes 3",
          "stat_type" : "resistance",
          "stat_sub_type" : "move",
          "amount" : -0.2,
@@ -564,9 +565,9 @@
          }
       },
 	  {
-         "id" : "TT_ERes 1",
+         "id" : "TT_CPiece_EffRes 1",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_ERes",
+         "stat_sub_type" : "TT_CPiece_EffRes",
          "amount" : -0.1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -577,9 +578,9 @@
          }
       },
 	  {
-         "id" : "TT_ERes 2",
+         "id" : "TT_CPiece_EffRes 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_ERes",
+         "stat_sub_type" : "TT_CPiece_EffRes",
          "amount" : -0.15,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -590,9 +591,9 @@
          }
       }, 
 	  {
-         "id" : "TT_ERes 3",
+         "id" : "TT_CPiece_EffRes 3",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_ERes",
+         "stat_sub_type" : "TT_CPiece_EffRes",
          "amount" : -0.2,
          "remove_if_not_active" : false,
          "rule_type" : "always",
