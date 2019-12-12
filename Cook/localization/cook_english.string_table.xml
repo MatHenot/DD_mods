@@ -32,7 +32,7 @@
     <entry id="combat_skill_name_cook_apetizer"><![CDATA[Apetizer]]></entry>
     <entry id="combat_skill_name_cook_entremet"><![CDATA[Entremet]]></entry>
     <entry id="combat_skill_name_cook_choicepiece"><![CDATA[Choice Piece]]></entry>
-    <entry id="combat_skill_name_cook_44"><![CDATA[44]]></entry>
+    <entry id="combat_skill_name_cook_poisonedbait"><![CDATA[Poisoned Bait]]></entry>
     <entry id="combat_skill_name_cook_commis"><![CDATA[Commis]]></entry>
     <entry id="combat_skill_name_cook_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_cook.maincourse"><![CDATA[Main Course]]></entry>
@@ -40,7 +40,7 @@
     <entry id="upgrade_tree_name_cook.apetizer"><![CDATA[Apetizer]]></entry>
     <entry id="upgrade_tree_name_cook.entremet"><![CDATA[Entremet]]></entry>
     <entry id="upgrade_tree_name_cook.choicepiece"><![CDATA[Choice Piece]]></entry>
-    <entry id="upgrade_tree_name_cook.44"><![CDATA[44]]></entry>
+    <entry id="upgrade_tree_name_cook.poisonedbait"><![CDATA[Poisoned Bait]]></entry>
     <entry id="upgrade_tree_name_cook.commis"><![CDATA[Commis]]></entry>
 
     <entry id="camping_skill_name_mithridatism"><![CDATA[MITHRIDATISM]]></entry>
@@ -79,6 +79,10 @@
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Main Course]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Steal {colour_start|healhp}Restoration{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Disable Move]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[Main Course: +%d%% {colour_start|healhp}Healing{colour_end} Skills]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_BlightBuffA"><![CDATA[Main Course: +%d%% {colour_start|blight}Blight{colour_end} amount]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_BlightBuffB"><![CDATA[Main Course: +%d%% {colour_start|blight}Blight{colour_end} Skill Chance]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[Ends {colour_start|healhp}Restoration{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cleav_IfBleed"><![CDATA[If {colour_start|bleed}Bleeding:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Apetizer_Cont"><![CDATA[{colour_start|notable}Continue Turn{colour_end}]]></entry>

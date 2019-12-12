@@ -11,14 +11,17 @@ effect: .name "Cook_MovePush" .target "performer" .push 1 .chance 500% .on_hit t
 
 //maincourse
 
-effect: .name "CookingStance" .target "performer" .chance 100% .set_mode cooking .buff_ids "CookMoveBlock" .buff_source_type bsrc_notspecified .on_hit true .on_miss true
+effect: .name "CookingStance" .target "performer" .chance 100% .set_mode cooking .on_hit true .on_miss true
 effect: .name "NormalStance" .target "performer" .chance 100% .set_mode nocooking .on_hit true .on_miss true
 
-effect: .name "MCourse_Light 1" .target "global" .chance 100% .torch_increase 10	.on_hit true .on_miss true .apply_once true .queue true
-effect: .name "MCourse_Light 2" .target "global" .chance 100% .torch_increase 11	.on_hit true .on_miss true .apply_once true .queue true
-effect: .name "MCourse_Light 3" .target "global" .chance 100% .torch_increase 12	.on_hit true .on_miss true .apply_once true .queue true
-effect: .name "MCourse_Light 4" .target "global" .chance 100% .torch_increase 13	.on_hit true .on_miss true .apply_once true .queue true
-effect: .name "MCourse_Light 5" .target "global" .chance 100% .torch_increase 15	.on_hit true .on_miss true .apply_once true .queue true 
+effect: .name "MCourse_MoveBlock" .target "performer" .chance 100% .buff_ids "MCourse_MoveBlock" "MCourse_MoveResist" .buff_source_type bsrc_notspecified .on_hit true .on_miss true .queue true .has_description false
+effect: .name "TT_MCourse_MoveBlock" .target "performer" .chance 100% .buff_ids "TT_MCourse_MoveBlock" .on_hit true .on_miss true .queue true 
+
+effect: .name "MCourse_Light 1" .target "global" .chance 100% .torch_increase 6  .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "MCourse_Light 2" .target "global" .chance 100% .torch_increase 7  .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "MCourse_Light 3" .target "global" .chance 100% .torch_increase 8  .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "MCourse_Light 4" .target "global" .chance 100% .torch_increase 9  .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "MCourse_Light 5" .target "global" .chance 100% .torch_increase 10 .on_hit true .on_miss true .apply_once true .queue true 
 
 effect: .name "MCourse_StartHeal 1" .target "performer_group_other" .chance 100% .dotHpHeal 1 .duration 3 .on_hit true .on_miss true .queue true
 effect: .name "MCourse_StartHeal 2" .target "performer_group_other" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true .queue true
@@ -139,3 +142,11 @@ effect: .name "Commis_HRec 2" .target "target" .chance 100% .buff_ids "Commis_HR
 effect: .name "Commis_HRec 3" .target "target" .chance 100% .buff_ids "Commis_HRec 3" .on_hit true .on_miss true
 effect: .name "Commis_HRec 4" .target "target" .chance 100% .buff_ids "Commis_HRec 4" .on_hit true .on_miss true
 effect: .name "Commis_HRec 5" .target "target" .chance 100% .buff_ids "Commis_HRec 5" .on_hit true .on_miss true
+
+//poisonedbait
+
+effect: .name "PBait_Blight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "PBait_Blight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "PBait_Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 5 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "PBait_Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 5 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "PBait_Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 6 .duration 3 .on_hit true .on_miss false .can_apply_on_death true

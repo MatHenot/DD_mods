@@ -15,7 +15,7 @@ armour: .name "cook_armour_4" .icon "eqp_armour_4.png"
 combat_skill: .id "maincourse" .icon "one" .anim "transformation" .fx "" .targchestfx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "cleaver" .icon "two" .anim "attack_chain" .fx "" .targfx "" .condensed_tooltip_stats true
 combat_skill: .id "choicepiece" .icon "three" .anim "attack_chain" .fx "" .targfx "" .condensed_tooltip_stats true
-combat_skill: .id "44" .icon "four" .anim "attack_chain" .fx "" .targchestfx "" .condensed_tooltip_stats true 
+combat_skill: .id "poisonedbait" .icon "four" .anim "attack_chain" .fx "" .targchestfx "" .condensed_tooltip_stats true 
 combat_skill: .id "apetizer" .icon "five" .anim "attack_chain" .fx "" .targfx "" .condensed_tooltip_stats true 
 combat_skill: .id "entremet" .icon "six" .anim "attack_chain" .fx "" .targchestfx "" .condensed_tooltip_stats true 
 combat_skill: .id "commis" .icon "seven" .anim "attack_chain" .fx "" .targchestfx "" .condensed_tooltip_stats true
