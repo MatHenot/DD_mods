@@ -1,13 +1,167 @@
 
 cook.sprite.idle.png
-size: 646,1077
+size: 2393,522
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/walk
+BrasD
+  rotate: true
+  xy: 2186, 177
+  size: 171, 203
+  orig: 171, 203
+  offset: 0, 0
+  index: -1
+BrasG
+  rotate: true
+  xy: 946, 6
+  size: 109, 143
+  orig: 109, 143
+  offset: 0, 0
+  index: -1
+Calque 3
+  rotate: true
+  xy: 1990, 114
+  size: 137, 190
+  orig: 137, 190
+  offset: 0, 0
+  index: -1
+JambeD
   rotate: false
-  xy: 2, 2
-  size: 642, 1073
-  orig: 642, 1073
+  xy: 682, 108
+  size: 167, 412
+  orig: 167, 412
+  offset: 0, 0
+  index: -1
+JambeG
+  rotate: false
+  xy: 851, 117
+  size: 164, 403
+  orig: 164, 403
+  offset: 0, 0
+  index: -1
+SacocheTop
+  rotate: false
+  xy: 1091, 6
+  size: 206, 158
+  orig: 206, 158
+  offset: 0, 0
+  index: -1
+Sangle
+  rotate: false
+  xy: 2221, 88
+  size: 77, 87
+  orig: 77, 87
+  offset: 0, 0
+  index: -1
+Tete
+  rotate: false
+  xy: 1942, 253
+  size: 242, 267
+  orig: 242, 267
+  offset: 0, 0
+  index: -1
+collier
+  rotate: true
+  xy: 692, 3
+  size: 103, 252
+  orig: 103, 252
+  offset: 0, 0
+  index: -1
+corps
+  rotate: false
+  xy: 1734, 22
+  size: 254, 207
+  orig: 254, 207
+  offset: 0, 0
+  index: -1
+couteau
+  rotate: false
+  xy: 1583, 13
+  size: 149, 216
+  orig: 149, 216
+  offset: 0, 0
+  index: -1
+hachoire
+  rotate: false
+  xy: 1806, 245
+  size: 134, 275
+  orig: 134, 275
+  offset: 0, 0
+  index: -1
+mecheAR
+  rotate: true
+  xy: 1017, 128
+  size: 31, 48
+  orig: 31, 48
+  offset: 0, 0
+  index: -1
+mecheAV
+  rotate: false
+  xy: 648, 4
+  size: 42, 80
+  orig: 42, 80
+  offset: 0, 0
+  index: -1
+ombre
+  rotate: true
+  xy: 1017, 161
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
+pikpik
+  rotate: true
+  xy: 514, 2
+  size: 82, 132
+  orig: 82, 132
+  offset: 0, 0
+  index: -1
+poele
+  rotate: false
+  xy: 1084, 166
+  size: 146, 354
+  orig: 146, 354
+  offset: 0, 0
+  index: -1
+sac
+  rotate: false
+  xy: 2, 3
+  size: 510, 517
+  orig: 510, 517
+  offset: 0, 0
+  index: -1
+sacPart2
+  rotate: false
+  xy: 1232, 231
+  size: 572, 289
+  orig: 572, 289
+  offset: 0, 0
+  index: -1
+sacTop
+  rotate: true
+  xy: 514, 86
+  size: 434, 166
+  orig: 434, 166
+  offset: 0, 0
+  index: -1
+sacocheG
+  rotate: false
+  xy: 2186, 350
+  size: 205, 170
+  orig: 205, 170
+  offset: 0, 0
+  index: -1
+souffloir
+  rotate: true
+  xy: 1990, 6
+  size: 106, 229
+  orig: 106, 229
+  offset: 0, 0
+  index: -1
+tablier
+  rotate: false
+  xy: 1299, 6
+  size: 282, 223
+  orig: 282, 223
   offset: 0, 0
   index: -1

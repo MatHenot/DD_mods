@@ -201,7 +201,7 @@ raid/actor_dot/thorn.actor_dot.json 472
 raid/camping/thorn.camping_skills.json 7836
 scripts/layout/thorn.popup_text.layout.darkest 581
 shared/buffs/thorn.buffs.json 26900
-shared/buffs/thorn_tooltips.buffs.json 35344
+shared/buffs/thorn_tooltips.buffs.json 35343
 shared/trait/thorn.trait_library.json 3718
 upgrades/heroes/thorn.upgrades.json 20955
 audio/thorn.heroes.guid_overrides.json 6808
@@ -233,6 +233,6 @@ trinkets/crimson_court.rarities.trinkets.json 171
 trinkets/thorn.entries.trinkets.json 4156
 trinkets/thorn.sets.trinkets.json 153
 trinkets/thorn_east_town.rarities.trinkets.json 162
-modfiles.txt 12204
+modfiles.txt 12170
 preview_icon.png 409070
 project.xml 581
