@@ -27,7 +27,7 @@ effect: .name "switch to Shocked" .target "performer" .chance 100% .set_mode sho
 
 //Transform -- Shocked to Offensive Effects
 
-effect: .name "switch to Offensive Shck" .target "target_enemy_group" .chance 100% .set_mode offensive .clearguarding 1 cleanguarded 1 .clear_riposte 1 .duration -1 .buff_ids "Offensive End ToolTip" .on_hit true .on_miss true .has_description false .swap_source_and_target true
+effect: .name "switch to Offensive Shck" .target "target_enemy_group" .chance 100% .set_mode offensive .clear_riposte 1 .buff_ids "Offensive End ToolTip" .duration -1 .on_hit true .on_miss true .has_description false .swap_source_and_target true
 effect: .name "Offensive Riposte Shck" .target "target_enemy_group" .chance 100% .clear_riposte 1 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -15% .damage_high_multiply -15% .duration -1 .on_hit true .on_miss true .has_description false .swap_source_and_target true
 effect: .name "Offensive Riposte Shck SFX" .target "performer" .chance 100% .duration 1 .buff_ids "ShckToOff SFX" .buff_source_type hero_skill .on_hit true .on_miss true .queue true .has_description false
 
