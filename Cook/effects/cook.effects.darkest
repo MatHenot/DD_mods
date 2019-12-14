@@ -7,7 +7,7 @@ effect: .name "TT_Cook_StealHeal" .target "performer" .chance 100% .buff_ids "TT
 
 //Move
 
-effect: .name "Cook_MovePush" .target "performer" .push 1 .chance 500% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Cook_MovePush" .target "performer" .push 1 .chance 5% .on_hit true .on_miss false .can_apply_on_death true .has_description false
 
 //maincourse
 
