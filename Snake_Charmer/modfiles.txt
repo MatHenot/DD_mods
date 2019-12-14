@@ -169,7 +169,7 @@ shared/buffs/snake_charmer.buffs.json 35318
 upgrades/heroes/snake_charmer.upgrades.json 21506
 audio/snake_charmer.heroes.guid_overrides.json 2666
 audio/snake_charmer.heroes.load_order.json 88
-effects/snake_charmer.effects.darkest 15927
+effects/snake_charmer.effects.darkest 15999
 localization/1456853110_brazilian.loc 27886
 localization/1456853110_czech.loc 26470
 localization/1456853110_english.loc 26470
