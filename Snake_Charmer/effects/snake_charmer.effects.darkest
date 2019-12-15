@@ -93,7 +93,7 @@ effect: .name "SC RT prot ToolTip 5" .target "performer" .chance 100% .buff_ids 
 
 effect: .name "SC vicious charm ToolTip A" .target "target" .chance 100% .buff_ids "SC_VC_ToolTip_A" .on_hit false .on_miss true
 
-effect: .name "SC vicious charm init" .target "target" .chance 100% .initiative_change 1 .on_hit true .on_miss true
+effect: .name "SC vicious charm init" .target "target" .chance 100% .initiative_change 1 .on_hit true .on_miss true .queue true
 
 effect: .name "SC vicious charm A1" .target "target" .chance 100% .buff_ids "SC_VC_DMGL_1" "SC_VC_DMGH_1" "SC_VC_Heal_1" "SC_VC_StressHeal_1" .apply_once true .on_hit true .on_miss true
 effect: .name "SC vicious charm A2" .target "target" .chance 100% .buff_ids "SC_VC_DMGL_2" "SC_VC_DMGH_2" "SC_VC_Heal_2" "SC_VC_StressHeal_2" .apply_once true .on_hit true .on_miss true

@@ -681,6 +681,7 @@
 			"stat_type": "upgrade_discount",
 			"stat_sub_type": "VC_B",
 			"amount": -0.1,
+			"duration": 2,
 			"remove_if_not_active": false,
 			"rule_type": "always",
 			"is_false_rule": false,

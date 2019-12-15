@@ -101,7 +101,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_3"><![CDATA[{colour_start|riposte}反击{colour_end}：{colour_start|blight}腐蚀{colour_end} {colour_start|skill_unselectable}(120%%基础概率){colour_end} 3伤害/回合 持续2回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_4"><![CDATA[{colour_start|riposte}反击{colour_end}：{colour_start|blight}腐蚀{colour_end} {colour_start|skill_unselectable}(130%%基础概率){colour_end} 3伤害/回合 持续2回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_5"><![CDATA[{colour_start|riposte}反击{colour_end}：{colour_start|blight}腐蚀{colour_end} {colour_start|skill_unselectable}(140%%基础概率){colour_end} 4伤害/回合 持续2回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_prot"><![CDATA[防御%d%%，移动时移除]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_prot"><![CDATA[防御%d%% / 移动时移除]]></entry>	
 		
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[这次旅行纯粹是疯了！]]></entry>
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[没什么能让我做好准备应对……]]></entry>
