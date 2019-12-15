@@ -71,7 +71,7 @@
 
 	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s if NOT in mode %s]]></entry>
 	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemies:]]></entry>
-    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% {colour_start|blight}Blight{colour_end} amount]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[+%d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
@@ -81,9 +81,7 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Steal {colour_start|healhp}Restoration{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Disable Move]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[Main Course: +%d%% {colour_start|healhp}Healing{colour_end} Skills]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_BlightBuffA"><![CDATA[Main Course: +%d%% {colour_start|blight}Blight{colour_end} amount]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_BlightBuffB"><![CDATA[Main Course: +%d%% {colour_start|blight}Blight{colour_end} Skill Chance]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[(Before Combat Ends Only)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[Ends {colour_start|healhp}Restoration{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cleav_IfBleed"><![CDATA[If {colour_start|bleed}Bleeding:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Apetizer_Cont"><![CDATA[{colour_start|notable}Continue Turn{colour_end}]]></entry>

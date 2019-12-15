@@ -29,7 +29,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : "cooking"
-         }
+         },
+		 "is_clear_debuff_valid": false
       },
 	  {
          "id" : "TT_MCourse_MoveBlock",
@@ -45,7 +46,6 @@
             "float" : 0,
             "string" : "cooking"
          },
-		 "remove_on_battle_complete" : true,
 		 "is_clear_debuff_valid": false
       },
 	  {
@@ -61,8 +61,7 @@
          "rule_data" : {
             "float" : 0,
             "string" : "cooking"
-         },
-		 "remove_on_battle_complete" : true
+         }
       },
 	  {
          "id" : "MCourse_HealBuff",
@@ -78,24 +77,22 @@
             "float" : 0,
             "string" : "maincourse"
          },
-		 "fx": "SoundFXHeal",
-		 "remove_on_battle_complete" : true
+		 "fx": "SoundFXHeal"
       },
 	  {
          "id" : "TT_MCourse_HealBuff",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "TT_MCourse_HealBuff",
-         "amount" : -0.15,
+         "amount" : -1,
 		 "duration_type" : "combat_end",
 		 "duration" : 1,
          "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "cooking"
-         },
-		 "remove_on_battle_complete" : true
+            "string" : ""
+         }
       },
 	  {
          "id" : "MCourse_BlightBuff A",
@@ -111,24 +108,7 @@
             "float" : 0,
             "string" : "maincourse"
          },
-		 "fx": "SoundFXBlight",
-		 "remove_on_battle_complete" : true
-      },
-	  {
-         "id" : "TT_MCourse_BlightBuff A",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_MCourse_BlightBuffA",
-         "amount" : -0.10,
-		 "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "cooking"
-         },
-		 "remove_on_battle_complete" : true
+		 "fx": "SoundFXBlight"
       },
 	  {
          "id" : "MCourse_BlightBuff B",
@@ -143,24 +123,7 @@
          "rule_data" : {
             "float" : 0,
             "string" : "maincourse"
-         },
-		 "remove_on_battle_complete" : true
-      },
-	  {
-         "id" : "TT_MCourse_BlightBuff B",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_MCourse_BlightBuffB",
-         "amount" : -0.05,
-		 "duration_type" : "combat_end",
-		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : "cooking"
-         },
-		 "remove_on_battle_complete" : true
+         }
       },
 	  {
          "id" : "TT_MCourse_HealStop",
