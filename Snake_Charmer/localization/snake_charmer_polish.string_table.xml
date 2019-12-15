@@ -101,7 +101,7 @@
     <entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_3"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(120%% bazowe){colour_end} 3 pkt./rnd. przez 2 rnd.]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_4"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(130%% bazowe){colour_end} 3 pkt./rnd. przez 2 rnd.]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_5"><![CDATA[{colour_start|riposte}Riposta{colour_end}: {colour_start|blight}Zaraza{colour_end} {colour_start|skill_unselectable}(140%% bazowe){colour_end} 4 pkt./rnd. przez 2 rnd.]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_prot"><![CDATA[%d%% OCHR / usunięto podczas podróży]]></entry>        
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_prot"><![CDATA[+%d%% OCHR / usunięto podczas podróży]]></entry>        
         
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Ta wyprawa to czyste szaleństwo!]]></entry>
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Nic nie mogło mnie na to przygotować...]]></entry>

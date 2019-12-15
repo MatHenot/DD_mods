@@ -101,7 +101,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_3"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 120%%){colour_end} 3 pts/tr sur 2 trs]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_4"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 130%%){colour_end} 3 pts/tr sur 2 trs]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_5"><![CDATA[{colour_start|riposte}Riposte{colour_end} : {colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 140%%){colour_end} 4 pts/tr sur 2 trs]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_prot"><![CDATA[PROT %d%% / supprimé lors d'un déplacement]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_prot"><![CDATA[PROT +%d%% / supprimé lors d'un déplacement]]></entry>	
 		
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Ce voyage n'était que pure folie !]]></entry>
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Rien n'aurais pu me préparer à ça...]]></entry>

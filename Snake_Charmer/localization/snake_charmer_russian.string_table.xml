@@ -101,7 +101,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_3"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(120%% база){colour_end} 3 oчкoв/раунд за 2 раунд)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_4"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(130%% база){colour_end} 3 oчкoв/раунд за 2 раунд)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_5"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|blight}Яд{colour_end} {colour_start|skill_unselectable}(140%% база){colour_end} 4 oчкoв/раунд за 2 раунд)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_prot"><![CDATA[%d%% ЗАЩ / Удалено во время переезда]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_prot"><![CDATA[+%d%% ЗАЩ / Удалено во время переезда]]></entry>
 		
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Эта поездка была полным безумием!]]></entry>
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[Ничто не смогло бы меня подготовить к такому...]]></entry>

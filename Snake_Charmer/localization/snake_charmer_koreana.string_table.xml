@@ -101,7 +101,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_3"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 120%%){colour_end} 턴당 3 피해, 2턴 지속]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_4"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 130%%){colour_end} 턴당 3 피해, 2턴 지속]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_riposte_blight_5"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 140%%){colour_end} 턴당 4 피해, 2턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_riposte_prot"><![CDATA[방어 %d%% / 이동시 제거됨]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_riposte_prot"><![CDATA[방어 +%d%% / 이동시 제거됨]]></entry>	
 	
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[이 원정은 정말 미쳤구만!]]></entry>
     <entry id="snake_charmer+str_afflicted_fearful"><![CDATA[그 아무것도 준비할 수 없었다...]]></entry>
