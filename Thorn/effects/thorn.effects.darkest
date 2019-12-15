@@ -242,8 +242,13 @@ effect: .name "Dare Riposte ToolTip 3" .target "performer" .chance 100% .buff_id
 effect: .name "Dare Riposte ToolTip 4" .target "performer" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 4" "Dare Riposte ToolTip DMGH 4" "Dare Riposte ToolTip crit 4" .on_hit false .on_miss true
 effect: .name "Dare Riposte ToolTip 5" .target "performer" .chance 100% .buff_ids "Dare Riposte ToolTip DMGL 5" "Dare Riposte ToolTip DMGH 5" "Dare Riposte ToolTip crit 5" .on_hit false .on_miss true
 
-effect: .name "Dare Dodge" .target "performer" .chance 100% .buff_ids "Dare Dodge" .on_hit true .on_miss true .has_description false
-effect: .name "Dare Dodge ToolTip" .target "performer" .chance 100% .buff_ids "Dare Fake Dodge" "One Turn" .on_hit false .on_miss true
+effect: .name "Dare Dodge 1" .target "performer" .chance 100% .buff_ids "Dare Dodge 1" .on_hit true .on_miss true .has_description false
+effect: .name "Dare Dodge 2" .target "performer" .chance 100% .buff_ids "Dare Dodge 1" .on_hit true .on_miss true .has_description false
+effect: .name "Dare Dodge 3" .target "performer" .chance 100% .buff_ids "Dare Dodge 1" .on_hit true .on_miss true .has_description false
+
+effect: .name "Dare Dodge ToolTip 1" .target "performer" .chance 100% .buff_ids "Dare Fake Dodge 1" "One Turn" .on_hit false .on_miss true
+effect: .name "Dare Dodge ToolTip 2" .target "performer" .chance 100% .buff_ids "Dare Fake Dodge 2" "One Turn" .on_hit false .on_miss true
+effect: .name "Dare Dodge ToolTip 3" .target "performer" .chance 100% .buff_ids "Dare Fake Dodge 3" "One Turn" .on_hit false .on_miss true
 
 effect: .name "Dare Skill ToolTip" .target "performer_group_other" .chance 100% .buff_ids "Offensive Mode ToolTip" .on_hit false .on_miss true
 
