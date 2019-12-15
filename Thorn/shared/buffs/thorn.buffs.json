@@ -348,6 +348,34 @@
             "string" : "defensive"
 		 }
 	  } ,
+	  {
+         "id" : "Dare Dodge 4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.08,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "defensive"
+		 }
+	  } ,
+	  {
+         "id" : "Dare Dodge 5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.1,
+         "duration" : 2,
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "defensive"
+		 }
+	  } ,
 	  
       {
          "id" : "Blossom Heal Debuff",
@@ -514,7 +542,7 @@
          "id" : "T_Signet_StressHeal_Debuff",
          "stat_type" : "stress_heal_received_percent",
          "stat_sub_type" : "effect",
-         "amount" : -0.75,
+         "amount" : -0.5,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
