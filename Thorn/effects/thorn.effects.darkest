@@ -4,8 +4,8 @@
 
 effect: .name "PRE vs Marked" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.20 .on_hit true .on_miss false .skill_instant true
 
-effect: .name "switch Add turn" .target "performer" .chance 100% .initiative_change 1 .on_hit true .on_miss true .has_description false
-effect: .name "switch End turn" .target "performer" .chance 100% .initiative_change -1 .on_hit true .on_miss true .has_description false
+effect: .name "switch Add turn" .target "performer" .chance 100% .initiative_change 1 .on_hit true .on_miss true .has_description false .queue true
+effect: .name "switch End turn" .target "performer" .chance 100% .initiative_change -1 .on_hit true .on_miss true .has_description false .queue true
 
 
 
