@@ -58,11 +58,11 @@ effect: .name "Cleav_Bleed 3" .target "target" .chance 120% .dotBleed 3 .duratio
 effect: .name "Cleav_Bleed 4" .target "target" .chance 130% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "Cleav_Bleed 5" .target "target" .chance 140% .dotBleed 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 
-effect: .name "Cleav_Crit 1" .target "performer" .chance 100% .buff_ids "Cleav_Crit 1" .on_hit true .on_miss false
-effect: .name "Cleav_Crit 2" .target "performer" .chance 100% .buff_ids "Cleav_Crit 2" .on_hit true .on_miss false
-effect: .name "Cleav_Crit 3" .target "performer" .chance 100% .buff_ids "Cleav_Crit 3" .on_hit true .on_miss false
-effect: .name "Cleav_Crit 4" .target "performer" .chance 100% .buff_ids "Cleav_Crit 4" .on_hit true .on_miss false
-effect: .name "Cleav_Crit 5" .target "performer" .chance 100% .buff_ids "Cleav_Crit 5" .on_hit true .on_miss false
+effect: .name "Cleav_Crit 1" .target "performer" .chance 100% .buff_ids "Cleav_Crit 1" .on_hit true .on_miss false .skill_instant true
+effect: .name "Cleav_Crit 2" .target "performer" .chance 100% .buff_ids "Cleav_Crit 2" .on_hit true .on_miss false .skill_instant true
+effect: .name "Cleav_Crit 3" .target "performer" .chance 100% .buff_ids "Cleav_Crit 3" .on_hit true .on_miss false .skill_instant true
+effect: .name "Cleav_Crit 4" .target "performer" .chance 100% .buff_ids "Cleav_Crit 4" .on_hit true .on_miss false .skill_instant true
+effect: .name "Cleav_Crit 5" .target "performer" .chance 100% .buff_ids "Cleav_Crit 5" .on_hit true .on_miss false .skill_instant true
 
 //apetizer
 
@@ -125,9 +125,9 @@ effect: .name "TT_CPiece_EffRes 5" .target "target" .chance 140% .buff_ids "TT_C
 
 //commis
 
-effect: .name "Commis_ClearGuardsPerformer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2 .has_description false
-effect: .name "Commis_ClearGuardsTarget" .target "target" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2 .has_description false
-effect: .name "Commis_Guard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 2
+effect: .name "Commis_ClearGuardsPerformer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 3 .has_description false
+effect: .name "Commis_ClearGuardsTarget" .target "target" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 3 .has_description false
+effect: .name "Commis_Guard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 3
 
 effect: .name "Commis_HRec 1" .target "target" .chance 100% .buff_ids "Commis_HRec 1" .on_hit true .on_miss true
 effect: .name "Commis_HRec 2" .target "target" .chance 100% .buff_ids "Commis_HRec 2" .on_hit true .on_miss true
