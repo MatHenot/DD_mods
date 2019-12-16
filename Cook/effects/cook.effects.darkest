@@ -94,16 +94,15 @@ effect: .name "Entremet_Random 50" .target "target" .chance 50% .dotHpHeal 1 .du
 effect: .name "TT_Entremet 2" .target "performer" .chance 100% .buff_ids "TT_Entremet 2" .on_hit false .on_miss true .skill_instant true
 effect: .name "TT_Entremet 4" .target "performer" .chance 100% .buff_ids "TT_Entremet 4" .on_hit false .on_miss true .skill_instant true
 
-effect: .name "Entremet_HP 1" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.10 .on_hit true .on_miss true
-effect: .name "Entremet_HP 2" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.12 .on_hit true .on_miss true
-effect: .name "Entremet_HP 3" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.15 .on_hit true .on_miss true
-effect: .name "Entremet_HP 4" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.17 .on_hit true .on_miss true
-effect: .name "Entremet_HP 5" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.20 .on_hit true .on_miss true
+effect: .name "Entremet_HP 1" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.15 .on_hit true .on_miss true
+effect: .name "Entremet_HP 2" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.17 .on_hit true .on_miss true
+effect: .name "Entremet_HP 3" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.20 .on_hit true .on_miss true
+effect: .name "Entremet_HP 4" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.22 .on_hit true .on_miss true
+effect: .name "Entremet_HP 5" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.25 .on_hit true .on_miss true
 
 //choicepiece
 
 effect: .name "CPiece_Mark" .target "target" .chance 100% .tag 1 .duration 3 .on_hit true .on_miss false
-effect: .name "CPiece_MarkHeal" .target "target" .chance 100% .dotHpHeal 4 .duration 3 .on_hit true .on_miss false
 
 effect: .name "CPiece_DMG 1" .target "target" .chance 100% .buff_ids "CPiece_DMG 1" .duration 3 .on_hit true .on_miss false .queue true
 effect: .name "CPiece_DMG 2" .target "target" .chance 110% .buff_ids "CPiece_DMG 1" .duration 3 .on_hit true .on_miss false .queue true
