@@ -68,7 +68,7 @@
          "stat_type" : "hp_heal_percent",
          "stat_sub_type" : "",
          "amount" : 0.15,
-		 "duration_type" : "always",
+		 "duration_type" : "round",
 		 "duration" : 10,
          "remove_if_not_active" : false,
          "remove_on_battle_complete" : true,
@@ -85,7 +85,7 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "TT_MCourse_HealBuff",
          "amount" : 1,
-		 "duration_type" : "always",
+		 "duration_type" : "round",
 		 "duration" : 10,
          "remove_if_not_active" : false,
          "remove_on_battle_complete" : true,
@@ -100,8 +100,8 @@
          "id" : "MCourse_BlightBuff A",
          "stat_type" : "hp_dot_poison_amount_percent",
          "stat_sub_type" : "",
-         "amount" : 0.10,
-		 "duration_type" : "always",
+         "amount" : 0.15,
+		 "duration_type" : "round",
 		 "duration" : 10,
          "remove_if_not_active" : false,
          "remove_on_battle_complete" : true,
@@ -118,7 +118,7 @@
          "stat_type" : "poison_chance",
          "stat_sub_type" : "",
          "amount" : 0.05,
-		 "duration_type" : "always",
+		 "duration_type" : "round",
 		 "duration" : 10,
          "remove_if_not_active" : false,
          "remove_on_battle_complete" : true,
@@ -143,7 +143,72 @@
             "string" : ""
          }
       },
-
+	  {
+         "id" : "TT_MCourse_FinalBlight 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_MCourse_FinalBlight_1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TT_MCourse_FinalBlight 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_MCourse_FinalBlight_2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TT_MCourse_FinalBlight 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_MCourse_FinalBlight_3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TT_MCourse_FinalBlight 4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_MCourse_FinalBlight_4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "TT_MCourse_FinalBlight 5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_MCourse_FinalBlight_5",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  
       {
          "id" : "Cleav_Crit 1",
          "stat_type" : "combat_stat_add",
@@ -152,11 +217,11 @@
 		 "duration_type" : "always",
 		 "duration" : 1,
          "remove_if_not_active" : false,
-         "rule_type" : "skill",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "cleaver"
+            "string" : ""
          }
       },	 
       {
@@ -167,11 +232,11 @@
 		 "duration_type" : "always",
 		 "duration" : 1,
          "remove_if_not_active" : false,
-         "rule_type" : "skill",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "cleaver"
+            "string" : ""
          }
       },
       {
@@ -182,11 +247,11 @@
 		 "duration_type" : "always",
 		 "duration" : 1,
          "remove_if_not_active" : false,
-         "rule_type" : "skill",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "cleaver"
+            "string" : ""
          }
       },
       {
@@ -197,11 +262,11 @@
 		 "duration_type" : "always",
 		 "duration" : 1,
          "remove_if_not_active" : false,
-         "rule_type" : "skill",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "cleaver"
+            "string" : ""
          }
       },
       {
@@ -212,18 +277,18 @@
 		 "duration_type" : "always",
 		 "duration" : 1,
          "remove_if_not_active" : false,
-         "rule_type" : "skill",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "cleaver"
+            "string" : ""
          }
       },
 	  
 	  {
-         "id" : "TT_Apetizer 2",
+         "id" : "TT_Condiment 2",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_Apetizer_2",
+         "stat_sub_type" : "TT_Condiment_2",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -234,9 +299,9 @@
          }
       },
 	  {
-         "id" : "TT_Apetizer 4",
+         "id" : "TT_Condiment 4",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_Apetizer_4",
+         "stat_sub_type" : "TT_Condiment_4",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
@@ -247,9 +312,9 @@
          }
       },
 	  {
-         "id" : "TT_Apetizer_Cont",
+         "id" : "TT_Condiment_Cont",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "TT_Apetizer_Cont",
+         "stat_sub_type" : "TT_Condiment_Cont",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",

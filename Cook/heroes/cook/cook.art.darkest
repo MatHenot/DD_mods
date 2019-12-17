@@ -16,7 +16,7 @@ combat_skill: .id "maincourse" .icon "one" .anim "transformation" .fx "" .targch
 combat_skill: .id "cleaver" .icon "two" .anim "attack_chain" .fx "" .targfx "" .condensed_tooltip_stats true
 combat_skill: .id "choicepiece" .icon "three" .anim "attack_chain" .fx "" .targfx "" .condensed_tooltip_stats true
 combat_skill: .id "poisonedbait" .icon "four" .anim "attack_chain" .fx "" .targchestfx "" .condensed_tooltip_stats true
-combat_skill: .id "apetizer" .icon "five" .anim "attack_chain" .fx "" .targfx "" .condensed_tooltip_stats true
+combat_skill: .id "condiment" .icon "five" .anim "attack_chain" .fx "" .targfx "" .condensed_tooltip_stats true
 combat_skill: .id "entremet" .icon "six" .anim "attack_chain" .fx "" .targchestfx "" .condensed_tooltip_stats true
 combat_skill: .id "commis" .icon "seven" .anim "attack_chain" .fx "" .targchestfx "" .condensed_tooltip_stats true
 

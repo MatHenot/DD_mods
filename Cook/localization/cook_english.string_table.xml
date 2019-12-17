@@ -29,7 +29,7 @@
 	
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[Main Course]]></entry>
 	<entry id="combat_skill_name_cook_cleaver"><![CDATA[Cleaver]]></entry>
-    <entry id="combat_skill_name_cook_apetizer"><![CDATA[Apetizer]]></entry>
+    <entry id="combat_skill_name_cook_condiment"><![CDATA[Occult Condiment]]></entry>
     <entry id="combat_skill_name_cook_entremet"><![CDATA[Entremet]]></entry>
     <entry id="combat_skill_name_cook_choicepiece"><![CDATA[Choice Piece]]></entry>
     <entry id="combat_skill_name_cook_poisonedbait"><![CDATA[Poisoned Bait]]></entry>
@@ -37,7 +37,7 @@
     <entry id="combat_skill_name_cook_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_cook.maincourse"><![CDATA[Main Course]]></entry>
     <entry id="upgrade_tree_name_cook.cleaver"><![CDATA[Cleaver]]></entry>
-    <entry id="upgrade_tree_name_cook.apetizer"><![CDATA[Apetizer]]></entry>
+    <entry id="upgrade_tree_name_cook.condiment"><![CDATA[Occult Condiment]]></entry>
     <entry id="upgrade_tree_name_cook.entremet"><![CDATA[Entremet]]></entry>
     <entry id="upgrade_tree_name_cook.choicepiece"><![CDATA[Choice Piece]]></entry>
     <entry id="upgrade_tree_name_cook.poisonedbait"><![CDATA[Poisoned Bait]]></entry>
@@ -81,15 +81,31 @@
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Steal {colour_start|healhp}Restoration{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Disable Move]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[(Before Combat Ends Only)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[{colour_start|skill_unselectable}Before Combat Ends Only{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[Ends {colour_start|healhp}Restoration{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[Enemies:
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(90%% base){colour_end}
+	5 pts/rd for 1rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_2"><![CDATA[Enemies:
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end}
+	6 pts/rd for 1rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_3"><![CDATA[Enemies:
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end}
+	7 pts/rd for 1rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_4"><![CDATA[Enemies:
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end}
+	8 pts/rd for 1rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_5"><![CDATA[Enemies:
+	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}
+	9 pts/rd for 1rds]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cleav_IfBleed"><![CDATA[If {colour_start|bleed}Bleeding:{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Apetizer_Cont"><![CDATA[{colour_start|notable}Continue Turn{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Apetizer_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 1-2 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Apetizer_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_Cont"><![CDATA[{colour_start|notable}Continue Turn{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 1-2 pts/rd for 2 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 3-4 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%% All Resistances]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%% All Resistances]]></entry>
+	
 
     <entry id="cook+str_afflicted_fearful"><![CDATA[This trip was pure madness!]]></entry>
     <entry id="cook+str_afflicted_fearful"><![CDATA[Nothing could have prepared me for that...]]></entry>
