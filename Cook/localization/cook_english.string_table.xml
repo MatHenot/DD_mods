@@ -76,7 +76,6 @@
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[+%d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[+%d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_percent_eat"><![CDATA[+%d%% {colour_start|healhp}Healing{colour_end} Received when consuming Food]]></entry>
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Main Course]]></entry>
 	<entry id="buff_rule_data_tooltip_cleaver"><![CDATA[Cleaver]]></entry>
 
