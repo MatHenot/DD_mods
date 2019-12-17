@@ -354,7 +354,7 @@
 				{ 
 					"selection" : "self",
 					"requirements" : [],
-					"chance" : { "code" : "a", "amount": 1 }, 
+					"chance" : { "code" : "c", "amount": 1 }, 
 					"type" : "buff",
 					"sub_type" : "C_Listen_P_Surprise",
 					"amount" :  -0.2
