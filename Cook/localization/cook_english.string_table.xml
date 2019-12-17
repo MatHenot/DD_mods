@@ -43,10 +43,10 @@
     <entry id="upgrade_tree_name_cook.poisonedbait"><![CDATA[Poisoned Bait]]></entry>
     <entry id="upgrade_tree_name_cook.commis"><![CDATA[Commis]]></entry>
 
-    <entry id="camping_skill_name_mithridatism"><![CDATA[MITHRIDATISM]]></entry>
-    <entry id="camping_skill_name_exotic_spices"><![CDATA[EXOTIC SPICES]]></entry>
-    <entry id="camping_skill_name_melody"><![CDATA[MELODY]]></entry>
-    <entry id="camping_skill_name_prelude"><![CDATA[PRELUDE]]></entry>
+    <entry id="camping_skill_name_gourmet"><![CDATA[GOURMETS]]></entry>
+    <entry id="camping_skill_name_purge"><![CDATA[PURGE]]></entry>
+    <entry id="camping_skill_name_apetizer"><![CDATA[APETIZER]]></entry>
+    <entry id="camping_skill_name_light_bearer"><![CDATA[LIGHT BEARER]]></entry>
 	
 	<entry id="cook_weapon_0"><![CDATA[Rusty Box]]></entry>
     <entry id="cook_weapon_1"><![CDATA[Rustic Box]]></entry>
@@ -76,6 +76,7 @@
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[+%d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[+%d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_percent_eat"><![CDATA[+%d%% {colour_start|healhp}Healing{colour_end} Received when consuming Food]]></entry>
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Main Course]]></entry>
 	<entry id="buff_rule_data_tooltip_cleaver"><![CDATA[Cleaver]]></entry>
 
