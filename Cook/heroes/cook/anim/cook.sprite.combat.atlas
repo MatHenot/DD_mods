@@ -1,200 +1,18 @@
 
 cook.sprite.combat.png
-<<<<<<< HEAD
-<<<<<<< HEAD
-size: 2735,616
-format: RGBA8888
-filter: Linear,Linear
-repeat: none
-Cbraises
-  rotate: true
-  xy: 2554, 335
-  size: 224, 93
-  orig: 224, 93
-=======
 size: 1261,1038
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-=======
-size: 1261,1038
-format: RGBA8888
-filter: Linear,Linear
-repeat: none
->>>>>>> parent of 33d8c6c... Lé zoli poz 2 konba
 images/IDle Sac
   rotate: false
   xy: 697, 99
   size: 562, 937
   orig: 562, 937
-<<<<<<< HEAD
->>>>>>> parent of 33d8c6c... Lé zoli poz 2 konba
-=======
->>>>>>> parent of 33d8c6c... Lé zoli poz 2 konba
   offset: 0, 0
   index: -1
 images/IdlenoSac
   rotate: false
-<<<<<<< HEAD
-<<<<<<< HEAD
-  xy: 1736, 22
-  size: 170, 174
-  orig: 170, 174
-  offset: 0, 0
-  index: -1
-CbrasG
-  rotate: true
-  xy: 1015, 13
-  size: 178, 154
-  orig: 178, 154
-  offset: 0, 0
-  index: -1
-CbrazAr
-  rotate: false
-  xy: 2, 4
-  size: 278, 46
-  orig: 278, 46
-  offset: 0, 0
-  index: -1
-Cbrazfront
-  rotate: true
-  xy: 1083, 198
-  size: 416, 682
-  orig: 416, 682
-  offset: 0, 0
-  index: -1
-CcasseroleAr
-  rotate: false
-  xy: 2459, 239
-  size: 229, 60
-  orig: 229, 60
-  offset: 0, 0
-  index: -1
-CcasseroleAv
-  rotate: true
-  xy: 862, 193
-  size: 421, 219
-  orig: 421, 219
-  offset: 0, 0
-  index: -1
-Cceinture
-  rotate: true
-  xy: 2649, 335
-  size: 224, 83
-  orig: 224, 83
-  offset: 0, 0
-  index: -1
-CcheveuxAr
-  rotate: true
-  xy: 2554, 561
-  size: 53, 147
-  orig: 53, 147
-  offset: 0, 0
-  index: -1
-CcheveuxAv
-  rotate: false
-  xy: 2459, 10
-  size: 218, 227
-  orig: 218, 227
-  offset: 0, 0
-  index: -1
-Ccollier
-  rotate: false
-  xy: 761, 11
-  size: 81, 122
-  orig: 81, 122
-  offset: 0, 0
-  index: -1
-Ccorptop
-  rotate: true
-  xy: 2126, 284
-  size: 330, 324
-  orig: 330, 324
-  offset: 0, 0
-  index: -1
-Ccouteau
-  rotate: true
-  xy: 1171, 2
-  size: 194, 291
-  orig: 194, 291
-  offset: 0, 0
-  index: -1
-Ccuillere
-  rotate: false
-  xy: 2150, 22
-  size: 307, 260
-  orig: 307, 260
-  offset: 0, 0
-  index: -1
-Cfumée
-  rotate: false
-  xy: 1767, 242
-  size: 357, 372
-  orig: 357, 372
-  offset: 0, 0
-  index: -1
-CjambeD
-  rotate: false
-  xy: 677, 135
-  size: 183, 479
-  orig: 183, 479
-  offset: 0, 0
-  index: -1
-CjambeG
-  rotate: false
-  xy: 930, 2
-  size: 83, 189
-  orig: 83, 189
-  offset: 0, 0
-  index: -1
-CmainsG
-  rotate: true
-  xy: 677, 4
-  size: 129, 82
-  orig: 129, 82
-  offset: 0, 0
-  index: -1
-CmecheD
-  rotate: false
-  xy: 844, 28
-  size: 84, 105
-  orig: 84, 105
-  offset: 0, 0
-  index: -1
-CmecheG
-  rotate: false
-  xy: 2679, 156
-  size: 54, 81
-  orig: 54, 81
-  offset: 0, 0
-  index: -1
-Ctablier
-  rotate: true
-  xy: 1464, 22
-  size: 174, 270
-  orig: 174, 270
-  offset: 0, 0
-  index: -1
-Ctete
-  rotate: true
-  xy: 1908, 4
-  size: 236, 240
-  orig: 236, 240
-  offset: 0, 0
-  index: -1
-Sac
-  rotate: true
-  xy: 2, 52
-  size: 562, 673
-  orig: 562, 673
-  offset: 0, 0
-  index: -1
-eclairgeTest1
-  rotate: true
-  xy: 2452, 301
-  size: 313, 100
-  orig: 313, 100
-=======
   xy: 2, 69
   size: 693, 967
   orig: 693, 967
@@ -202,18 +20,8 @@ eclairgeTest1
   index: -1
 images/ombre
   rotate: false
-=======
-  xy: 2, 69
-  size: 693, 967
-  orig: 693, 967
-  offset: 0, 0
-  index: -1
-images/ombre
-  rotate: false
->>>>>>> parent of 33d8c6c... Lé zoli poz 2 konba
   xy: 2, 2
   size: 359, 65
   orig: 359, 65
->>>>>>> parent of 33d8c6c... Lé zoli poz 2 konba
   offset: 0, 0
   index: -1
