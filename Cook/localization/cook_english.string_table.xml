@@ -78,6 +78,7 @@
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[+%d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Main Course]]></entry>
 	<entry id="buff_rule_data_tooltip_cleaver"><![CDATA[Cleaver]]></entry>
+    <entry id="str_quirk_name_binge"><![CDATA[Binge]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Steal {colour_start|healhp}Restoration{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Disable Move]]></entry>

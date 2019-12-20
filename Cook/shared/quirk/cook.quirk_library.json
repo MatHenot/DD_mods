@@ -2,7 +2,7 @@
    "quirks":
    [
       {
-         "id" : "Indigestion",
+         "id" : "binge",
          "show_explicit_buff_description" : true,
          "show_flavor_description" : false,
          "show_explicit_curio_tag_description" : false,
