@@ -1,6 +1,7 @@
 
 cook.sprite.combat.png
 <<<<<<< HEAD
+<<<<<<< HEAD
 size: 2735,616
 format: RGBA8888
 filter: Linear,Linear
@@ -15,16 +16,26 @@ size: 1261,1038
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+=======
+size: 1261,1038
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+>>>>>>> parent of 33d8c6c... Lé zoli poz 2 konba
 images/IDle Sac
   rotate: false
   xy: 697, 99
   size: 562, 937
   orig: 562, 937
+<<<<<<< HEAD
+>>>>>>> parent of 33d8c6c... Lé zoli poz 2 konba
+=======
 >>>>>>> parent of 33d8c6c... Lé zoli poz 2 konba
   offset: 0, 0
   index: -1
 images/IdlenoSac
   rotate: false
+<<<<<<< HEAD
 <<<<<<< HEAD
   xy: 1736, 22
   size: 170, 174
@@ -191,6 +202,15 @@ eclairgeTest1
   index: -1
 images/ombre
   rotate: false
+=======
+  xy: 2, 69
+  size: 693, 967
+  orig: 693, 967
+  offset: 0, 0
+  index: -1
+images/ombre
+  rotate: false
+>>>>>>> parent of 33d8c6c... Lé zoli poz 2 konba
   xy: 2, 2
   size: 359, 65
   orig: 359, 65
