@@ -1,26 +1,264 @@
 
 cook.sprite.combat.png
-size: 1261,1038
+size: 2775,806
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/IDle Sac
+Cbraises
   rotate: false
-  xy: 697, 99
-  size: 562, 937
-  orig: 562, 937
+  xy: 363, 36
+  size: 224, 93
+  orig: 224, 93
   offset: 0, 0
   index: -1
-images/IdlenoSac
+CbrasD
   rotate: false
-  xy: 2, 69
-  size: 693, 967
-  orig: 693, 967
+  xy: 2603, 16
+  size: 170, 174
+  orig: 170, 174
   offset: 0, 0
   index: -1
-images/ombre
+CbrasG
+  rotate: false
+  xy: 1279, 14
+  size: 178, 154
+  orig: 178, 154
+  offset: 0, 0
+  index: -1
+CbrazAr
+  rotate: false
+  xy: 566, 133
+  size: 278, 46
+  orig: 278, 46
+  offset: 0, 0
+  index: -1
+Cbrazfront
+  rotate: true
+  xy: 566, 388
+  size: 416, 682
+  orig: 416, 682
+  offset: 0, 0
+  index: -1
+CcasseroleAr
   rotate: false
   xy: 2, 2
+  size: 229, 60
+  orig: 229, 60
+  offset: 0, 0
+  index: -1
+CcasseroleAv
+  rotate: false
+  xy: 1609, 400
+  size: 421, 219
+  orig: 421, 219
+  offset: 0, 0
+  index: -1
+Cceinture
+  rotate: false
+  xy: 589, 48
+  size: 224, 83
+  orig: 224, 83
+  offset: 0, 0
+  index: -1
+CcheveuxAr
+  rotate: false
+  xy: 2032, 472
+  size: 53, 147
+  orig: 53, 147
+  offset: 0, 0
+  index: -1
+CcheveuxAv
+  rotate: false
+  xy: 1059, 159
+  size: 218, 227
+  orig: 218, 227
+  offset: 0, 0
+  index: -1
+Ccollier
+  rotate: false
+  xy: 1717, 41
+  size: 81, 122
+  orig: 81, 122
+  offset: 0, 0
+  index: -1
+Ccorptop
+  rotate: false
+  xy: 2424, 480
+  size: 330, 324
+  orig: 330, 324
+  offset: 0, 0
+  index: -1
+Ccouteau
+  rotate: false
+  xy: 1911, 107
+  size: 194, 291
+  orig: 194, 291
+  offset: 0, 0
+  index: -1
+Ccuillere
+  rotate: false
+  xy: 1279, 170
+  size: 307, 260
+  orig: 307, 260
+  offset: 0, 0
+  index: -1
+Cfumée
+  rotate: false
+  xy: 1250, 432
+  size: 357, 372
+  orig: 357, 372
+  offset: 0, 0
+  index: -1
+CjambeD
+  rotate: true
+  xy: 1609, 621
+  size: 183, 479
+  orig: 183, 479
+  offset: 0, 0
+  index: -1
+CjambeG
+  rotate: true
+  xy: 846, 96
+  size: 83, 189
+  orig: 83, 189
+  offset: 0, 0
+  index: -1
+CmainsG
+  rotate: true
+  xy: 1459, 39
+  size: 129, 82
+  orig: 129, 82
+  offset: 0, 0
+  index: -1
+CmecheD
+  rotate: true
+  xy: 1999, 21
+  size: 84, 105
+  orig: 84, 105
+  offset: 0, 0
+  index: -1
+CmecheG
+  rotate: true
+  xy: 904, 40
+  size: 54, 81
+  orig: 54, 81
+  offset: 0, 0
+  index: -1
+Ctablier
+  rotate: true
+  xy: 2107, 38
+  size: 174, 270
+  orig: 174, 270
+  offset: 0, 0
+  index: -1
+Ctete
+  rotate: false
+  xy: 2379, 238
+  size: 236, 240
+  orig: 236, 240
+  offset: 0, 0
+  index: -1
+NCCorps
+  rotate: false
+  xy: 2090, 483
+  size: 332, 321
+  orig: 332, 321
+  offset: 0, 0
+  index: -1
+NCEpauleG
+  rotate: true
+  xy: 815, 16
+  size: 78, 87
+  orig: 78, 87
+  offset: 0, 0
+  index: -1
+NCMainD
+  rotate: false
+  xy: 1800, 59
+  size: 87, 104
+  orig: 87, 104
+  offset: 0, 0
+  index: -1
+NCMainG
+  rotate: true
+  xy: 1889, 36
+  size: 69, 108
+  orig: 69, 108
+  offset: 0, 0
+  index: -1
+NCTablier
+  rotate: false
+  xy: 2107, 214
+  size: 270, 267
+  orig: 270, 267
+  offset: 0, 0
+  index: -1
+NCTete
+  rotate: true
+  xy: 1543, 20
+  size: 143, 172
+  orig: 143, 172
+  offset: 0, 0
+  index: -1
+NCceinture
+  rotate: true
+  xy: 1588, 165
+  size: 233, 321
+  orig: 233, 321
+  offset: 0, 0
+  index: -1
+NCcheveux
+  rotate: false
+  xy: 2379, 22
+  size: 222, 214
+  orig: 222, 214
+  offset: 0, 0
+  index: -1
+NCcollier
+  rotate: true
+  xy: 1037, 21
+  size: 136, 215
+  orig: 136, 215
+  offset: 0, 0
+  index: -1
+NCjambeD
+  rotate: true
+  xy: 566, 181
+  size: 205, 491
+  orig: 205, 491
+  offset: 0, 0
+  index: -1
+NCjambeG
+  rotate: false
+  xy: 2617, 192
+  size: 154, 286
+  orig: 154, 286
+  offset: 0, 0
+  index: -1
+NCmecheAV
+  rotate: true
+  xy: 1717, 2
+  size: 37, 94
+  orig: 37, 94
+  offset: 0, 0
+  index: -1
+NCmecheAr
+  rotate: true
+  xy: 233, 16
+  size: 46, 118
+  orig: 46, 118
+  offset: 0, 0
+  index: -1
+Sac
+  rotate: false
+  xy: 2, 131
+  size: 562, 673
+  orig: 562, 673
+  offset: 0, 0
+  index: -1
+ombre
+  rotate: false
+  xy: 2, 64
   size: 359, 65
   orig: 359, 65
   offset: 0, 0
