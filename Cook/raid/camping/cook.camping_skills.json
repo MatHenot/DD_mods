@@ -123,9 +123,9 @@
 		},
 		
 		{ 
-			"id" : "mithridatism",
+			"id" : "gourmet",
 			"level" : 0,
-			"cost" : 1,
+			"cost" : 3,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -134,8 +134,16 @@
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type": "buff",
-                    "sub_type" : "SC_C_BlightResist_Buff",
-					"amount" :  0.10
+                    "sub_type" : "C_Gourmet_Heal",
+					"amount" :  0.50
+				},
+				{ 
+					"selection" : "party",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 }, 
+					"type": "buff",
+                    "sub_type" : "C_Gourmet_FoodConsume",
+					"amount" :  0.50
 				}
 			],
 			"hero_classes" : ["cook"],
@@ -156,7 +164,64 @@
 		}, 
 		
 		{ 
-			"id" : "exotic_spices",
+			"id" : "purge",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1 },
+					"type": "remove_disease",
+					"sub_type": "",
+					"amount": 0
+				},
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 0.8 },
+                    "type": "remove_poison",
+                    "sub_type" : "",
+					"amount" :  0
+				},
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 0.8 },
+                    "type": "remove_bleeding",
+                    "sub_type" : "",
+					"amount" :  0
+				},
+				{ 
+					"selection" : "individual",
+					"requirements" : [],
+					"chance" : { "code" : "d", "amount": 1.0 }, 
+					"type": "buff",
+                    "sub_type" : "C_HealRec",
+					"amount" :  -0.20
+				}
+			],
+			"hero_classes" : ["cook"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			] 
+		}, 
+		
+		{ 
+			"id" : "apetizer",
 			"level" : 0,
 			"cost" : 2,
 			"use_limit" : 1,
@@ -165,25 +230,17 @@
 				{ 
 					"selection" : "individual",
 					"requirements" : [],
-					"chance" : { "code" : "a", "amount": 0.75 }, 
-					"type" : "buff",
-					"sub_type" : "SC_C_Crit_Buff",
-					"amount" :  0.10
+					"chance" : { "code" : "a", "amount": 1.0 }, 
+					"type": "buff",
+                    "sub_type" : "C_MaxHP",
+					"amount" :  0.20
 				},
 				{ 
 					"selection" : "individual",
 					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 0.75 }, 
-					"type" : "buff",
-					"sub_type" : "SC_C_Speed_Buff",
-					"amount" :  5
-				},
-				{ 
-					"selection" : "individual",
-					"requirements" : [],
-					"chance" : { "code" : "c", "amount": 0.50 }, 
-					"type" : "buff",
-					"sub_type" : "SC_C_Stress_Buff",
+					"chance" : { "code" : "b", "amount": 1.0 }, 
+					"type": "buff",
+                    "sub_type" : "C_HealRec",
 					"amount" :  0.20
 				}
 			],
@@ -205,69 +262,28 @@
 		}, 
 		
 		{ 
-			"id" : "melody",
+			"id" : "light_bearer",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 1,
 			"use_limit" : 1,
 			"effects" :
 			[
 				{ 
-					"selection" : "party_other",
+					"selection" : "self",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1 }, 
 					"type" : "buff",
-					"sub_type" : "SC_C_RandomCrit_Buff",
-					"amount" :  0.05
+					"sub_type" : "C_LBearer_Torch",
+					"amount" :  -0.3
 				},
 				{ 
-					"selection" : "party_other",
-					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 1 }, 
-					"type" : "stress_heal_amount",
-					"sub_type" : "",
-					"amount" :  10
-				}
-			],
-			"hero_classes" : ["cook"],
-			"upgrade_requirements" :  	
-			[
-				{
-					"code" : "0",
-					"currency_cost" :			
-					[
-						{ "type" : "gold", "amount" : 1750 }
-					],
-					"prerequisite_requirements" :
-					[
-						
-					]
-				}
-			] 
-		}, 
-		
-		{ 
-			"id" : "prelude",
-			"level" : 0,
-			"cost" : 1,
-			"use_limit" : 2,
-			"effects" :
-			[
-				{
-					"selection" : "party",
-					"requirements" : [],
-					"chance" : { "code" : "a", "amount": 1.0 },
-					"type" : "buff",
-					"sub_type" : "SC_C_Stress_Heal_buff",
-					"amount" :  0.15
-				},
-				{
 					"selection" : "self",
 					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 1.0 },
-					"type" : "buff",
-					"sub_type" : "SC_C_CT_blight",
-					"amount" :  0.10
-				}				
+					"chance" : { "code" : "b", "amount": 1.0 }, 
+					"type": "buff",
+                    "sub_type" : "C_LBearer_PS",
+					"amount" :  -0.20
+				}			
 
 			],
 			"hero_classes" : ["cook"],
