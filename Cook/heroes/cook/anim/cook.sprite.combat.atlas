@@ -1,26 +1,264 @@
 
 cook.sprite.combat.png
-size: 1261,1038
+size: 818,1045
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/IDle Sac
-  rotate: false
-  xy: 697, 99
-  size: 562, 937
-  orig: 562, 937
+Cbraises
+  rotate: true
+  xy: 703, 819
+  size: 224, 93
+  orig: 224, 93
   offset: 0, 0
   index: -1
-images/IdlenoSac
-  rotate: false
-  xy: 2, 69
-  size: 693, 967
-  orig: 693, 967
-  offset: 0, 0
-  index: -1
-images/ombre
-  rotate: false
+CbrasD
+  rotate: true
   xy: 2, 2
+  size: 103, 105
+  orig: 103, 105
+  offset: 0, 0
+  index: -1
+CbrasG
+  rotate: false
+  xy: 705, 7
+  size: 108, 93
+  orig: 108, 93
+  offset: 0, 0
+  index: -1
+CbrazAr
+  rotate: true
+  xy: 356, 216
+  size: 168, 28
+  orig: 168, 28
+  offset: 0, 0
+  index: -1
+Cbrazfront
+  rotate: true
+  xy: 2, 386
+  size: 250, 410
+  orig: 250, 410
+  offset: 0, 0
+  index: -1
+CcasseroleAr
+  rotate: false
+  xy: 674, 267
+  size: 138, 37
+  orig: 138, 37
+  offset: 0, 0
+  index: -1
+CcasseroleAv
+  rotate: true
+  xy: 540, 186
+  size: 253, 132
+  orig: 253, 132
+  offset: 0, 0
+  index: -1
+Cceinture
+  rotate: false
+  xy: 568, 766
+  size: 135, 51
+  orig: 135, 51
+  offset: 0, 0
+  index: -1
+CcheveuxAr
+  rotate: false
+  xy: 492, 53
+  size: 33, 89
+  orig: 33, 89
+  offset: 0, 0
+  index: -1
+CcheveuxAv
+  rotate: false
+  xy: 568, 839
+  size: 132, 137
+  orig: 132, 137
+  offset: 0, 0
+  index: -1
+Ccollier
+  rotate: true
+  xy: 109, 10
+  size: 49, 74
+  orig: 49, 74
+  offset: 0, 0
+  index: -1
+Ccorptop
+  rotate: true
+  xy: 414, 441
+  size: 199, 195
+  orig: 199, 195
+  offset: 0, 0
+  index: -1
+Ccouteau
+  rotate: true
+  xy: 342, 642
+  size: 117, 175
+  orig: 117, 175
+  offset: 0, 0
+  index: -1
+Ccuillere
+  rotate: true
+  xy: 197, 199
+  size: 185, 157
+  orig: 185, 157
+  offset: 0, 0
+  index: -1
+CjambeD
+  rotate: true
+  xy: 519, 648
+  size: 111, 288
+  orig: 111, 288
+  offset: 0, 0
+  index: -1
+CjambeG
+  rotate: false
+  xy: 133, 127
+  size: 51, 114
+  orig: 51, 114
+  offset: 0, 0
+  index: -1
+CmainsG
+  rotate: true
+  xy: 292, 24
+  size: 78, 50
+  orig: 78, 50
+  offset: 0, 0
+  index: -1
+CmecheD
+  rotate: false
+  xy: 133, 61
+  size: 51, 64
+  orig: 51, 64
+  offset: 0, 0
+  index: -1
+CmecheG
+  rotate: false
+  xy: 770, 768
+  size: 33, 49
+  orig: 33, 49
+  offset: 0, 0
+  index: -1
+Csmoke
+  rotate: true
+  xy: 342, 761
+  size: 215, 224
+  orig: 215, 224
+  offset: 0, 0
+  index: -1
+Ctablier
+  rotate: false
+  xy: 705, 102
+  size: 105, 163
+  orig: 105, 163
+  offset: 0, 0
+  index: -1
+Ctete
+  rotate: false
+  xy: 674, 306
+  size: 142, 145
+  orig: 142, 145
+  offset: 0, 0
+  index: -1
+NCCorps
+  rotate: false
+  xy: 611, 453
+  size: 200, 193
+  orig: 200, 193
+  offset: 0, 0
+  index: -1
+NCEpauleG
+  rotate: true
+  xy: 344, 10
+  size: 48, 53
+  orig: 48, 53
+  offset: 0, 0
+  index: -1
+NCMainD
+  rotate: true
+  xy: 705, 764
+  size: 53, 63
+  orig: 53, 63
+  offset: 0, 0
+  index: -1
+NCMainG
+  rotate: false
+  xy: 360, 148
+  size: 42, 66
+  orig: 42, 66
+  offset: 0, 0
+  index: -1
+NCTablier
+  rotate: false
+  xy: 540, 23
+  size: 163, 161
+  orig: 163, 161
+  offset: 0, 0
+  index: -1
+NCTete
+  rotate: true
+  xy: 186, 15
+  size: 87, 104
+  orig: 87, 104
+  offset: 0, 0
+  index: -1
+NCceinture
+  rotate: true
+  xy: 2, 243
+  size: 141, 193
+  orig: 141, 193
+  offset: 0, 0
+  index: -1
+NCcheveux
+  rotate: true
+  xy: 2, 107
+  size: 134, 129
+  orig: 134, 129
+  offset: 0, 0
+  index: -1
+NCcollier
+  rotate: true
+  xy: 360, 60
+  size: 82, 130
+  orig: 82, 130
+  offset: 0, 0
+  index: -1
+NCjambeD
+  rotate: false
+  xy: 414, 144
+  size: 124, 295
+  orig: 124, 295
+  offset: 0, 0
+  index: -1
+NCjambeG
+  rotate: true
+  xy: 186, 104
+  size: 93, 172
+  orig: 93, 172
+  offset: 0, 0
+  index: -1
+NCmecheAV
+  rotate: false
+  xy: 386, 327
+  size: 23, 57
+  orig: 23, 57
+  offset: 0, 0
+  index: -1
+NCmecheAr
+  rotate: false
+  xy: 674, 193
+  size: 28, 72
+  orig: 28, 72
+  offset: 0, 0
+  index: -1
+Sac
+  rotate: false
+  xy: 2, 638
+  size: 338, 405
+  orig: 338, 405
+  offset: 0, 0
+  index: -1
+ombre
+  rotate: false
+  xy: 342, 978
   size: 359, 65
   orig: 359, 65
   offset: 0, 0
