@@ -1,19 +1,19 @@
 
 cook.sprite.investigate.png
-size: 682,410
+size: 682,408
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 Calque 3 copie
   rotate: true
   xy: 2, 2
-  size: 406, 611
-  orig: 406, 611
+  size: 404, 611
+  orig: 404, 611
   offset: 0, 0
   index: -1
 ombre
   rotate: true
-  xy: 615, 49
+  xy: 615, 47
   size: 359, 65
   orig: 359, 65
   offset: 0, 0
