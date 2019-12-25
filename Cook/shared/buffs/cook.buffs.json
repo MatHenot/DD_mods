@@ -706,7 +706,7 @@
       },
 	  
 	  {
-         "id" : "C_Gourmet_Heal",
+         "id" : "C_Abundance_Heal",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "eat",
          "amount" : 0.5,
@@ -720,7 +720,7 @@
          }
       },
 	  {
-         "id" : "C_Gourmet_FoodConsume",
+         "id" : "C_Abundance_FoodConsume",
          "stat_type" : "food_consumption_percent",
          "stat_sub_type" : "",
          "amount" : 0.5,
