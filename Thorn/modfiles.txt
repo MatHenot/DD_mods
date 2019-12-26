@@ -195,7 +195,7 @@ heroes/thorn/thorn.ability.six.png 94630
 heroes/thorn/thorn.ability.three.png 65440
 heroes/thorn/thorn.ability.two.png 64442
 heroes/thorn/thorn.art.darkest 2630
-heroes/thorn/thorn.info.darkest 18289
+heroes/thorn/thorn.info.darkest 21289
 heroes/thorn/thorn_guild_header.png 266848
 raid/actor_dot/thorn.actor_dot.json 472
 raid/camping/thorn.camping_skills.json 7836
@@ -233,6 +233,6 @@ trinkets/crimson_court.rarities.trinkets.json 171
 trinkets/thorn.entries.trinkets.json 4156
 trinkets/thorn.sets.trinkets.json 153
 trinkets/thorn_east_town.rarities.trinkets.json 162
-modfiles.txt 12170
+modfiles.txt 12030
 preview_icon.png 409070
 project.xml 581
