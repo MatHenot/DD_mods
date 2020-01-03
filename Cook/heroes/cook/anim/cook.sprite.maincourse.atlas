@@ -1,27 +1,27 @@
 
 cook.sprite.maincourse.png
-size: 842,457
+size: 824,442
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 ombre
   rotate: true
-  xy: 775, 96
+  xy: 757, 81
   size: 359, 65
   orig: 359, 65
   offset: 0, 0
   index: -1
 tranfoA
   rotate: false
-  xy: 491, 17
+  xy: 473, 2
   size: 282, 438
   orig: 282, 438
   offset: 0, 0
   index: -1
 transfoB
   rotate: true
-  xy: 2, 2
-  size: 453, 487
-  orig: 453, 487
+  xy: 2, 4
+  size: 436, 469
+  orig: 436, 469
   offset: 0, 0
   index: -1
