@@ -6,7 +6,7 @@
          "show_explicit_buff_description" : true,
          "show_flavor_description" : false,
          "show_explicit_curio_tag_description" : false,
-         "random_chance" : 1,
+         "random_chance" : 0,
          "is_positive" : false,
          "is_disease" : true,
          "classification" : "physical",

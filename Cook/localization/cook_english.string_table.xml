@@ -15,20 +15,20 @@
 	<entry id="town_event_title_idle_resolve_level_cook"><![CDATA[Street Show]]></entry>
 	<entry id="town_event_description_idle_resolve_level_cook"><![CDATA[It is a strange and enticing music on which serpents rise and undulate, possessed by an invisible power.]]></entry>
 	
-	<entry id="str_inventory_title_trinketcook_ancient_knowledge"><![CDATA[Ancient Knowledge]]></entry>
-	<entry id="str_inventory_title_trinketcook_fabric_strap"><![CDATA[Fabric Strap]]></entry>
-	<entry id="str_inventory_title_trinketcook_reptilian_plates"><![CDATA[Scales Tattoo]]></entry>
-	<entry id="str_inventory_title_trinketcook_used_gloves"><![CDATA[Used Gloves]]></entry>
-	<entry id="str_inventory_title_trinketcook_vision_pendant"><![CDATA[Vision Pendant]]></entry>
-	<entry id="str_inventory_set_title_cc_cook"><![CDATA["Entailment and Devotion."]]></entry>
-	<entry id="str_inventory_title_trinketcook_master_correspondence"><![CDATA[The Master's Correspondence]]></entry>
-	<entry id="str_inventory_title_trinketcook_melody"><![CDATA[Melody]]></entry>
-	<entry id="str_inventory_title_trinketcook_cristal_pendant"><![CDATA[Crystal Pendant]]></entry>
-	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Dahomet's Head]]></entry>
+	<entry id="str_inventory_title_trinketcook_fish_bones"><![CDATA[Fish Bones]]></entry>
+	<entry id="str_inventory_title_trinketcook_armored_shelter"><![CDATA[Armored Shelter]]></entry>
+	<entry id="str_inventory_title_trinketcook_cleaver"><![CDATA[Cleaver]]></entry>
+	<entry id="str_inventory_title_trinketcook_spices"><![CDATA[Spices Collection]]></entry>
+	<entry id="str_inventory_title_trinketcook_knives"><![CDATA[Chief Knives Set]]></entry>
+	<entry id="str_inventory_set_title_cc_cook"><![CDATA["COOK"]]></entry>
+	<entry id="str_inventory_title_trinketcook_cockade"><![CDATA[Cordon Bleu Cockade]]></entry>
+	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Vial of Unique Ingredient]]></entry>
+	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Comet Eyeglasses]]></entry>
+	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Maïté's Head (haha)]]></entry>
 	<entry id="str_inventory_title_trinketcook_shinobue"><![CDATA[Shinobue]]></entry>
 	
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[Main Course]]></entry>
-	<entry id="combat_skill_name_cook_cleaver"><![CDATA[Cleaver]]></entry>
+	<entry id="combat_skill_name_cook_butcher"><![CDATA[Butcher's Slice]]></entry>
     <entry id="combat_skill_name_cook_condiment"><![CDATA[Occult Condiment]]></entry>
     <entry id="combat_skill_name_cook_entremet"><![CDATA[Entremet]]></entry>
     <entry id="combat_skill_name_cook_choicepiece"><![CDATA[Choice Piece]]></entry>
@@ -36,7 +36,7 @@
     <entry id="combat_skill_name_cook_commis"><![CDATA[Commis]]></entry>
     <entry id="combat_skill_name_cook_move"><![CDATA[Move]]></entry>
     <entry id="upgrade_tree_name_cook.maincourse"><![CDATA[Main Course]]></entry>
-    <entry id="upgrade_tree_name_cook.cleaver"><![CDATA[Cleaver]]></entry>
+    <entry id="upgrade_tree_name_cook.butcher"><![CDATA[Butcher's Slice]]></entry>
     <entry id="upgrade_tree_name_cook.condiment"><![CDATA[Occult Condiment]]></entry>
     <entry id="upgrade_tree_name_cook.entremet"><![CDATA[Entremet]]></entry>
     <entry id="upgrade_tree_name_cook.choicepiece"><![CDATA[Choice Piece]]></entry>
@@ -72,12 +72,13 @@
 	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s if NOT in mode %s]]></entry>
 	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemies:]]></entry>
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[+%d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[+%d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Main Course]]></entry>
-	<entry id="buff_rule_data_tooltip_cleaver"><![CDATA[Cleaver]]></entry>
+	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Butcher Slice]]></entry>
     <entry id="str_quirk_name_binge"><![CDATA[Overfeeding]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Steal {colour_start|healhp}Restoration{colour_end}]]></entry>
