@@ -296,7 +296,7 @@
          "id" : "Gash Pierce",
          "stat_type" : "ignore_protection",
          "stat_sub_type" : "",
-         "amount" : 0.5,
+         "amount" : 0.3,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
