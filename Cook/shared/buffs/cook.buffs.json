@@ -733,7 +733,7 @@
       },
       {
          "id" : "T_Knives_Poison",
-         "stat_type" : "hp_dot_blight_amount_percent",
+         "stat_type" : "hp_dot_poison_amount_percent",
          "stat_sub_type" : "",
          "amount" : 0.3,
          "remove_if_not_active" : false,

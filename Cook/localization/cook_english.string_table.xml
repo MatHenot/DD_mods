@@ -24,7 +24,7 @@
 	<entry id="str_inventory_title_trinketcook_cockade"><![CDATA[Cordon Bleu Cockade]]></entry>
 	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Vial of Unique Ingredient]]></entry>
 	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Comet Eyeglasses]]></entry>
-	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Maïté's Head (haha)]]></entry>
+	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Maite's Head hahaha]]></entry>
 	<entry id="str_inventory_title_trinketcook_shinobue"><![CDATA[Shinobue]]></entry>
 	
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[Main Course]]></entry>
@@ -78,7 +78,7 @@
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[+%d%% Received {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[+%d%% Received {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Main Course]]></entry>
-	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Butcher Slice]]></entry>
+	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Butcher's Slice]]></entry>
     <entry id="str_quirk_name_binge"><![CDATA[Overfeeding]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Steal {colour_start|healhp}Restoration{colour_end}]]></entry>
