@@ -59,19 +59,19 @@ effect: .name "MCourse_HealStop" .target "target_group" .chance 100% .steal_buff
 effect: .name "MCourse_HealStopSelf" .target "target" .chance 100% .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss true .has_description false
 effect: .name "TT_MCourse_HealStop" .target "performer_group" .chance 100% .buff_ids "TT_MCourse_HealStop" .on_hit false .on_miss true
 
-//Cleaver
+//Butcher
 
-effect: .name "Cleav_Bleed 1" .target "target" .chance 100% .dotBleed 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Cleav_Bleed 2" .target "target" .chance 110% .dotBleed 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Cleav_Bleed 3" .target "target" .chance 120% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Cleav_Bleed 4" .target "target" .chance 130% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "Cleav_Bleed 5" .target "target" .chance 140% .dotBleed 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Butcher_Bleed 1" .target "target" .chance 100% .dotBleed 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Butcher_Bleed 2" .target "target" .chance 110% .dotBleed 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Butcher_Bleed 3" .target "target" .chance 120% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Butcher_Bleed 4" .target "target" .chance 130% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "Butcher_Bleed 5" .target "target" .chance 140% .dotBleed 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 
-effect: .name "Cleav_Crit 1" .target "performer" .chance 100% .buff_ids "Cleav_Crit 1" .on_hit true .on_miss false .skill_instant true
-effect: .name "Cleav_Crit 2" .target "performer" .chance 100% .buff_ids "Cleav_Crit 2" .on_hit true .on_miss false .skill_instant true
-effect: .name "Cleav_Crit 3" .target "performer" .chance 100% .buff_ids "Cleav_Crit 3" .on_hit true .on_miss false .skill_instant true
-effect: .name "Cleav_Crit 4" .target "performer" .chance 100% .buff_ids "Cleav_Crit 4" .on_hit true .on_miss false .skill_instant true
-effect: .name "Cleav_Crit 5" .target "performer" .chance 100% .buff_ids "Cleav_Crit 5" .on_hit true .on_miss false .skill_instant true
+effect: .name "Butcher_Crit 1" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 15% .on_hit true .on_miss false .skill_instant true
+effect: .name "Butcher_Crit 2" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 17% .on_hit true .on_miss false .skill_instant true
+effect: .name "Butcher_Crit 3" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 20% .on_hit true .on_miss false .skill_instant true
+effect: .name "Butcher_Crit 4" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 22% .on_hit true .on_miss false .skill_instant true
+effect: .name "Butcher_Crit 5" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 25% .on_hit true .on_miss false .skill_instant true
 
 //Condiment
 
@@ -123,17 +123,17 @@ effect: .name "CPiece_EffRes 3" .target "target" .chance 120% .buff_ids "CPiece_
 effect: .name "CPiece_EffRes 4" .target "target" .chance 130% .buff_ids "CPiece_PoisRes 2" "CPiece_BleedRes 2" "CPiece_StunRes 2" "CPiece_DebfRes 2" "CPiece_MoveRes 2" .buff_source_type bsrc_notspecified .on_hit true .on_miss false .queue true .has_description false
 effect: .name "CPiece_EffRes 5" .target "target" .chance 140% .buff_ids "CPiece_PoisRes 3" "CPiece_BleedRes 3" "CPiece_StunRes 3" "CPiece_DebfRes 3" "CPiece_MoveRes 3" .buff_source_type bsrc_notspecified .on_hit true .on_miss false .queue true .has_description false
 
-effect: .name "TT_CPiece_EffRes 1" .target "target" .chance 100% .buff_ids "TT_CPiece_EffRes 1" .on_hit true .on_miss true
-effect: .name "TT_CPiece_EffRes 2" .target "target" .chance 110% .buff_ids "TT_CPiece_EffRes 1" .on_hit true .on_miss true
-effect: .name "TT_CPiece_EffRes 3" .target "target" .chance 120% .buff_ids "TT_CPiece_EffRes 2" .on_hit true .on_miss true
-effect: .name "TT_CPiece_EffRes 4" .target "target" .chance 130% .buff_ids "TT_CPiece_EffRes 2" .on_hit true .on_miss true
-effect: .name "TT_CPiece_EffRes 5" .target "target" .chance 140% .buff_ids "TT_CPiece_EffRes 3" .on_hit true .on_miss true
+effect: .name "TT_CPiece_EffRes 1" .target "target" .chance 100% .buff_ids "TT_CPiece_EffRes 1" .on_hit true .on_miss false
+effect: .name "TT_CPiece_EffRes 2" .target "target" .chance 110% .buff_ids "TT_CPiece_EffRes 1" .on_hit true .on_miss false
+effect: .name "TT_CPiece_EffRes 3" .target "target" .chance 120% .buff_ids "TT_CPiece_EffRes 2" .on_hit true .on_miss false
+effect: .name "TT_CPiece_EffRes 4" .target "target" .chance 130% .buff_ids "TT_CPiece_EffRes 2" .on_hit true .on_miss false
+effect: .name "TT_CPiece_EffRes 5" .target "target" .chance 140% .buff_ids "TT_CPiece_EffRes 3" .on_hit true .on_miss false
 
 //commis
 
-effect: .name "Commis_ClearGuardsPerformer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 3 .has_description false
-effect: .name "Commis_ClearGuardsTarget" .target "target" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 3 .has_description false
-effect: .name "Commis_Guard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 3
+effect: .name "Commis_ClearGuardsPerformer" .target "performer" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2 .has_description false
+effect: .name "Commis_ClearGuardsTarget" .target "target" .chance 100% .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .duration 2 .has_description false
+effect: .name "Commis_Guard" .target "target" .swap_source_and_target true .chance 100% .guard 1 .on_hit true .on_miss true .duration 2
 
 effect: .name "Commis_HRec 1" .target "target" .chance 100% .buff_ids "Commis_HRec 1" .on_hit true .on_miss true
 effect: .name "Commis_HRec 2" .target "target" .chance 100% .buff_ids "Commis_HRec 2" .on_hit true .on_miss true
@@ -148,3 +148,14 @@ effect: .name "PBait_Blight 2" .target "target" .curio_result_type "negative" .c
 effect: .name "PBait_Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 5 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "PBait_Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 5 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "PBait_Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 6 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+
+//Trinkets
+
+effect: .name "T_Spices_Heal 33" .target "target" .chance 33% .heal 1 .on_hit true .on_miss false
+effect: .name "T_Spices_Heal 66" .target "target" .chance 66% .heal 1 .on_hit true .on_miss false
+
+effect: .name "T_Pendant_HealReceiv" .target "target" .chance 100% .buff_ids TRINKET_HPHEALRECEIVED_B2 .on_hit true .on_miss false
+effect: .name "T_Pendant_DMG" .target "target" .chance 100% .health_damage 1 .on_hit true .on_miss false
+effect: .name "T_Pendant_DMG 50" .target "target" .chance 50% .health_damage 1 .on_hit true .on_miss false
+
+effect: .name "T_Glasses_Stealth" .target "performer" .chance 75% .stealth 1 .duration 2 .on_hit true .on_miss false

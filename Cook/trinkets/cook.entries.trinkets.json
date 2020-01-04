@@ -1,6 +1,171 @@
 {
    "entries":
    [
-      
+      {
+         "id" : "cook_fish_bones",
+         "buffs" : 
+         [
+			"T_FishBones"
+         ],
+         "hero_class_requirements":
+         [
+            "cook"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cook_armored_shelter",
+         "buffs" : 
+         [
+            "PROT15",
+			"SPD-3"
+         ],
+         "hero_class_requirements":
+         [
+            "cook"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cook_cleaver",
+         "buffs" : 
+         [
+            "DMGL50",
+            "DMGH50",
+            "BLEEDSKILL20",
+			"TRINKET_EATSASTWO"
+         ],
+         "hero_class_requirements":
+         [
+            "cook"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cook_spices",
+         "buffs" : 
+         [
+            "MAXHP-15"
+         ],
+         "hero_class_requirements":
+         [
+            "cook"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+		 [
+            "T_Spices_Heal 33",
+            "T_Spices_Heal 66"
+         ]
+      },
+      {
+         "id" : "cook_knives",
+         "buffs" : 
+         [
+			"T_Knives_Poison",
+			"TRINKET_firstroundonly_SPD_B3"
+         ],
+         "hero_class_requirements":
+         [
+            "cook"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+	  
+	  {
+		"id" : "cook_cockade",
+		"buffs" : 
+         [
+            "SPD5",
+            "T_Cockade_Virtue",
+			"TRINKET_EATSASTWO"
+         ],
+         "hero_class_requirements":
+         [
+            "cook"
+         ],
+		 "set_id" : "cc_cook",
+         "rarity" : "crimson_court",
+         "price" : 50000, 
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+	  },
+	
+	  {
+		"id" : "cook_pendant",
+	  
+		"buffs" : 
+         [
+			"TRINKET_HEALDONE_B1"
+         ],
+         "hero_class_requirements":
+         [
+            "cook"
+         ],
+         "set_id" : "cc_cook",
+         "rarity" : "crimson_court",
+         "price" : 50000, 
+         "limit" : 1,
+         "origin_dungeon" : "courtyard",
+		 "friendly_skill_additional_effects":
+		 [
+            "T_Pendant_HealReceiv",
+			"T_Pendant_DMG",
+			"T_Pendant_DMG 50"
+         ]
+	  },
+	  
+	  {
+		"id" : "cook_glasses",
+	  
+		"buffs" : 
+         [
+			"DEF-10",
+			"TRINKET_HPHEALRECEIVED_D2"
+         ],
+         "hero_class_requirements":
+         [
+            "cook"
+         ],
+         "rarity" : "comet",
+         "shard" : 65,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "attack_skill_additional_effects":
+        [
+            "T_Glasses_Stealth"
+        ]
+      },
+	  
+      {
+         "id" : "cook_head",
+         "buffs" : 
+         [
+			"T_Head_HealReceiv",
+			"STRESSDMG20"
+         ],
+         "hero_class_requirements":
+         [	 
+         ],
+         "rarity" : "collector",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+	  }      
    ]
 }
