@@ -85,9 +85,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[If {colour_start|guard}Guarded{colour_end}: Breaks Guard
 	+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 6 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+15%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+33%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
@@ -206,9 +206,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[Si gardé : Destruction de garde
 	Chances de crits reçus +10%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : %d%%){colour_end} 3 pts/tr sur 3 trs]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : %d%%){colour_end} 4 pts/tr sur 3 trs]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : %d%%){colour_end} 5 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : %d%%){colour_end} 4 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : %d%%){colour_end} 5 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Saignement{colour_end} {colour_start|skill_unselectable}(base : %d%%){colour_end} 6 pts/tr sur 3 trs]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[Montant de {colour_start|bleed}saignement{colour_end} reçu +25%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[Montant de {colour_start|bleed}saignement{colour_end} reçu +33%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[Montant de {colour_start|bleed}saignement{colour_end} reçu +50%% {colour_start|skill_unselectable}(base : %d%%){colour_end}]]></entry>	
@@ -327,9 +327,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[If {colour_start|guard}Guarded{colour_end}: Breaks Guard
 	+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 6 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+15%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+33%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
@@ -448,9 +448,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[If {colour_start|guard}Guarded{colour_end}: Breaks Guard
 	+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 6 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+15%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+33%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
@@ -569,9 +569,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[If {colour_start|guard}Guarded{colour_end}: Breaks Guard
 	+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 6 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+15%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+33%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
@@ -690,9 +690,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[If {colour_start|guard}Guarded{colour_end}: Breaks Guard
 	+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 6 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+15%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+33%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
@@ -811,9 +811,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[If {colour_start|guard}Guarded{colour_end}: Breaks Guard
 	+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 6 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+15%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+33%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
@@ -932,9 +932,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[보호 해제
 	치명타 받을 확률 +10%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %d%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 4 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 5 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %d%%){colour_end} 턴당 4 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 5 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 6 피해, 3턴 지속]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 +25%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 +33%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 +50%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>
@@ -1053,9 +1053,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[보호 해제
 	치명타 받을 확률 +10%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %d%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 4 피해, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 5 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %d%%){colour_end} 턴당 4 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 5 피해, 3턴 지속]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 %+d%%){colour_end} 턴당 6 피해, 3턴 지속]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 +25%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 +33%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[받는 {colour_start|bleed}출혈{colour_end} 피해 +50%% {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>
@@ -1174,9 +1174,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[If {colour_start|guard}Guarded{colour_end}: Breaks Guard
 	+10%% Crits Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Bleed{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 6 pts/rd for 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+15%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+25%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+33%% {colour_start|bleed}Bleed{colour_end} Received {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
@@ -1295,9 +1295,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[Если защищён: Прерывает защиту
 	+10%% Шанс получить крит.удар {colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(%d%%){colour_end} 3 ОЗ/ход на 3 ход(а)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(%d%%){colour_end} 4 ОЗ/ход на 3 ход(а)]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(%d%%){colour_end} 5 ОЗ/ход на 3 ход(а)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(%d%%){colour_end} 4 ОЗ/ход на 3 ход(а)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(%d%%){colour_end} 5 ОЗ/ход на 3 ход(а)]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Кровотечение{colour_end} {colour_start|skill_unselectable}(%d%%){colour_end} 6 ОЗ/ход на 3 ход(а)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% {colour_start|bleed}Кровотечения{colour_end} Получено {colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+33%% {colour_start|bleed}Кровотечения{colour_end} Получено {colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+50%% {colour_start|bleed}Кровотечения{colour_end} Получено {colour_start|skill_unselectable}(%d%%){colour_end}]]></entry>
@@ -1416,9 +1416,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[破除守护
 	+10%%被暴击率{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}3点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}4点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}5点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}4点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}5点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}6点/回合 持续3回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%%受到的{colour_start|bleed}流血{colour_end}技能效果{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+33%%受到的{colour_start|bleed}流血{colour_end}技能效果{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+50%%受到的{colour_start|bleed}流血{colour_end}技能效果{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
@@ -1537,9 +1537,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[破除守护
 	+10%%被暴击率{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}3点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}4点/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}5点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}4点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}5点/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}6点/回合 持续3回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%%受到的{colour_start|bleed}流血{colour_end}技能效果{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+33%%受到的{colour_start|bleed}流血{colour_end}技能效果{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+50%%受到的{colour_start|bleed}流血{colour_end}技能效果{colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
@@ -1658,9 +1658,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_ListenOff5"><![CDATA[En protegido: rompe la guardia
 	Probabilidad de recibir daños críticos +10%% {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 3 pts/rd por 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd por 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd por 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT1"><![CDATA[{colour_start|bleed}Hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 4 pts/rd por 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT2"><![CDATA[{colour_start|bleed}Hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 5 pts/rd por 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_WBleedTT3"><![CDATA[{colour_start|bleed}Hemorragia{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end} 6 pts/rd por 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff1"><![CDATA[+25%% de {colour_start|bleed}hemorragia{colour_end} recibida {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff2"><![CDATA[+33%% de {colour_start|bleed}hemorragia{colour_end} recibida {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_WiltDebuff3"><![CDATA[+50%% de {colour_start|bleed}hemorragia{colour_end} recibida {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>	

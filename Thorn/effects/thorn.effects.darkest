@@ -166,11 +166,11 @@ effect: .name "Wilt Debuff 3" .target "target_group_other" .chance 120% .buff_id
 effect: .name "Wilt Debuff 4" .target "target_group_other" .chance 130% .buff_ids "Wilt Bleed Received 2" .on_hit true .on_miss false .has_description false
 effect: .name "Wilt Debuff 5" .target "target_group_other" .chance 140% .buff_ids "Wilt Bleed Received 3" .on_hit true .on_miss false .has_description false
 
-effect: .name "Wilt Bleed 1" .target "target" .dotBleed 3 .duration 3 .chance 100% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
-effect: .name "Wilt Bleed 2" .target "target" .dotBleed 3 .duration 3 .chance 110% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
-effect: .name "Wilt Bleed 3" .target "target" .dotBleed 4 .duration 3 .chance 120% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
-effect: .name "Wilt Bleed 4" .target "target" .dotBleed 4 .duration 3 .chance 130% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
-effect: .name "Wilt Bleed 5" .target "target" .dotBleed 5 .duration 3 .chance 140% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed 1" .target "target" .dotBleed 4 .duration 3 .chance 100% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed 2" .target "target" .dotBleed 4 .duration 3 .chance 110% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed 3" .target "target" .dotBleed 5 .duration 3 .chance 120% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed 4" .target "target" .dotBleed 5 .duration 3 .chance 130% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
+effect: .name "Wilt Bleed 5" .target "target" .dotBleed 6 .duration 3 .chance 140% .on_hit true .on_miss false .individual_target_actor_rolls true .can_apply_on_death true .has_description false
 
 effect: .name "Wilt Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 1" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 1" "Wilt Speed ToolTip" "One Turn" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
 effect: .name "Wilt Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "Wilt Bleed ToolTip 2" "Other Enemies ToolTip" "Wilt Bleed Debuff ToolTip 2" "Wilt Speed ToolTip" "One Turn" "Offensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
