@@ -1,0 +1,106 @@
+
+-------------------------------------------------------------------------------
+Parsing project file - D:\DD_mods\Cook\project.xml
+Mod Data Directory = D:/DD_mods/Cook/
+
+-------------------------------------------------------------------------------
+Processing Map Files files...
+
+-------------------------------------------------------------------------------
+Running Localization...
+Parsing localization/cook_english.string_table.xml
+
+Building Languages
+Exporting .loc files
+
+-------------------------------------------------------------------------------
+Searching for preview icon file D:/DD_mods/Cook/preview_icon.png...FOUND!
+<UploadMode> - Set to direct_upload
+
+
+-------------------------------------------------------------------------------
+Modded files...
+
+heroes/cook/cook_A/anim/cook.sprite.afflicted.png
+heroes/cook/cook_A/anim/cook.sprite.butcher.png
+heroes/cook/cook_A/anim/cook.sprite.camp.png
+heroes/cook/cook_A/anim/cook.sprite.combat.png
+heroes/cook/cook_A/anim/cook.sprite.defend.png
+heroes/cook/cook_A/anim/cook.sprite.heroic.png
+heroes/cook/cook_A/anim/cook.sprite.idle.png
+heroes/cook/cook_A/anim/cook.sprite.investigate.png
+heroes/cook/cook_A/anim/cook.sprite.maincourse.png
+heroes/cook/cook_A/anim/cook.sprite.walk.png
+campaign/town/town_event/town_event.image_banquet_cook.png
+campaign/town/town_event/town_event.image_first_cook.png
+heroes/cook/anim/cook.sprite.afflicted.atlas
+heroes/cook/anim/cook.sprite.afflicted.skel
+heroes/cook/anim/cook.sprite.butcher.atlas
+heroes/cook/anim/cook.sprite.butcher.skel
+heroes/cook/anim/cook.sprite.camp.atlas
+heroes/cook/anim/cook.sprite.camp.skel
+heroes/cook/anim/cook.sprite.combat.atlas
+heroes/cook/anim/cook.sprite.combat.skel
+heroes/cook/anim/cook.sprite.defend.atlas
+heroes/cook/anim/cook.sprite.defend.skel
+heroes/cook/anim/cook.sprite.heroic.atlas
+heroes/cook/anim/cook.sprite.heroic.skel
+heroes/cook/anim/cook.sprite.idle.atlas
+heroes/cook/anim/cook.sprite.idle.skel
+heroes/cook/anim/cook.sprite.investigate.atlas
+heroes/cook/anim/cook.sprite.investigate.skel
+heroes/cook/anim/cook.sprite.maincourse.atlas
+heroes/cook/anim/cook.sprite.maincourse.skel
+heroes/cook/anim/cook.sprite.walk.atlas
+heroes/cook/anim/cook.sprite.walk.skel
+heroes/cook/cook_A/cook_portrait_roster.png
+heroes/cook/icons_equip/eqp_armour_0.png
+heroes/cook/icons_equip/eqp_armour_1.png
+heroes/cook/icons_equip/eqp_armour_2.png
+heroes/cook/icons_equip/eqp_armour_3.png
+heroes/cook/icons_equip/eqp_armour_4.png
+heroes/cook/icons_equip/eqp_weapon_0.png
+heroes/cook/icons_equip/eqp_weapon_1.png
+heroes/cook/icons_equip/eqp_weapon_2.png
+heroes/cook/icons_equip/eqp_weapon_3.png
+heroes/cook/icons_equip/eqp_weapon_4.png
+panels/icons_equip/trinket/inv_trinket+cook_head.png
+panels/icons_equip/trinket/inv_trinket+cook_pendant.png
+panels/icons_equip/trinket/rarity_sakura.png
+raid/camping/skill_icons/camp_skill_abundance.png
+raid/camping/skill_icons/camp_skill_apetizer.png
+raid/camping/skill_icons/camp_skill_light_bearer.png
+raid/camping/skill_icons/camp_skill_purge.png
+heroes/cook/cook.ability.five.png
+heroes/cook/cook.ability.four.png
+heroes/cook/cook.ability.one.png
+heroes/cook/cook.ability.seven.png
+heroes/cook/cook.ability.six.png
+heroes/cook/cook.ability.three.png
+heroes/cook/cook.ability.two.png
+heroes/cook/cook.art.darkest
+heroes/cook/cook.info.darkest
+heroes/cook/cook_guild_header.png
+raid/camping/cook.camping_skills.json
+shared/buffs/cook.buffs.json
+shared/quirk/cook.quirk_library.json
+upgrades/heroes/cook.upgrades.json
+audio/cook.heroes.guid_overrides.json
+audio/cook.heroes.load_order.json
+effects/cook.effects.darkest
+inventory/cook.inventory.extra_stack_limits.darkest
+localization/1960566563_english.loc
+localization/cook_english.string_table.xml
+loot/cook.loot.json
+trinkets/East_town.rarities.trinkets.json
+trinkets/com.rarities.trinkets.json
+trinkets/cook.entries.trinkets.json
+trinkets/cook.sets.trinkets.json
+trinkets/crimson_court.rarities.trinkets.json
+modfiles.txt
+preview_icon.png
+project.xml
+
+Submitting................................................................................Submitted.
+Saving project file D:\DD_mods\Cook\project.xml
+
