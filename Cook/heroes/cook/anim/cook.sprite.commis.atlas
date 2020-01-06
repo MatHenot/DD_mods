@@ -1,0 +1,20 @@
+
+cook.sprite.commis.png
+size: 509,367
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Calque 8 copie
+  rotate: true
+  xy: 2, 2
+  size: 363, 438
+  orig: 363, 438
+  offset: 0, 0
+  index: -1
+images/ombre
+  rotate: true
+  xy: 442, 6
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
