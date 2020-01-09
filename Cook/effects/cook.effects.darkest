@@ -5,8 +5,8 @@
 effect: .name "Cook_StealHeal" .target "target" .chance 100% .steal_buff_stat_type hp_dot_heal .on_hit true .on_miss false .has_description false
 effect: .name "TT_Cook_StealHeal" .target "performer" .chance 100% .buff_ids "TT_Cook_StealHeal" .on_hit true .on_miss false .skill_instant true
 effect: .name "Binge_Disease_Target" .target "target" .chance 5% .disease binge .on_hit true .on_miss false .crit_doesnt_apply_to_roll true .queue true .has_description false
-effect: .name "Binge_Disease_Allies" .target "performer_group_other" .chance 3% .disease binge .on_hit true .on_miss false .crit_doesnt_apply_to_roll true .queue true .has_description false
-effect: .name "Binge_Disease_Group" .target "performer_group" .chance 3% .disease binge .on_hit true .on_miss false .crit_doesnt_apply_to_roll true .queue true .has_description false
+effect: .name "Binge_Disease_Allies" .target "performer_group_other" .chance 3% .disease binge .on_hit true .on_miss false .crit_doesnt_apply_to_roll true .individual_target_actor_rolls true .queue true .has_description false
+effect: .name "Binge_Disease_Group" .target "performer_group" .chance 3% .disease binge .on_hit true .on_miss false .crit_doesnt_apply_to_roll true .individual_target_actor_rolls true .queue true .has_description false
 
 //Move
 
