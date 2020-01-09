@@ -24,12 +24,16 @@ Modded files...
 heroes/cook/cook_A/anim/cook.sprite.afflicted.png
 heroes/cook/cook_A/anim/cook.sprite.butcher.png
 heroes/cook/cook_A/anim/cook.sprite.camp.png
+heroes/cook/cook_A/anim/cook.sprite.choicepiece.png
 heroes/cook/cook_A/anim/cook.sprite.combat.png
+heroes/cook/cook_A/anim/cook.sprite.commis.png
 heroes/cook/cook_A/anim/cook.sprite.defend.png
+heroes/cook/cook_A/anim/cook.sprite.entremet.png
 heroes/cook/cook_A/anim/cook.sprite.heroic.png
 heroes/cook/cook_A/anim/cook.sprite.idle.png
 heroes/cook/cook_A/anim/cook.sprite.investigate.png
 heroes/cook/cook_A/anim/cook.sprite.maincourse.png
+heroes/cook/cook_A/anim/cook.sprite.poisonnedbait.png
 heroes/cook/cook_A/anim/cook.sprite.walk.png
 campaign/town/town_event/town_event.image_banquet_cook.png
 campaign/town/town_event/town_event.image_first_cook.png
@@ -39,10 +43,16 @@ heroes/cook/anim/cook.sprite.butcher.atlas
 heroes/cook/anim/cook.sprite.butcher.skel
 heroes/cook/anim/cook.sprite.camp.atlas
 heroes/cook/anim/cook.sprite.camp.skel
+heroes/cook/anim/cook.sprite.choicepiece.atlas
+heroes/cook/anim/cook.sprite.choicepiece.skel
 heroes/cook/anim/cook.sprite.combat.atlas
 heroes/cook/anim/cook.sprite.combat.skel
+heroes/cook/anim/cook.sprite.commis.atlas
+heroes/cook/anim/cook.sprite.commis.skel
 heroes/cook/anim/cook.sprite.defend.atlas
 heroes/cook/anim/cook.sprite.defend.skel
+heroes/cook/anim/cook.sprite.entremet.atlas
+heroes/cook/anim/cook.sprite.entremet.skel
 heroes/cook/anim/cook.sprite.heroic.atlas
 heroes/cook/anim/cook.sprite.heroic.skel
 heroes/cook/anim/cook.sprite.idle.atlas
@@ -51,6 +61,8 @@ heroes/cook/anim/cook.sprite.investigate.atlas
 heroes/cook/anim/cook.sprite.investigate.skel
 heroes/cook/anim/cook.sprite.maincourse.atlas
 heroes/cook/anim/cook.sprite.maincourse.skel
+heroes/cook/anim/cook.sprite.poisonnedbait.atlas
+heroes/cook/anim/cook.sprite.poisonnedbait.skel
 heroes/cook/anim/cook.sprite.walk.atlas
 heroes/cook/anim/cook.sprite.walk.skel
 heroes/cook/cook_A/cook_portrait_roster.png
@@ -101,6 +113,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting................................................................................Submitted.
+Submitting..............................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Cook\project.xml
 
