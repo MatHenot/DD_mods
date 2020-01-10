@@ -76,8 +76,15 @@ heroes/cook/icons_equip/eqp_weapon_1.png
 heroes/cook/icons_equip/eqp_weapon_2.png
 heroes/cook/icons_equip/eqp_weapon_3.png
 heroes/cook/icons_equip/eqp_weapon_4.png
+panels/icons_equip/trinket/inv_trinket+cook_bottled_snake.png
+panels/icons_equip/trinket/inv_trinket+cook_cleaver.png
+panels/icons_equip/trinket/inv_trinket+cook_cockade.png
+panels/icons_equip/trinket/inv_trinket+cook_fish_bones.png
+panels/icons_equip/trinket/inv_trinket+cook_glasses.png
 panels/icons_equip/trinket/inv_trinket+cook_head.png
+panels/icons_equip/trinket/inv_trinket+cook_knives.png
 panels/icons_equip/trinket/inv_trinket+cook_pendant.png
+panels/icons_equip/trinket/inv_trinket+cook_spices.png
 panels/icons_equip/trinket/rarity_sakura.png
 raid/camping/skill_icons/camp_skill_abundance.png
 raid/camping/skill_icons/camp_skill_apetizer.png
@@ -113,6 +120,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting..............................................................................................................................................Submitted.
+Submitting......................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Cook\project.xml
 
