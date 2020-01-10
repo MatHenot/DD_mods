@@ -764,7 +764,7 @@
          "stat_sub_type" : "",
          "amount" : -0.1,
          "remove_if_not_active" : false,
-         "rule_type" : "is_actor_status",
+         "rule_type" : "actorStatus",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
@@ -803,7 +803,7 @@
          "stat_sub_type" : "eat",
          "amount" : 0.5,
          "remove_if_not_active" : false,
-         "rule_type" : "alwaysa",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
@@ -821,6 +821,19 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
+         }
+      },
+      {
+         "id" : "T_Set_HPDisease",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "has_quirk",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "binge"
          }
       }
   ]

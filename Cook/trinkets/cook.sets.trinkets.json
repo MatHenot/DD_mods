@@ -5,9 +5,8 @@
          "id" : "cc_cook",
          "buffs" : 
          [
-            "TB_MAXHP_B_6",
-			"CRIT6",
-			"BLIGHTSKILL10"
+            "DEF5",
+			"T_Set_HPDisease"
          ]
       }    
    ]
