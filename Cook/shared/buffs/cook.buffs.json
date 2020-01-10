@@ -731,17 +731,44 @@
             "string" : ""
          }
       },
-      {
-         "id" : "T_Knives_Poison",
+	  {
+         "id" : "T_Cleaver_ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+	  {
+         "id" : "T_Snake_BlightBuff",
          "stat_type" : "hp_dot_poison_amount_percent",
          "stat_sub_type" : "",
-         "amount" : 0.3,
+         "amount" : 0.30,
          "remove_if_not_active" : false,
+         "remove_on_battle_complete" : true,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
+         }
+      },
+      {
+         "id" : "T_Snake_Crit",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
          }
       },
       {
@@ -751,6 +778,32 @@
          "amount" : 0.15,
          "remove_if_not_active" : false,
          "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Glasses_DDHeal",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "hero_skill",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Glasses_FoodHeal",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "eat",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "alwaysa",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,

@@ -158,4 +158,4 @@ effect: .name "T_Pendant_HealReceiv" .target "target" .chance 100% .buff_ids TRI
 effect: .name "T_Pendant_DMG" .target "target" .chance 100% .health_damage 1 .on_hit true .on_miss false
 effect: .name "T_Pendant_DMG 50" .target "target" .chance 50% .health_damage 1 .on_hit true .on_miss false
 
-effect: .name "T_Glasses_Stealth" .target "performer" .chance 75% .stealth 1 .duration 2 .on_hit true .on_miss false
+effect: .name "T_Glasses_Stealth" .target "performer" .chance 70% .stealth 1 .duration 2 .on_hit true .on_miss false

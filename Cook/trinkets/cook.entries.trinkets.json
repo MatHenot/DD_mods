@@ -17,11 +17,14 @@
          "origin_dungeon" : ""
       },
       {
-         "id" : "cook_armored_shelter",
+         "id" : "cook_cleaver",
          "buffs" : 
          [
-            "PROT15",
-			"SPD-3"
+            "DMGL50",
+            "DMGH50",
+            "BLEEDSKILL20",
+			"T_Cleaver_ACC",
+			"TRINKET_EATSASTWO"
          ],
          "hero_class_requirements":
          [
@@ -33,13 +36,12 @@
          "origin_dungeon" : ""
       },
       {
-         "id" : "cook_cleaver",
+         "id" : "cook_bottled_snake",
          "buffs" : 
          [
-            "DMGL50",
-            "DMGH50",
-            "BLEEDSKILL20",
-			"TRINKET_EATSASTWO"
+            "T_Snake_BlightBuff",
+			"T_Snake_Crit",
+			"BLIGHTRESIST-20"
          ],
          "hero_class_requirements":
          [
@@ -74,8 +76,10 @@
          "id" : "cook_knives",
          "buffs" : 
          [
-			"T_Knives_Poison",
-			"TRINKET_firstroundonly_SPD_B3"
+			"ACC10",
+			"SPD2",
+			"STRESSDMG-10",
+			"TRINKET_EATSASTWO"
          ],
          "hero_class_requirements":
          [
@@ -85,14 +89,14 @@
          "price" : 25000,
          "limit" : 0,
          "origin_dungeon" : ""
-      },
-	  
+      },  
 	  {
 		"id" : "cook_cockade",
 		"buffs" : 
          [
             "SPD5",
             "T_Cockade_Virtue",
+			"STRESSDMG10",
 			"TRINKET_EATSASTWO"
          ],
          "hero_class_requirements":
@@ -105,7 +109,6 @@
          "limit" : 1,
          "origin_dungeon" : "courtyard"
 	  },
-	
 	  {
 		"id" : "cook_pendant",
 	  
@@ -129,14 +132,14 @@
 			"T_Pendant_DMG 50"
          ]
 	  },
-	  
 	  {
 		"id" : "cook_glasses",
 	  
 		"buffs" : 
          [
-			"DEF-10",
-			"TRINKET_HPHEALRECEIVED_D2"
+			"DEF-8",
+			"T_Glasses_DDHeal",
+			"T_Glasses_FoodHeal"
          ],
          "hero_class_requirements":
          [
@@ -157,6 +160,7 @@
          "buffs" : 
          [
 			"T_Head_HealReceiv",
+			"TRINKET_EATSASTWO",
 			"STRESSDMG20"
          ],
          "hero_class_requirements":

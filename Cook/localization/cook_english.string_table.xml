@@ -16,16 +16,15 @@
 	<entry id="town_event_description_idle_resolve_level_cook"><![CDATA[It is a strange and enticing music on which serpents rise and undulate, possessed by an invisible power.]]></entry>
 	
 	<entry id="str_inventory_title_trinketcook_fish_bones"><![CDATA[Fish Bones]]></entry>
-	<entry id="str_inventory_title_trinketcook_armored_shelter"><![CDATA[Armored Shelter]]></entry>
 	<entry id="str_inventory_title_trinketcook_cleaver"><![CDATA[Cleaver]]></entry>
+	<entry id="str_inventory_title_trinketcook_bottled_snake"><![CDATA[Bottled Snake]]></entry>
 	<entry id="str_inventory_title_trinketcook_spices"><![CDATA[Spices Collection]]></entry>
 	<entry id="str_inventory_title_trinketcook_knives"><![CDATA[Chief Knives Set]]></entry>
 	<entry id="str_inventory_set_title_cc_cook"><![CDATA["COOK"]]></entry>
 	<entry id="str_inventory_title_trinketcook_cockade"><![CDATA[Cordon Bleu Cockade]]></entry>
 	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Vial of Unique Ingredient]]></entry>
-	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Comet Eyeglasses]]></entry>
-	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Maite's Head hahaha]]></entry>
-	<entry id="str_inventory_title_trinketcook_shinobue"><![CDATA[Shinobue]]></entry>
+	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Dimensional Eyeglasses]]></entry>
+	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Maite's Head (hahaha)]]></entry>
 	
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[Main Course]]></entry>
 	<entry id="combat_skill_name_cook_butcher"><![CDATA[Butcher's Slice]]></entry>
