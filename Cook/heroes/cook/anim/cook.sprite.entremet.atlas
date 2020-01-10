@@ -1,26 +1,26 @@
 
 cook.sprite.entremet.png
-size: 645,556
+size: 1026,379
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 images/Calque 4
-  rotate: false
-  xy: 2, 69
-  size: 323, 485
-  orig: 323, 485
+  rotate: true
+  xy: 2, 11
+  size: 366, 485
+  orig: 366, 485
   offset: 0, 0
   index: -1
 images/Calque 7 copie 2
-  rotate: false
-  xy: 327, 86
-  size: 316, 468
-  orig: 316, 468
+  rotate: true
+  xy: 489, 2
+  size: 375, 468
+  orig: 375, 468
   offset: 0, 0
   index: -1
 images/ombre
-  rotate: false
-  xy: 2, 2
+  rotate: true
+  xy: 959, 18
   size: 359, 65
   orig: 359, 65
   offset: 0, 0

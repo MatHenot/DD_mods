@@ -1,19 +1,19 @@
 
 cook.sprite.choicepiece.png
-size: 537,407
+size: 537,439
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 images/Calque 6 copie
   rotate: true
   xy: 2, 2
-  size: 403, 466
-  orig: 403, 466
+  size: 435, 466
+  orig: 435, 466
   offset: 0, 0
   index: -1
 images/ombre
   rotate: true
-  xy: 470, 46
+  xy: 470, 78
   size: 359, 65
   orig: 359, 65
   offset: 0, 0

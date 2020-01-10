@@ -6,9 +6,9 @@ filter: Linear,Linear
 repeat: none
 images/Calque 6 copie
   rotate: true
-  xy: 2, 38
-  size: 323, 465
-  orig: 323, 465
+  xy: 2, 9
+  size: 352, 465
+  orig: 352, 465
   offset: 0, 0
   index: -1
 images/ombre
