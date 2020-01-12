@@ -108,28 +108,28 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[Friendly Skill: {colour_start|healhp}Heal{colour_end} 0-2 HP]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[Friendly Skill: DMG 1-2 HP]]></entry>	
 
-    <entry id="cook+str_bark_encourage"><![CDATA[The Master would be proud of you.]]></entry>
-    <entry id="cook+str_bark_encourage"><![CDATA[Close your eyes. Clear your mind.]]></entry>
-    <entry id="cook+str_bark_encourage"><![CDATA[Your will is unbreakable.]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[This concoction will do you good.]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[Take this vial. A drop should be enough.]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[Let me apply this on your wounds.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[Meditation will help you to weather this challenge.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[You are bound to my destiny!]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[I will share some of my knowledge.]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[I know you'll manage to carry your burdens.]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[You're a tough one. You'll easily get as old as me.]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[Everyone carries the weight of their past.]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[I know I have some meds stored somewhere...]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[I'm going to make a bandage with a strap from my bag.]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[Take this and get up, I'm too loaded to carry you.]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[I've survived this long. So can you all.]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[]]></entry>
     
-    <entry id="cook+str_bark_mithridatism"><![CDATA[In small doses, the poison will strengthen us!]]></entry>
-	<entry id="cook+str_bark_mithridatism"><![CDATA[I assure you, there is no risk.]]></entry>
-	<entry id="cook+str_bark_mithridatism"><![CDATA[One dose a day, and you will be invincible!]]></entry>
-    <entry id="cook+str_bark_exotic_spices"><![CDATA[Your acuity will be unequaled!]]></entry>
-	<entry id="cook+str_bark_exotic_spices"><![CDATA[Taste this. It's a typical dessert from my land.]]></entry>
-	<entry id="cook+str_bark_exotic_spices"><![CDATA[It looks tasteless. Let me spice it up.]]></entry>
-    <entry id="cook+str_bark_melody"><![CDATA[Time for the show! Be attentive and relax.]]></entry>
-	<entry id="cook+str_bark_melody"><![CDATA[Let yourself be carried away by the snake dance.]]></entry>
-	<entry id="cook+str_bark_melody"><![CDATA[Admire! A show straight from the East.]]></entry>
-    <entry id="cook+str_bark_prelude"><![CDATA[The most majestic of all snakes.]]></entry>
-	<entry id="cook+str_bark_prelude"><![CDATA[Wonderful!]]></entry>
-	<entry id="cook+str_bark_prelude"><![CDATA[To get started...]]></entry>
+    <entry id="cook+str_bark_abundance"><![CDATA[In small doses, the poison will strengthen us!]]></entry>
+	<entry id="cook+str_bark_abundance"><![CDATA[I assure you, there is no risk.]]></entry>
+	<entry id="cook+str_bark_abundance"><![CDATA[One dose a day, and you will be invincible!]]></entry>
+    <entry id="cook+str_bark_purge"><![CDATA[Your acuity will be unequaled!]]></entry>
+	<entry id="cook+str_bark_purge"><![CDATA[Taste this. It's a typical dessert from my land.]]></entry>
+	<entry id="cook+str_bark_purge"><![CDATA[It looks tasteless. Let me spice it up.]]></entry>
+    <entry id="cook+str_bark_apetizer"><![CDATA[Time for the show! Be attentive and relax.]]></entry>
+	<entry id="cook+str_bark_apetizer"><![CDATA[Let yourself be carried away by the snake dance.]]></entry>
+	<entry id="cook+str_bark_apetizer"><![CDATA[Admire! A show straight from the East.]]></entry>
+    <entry id="cook+str_bark_light_bearer"><![CDATA[The most majestic of all snakes.]]></entry>
+	<entry id="cook+str_bark_light_bearer"><![CDATA[Wonderful!]]></entry>
+	<entry id="cook+str_bark_light_bearer"><![CDATA[To get started...]]></entry>
         
 	<entry id="cook+str_critbyhero"><![CDATA[Is that even comestible?]]></entry>
     <entry id="cook+str_critbyhero"><![CDATA[Should we taste a piece of that?]]></entry>
@@ -138,7 +138,24 @@
     <entry id="cook+str_critbyhero"><![CDATA[Not good enough for my potage.]]></entry>
     <entry id="cook+str_critbyhero"><![CDATA[You're just meat.]]></entry>
     <entry id="cook+str_critbyhero"><![CDATA[Eat that!]]></entry>
-	
+    <entry id="cook+str_critbyhero"><![CDATA[Ha! Digestible enough?]]></entry>
+
+    <entry id="str_cook_maincourse"><![CDATA[Bon Apétit!]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Here you go.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Dinner is served.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Be careful, it's hot.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[With the compliment of the chief.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Food's ready, take your plate.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Let's eat a piece.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Taste a bit before you say it's not good.]]></entry>
+
+    <entry id="str_cook_overfed"><![CDATA[*Burp*]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[I can't take it anymore...]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[Oof... I'm full.]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[That's... too much.]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[I had enough, but I can't stop.]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[Why is it so good?]]></entry>
+
 	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[I've had a long life... but I don't want to go like this!]]></entry>
     <entry id="cook+str_bark_deathsdoor"><![CDATA[Master, I'm coming...]]></entry>
    
