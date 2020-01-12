@@ -734,14 +734,14 @@
 	  {
          "id" : "T_Cleaver_ACC",
          "stat_type" : "combat_stat_add",
-         "stat_sub_type" : "",
+         "stat_sub_type" : "attack_rating",
          "amount" : -0.05,
          "remove_if_not_active" : false,
-         "rule_type" : "is_actor_status",
-         "is_false_rule" : true,
+         "rule_type" : "meleeonly",
+         "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "bleeding"
+            "string" : ""
          }
       },
 	  {
@@ -772,10 +772,36 @@
          }
       },
       {
+         "id" : "TT_T_Spices_Heal",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_T_Spices_Heal",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },	  
+      {
          "id" : "T_Cockade_Virtue",
          "stat_type" : "resolve_check_percent",
          "stat_sub_type" : "",
          "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TT_T_Pendant_DMG",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_T_Pendant_DMG",
+         "amount" : -1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,

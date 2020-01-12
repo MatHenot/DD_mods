@@ -56,7 +56,8 @@
          "id" : "cook_spices",
          "buffs" : 
          [
-            "MAXHP-15"
+            "TT_T_Spices_Heal",
+			"MAXHP-15"
          ],
          "hero_class_requirements":
          [
@@ -114,7 +115,8 @@
 	  
 		"buffs" : 
          [
-			"TRINKET_HEALDONE_B1"
+			"TRINKET_HEALDONE_B1",
+			"TT_T_Pendant_DMG"
          ],
          "hero_class_requirements":
          [
