@@ -4,9 +4,9 @@
   
 	<entry id="hero_class_name_cook"><![CDATA[Intinerant Cook]]></entry>
 	
-	<entry id="action_verbose_body_guild_cook"><![CDATA[The Itinerant Cook surely brings a lot of comfort to her allies, with the solid regenerative meals that she offers. According to her recipe, the mouthwatering vapors coming from her marmite can be proved deadly to her enemies. When she’s not shouting orders to her comrades, she shares her tremendous experience in luring and slaughtering any beast ... or foe.]]></entry>
+	<entry id="action_verbose_body_guild_cook"><![CDATA[The Itinerant Cook surely brings a lot of comfort to her allies, with the solid regenerative meals that she offers. According to her recipes, the mouthwatering vapors coming from her marmite can be proved deadly to her enemies. When she’s not shouting orders to her comrades, she shares her tremendous experience in luring and slaughtering any beast ... or foe.]]></entry>
     <entry id="action_verbose_body_blacksmith_cook"><![CDATA[The Itinerant Cook never go without her Chief’s Knife, as deadly as useful. She also brings her favorite spoon, and always carry a vial of a mysterious ingredient, that will add this unique flavour she keeps secret. Her dirty apron is more practical than a true protection.]]></entry>
-    <entry id="action_verbose_body_camping_trainer_cook"><![CDATA[No better place than the campfire for the Itinerant Cook to reveal the full potential of her mastery ; she’ll transform a makeshift bivouac into a luxurious feast in no time. After their binge eating, she can help to her companions to purge themselves with some strange mixture.]]></entry>	
+    <entry id="action_verbose_body_camping_trainer_cook"><![CDATA[No better place than the campfire for the Itinerant Cook to reveal the full potential of her mastery, she’ll transform a makeshift bivouac into a luxurious feast in no time. After their binge eating, she can help to her companions to purge themselves with some strange mixture.]]></entry>	
   	
 	<entry id="town_event_title_first_cook"><![CDATA[Soup for the poor]]></entry>
 	<entry id="town_event_description_first_cook"><![CDATA[Someone has started to distribute free food in the slums. In these times of misery, all kinds of skills deserve to be well used.]]></entry>
@@ -18,7 +18,7 @@
 	<entry id="str_inventory_title_trinketcook_bottled_snake"><![CDATA[Bottled Snake]]></entry>
 	<entry id="str_inventory_title_trinketcook_spices"><![CDATA[Spices Collection]]></entry>
 	<entry id="str_inventory_title_trinketcook_knives"><![CDATA[Chief Knives Set]]></entry>
-	<entry id="str_inventory_set_title_cc_cook"><![CDATA["COOK"]]></entry>
+	<entry id="str_inventory_set_title_cc_cook"><![CDATA["The secret recipe of sucess."]]></entry>
 	<entry id="str_inventory_title_trinketcook_cockade"><![CDATA[Cordon Bleu Cockade]]></entry>
 	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Vial of Unique Ingredient]]></entry>
 	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Dimensional Eyeglasses]]></entry>
@@ -45,19 +45,19 @@
     <entry id="camping_skill_name_apetizer"><![CDATA[APETIZER]]></entry>
     <entry id="camping_skill_name_light_bearer"><![CDATA[LIGHT BEARER]]></entry>
 	
-	<entry id="cook_weapon_0"><![CDATA[Rusty Box]]></entry>
-    <entry id="cook_weapon_1"><![CDATA[Rustic Box]]></entry>
-    <entry id="cook_weapon_2"><![CDATA[Quality Box]]></entry>
-    <entry id="cook_weapon_3"><![CDATA[Reinforced Box]]></entry>
-    <entry id="cook_weapon_4"><![CDATA["Viper's Nest"]]></entry>
-    <entry id="upgrade_tree_name_cook.weapon"><![CDATA[Snake Box]]></entry>
+	<entry id="cook_weapon_0"><![CDATA[Crappy Cutlery]]></entry>
+    <entry id="cook_weapon_1"><![CDATA[Table Cutlery]]></entry>
+    <entry id="cook_weapon_2"><![CDATA[Silver Cutlery]]></entry>
+    <entry id="cook_weapon_3"><![CDATA[Chief's Cutlery]]></entry>
+    <entry id="cook_weapon_4"><![CDATA[""]]></entry>
+    <entry id="upgrade_tree_name_cook.weapon"><![CDATA[Cutlery]]></entry>
 
-    <entry id="cook_armour_0"><![CDATA[Torn Scarf]]></entry>
-    <entry id="cook_armour_1"><![CDATA[Used Scarf]]></entry>
-    <entry id="cook_armour_2"><![CDATA[Solid Scarf]]></entry>
-    <entry id="cook_armour_3"><![CDATA[Decorated Scarf]]></entry>
-    <entry id="cook_armour_4"><![CDATA["The Moulting"]]></entry>
-    <entry id="upgrade_tree_name_cook.armour"><![CDATA[Scarf]]></entry>
+    <entry id="cook_armour_0"><![CDATA[Rag Apron]]></entry>
+    <entry id="cook_armour_1"><![CDATA[Dirty Apron]]></entry>
+    <entry id="cook_armour_2"><![CDATA[Kitchen Apron]]></entry>
+    <entry id="cook_armour_3"><![CDATA[Chief's Apron]]></entry>
+    <entry id="cook_armour_4"><![CDATA[""]]></entry>
+    <entry id="upgrade_tree_name_cook.armour"><![CDATA[Apron]]></entry>
 
     <entry id="actor_mode_name_nocooking"><![CDATA[Combat]]></entry>
     <entry id="actor_mode_name_cooking"><![CDATA[Cooking]]></entry>

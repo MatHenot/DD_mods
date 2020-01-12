@@ -35,8 +35,8 @@ heroes/cook/cook_A/anim/cook.sprite.investigate.png
 heroes/cook/cook_A/anim/cook.sprite.maincourse.png
 heroes/cook/cook_A/anim/cook.sprite.poisonnedbait.png
 heroes/cook/cook_A/anim/cook.sprite.walk.png
-campaign/town/town_event/town_event.image_banquet_cook.png
 campaign/town/town_event/town_event.image_first_cook.png
+campaign/town/town_events/town_event.image_gourmets.png
 heroes/cook/anim/cook.sprite.afflicted.atlas
 heroes/cook/anim/cook.sprite.afflicted.skel
 heroes/cook/anim/cook.sprite.butcher.atlas
@@ -90,6 +90,7 @@ raid/camping/skill_icons/camp_skill_abundance.png
 raid/camping/skill_icons/camp_skill_apetizer.png
 raid/camping/skill_icons/camp_skill_light_bearer.png
 raid/camping/skill_icons/camp_skill_purge.png
+campaign/town_event/cook.town_events.events.json
 heroes/cook/cook.ability.five.png
 heroes/cook/cook.ability.four.png
 heroes/cook/cook.ability.one.png
@@ -120,6 +121,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting...............................................................................................Submitted.
+Submitting.................................................................................................................Submitted.
 Saving project file D:\DD_mods\Cook\project.xml
 
