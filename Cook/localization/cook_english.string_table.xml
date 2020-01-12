@@ -114,9 +114,9 @@
     <entry id="cook+str_bark_first_aid"><![CDATA[I know I have some meds stored somewhere...]]></entry>
     <entry id="cook+str_bark_first_aid"><![CDATA[I'm going to make a bandage with a strap from my bag.]]></entry>
     <entry id="cook+str_bark_first_aid"><![CDATA[Take this and get up, I'm too loaded to carry you.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[I've survived this long. So can you all.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[I've survived this long. So can you all. I guess.]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[Don't touch to my bag. Everybody can manage their share.]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[I've seen worst already. We'll carry on.]]></entry>
     
     <entry id="cook+str_bark_abundance"><![CDATA[In small doses, the poison will strengthen us!]]></entry>
 	<entry id="cook+str_bark_abundance"><![CDATA[I assure you, there is no risk.]]></entry>
