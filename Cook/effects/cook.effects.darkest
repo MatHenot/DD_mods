@@ -67,11 +67,11 @@ effect: .name "Butcher_Bleed 3" .target "target" .chance 120% .dotBleed 3 .durat
 effect: .name "Butcher_Bleed 4" .target "target" .chance 130% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 effect: .name "Butcher_Bleed 5" .target "target" .chance 140% .dotBleed 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 
-effect: .name "Butcher_Crit 1" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 15% .on_hit true .on_miss false .skill_instant true
-effect: .name "Butcher_Crit 2" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 17% .on_hit true .on_miss false .skill_instant true
-effect: .name "Butcher_Crit 3" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 20% .on_hit true .on_miss false .skill_instant true
-effect: .name "Butcher_Crit 4" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 22% .on_hit true .on_miss false .skill_instant true
-effect: .name "Butcher_Crit 5" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 25% .on_hit true .on_miss false .skill_instant true
+effect: .name "Butcher_Crit 1" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 10% .on_hit true .on_miss false .skill_instant true
+effect: .name "Butcher_Crit 2" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 12% .on_hit true .on_miss false .skill_instant true
+effect: .name "Butcher_Crit 3" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 15% .on_hit true .on_miss false .skill_instant true
+effect: .name "Butcher_Crit 4" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 17% .on_hit true .on_miss false .skill_instant true
+effect: .name "Butcher_Crit 5" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 20% .on_hit true .on_miss false .skill_instant true
 
 effect: .name "Butcher_Beast" .target "performer" .chance 100% .buff_ids "Butcher_Beast_L" "Butcher_Beast_H" .on_hit true .on_miss false .skill_instant true
 

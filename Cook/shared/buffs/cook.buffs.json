@@ -357,8 +357,8 @@
 
 	  {
          "id" : "Butcher_Beast_L",
-         "stat_type" : "damage_low",
-         "stat_sub_type" : "",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
          "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "monsterType",
@@ -370,8 +370,8 @@
       },
 	  {
          "id" : "Butcher_Beast_H",
-         "stat_type" : "damage_high",
-         "stat_sub_type" : "",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
          "amount" : 0.25,
          "remove_if_not_active" : false,
          "rule_type" : "monsterType",

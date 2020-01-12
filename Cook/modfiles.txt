@@ -79,7 +79,7 @@ heroes/cook/cook.art.darkest 1692
 heroes/cook/cook.info.darkest 14263
 heroes/cook/cook_guild_header.png 417333
 raid/camping/cook.camping_skills.json 6144
-shared/buffs/cook.buffs.json 25424
+shared/buffs/cook.buffs.json 25464
 shared/quirk/cook.quirk_library.json 693
 upgrades/heroes/cook.upgrades.json 21034
 audio/cook.heroes.guid_overrides.json 2549
