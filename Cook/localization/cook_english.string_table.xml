@@ -118,18 +118,18 @@
     <entry id="cook+str_bark_pep_talk"><![CDATA[Don't touch to my bag. Everybody can manage their share.]]></entry>
     <entry id="cook+str_bark_pep_talk"><![CDATA[I've seen worst already. We'll carry on.]]></entry>
     
-    <entry id="cook+str_bark_abundance"><![CDATA[]]></entry>
-	<entry id="cook+str_bark_abundance"><![CDATA[]]></entry>
-	<entry id="cook+str_bark_abundance"><![CDATA[]]></entry>
-    <entry id="cook+str_bark_purge"><![CDATA[]]></entry>
-	<entry id="cook+str_bark_purge"><![CDATA[]]></entry>
-	<entry id="cook+str_bark_purge"><![CDATA[]]></entry>
-    <entry id="cook+str_bark_apetizer"><![CDATA[]]></entry>
-	<entry id="cook+str_bark_apetizer"><![CDATA[]]></entry>
-	<entry id="cook+str_bark_apetizer"><![CDATA[]]></entry>
-    <entry id="cook+str_bark_light_bearer"><![CDATA[]]></entry>
-	<entry id="cook+str_bark_light_bearer"><![CDATA[]]></entry>
-	<entry id="cook+str_bark_light_bearer"><![CDATA[]]></entry>
+    <entry id="cook+str_bark_abundance"><![CDATA[Enough rationing. We deserve to treat ourselves!]]></entry>
+	<entry id="cook+str_bark_abundance"><![CDATA[That what they call food?! I'll show you how it's done.]]></entry>
+	<entry id="cook+str_bark_abundance"><![CDATA[A certain death awaits us? Well, we won't go on an empty stomach.]]></entry>
+    <entry id="cook+str_bark_purge"><![CDATA[You need to empty yourself in order to fill up again.]]></entry>
+	<entry id="cook+str_bark_purge"><![CDATA[Told you. You must pay attention. Now eat that.]]></entry>
+	<entry id="cook+str_bark_purge"><![CDATA[I use to say, nothing should go up, but in your case...]]></entry>
+    <entry id="cook+str_bark_apetizer"><![CDATA[This would give you an insight of what I'm going to cook.]]></entry>
+	<entry id="cook+str_bark_apetizer"><![CDATA[A bit salty maybe? But still a delicious amuse bouche.]]></entry>
+	<entry id="cook+str_bark_apetizer"><![CDATA[This will get rid of the bad taste that last fight left you.]]></entry>
+    <entry id="cook+str_bark_light_bearer"><![CDATA[I can install the portable brazier.]]></entry>
+	<entry id="cook+str_bark_light_bearer"><![CDATA[If I manage not to fire my bag, we should see more clearly.]]></entry>
+	<entry id="cook+str_bark_light_bearer"><![CDATA[Light up the brazier. Our path will be enlighten.]]></entry>
         
 	<entry id="cook+str_critbyhero"><![CDATA[Is that even comestible?]]></entry>
     <entry id="cook+str_critbyhero"><![CDATA[Should we taste a piece of that?]]></entry>
@@ -157,7 +157,7 @@
     <entry id="str_cook_overfed"><![CDATA[Why is it so good?]]></entry>
 
 	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[I've had a long life... but I don't want to go like this!]]></entry>
-    <entry id="cook+str_bark_deathsdoor"><![CDATA[Master, I'm coming...]]></entry>
+    <entry id="cook+str_bark_deathsdoor"><![CDATA[At least, I'm ready to go...]]></entry>
    
   </language>
 
