@@ -131,17 +131,15 @@
 	<entry id="cook+str_bark_prelude"><![CDATA[Wonderful!]]></entry>
 	<entry id="cook+str_bark_prelude"><![CDATA[To get started...]]></entry>
         
-	<entry id="cook+str_critbyhero"><![CDATA[Deadly fangs hit hard!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[I will tame you!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[kKSSSss!!!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Venom consumes you!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[You are already dead!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[A critical strike!]]></entry>
+	<entry id="cook+str_critbyhero"><![CDATA[Is that even comestible?]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Should we taste a piece of that?]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[You're served!]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[A tasteful hit.]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Not good enough for my potage.]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[You're just meat.]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Eat that!]]></entry>
 	
-	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[It's my destiny...I'm waiting for you, Devourer!]]></entry>
-    <entry id="cook+str_monster_attack_unholy_smite"><![CDATA[His presence...It's overwhelming!!]]></entry>
-    <entry id="cook+str_monster_attack_unholy_judgement"><![CDATA[I will survive! I was trained for this!]]></entry>
-    <entry id="cook+str_monster_attack_unholy_curse"><![CDATA[Does my destiny stop at that?!]]></entry>
+	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[I've had a long life... but I don't want to go like this!]]></entry>
     <entry id="cook+str_bark_deathsdoor"><![CDATA[Master, I'm coming...]]></entry>
    
   </language>
