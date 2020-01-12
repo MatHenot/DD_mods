@@ -354,6 +354,33 @@
             "string" : ""
          }
       },
+
+	  {
+         "id" : "Butcher_Beast_L",
+         "stat_type" : "damage_low",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+	  {
+         "id" : "Butcher_Beast_H",
+         "stat_type" : "damage_high",
+         "stat_sub_type" : "",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
 	  
 	  {
          "id" : "CPiece_DMG 1",
@@ -860,6 +887,20 @@
          "rule_data" : {
             "float" : 0,
             "string" : "binge"
+         }
+      },
+	  
+	  {
+         "id" : "E_Gourmets",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "eat",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
          }
       }
   ]

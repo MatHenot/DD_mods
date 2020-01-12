@@ -73,6 +73,8 @@ effect: .name "Butcher_Crit 3" .target "performer" .chance 100% .keyStatus bleed
 effect: .name "Butcher_Crit 4" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 22% .on_hit true .on_miss false .skill_instant true
 effect: .name "Butcher_Crit 5" .target "performer" .chance 100% .keyStatus bleeding .combat_stat_buff 1 .crit_chance_add 25% .on_hit true .on_miss false .skill_instant true
 
+effect: .name "Butcher_Beast" .target "performer" .chance 100% .buff_ids "Butcher_Beast_L" "Butcher_Beast_H" .on_hit true .on_miss false .skill_instant true
+
 //Condiment
 
 effect: .name "TT_Condiment_Cont" .target "performer" .chance 100% .buff_ids "TT_Condiment_Cont" .on_hit false .on_miss true .skill_instant true

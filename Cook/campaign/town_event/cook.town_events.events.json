@@ -1,0 +1,59 @@
+{
+    "events": [
+        {
+            "id": "first_cook",
+            "base_chance": 20.0,
+            "per_not_rolled_additional_chance": 20.0,
+            "cooldown": 0,
+            "is_unique" : true,
+            "priority":"higher",            
+            "requirements": {
+                "minimum_week": 5,
+                "dead_heroes": 0,
+                "hero_level_counts": [ ],
+                "upgrades_purchased": [ ],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [ ],
+            "tone": "neutral",
+            "sprite": "",
+            "sprite_attachment": "",
+            "data": [
+                {
+                    "type": "bonus_recruit",
+                    "string_data": "snake_charmer",
+                    "number_data": 1.0
+                }
+            ]
+        },
+        {
+            "id": "gourmets",
+            "base_chance": 20000.0,
+            "per_not_rolled_additional_chance": 1.0,
+            "cooldown": 1,
+            "requirements": {
+                "minimum_week": 6,
+                "dead_heroes": 0,
+                "hero_level_counts": [],
+                "upgrades_purchased": [],
+                "trinket_storage_count": 0
+            },
+            "town_ambience_paramater_ids": [],
+            "tone": "good",
+            "sprite": "town_event_bumper_crop",
+            "sprite_attachment": "statue",
+            "data": [
+                {
+                    "type": "provision_item_type_cost_change",
+                    "string_data": "provision",
+                    "number_data": -1.0
+                },
+				{
+                    "type": "embark_party_buff",
+                    "string_data": "E_Gourmets",
+                    "number_data": 0.0
+                }
+            ]
+        }
+    ]
+}

@@ -4,16 +4,14 @@
   
 	<entry id="hero_class_name_cook"><![CDATA[Intinerant Cook]]></entry>
 	
-	<entry id="action_verbose_body_guild_cook"><![CDATA[Cook.]]></entry>
-    <entry id="action_verbose_body_blacksmith_cook"><![CDATA[Couk.]]></entry>
-    <entry id="action_verbose_body_camping_trainer_cook"><![CDATA[Cwook.]]></entry>	
+	<entry id="action_verbose_body_guild_cook"><![CDATA[The Itinerant Cook surely brings a lot of comfort to her allies, with the solid regenerative meals that she offers. According to her recipe, the mouthwatering vapors coming from her marmite can be proved deadly to her enemies. When she’s not shouting orders to her comrades, she shares her tremendous experience in luring and slaughtering any beast ... or foe.]]></entry>
+    <entry id="action_verbose_body_blacksmith_cook"><![CDATA[The Itinerant Cook never go without her Chief’s Knife, as deadly as useful. She also brings her favorite spoon, and always carry a vial of a mysterious ingredient, that will add this unique flavour she keeps secret. Her dirty apron is more practical than a true protection.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_cook"><![CDATA[No better place than the campfire for the Itinerant Cook to reveal the full potential of her mastery ; she’ll transform a makeshift bivouac into a luxurious feast in no time. After their binge eating, she can help to her companions to purge themselves with some strange mixture.]]></entry>	
   	
-	<entry id="town_event_title_first_cook"><![CDATA[Snakes in Town]]></entry>
-	<entry id="town_event_description_first_cook"><![CDATA[The Ancestor's correspondences have borne fruit. The serpents and their master join the hamlet, under the astonished eyes of the villagers.]]></entry>
-	<entry id="town_event_title_bonus_recruit_cook"><![CDATA[Night Travelers]]></entry>
-	<entry id="town_event_description_bonus_recruit_cook"><![CDATA[The night brings its share of surprises; among them, two individuals from the East, intrigued by a species of unknown snake.]]></entry>
-	<entry id="town_event_title_idle_resolve_level_cook"><![CDATA[Street Show]]></entry>
-	<entry id="town_event_description_idle_resolve_level_cook"><![CDATA[It is a strange and enticing music on which serpents rise and undulate, possessed by an invisible power.]]></entry>
+	<entry id="town_event_title_first_cook"><![CDATA[Soup for the poor]]></entry>
+	<entry id="town_event_description_first_cook"><![CDATA[Someone has started to distribute free food in the slums. In these times of misery, all kinds of skills deserve to be well used.]]></entry>
+	<entry id="town_event_title_gourmets"><![CDATA[Fine Gourmets]]></entry>
+	<entry id="town_event_description_gourmets"><![CDATA[Itinerant Cooks have declared gourmets week, preparing sumptuous banquets with refined dishes thanks to the surplus of harvest. Adventurers won't complain to eat better than usual.]]></entry>
 	
 	<entry id="str_inventory_title_trinketcook_fish_bones"><![CDATA[Fish Bones]]></entry>
 	<entry id="str_inventory_title_trinketcook_cleaver"><![CDATA[Cleaver]]></entry>
