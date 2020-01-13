@@ -1,0 +1,13 @@
+
+cook.sprite.butcherfx.png
+size: 316,255
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Calque 6
+  rotate: false
+  xy: 2, 2
+  size: 312, 251
+  orig: 312, 251
+  offset: 0, 0
+  index: -1

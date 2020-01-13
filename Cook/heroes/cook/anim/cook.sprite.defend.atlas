@@ -1,26 +1,26 @@
 
 cook.sprite.defend.png
-size: 1149,354
+size: 594,559
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 images/combat def
-  rotate: true
-  xy: 589, 69
-  size: 283, 558
-  orig: 283, 558
+  rotate: false
+  xy: 307, 86
+  size: 285, 471
+  orig: 285, 471
   offset: 0, 0
   index: -1
 images/cooking def
-  rotate: true
-  xy: 2, 25
-  size: 327, 585
-  orig: 327, 585
+  rotate: false
+  xy: 2, 69
+  size: 303, 488
+  orig: 303, 488
   offset: 0, 0
   index: -1
 images/ombre
   rotate: false
-  xy: 589, 2
+  xy: 2, 2
   size: 359, 65
   orig: 359, 65
   offset: 0, 0

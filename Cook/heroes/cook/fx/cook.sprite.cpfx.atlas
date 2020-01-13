@@ -1,0 +1,20 @@
+
+cook.sprite.cpfx.png
+size: 603,439
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Calque 10
+  rotate: true
+  xy: 470, 142
+  size: 295, 131
+  orig: 295, 131
+  offset: 0, 0
+  index: -1
+images/Calque 6 copie 2
+  rotate: true
+  xy: 2, 2
+  size: 435, 466
+  orig: 435, 466
+  offset: 0, 0
+  index: -1
