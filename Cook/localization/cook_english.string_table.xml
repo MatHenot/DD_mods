@@ -2,27 +2,27 @@
 <root>
   <language id="english">
   
-	<entry id="hero_class_name_cook"><![CDATA[Intinerant Cook]]></entry>
+	<entry id="hero_class_name_cook"><![CDATA[Itinerant Cook]]></entry>
 	
-	<entry id="action_verbose_body_guild_cook"><![CDATA[The Itinerant Cook surely brings a lot of comfort to her allies, with the solid regenerative meals that she offers. According to her recipes, the mouthwatering vapors coming from her marmite can be proved deadly to her enemies. When she’s not shouting orders to her comrades, she shares her tremendous experience in luring and slaughtering any beast ... or foe.]]></entry>
-    <entry id="action_verbose_body_blacksmith_cook"><![CDATA[The Itinerant Cook never go without her Chief’s Knife, as deadly as useful. She also brings her favorite spoon, and always carry a vial of a mysterious ingredient, that will add this unique flavour she keeps secret. Her dirty apron is more practical than a true protection.]]></entry>
-    <entry id="action_verbose_body_camping_trainer_cook"><![CDATA[No better place than the campfire for the Itinerant Cook to reveal the full potential of her mastery, she’ll transform a makeshift bivouac into a luxurious feast in no time. After their binge eating, she can help to her companions to purge themselves with some strange mixture.]]></entry>	
+	<entry id="action_verbose_body_guild_cook"><![CDATA[The Itinerant Cook  brings much needed comfort to her allies with the hearty regenerative meals that she offers. According to her recipes, the mouthwatering vapors coming from her cookpot can become deadly to her enemies. When she’s not giving orders to her comrades, she shares her tremendous experience in luring and slaughtering any beast... or person.]]></entry>
+    <entry id="action_verbose_body_blacksmith_cook"><![CDATA[The Itinerant Cook never goes without her chef's knife, as deadly as it is useful. She also brings her favorite spoon, and always carries a vial of her own secret ingredient that adds a unique flavour. Her apron is practical, but offers little in the way of protection.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_cook"><![CDATA[No better place than the campfire for the Itinerant Cook to reveal the full potential of her mastery, transforming a makeshift bivouac into a luxurious banquet hall. After their binge eating, she can help her companions purge themselves with some strange mixtures.]]></entry>	
   	
-	<entry id="town_event_title_first_cook"><![CDATA[Soup for the poor]]></entry>
-	<entry id="town_event_description_first_cook"><![CDATA[Someone has started to distribute free food in the slums. In these times of misery, all kinds of skills deserve to be well used.]]></entry>
-	<entry id="town_event_title_gourmets"><![CDATA[Fine Gourmets]]></entry>
-	<entry id="town_event_description_gourmets"><![CDATA[Itinerant Cooks have declared gourmets week, preparing sumptuous banquets with refined dishes thanks to the surplus of harvest. Adventurers won't complain to eat better than usual.]]></entry>
+	<entry id="town_event_title_first_cook"><![CDATA[Soup for the Poor]]></entry>
+	<entry id="town_event_description_first_cook"><![CDATA[Someone has started to distribute free food in the slums. In these times of misery, all kinds of skills must be put to use.]]></entry>
+	<entry id="town_event_title_gourmets"><![CDATA[Fine Gourmet]]></entry>
+	<entry id="town_event_description_gourmets"><![CDATA[Itinerant Cooks have declared Gourmets Week, preparing sumptuous banquets with refined dishes thanks to the surplus of harvest. Our recruits won't complain to be eating better than usual.]]></entry>
 	
 	<entry id="str_inventory_title_trinketcook_fish_bones"><![CDATA[Fish Bones]]></entry>
 	<entry id="str_inventory_title_trinketcook_cleaver"><![CDATA[Cleaver]]></entry>
 	<entry id="str_inventory_title_trinketcook_bottled_snake"><![CDATA[Bottled Snake]]></entry>
-	<entry id="str_inventory_title_trinketcook_spices"><![CDATA[Spices Collection]]></entry>
-	<entry id="str_inventory_title_trinketcook_knives"><![CDATA[Chief Knives Set]]></entry>
+	<entry id="str_inventory_title_trinketcook_spices"><![CDATA[Collection of Spices]]></entry>
+	<entry id="str_inventory_title_trinketcook_knives"><![CDATA[Chef Knives Set]]></entry>
 	<entry id="str_inventory_set_title_cc_cook"><![CDATA["The secret recipe of sucess."]]></entry>
 	<entry id="str_inventory_title_trinketcook_cockade"><![CDATA[Cordon Bleu Cockade]]></entry>
-	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Vial of Unique Ingredient]]></entry>
+	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Vial of a Unique Ingredient]]></entry>
 	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Dimensional Eyeglasses]]></entry>
-	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Maite's Head (hahaha)]]></entry>
+	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Maite's Head]]></entry>
 	
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[Main Course]]></entry>
 	<entry id="combat_skill_name_cook_butcher"><![CDATA[Butcher's Slice]]></entry>
@@ -42,20 +42,20 @@
 
     <entry id="camping_skill_name_abundance"><![CDATA[ABUNDANCE]]></entry>
     <entry id="camping_skill_name_purge"><![CDATA[PURGE]]></entry>
-    <entry id="camping_skill_name_apetizer"><![CDATA[APETIZER]]></entry>
+    <entry id="camping_skill_name_apetizer"><![CDATA[APPETIZER]]></entry>
     <entry id="camping_skill_name_light_bearer"><![CDATA[LIGHT BEARER]]></entry>
 	
-	<entry id="cook_weapon_0"><![CDATA[Crappy Cutlery]]></entry>
+	<entry id="cook_weapon_0"><![CDATA[Worn Cutlery]]></entry>
     <entry id="cook_weapon_1"><![CDATA[Table Cutlery]]></entry>
     <entry id="cook_weapon_2"><![CDATA[Silver Cutlery]]></entry>
-    <entry id="cook_weapon_3"><![CDATA[Chief's Cutlery]]></entry>
+    <entry id="cook_weapon_3"><![CDATA[Chef's Cutlery]]></entry>
     <entry id="cook_weapon_4"><![CDATA[""]]></entry>
     <entry id="upgrade_tree_name_cook.weapon"><![CDATA[Cutlery]]></entry>
 
     <entry id="cook_armour_0"><![CDATA[Rag Apron]]></entry>
     <entry id="cook_armour_1"><![CDATA[Dirty Apron]]></entry>
     <entry id="cook_armour_2"><![CDATA[Kitchen Apron]]></entry>
-    <entry id="cook_armour_3"><![CDATA[Chief's Apron]]></entry>
+    <entry id="cook_armour_3"><![CDATA[Chef's Apron]]></entry>
     <entry id="cook_armour_4"><![CDATA[""]]></entry>
     <entry id="upgrade_tree_name_cook.armour"><![CDATA[Apron]]></entry>
 
@@ -108,41 +108,56 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[Friendly Skill: {colour_start|healhp}Heal{colour_end} 0-2 HP]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[Friendly Skill: DMG 1-2 HP]]></entry>	
 
-    <entry id="cook+str_bark_encourage"><![CDATA[The Master would be proud of you.]]></entry>
-    <entry id="cook+str_bark_encourage"><![CDATA[Close your eyes. Clear your mind.]]></entry>
-    <entry id="cook+str_bark_encourage"><![CDATA[Your will is unbreakable.]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[This concoction will do you good.]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[Take this vial. A drop should be enough.]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[Let me apply this on your wounds.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[Meditation will help you to weather this challenge.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[You are bound to my destiny!]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[I will share some of my knowledge.]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[I know you'll manage to carry your burdens.]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[You're a tough one. You'll easily get as old as me.]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[Everyone carries the weight of their past.]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[I know I have some meds stored somewhere...]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[I'm going to make a bandage with a strap from my bag.]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[Take this and get up, I'm too loaded to carry you.]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[If I've survived this long, so can all of you. I guess.]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[Don't touch my bag. Everybody can manage their share.]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[I've seen worse already. We'll carry on.]]></entry>
     
-    <entry id="cook+str_bark_mithridatism"><![CDATA[In small doses, the poison will strengthen us!]]></entry>
-	<entry id="cook+str_bark_mithridatism"><![CDATA[I assure you, there is no risk.]]></entry>
-	<entry id="cook+str_bark_mithridatism"><![CDATA[One dose a day, and you will be invincible!]]></entry>
-    <entry id="cook+str_bark_exotic_spices"><![CDATA[Your acuity will be unequaled!]]></entry>
-	<entry id="cook+str_bark_exotic_spices"><![CDATA[Taste this. It's a typical dessert from my land.]]></entry>
-	<entry id="cook+str_bark_exotic_spices"><![CDATA[It looks tasteless. Let me spice it up.]]></entry>
-    <entry id="cook+str_bark_melody"><![CDATA[Time for the show! Be attentive and relax.]]></entry>
-	<entry id="cook+str_bark_melody"><![CDATA[Let yourself be carried away by the snake dance.]]></entry>
-	<entry id="cook+str_bark_melody"><![CDATA[Admire! A show straight from the East.]]></entry>
-    <entry id="cook+str_bark_prelude"><![CDATA[The most majestic of all snakes.]]></entry>
-	<entry id="cook+str_bark_prelude"><![CDATA[Wonderful!]]></entry>
-	<entry id="cook+str_bark_prelude"><![CDATA[To get started...]]></entry>
+    <entry id="cook+str_bark_abundance"><![CDATA[Enough rationing. We deserve to treat ourselves!]]></entry>
+	<entry id="cook+str_bark_abundance"><![CDATA[That's what they call food? I'll show you how it's done.]]></entry>
+	<entry id="cook+str_bark_abundance"><![CDATA[If certain death awaits us, we shouldn't go out on an empty stomach.]]></entry>
+    <entry id="cook+str_bark_purge"><![CDATA[You need to empty yourself in order to fill up again.]]></entry>
+	<entry id="cook+str_bark_purge"><![CDATA[Told you. You must pay attention. Now eat that.]]></entry>
+	<entry id="cook+str_bark_purge"><![CDATA[Nothing should come back up, I say, but in your case...]]></entry>
+    <entry id="cook+str_bark_apetizer"><![CDATA[This would give you an insight of what I'm going to cook.]]></entry>
+	<entry id="cook+str_bark_apetizer"><![CDATA[A bit salty maybe? But still a delicious amuse bouche.]]></entry>
+	<entry id="cook+str_bark_apetizer"><![CDATA[This will get rid of the bad taste that last fight left you.]]></entry>
+    <entry id="cook+str_bark_light_bearer"><![CDATA[I can install the portable brazier.]]></entry>
+	<entry id="cook+str_bark_light_bearer"><![CDATA[If I manage not to burn my bag, we should see more clearly.]]></entry>
+	<entry id="cook+str_bark_light_bearer"><![CDATA[Light up the brazier. Our path will be illuminated.]]></entry>
         
-	<entry id="cook+str_critbyhero"><![CDATA[Deadly fangs hit hard!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[I will tame you!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[kKSSSss!!!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Venom consumes you!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[You are already dead!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[A critical strike!]]></entry>
-	
-	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[It's my destiny...I'm waiting for you, Devourer!]]></entry>
-    <entry id="cook+str_monster_attack_unholy_smite"><![CDATA[His presence...It's overwhelming!!]]></entry>
-    <entry id="cook+str_monster_attack_unholy_judgement"><![CDATA[I will survive! I was trained for this!]]></entry>
-    <entry id="cook+str_monster_attack_unholy_curse"><![CDATA[Does my destiny stop at that?!]]></entry>
-    <entry id="cook+str_bark_deathsdoor"><![CDATA[Master, I'm coming...]]></entry>
+	<entry id="cook+str_critbyhero"><![CDATA[Is that even edible?]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Should we taste a piece of that?]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[You're served!]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[A tasteful hit.]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Not good enough for my potage.]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[You're just raw meat.]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Eat that!]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Ha! Digestible enough?]]></entry>
+
+    <entry id="str_cook_maincourse"><![CDATA[Bon Apétit!]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Here you go.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Dinner is served.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Careful, it's hot.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Compliments of the chef.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Food's ready, take your plate.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Let's eat a piece.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Taste it before you say it's not good.]]></entry>
+
+    <entry id="str_cook_overfed"><![CDATA[*Burp*]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[I can't take it anymore...]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[Oof... I'm full.]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[That's... too much.]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[I had enough, but I can't stop.]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[Why is it so good?]]></entry>
+
+	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[I've had a long life... but I don't want to go like this!]]></entry>
+    <entry id="cook+str_bark_deathsdoor"><![CDATA[At least, I'm ready to go...]]></entry>
    
   </language>
 

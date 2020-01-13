@@ -76,7 +76,7 @@ heroes/cook/cook.ability.six.png 64461
 heroes/cook/cook.ability.three.png 66710
 heroes/cook/cook.ability.two.png 65949
 heroes/cook/cook.art.darkest 1692
-heroes/cook/cook.info.darkest 14263
+heroes/cook/cook.info.darkest 14368
 heroes/cook/cook_guild_header.png 417333
 raid/camping/cook.camping_skills.json 6144
 shared/buffs/cook.buffs.json 25464
@@ -84,10 +84,10 @@ shared/quirk/cook.quirk_library.json 693
 upgrades/heroes/cook.upgrades.json 21034
 audio/cook.heroes.guid_overrides.json 2549
 audio/cook.heroes.load_order.json 79
-effects/cook.effects.darkest 16755
+effects/cook.effects.darkest 16950
 inventory/cook.inventory.extra_stack_limits.darkest 78
-localization/1960566563_english.loc 26542
-localization/cook_english.string_table.xml 46471
+localization/1960566563_english.loc 11471
+localization/cook_english.string_table.xml 14156
 loot/cook.loot.json 461
 trinkets/East_town.rarities.trinkets.json 162
 trinkets/com.rarities.trinkets.json 428
