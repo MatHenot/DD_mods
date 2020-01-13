@@ -66,6 +66,12 @@ heroes/cook/anim/cook.sprite.poisonnedbait.skel
 heroes/cook/anim/cook.sprite.walk.atlas
 heroes/cook/anim/cook.sprite.walk.skel
 heroes/cook/cook_A/cook_portrait_roster.png
+heroes/cook/fx/cook.sprite.butcherfx.atlas
+heroes/cook/fx/cook.sprite.butcherfx.png
+heroes/cook/fx/cook.sprite.butcherfx.skel
+heroes/cook/fx/cook.sprite.cpfx.atlas
+heroes/cook/fx/cook.sprite.cpfx.png
+heroes/cook/fx/cook.sprite.cpfx.skel
 heroes/cook/icons_equip/eqp_armour_0.png
 heroes/cook/icons_equip/eqp_armour_1.png
 heroes/cook/icons_equip/eqp_armour_2.png
@@ -121,6 +127,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting..................................................................................................Submitted.
+Submitting............................................................................................................................Submitted.
 Saving project file D:\DD_mods\Cook\project.xml
 
