@@ -48,7 +48,7 @@ effect: .name "TT_MCourse_FinalBlight 3" .target "performer" .chance 100% .buff_
 effect: .name "TT_MCourse_FinalBlight 4" .target "performer" .chance 100% .buff_ids "TT_MCourse_FinalBlight 4" .on_hit false .on_miss true .skill_instant true
 effect: .name "TT_MCourse_FinalBlight 5" .target "performer" .chance 100% .buff_ids "TT_MCourse_FinalBlight 5" .on_hit false .on_miss true .skill_instant true
 
-effect: .name "TT_MCourse_Final_Bark" .target "performer" .chance 8% .bark str_cook_maincourse .on_hit true .on_miss false
+effect: .name "MCourse_Final_Bark" .target "performer" .chance 8% .bark str_cook_maincourse .on_hit true .on_miss false
 
 effect: .name "MCourse_HealBuff" .target "performer" .chance 100% .buff_ids "MCourse_HealBuff" .on_hit true .on_miss true .queue true
 effect: .name "TT_MCourse_HealBuff" .target "performer" .chance 100% .buff_ids "TT_MCourse_HealBuff" .on_hit false .on_miss true .queue true
@@ -80,6 +80,11 @@ effect: .name "Butcher_Beast" .target "performer" .chance 100% .buff_ids "Butche
 //Condiment
 
 effect: .name "TT_Condiment_Cont" .target "performer" .chance 100% .buff_ids "TT_Condiment_Cont" .on_hit false .on_miss true .skill_instant true
+
+effect: .name "Condiment_mode1" .target "performer" .chance 100% .set_mode mode1 .on_hit true .on_miss false .skill_instant true
+effect: .name "Condiment_mode2" .target "performer" .chance 75% .set_mode mode2 .on_hit true .on_miss false .skill_instant true
+effect: .name "Condiment_mode3" .target "performer" .chance 50% .set_mode mode3 .on_hit true .on_miss false .skill_instant true
+effect: .name "Condiment_mode4" .target "performer" .chance 25% .set_mode mode4 .on_hit true .on_miss false .skill_instant true
 
 effect: .name "Condiment 1" .target "target" .chance 100% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true .queue true
 effect: .name "Condiment 2" .target "target" .chance 100% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true .has_description false .queue true

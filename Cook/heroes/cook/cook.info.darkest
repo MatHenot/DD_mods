@@ -50,6 +50,11 @@ combat_skill: .id "entremet" .level 1 .launch 234 .target @1234 .self_target_val
 combat_skill: .id "entremet" .level 2 .launch 234 .target @1234 .self_target_valid false .valid_modes nocooking cooking .effect "Binge_Disease_Target" "Cook_StealHeal" "Entremet 3" "TT_Cook_StealHeal" 					 .nocooking_effects "Entremet_HP 3" .cooking_effects "MCourse_HealBuff" "TT_MCourse_HealBuff" 
 combat_skill: .id "entremet" .level 3 .launch 234 .target @1234 .self_target_valid false .valid_modes nocooking cooking .effect "Binge_Disease_Target" "Cook_StealHeal" "Entremet 4" "TT_Entremet 4" 	"Entremet_Random 50" .nocooking_effects "Entremet_HP 4" .cooking_effects "MCourse_HealBuff" "TT_MCourse_HealBuff" 
 combat_skill: .id "entremet" .level 4 .launch 234 .target @1234 .self_target_valid false .valid_modes nocooking cooking .effect "Binge_Disease_Target" "Cook_StealHeal" "Entremet 5" "TT_Cook_StealHeal" 					 .nocooking_effects "Entremet_HP 5" .cooking_effects "MCourse_HealBuff" "TT_MCourse_HealBuff" 
+combat_skill: .id "entremet" .level 0 .launch 234 .target @1234 .self_target_valid false .valid_modes nocooking cooking .effect "Condiment_mode1" "Condiment_mode2" "Condiment_mode3" "Condiment_mode4" .mode1_effects "HealSelf 5" .mode2_effects "Weak Stun 1" .mode3_effects "Minor Bleed 1" .mode4_effects "Heal Stress 3"
+combat_skill: .id "entremet" .level 1 .launch 234 .target @1234 .self_target_valid false .valid_modes nocooking cooking .effect "Condiment_mode1" "Condiment_mode2" "Condiment_mode3" "Condiment_mode4" .mode1_effects "HealSelf 5" .mode2_effects "Weak Stun 1" .mode3_effects "Minor Bleed 1" .mode4_effects "Heal Stress 3"
+combat_skill: .id "entremet" .level 2 .launch 234 .target @1234 .self_target_valid false .valid_modes nocooking cooking .effect "Condiment_mode1" "Condiment_mode2" "Condiment_mode3" "Condiment_mode4" .mode1_effects "HealSelf 5" .mode2_effects "Weak Stun 1" .mode3_effects "Minor Bleed 1" .mode4_effects "Heal Stress 3"
+combat_skill: .id "entremet" .level 3 .launch 234 .target @1234 .self_target_valid false .valid_modes nocooking cooking .effect "Condiment_mode1" "Condiment_mode2" "Condiment_mode3" "Condiment_mode4" .mode1_effects "HealSelf 5" .mode2_effects "Weak Stun 1" .mode3_effects "Minor Bleed 1" .mode4_effects "Heal Stress 3"
+combat_skill: .id "entremet" .level 4 .launch 234 .target @1234 .self_target_valid false .valid_modes nocooking cooking .effect "Condiment_mode1" "Condiment_mode2" "Condiment_mode3" "Condiment_mode4" .mode1_effects "HealSelf 5" .mode2_effects "Weak Stun 1" .mode3_effects "Minor Bleed 1" .mode4_effects "Heal Stress 3"
 combat_skill: .id "commis" .level 0 .launch 23 .target @1234 .self_target_valid false .valid_modes nocooking cooking .effect "Commis_ClearGuardsPerformer" "Commis_ClearGuardsTarget" "Commis_Guard" .nocooking_effects "Commis_HRec 1" .cooking_effects "MCourse_BlightBuff"
 combat_skill: .id "commis" .level 1 .launch 23 .target @1234 .self_target_valid false .valid_modes nocooking cooking .effect "Commis_ClearGuardsPerformer" "Commis_ClearGuardsTarget" "Commis_Guard" .nocooking_effects "Commis_HRec 2" .cooking_effects "MCourse_BlightBuff"
 combat_skill: .id "commis" .level 2 .launch 23 .target @1234 .self_target_valid false .valid_modes nocooking cooking .effect "Commis_ClearGuardsPerformer" "Commis_ClearGuardsTarget" "Commis_Guard" .nocooking_effects "Commis_HRec 3" .cooking_effects "MCourse_BlightBuff"
@@ -65,6 +70,10 @@ controlled: .target_rank 3
 id_index: .index 178
 mode: .id nocooking .is_raid_default true
 mode: .id cooking .battle_complete_combat_skill_id "maincourse"
+mode: .id mode1
+mode: .id mode2
+mode: .id mode3
+mode: .id mode4
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
 extra_curio_loot: .code "COOK" .count 1
 extra_stack_limit: .id cook_food

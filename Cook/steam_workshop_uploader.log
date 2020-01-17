@@ -34,6 +34,7 @@ heroes/cook/cook_A/anim/cook.sprite.idle.png
 heroes/cook/cook_A/anim/cook.sprite.investigate.png
 heroes/cook/cook_A/anim/cook.sprite.maincourse.png
 heroes/cook/cook_A/anim/cook.sprite.poisonnedbait.png
+heroes/cook/cook_A/anim/cook.sprite.secretingredient.png
 heroes/cook/cook_A/anim/cook.sprite.walk.png
 campaign/town/town_event/town_event.image_first_cook.png
 campaign/town/town_events/town_event.image_gourmets.png
@@ -63,6 +64,8 @@ heroes/cook/anim/cook.sprite.maincourse.atlas
 heroes/cook/anim/cook.sprite.maincourse.skel
 heroes/cook/anim/cook.sprite.poisonnedbait.atlas
 heroes/cook/anim/cook.sprite.poisonnedbait.skel
+heroes/cook/anim/cook.sprite.secretingredient.atlas
+heroes/cook/anim/cook.sprite.secretingredient.skel
 heroes/cook/anim/cook.sprite.walk.atlas
 heroes/cook/anim/cook.sprite.walk.skel
 heroes/cook/cook_A/cook_portrait_roster.png
@@ -72,6 +75,9 @@ heroes/cook/fx/cook.sprite.butcherfx.skel
 heroes/cook/fx/cook.sprite.cpfx.atlas
 heroes/cook/fx/cook.sprite.cpfx.png
 heroes/cook/fx/cook.sprite.cpfx.skel
+heroes/cook/fx/cook.sprite.secretingredientfx.atlas
+heroes/cook/fx/cook.sprite.secretingredientfx.png
+heroes/cook/fx/cook.sprite.secretingredientfx.skel
 heroes/cook/icons_equip/eqp_armour_0.png
 heroes/cook/icons_equip/eqp_armour_1.png
 heroes/cook/icons_equip/eqp_armour_2.png
@@ -96,6 +102,7 @@ raid/camping/skill_icons/camp_skill_abundance.png
 raid/camping/skill_icons/camp_skill_apetizer.png
 raid/camping/skill_icons/camp_skill_light_bearer.png
 raid/camping/skill_icons/camp_skill_purge.png
+campaign/roster/cook.roster.additional_variables.json
 campaign/town_event/cook.town_events.events.json
 heroes/cook/cook.ability.five.png
 heroes/cook/cook.ability.four.png
@@ -115,6 +122,7 @@ audio/cook.heroes.guid_overrides.json
 audio/cook.heroes.load_order.json
 effects/cook.effects.darkest
 inventory/cook.inventory.extra_stack_limits.darkest
+inventory/cook.supply.inventory.items.darkest
 localization/1960566563_english.loc
 localization/cook_english.string_table.xml
 loot/cook.loot.json
@@ -127,6 +135,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting............................................................................................................................Submitted.
+Submitting...................................................................................................Submitted.
 Saving project file D:\DD_mods\Cook\project.xml
 
