@@ -166,46 +166,15 @@ effect: .name "T_Glasses_Stealth" .target "performer" .chance 70% .stealth 1 .du
 
 //Food supplies
 
-effect: .name "cook_crypts_A1" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_crypts_A3" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_crypts_A5" .target "target" .chance 100% .on_hit true .on_miss false
-
-effect: .name "cook_crypts_B1" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_crypts_B3" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_crypts_B5" .target "target" .chance 100% .on_hit true .on_miss false
-
-effect: .name "cook_cove_A1" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_cove_A3" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_cove_A5" .target "target" .chance 100% .on_hit true .on_miss false
-
-effect: .name "cook_cove_B1" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_cove_B3" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_cove_B5" .target "target" .chance 100% .on_hit true .on_miss false
-
-effect: .name "cook_warrens_A1" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_warrens_A3" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_warrens_A5" .target "target" .chance 100% .on_hit true .on_miss false
-
-effect: .name "cook_warrens_B1" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_warrens_B3" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_warrens_B5" .target "target" .chance 100% .on_hit true .on_miss false
-
-effect: .name "cook_weald_A1" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_weald_A3" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_weald_A5" .target "target" .chance 100% .on_hit true .on_miss false
-
-effect: .name "cook_weald_B1" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_weald_B3" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_weald_B5" .target "target" .chance 100% .on_hit true .on_miss false
-
-effect: .name "cook_courtyard_A1" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_courtyard_A3" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_courtyard_A5" .target "target" .chance 100% .on_hit true .on_miss false
-
-effect: .name "cook_courtyard_B1" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_courtyard_B3" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_courtyard_B5" .target "target" .chance 100% .on_hit true .on_miss false
-
+effect: .name "cook_crypts_A" .target "target" .chance 100% .on_hit true .on_miss false
+effect: .name "cook_crypts_B" .target "target" .chance 100% .on_hit true .on_miss false
+effect: .name "cook_cove_A" .target "target" .chance 100% .on_hit true .on_miss false
+effect: .name "cook_cove_B" .target "target" .chance 100% .on_hit true .on_miss false
+effect: .name "cook_warrens_A" .target "target" .chance 100% .on_hit true .on_miss false
+effect: .name "cook_warrens_B" .target "target" .chance 100% .on_hit true .on_miss false
+effect: .name "cook_weald_A" .target "target" .chance 100% .on_hit true .on_miss false
+effect: .name "cook_weald_B" .target "target" .chance 100% .on_hit true .on_miss false
+effect: .name "cook_courtyard_A" .target "target" .chance 100% .on_hit true .on_miss false
+effect: .name "cook_courtyard_B" .target "target" .chance 100% .on_hit true .on_miss false
 effect: .name "cook_farm_A" .target "target" .chance 100% .on_hit true .on_miss false
-
 effect: .name "cook_farm_B" .target "target" .chance 100% .on_hit true .on_miss false
