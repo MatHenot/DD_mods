@@ -1,3 +1,7 @@
+inventory_item: .type "supply" .id "cook_common_A" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_common_A"
+inventory_item: .type "supply" .id "cook_common_B" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_common_B"
+inventory_item: .type "supply" .id "cook_common_C" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_common_C"
+
 inventory_item: .type "supply" .id "cook_crypts_A" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_crypts_A"
 inventory_item: .type "supply" .id "cook_crypts_B" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_crypts_B"
 

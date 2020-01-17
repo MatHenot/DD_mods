@@ -81,10 +81,7 @@ effect: .name "Butcher_Beast" .target "performer" .chance 100% .buff_ids "Butche
 
 effect: .name "TT_Condiment_Cont" .target "performer" .chance 100% .buff_ids "TT_Condiment_Cont" .on_hit false .on_miss true .skill_instant true
 
-effect: .name "Buff1" .target "target" .chance 100% .set_mode mode1 .on_hit true .on_miss false
-effect: .name "Buff2" .target "target" .chance 50% .set_mode mode2 .on_hit true .on_miss false
-effect: .name "Buff3" .target "target" .chance 33% .set_mode mode3 .on_hit true .on_miss false
-effect: .name "Buff4" .target "target" .chance 25% .set_mode mode4 .on_hit true .on_miss false
+effect: .name "Condiment_Destun" .target "target" .chance 100% .unstun 1 .on_hit true .on_miss false
 
 effect: .name "Condiment 1" .target "target" .chance 100% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true .queue true
 effect: .name "Condiment 2" .target "target" .chance 100% .dotHpHeal 1 .duration 2 .on_hit true .on_miss true .has_description false .queue true
@@ -171,6 +168,9 @@ effect: .name "T_Glasses_Stealth" .target "performer" .chance 70% .stealth 1 .du
 
 //Food supplies
 
+effect: .name "cook_common_A" .target "target" .chance 100% .on_hit true .on_miss false
+effect: .name "cook_common_B" .target "target" .chance 100% .on_hit true .on_miss false
+effect: .name "cook_common_C" .target "target" .chance 100% .on_hit true .on_miss false
 effect: .name "cook_crypts_A" .target "target" .chance 100% .on_hit true .on_miss false
 effect: .name "cook_crypts_B" .target "target" .chance 100% .on_hit true .on_miss false
 effect: .name "cook_cove_A" .target "target" .chance 100% .on_hit true .on_miss false

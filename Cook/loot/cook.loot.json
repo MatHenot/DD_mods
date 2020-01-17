@@ -2,7 +2,7 @@
    "loot_tables" :
    [
       {
-         "id" : "COOK",
+         "id" : "COOK_curio",
          "difficulty" : 0,
          "dungeon" : "",
          "entries" :
@@ -12,14 +12,17 @@
             { "type" : "item", "chances" : 1, "data" : { "type" : "provision", "id" : "", "amount" : 2 }}
          ]
       },
-	  
+
       {
          "id" : "COOK_crypts",
          "difficulty" : 0,
          "dungeon" : "crypts",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "nothing", "chances" : 2, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_A", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_B", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_C", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_crypts_A", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_crypts_B", "amount" : 1 }}
          ]
@@ -30,7 +33,10 @@
          "dungeon" : "cove",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "nothing", "chances" : 2, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_A", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_B", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_C", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_cove_A", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_cove_B", "amount" : 1 }}
          ]
@@ -41,7 +47,10 @@
          "dungeon" : "warrens",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "nothing", "chances" : 2, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_A", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_B", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_C", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_warrens_A", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_warrens_B", "amount" : 1 }}
          ]
@@ -52,7 +61,10 @@
          "dungeon" : "weald",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "nothing", "chances" : 2, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_A", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_B", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_C", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_weald_A", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_weald_B", "amount" : 1 }}
          ]
@@ -63,7 +75,10 @@
          "dungeon" : "courtyard",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "nothing", "chances" : 2, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_A", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_B", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_C", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_courtyard_A", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_courtyard_B", "amount" : 1 }}
          ]
@@ -74,7 +89,10 @@
          "dungeon" : "farm",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "nothing", "chances" : 2, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_A", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_B", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_C", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_farm_A", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_farm_B", "amount" : 1 }}
          ]
