@@ -1,0 +1,13 @@
+
+cook.sprite.buff_fx_cook_loop.png
+size: 363,69
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ombre
+  rotate: false
+  xy: 2, 2
+  size: 359, 65
+  orig: 359, 65
+  offset: 0, 0
+  index: -1
