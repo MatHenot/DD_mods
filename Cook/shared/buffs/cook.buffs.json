@@ -30,6 +30,7 @@
             "float" : 0,
             "string" : "cooking"
          },
+		 "fx": "cook_loop",
 		 "is_clear_debuff_valid": false
       },
 	  {
@@ -78,7 +79,24 @@
             "float" : 0,
             "string" : "maincourse"
          },
-		 "fx": "SoundFXHeal"
+		 "fx": "cook_healbuff"
+      },
+	  {
+         "id" : "FX_poiscloud",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_MCourse_HealBuff",
+         "amount" : -1,
+		 "duration_type" : "round",
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "remove_on_battle_complete" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "fx": "cook_poiscloud"
       },
 	  {
          "id" : "TT_MCourse_HealBuff",
@@ -111,7 +129,7 @@
             "float" : 0,
             "string" : "maincourse"
          },
-		 "fx": "SoundFXBlight"
+		 "fx": "cook_poisbuff"
       },
 	  {
          "id" : "MCourse_BlightBuff B",
