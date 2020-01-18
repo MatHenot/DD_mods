@@ -159,6 +159,14 @@
 	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[I've had a long life... but I don't want to go like this!]]></entry>
     <entry id="cook+str_bark_deathsdoor"><![CDATA[At least, I'm ready to go...]]></entry>
 
+    <entry id="cook+str_afflicted_abusive"><![CDATA[Show some respect to your elders!]]></entry>
+	<entry id="cook+str_afflicted_paranoid"><![CDATA[You won't have my secret recipes!]]></entry>
+    <entry id="cook+str_afflicted_selfish"><![CDATA[I deserve a better share. I'm carrying everything!]]></entry>
+    <entry id="cook+str_afflicted_depressed"><![CDATA[What did I think? I was not prepared at all.]]></entry>
+    <entry id="cook+str_afflicted_irrational"><![CDATA[A bit of this ... add that ... and maybe more salt ?!]]></entry>
+    <entry id="cook+str_afflicted_fearful"><![CDATA[I hope you enjoyed your last meal...]]></entry>
+    <entry id="cook+str_afflicted_masochistic"><![CDATA[Let the pain come! I won't feel my back anymore.]]></entry>
+
 	<entry id="str_inventory_title_cook_crypts_A"><![CDATA[]]></entry>
 	<entry id="str_inventory_title_cook_crypts_B"><![CDATA[]]></entry>
 	<entry id="str_inventory_title_cook_cove_A"><![CDATA[]]></entry>
