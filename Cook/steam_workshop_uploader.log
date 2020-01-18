@@ -88,6 +88,21 @@ heroes/cook/icons_equip/eqp_weapon_1.png
 heroes/cook/icons_equip/eqp_weapon_2.png
 heroes/cook/icons_equip/eqp_weapon_3.png
 heroes/cook/icons_equip/eqp_weapon_4.png
+panels/icons_equip/supply/inv_supply+cook_common_A.png
+panels/icons_equip/supply/inv_supply+cook_common_B.png
+panels/icons_equip/supply/inv_supply+cook_common_C.png
+panels/icons_equip/supply/inv_supply+cook_courtyard_A.png
+panels/icons_equip/supply/inv_supply+cook_courtyard_B.png
+panels/icons_equip/supply/inv_supply+cook_cove_A.png
+panels/icons_equip/supply/inv_supply+cook_cove_B.png
+panels/icons_equip/supply/inv_supply+cook_crypts_A.png
+panels/icons_equip/supply/inv_supply+cook_crypts_B.png
+panels/icons_equip/supply/inv_supply+cook_farm_A.png
+panels/icons_equip/supply/inv_supply+cook_farm_B.png
+panels/icons_equip/supply/inv_supply+cook_warrens_A.png
+panels/icons_equip/supply/inv_supply+cook_warrens_B.png
+panels/icons_equip/supply/inv_supply+cook_weald_A.png
+panels/icons_equip/supply/inv_supply+cook_weald_B.png
 panels/icons_equip/trinket/inv_trinket+cook_bottled_snake.png
 panels/icons_equip/trinket/inv_trinket+cook_cleaver.png
 panels/icons_equip/trinket/inv_trinket+cook_cockade.png
@@ -135,6 +150,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting............................................................................................................Submitted.
+Submitting..................................................................................................Submitted.
 Saving project file D:\DD_mods\Cook\project.xml
 
