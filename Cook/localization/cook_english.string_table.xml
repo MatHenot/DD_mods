@@ -159,38 +159,45 @@
 	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[I've had a long life... but I don't want to go like this!]]></entry>
     <entry id="cook+str_bark_deathsdoor"><![CDATA[At least, I'm ready to go...]]></entry>
 
-	<entry id="str_inventory_title_cook_crypts_A1"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_crypts_A3"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_crypts_A5"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_crypts_B1"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_crypts_B3"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_crypts_B5"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_cove_A1"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_cove_A3"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_cove_A5"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_cove_B1"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_cove_B3"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_cove_B5"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_warrens_A1"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_warrens_A3"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_warrens_A5"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_warrens_B1"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_warrens_B3"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_warrens_B5"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_weald_A1"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_weald_A3"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_weald_A5"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_weald_B1"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_weald_B3"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_weald_B5"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_courtyard_A1"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_courtyard_A3"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_courtyard_A5"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_courtyard_B1"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_courtyard_B3"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_courtyard_B5"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_farm_A"><![CDATA[]]></entry>
-	<entry id="str_inventory_title_cook_farm_B"><![CDATA[]]></entry>
+    <entry id="cook+str_afflicted_abusive"><![CDATA[Show some respect to your elders!]]></entry>
+	<entry id="cook+str_afflicted_paranoid"><![CDATA[You won't have my secret recipes!]]></entry>
+    <entry id="cook+str_afflicted_selfish"><![CDATA[I deserve a better share. I'm carrying everything!]]></entry>
+    <entry id="cook+str_afflicted_depressed"><![CDATA[What did I think? I was not prepared at all.]]></entry>
+    <entry id="cook+str_afflicted_irrational"><![CDATA[A bit of this... add that... and maybe more salt ?!]]></entry>
+    <entry id="cook+str_afflicted_fearful"><![CDATA[I hope you enjoyed your last meal...]]></entry>
+    <entry id="cook+str_afflicted_masochistic"><![CDATA[Let the pain come! I won't feel my back anymore.]]></entry>
+
+	<entry id="str_inventory_title_supplycook_common_A"><![CDATA[Cook Common Supply A]]></entry>
+	<entry id="str_inventory_title_supplycook_common_B"><![CDATA[Cook Common Supply B]]></entry>
+	<entry id="str_inventory_title_supplycook_common_C"><![CDATA[Cook Common Supply C]]></entry>
+	<entry id="str_inventory_title_supplycook_crypts_A"><![CDATA[Cook Crypts Supply A]]></entry>
+	<entry id="str_inventory_title_supplycook_crypts_B"><![CDATA[Cook Crypts Supply B]]></entry>
+	<entry id="str_inventory_title_supplycook_cove_A"><![CDATA[Cook Cove Supply A]]></entry>
+	<entry id="str_inventory_title_supplycook_cove_B"><![CDATA[Cook Cove Supply B]]></entry>
+	<entry id="str_inventory_title_supplycook_warrens_A"><![CDATA[Cook Warrens Supply A]]></entry>
+	<entry id="str_inventory_title_supplycook_warrens_B"><![CDATA[Cook Warrens Supply B]]></entry>
+	<entry id="str_inventory_title_supplycook_weald_A"><![CDATA[Cook Weald Supply A]]></entry>
+	<entry id="str_inventory_title_supplycook_weald_B"><![CDATA[Cook Weald Supply B]]></entry>
+	<entry id="str_inventory_title_supplycook_courtyard_A"><![CDATA[Cook Courtyard Supply A]]></entry>
+	<entry id="str_inventory_title_supplycook_courtyard_B"><![CDATA[Cook Courtyard Supply B]]></entry>
+	<entry id="str_inventory_title_supplycook_farm_A"><![CDATA[Cook Farm Supply A]]></entry>
+	<entry id="str_inventory_title_supplycook_farm_B"><![CDATA[Cook Farm Supply B]]></entry>
+	
+	<entry id="str_inventory_description_supplycook_common_A"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_common_B"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_common_C"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_crypts_A"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_crypts_B"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_cove_A"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_cove_B"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_warrens_A"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_warrens_B"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_weald_A"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_weald_B"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_courtyard_A"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_courtyard_B"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_farm_A"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_farm_B"><![CDATA[Eat that]]></entry>
 	
   </language>
 
