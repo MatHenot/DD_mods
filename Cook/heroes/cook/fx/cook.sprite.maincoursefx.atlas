@@ -1,0 +1,62 @@
+
+cook.sprite.maincoursefx.png
+size: 1580,451
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Calque 10
+  rotate: true
+  xy: 1394, 27
+  size: 210, 184
+  orig: 210, 184
+  offset: 0, 0
+  index: -1
+images/Calque 11
+  rotate: false
+  xy: 995, 207
+  size: 283, 242
+  orig: 283, 242
+  offset: 0, 0
+  index: -1
+images/Calque 11 copie
+  rotate: false
+  xy: 1280, 239
+  size: 292, 210
+  orig: 292, 210
+  offset: 0, 0
+  index: -1
+images/Calque 13
+  rotate: false
+  xy: 473, 81
+  size: 443, 147
+  orig: 443, 147
+  offset: 0, 0
+  index: -1
+images/Calque 14 copie
+  rotate: false
+  xy: 473, 230
+  size: 520, 219
+  orig: 520, 219
+  offset: 0, 0
+  index: -1
+images/Calque 14 copie 4
+  rotate: false
+  xy: 918, 2
+  size: 287, 203
+  orig: 287, 203
+  offset: 0, 0
+  index: -1
+images/Calque 15
+  rotate: false
+  xy: 1207, 14
+  size: 185, 191
+  orig: 185, 191
+  offset: 0, 0
+  index: -1
+images/transfoB copie
+  rotate: true
+  xy: 2, 13
+  size: 436, 469
+  orig: 436, 469
+  offset: 0, 0
+  index: -1
