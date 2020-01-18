@@ -117,6 +117,7 @@ raid/camping/skill_icons/camp_skill_abundance.png
 raid/camping/skill_icons/camp_skill_apetizer.png
 raid/camping/skill_icons/camp_skill_light_bearer.png
 raid/camping/skill_icons/camp_skill_purge.png
+audio/secondary_banks/hero_cook.bank
 campaign/roster/cook.roster.additional_variables.json
 campaign/town_event/cook.town_events.events.json
 heroes/cook/cook.ability.five.png
@@ -150,6 +151,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting..................................................................................................Submitted.
+Submitting..........................................................................................................Submitted.
 Saving project file D:\DD_mods\Cook\project.xml
 

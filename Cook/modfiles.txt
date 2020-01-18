@@ -94,6 +94,7 @@ raid/camping/skill_icons/camp_skill_abundance.png 66941
 raid/camping/skill_icons/camp_skill_apetizer.png 64275
 raid/camping/skill_icons/camp_skill_light_bearer.png 66627
 raid/camping/skill_icons/camp_skill_purge.png 67257
+audio/secondary_banks/hero_cook.bank 943808
 campaign/roster/cook.roster.additional_variables.json 63
 campaign/town_event/cook.town_events.events.json 1876
 heroes/cook/cook.ability.five.png 67789
@@ -110,9 +111,9 @@ raid/camping/cook.camping_skills.json 6144
 shared/buffs/cook.buffs.json 25464
 shared/quirk/cook.quirk_library.json 693
 upgrades/heroes/cook.upgrades.json 21034
-audio/cook.heroes.guid_overrides.json 2549
+audio/cook.heroes.guid_overrides.json 3533
 audio/cook.heroes.load_order.json 79
-effects/cook.effects.darkest 18388
+effects/cook.effects.darkest 18408
 inventory/cook.inventory.extra_stack_limits.darkest 78
 inventory/cook.supply.inventory.items.darkest 2316
 localization/1960566563_english.loc 13121
