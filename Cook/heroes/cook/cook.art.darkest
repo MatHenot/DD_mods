@@ -16,7 +16,7 @@ combat_skill: .id "maincourse" .icon "one" .anim "maincourse" .fx "maincoursefx"
 combat_skill: .id "butcher" .icon "two" .anim "butcher" .fx "butcherfx" .targchestfx "blood_splatter" .condensed_tooltip_stats true
 combat_skill: .id "choicepiece" .icon "three" .anim "choicepiece" .fx "cpfx" .targchestfx "mark_target" .condensed_tooltip_stats true
 combat_skill: .id "poisonedbait" .icon "four" .anim "poisonnedbait" .fx "" .targchestfx "" .condensed_tooltip_stats true
-combat_skill: .id "condiment" .icon "five" .anim "secretingredient" .fx "secretingredientfx" .targfx "" .condensed_tooltip_stats true
+combat_skill: .id "condiment" .icon "five" .anim "secretingredient" .fx "sifx" .targfx "" .condensed_tooltip_stats true
 combat_skill: .id "entremet" .icon "six" .anim "entremet" .fx "" .targchestfx "" .condensed_tooltip_stats true
 combat_skill: .id "commis" .icon "seven" .anim "commis" .fx "" .targchestfx "" .condensed_tooltip_stats true
 
