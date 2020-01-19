@@ -26,9 +26,21 @@
         {"event_id": "event:/char/ally/cook_entremet_cooking",						"guid_override":"{db76fdd9-8217-451e-894f-46047a3e7af8}"},
 		{"event_id": "event:/char/ally/cook_commis_nocooking",						"guid_override":"{6953f77d-bb11-427e-826c-47741a0ef1ae}"},
 		{"event_id": "event:/char/ally/cook_commis_cooking",						"guid_override":"{6953f77d-bb11-427e-826c-47741a0ef1ae}"},
-		
-		{"event_id": "event:/general/status/buff_fx_snekriposte_onset",				"guid_override":"{155c0f3b-73ee-4d63-8fcd-ead96a010578}"},
-		{"event_id": "event:/general/status/buff_fx_snekriposte_idle",				"guid_override":"{f7689a54-f07f-4cb3-9553-9df2132109ba}"},
-		{"event_id": "event:/general/status/buff_fx_snekriposte_release",			"guid_override":"{a1390baf-6e75-4ddf-abac-de1f8d85b95b}"}
+
+		{"event_id": "event:/general/status/buff_fx_cook_loop_onset",				"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/status/buff_fx_cook_loop_idle",				"guid_override":"{94219371-d25a-4b5c-9aca-64e1a74049be}"},
+		{"event_id": "event:/general/status/buff_fx_cook_loop_release",				"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+
+		{"event_id": "event:/general/status/buff_fx_cook_healbuff_onset",			"guid_override":"{3137ef4a-8efa-475b-8462-2a53b6bbca9e}"},
+		{"event_id": "event:/general/status/buff_fx_cook_healbuff_idle",			"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},		
+		{"event_id": "event:/general/status/buff_fx_cook_healbuff_release",			"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+
+		{"event_id": "event:/general/status/buff_fx_cook_poisbuff_onset",			"guid_override":"{a1d764e2-4b30-4bb0-a888-651687e7eadd}"},
+		{"event_id": "event:/general/status/buff_fx_cook_poisbuff_idle",			"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/status/buff_fx_cook_poisbuff_release",			"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+
+		{"event_id": "event:/general/status/buff_fx_cook_poiscloud_onset",			"guid_override":"{76fa6a40-8f69-4b8b-b2c2-cc90b50b4ec0}"},
+		{"event_id": "event:/general/status/buff_fx_cook_poiscloud_idle",			"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/status/buff_fx_cook_poiscloud_release",		"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"}
     ]
 }
