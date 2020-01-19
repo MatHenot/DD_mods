@@ -1,13 +1,20 @@
 
 cook.sprite.buff_fx_cook_poisbuff.png
-size: 291,207
+size: 397,214
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/Calque 14 copie 4
+images/haloheal
   rotate: false
   xy: 2, 2
-  size: 287, 203
-  orig: 287, 203
+  size: 211, 210
+  orig: 211, 210
+  offset: 0, 0
+  index: -1
+images/smokeheal
+  rotate: false
+  xy: 215, 25
+  size: 180, 187
+  orig: 180, 187
   offset: 0, 0
   index: -1
