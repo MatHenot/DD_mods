@@ -75,15 +75,15 @@ heroes/cook/fx/cook.sprite.buff_fx_cook_healbuff.skel
 heroes/cook/fx/cook.sprite.buff_fx_cook_loop.atlas
 heroes/cook/fx/cook.sprite.buff_fx_cook_loop.png
 heroes/cook/fx/cook.sprite.buff_fx_cook_loop.skel
+heroes/cook/fx/cook.sprite.buff_fx_cook_loopend.atlas
+heroes/cook/fx/cook.sprite.buff_fx_cook_loopend.png
+heroes/cook/fx/cook.sprite.buff_fx_cook_loopend.skel
 heroes/cook/fx/cook.sprite.buff_fx_cook_poisbuff.atlas
 heroes/cook/fx/cook.sprite.buff_fx_cook_poisbuff.png
 heroes/cook/fx/cook.sprite.buff_fx_cook_poisbuff.skel
-heroes/cook/fx/cook.sprite.buff_fx_cook_poiscloudonset.atlas
-heroes/cook/fx/cook.sprite.buff_fx_cook_poiscloudonset.png
-heroes/cook/fx/cook.sprite.buff_fx_cook_poiscloudonset.skel
-heroes/cook/fx/cook.sprite.buff_fx_cook_poiscloudrelease.atlas
-heroes/cook/fx/cook.sprite.buff_fx_cook_poiscloudrelease.png
-heroes/cook/fx/cook.sprite.buff_fx_cook_poiscloudrelease.skel
+heroes/cook/fx/cook.sprite.buff_fx_cook_poiscloud.atlas
+heroes/cook/fx/cook.sprite.buff_fx_cook_poiscloud.png
+heroes/cook/fx/cook.sprite.buff_fx_cook_poiscloud.skel
 heroes/cook/fx/cook.sprite.butcherfx.atlas
 heroes/cook/fx/cook.sprite.butcherfx.png
 heroes/cook/fx/cook.sprite.butcherfx.skel
@@ -96,6 +96,9 @@ heroes/cook/fx/cook.sprite.commistargfx.skel
 heroes/cook/fx/cook.sprite.commistargheadfx.atlas
 heroes/cook/fx/cook.sprite.commistargheadfx.png
 heroes/cook/fx/cook.sprite.commistargheadfx.skel
+heroes/cook/fx/cook.sprite.cookheal_target.atlas
+heroes/cook/fx/cook.sprite.cookheal_target.png
+heroes/cook/fx/cook.sprite.cookheal_target.skel
 heroes/cook/fx/cook.sprite.cpfx.atlas
 heroes/cook/fx/cook.sprite.cpfx.png
 heroes/cook/fx/cook.sprite.cpfx.skel
@@ -178,6 +181,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting...............................................................................................Submitted.
+Submitting.......................................................................Submitted.
 Saving project file D:\DD_mods\Cook\project.xml
 

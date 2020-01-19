@@ -43,7 +43,7 @@
 		{"event_id": "event:/general/status/buff_fx_cook_poisbuff_idle",			"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
 		{"event_id": "event:/general/status/buff_fx_cook_poisbuff_release",			"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
 
-		{"event_id": "event:/general/status/buff_fx_cook_poiscloudonset_onset",		"guid_override":"{76fa6a40-8f69-4b8b-b2c2-cc90b50b4ec0}"},
+		{"event_id": "event:/general/status/buff_fx_cook_poiscloud_onset",		"guid_override":"{76fa6a40-8f69-4b8b-b2c2-cc90b50b4ec0}"},
 		{"event_id": "event:/general/status/buff_fx_cook_poiscloud_idle",			"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
 		{"event_id": "event:/general/status/buff_fx_cook_poiscloud_release",		"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"}
     ]
