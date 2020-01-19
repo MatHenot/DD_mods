@@ -87,6 +87,15 @@ heroes/cook/fx/cook.sprite.buff_fx_cook_poiscloudrelease.skel
 heroes/cook/fx/cook.sprite.butcherfx.atlas
 heroes/cook/fx/cook.sprite.butcherfx.png
 heroes/cook/fx/cook.sprite.butcherfx.skel
+heroes/cook/fx/cook.sprite.commisfx.atlas
+heroes/cook/fx/cook.sprite.commisfx.png
+heroes/cook/fx/cook.sprite.commisfx.skel
+heroes/cook/fx/cook.sprite.commistargfx.atlas
+heroes/cook/fx/cook.sprite.commistargfx.png
+heroes/cook/fx/cook.sprite.commistargfx.skel
+heroes/cook/fx/cook.sprite.commistargheadfx.atlas
+heroes/cook/fx/cook.sprite.commistargheadfx.png
+heroes/cook/fx/cook.sprite.commistargheadfx.skel
 heroes/cook/fx/cook.sprite.cpfx.atlas
 heroes/cook/fx/cook.sprite.cpfx.png
 heroes/cook/fx/cook.sprite.cpfx.skel
@@ -169,6 +178,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting..............................................................................................................Submitted.
+Submitting..........................................................................................................................Submitted.
 Saving project file D:\DD_mods\Cook\project.xml
 
