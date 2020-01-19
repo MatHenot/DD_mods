@@ -65,7 +65,7 @@
          }
       },
 	  {
-         "id" : "FX_poiscloud",
+         "id" : "Mcourse_FX_poiscloud",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "",
          "amount" : -1,
@@ -78,7 +78,24 @@
             "float" : 0,
             "string" : ""
          },
-		 "fx": "cook_poiscloudonset",
+		 "fx": "cook_poiscloud",
+		 "has_description": false
+      },
+	  {
+         "id" : "Mcourse_FX_loopend",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "",
+         "amount" : -1,
+		 "duration" : 1,
+         "remove_if_not_active" : false,
+         "remove_on_battle_complete" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "fx": "cook_loopend",
 		 "has_description": false
       },
 	  {
