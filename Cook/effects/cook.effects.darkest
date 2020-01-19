@@ -48,7 +48,7 @@ effect: .name "TT_MCourse_FinalBlight 3" .target "performer" .chance 100% .buff_
 effect: .name "TT_MCourse_FinalBlight 4" .target "performer" .chance 100% .buff_ids "TT_MCourse_FinalBlight 4" .on_hit false .on_miss true .skill_instant true
 effect: .name "TT_MCourse_FinalBlight 5" .target "performer" .chance 100% .buff_ids "TT_MCourse_FinalBlight 5" .on_hit false .on_miss true .skill_instant true
 
-effect: .name "FX_poiscloud" .target "performer" .chance 100% .buff_ids "FX_poiscloud" .on_hit true .on_miss true .queue true
+effect: .name "FX_poiscloud" .target_enemy_group" .chance 100% .buff_ids "FX_poiscloud" .on_hit true .on_miss true .swap_source_and_target true
 
 effect: .name "MCourse_Final_Bark" .target "performer" .chance 8% .bark str_cook_maincourse .on_hit true .on_miss false
 

@@ -113,9 +113,9 @@
       },
 	  {
          "id" : "MCourse_HealBuffFX",
-         "stat_type" : "hp_heal_percent",
+         "stat_type" : "upgrade_discount",
          "stat_sub_type" : "",
-         "amount" : 0,
+         "amount" : 1,
 		 "duration" : 1,
          "remove_if_not_active" : false,
          "remove_on_battle_complete" : true,
@@ -160,9 +160,9 @@
       },
 	  {
          "id" : "MCourse_BlightBuffFX",
-         "stat_type" : "poison_chance",
+         "stat_type" : "upgrade_discount",
          "stat_sub_type" : "",
-         "amount" : 0,
+         "amount" : 1,
 		 "duration" : 1,
          "remove_if_not_active" : false,
          "remove_on_battle_complete" : true,
