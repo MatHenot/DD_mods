@@ -1,0 +1,13 @@
+
+cook.sprite.commistargheadfx.png
+size: 120,99
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/targfxhead
+  rotate: false
+  xy: 2, 2
+  size: 116, 95
+  orig: 116, 95
+  offset: 0, 0
+  index: -1

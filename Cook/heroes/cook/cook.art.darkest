@@ -18,7 +18,7 @@ combat_skill: .id "choicepiece" .icon "three" .anim "choicepiece" .fx "cpfx" .ta
 combat_skill: .id "poisonedbait" .icon "four" .anim "poisonnedbait" .fx "" .targchestfx "" .condensed_tooltip_stats true
 combat_skill: .id "condiment" .icon "five" .anim "secretingredient" .fx "sifx" .targfx "" .condensed_tooltip_stats true
 combat_skill: .id "entremet" .icon "six" .anim "entremet" .fx "" .targchestfx "" .condensed_tooltip_stats true
-combat_skill: .id "commis" .icon "seven" .anim "commis" .fx "" .targchestfx "" .condensed_tooltip_stats true
+combat_skill: .id "commis" .icon "seven" .anim "commis" .fx "commisfx" .targheadfx "commistargheadfx" .targchestfx "commistargfx" .condensed_tooltip_stats true
 
 
 combat_move_skill: .id "move" .icon "generic_move" .anim ""

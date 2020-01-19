@@ -1,0 +1,13 @@
+
+cook.sprite.commistargfx.png
+size: 150,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/targfxchest
+  rotate: false
+  xy: 2, 2
+  size: 146, 265
+  orig: 146, 265
+  offset: 0, 0
+  index: -1

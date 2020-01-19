@@ -1,0 +1,27 @@
+
+cook.sprite.commisfx.png
+size: 1081,367
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/halo
+  rotate: true
+  xy: 442, 18
+  size: 347, 433
+  orig: 347, 433
+  offset: 0, 0
+  index: -1
+images/line
+  rotate: false
+  xy: 877, 49
+  size: 202, 316
+  orig: 202, 316
+  offset: 0, 0
+  index: -1
+images/noir
+  rotate: true
+  xy: 2, 2
+  size: 363, 438
+  orig: 363, 438
+  offset: 0, 0
+  index: -1
