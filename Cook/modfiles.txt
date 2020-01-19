@@ -70,9 +70,9 @@ heroes/cook/fx/cook.sprite.cpfx.skel 493
 heroes/cook/fx/cook.sprite.maincoursefx.atlas 1049
 heroes/cook/fx/cook.sprite.maincoursefx.png 245429
 heroes/cook/fx/cook.sprite.maincoursefx.skel 1863
-heroes/cook/fx/cook.sprite.secretingredientfx.atlas 561
-heroes/cook/fx/cook.sprite.secretingredientfx.png 42035
-heroes/cook/fx/cook.sprite.secretingredientfx.skel 1112
+heroes/cook/fx/cook.sprite.sifx.atlas 547
+heroes/cook/fx/cook.sprite.sifx.png 42035
+heroes/cook/fx/cook.sprite.sifx.skel 1084
 heroes/cook/icons_equip/eqp_armour_0.png 23532
 heroes/cook/icons_equip/eqp_armour_1.png 27447
 heroes/cook/icons_equip/eqp_armour_2.png 47640
@@ -122,11 +122,11 @@ heroes/cook/cook.ability.seven.png 66770
 heroes/cook/cook.ability.six.png 64461
 heroes/cook/cook.ability.three.png 66710
 heroes/cook/cook.ability.two.png 65949
-heroes/cook/cook.art.darkest 1786
+heroes/cook/cook.art.darkest 1772
 heroes/cook/cook.info.darkest 14958
 heroes/cook/cook_guild_header.png 417333
 raid/camping/cook.camping_skills.json 6144
-shared/buffs/cook.buffs.json 26881
+shared/buffs/cook.buffs.json 26978
 shared/quirk/cook.quirk_library.json 693
 upgrades/heroes/cook.upgrades.json 21034
 audio/cook.heroes.guid_overrides.json 3533
@@ -142,6 +142,6 @@ trinkets/com.rarities.trinkets.json 428
 trinkets/cook.entries.trinkets.json 3688
 trinkets/cook.sets.trinkets.json 170
 trinkets/crimson_court.rarities.trinkets.json 171
-modfiles.txt 7483
+modfiles.txt 7441
 preview_icon.png 23812
 project.xml 644

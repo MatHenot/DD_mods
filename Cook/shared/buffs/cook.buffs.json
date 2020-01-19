@@ -180,6 +180,7 @@
             "string" : ""
          },
 		 "fx": "cook_poisbuff",
+		 "has_description": false
 		 
       },
 	  {
