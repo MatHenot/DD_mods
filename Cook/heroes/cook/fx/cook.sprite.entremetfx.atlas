@@ -1,0 +1,34 @@
+
+cook.sprite.entremetfx.png
+size: 614,382
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Calque 4 copie
+  rotate: false
+  xy: 224, 69
+  size: 244, 311
+  orig: 244, 311
+  offset: 0, 0
+  index: -1
+images/Calque 7 copie 3
+  rotate: false
+  xy: 2, 67
+  size: 220, 313
+  orig: 220, 313
+  offset: 0, 0
+  index: -1
+images/Calque 9
+  rotate: true
+  xy: 470, 2
+  size: 189, 135
+  orig: 189, 135
+  offset: 0, 0
+  index: -1
+images/Calque 9 copie
+  rotate: true
+  xy: 470, 193
+  size: 187, 142
+  orig: 187, 142
+  offset: 0, 0
+  index: -1

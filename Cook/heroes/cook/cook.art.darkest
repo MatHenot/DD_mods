@@ -15,9 +15,9 @@ armour: .name "cook_armour_4" .icon "eqp_armour_4.png"
 combat_skill: .id "maincourse" .icon "one" .anim "maincourse" .fx "maincoursefx" .targchestfx "" .condensed_tooltip_stats true .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 1
 combat_skill: .id "butcher" .icon "two" .anim "butcher" .fx "butcherfx" .targchestfx "blood_splatter" .condensed_tooltip_stats true
 combat_skill: .id "choicepiece" .icon "three" .anim "choicepiece" .fx "cpfx" .targchestfx "mark_target" .condensed_tooltip_stats true
-combat_skill: .id "poisonedbait" .icon "four" .anim "poisonnedbait" .fx "" .targchestfx "" .condensed_tooltip_stats true
+combat_skill: .id "poisonedbait" .icon "four" .anim "poisonnedbait" .fx "pbaitfx" .targchestfx "" .condensed_tooltip_stats true
 combat_skill: .id "condiment" .icon "five" .anim "secretingredient" .fx "sifx" .targfx "cookheal_target" .condensed_tooltip_stats true
-combat_skill: .id "entremet" .icon "six" .anim "entremet" .fx "" .targfx "cookheal_target" .condensed_tooltip_stats true
+combat_skill: .id "entremet" .icon "six" .anim "entremet" .fx "entremetfx" .targfx "cookheal_target" .condensed_tooltip_stats true
 combat_skill: .id "commis" .icon "seven" .anim "commis" .fx "commisfx" .targheadfx "commistargheadfx" .targchestfx "commistargfx" .condensed_tooltip_stats true
 
 
