@@ -102,9 +102,15 @@ heroes/cook/fx/cook.sprite.cookheal_target.skel
 heroes/cook/fx/cook.sprite.cpfx.atlas
 heroes/cook/fx/cook.sprite.cpfx.png
 heroes/cook/fx/cook.sprite.cpfx.skel
+heroes/cook/fx/cook.sprite.entremetfx.atlas
+heroes/cook/fx/cook.sprite.entremetfx.png
+heroes/cook/fx/cook.sprite.entremetfx.skel
 heroes/cook/fx/cook.sprite.maincoursefx.atlas
 heroes/cook/fx/cook.sprite.maincoursefx.png
 heroes/cook/fx/cook.sprite.maincoursefx.skel
+heroes/cook/fx/cook.sprite.pbaitfx.atlas
+heroes/cook/fx/cook.sprite.pbaitfx.png
+heroes/cook/fx/cook.sprite.pbaitfx.skel
 heroes/cook/fx/cook.sprite.sifx.atlas
 heroes/cook/fx/cook.sprite.sifx.png
 heroes/cook/fx/cook.sprite.sifx.skel
@@ -181,6 +187,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting.......................................................................Submitted.
+Submitting...................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Cook\project.xml
 
