@@ -49,9 +49,9 @@ heroes/cook/cook_A/cook_portrait_roster.png 23812
 heroes/cook/fx/cook.sprite.buff_fx_cook_healbuff.atlas 337
 heroes/cook/fx/cook.sprite.buff_fx_cook_healbuff.png 55349
 heroes/cook/fx/cook.sprite.buff_fx_cook_healbuff.skel 790
-heroes/cook/fx/cook.sprite.buff_fx_cook_loop.atlas 227
-heroes/cook/fx/cook.sprite.buff_fx_cook_loop.png 59741
-heroes/cook/fx/cook.sprite.buff_fx_cook_loop.skel 358
+heroes/cook/fx/cook.sprite.buff_fx_cook_loop.atlas 455
+heroes/cook/fx/cook.sprite.buff_fx_cook_loop.png 21074
+heroes/cook/fx/cook.sprite.buff_fx_cook_loop.skel 1805
 heroes/cook/fx/cook.sprite.buff_fx_cook_loopend.atlas 221
 heroes/cook/fx/cook.sprite.buff_fx_cook_loopend.png 22265
 heroes/cook/fx/cook.sprite.buff_fx_cook_loopend.skel 384
@@ -79,9 +79,15 @@ heroes/cook/fx/cook.sprite.cookheal_target.skel 4855
 heroes/cook/fx/cook.sprite.cpfx.atlas 327
 heroes/cook/fx/cook.sprite.cpfx.png 72208
 heroes/cook/fx/cook.sprite.cpfx.skel 493
+heroes/cook/fx/cook.sprite.entremetfx.atlas 572
+heroes/cook/fx/cook.sprite.entremetfx.png 75576
+heroes/cook/fx/cook.sprite.entremetfx.skel 874
 heroes/cook/fx/cook.sprite.maincoursefx.atlas 1049
 heroes/cook/fx/cook.sprite.maincoursefx.png 245429
 heroes/cook/fx/cook.sprite.maincoursefx.skel 1863
+heroes/cook/fx/cook.sprite.pbaitfx.atlas 328
+heroes/cook/fx/cook.sprite.pbaitfx.png 28922
+heroes/cook/fx/cook.sprite.pbaitfx.skel 585
 heroes/cook/fx/cook.sprite.sifx.atlas 547
 heroes/cook/fx/cook.sprite.sifx.png 42064
 heroes/cook/fx/cook.sprite.sifx.skel 1002
@@ -124,7 +130,7 @@ raid/camping/skill_icons/camp_skill_abundance.png 66941
 raid/camping/skill_icons/camp_skill_apetizer.png 64275
 raid/camping/skill_icons/camp_skill_light_bearer.png 66627
 raid/camping/skill_icons/camp_skill_purge.png 67257
-audio/secondary_banks/hero_cook.bank 3450688
+audio/secondary_banks/hero_cook.bank 4892704
 campaign/roster/cook.roster.additional_variables.json 63
 campaign/town_event/cook.town_events.events.json 1876
 heroes/cook/cook.ability.five.png 67789
@@ -134,7 +140,7 @@ heroes/cook/cook.ability.seven.png 66770
 heroes/cook/cook.ability.six.png 64461
 heroes/cook/cook.ability.three.png 66710
 heroes/cook/cook.ability.two.png 65949
-heroes/cook/cook.art.darkest 1848
+heroes/cook/cook.art.darkest 1865
 heroes/cook/cook.info.darkest 14998
 heroes/cook/cook_guild_header.png 417333
 raid/camping/cook.camping_skills.json 6144
@@ -154,6 +160,6 @@ trinkets/com.rarities.trinkets.json 428
 trinkets/cook.entries.trinkets.json 3688
 trinkets/cook.sets.trinkets.json 170
 trinkets/crimson_court.rarities.trinkets.json 171
-modfiles.txt 7890
+modfiles.txt 8008
 preview_icon.png 23812
 project.xml 643
