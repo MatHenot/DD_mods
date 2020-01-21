@@ -160,6 +160,6 @@ trinkets/com.rarities.trinkets.json 428
 trinkets/cook.entries.trinkets.json 3688
 trinkets/cook.sets.trinkets.json 170
 trinkets/crimson_court.rarities.trinkets.json 171
-modfiles.txt 8286
+modfiles.txt 8121
 preview_icon.png 23812
 project.xml 644
