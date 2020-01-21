@@ -1,13 +1,27 @@
 
 cook.sprite.buff_fx_cook_loop.png
-size: 291,207
+size: 244,156
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-images/Calque 14 copie 4
+imagesbufffx/braise
+  rotate: true
+  xy: 201, 44
+  size: 110, 41
+  orig: 110, 41
+  offset: 0, 0
+  index: -1
+imagesbufffx/etincelle
+  rotate: false
+  xy: 201, 7
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+imagesbufffx/haloloop
   rotate: false
   xy: 2, 2
-  size: 287, 203
-  orig: 287, 203
+  size: 197, 152
+  orig: 197, 152
   offset: 0, 0
   index: -1
