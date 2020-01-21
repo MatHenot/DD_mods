@@ -51,7 +51,7 @@ heroes/cook/fx/cook.sprite.buff_fx_cook_healbuff.png 55349
 heroes/cook/fx/cook.sprite.buff_fx_cook_healbuff.skel 790
 heroes/cook/fx/cook.sprite.buff_fx_cook_loop.atlas 327
 heroes/cook/fx/cook.sprite.buff_fx_cook_loop.png 19930
-heroes/cook/fx/cook.sprite.buff_fx_cook_loop.skel 442
+heroes/cook/fx/cook.sprite.buff_fx_cook_loop.skel 479
 heroes/cook/fx/cook.sprite.buff_fx_cook_loopend.atlas 221
 heroes/cook/fx/cook.sprite.buff_fx_cook_loopend.png 22265
 heroes/cook/fx/cook.sprite.buff_fx_cook_loopend.skel 384
@@ -160,6 +160,6 @@ trinkets/com.rarities.trinkets.json 428
 trinkets/cook.entries.trinkets.json 3688
 trinkets/cook.sets.trinkets.json 170
 trinkets/crimson_court.rarities.trinkets.json 171
-modfiles.txt 8286
+modfiles.txt 8456
 preview_icon.png 23812
 project.xml 644
