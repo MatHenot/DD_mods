@@ -49,6 +49,9 @@ heroes/cook/cook_A/cook_portrait_roster.png 23812
 heroes/cook/fx/cook.sprite.buff_fx_cook_healbuff.atlas 337
 heroes/cook/fx/cook.sprite.buff_fx_cook_healbuff.png 55349
 heroes/cook/fx/cook.sprite.buff_fx_cook_healbuff.skel 790
+heroes/cook/fx/cook.sprite.buff_fx_cook_loop.atlas 455
+heroes/cook/fx/cook.sprite.buff_fx_cook_loop.png 21074
+heroes/cook/fx/cook.sprite.buff_fx_cook_loop.skel 1869
 heroes/cook/fx/cook.sprite.buff_fx_cook_loopend.atlas 221
 heroes/cook/fx/cook.sprite.buff_fx_cook_loopend.png 22265
 heroes/cook/fx/cook.sprite.buff_fx_cook_loopend.skel 384
