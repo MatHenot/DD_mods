@@ -130,7 +130,7 @@ raid/camping/skill_icons/camp_skill_abundance.png 66941
 raid/camping/skill_icons/camp_skill_apetizer.png 64275
 raid/camping/skill_icons/camp_skill_light_bearer.png 66627
 raid/camping/skill_icons/camp_skill_purge.png 67257
-audio/secondary_banks/hero_cook.bank 4892704
+audio/secondary_banks/hero_cook.bank 5932480
 campaign/roster/cook.roster.additional_variables.json 63
 campaign/town_event/cook.town_events.events.json 1876
 heroes/cook/cook.ability.five.png 67789
@@ -160,6 +160,6 @@ trinkets/com.rarities.trinkets.json 428
 trinkets/cook.entries.trinkets.json 3688
 trinkets/cook.sets.trinkets.json 170
 trinkets/crimson_court.rarities.trinkets.json 171
-modfiles.txt 8456
+modfiles.txt 8285
 preview_icon.png 23812
-project.xml 644
+project.xml 643
