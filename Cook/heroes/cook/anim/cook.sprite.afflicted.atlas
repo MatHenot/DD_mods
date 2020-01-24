@@ -1,27 +1,27 @@
 
 cook.sprite.afflicted.png
-size: 1930,1131
+size: 2057,1064
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-afflicted
+Calque 11
   rotate: false
-  xy: 1345, 419
-  size: 583, 710
-  orig: 583, 710
+  xy: 1226, 47
+  size: 487, 400
+  orig: 487, 400
   offset: 0, 0
   index: -1
-background
+Calque 12
   rotate: false
   xy: 2, 2
-  size: 1341, 1127
-  orig: 1341, 1127
+  size: 1222, 1060
+  orig: 1222, 1060
   offset: 0, 0
   index: -1
-crown
-  rotate: false
-  xy: 1345, 124
-  size: 369, 293
-  orig: 369, 293
+cookaffli
+  rotate: true
+  xy: 1226, 449
+  size: 613, 829
+  orig: 613, 829
   offset: 0, 0
   index: -1

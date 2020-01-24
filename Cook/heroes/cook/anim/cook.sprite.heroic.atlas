@@ -1,34 +1,27 @@
 
 cook.sprite.heroic.png
-size: 2971,1131
+size: 1695,1201
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 background
-  rotate: false
+  rotate: true
   xy: 2, 2
-  size: 1341, 1127
-  orig: 1341, 1127
+  size: 1197, 1071
+  orig: 1197, 1071
+  offset: 0, 0
+  index: -1
+cookvirtue
+  rotate: false
+  xy: 1075, 359
+  size: 618, 840
+  orig: 618, 840
   offset: 0, 0
   index: -1
 halo
   rotate: true
-  xy: 2176, 37
-  size: 309, 298
-  orig: 309, 298
-  offset: 0, 0
-  index: -1
-heroic_beast
-  rotate: true
-  xy: 1345, 89
-  size: 1040, 829
-  orig: 1040, 829
-  offset: 0, 0
-  index: -1
-heroic_human
-  rotate: true
-  xy: 2176, 348
-  size: 781, 793
-  orig: 781, 793
+  xy: 1075, 46
+  size: 311, 298
+  orig: 311, 298
   offset: 0, 0
   index: -1
