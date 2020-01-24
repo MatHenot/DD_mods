@@ -54,8 +54,10 @@ effect: .name "MCourse_Final_Bark" .target "performer" .chance 8% .bark str_cook
 
 effect: .name "MCourse_HealBuff" .target "performer" .chance 100% .buff_ids "MCourse_HealBuff" "MCourse_HealBuffFX" .on_hit true .on_miss true .queue true
 effect: .name "TT_MCourse_HealBuff" .target "performer" .chance 100% .buff_ids "TT_MCourse_HealBuff" .bsrc_notspecified .on_hit false .on_miss true .queue true
+effect: .name "MCourse_HealBuff_Crit" .target "performer" .chance 100% .buff_ids "MCourse_HealBuff" .on_hit true .on_miss true .queue true
 
 effect: .name "MCourse_BlightBuff" .target "performer" .chance 100% .buff_ids "MCourse_BlightBuff A" "MCourse_BlightBuff B" "MCourse_BlightBuffFX" .on_hit true .on_miss true .queue true
+effect: .name "MCourse_BlightBuff_Crit" .target "performer" .chance 100% .buff_ids "MCourse_BlightBuff A" "MCourse_BlightBuff B" .on_hit true .on_miss true .queue true
 
 effect: .name "MCourse_BuffReset" .target "target" .chance 100% .steal_buff_source_type bsrc_notspecified .on_hit true .on_miss true .queue true .has_description false
 
