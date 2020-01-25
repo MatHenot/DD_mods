@@ -24,7 +24,7 @@ heroes/cook/anim/cook.sprite.camp.skel 427
 heroes/cook/anim/cook.sprite.choicepiece.atlas 305
 heroes/cook/anim/cook.sprite.choicepiece.skel 331
 heroes/cook/anim/cook.sprite.combat.atlas 3723
-heroes/cook/anim/cook.sprite.combat.skel 119742
+heroes/cook/anim/cook.sprite.combat.skel 125233
 heroes/cook/anim/cook.sprite.commis.atlas 299
 heroes/cook/anim/cook.sprite.commis.skel 465
 heroes/cook/anim/cook.sprite.defend.atlas 406
@@ -44,7 +44,7 @@ heroes/cook/anim/cook.sprite.poisonnedbait.skel 441
 heroes/cook/anim/cook.sprite.secretingredient.atlas 425
 heroes/cook/anim/cook.sprite.secretingredient.skel 636
 heroes/cook/anim/cook.sprite.walk.atlas 2344
-heroes/cook/anim/cook.sprite.walk.skel 70859
+heroes/cook/anim/cook.sprite.walk.skel 56730
 heroes/cook/cook_A/cook_portrait_roster.png 23812
 heroes/cook/fx/cook.sprite.buff_fx_cook_healbuff.atlas 317
 heroes/cook/fx/cook.sprite.buff_fx_cook_healbuff.png 55349
@@ -133,15 +133,15 @@ raid/camping/skill_icons/camp_skill_purge.png 67257
 audio/secondary_banks/hero_cook.bank 10235872
 campaign/roster/cook.roster.additional_variables.json 63
 campaign/town_event/cook.town_events.events.json 1876
-heroes/cook/cook.ability.five.png 67789
+heroes/cook/cook.ability.five.png 68170
 heroes/cook/cook.ability.four.png 67894
 heroes/cook/cook.ability.one.png 67679
 heroes/cook/cook.ability.seven.png 66770
-heroes/cook/cook.ability.six.png 64461
-heroes/cook/cook.ability.three.png 66710
+heroes/cook/cook.ability.six.png 66628
+heroes/cook/cook.ability.three.png 64813
 heroes/cook/cook.ability.two.png 65949
 heroes/cook/cook.art.darkest 1865
-heroes/cook/cook.info.darkest 14808
+heroes/cook/cook.info.darkest 14786
 heroes/cook/cook_guild_header.png 245314
 raid/camping/cook.camping_skills.json 6144
 shared/buffs/cook.buffs.json 27242
@@ -149,7 +149,7 @@ shared/quirk/cook.quirk_library.json 693
 upgrades/heroes/cook.upgrades.json 21034
 audio/cook.heroes.guid_overrides.json 5101
 audio/cook.heroes.load_order.json 79
-effects/cook.effects.darkest 19018
+effects/cook.effects.darkest 19091
 inventory/cook.inventory.extra_stack_limits.darkest 78
 inventory/cook.supply.inventory.items.darkest 2316
 localization/1978083682_brazilian.loc 13149
@@ -184,7 +184,6 @@ trinkets/com.rarities.trinkets.json 428
 trinkets/cook.entries.trinkets.json 3688
 trinkets/cook.sets.trinkets.json 170
 trinkets/crimson_court.rarities.trinkets.json 171
-modfiles.txt 9379
-preview_icon.png 23812
+modfiles.txt 9398
+preview_icon.png 500867
 project.xml 607
-sample_project.xml 607
