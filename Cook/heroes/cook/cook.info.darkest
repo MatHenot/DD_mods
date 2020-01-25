@@ -1,5 +1,5 @@
-resistances: .stun 40% .poison 30% .bleed 30% .disease 40% .move 30% .debuff 30% .death_blow 67% .trap 10%
-crit: .effects "MCourse_HealBuff_Crit" "TT_MCourse_HealBuff" "MCourse_BlightBuff_Crit"
+resistances: .stun 40% .poison 30% .bleed 30% .disease 40% .move 30% .debuff 30% .death_blow 67% .trap 40%
+crit: .effects "MCourse_HealBuff_Crit" "MCourse_BlightBuff_Crit"
 weapon: .name "cook_weapon_0" .atk 0% .dmg 4 5 .crit 2% .spd 1
 weapon: .name "cook_weapon_1" .atk 0% .dmg 5 6 .crit 3% .spd 1 .upgradeRequirementCode 0
 weapon: .name "cook_weapon_2" .atk 0% .dmg 5 7 .crit 4% .spd 2 .upgradeRequirementCode 1
