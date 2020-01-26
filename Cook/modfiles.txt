@@ -14,7 +14,7 @@ heroes/cook/cook_A/anim/cook.sprite.poisonnedbait.png 154083
 heroes/cook/cook_A/anim/cook.sprite.secretingredient.png 306600
 heroes/cook/cook_A/anim/cook.sprite.walk.png 599477
 campaign/town/town_event/town_event.image_first_cook.png 230137
-campaign/town/town_events/town_event.image_gourmets.png 766422
+campaign/town/town_event/town_event.image_gourmets.png 766422
 heroes/cook/anim/cook.sprite.afflicted.atlas 401
 heroes/cook/anim/cook.sprite.afflicted.skel 2570
 heroes/cook/anim/cook.sprite.butcher.atlas 287
@@ -184,6 +184,6 @@ trinkets/com.rarities.trinkets.json 428
 trinkets/cook.entries.trinkets.json 3688
 trinkets/cook.sets.trinkets.json 170
 trinkets/crimson_court.rarities.trinkets.json 171
-modfiles.txt 9398
+modfiles.txt 9376
 preview_icon.png 500867
 project.xml 607

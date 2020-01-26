@@ -49,7 +49,7 @@ heroes/cook/cook_A/anim/cook.sprite.poisonnedbait.png
 heroes/cook/cook_A/anim/cook.sprite.secretingredient.png
 heroes/cook/cook_A/anim/cook.sprite.walk.png
 campaign/town/town_event/town_event.image_first_cook.png
-campaign/town/town_events/town_event.image_gourmets.png
+campaign/town/town_event/town_event.image_gourmets.png
 heroes/cook/anim/cook.sprite.afflicted.atlas
 heroes/cook/anim/cook.sprite.afflicted.skel
 heroes/cook/anim/cook.sprite.butcher.atlas
@@ -223,6 +223,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting.....................................................................................................................................................................................................Submitted.
+Submitting............................................................................................................................Submitted.
 Saving project file D:\DD_mods\Cook\project.xml
 
