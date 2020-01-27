@@ -2,72 +2,72 @@
 <root>
   <language id="russian">
 
-	<entry id="hero_class_name_cook"><![CDATA[Itinerant Cook]]></entry>
+	<entry id="hero_class_name_cook"><![CDATA[Странствующий повар]]></entry>
 
-	<entry id="action_verbose_body_guild_cook"><![CDATA[The Itinerant Cook  brings much needed comfort to her allies with the hearty regenerative meals that she offers. According to her recipes, the mouthwatering vapors coming from her cookpot can become deadly to her enemies. When she’s not giving orders to her comrades, she shares her tremendous experience in luring and slaughtering any beast... or person.]]></entry>
-    <entry id="action_verbose_body_blacksmith_cook"><![CDATA[The Itinerant Cook never goes without her chef's knife, as deadly as it is useful. She also brings her favorite spoon, and always carries a vial of her own secret ingredient that adds a unique flavour. Her apron is practical, but offers little in the way of protection.]]></entry>
-    <entry id="action_verbose_body_camping_trainer_cook"><![CDATA[No better place than the campfire for the Itinerant Cook to reveal the full potential of her mastery, transforming a makeshift bivouac into a luxurious banquet hall. After their binge eating, she can help her companions purge themselves with some strange mixtures.]]></entry>	
+	<entry id="action_verbose_body_guild_cook"><![CDATA[Странствующий повар приносит столь необходимый комфорт своим союзникам обильными восстанавливающими блюдами, которые она готовит. Согласно ее рецептам, аппетитные пары, выходящие из кастрюли, могут стать смертельными для врагов. Когда она не отдает приказы своим товарищам, она делится своим огромным опытом приманки и убийства любого зверя... или человека.]]></entry>
+    <entry id="action_verbose_body_blacksmith_cook"><![CDATA[Странствующий повар никогда не обходится без своего шеф-поварского ножа, столь же смертоносного, сколь и полезного. Она так же носит с собой свою любимую ложку и всегда носит флакон с ее собственным секретным ингридиентом, который добавляет уникальный аромат. Ее фартук практичен, но практически не дает защиты.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_cook"><![CDATA[Нет лучшего места, чем у костра, чтобы странствующий повар могла раскрыть весь потенциал своего мастерства, превратив импровизированный бивуак в роскошный банетный зал. После переедания она может помочь своим спутникам очистить себя какими-то странными смесями.]]></entry>	
 
-	<entry id="town_event_title_first_cook"><![CDATA[Soup for the Poor]]></entry>
-	<entry id="town_event_description_first_cook"><![CDATA[Someone has started to distribute free food in the slums. In these times of misery, all kinds of skills must be put to use.]]></entry>
-	<entry id="town_event_title_gourmets"><![CDATA[Fine Gourmet]]></entry>
-	<entry id="town_event_description_gourmets"><![CDATA[Itinerant Cooks have declared Gourmets Week, preparing sumptuous banquets with refined dishes thanks to the surplus of harvest. Our recruits won't complain to be eating better than usual.]]></entry>
+	<entry id="town_event_title_first_cook"><![CDATA[Суп для бедных]]></entry>
+	<entry id="town_event_description_first_cook"><![CDATA[Кто-то начал раздавать бесплатную еду в трущобах. В это тяжелое время необходимо использовать все виды умений.]]></entry>
+	<entry id="town_event_title_gourmets"><![CDATA[Прекрасный гурман]]></entry>
+	<entry id="town_event_description_gourmets"><![CDATA[Странствующий повар объявила неделю гурманов, готовя роскошные банкеты с изысканными блюдами благодаря избытку урожая. Наши новобранцы не станут жаловаться, что едят лучше, чем обычно.]]></entry>
 
-	<entry id="str_inventory_title_trinketcook_fish_bones"><![CDATA[Fish Bones]]></entry>
-	<entry id="str_inventory_title_trinketcook_cleaver"><![CDATA[Cleaver]]></entry>
-	<entry id="str_inventory_title_trinketcook_bottled_snake"><![CDATA[Bottled Snake]]></entry>
-	<entry id="str_inventory_title_trinketcook_spices"><![CDATA[Collection of Spices]]></entry>
-	<entry id="str_inventory_title_trinketcook_knives"><![CDATA[Chef Knives Set]]></entry>
-	<entry id="str_inventory_set_title_cc_cook"><![CDATA["The secret recipe of sucess."]]></entry>
-	<entry id="str_inventory_title_trinketcook_cockade"><![CDATA[Cordon Bleu Cockade]]></entry>
-	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Vial of a Unique Ingredient]]></entry>
-	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Dimensional Eyeglasses]]></entry>
-	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Babette's Head]]></entry>
+	<entry id="str_inventory_title_trinketcook_fish_bones"><![CDATA[Рыбные кости]]></entry>
+	<entry id="str_inventory_title_trinketcook_cleaver"><![CDATA[Нож мясника]]></entry>
+	<entry id="str_inventory_title_trinketcook_bottled_snake"><![CDATA[Бутилированная змея]]></entry>
+	<entry id="str_inventory_title_trinketcook_spices"><![CDATA[Коллекция специй]]></entry>
+	<entry id="str_inventory_title_trinketcook_knives"><![CDATA[Набор ножей шеф-повара]]></entry>
+	<entry id="str_inventory_set_title_cc_cook"><![CDATA["Секретный рецепт успеха."]]></entry>
+	<entry id="str_inventory_title_trinketcook_cockade"><![CDATA[Кокарда Кордон Блю]]></entry>
+	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Флакон уникального ингридиента]]></entry>
+	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Пространственные очки]]></entry>
+	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Голова Бабетты]]></entry>
 
-    <entry id="combat_skill_name_cook_maincourse"><![CDATA[Main Course]]></entry>
-	<entry id="combat_skill_name_cook_butcher"><![CDATA[Butcher's Slice]]></entry>
-    <entry id="combat_skill_name_cook_condiment"><![CDATA[Occult Condiment]]></entry>
-    <entry id="combat_skill_name_cook_entremet"><![CDATA[Entremet]]></entry>
-    <entry id="combat_skill_name_cook_choicepiece"><![CDATA[Choice Piece]]></entry>
-    <entry id="combat_skill_name_cook_poisonedbait"><![CDATA[Poisoned Bait]]></entry>
-    <entry id="combat_skill_name_cook_commis"><![CDATA[Commis]]></entry>
-    <entry id="combat_skill_name_cook_move"><![CDATA[Move]]></entry>
-    <entry id="upgrade_tree_name_cook.maincourse"><![CDATA[Main Course]]></entry>
-    <entry id="upgrade_tree_name_cook.butcher"><![CDATA[Butcher's Slice]]></entry>
-    <entry id="upgrade_tree_name_cook.condiment"><![CDATA[Occult Condiment]]></entry>
-    <entry id="upgrade_tree_name_cook.entremet"><![CDATA[Entremet]]></entry>
-    <entry id="upgrade_tree_name_cook.choicepiece"><![CDATA[Choice Piece]]></entry>
-    <entry id="upgrade_tree_name_cook.poisonedbait"><![CDATA[Poisoned Bait]]></entry>
-    <entry id="upgrade_tree_name_cook.commis"><![CDATA[Commis]]></entry>
+    <entry id="combat_skill_name_cook_maincourse"><![CDATA[Основное блюдо]]></entry>
+	<entry id="combat_skill_name_cook_butcher"><![CDATA[Нож мясника]]></entry>
+    <entry id="combat_skill_name_cook_condiment"><![CDATA[Оккультная приправа]]></entry>
+    <entry id="combat_skill_name_cook_entremet"><![CDATA[Закуска]]></entry>
+    <entry id="combat_skill_name_cook_choicepiece"><![CDATA[Отборный кусок]]></entry>
+    <entry id="combat_skill_name_cook_poisonedbait"><![CDATA[Отравленная приманка]]></entry>
+    <entry id="combat_skill_name_cook_commis"><![CDATA[Помощник повара]]></entry>
+    <entry id="combat_skill_name_cook_move"><![CDATA[Движение]]></entry>
+    <entry id="upgrade_tree_name_cook.maincourse"><![CDATA[Основное блюдо]]></entry>
+    <entry id="upgrade_tree_name_cook.butcher"><![CDATA[Нож мясника]]></entry>
+    <entry id="upgrade_tree_name_cook.condiment"><![CDATA[Оккультная приправа]]></entry>
+    <entry id="upgrade_tree_name_cook.entremet"><![CDATA[Закуска]]></entry>
+    <entry id="upgrade_tree_name_cook.choicepiece"><![CDATA[Отборный кусок]]></entry>
+    <entry id="upgrade_tree_name_cook.poisonedbait"><![CDATA[Отравленная приманка]]></entry>
+    <entry id="upgrade_tree_name_cook.commis"><![CDATA[Помощник повара]]></entry>
 
-    <entry id="camping_skill_name_abundance"><![CDATA[ABUNDANCE]]></entry>
-    <entry id="camping_skill_name_purge"><![CDATA[PURGING AROMATICS]]></entry>
-    <entry id="camping_skill_name_apetizer"><![CDATA[APPETIZER]]></entry>
-    <entry id="camping_skill_name_light_bearer"><![CDATA[LIGHT BEARER]]></entry>
+    <entry id="camping_skill_name_abundance"><![CDATA[ИЗОБИЛИЕ]]></entry>
+    <entry id="camping_skill_name_purge"><![CDATA[ОЧИЩАЮЩИЕ АРОМАТЫ]]></entry>
+    <entry id="camping_skill_name_apetizer"><![CDATA[АППЕТАЙЗЕР]]></entry>
+    <entry id="camping_skill_name_light_bearer"><![CDATA[НОСИТЕЛЬ СВЕТА]]></entry>
 	
-	<entry id="cook_weapon_0"><![CDATA[Worn Cutlery]]></entry>
-    <entry id="cook_weapon_1"><![CDATA[Table Cutlery]]></entry>
-    <entry id="cook_weapon_2"><![CDATA[Silver Cutlery]]></entry>
-    <entry id="cook_weapon_3"><![CDATA[Chef's Cutlery]]></entry>
-    <entry id="cook_weapon_4"><![CDATA["Savoir-Faire"]]></entry>
-    <entry id="upgrade_tree_name_cook.weapon"><![CDATA[Cutlery]]></entry>
+	<entry id="cook_weapon_0"><![CDATA[Изношенные приборы]]></entry>
+    <entry id="cook_weapon_1"><![CDATA[Столовые приборы]]></entry>
+    <entry id="cook_weapon_2"><![CDATA[Серебряные приборы]]></entry>
+    <entry id="cook_weapon_3"><![CDATA[Приборы шеф-повара]]></entry>
+    <entry id="cook_weapon_4"><![CDATA["Секреты производства"]]></entry>
+    <entry id="upgrade_tree_name_cook.weapon"><![CDATA[Приборы]]></entry>
 
-    <entry id="cook_armour_0"><![CDATA[Rag Apron]]></entry>
-    <entry id="cook_armour_1"><![CDATA[Dirty Apron]]></entry>
-    <entry id="cook_armour_2"><![CDATA[Kitchen Apron]]></entry>
-    <entry id="cook_armour_3"><![CDATA[Chef's Apron]]></entry>
-    <entry id="cook_armour_4"><![CDATA["The Fifth Star"]]></entry>
-    <entry id="upgrade_tree_name_cook.armour"><![CDATA[Apron]]></entry>
+    <entry id="cook_armour_0"><![CDATA[Тряпичный фартук]]></entry>
+    <entry id="cook_armour_1"><![CDATA[Грязный фартук]]></entry>
+    <entry id="cook_armour_2"><![CDATA[Кухонный фартук]]></entry>
+    <entry id="cook_armour_3"><![CDATA[Фартук шеф-повара]]></entry>
+    <entry id="cook_armour_4"><![CDATA["Пятая звезда"]]></entry>
+    <entry id="upgrade_tree_name_cook.armour"><![CDATA[Фартук]]></entry>
 
-    <entry id="actor_mode_name_nocooking"><![CDATA[Combat]]></entry>
-    <entry id="actor_mode_name_cooking"><![CDATA[Cooking]]></entry>
-    <entry id="str_skill_mode_info_nocooking"><![CDATA[{colour_start|specificclass}Combat:{colour_end}]]></entry>
-    <entry id="str_skill_mode_info_cooking"><![CDATA[{colour_start|specificclass}Cooking:{colour_end}]]></entry>
-	<entry id="buff_rule_data_tooltip_nocooking"><![CDATA[Combat]]></entry>
-	<entry id="buff_rule_data_tooltip_cooking"><![CDATA[Cooking]]></entry>
-	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s if NOT in mode %s]]></entry>
+    <entry id="actor_mode_name_nocooking"><![CDATA[Битва]]></entry>
+    <entry id="actor_mode_name_cooking"><![CDATA[Готовка]]></entry>
+    <entry id="str_skill_mode_info_nocooking"><![CDATA[{colour_start|specificclass}Битва:{colour_end}]]></entry>
+    <entry id="str_skill_mode_info_cooking"><![CDATA[{colour_start|specificclass}Готовка:{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_nocooking"><![CDATA[Битва]]></entry>
+	<entry id="buff_rule_data_tooltip_cooking"><![CDATA[Готовка]]></entry>
+	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s если НЕ в режиме %s]]></entry>
 
-	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemies:]]></entry>
+	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Враги:]]></entry>
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_received_percent_hero_skill"><![CDATA[%d%% {colour_start|healhp}Healing{colour_end} Received from Skills]]></entry>	
@@ -75,129 +75,129 @@
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Amount Received]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Duration Received]]></entry>
-	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Main Course]]></entry>
-	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Butcher's Slice]]></entry>
-    <entry id="str_quirk_name_binge"><![CDATA[Overfeeding]]></entry>
-	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Overfeeding]]></entry>	
+	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Основное блюдо]]></entry>
+	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Нож мясника]]></entry>
+    <entry id="str_quirk_name_binge"><![CDATA[Перекармливание]]></entry>
+	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Перекармливание]]></entry>	
 
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Steal {colour_start|healhp}Restoration{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Disable Move]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[{colour_start|skill_unselectable}Before Combat Ends Only{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[Ends {colour_start|healhp}Restoration{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[Enemies:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(90%% base){colour_end}
-	6 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_2"><![CDATA[Enemies:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end}
-	7 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_3"><![CDATA[Enemies:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end}
-	8 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_4"><![CDATA[Enemies:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end}
-	9 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_5"><![CDATA[Enemies:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}
-	10 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_Cont"><![CDATA[{colour_start|notable}Continue Turn{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 1-2 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 3-4 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%% All Resistances]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[Friendly Skill: {colour_start|healhp}Heal{colour_end} 0-2 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[Friendly Skill: DMG 1-2 HP]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Украсть {colour_start|healhp}восстановление{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Запрет движения]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[{colour_start|skill_unselectable}Только перед окончанием боя{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[Закончить {colour_start|healhp}восстановление{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[Враги:
+	{colour_start|blight}Отравление{colour_end} {colour_start|skill_unselectable}(90%% база){colour_end}
+	6 очков/раунд за 1 раунд]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_2"><![CDATA[Враги:
+	{colour_start|blight}Отравление{colour_end} {colour_start|skill_unselectable}(100%% база){colour_end}
+	7 очков/раунд за 1 раунд]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_3"><![CDATA[Враги:
+	{colour_start|blight}Отравление{colour_end} {colour_start|skill_unselectable}(110%% база){colour_end}
+	8 очков/раунд за 1 раунд]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_4"><![CDATA[Враги:
+	{colour_start|blight}Отравление{colour_end} {colour_start|skill_unselectable}(120%% база){colour_end}
+	9 очков/раунд за 1 раунд]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_5"><![CDATA[Враги:
+	{colour_start|blight}Отравление{colour_end} {colour_start|skill_unselectable}(130%% база){colour_end}
+	10 очков/раунд за 1 раунд]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_Cont"><![CDATA[{colour_start|notable}Продолжить ход{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_2"><![CDATA[{colour_start|healhp}Лечение{colour_end} 1-2 очков/раунд за 2 раунда]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}Лечение{colour_end} 2-3 очков/раунд за 2 раунда]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}Лечение{colour_end} 2-3 очков/раунд за 3 раунда]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}Лечение{colour_end} 3-4 очков/раунд за 3 раунда]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%% Все сопротивления]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[Дружественное умение: {colour_start|healhp}Лечение{colour_end} 0-2 ХП]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[Дружественное умение: УРН 1-2 ХП]]></entry>	
 
-    <entry id="cook+str_bark_encourage"><![CDATA[I know you'll manage to carry your burdens.]]></entry>
-    <entry id="cook+str_bark_encourage"><![CDATA[You're a tough one. You'll easily get as old as me.]]></entry>
-    <entry id="cook+str_bark_encourage"><![CDATA[Everyone carries the weight of their past.]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[I know I have some meds stored somewhere...]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[I'm going to make a bandage with a strap from my bag.]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[Take this and get up, I'm too loaded to carry you.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[If I've survived this long, so can all of you. I guess.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[Don't touch my bag. Everybody can manage their share.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[I've seen worse already. We'll carry on.]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[Я знаю, что вы справитесь со своим бременем.]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[Вы сильные. Вы легко станете такими же опытными, как и я.]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[Каждый несет груз своего прошлого.]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[Я помню, у меня где-то были лекарства...]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[Я собираюсь сделать жгут из своей сумки.]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[Возьми это и вставай, я слишком загружена, чтобы нести еще и тебя.]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[Если я продержалась так долго, то и вы все сможете. Я думаю.]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[Не трогай мою сумку. Каждый получил свою долю.]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[Я видела хуже. Продолжаем.]]></entry>
 
-    <entry id="cook+str_bark_abundance"><![CDATA[Enough rationing. We deserve to treat ourselves!]]></entry>
-	<entry id="cook+str_bark_abundance"><![CDATA[That's what they call food? I'll show you how it's done.]]></entry>
-	<entry id="cook+str_bark_abundance"><![CDATA[If certain death awaits us, we shouldn't go out on an empty stomach.]]></entry>
-    <entry id="cook+str_bark_purge"><![CDATA[You need to empty yourself in order to fill up again.]]></entry>
-	<entry id="cook+str_bark_purge"><![CDATA[Told you. You must pay attention. Now eat that.]]></entry>
-	<entry id="cook+str_bark_purge"><![CDATA[Nothing should come back up, I say, but in your case...]]></entry>
-    <entry id="cook+str_bark_apetizer"><![CDATA[This would give you an insight of what I'm going to cook.]]></entry>
-	<entry id="cook+str_bark_apetizer"><![CDATA[A bit salty maybe? But still a delicious amuse bouche.]]></entry>
-	<entry id="cook+str_bark_apetizer"><![CDATA[This will get rid of the bad taste that last fight left you.]]></entry>
-    <entry id="cook+str_bark_light_bearer"><![CDATA[I can install the portable brazier.]]></entry>
-	<entry id="cook+str_bark_light_bearer"><![CDATA[If I manage not to burn my bag, we should see more clearly.]]></entry>
-	<entry id="cook+str_bark_light_bearer"><![CDATA[Light up the brazier. Our path will be illuminated.]]></entry>
+    <entry id="cook+str_bark_abundance"><![CDATA[Хватит нормировать пищу. Мы заслужили побаловать себя!]]></entry>
+	<entry id="cook+str_bark_abundance"><![CDATA[Это они называют едой? Сейчас я покажу вам как нужно готовить.]]></entry>
+	<entry id="cook+str_bark_abundance"><![CDATA[Если нас ожидает верная смерть, мы не должны биться на голодный желудок.]]></entry>
+    <entry id="cook+str_bark_purge"><![CDATA[Вы должны очистить себя, прежде чем заполнить снова.]]></entry>
+	<entry id="cook+str_bark_purge"><![CDATA[Я же говорила. Вы должны были обратить внимание. Теперь съешьте это.]]></entry>
+	<entry id="cook+str_bark_purge"><![CDATA[Ничего не должно возвращаться, я так считаю, но в вашем случае...]]></entry>
+    <entry id="cook+str_bark_apetizer"><![CDATA[Это даст вам представление о том, что я собираюсь приготовить.]]></entry>
+	<entry id="cook+str_bark_apetizer"><![CDATA[Возможно немного пересолено? Но все же восхитительный забавный букет вкусов.]]></entry>
+	<entry id="cook+str_bark_apetizer"><![CDATA[Это избавит от дурного привкуса, который оставил вам последний бой.]]></entry>
+    <entry id="cook+str_bark_light_bearer"><![CDATA[Я могу поставить портативную жаровню.]]></entry>
+	<entry id="cook+str_bark_light_bearer"><![CDATA[Если мне удастся не сжечь свою сумку, мы должны будем видеть более четко.]]></entry>
+	<entry id="cook+str_bark_light_bearer"><![CDATA[Зажги жаровню. Наш путь будет освещен.]]></entry>
 
-	<entry id="cook+str_critbyhero"><![CDATA[Is that even edible?]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Should we taste a piece of that?]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[You're served!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[A tasteful hit.]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Not good enough for my potage.]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[You're just raw meat.]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Eat that!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Ha! Digestible enough?]]></entry>
+	<entry id="cook+str_critbyhero"><![CDATA[Это даже съедобно?]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Должны ли мы попробовать это?]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Вы сервированы!]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Со вкусом ударов.]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Не достаточно хорош для моего супа.]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Ты просто сырое мясо.]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Съешь это!]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Ха! Нормально усваивается?]]></entry>
 
-    <entry id="str_cook_maincourse"><![CDATA[Bon Apétit!]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Here you go.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Dinner is served.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Careful, it's hot.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Compliments of the chef.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Food's ready, take your plate.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Let's eat a piece.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Taste it before you say it's not good.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Бон аппетит!]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Ну вот.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Ужин подан.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Осторожно, горячо.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Комплимент от шефа.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Еда готова, тащите свои тарелки.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Давайте есть.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Попробуйте, прежде чем сказать, что это плохо.]]></entry>
 
-    <entry id="str_cook_overfed"><![CDATA[*Burp*]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[I can't take it anymore...]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[Oof... I'm full.]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[That's... too much.]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[I had enough, but I can't stop.]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[Why is it so good?]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[*Буээ*]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[В меня больше не влезет...]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[Уфф... Я объелась.]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[Этого... слишком много.]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[Мне достаточно, но я не могу остановиться.]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[Почему это так вкусно?]]></entry>
 
-	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[I've had a long life... but I don't want to go like this!]]></entry>
-    <entry id="cook+str_bark_deathsdoor"><![CDATA[At least, I'm ready to go...]]></entry>
+	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[Я прожила долгую жизнь... но я не хочу двигаться так дальше!]]></entry>
+    <entry id="cook+str_bark_deathsdoor"><![CDATA[По райней мере, я готова идти...]]></entry>
 
-    <entry id="cook+str_afflicted_abusive"><![CDATA[Show some respect to your elders!]]></entry>
-	<entry id="cook+str_afflicted_paranoid"><![CDATA[You won't have my secret recipes!]]></entry>
-    <entry id="cook+str_afflicted_selfish"><![CDATA[I deserve a better share. I'm carrying everything!]]></entry>
-    <entry id="cook+str_afflicted_depressed"><![CDATA[What did I think? I was not prepared at all.]]></entry>
-    <entry id="cook+str_afflicted_irrational"><![CDATA[A bit of this... add that... and maybe more salt ?!]]></entry>
-    <entry id="cook+str_afflicted_fearful"><![CDATA[I hope you enjoyed your last meal...]]></entry>
-    <entry id="cook+str_afflicted_masochistic"><![CDATA[Let the pain come! I won't feel my back anymore.]]></entry>
+    <entry id="cook+str_afflicted_abusive"><![CDATA[Прояви уважение к старшим!]]></entry>
+	<entry id="cook+str_afflicted_paranoid"><![CDATA[Ты не получишь мои секретные рецепты!]]></entry>
+    <entry id="cook+str_afflicted_selfish"><![CDATA[Я заслуживаю большей доли. Я же несу все вещи!]]></entry>
+    <entry id="cook+str_afflicted_depressed"><![CDATA[О чем я только думала? Я совсем не была готова.]]></entry>
+    <entry id="cook+str_afflicted_irrational"><![CDATA[Щепотку этого... добавить этого... и, возможно, чуть больше соли?!]]></entry>
+    <entry id="cook+str_afflicted_fearful"><![CDATA[Я надеюсь, вам понравилось последнее блюдо...]]></entry>
+    <entry id="cook+str_afflicted_masochistic"><![CDATA[Пусть боль придет. Я больше не буду отступать.]]></entry>
 
-	<entry id="str_inventory_title_supplycook_common_A"><![CDATA[Cook Common Supply A]]></entry>
-	<entry id="str_inventory_title_supplycook_common_B"><![CDATA[Cook Common Supply B]]></entry>
-	<entry id="str_inventory_title_supplycook_common_C"><![CDATA[Cook Common Supply C]]></entry>
-	<entry id="str_inventory_title_supplycook_crypts_A"><![CDATA[Cook Crypts Supply A]]></entry>
-	<entry id="str_inventory_title_supplycook_crypts_B"><![CDATA[Cook Crypts Supply B]]></entry>
-	<entry id="str_inventory_title_supplycook_cove_A"><![CDATA[Cook Cove Supply A]]></entry>
-	<entry id="str_inventory_title_supplycook_cove_B"><![CDATA[Cook Cove Supply B]]></entry>
-	<entry id="str_inventory_title_supplycook_warrens_A"><![CDATA[Cook Warrens Supply A]]></entry>
-	<entry id="str_inventory_title_supplycook_warrens_B"><![CDATA[Cook Warrens Supply B]]></entry>
-	<entry id="str_inventory_title_supplycook_weald_A"><![CDATA[Cook Weald Supply A]]></entry>
-	<entry id="str_inventory_title_supplycook_weald_B"><![CDATA[Cook Weald Supply B]]></entry>
-	<entry id="str_inventory_title_supplycook_courtyard_A"><![CDATA[Cook Courtyard Supply A]]></entry>
-	<entry id="str_inventory_title_supplycook_courtyard_B"><![CDATA[Cook Courtyard Supply B]]></entry>
-	<entry id="str_inventory_title_supplycook_farm_A"><![CDATA[Cook Farm Supply A]]></entry>
-	<entry id="str_inventory_title_supplycook_farm_B"><![CDATA[Cook Farm Supply B]]></entry>
+	<entry id="str_inventory_title_supplycook_common_A"><![CDATA[Обычные поварские припасы A]]></entry>
+	<entry id="str_inventory_title_supplycook_common_B"><![CDATA[Обычные поварские припасы B]]></entry>
+	<entry id="str_inventory_title_supplycook_common_C"><![CDATA[Обычные поварские припасы C]]></entry>
+	<entry id="str_inventory_title_supplycook_crypts_A"><![CDATA[Тайные поварские припасы A]]></entry>
+	<entry id="str_inventory_title_supplycook_crypts_B"><![CDATA[Тайные поварские припасы B]]></entry>
+	<entry id="str_inventory_title_supplycook_cove_A"><![CDATA[Малые поварские припасы A]]></entry>
+	<entry id="str_inventory_title_supplycook_cove_B"><![CDATA[Малые поварские припасы B]]></entry>
+	<entry id="str_inventory_title_supplycook_warrens_A"><![CDATA[Поварские припасы Уорренов A]]></entry>
+	<entry id="str_inventory_title_supplycook_warrens_B"><![CDATA[Поварские припасы Уорренов B]]></entry>
+	<entry id="str_inventory_title_supplycook_weald_A"><![CDATA[Полевые поварские припасы A]]></entry>
+	<entry id="str_inventory_title_supplycook_weald_B"><![CDATA[Полевые поварские припасы B]]></entry>
+	<entry id="str_inventory_title_supplycook_courtyard_A"><![CDATA[Дворовые поварские припасы A]]></entry>
+	<entry id="str_inventory_title_supplycook_courtyard_B"><![CDATA[Дворовые поварские припасы B]]></entry>
+	<entry id="str_inventory_title_supplycook_farm_A"><![CDATA[Фермерские поварские припасы A]]></entry>
+	<entry id="str_inventory_title_supplycook_farm_B"><![CDATA[Фермерские поварские припасы B]]></entry>
 
-	<entry id="str_inventory_description_supplycook_common_A"><![CDATA[Eat that]]></entry>
-	<entry id="str_inventory_description_supplycook_common_B"><![CDATA[Eat that]]></entry>
-	<entry id="str_inventory_description_supplycook_common_C"><![CDATA[Eat that]]></entry>
-	<entry id="str_inventory_description_supplycook_crypts_A"><![CDATA[Eat that]]></entry>
-	<entry id="str_inventory_description_supplycook_crypts_B"><![CDATA[Eat that]]></entry>
-	<entry id="str_inventory_description_supplycook_cove_A"><![CDATA[Eat that]]></entry>
-	<entry id="str_inventory_description_supplycook_cove_B"><![CDATA[Eat that]]></entry>
-	<entry id="str_inventory_description_supplycook_warrens_A"><![CDATA[Eat that]]></entry>
-	<entry id="str_inventory_description_supplycook_warrens_B"><![CDATA[Eat that]]></entry>
-	<entry id="str_inventory_description_supplycook_weald_A"><![CDATA[Eat that]]></entry>
-	<entry id="str_inventory_description_supplycook_weald_B"><![CDATA[Eat that]]></entry>
-	<entry id="str_inventory_description_supplycook_courtyard_A"><![CDATA[Eat that]]></entry>
-	<entry id="str_inventory_description_supplycook_courtyard_B"><![CDATA[Eat that]]></entry>
-	<entry id="str_inventory_description_supplycook_farm_A"><![CDATA[Eat that]]></entry>
-	<entry id="str_inventory_description_supplycook_farm_B"><![CDATA[Eat that]]></entry>
+	<entry id="str_inventory_description_supplycook_common_A"><![CDATA[Съесть это]]></entry>
+	<entry id="str_inventory_description_supplycook_common_B"><![CDATA[Съесть это]]></entry>
+	<entry id="str_inventory_description_supplycook_common_C"><![CDATA[Съесть это]]></entry>
+	<entry id="str_inventory_description_supplycook_crypts_A"><![CDATA[Съесть это]]></entry>
+	<entry id="str_inventory_description_supplycook_crypts_B"><![CDATA[Съесть это]]></entry>
+	<entry id="str_inventory_description_supplycook_cove_A"><![CDATA[Съесть это]]></entry>
+	<entry id="str_inventory_description_supplycook_cove_B"><![CDATA[Съесть это]]></entry>
+	<entry id="str_inventory_description_supplycook_warrens_A"><![CDATA[Съесть это]]></entry>
+	<entry id="str_inventory_description_supplycook_warrens_B"><![CDATA[Съесть это]]></entry>
+	<entry id="str_inventory_description_supplycook_weald_A"><![CDATA[Съесть это]]></entry>
+	<entry id="str_inventory_description_supplycook_weald_B"><![CDATA[Съесть это]]></entry>
+	<entry id="str_inventory_description_supplycook_courtyard_A"><![CDATA[Съесть это]]></entry>
+	<entry id="str_inventory_description_supplycook_courtyard_B"><![CDATA[Съесть это]]></entry>
+	<entry id="str_inventory_description_supplycook_farm_A"><![CDATA[Съесть это]]></entry>
+	<entry id="str_inventory_description_supplycook_farm_B"><![CDATA[Съесть это]]></entry>
 
   </language>
 
