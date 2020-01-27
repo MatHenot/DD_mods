@@ -41,7 +41,7 @@
     <entry id="upgrade_tree_name_cook.commis"><![CDATA[Commis]]></entry>
 
     <entry id="camping_skill_name_abundance"><![CDATA[ABUNDANCE]]></entry>
-    <entry id="camping_skill_name_purge"><![CDATA[PURGING AROMATICS]]></entry>
+    <entry id="camping_skill_name_purge"><![CDATA[PURGATIVE AROMATICS]]></entry>
     <entry id="camping_skill_name_apetizer"><![CDATA[APPETIZER]]></entry>
     <entry id="camping_skill_name_light_bearer"><![CDATA[LIGHT BEARER]]></entry>
 	
@@ -67,7 +67,7 @@
 	<entry id="buff_rule_data_tooltip_cooking"><![CDATA[Cooking]]></entry>
 	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s if NOT in mode %s]]></entry>
 
-	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemies:]]></entry>
+	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemy Party:]]></entry>
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_received_percent_hero_skill"><![CDATA[%d%% {colour_start|healhp}Healing{colour_end} Received from Skills]]></entry>	
@@ -84,19 +84,19 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Disable Move]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[{colour_start|skill_unselectable}Before Combat Ends Only{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[Ends {colour_start|healhp}Restoration{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[Enemies:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[Enemy Party:
 	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(90%% base){colour_end}
 	6 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_2"><![CDATA[Enemies:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_2"><![CDATA[Enemy Party:
 	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end}
 	7 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_3"><![CDATA[Enemies:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_3"><![CDATA[Enemy Party:
 	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end}
 	8 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_4"><![CDATA[Enemies:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_4"><![CDATA[Enemy Party:
 	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end}
 	9 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_5"><![CDATA[Enemies:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_5"><![CDATA[Enemy Party:
 	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}
 	10 pts/rd for 1rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_Cont"><![CDATA[{colour_start|notable}Continue Turn{colour_end}]]></entry>

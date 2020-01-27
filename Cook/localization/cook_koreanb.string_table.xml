@@ -66,7 +66,7 @@
 	<entry id="buff_rule_data_tooltip_cooking"><![CDATA[요리중]]></entry>
 	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s (%s이 아닐 때)]]></entry>
 
-	<entry id="effect_tooltip_target_enemy_group"><![CDATA[적 원정대:]]></entry>
+	<entry id="effect_tooltip_target_enemy_group"><![CDATA[적 파티:]]></entry>
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[{colour_start|blight}중독{colour_end} 피해량 +%d%%]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[{colour_start|bleed}출혈{colour_end} 피해량 +%d%%]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_received_percent_hero_skill"><![CDATA[받는 {colour_start|healhp}회복량{colour_end} +%d%%]]></entry>	
@@ -83,19 +83,19 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[이동불가]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[{colour_start|skill_unselectable}이번 전투동안{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[{colour_start|healhp}복구{colour_end} 효과 제거]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[적 원정대:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[적 파티:
 	{colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 90%%){colour_end}
 	턴당 6 피해, 1턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_2"><![CDATA[적 원정대:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_2"><![CDATA[적 파티:
 	{colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 100%%){colour_end}
 	턴당 7 피해, 1턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_3"><![CDATA[적 원정대:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_3"><![CDATA[적 파티:
 	{colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 110%%){colour_end}
 	턴당 8 피해, 1턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_4"><![CDATA[적 원정대:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_4"><![CDATA[적 파티:
 	{colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 120%%){colour_end}
 	턴당 9 피해, 1턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_5"><![CDATA[적 원정대:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_5"><![CDATA[적 파티:
 	{colour_start|blight}중독{colour_end} {colour_start|skill_unselectable}(기본 130%%){colour_end}
 	턴당 10 피해, 1턴 지속]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_Cont"><![CDATA[{colour_start|notable}추가 턴{colour_end}]]></entry>

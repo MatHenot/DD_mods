@@ -2,170 +2,173 @@
 <root>
   <language id="french">
 
-	<entry id="hero_class_name_cook"><![CDATA[Itinerant Cook]]></entry>
+	<entry id="hero_class_name_cook"><![CDATA[Cuisinière Itinérante]]></entry>
 
-	<entry id="action_verbose_body_guild_cook"><![CDATA[The Itinerant Cook  brings much needed comfort to her allies with the hearty regenerative meals that she offers. According to her recipes, the mouthwatering vapors coming from her cookpot can become deadly to her enemies. When she’s not giving orders to her comrades, she shares her tremendous experience in luring and slaughtering any beast... or person.]]></entry>
-    <entry id="action_verbose_body_blacksmith_cook"><![CDATA[The Itinerant Cook never goes without her chef's knife, as deadly as it is useful. She also brings her favorite spoon, and always carries a vial of her own secret ingredient that adds a unique flavour. Her apron is practical, but offers little in the way of protection.]]></entry>
-    <entry id="action_verbose_body_camping_trainer_cook"><![CDATA[No better place than the campfire for the Itinerant Cook to reveal the full potential of her mastery, transforming a makeshift bivouac into a luxurious banquet hall. After their binge eating, she can help her companions purge themselves with some strange mixtures.]]></entry>	
+	<entry id="action_verbose_body_guild_cook"><![CDATA[La Cuisinière Itinérant apporte un réel réconfort à ses alliés, grâce aux solides repas régénérants qu’elle leur prépare. Selon la recette qu’elle applique, les délicieuses effluves émanant de sa marmite peuvent se transformer en poison mortel pour ses ennemis. Lorsqu’elle ne donne pas de consigne à ses camarades, elle partage sa grande expérience pour leurrer et abattre n’importe quelle créature… ou personne.]]></entry>
+    <entry id="action_verbose_body_blacksmith_cook"><![CDATA[La Cuisinière Itinérante a pour fidèle compagnon son couteau de chef, aussi mortel qu’utile. Elle amène aussi sa cuillère favorite, et porte toujours une fiole d’un ingrédient secret, qui amène cette saveur tellement unique à ses préparations. Son tablier est bien pratique, mais n’apporte que peu de protection.]]></entry>
+    <entry id="action_verbose_body_camping_trainer_cook"><![CDATA[Pour la Cuisinière Itinérante, pas de meilleur endroit que le feu de camp afin d’exercer son plein potentiel : elle transforme facilement un bivouac improvisé en luxueux festin. En cas d’excès, elle peut aider ses compagnons à se purger grâce à une étrange mixture aromatique.]]></entry>	
 
-	<entry id="town_event_title_first_cook"><![CDATA[Soup for the Poor]]></entry>
-	<entry id="town_event_description_first_cook"><![CDATA[Someone has started to distribute free food in the slums. In these times of misery, all kinds of skills must be put to use.]]></entry>
-	<entry id="town_event_title_gourmets"><![CDATA[Fine Gourmet]]></entry>
-	<entry id="town_event_description_gourmets"><![CDATA[Itinerant Cooks have declared Gourmets Week, preparing sumptuous banquets with refined dishes thanks to the surplus of harvest. Our recruits won't complain to be eating better than usual.]]></entry>
+	<entry id="town_event_title_first_cook"><![CDATA[La Soupe Pour Les Pauvres]]></entry>
+	<entry id="town_event_description_first_cook"><![CDATA[Quelqu’un à commencé à distribuer de la nourriture gratuite dans les taudis. Par ces temps de misère, les compétences de toute sorte doivent être exploitées au mieux.]]></entry>
+	<entry id="town_event_title_gourmets"><![CDATA[Fin Gourmets]]></entry>
+	<entry id="town_event_description_gourmets"><![CDATA[Les Cuisiniers Itinérants ont déclaré ouverte la semaine des gourmets, préparant de somptueux banquets de mets fins grâce au surplus de récolte. Les aventuriers ne se plaindront pas de manger mieux que d’ordinaire.]]></entry>
 
-	<entry id="str_inventory_title_trinketcook_fish_bones"><![CDATA[Fish Bones]]></entry>
-	<entry id="str_inventory_title_trinketcook_cleaver"><![CDATA[Cleaver]]></entry>
-	<entry id="str_inventory_title_trinketcook_bottled_snake"><![CDATA[Bottled Snake]]></entry>
-	<entry id="str_inventory_title_trinketcook_spices"><![CDATA[Collection of Spices]]></entry>
-	<entry id="str_inventory_title_trinketcook_knives"><![CDATA[Chef Knives Set]]></entry>
-	<entry id="str_inventory_set_title_cc_cook"><![CDATA["The secret recipe of sucess."]]></entry>
-	<entry id="str_inventory_title_trinketcook_cockade"><![CDATA[Cordon Bleu Cockade]]></entry>
-	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Vial of a Unique Ingredient]]></entry>
-	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Dimensional Eyeglasses]]></entry>
-	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Babette's Head]]></entry>
+	<entry id="str_inventory_title_trinketcook_fish_bones"><![CDATA[Arrêtes de Poisson]]></entry>
+	<entry id="str_inventory_title_trinketcook_cleaver"><![CDATA[Tranchoir]]></entry>
+	<entry id="str_inventory_title_trinketcook_bottled_snake"><![CDATA[Serpent en Bouteille]]></entry>
+	<entry id="str_inventory_title_trinketcook_spices"><![CDATA[Collection d'Épices]]></entry>
+	<entry id="str_inventory_title_trinketcook_knives"><![CDATA[Panel de Couteaux de Chef]]></entry>
+	<entry id="str_inventory_set_title_cc_cook"><![CDATA["La recette secrette du succès."]]></entry>
+	<entry id="str_inventory_title_trinketcook_cockade"><![CDATA[Cocarde de Cordon Bleu]]></entry>
+	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Fiole d'Ingrédient Unique]]></entry>
+	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Lunettes Dimensionnelles]]></entry>
+	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Tête de Babette]]></entry>
 
-    <entry id="combat_skill_name_cook_maincourse"><![CDATA[Main Course]]></entry>
-	<entry id="combat_skill_name_cook_butcher"><![CDATA[Butcher's Slice]]></entry>
-    <entry id="combat_skill_name_cook_condiment"><![CDATA[Occult Condiment]]></entry>
+    <entry id="combat_skill_name_cook_maincourse"><![CDATA[Plat Principal]]></entry>
+	<entry id="combat_skill_name_cook_butcher"><![CDATA[Tranche du Boucher]]></entry>
+    <entry id="combat_skill_name_cook_condiment"><![CDATA[Condiment Occulte]]></entry>
     <entry id="combat_skill_name_cook_entremet"><![CDATA[Entremet]]></entry>
-    <entry id="combat_skill_name_cook_choicepiece"><![CDATA[Choice Piece]]></entry>
-    <entry id="combat_skill_name_cook_poisonedbait"><![CDATA[Poisoned Bait]]></entry>
+    <entry id="combat_skill_name_cook_choicepiece"><![CDATA[Pièce de Choix]]></entry>
+    <entry id="combat_skill_name_cook_poisonedbait"><![CDATA[Appât Empoisonné]]></entry>
     <entry id="combat_skill_name_cook_commis"><![CDATA[Commis]]></entry>
-    <entry id="combat_skill_name_cook_move"><![CDATA[Move]]></entry>
-    <entry id="upgrade_tree_name_cook.maincourse"><![CDATA[Main Course]]></entry>
-    <entry id="upgrade_tree_name_cook.butcher"><![CDATA[Butcher's Slice]]></entry>
-    <entry id="upgrade_tree_name_cook.condiment"><![CDATA[Occult Condiment]]></entry>
+    <entry id="combat_skill_name_cook_move"><![CDATA[Déplacement]]></entry>
+    <entry id="upgrade_tree_name_cook.maincourse"><![CDATA[Plat Principal]]></entry>
+    <entry id="upgrade_tree_name_cook.butcher"><![CDATA[Tranche du Boucher]]></entry>
+    <entry id="upgrade_tree_name_cook.condiment"><![CDATA[Condiment Occulte]]></entry>
     <entry id="upgrade_tree_name_cook.entremet"><![CDATA[Entremet]]></entry>
-    <entry id="upgrade_tree_name_cook.choicepiece"><![CDATA[Choice Piece]]></entry>
-    <entry id="upgrade_tree_name_cook.poisonedbait"><![CDATA[Poisoned Bait]]></entry>
+    <entry id="upgrade_tree_name_cook.choicepiece"><![CDATA[Pièce de Choix]]></entry>
+    <entry id="upgrade_tree_name_cook.poisonedbait"><![CDATA[Appât Empoisonné]]></entry>
     <entry id="upgrade_tree_name_cook.commis"><![CDATA[Commis]]></entry>
 
-    <entry id="camping_skill_name_abundance"><![CDATA[ABUNDANCE]]></entry>
-    <entry id="camping_skill_name_purge"><![CDATA[PURGING AROMATICS]]></entry>
-    <entry id="camping_skill_name_apetizer"><![CDATA[APPETIZER]]></entry>
-    <entry id="camping_skill_name_light_bearer"><![CDATA[LIGHT BEARER]]></entry>
+    <entry id="camping_skill_name_abundance"><![CDATA[ABONDANCE]]></entry>
+    <entry id="camping_skill_name_purge"><![CDATA[AROMATIQUES PURGATIFS]]></entry>
+    <entry id="camping_skill_name_apetizer"><![CDATA[AMUSE-BOUCHE]]></entry>
+    <entry id="camping_skill_name_light_bearer"><![CDATA[PORTE FLAMMES]]></entry>
 	
-	<entry id="cook_weapon_0"><![CDATA[Worn Cutlery]]></entry>
-    <entry id="cook_weapon_1"><![CDATA[Table Cutlery]]></entry>
-    <entry id="cook_weapon_2"><![CDATA[Silver Cutlery]]></entry>
-    <entry id="cook_weapon_3"><![CDATA[Chef's Cutlery]]></entry>
+	<entry id="cook_weapon_0"><![CDATA[Couverts Tordus]]></entry>
+    <entry id="cook_weapon_1"><![CDATA[Couverts de Table]]></entry>
+    <entry id="cook_weapon_2"><![CDATA[Couverts en Argent]]></entry>
+    <entry id="cook_weapon_3"><![CDATA[Couverts de Chef]]></entry>
     <entry id="cook_weapon_4"><![CDATA["Savoir-Faire"]]></entry>
-    <entry id="upgrade_tree_name_cook.weapon"><![CDATA[Cutlery]]></entry>
+    <entry id="upgrade_tree_name_cook.weapon"><![CDATA[Couverts]]></entry>
 
-    <entry id="cook_armour_0"><![CDATA[Rag Apron]]></entry>
-    <entry id="cook_armour_1"><![CDATA[Dirty Apron]]></entry>
-    <entry id="cook_armour_2"><![CDATA[Kitchen Apron]]></entry>
-    <entry id="cook_armour_3"><![CDATA[Chef's Apron]]></entry>
-    <entry id="cook_armour_4"><![CDATA["The Fifth Star"]]></entry>
-    <entry id="upgrade_tree_name_cook.armour"><![CDATA[Apron]]></entry>
+    <entry id="cook_armour_0"><![CDATA[Tablier Chiffoné]]></entry>
+    <entry id="cook_armour_1"><![CDATA[Tablier Souillé]]></entry>
+    <entry id="cook_armour_2"><![CDATA[Tablier de Cuisine]]></entry>
+    <entry id="cook_armour_3"><![CDATA[Tablier de Chef]]></entry>
+    <entry id="cook_armour_4"><![CDATA["Cinquième Étoile"]]></entry>
+    <entry id="upgrade_tree_name_cook.armour"><![CDATA[Tablier]]></entry>
 
     <entry id="actor_mode_name_nocooking"><![CDATA[Combat]]></entry>
-    <entry id="actor_mode_name_cooking"><![CDATA[Cooking]]></entry>
+    <entry id="actor_mode_name_cooking"><![CDATA[Cuisine]]></entry>
     <entry id="str_skill_mode_info_nocooking"><![CDATA[{colour_start|specificclass}Combat:{colour_end}]]></entry>
-    <entry id="str_skill_mode_info_cooking"><![CDATA[{colour_start|specificclass}Cooking:{colour_end}]]></entry>
+    <entry id="str_skill_mode_info_cooking"><![CDATA[{colour_start|specificclass}Cuisine:{colour_end}]]></entry>
 	<entry id="buff_rule_data_tooltip_nocooking"><![CDATA[Combat]]></entry>
-	<entry id="buff_rule_data_tooltip_cooking"><![CDATA[Cooking]]></entry>
-	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s if NOT in mode %s]]></entry>
+	<entry id="buff_rule_data_tooltip_cooking"><![CDATA[Cuisine]]></entry>
+	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s si PAS en mode %s]]></entry>
 
-	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemies:]]></entry>
-    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
-	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_received_percent_hero_skill"><![CDATA[%d%% {colour_start|healhp}Healing{colour_end} Received from Skills]]></entry>	
-	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Amount Received]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Duration Received]]></entry>
-	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Main Course]]></entry>
-	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Butcher's Slice]]></entry>
-    <entry id="str_quirk_name_binge"><![CDATA[Overfeeding]]></entry>
-	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Overfeeding]]></entry>	
+	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Groupe ennemi :]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[Montant d'{colour_start|blight}infection{colour_end} reçu %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[Montant de {colour_start|bleed}saignement{colour_end} reçu %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_received_percent_hero_skill"><![CDATA[{colour_start|healhp}Soins{colour_end} reçus des compétences %+d%%]]></entry>	
+	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[Montant de {colour_start|healhp}restauration{colour_end} %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[Durée de {colour_start|healhp}restauration{colour_end} %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[Montant de {colour_start|healhp}restauration{colour_end} reçu %+d%%]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[Durée de {colour_start|healhp}restauration{colour_end} reçu %+d%%]]></entry>
+	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Plat Principal]]></entry>
+	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Tranche du Boucher]]></entry>
+    <entry id="str_quirk_name_binge"><![CDATA[Suralimentation]]></entry>
+	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Suralimentation]]></entry>	
 
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Steal {colour_start|healhp}Restoration{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Disable Move]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[{colour_start|skill_unselectable}Before Combat Ends Only{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[Ends {colour_start|healhp}Restoration{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[Enemies:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(90%% base){colour_end}
-	6 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_2"><![CDATA[Enemies:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end}
-	7 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_3"><![CDATA[Enemies:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end}
-	8 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_4"><![CDATA[Enemies:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end}
-	9 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_5"><![CDATA[Enemies:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}
-	10 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_Cont"><![CDATA[{colour_start|notable}Continue Turn{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 1-2 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 3-4 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%% All Resistances]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[Friendly Skill: {colour_start|healhp}Heal{colour_end} 0-2 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[Friendly Skill: DMG 1-2 HP]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Récupère {colour_start|healhp}restauration{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Bloque les déplacements]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[{colour_start|skill_unselectable}Avant la fin du combat uniquement{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[Met fin à la {colour_start|healhp}restauration{colour_end}]]></entry>
+	
+		<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_90"><![CDATA[{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 90%%){colour_end} 2 pts/tr sur 2 trs]]></entry>
+		
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[Groupe ennemi :
+	{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 90%%){colour_end} 
+	6 pts/tr sur 1 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_2"><![CDATA[Groupe ennemi :
+	{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 100%%){colour_end} 
+	7 pts/tr sur 1 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_3"><![CDATA[Groupe ennemi :
+	{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 110%%){colour_end} 
+	8 pts/tr sur 1 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_4"><![CDATA[Groupe ennemi :
+	{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 120%%){colour_end} 
+	9 pts/tr sur 1 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_5"><![CDATA[Groupe ennemi :
+	{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 130%%){colour_end} 
+	10 pts/tr sur 1 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_Cont"><![CDATA[{colour_start|notable}Continue le Tour{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_2"><![CDATA[{colour_start|healhp}Soigne{colour_end} 1-2 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}Soigne{colour_end} 2-3 pts/tr sur 2 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}Soigne{colour_end} 2-3 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}Soigne{colour_end} 3-4 pts/tr sur 3 trs]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%% Toutes Résistances]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[Compétence alliée : {colour_start|healhp}Soigne{colour_end} 0-2 PV]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[Compétence alliée : DGT : 1-2 PV]]></entry>	
 
-    <entry id="cook+str_bark_encourage"><![CDATA[I know you'll manage to carry your burdens.]]></entry>
-    <entry id="cook+str_bark_encourage"><![CDATA[You're a tough one. You'll easily get as old as me.]]></entry>
-    <entry id="cook+str_bark_encourage"><![CDATA[Everyone carries the weight of their past.]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[I know I have some meds stored somewhere...]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[I'm going to make a bandage with a strap from my bag.]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[Take this and get up, I'm too loaded to carry you.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[If I've survived this long, so can all of you. I guess.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[Don't touch my bag. Everybody can manage their share.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[I've seen worse already. We'll carry on.]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[Toi aussi tu sauras porter ton fardeau.]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[Tu es plutôt coriace. Tu atteindras facilement mon âge.]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[Chacun porte le poids de son passé.]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[Je suis sûre d'avoir des médicaments quelque part...]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[Je fais faire un bandage avec une lanière de mon sac.]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[Prends ça et lève toi, je suis trop chargée pour te porter.]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[Si j'ai survécu aussi longtemps, vous le pouvez tous. A priori.]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[Ne touche pas à mon sac. Chacun a son rôle à jouer.]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[J'ai déjà vu pire. On va continuer.]]></entry>
 
-    <entry id="cook+str_bark_abundance"><![CDATA[Enough rationing. We deserve to treat ourselves!]]></entry>
-	<entry id="cook+str_bark_abundance"><![CDATA[That's what they call food? I'll show you how it's done.]]></entry>
-	<entry id="cook+str_bark_abundance"><![CDATA[If certain death awaits us, we shouldn't go out on an empty stomach.]]></entry>
-    <entry id="cook+str_bark_purge"><![CDATA[You need to empty yourself in order to fill up again.]]></entry>
-	<entry id="cook+str_bark_purge"><![CDATA[Told you. You must pay attention. Now eat that.]]></entry>
-	<entry id="cook+str_bark_purge"><![CDATA[Nothing should come back up, I say, but in your case...]]></entry>
-    <entry id="cook+str_bark_apetizer"><![CDATA[This would give you an insight of what I'm going to cook.]]></entry>
-	<entry id="cook+str_bark_apetizer"><![CDATA[A bit salty maybe? But still a delicious amuse bouche.]]></entry>
-	<entry id="cook+str_bark_apetizer"><![CDATA[This will get rid of the bad taste that last fight left you.]]></entry>
-    <entry id="cook+str_bark_light_bearer"><![CDATA[I can install the portable brazier.]]></entry>
-	<entry id="cook+str_bark_light_bearer"><![CDATA[If I manage not to burn my bag, we should see more clearly.]]></entry>
-	<entry id="cook+str_bark_light_bearer"><![CDATA[Light up the brazier. Our path will be illuminated.]]></entry>
+    <entry id="cook+str_bark_abundance"><![CDATA[Assez du rationnement. On mérite de se faire plaisir!]]></entry>
+	<entry id="cook+str_bark_abundance"><![CDATA[C'est ce qu'ils appellent de la nourriture ? Je vais vous montrer comment on cuisine.]]></entry>
+	<entry id="cook+str_bark_abundance"><![CDATA[Devant une mort certaine, il ne faut pas aller l'estomac vide.]]></entry>
+    <entry id="cook+str_bark_purge"><![CDATA[Il faut se vider avant de remplir sa panse de nouveau.]]></entry>
+	<entry id="cook+str_bark_purge"><![CDATA[Je t'avais prévenu : avec modération. Avale ça.]]></entry>
+	<entry id="cook+str_bark_purge"><![CDATA[Ce qui descend ne doit jamais remonter. Mais bon, vu ton état...]]></entry>
+    <entry id="cook+str_bark_apetizer"><![CDATA[Cela vous donnera un aperçu de ce que je prépare.]]></entry>
+	<entry id="cook+str_bark_apetizer"><![CDATA[Un peu salé, sûrement ? Mais tout de même un délicieux amuse bouche.]]></entry>
+	<entry id="cook+str_bark_apetizer"><![CDATA[Ceci devrais te faire passer le mauvais goût du dernier combat.]]></entry>
+    <entry id="cook+str_bark_light_bearer"><![CDATA[Je peux installer un brasero portatif.]]></entry>
+	<entry id="cook+str_bark_light_bearer"><![CDATA[Si j'arrive à ne pas mettre feu à mon sac, nous y verrons plus clair.]]></entry>
+	<entry id="cook+str_bark_light_bearer"><![CDATA[Allumez le brasero. Notre chemin sera éclairé.]]></entry>
 
-	<entry id="cook+str_critbyhero"><![CDATA[Is that even edible?]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Should we taste a piece of that?]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[You're served!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[A tasteful hit.]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Not good enough for my potage.]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[You're just raw meat.]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Eat that!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Ha! Digestible enough?]]></entry>
+	<entry id="cook+str_critbyhero"><![CDATA[Est-ce seulement comestible ?]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Devrions-nous goûter à ça ?]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Tu es servi !]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Un coup qui a du goût.]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Pas assez bon pour mon potage.]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Tu n'es qu'un tas de viande.]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Mange ça !]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Ah ! Ça passe bien ?]]></entry>
 
-    <entry id="str_cook_maincourse"><![CDATA[Bon Apétit!]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Here you go.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Dinner is served.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Careful, it's hot.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Compliments of the chef.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Food's ready, take your plate.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Let's eat a piece.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Taste it before you say it's not good.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Bon Apétit !]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Et voilà.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Le dîner est servi.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Attention, c'est chaud.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Avec les compliments du chef.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Le repas est prêt, prenez vos assiettes.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Mangeons un morceau.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Goûtez avant de dire que vous n'aimez pas.]]></entry>
 
     <entry id="str_cook_overfed"><![CDATA[*Burp*]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[I can't take it anymore...]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[Oof... I'm full.]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[That's... too much.]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[I had enough, but I can't stop.]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[Why is it so good?]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[Je n'en peux plus...]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[Oumph... Je suis plein à craquer.]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[C'est... beaucoup trop.]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[J'en ai eu assez, mais je ne peux pas m'arrêter.]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[Pourquoi est-ce si délicieux ?]]></entry>
 
-	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[I've had a long life... but I don't want to go like this!]]></entry>
-    <entry id="cook+str_bark_deathsdoor"><![CDATA[At least, I'm ready to go...]]></entry>
+	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[J'ai eu une longue vie... mais je ne veux pas finir ainsi !]]></entry>
+    <entry id="cook+str_bark_deathsdoor"><![CDATA[Enfin, je suis prête à partir...]]></entry>
 
-    <entry id="cook+str_afflicted_abusive"><![CDATA[Show some respect to your elders!]]></entry>
-	<entry id="cook+str_afflicted_paranoid"><![CDATA[You won't have my secret recipes!]]></entry>
-    <entry id="cook+str_afflicted_selfish"><![CDATA[I deserve a better share. I'm carrying everything!]]></entry>
-    <entry id="cook+str_afflicted_depressed"><![CDATA[What did I think? I was not prepared at all.]]></entry>
-    <entry id="cook+str_afflicted_irrational"><![CDATA[A bit of this... add that... and maybe more salt ?!]]></entry>
-    <entry id="cook+str_afflicted_fearful"><![CDATA[I hope you enjoyed your last meal...]]></entry>
-    <entry id="cook+str_afflicted_masochistic"><![CDATA[Let the pain come! I won't feel my back anymore.]]></entry>
+    <entry id="cook+str_afflicted_abusive"><![CDATA[Montre du respect pour tes aînés !]]></entry>
+	<entry id="cook+str_afflicted_paranoid"><![CDATA[Vous n'aurez pas mes recettes secrètes !]]></entry>
+    <entry id="cook+str_afflicted_selfish"><![CDATA[Je mérite une part plus grande. Je transporte tout !]]></entry>
+    <entry id="cook+str_afflicted_depressed"><![CDATA[Qu'ai-je cru ? Je ne suis pas faite pour tout ça...]]></entry>
+    <entry id="cook+str_afflicted_irrational"><![CDATA[Un peu de ceci... ajoutons ça... et un peu de sel ?]]></entry>
+    <entry id="cook+str_afflicted_fearful"><![CDATA[J'espère que vous avez apprécié votre dernier repas...]]></entry>
+    <entry id="cook+str_afflicted_masochistic"><![CDATA[J'embrasse la douleur ! Je ne sentirai plus mon pauvre dos.]]></entry>
 
 	<entry id="str_inventory_title_supplycook_common_A"><![CDATA[Cook Common Supply A]]></entry>
 	<entry id="str_inventory_title_supplycook_common_B"><![CDATA[Cook Common Supply B]]></entry>

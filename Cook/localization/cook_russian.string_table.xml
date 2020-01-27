@@ -67,7 +67,7 @@
 	<entry id="buff_rule_data_tooltip_cooking"><![CDATA[Готовка]]></entry>
 	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s если НЕ в режиме %s]]></entry>
 
-	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Враги:]]></entry>
+	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Вражеская группа:]]></entry>
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_received_percent_hero_skill"><![CDATA[%d%% {colour_start|healhp}Healing{colour_end} Received from Skills]]></entry>	
@@ -84,19 +84,19 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Запрет движения]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[{colour_start|skill_unselectable}Только перед окончанием боя{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[Закончить {colour_start|healhp}восстановление{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[Враги:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[Вражеская группа:
 	{colour_start|blight}Отравление{colour_end} {colour_start|skill_unselectable}(90%% база){colour_end}
 	6 очков/раунд за 1 раунд]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_2"><![CDATA[Враги:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_2"><![CDATA[Вражеская группа:
 	{colour_start|blight}Отравление{colour_end} {colour_start|skill_unselectable}(100%% база){colour_end}
 	7 очков/раунд за 1 раунд]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_3"><![CDATA[Враги:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_3"><![CDATA[Вражеская группа:
 	{colour_start|blight}Отравление{colour_end} {colour_start|skill_unselectable}(110%% база){colour_end}
 	8 очков/раунд за 1 раунд]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_4"><![CDATA[Враги:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_4"><![CDATA[Вражеская группа:
 	{colour_start|blight}Отравление{colour_end} {colour_start|skill_unselectable}(120%% база){colour_end}
 	9 очков/раунд за 1 раунд]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_5"><![CDATA[Враги:
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_5"><![CDATA[Вражеская группа:
 	{colour_start|blight}Отравление{colour_end} {colour_start|skill_unselectable}(130%% база){colour_end}
 	10 очков/раунд за 1 раунд]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_Cont"><![CDATA[{colour_start|notable}Продолжить ход{colour_end}]]></entry>
