@@ -28,8 +28,8 @@
         },
         {
             "id": "gourmets",
-            "base_chance": 20000.0,
-            "per_not_rolled_additional_chance": 1.0,
+            "base_chance": 2.0,
+            "per_not_rolled_additional_chance": 0.5,
             "cooldown": 1,
             "requirements": {
                 "minimum_week": 6,
