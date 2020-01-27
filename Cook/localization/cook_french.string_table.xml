@@ -4,7 +4,7 @@
 
 	<entry id="hero_class_name_cook"><![CDATA[Cuisinière Itinérante]]></entry>
 
-	<entry id="action_verbose_body_guild_cook"><![CDATA[La Cuisinière Itinérant apporte un réel réconfort à ses alliés, grâce aux solides repas régénérants qu’elle leur prépare. Selon la recette qu’elle applique, les délicieuses effluves émanant de sa marmite peuvent se transformer en poison mortel pour ses ennemis. Lorsqu’elle ne donne pas de consigne à ses camarades, elle partage sa grande expérience pour leurrer et abattre n’importe quelle créature… ou personne.]]></entry>
+	<entry id="action_verbose_body_guild_cook"><![CDATA[La Cuisinière Itinérante apporte un réel réconfort à ses alliés, grâce aux solides repas régénérants qu’elle leur prépare. Selon la recette qu’elle applique, les délicieuses effluves émanant de sa marmite peuvent se transformer en poison mortel pour ses ennemis. Lorsqu’elle ne donne pas de consigne à ses camarades, elle partage sa grande expérience pour leurrer et abattre n’importe quelle créature… ou personne.]]></entry>
     <entry id="action_verbose_body_blacksmith_cook"><![CDATA[La Cuisinière Itinérante a pour fidèle compagnon son couteau de chef, aussi mortel qu’utile. Elle amène aussi sa cuillère favorite, et porte toujours une fiole d’un ingrédient secret, qui amène cette saveur tellement unique à ses préparations. Son tablier est bien pratique, mais n’apporte que peu de protection.]]></entry>
     <entry id="action_verbose_body_camping_trainer_cook"><![CDATA[Pour la Cuisinière Itinérante, pas de meilleur endroit que le feu de camp afin d’exercer son plein potentiel : elle transforme facilement un bivouac improvisé en luxueux festin. En cas d’excès, elle peut aider ses compagnons à se purger grâce à une étrange mixture aromatique.]]></entry>	
 
@@ -18,7 +18,7 @@
 	<entry id="str_inventory_title_trinketcook_bottled_snake"><![CDATA[Serpent en Bouteille]]></entry>
 	<entry id="str_inventory_title_trinketcook_spices"><![CDATA[Collection d'Épices]]></entry>
 	<entry id="str_inventory_title_trinketcook_knives"><![CDATA[Panel de Couteaux de Chef]]></entry>
-	<entry id="str_inventory_set_title_cc_cook"><![CDATA["La recette secrette du succès."]]></entry>
+	<entry id="str_inventory_set_title_cc_cook"><![CDATA["La recette secrète du succès."]]></entry>
 	<entry id="str_inventory_title_trinketcook_cockade"><![CDATA[Cocarde de Cordon Bleu]]></entry>
 	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Fiole d'Ingrédient Unique]]></entry>
 	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Lunettes Dimensionnelles]]></entry>
@@ -81,12 +81,9 @@
 	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Suralimentation]]></entry>	
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Récupère {colour_start|healhp}restauration{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Bloque les déplacements]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Bloque le déplacement]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[{colour_start|skill_unselectable}Avant la fin du combat uniquement{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[Met fin à la {colour_start|healhp}restauration{colour_end}]]></entry>
-	
-		<entry id="buff_stat_tooltip_upgrade_discount_CT_blight_90"><![CDATA[{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 90%%){colour_end} 2 pts/tr sur 2 trs]]></entry>
-		
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[Groupe ennemi :
 	{colour_start|blight}Infection{colour_end} {colour_start|skill_unselectable}(base : 90%%){colour_end} 
 	6 pts/tr sur 1 trs]]></entry>
@@ -112,7 +109,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[Compétence alliée : DGT : 1-2 PV]]></entry>	
 
     <entry id="cook+str_bark_encourage"><![CDATA[Toi aussi tu sauras porter ton fardeau.]]></entry>
-    <entry id="cook+str_bark_encourage"><![CDATA[Tu es plutôt coriace. Tu atteindras facilement mon âge.]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[Tu es plutôt coriace. Tu atteindras aisément mon âge.]]></entry>
     <entry id="cook+str_bark_encourage"><![CDATA[Chacun porte le poids de son passé.]]></entry>
     <entry id="cook+str_bark_first_aid"><![CDATA[Je suis sûre d'avoir des médicaments quelque part...]]></entry>
     <entry id="cook+str_bark_first_aid"><![CDATA[Je fais faire un bandage avec une lanière de mon sac.]]></entry>
@@ -124,7 +121,7 @@
     <entry id="cook+str_bark_abundance"><![CDATA[Assez du rationnement. On mérite de se faire plaisir!]]></entry>
 	<entry id="cook+str_bark_abundance"><![CDATA[C'est ce qu'ils appellent de la nourriture ? Je vais vous montrer comment on cuisine.]]></entry>
 	<entry id="cook+str_bark_abundance"><![CDATA[Devant une mort certaine, il ne faut pas aller l'estomac vide.]]></entry>
-    <entry id="cook+str_bark_purge"><![CDATA[Il faut se vider avant de remplir sa panse de nouveau.]]></entry>
+    <entry id="cook+str_bark_purge"><![CDATA[Il faut se vider avant de se remplir la panse de nouveau.]]></entry>
 	<entry id="cook+str_bark_purge"><![CDATA[Je t'avais prévenu : avec modération. Avale ça.]]></entry>
 	<entry id="cook+str_bark_purge"><![CDATA[Ce qui descend ne doit jamais remonter. Mais bon, vu ton état...]]></entry>
     <entry id="cook+str_bark_apetizer"><![CDATA[Cela vous donnera un aperçu de ce que je prépare.]]></entry>
@@ -135,7 +132,7 @@
 	<entry id="cook+str_bark_light_bearer"><![CDATA[Allumez le brasero. Notre chemin sera éclairé.]]></entry>
 
 	<entry id="cook+str_critbyhero"><![CDATA[Est-ce seulement comestible ?]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Devrions-nous goûter à ça ?]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[Devrions-nous goûter un bout ?]]></entry>
     <entry id="cook+str_critbyhero"><![CDATA[Tu es servi !]]></entry>
     <entry id="cook+str_critbyhero"><![CDATA[Un coup qui a du goût.]]></entry>
     <entry id="cook+str_critbyhero"><![CDATA[Pas assez bon pour mon potage.]]></entry>
@@ -144,7 +141,7 @@
     <entry id="cook+str_critbyhero"><![CDATA[Ah ! Ça passe bien ?]]></entry>
 
     <entry id="str_cook_maincourse"><![CDATA[Bon Apétit !]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Et voilà.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[Et voilà !]]></entry>
     <entry id="str_cook_maincourse"><![CDATA[Le dîner est servi.]]></entry>
     <entry id="str_cook_maincourse"><![CDATA[Attention, c'est chaud.]]></entry>
     <entry id="str_cook_maincourse"><![CDATA[Avec les compliments du chef.]]></entry>
