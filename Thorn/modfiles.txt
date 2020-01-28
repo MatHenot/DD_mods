@@ -77,7 +77,7 @@ heroes/thorn/anim/thorn.sprite.blossom.skel 410
 heroes/thorn/anim/thorn.sprite.camp.atlas 306
 heroes/thorn/anim/thorn.sprite.camp.skel 430
 heroes/thorn/anim/thorn.sprite.combat.atlas 3912
-heroes/thorn/anim/thorn.sprite.combat.skel 140815
+heroes/thorn/anim/thorn.sprite.combat.skel 141074
 heroes/thorn/anim/thorn.sprite.dare.atlas 305
 heroes/thorn/anim/thorn.sprite.dare.skel 355
 heroes/thorn/anim/thorn.sprite.defend.atlas 656
@@ -233,6 +233,6 @@ trinkets/crimson_court.rarities.trinkets.json 171
 trinkets/thorn.entries.trinkets.json 4156
 trinkets/thorn.sets.trinkets.json 153
 trinkets/thorn_east_town.rarities.trinkets.json 162
-modfiles.txt 12030
+modfiles.txt 12170
 preview_icon.png 409070
 project.xml 581
