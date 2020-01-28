@@ -167,21 +167,21 @@
     <entry id="cook+str_afflicted_fearful"><![CDATA[I hope you enjoyed your last meal...]]></entry>
     <entry id="cook+str_afflicted_masochistic"><![CDATA[Let the pain come! I won't feel my back anymore.]]></entry>
 
-	<entry id="str_inventory_title_supplycook_common_A"><![CDATA[Cook Common Supply A]]></entry>
-	<entry id="str_inventory_title_supplycook_common_B"><![CDATA[Cook Common Supply B]]></entry>
-	<entry id="str_inventory_title_supplycook_common_C"><![CDATA[Cook Common Supply C]]></entry>
-	<entry id="str_inventory_title_supplycook_crypts_A"><![CDATA[Cook Crypts Supply A]]></entry>
-	<entry id="str_inventory_title_supplycook_crypts_B"><![CDATA[Cook Crypts Supply B]]></entry>
-	<entry id="str_inventory_title_supplycook_cove_A"><![CDATA[Cook Cove Supply A]]></entry>
-	<entry id="str_inventory_title_supplycook_cove_B"><![CDATA[Cook Cove Supply B]]></entry>
-	<entry id="str_inventory_title_supplycook_warrens_A"><![CDATA[Cook Warrens Supply A]]></entry>
-	<entry id="str_inventory_title_supplycook_warrens_B"><![CDATA[Cook Warrens Supply B]]></entry>
-	<entry id="str_inventory_title_supplycook_weald_A"><![CDATA[Cook Weald Supply A]]></entry>
-	<entry id="str_inventory_title_supplycook_weald_B"><![CDATA[Cook Weald Supply B]]></entry>
-	<entry id="str_inventory_title_supplycook_courtyard_A"><![CDATA[Cook Courtyard Supply A]]></entry>
-	<entry id="str_inventory_title_supplycook_courtyard_B"><![CDATA[Cook Courtyard Supply B]]></entry>
-	<entry id="str_inventory_title_supplycook_farm_A"><![CDATA[Cook Farm Supply A]]></entry>
-	<entry id="str_inventory_title_supplycook_farm_B"><![CDATA[Cook Farm Supply B]]></entry>
+	<entry id="str_inventory_title_supplycook_common_A"><![CDATA[Cadaver Worms]]></entry>
+	<entry id="str_inventory_title_supplycook_common_B"><![CDATA[Fetid Bile]]></entry>
+	<entry id="str_inventory_title_supplycook_common_C"><![CDATA[Kidney Slice]]></entry>
+	<entry id="str_inventory_title_supplycook_crypts_A"><![CDATA[Humerus Powder]]></entry>
+	<entry id="str_inventory_title_supplycook_crypts_B"><![CDATA[Decrepit Hair]]></entry>
+	<entry id="str_inventory_title_supplycook_cove_A"><![CDATA[Fish Eyes]]></entry>
+	<entry id="str_inventory_title_supplycook_cove_B"><![CDATA[Liver Oil]]></entry>
+	<entry id="str_inventory_title_supplycook_warrens_A"><![CDATA[Untainted Rib]]></entry>
+	<entry id="str_inventory_title_supplycook_warrens_B"><![CDATA[Pork Tail]]></entry>
+	<entry id="str_inventory_title_supplycook_weald_A"><![CDATA[Mutating Morel]]></entry>
+	<entry id="str_inventory_title_supplycook_weald_B"><![CDATA[Altered Armillaria]]></entry>
+	<entry id="str_inventory_title_supplycook_courtyard_A"><![CDATA[Soaked Leech]]></entry>
+	<entry id="str_inventory_title_supplycook_courtyard_B"><![CDATA[Odd Vinegar]]></entry>
+	<entry id="str_inventory_title_supplycook_farm_A"><![CDATA[Cristal Carrots]]></entry>
+	<entry id="str_inventory_title_supplycook_farm_B"><![CDATA[Cosmic Goo]]></entry>
 
 	<entry id="str_inventory_description_supplycook_common_A"><![CDATA[Eat that]]></entry>
 	<entry id="str_inventory_description_supplycook_common_B"><![CDATA[Eat that]]></entry>
