@@ -2,170 +2,170 @@
 <root>
   <language id="schinese">
 
-	<entry id="hero_class_name_cook"><![CDATA[Itinerant Cook]]></entry>
+	<entry id="hero_class_name_cook"><![CDATA[巡回厨师]]></entry>
 
-	<entry id="action_verbose_body_guild_cook"><![CDATA[The Itinerant Cook  brings much needed comfort to her allies with the hearty regenerative meals that she offers. According to her recipes, the mouthwatering vapors coming from her cookpot can become deadly to her enemies. When she’s not giving orders to her comrades, she shares her tremendous experience in luring and slaughtering any beast... or person.]]></entry>
-    <entry id="action_verbose_body_blacksmith_cook"><![CDATA[The Itinerant Cook never goes without her chef's knife, as deadly as it is useful. She also brings her favorite spoon, and always carries a vial of her own secret ingredient that adds a unique flavour. Her apron is practical, but offers little in the way of protection.]]></entry>
-    <entry id="action_verbose_body_camping_trainer_cook"><![CDATA[No better place than the campfire for the Itinerant Cook to reveal the full potential of her mastery, transforming a makeshift bivouac into a luxurious banquet hall. After their binge eating, she can help her companions purge themselves with some strange mixtures.]]></entry>	
+	<entry id="action_verbose_body_guild_cook"><![CDATA[巡回厨师用她提供的丰盛的治愈性伙食给她的盟友们带来急需的安慰。根据她的食谱，从她的煮锅里冒出来的令人垂涎的蒸汽能够对变得她的敌人来说十分致命。当她不给战友们下命令的时候，她会分享她的丰富经验，对于如何引诱并屠宰任何野兽……或人。]]></entry>
+    <entry id="action_verbose_body_blacksmith_cook"><![CDATA[巡回厨师从不离开她的厨刀，因为它的致命程度和它的实用程度旗鼓相当。她还带来了她最喜欢的勺子，还有永远都会带着的一小瓶她自己的能增加了独特的口味的秘密配方。她的围裙虽然很实用，但几乎不能起到防护作用。]]></entry>
+    <entry id="action_verbose_body_camping_trainer_cook"><![CDATA[没有比篝火更好的地方可以让巡回厨师充分展示她高超技艺的潜能了，她能把一个临时的露营地变成一个豪华的宴会厅。在她的同伴饱餐一顿之后，她还可以用一些奇怪的混合物帮助他们净化自己的肠胃。]]></entry>	
 
-	<entry id="town_event_title_first_cook"><![CDATA[Soup for the Poor]]></entry>
-	<entry id="town_event_description_first_cook"><![CDATA[Someone has started to distribute free food in the slums. In these times of misery, all kinds of skills must be put to use.]]></entry>
-	<entry id="town_event_title_gourmets"><![CDATA[Fine Gourmet]]></entry>
-	<entry id="town_event_description_gourmets"><![CDATA[Itinerant Cooks have declared Gourmets Week, preparing sumptuous banquets with refined dishes thanks to the surplus of harvest. Our recruits won't complain to be eating better than usual.]]></entry>
+	<entry id="town_event_title_first_cook"><![CDATA[给穷人的汤]]></entry>
+	<entry id="town_event_description_first_cook"><![CDATA[有人开始在贫民窟分发免费食物。在这个艰苦的时代，必须充分利用各行各业的人才。]]></entry>
+	<entry id="town_event_title_gourmets"><![CDATA[美味佳肴]]></entry>
+	<entry id="town_event_description_gourmets"><![CDATA[巡回厨师已宣布举办美食周，以准备丰盛的宴会与精致的菜肴来感谢丰收。我们的新兵可不会抱怨吃得比平时要更好。]]></entry>
 
-	<entry id="str_inventory_title_trinketcook_fish_bones"><![CDATA[Fish Bones]]></entry>
-	<entry id="str_inventory_title_trinketcook_cleaver"><![CDATA[Cleaver]]></entry>
-	<entry id="str_inventory_title_trinketcook_bottled_snake"><![CDATA[Bottled Snake]]></entry>
-	<entry id="str_inventory_title_trinketcook_spices"><![CDATA[Collection of Spices]]></entry>
-	<entry id="str_inventory_title_trinketcook_knives"><![CDATA[Chef Knives Set]]></entry>
-	<entry id="str_inventory_set_title_cc_cook"><![CDATA["The secret recipe of sucess."]]></entry>
-	<entry id="str_inventory_title_trinketcook_cockade"><![CDATA[Cordon Bleu Cockade]]></entry>
-	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Vial of a Unique Ingredient]]></entry>
-	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Dimensional Eyeglasses]]></entry>
-	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Babette's Head]]></entry>
+	<entry id="str_inventory_title_trinketcook_fish_bones"><![CDATA[鱼骨]]></entry>
+	<entry id="str_inventory_title_trinketcook_cleaver"><![CDATA[剁肉刀]]></entry>
+	<entry id="str_inventory_title_trinketcook_bottled_snake"><![CDATA[瓶装蛇]]></entry>
+	<entry id="str_inventory_title_trinketcook_spices"><![CDATA[香料收藏]]></entry>
+	<entry id="str_inventory_title_trinketcook_knives"><![CDATA[厨刀套组]]></entry>
+	<entry id="str_inventory_set_title_cc_cook"><![CDATA[“成功的秘密配方。”]]></entry>
+	<entry id="str_inventory_title_trinketcook_cockade"><![CDATA[厨王帽章]]></entry>
+	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[一瓶独特的原料]]></entry>
+	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[维度眼镜]]></entry>
+	<entry id="str_inventory_title_trinketcook_head"><![CDATA[巴贝特的头颅]]></entry>
 
-    <entry id="combat_skill_name_cook_maincourse"><![CDATA[Main Course]]></entry>
-	<entry id="combat_skill_name_cook_butcher"><![CDATA[Butcher's Slice]]></entry>
-    <entry id="combat_skill_name_cook_condiment"><![CDATA[Occult Condiment]]></entry>
-    <entry id="combat_skill_name_cook_entremet"><![CDATA[Entremet]]></entry>
-    <entry id="combat_skill_name_cook_choicepiece"><![CDATA[Choice Piece]]></entry>
-    <entry id="combat_skill_name_cook_poisonedbait"><![CDATA[Poisoned Bait]]></entry>
-    <entry id="combat_skill_name_cook_commis"><![CDATA[Commis]]></entry>
-    <entry id="combat_skill_name_cook_move"><![CDATA[Move]]></entry>
-    <entry id="upgrade_tree_name_cook.maincourse"><![CDATA[Main Course]]></entry>
-    <entry id="upgrade_tree_name_cook.butcher"><![CDATA[Butcher's Slice]]></entry>
-    <entry id="upgrade_tree_name_cook.condiment"><![CDATA[Occult Condiment]]></entry>
-    <entry id="upgrade_tree_name_cook.entremet"><![CDATA[Entremet]]></entry>
-    <entry id="upgrade_tree_name_cook.choicepiece"><![CDATA[Choice Piece]]></entry>
-    <entry id="upgrade_tree_name_cook.poisonedbait"><![CDATA[Poisoned Bait]]></entry>
-    <entry id="upgrade_tree_name_cook.commis"><![CDATA[Commis]]></entry>
+    <entry id="combat_skill_name_cook_maincourse"><![CDATA[主菜]]></entry>
+	<entry id="combat_skill_name_cook_butcher"><![CDATA[屠夫片肉]]></entry>
+    <entry id="combat_skill_name_cook_condiment"><![CDATA[神秘调料]]></entry>
+    <entry id="combat_skill_name_cook_entremet"><![CDATA[附加菜]]></entry>
+    <entry id="combat_skill_name_cook_choicepiece"><![CDATA[精挑细选]]></entry>
+    <entry id="combat_skill_name_cook_poisonedbait"><![CDATA[毒饵]]></entry>
+    <entry id="combat_skill_name_cook_commis"><![CDATA[厨助]]></entry>
+    <entry id="combat_skill_name_cook_move"><![CDATA[移动]]></entry>
+    <entry id="upgrade_tree_name_cook.maincourse"><![CDATA[主菜]]></entry>
+    <entry id="upgrade_tree_name_cook.butcher"><![CDATA[屠夫片肉]]></entry>
+    <entry id="upgrade_tree_name_cook.condiment"><![CDATA[神秘调料]]></entry>
+    <entry id="upgrade_tree_name_cook.entremet"><![CDATA[附加菜]]></entry>
+    <entry id="upgrade_tree_name_cook.choicepiece"><![CDATA[精挑细选]]></entry>
+    <entry id="upgrade_tree_name_cook.poisonedbait"><![CDATA[毒饵]]></entry>
+    <entry id="upgrade_tree_name_cook.commis"><![CDATA[厨助]]></entry>
 
-    <entry id="camping_skill_name_abundance"><![CDATA[ABUNDANCE]]></entry>
-    <entry id="camping_skill_name_purge"><![CDATA[PURGATIVE AROMATICS]]></entry>
-    <entry id="camping_skill_name_apetizer"><![CDATA[APPETIZER]]></entry>
-    <entry id="camping_skill_name_light_bearer"><![CDATA[LIGHT BEARER]]></entry>
+    <entry id="camping_skill_name_abundance"><![CDATA[盛宴]]></entry>
+    <entry id="camping_skill_name_purge"><![CDATA[通便香料]]></entry>
+    <entry id="camping_skill_name_apetizer"><![CDATA[开胃菜]]></entry>
+    <entry id="camping_skill_name_light_bearer"><![CDATA[挑灯人]]></entry>
 	
-	<entry id="cook_weapon_0"><![CDATA[Worn Cutlery]]></entry>
-    <entry id="cook_weapon_1"><![CDATA[Table Cutlery]]></entry>
-    <entry id="cook_weapon_2"><![CDATA[Silver Cutlery]]></entry>
-    <entry id="cook_weapon_3"><![CDATA[Chef's Cutlery]]></entry>
-    <entry id="cook_weapon_4"><![CDATA["Savoir-Faire"]]></entry>
-    <entry id="upgrade_tree_name_cook.weapon"><![CDATA[Cutlery]]></entry>
+	<entry id="cook_weapon_0"><![CDATA[旧餐具]]></entry>
+    <entry id="cook_weapon_1"><![CDATA[整齐的餐具]]></entry>
+    <entry id="cook_weapon_2"><![CDATA[银制餐具]]></entry>
+    <entry id="cook_weapon_3"><![CDATA[厨师的餐具]]></entry>
+    <entry id="cook_weapon_4"><![CDATA[“味之机敏”]]></entry>
+    <entry id="upgrade_tree_name_cook.weapon"><![CDATA[餐具]]></entry>
 
-    <entry id="cook_armour_0"><![CDATA[Rag Apron]]></entry>
-    <entry id="cook_armour_1"><![CDATA[Dirty Apron]]></entry>
-    <entry id="cook_armour_2"><![CDATA[Kitchen Apron]]></entry>
-    <entry id="cook_armour_3"><![CDATA[Chef's Apron]]></entry>
-    <entry id="cook_armour_4"><![CDATA["The Fifth Star"]]></entry>
-    <entry id="upgrade_tree_name_cook.armour"><![CDATA[Apron]]></entry>
+    <entry id="cook_armour_0"><![CDATA[破旧的围裙]]></entry>
+    <entry id="cook_armour_1"><![CDATA[肮脏的围棋]]></entry>
+    <entry id="cook_armour_2"><![CDATA[厨房的围裙]]></entry>
+    <entry id="cook_armour_3"><![CDATA[厨师的围裙]]></entry>
+    <entry id="cook_armour_4"><![CDATA[“五星级”]]></entry>
+    <entry id="upgrade_tree_name_cook.armour"><![CDATA[围裙]]></entry>
 
-    <entry id="actor_mode_name_nocooking"><![CDATA[Combat]]></entry>
-    <entry id="actor_mode_name_cooking"><![CDATA[Cooking]]></entry>
-    <entry id="str_skill_mode_info_nocooking"><![CDATA[{colour_start|specificclass}Combat:{colour_end}]]></entry>
-    <entry id="str_skill_mode_info_cooking"><![CDATA[{colour_start|specificclass}Cooking:{colour_end}]]></entry>
-	<entry id="buff_rule_data_tooltip_nocooking"><![CDATA[Combat]]></entry>
-	<entry id="buff_rule_data_tooltip_cooking"><![CDATA[Cooking]]></entry>
-	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s if NOT in mode %s]]></entry>
+    <entry id="actor_mode_name_nocooking"><![CDATA[战斗]]></entry>
+    <entry id="actor_mode_name_cooking"><![CDATA[烹饪]]></entry>
+    <entry id="str_skill_mode_info_nocooking"><![CDATA[{colour_start|specificclass}战斗：{colour_end}]]></entry>
+    <entry id="str_skill_mode_info_cooking"><![CDATA[{colour_start|specificclass}烹饪：{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_nocooking"><![CDATA[战斗]]></entry>
+	<entry id="buff_rule_data_tooltip_cooking"><![CDATA[烹饪]]></entry>
+	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s 如果不在%s模式]]></entry>
 
-	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemy Party:]]></entry>
-    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
-	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_received_percent_hero_skill"><![CDATA[%d%% {colour_start|healhp}Healing{colour_end} Received from Skills]]></entry>	
-	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Amount Received]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Duration Received]]></entry>
-	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Main Course]]></entry>
-	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Butcher's Slice]]></entry>
-    <entry id="str_quirk_name_binge"><![CDATA[Overfeeding]]></entry>
-	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Overfeeding]]></entry>	
+	<entry id="effect_tooltip_target_enemy_group"><![CDATA[敌方队伍：]]></entry>
+    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%%{colour_start|blight}腐蚀{colour_end}技能效果]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%%{colour_start|bleed}流血{colour_end}技能效果]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_received_percent_hero_skill"><![CDATA[%d%%受到的{colour_start|healhp}治疗{colour_end}量 来自技能]]></entry>	
+	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[+%d%%{colour_start|healhp}恢复{colour_end}技能效果]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%%{colour_start|healhp}恢复{colour_end}技能持续时间]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[+%d%%受到的{colour_start|healhp}恢复{colour_end}技能效果]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[+%d%%受到的{colour_start|healhp}恢复{colour_end}技能持续时间]]></entry>
+	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[主菜]]></entry>
+	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[屠夫片肉]]></entry>
+    <entry id="str_quirk_name_binge"><![CDATA[暴饮暴食]]></entry>
+	<entry id="buff_rule_data_tooltip_binge"><![CDATA[暴饮暴食]]></entry>	
 
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Steal {colour_start|healhp}Restoration{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Disable Move]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[{colour_start|skill_unselectable}Before Combat Ends Only{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[Ends {colour_start|healhp}Restoration{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[Enemy Party:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(90%% base){colour_end}
-	6 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_2"><![CDATA[Enemy Party:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(100%% base){colour_end}
-	7 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_3"><![CDATA[Enemy Party:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(110%% base){colour_end}
-	8 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_4"><![CDATA[Enemy Party:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(120%% base){colour_end}
-	9 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_5"><![CDATA[Enemy Party:
-	{colour_start|blight}Blight{colour_end} {colour_start|skill_unselectable}(130%% base){colour_end}
-	10 pts/rd for 1rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_Cont"><![CDATA[{colour_start|notable}Continue Turn{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 1-2 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 2 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}Heal{colour_end} 2-3 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}Heal{colour_end} 3-4 pts/rd for 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%% All Resistances]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[Friendly Skill: {colour_start|healhp}Heal{colour_end} 0-2 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[Friendly Skill: DMG 1-2 HP]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[窃取{colour_start|healhp}恢复{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[移动不可用]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[{colour_start|skill_unselectable}仅在战斗结束前{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[结束{colour_start|healhp}恢复{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[敌方队伍：
+	{colour_start|blight}腐蚀{colour_end}{colour_start|skill_unselectable}（90%%基础概率）{colour_end}
+	6伤害/回合 持续1回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_2"><![CDATA[敌方队伍：
+	{colour_start|blight}腐蚀{colour_end} {colour_start|skill_unselectable}（100%%基础概率）{colour_end}
+	7伤害/回合 持续1回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_3"><![CDATA[敌方队伍：
+	{colour_start|blight}腐蚀{colour_end} {colour_start|skill_unselectable}（110%%基础概率）{colour_end}
+	8伤害/回合 持续1回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_4"><![CDATA[敌方队伍：
+	{colour_start|blight}腐蚀{colour_end} {colour_start|skill_unselectable}（120%%基础概率）{colour_end}
+	9伤害/回合 持续1回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_5"><![CDATA[敌方队伍：
+	{colour_start|blight}腐蚀{colour_end} {colour_start|skill_unselectable}（130%%基础概率）{colour_end}
+	10伤害/回合 持续1回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_Cont"><![CDATA[{colour_start|notable}继续回合{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_2"><![CDATA[{colour_start|healhp}治疗{colour_end} 1-2生命/回合 持续2回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}治疗{colour_end} 2-3生命/回合 持续2回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}治疗{colour_end} 2-3生命/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}治疗{colour_end} 3-4生命/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%%全部抗性]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[友军技能：{colour_start|healhp}治疗{colour_end}0-2生命]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[友军技能：伤害1-2生命]]></entry>	
 
-    <entry id="cook+str_bark_encourage"><![CDATA[I know you'll manage to carry your burdens.]]></entry>
-    <entry id="cook+str_bark_encourage"><![CDATA[You're a tough one. You'll easily get as old as me.]]></entry>
-    <entry id="cook+str_bark_encourage"><![CDATA[Everyone carries the weight of their past.]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[I know I have some meds stored somewhere...]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[I'm going to make a bandage with a strap from my bag.]]></entry>
-    <entry id="cook+str_bark_first_aid"><![CDATA[Take this and get up, I'm too loaded to carry you.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[If I've survived this long, so can all of you. I guess.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[Don't touch my bag. Everybody can manage their share.]]></entry>
-    <entry id="cook+str_bark_pep_talk"><![CDATA[I've seen worse already. We'll carry on.]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[我知道你能肩负你的重担的。]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[你是个坚强的人。你很容易能活到和我一样老。]]></entry>
+    <entry id="cook+str_bark_encourage"><![CDATA[每个人都背负着他们沉重的过去。]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[我知道我有些药藏在某处……]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[我要用包里的一根带子做个绷带。]]></entry>
+    <entry id="cook+str_bark_first_aid"><![CDATA[拿着这个然后站起来，我装得东西太重了，背不动你了。]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[如果我能活这么久，那么你们也可以。我想。]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[别碰我的包。每个人都可以拿到他们相应的份额的。]]></entry>
+    <entry id="cook+str_bark_pep_talk"><![CDATA[我已经看过更糟的东西了。我们继续吧。]]></entry>
 
-    <entry id="cook+str_bark_abundance"><![CDATA[Enough rationing. We deserve to treat ourselves!]]></entry>
-	<entry id="cook+str_bark_abundance"><![CDATA[That's what they call food? I'll show you how it's done.]]></entry>
-	<entry id="cook+str_bark_abundance"><![CDATA[If certain death awaits us, we shouldn't go out on an empty stomach.]]></entry>
-    <entry id="cook+str_bark_purge"><![CDATA[You need to empty yourself in order to fill up again.]]></entry>
-	<entry id="cook+str_bark_purge"><![CDATA[Told you. You must pay attention. Now eat that.]]></entry>
-	<entry id="cook+str_bark_purge"><![CDATA[Nothing should come back up, I say, but in your case...]]></entry>
-    <entry id="cook+str_bark_apetizer"><![CDATA[This would give you an insight of what I'm going to cook.]]></entry>
-	<entry id="cook+str_bark_apetizer"><![CDATA[A bit salty maybe? But still a delicious amuse bouche.]]></entry>
-	<entry id="cook+str_bark_apetizer"><![CDATA[This will get rid of the bad taste that last fight left you.]]></entry>
-    <entry id="cook+str_bark_light_bearer"><![CDATA[I can install the portable brazier.]]></entry>
-	<entry id="cook+str_bark_light_bearer"><![CDATA[If I manage not to burn my bag, we should see more clearly.]]></entry>
-	<entry id="cook+str_bark_light_bearer"><![CDATA[Light up the brazier. Our path will be illuminated.]]></entry>
+    <entry id="cook+str_bark_abundance"><![CDATA[配额足够。我们应该好好地对待自己了！]]></entry>
+	<entry id="cook+str_bark_abundance"><![CDATA[那就是他们口中的食物？我会告诉你该怎么做出真正的食物的。]]></entry>
+	<entry id="cook+str_bark_abundance"><![CDATA[如果死亡等着我们，我们不应该当个饿死鬼。]]></entry>
+    <entry id="cook+str_bark_purge"><![CDATA[你需要排空你自己以便再次饱餐。]]></entry>
+	<entry id="cook+str_bark_purge"><![CDATA[告诉过你了。你应该小心的。现在吃了那个吧。]]></entry>
+	<entry id="cook+str_bark_purge"><![CDATA[空腹感应该会回来的，我说，但你实际的情况……]]></entry>
+    <entry id="cook+str_bark_apetizer"><![CDATA[这会给你对于所烹饪之物的一瞥。]]></entry>
+	<entry id="cook+str_bark_apetizer"><![CDATA[可能有点咸？但仍然是美味的开胃菜。]]></entry>
+	<entry id="cook+str_bark_apetizer"><![CDATA[这可以让你摆脱掉上次战斗时留下的糟糕品味。]]></entry>
+    <entry id="cook+str_bark_light_bearer"><![CDATA[我可以安装便携式的火盆。]]></entry>
+	<entry id="cook+str_bark_light_bearer"><![CDATA[如果我设法能别烧掉我的包的话，我们应该能看得更清楚。]]></entry>
+	<entry id="cook+str_bark_light_bearer"><![CDATA[点燃火盆。我们的道路将被照亮。]]></entry>
 
-	<entry id="cook+str_critbyhero"><![CDATA[Is that even edible?]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Should we taste a piece of that?]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[You're served!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[A tasteful hit.]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Not good enough for my potage.]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[You're just raw meat.]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Eat that!]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[Ha! Digestible enough?]]></entry>
+	<entry id="cook+str_critbyhero"><![CDATA[那甚至都不能吃吧？]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[我们应该尝一小块吗？]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[你被招待了！]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[很有品位的一击。]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[对我的浓汤来说还不够好。]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[你只是块生肉而已。]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[尝尝那个！]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[哈！足够容易消化了吧？]]></entry>
 
-    <entry id="str_cook_maincourse"><![CDATA[Bon Apétit!]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Here you go.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Dinner is served.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Careful, it's hot.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Compliments of the chef.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Food's ready, take your plate.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Let's eat a piece.]]></entry>
-    <entry id="str_cook_maincourse"><![CDATA[Taste it before you say it's not good.]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[祝你好胃口！]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[你坐这。]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[晚餐准备好了。]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[注意点，这很烫的。]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[算是厨师的一点敬意。]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[食物准备好了，拿好你的盘子。]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[让我们吃一点吧。]]></entry>
+    <entry id="str_cook_maincourse"><![CDATA[在你说它不好之前先尝尝。]]></entry>
 
-    <entry id="str_cook_overfed"><![CDATA[*Burp*]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[I can't take it anymore...]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[Oof... I'm full.]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[That's... too much.]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[I had enough, but I can't stop.]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[Why is it so good?]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[*打嗝*]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[我再也吃不下了……]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[哦……我饱了。]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[那真的是……太多了。]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[我已经吃饱了，但是我就是停不下来。]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[为什么这么好吃。]]></entry>
 
-	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[I've had a long life... but I don't want to go like this!]]></entry>
-    <entry id="cook+str_bark_deathsdoor"><![CDATA[At least, I'm ready to go...]]></entry>
+	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[我已经活了很久了……但我可不想像这样离世！]]></entry>
+    <entry id="cook+str_bark_deathsdoor"><![CDATA[至少，我准备好去那头了……]]></entry>
 
-    <entry id="cook+str_afflicted_abusive"><![CDATA[Show some respect to your elders!]]></entry>
-	<entry id="cook+str_afflicted_paranoid"><![CDATA[You won't have my secret recipes!]]></entry>
-    <entry id="cook+str_afflicted_selfish"><![CDATA[I deserve a better share. I'm carrying everything!]]></entry>
-    <entry id="cook+str_afflicted_depressed"><![CDATA[What did I think? I was not prepared at all.]]></entry>
-    <entry id="cook+str_afflicted_irrational"><![CDATA[A bit of this... add that... and maybe more salt ?!]]></entry>
-    <entry id="cook+str_afflicted_fearful"><![CDATA[I hope you enjoyed your last meal...]]></entry>
-    <entry id="cook+str_afflicted_masochistic"><![CDATA[Let the pain come! I won't feel my back anymore.]]></entry>
+    <entry id="cook+str_afflicted_abusive"><![CDATA[对你的长辈表示点尊敬！]]></entry>
+	<entry id="cook+str_afflicted_paranoid"><![CDATA[你不会永远有我的秘方的！]]></entry>
+    <entry id="cook+str_afflicted_selfish"><![CDATA[我应该得到更好的份额。是我背着所有的东西呢！]]></entry>
+    <entry id="cook+str_afflicted_depressed"><![CDATA[要问我怎么想的？我可没有预料到。]]></entry>
+    <entry id="cook+str_afflicted_irrational"><![CDATA[放点这个……加上那个……然后也许再放更多盐？!]]></entry>
+    <entry id="cook+str_afflicted_fearful"><![CDATA[我希望你享受你最后的一餐……]]></entry>
+    <entry id="cook+str_afflicted_masochistic"><![CDATA[让痛苦都来吧！我再也不会感受倒我的背痛了]]></entry>
 
 	<entry id="str_inventory_title_supplycook_common_A"><![CDATA[Cook Common Supply A]]></entry>
 	<entry id="str_inventory_title_supplycook_common_B"><![CDATA[Cook Common Supply B]]></entry>
