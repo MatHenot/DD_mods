@@ -172,18 +172,18 @@ effect: .name "T_Glasses_Stealth" .target "performer" .chance 70% .stealth 1 .du
 
 //Food supplies
 
-effect: .name "cook_common_A" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_common_B" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_common_C" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_crypts_A" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_crypts_B" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_cove_A" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_cove_B" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_warrens_A" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_warrens_B" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_weald_A" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_weald_B" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_courtyard_A" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_courtyard_B" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_farm_A" .target "target" .chance 100% .on_hit true .on_miss false
-effect: .name "cook_farm_B" .target "target" .chance 100% .on_hit true .on_miss false
+effect: .name "cook_common_A" .target "target" .chance 100% .buff_ids "S_cook_common_A" .on_hit true .on_miss false
+effect: .name "cook_common_B" .target "target" .chance 100% .buff_ids "S_cook_common_B" .on_hit true .on_miss false
+effect: .name "cook_common_C" .target "target" .chance 100% .buff_ids "S_cook_common_C" .on_hit true .on_miss false
+effect: .name "cook_crypts_A" .target "target" .chance 100% .buff_ids "S_cook_crypts_A" .on_hit true .on_miss false
+effect: .name "cook_crypts_B" .target "target" .chance 100% .buff_ids "S_cook_crypts_B" .on_hit true .on_miss false
+effect: .name "cook_cove_A" .target "target" .chance 100% .buff_ids "S_cook_cove_A" .on_hit true .on_miss false
+effect: .name "cook_cove_B" .target "target" .chance 100% .buff_ids "S_cook_cove_B" .on_hit true .on_miss false
+effect: .name "cook_warrens_A" .target "target" .chance 100% .buff_ids "S_cook_warrens_A" .on_hit true .on_miss false
+effect: .name "cook_warrens_B" .target "target" .chance 100% .buff_ids "S_cook_warrens_B" .on_hit true .on_miss false
+effect: .name "cook_weald_A" .target "target" .chance 100% .buff_ids "S_cook_weald_A" .on_hit true .on_miss false
+effect: .name "cook_weald_B" .target "target" .chance 100% .buff_ids "S_cook_weald_B" .on_hit true .on_miss false
+effect: .name "cook_courtyard_A" .target "target" .chance 100% .buff_ids "S_cook_courtyard_A" .on_hit true .on_miss false
+effect: .name "cook_courtyard_B" .target "target" .chance 100% .buff_ids "S_cook_courtyard_B" .on_hit true .on_miss false
+effect: .name "cook_farm_A" .target "target" .chance 100% .buff_ids "S_cook_farm_AL" "S_cook_farm_AH" .on_hit true .on_miss false
+effect: .name "cook_farm_B" .target "target" .chance 100% .buff_ids "S_cook_farm_B" .on_hit true .on_miss false
