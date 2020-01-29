@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <language id="schinese">
 
@@ -160,57 +160,57 @@
     <entry id="cook+str_bark_deathsdoor"><![CDATA[至少，我准备好去那头了……]]></entry>
 
     <entry id="cook+str_afflicted_abusive"><![CDATA[对你的长辈表示点尊敬！]]></entry>
-	<entry id="cook+str_afflicted_paranoid"><![CDATA[你不会永远有我的秘方的！]]></entry>
+	<entry id="cook+str_afflicted_paranoid"><![CDATA[你永远别想得到我的秘方！]]></entry>
     <entry id="cook+str_afflicted_selfish"><![CDATA[我应该得到更好的份额。是我背着所有的东西呢！]]></entry>
     <entry id="cook+str_afflicted_depressed"><![CDATA[要问我怎么想的？我可没有预料到。]]></entry>
     <entry id="cook+str_afflicted_irrational"><![CDATA[放点这个……加上那个……然后也许再放更多盐？!]]></entry>
     <entry id="cook+str_afflicted_fearful"><![CDATA[我希望你享受你最后的一餐……]]></entry>
     <entry id="cook+str_afflicted_masochistic"><![CDATA[让痛苦都来吧！我再也不会感受倒我的背痛了]]></entry>
 
-	<entry id="str_inventory_title_supplycook_common_A"><![CDATA[Cadaver Worms]]></entry>
-	<entry id="str_inventory_title_supplycook_common_B"><![CDATA[Fetid Bile]]></entry>
-	<entry id="str_inventory_title_supplycook_common_C"><![CDATA[Kidney Slice]]></entry>
-	<entry id="str_inventory_title_supplycook_crypts_A"><![CDATA[Humerus Powder]]></entry>
-	<entry id="str_inventory_title_supplycook_crypts_B"><![CDATA[Decrepit Hair]]></entry>
-	<entry id="str_inventory_title_supplycook_cove_A"><![CDATA[Fish Eyes]]></entry>
-	<entry id="str_inventory_title_supplycook_cove_B"><![CDATA[Liver Oil]]></entry>
-	<entry id="str_inventory_title_supplycook_warrens_A"><![CDATA[Untainted Rib]]></entry>
-	<entry id="str_inventory_title_supplycook_warrens_B"><![CDATA[Swine Tail]]></entry>
-	<entry id="str_inventory_title_supplycook_weald_A"><![CDATA[Mutant Morel]]></entry>
-	<entry id="str_inventory_title_supplycook_weald_B"><![CDATA[Altered Armillaria]]></entry>
-	<entry id="str_inventory_title_supplycook_courtyard_A"><![CDATA[Soaked Leech]]></entry>
-	<entry id="str_inventory_title_supplycook_courtyard_B"><![CDATA[Strange Vinegar]]></entry>
-	<entry id="str_inventory_title_supplycook_farm_A"><![CDATA[Crystal Carrots]]></entry>
-	<entry id="str_inventory_title_supplycook_farm_B"><![CDATA[Cosmic Jelly]]></entry>
+	<entry id="str_inventory_title_supplycook_common_A"><![CDATA[蛀尸蠕虫]]></entry>
+	<entry id="str_inventory_title_supplycook_common_B"><![CDATA[恶臭胆汁]]></entry>
+	<entry id="str_inventory_title_supplycook_common_C"><![CDATA[腰子片]]></entry>
+	<entry id="str_inventory_title_supplycook_crypts_A"><![CDATA[肱骨香粉]]></entry>
+	<entry id="str_inventory_title_supplycook_crypts_B"><![CDATA[老化头发]]></entry>
+	<entry id="str_inventory_title_supplycook_cove_A"><![CDATA[鱼眼]]></entry>
+	<entry id="str_inventory_title_supplycook_cove_B"><![CDATA[肝油]]></entry>
+	<entry id="str_inventory_title_supplycook_warrens_A"><![CDATA[无污肋排]]></entry>
+	<entry id="str_inventory_title_supplycook_warrens_B"><![CDATA[猪尾巴]]></entry>
+	<entry id="str_inventory_title_supplycook_weald_A"><![CDATA[突变羊肚菌]]></entry>
+	<entry id="str_inventory_title_supplycook_weald_B"><![CDATA[变异蜜环菌]]></entry>
+	<entry id="str_inventory_title_supplycook_courtyard_A"><![CDATA[泡制水蛭]]></entry>
+	<entry id="str_inventory_title_supplycook_courtyard_B"><![CDATA[奇怪的醋]]></entry>
+	<entry id="str_inventory_title_supplycook_farm_A"><![CDATA[水晶胡萝卜]]></entry>
+	<entry id="str_inventory_title_supplycook_farm_B"><![CDATA[宇宙果冻]]></entry>
 
-	<entry id="str_inventory_description_supplycook_common_A"><![CDATA[Seems edible, sort of.]]></entry>
-	<entry id="str_inventory_description_supplycook_common_B"><![CDATA[Seems edible, sort of.]]></entry>
-	<entry id="str_inventory_description_supplycook_common_C"><![CDATA[Seems edible, sort of.]]></entry>
-	<entry id="str_inventory_description_supplycook_crypts_A"><![CDATA[Seems edible, sort of.]]></entry>
-	<entry id="str_inventory_description_supplycook_crypts_B"><![CDATA[Seems edible, sort of.]]></entry>
-	<entry id="str_inventory_description_supplycook_cove_A"><![CDATA[Seems edible, sort of.]]></entry>
-	<entry id="str_inventory_description_supplycook_cove_B"><![CDATA[Seems edible, sort of.]]></entry>
-	<entry id="str_inventory_description_supplycook_warrens_A"><![CDATA[Seems edible, sort of.]]></entry>
-	<entry id="str_inventory_description_supplycook_warrens_B"><![CDATA[Seems edible, sort of.]]></entry>
-	<entry id="str_inventory_description_supplycook_weald_A"><![CDATA[Seems edible, sort of.]]></entry>
-	<entry id="str_inventory_description_supplycook_weald_B"><![CDATA[Seems edible, sort of.]]></entry>
-	<entry id="str_inventory_description_supplycook_courtyard_A"><![CDATA[Seems edible, sort of.]]></entry>
-	<entry id="str_inventory_description_supplycook_courtyard_B"><![CDATA[Seems edible, sort of.]]></entry>
-	<entry id="str_inventory_description_supplycook_farm_A"><![CDATA[Seems edible, sort of.]]></entry>
-	<entry id="str_inventory_description_supplycook_farm_B"><![CDATA[Seems edible, sort of.]]></entry>
+	<entry id="str_inventory_description_supplycook_common_A"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_common_B"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_common_C"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_crypts_A"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_crypts_B"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_cove_A"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_cove_B"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_warrens_A"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_warrens_B"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_weald_A"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_weald_B"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_courtyard_A"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_courtyard_B"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_farm_A"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_farm_B"><![CDATA[看起来能吃，大概吧。]]></entry>
 
-	<entry id="str_cook_supply"><![CDATA[Do I have to eat that?]]></entry>
-	<entry id="str_cook_supply"><![CDATA[Ugh... I can do this.]]></entry>
-	<entry id="str_cook_supply"><![CDATA[Seems strange, but it's quite good.]]></entry>
-	<entry id="str_cook_supply"><![CDATA[Slimy... yet satisfying.]]></entry>
-	<entry id="str_cook_supply"><![CDATA[Oh... It's actually not so bad.]]></entry>
-	<entry id="str_cook_supply"><![CDATA[Yuck. Wait... I feel better!]]></entry>
-	<entry id="str_cook_supply"><![CDATA[I can't deny it's reinvigorating.]]></entry>
-	<entry id="cook+str_cook_supply"><![CDATA[Delicious!]]></entry>
-	<entry id="cook+str_cook_supply"><![CDATA[You don't know what you're missing.]]></entry>
-	<entry id="cook+str_cook_supply"><![CDATA[Only the finest dishes!]]></entry>
-	<entry id="cook+str_cook_supply"><![CDATA[*Gulp* Down you go!]]></entry>
-	<entry id="cook+str_cook_supply"><![CDATA[*Gulp* Oh... you wanted some?]]></entry>
+	<entry id="str_cook_supply"><![CDATA[我一定要吃那个吗？]]></entry>
+	<entry id="str_cook_supply"><![CDATA[呃……我能做到的。]]></entry>
+	<entry id="str_cook_supply"><![CDATA[看起来很奇怪，但是挺不错。]]></entry>
+	<entry id="str_cook_supply"><![CDATA[粘糊糊的……但还算满意。]]></entry>
+	<entry id="str_cook_supply"><![CDATA[哦……其实没那么难吃。]]></entry>
+	<entry id="str_cook_supply"><![CDATA[恶心。等待……我感觉好多了！]]></entry>
+	<entry id="str_cook_supply"><![CDATA[我不能否认它的恢复作用。]]></entry>
+	<entry id="cook+str_cook_supply"><![CDATA[好吃！]]></entry>
+	<entry id="cook+str_cook_supply"><![CDATA[你不知道你都错过些了什么。]]></entry>
+	<entry id="cook+str_cook_supply"><![CDATA[都是好吃的菜！]]></entry>
+	<entry id="cook+str_cook_supply"><![CDATA[*吞咽*来一口！]]></entry>
+	<entry id="cook+str_cook_supply"><![CDATA[*吞咽*哦……你想来一些吗？]]></entry>
 
   </language>
 
