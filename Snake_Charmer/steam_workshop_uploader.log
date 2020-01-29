@@ -220,7 +220,6 @@ localization/1456853110_russian.loc
 localization/1456853110_schinese.loc
 localization/1456853110_spanish.loc
 localization/1456853110_tchinese.loc
-localization/missing_files.txt
 localization/snake_charmer_brazilian.string_table.xml
 localization/snake_charmer_czech.string_table.xml
 localization/snake_charmer_english.string_table.xml
@@ -245,6 +244,6 @@ preview_icon.png
 project.xml
 snake_charmer.xml
 
-Submitting...........................................................................................................................................................Submitted.
+Submitting..............................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Snake_Charmer\project.xml
 

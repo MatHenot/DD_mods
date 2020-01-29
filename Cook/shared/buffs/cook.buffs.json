@@ -959,6 +959,8 @@
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "eat",
          "amount" : 1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
