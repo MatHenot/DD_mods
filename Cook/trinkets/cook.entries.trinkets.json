@@ -140,8 +140,9 @@
 		"buffs" : 
          [
 			"DEF-5",
-			"T_Glasses_DDHeal",
-			"T_Glasses_FoodHeal"
+			"TT_T_Glasses_DDHeal",
+			"T_Glasses_DDHeal_mono",
+			"T_Glasses_DDHeal_aoe"
          ],
          "hero_class_requirements":
          [

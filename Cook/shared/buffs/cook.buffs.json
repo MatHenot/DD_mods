@@ -901,8 +901,21 @@
             "string" : ""
          }
       },
+	  {
+         "id" : "TT_T_Glasses_DDHeal",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "TT_T_Glasses_DDHeal",
+         "amount" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
       {
-         "id" : "T_Glasses_DDHeal",
+         "id" : "T_Glasses_DDHeal_mono",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "hero_skill",
          "amount" : -1,
@@ -912,7 +925,22 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "has_description": false
+      },
+      {
+         "id" : "T_Glasses_DDHeal_aoe",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "hero_skill_multi_target",
+         "amount" : -1,
+         "remove_if_not_active" : false,
+         "rule_type" : "at_deaths_door",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description": false
       },
       {
          "id" : "T_Glasses_FoodHeal",

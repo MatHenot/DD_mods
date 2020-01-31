@@ -70,7 +70,6 @@
 	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Вражеская группа:]]></entry>
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% количество {colour_start|blight}кровотечения{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_received_percent_hero_skill"><![CDATA[%d%% {colour_start|healhp}Healing{colour_end} Received from Skills]]></entry>	
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Amount Received]]></entry>
@@ -104,9 +103,10 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}Лечение{colour_end} 2-3 очков/раунд за 2 раунда]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}Лечение{colour_end} 2-3 очков/раунд за 3 раунда]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}Лечение{colour_end} 3-4 очков/раунд за 3 раунда]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%% Все сопротивления]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[%-d%% Все сопротивления]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[Дружественное умение: {colour_start|healhp}Лечение{colour_end} 0-2 ХП]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[Дружественное умение: УРН 1-2 ХП]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[Дружественное умение: УРН 1-2 ХП]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Glasses_DDHeal"><![CDATA[%d%% {colour_start|healhp}Healing{colour_end} Received from Skills]]></entry>
 
     <entry id="cook+str_bark_encourage"><![CDATA[Я знаю, что вы справитесь со своим бременем.]]></entry>
     <entry id="cook+str_bark_encourage"><![CDATA[Вы сильные. Вы легко станете такими же опытными, как и я.]]></entry>

@@ -70,7 +70,6 @@
 	<entry id="effect_tooltip_target_enemy_group"><![CDATA[敌方队伍：]]></entry>
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%%{colour_start|blight}腐蚀{colour_end}技能效果]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%%{colour_start|bleed}流血{colour_end}技能效果]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_received_percent_hero_skill"><![CDATA[%d%%受到的{colour_start|healhp}治疗{colour_end}量 来自技能]]></entry>	
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[+%d%%{colour_start|healhp}恢复{colour_end}技能效果]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%%{colour_start|healhp}恢复{colour_end}技能持续时间]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[+%d%%受到的{colour_start|healhp}恢复{colour_end}技能效果]]></entry>
@@ -104,9 +103,10 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}治疗{colour_end} 2-3生命/回合 持续2回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}治疗{colour_end} 2-3生命/回合 持续3回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}治疗{colour_end} 3-4生命/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%%全部抗性]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[%-d%%全部抗性]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[友军技能：{colour_start|healhp}治疗{colour_end}0-2生命]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[友军技能：伤害1-2生命]]></entry>	
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[友军技能：伤害1-2生命]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Glasses_DDHeal"><![CDATA[%d%%受到的{colour_start|healhp}治疗{colour_end}量 来自技能]]></entry>
 
     <entry id="cook+str_bark_encourage"><![CDATA[我知道你能肩负你的重担的。]]></entry>
     <entry id="cook+str_bark_encourage"><![CDATA[你是个坚强的人。你很容易能活到和我一样老。]]></entry>
