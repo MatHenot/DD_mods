@@ -974,11 +974,11 @@
          "stat_sub_type" : "max_hp",
          "amount" : 0.2,
          "remove_if_not_active" : false,
-         "rule_type" : "has_quirk",
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "binge"
+            "string" : ""
          }
       },
 	  
