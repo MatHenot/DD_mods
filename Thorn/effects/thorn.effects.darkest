@@ -2,7 +2,7 @@
 
 //effect: .name "Random Attack" .target "performer" .buff_ids "Random Attack" .on_hit true .on_miss true .skill_instant true .has_description false
 
-effect: .name "Thorn_on_crit" .chance 100% .buff_source_type bsrc_crit .buff_ids "Thorn_on_crit_acc" "Thorn_on_crit_dodge" .on_hit true .on_miss false .apply_once true
+effect: .name "Thorn_on_crit" .target "performer" .chance 100% .buff_source_type bsrc_crit .buff_ids "Thorn_on_crit_acc" "Thorn_on_crit_dodge" .on_hit true .on_miss false .apply_once true
 
 effect: .name "PRE vs Marked" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.20 .on_hit true .on_miss false .skill_instant true
 
