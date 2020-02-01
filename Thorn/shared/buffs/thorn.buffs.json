@@ -420,7 +420,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "remove_on_battle_complete" : true
       },
       {
          "id" : "Hearken Riposte onhit",
@@ -471,6 +472,21 @@
          "id" : "Hearken Riposte DMGH",
          "stat_type" : "combat_stat_multiply",
          "stat_sub_type" : "damage_high",
+         "amount" : -2,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Hearken Riposte crit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
          "amount" : -2,
          "duration_type" : "combat_end",
 		 "duration" : 1,
