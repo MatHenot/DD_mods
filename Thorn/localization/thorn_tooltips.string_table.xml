@@ -110,7 +110,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}Heal{colour_end} %d HP]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit
+	{colour_start|skill_unselectable}Lasts Until Guard Ends{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
 
@@ -231,7 +232,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[Alliés {colour_start|guard}protégeant{colour_end} ou {colour_start|guard}protégés{colour_end} :
 	{colour_start|healhp}Soigne{colour_end} %d PV]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Marque{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Marque{colour_end}
+	{colour_start|skill_unselectable}Dure jusqu'à la fin de la garde{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Réduit fortement les chances d'embuscade nocturne]]></entry>
 
@@ -352,7 +354,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}Heal{colour_end} %d HP]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit
+	{colour_start|skill_unselectable}Lasts Until Guard Ends{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
 
@@ -473,7 +476,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}Heal{colour_end} %d HP]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit
+	{colour_start|skill_unselectable}Lasts Until Guard Ends{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
 
@@ -594,7 +598,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}Heal{colour_end} %d HP]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit
+	{colour_start|skill_unselectable}Lasts Until Guard Ends{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
 
@@ -715,7 +720,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}Heal{colour_end} %d HP]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit
+	{colour_start|skill_unselectable}Lasts Until Guard Ends{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
 
@@ -836,7 +842,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}Heal{colour_end} %d HP]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit
+	{colour_start|skill_unselectable}Lasts Until Guard Ends{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
 
@@ -957,7 +964,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}보호 중{colour_end}/{colour_start|guard}보호받는 중{colour_end}인 아군:
 	{colour_start|healhp}회복{colour_end} %d]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|mark}표식{colour_end} 찍기]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|mark}표식{colour_end} 찍기
+	{colour_start|skill_unselectable}가드가 끝날 때까지 지속{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[야습 확률 대폭 감소]]></entry>
 
@@ -1078,7 +1086,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}보호 중{colour_end}/{colour_start|guard}보호받는 중{colour_end}인 아군:
 	{colour_start|healhp}회복{colour_end} %d]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|mark}표식{colour_end} 찍기]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|mark}표식{colour_end} 찍기
+	{colour_start|skill_unselectable}가드가 끝날 때까지 지속{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[야습 확률 대폭 감소]]></entry>
 
@@ -1199,7 +1208,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}Heal{colour_end} %d HP]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit
+	{colour_start|skill_unselectable}Lasts Until Guard Ends{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
 
@@ -1320,7 +1330,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Защищающие{colour_end} и {colour_start|guard}Защищённые{colour_end} союзники:
     {colour_start|healhp}лечение{colour_end} %d ОЗ]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|mark}Помечает{colour_end} При ударе]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Ответный Удар{colour_end}: {colour_start|mark}Помечает{colour_end} При ударе
+	{colour_start|skill_unselectable}Длится до конца охраны{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Значительно снижает шанс Засады]]></entry>
 
@@ -1441,7 +1452,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}守护{colour_end}和{colour_start|guard}被守护{colour_end}的队友：
 	{colour_start|healhp}治疗{colour_end}%d点生命]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}反击：{colour_end}命中时：{colour_start|mark}标记{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}反击：{colour_end}命中时：{colour_start|mark}标记{colour_end}
+	{colour_start|skill_unselectable}持续到守卫结束{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[大幅减少伏击怪物成功的概率]]></entry>
 
@@ -1562,7 +1574,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}守护{colour_end}和{colour_start|guard}被守护{colour_end}的队友：
 	{colour_start|healhp}治疗{colour_end}%d点生命]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}反击：{colour_end}命中时：{colour_start|mark}标记{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}反击：{colour_end}命中时：{colour_start|mark}标记{colour_end}
+	{colour_start|skill_unselectable}持续到守卫结束{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[大幅减少伏击怪物成功的概率]]></entry>
 
@@ -1683,7 +1696,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[Los aliados que estén usando {colour_start|guard}Guardia{colour_end} o {colour_start|guard}Protegidos{colour_end}:
 	reciben una {colour_start|healhp}curación{colour_end} de %d PS]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|mark}marca{colour_end} al impactar]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Estocada{colour_end}: {colour_start|mark}marca{colour_end} al impactar
+	{colour_start|skill_unselectable}Dura hasta que termina la guardia{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Reduce mucho las posibilidades de sufrir una emboscada]]></entry>
 

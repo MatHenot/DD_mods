@@ -37,8 +37,7 @@
          "id" : "thorn_maingauche",
          "buffs" : 
          [
-            "ACC-20",
-			"T_Maingauche_Riposte"
+            "ACC-25"
          ],
          "hero_class_requirements":
          [
@@ -50,7 +49,12 @@
          "origin_dungeon" : "",
 		 "attack_skill_additional_effects":
         [
-            "T_Miss_Bleed"
+            "T_Miss_Bleed",
+			"T_Maingauche_Riposte"
+        ],
+		"friendly_skill_additional_effects":
+		[
+            "T_Maingauche_Riposte"
         ]
       },
       {
@@ -96,11 +100,11 @@
          "origin_dungeon" : "", 
 		 "friendly_skill_additional_effects":
 		[
-            "T_Signet_Riposte_StressHeal"
+            "T_Signet_Riposte"
         ],
          "attack_skill_additional_effects":
         [
-            "T_Signet_Riposte_StressHeal"
+            "T_Signet_Riposte"
         ]
       },
 

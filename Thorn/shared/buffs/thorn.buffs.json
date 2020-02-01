@@ -51,6 +51,35 @@
 		 "remove_on_battle_complete" : true,
 		 "has_description" : false
       },
+
+      {
+         "id" : "Thorn_on_crit_acc",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Thorn_on_crit_def",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.05,
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
 	  
 
 	  {
@@ -376,7 +405,130 @@
             "string" : "defensive"
 		 }
 	  } ,
-	  
+
+
+      {
+         "id" : "Hearken Riposte",
+         "stat_type" : "riposte",
+         "stat_sub_type" : "hearken Mark",
+         "amount" : 1,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Hearken Riposte onhit",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_hit_chance",
+         "amount" : 1,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Hearken Riposte onmiss",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "riposte_on_miss_chance",
+         "amount" : 1,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Hearken Riposte DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -2,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Hearken Riposte DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -2,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Hearken Riposte ACC 1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.25,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Hearken Riposte ACC 2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.2,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "Hearken Riposte ACC 3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.15,
+         "duration_type" : "combat_end",
+		 "duration" : 1,
+         "remove_if_not_active" : true,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+
       {
          "id" : "Blossom Heal Debuff",
          "stat_type" : "hp_heal_percent",
@@ -426,7 +578,7 @@
       },
 
 	  {
-         "id" : "hearken Prot 1",
+         "id" : "Blossom Prot 1",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "protection_rating",
          "amount" : 0.10,
@@ -440,7 +592,7 @@
          }
 	  },
 	  {
-         "id" : "hearken Prot 2",
+         "id" : "Blossom Prot 2",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "protection_rating",
          "amount" : 0.13,
@@ -454,7 +606,7 @@
          }
 	  },
 	  {
-         "id" : "hearken Prot 3",
+         "id" : "Blossom Prot 3",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "protection_rating",
          "amount" : 0.17,
@@ -468,7 +620,7 @@
          }
 	  },
 	  {
-         "id" : "hearken Prot 4",
+         "id" : "Blossom Prot 4",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "protection_rating",
          "amount" : 0.21,
@@ -482,7 +634,7 @@
          }
 	  },
 	  {
-         "id" : "hearken Prot 5",
+         "id" : "Blossom Prot 5",
          "stat_type" : "combat_stat_add",
          "stat_sub_type" : "protection_rating",
          "amount" : 0.25,
@@ -501,13 +653,16 @@
          "stat_type" : "riposte",
          "stat_sub_type" : "T_Miss_Bleed",
          "amount" : 1,
+		 "duration" : 2,
          "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "remove_on_battle_complete" : true,
+		 "has_description" : false
       },
 	  {
          "id" : "T_Fencer_Bleed_Duration",
@@ -523,7 +678,7 @@
          }
       },
 	  {
-         "id" : "T_Signet_Riposte_StressHeal",
+         "id" : "T_Signet_Riposte",
          "stat_type" : "riposte",
          "stat_sub_type" : "T_Riposte_StressHeal",
          "amount" : 1,

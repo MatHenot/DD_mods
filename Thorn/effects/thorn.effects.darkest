@@ -2,6 +2,8 @@
 
 //effect: .name "Random Attack" .target "performer" .buff_ids "Random Attack" .on_hit true .on_miss true .skill_instant true .has_description false
 
+effect: .name "Thorn_on_crit" .chance 100% .buff_source_type bsrc_crit .buff_ids "Thorn_on_crit_acc" "Thorn_on_crit_dodge" .on_hit true .on_miss false .apply_once true
+
 effect: .name "PRE vs Marked" .target "performer" .chance 100% .keyStatus "tagged" .combat_stat_buff 1 .attack_rating_add 0.20 .on_hit true .on_miss false .skill_instant true
 
 effect: .name "switch Add turn" .target "performer" .chance 100% .initiative_change 1 .on_hit true .on_miss true .has_description false .queue true
@@ -23,7 +25,7 @@ effect: .name "Offensive Riposte" .target "performer" .chance 100% .riposte 1 .r
 //Transform -- Offensive to Shocked Effects
 
 effect: .name "thorn hit received" .target "performer" .chance 100% .buff_ids "exit_riposte" .buff_source_type riposte .on_hit true .on_miss true .apply_once true
-effect: .name "switch to Shocked" .target "performer" .chance 100% .set_mode shocked .clear_riposte 1 .bark str_thorn_shocked .stress 5 .on_hit true .on_miss true .queue true
+effect: .name "switch to Shocked" .target "performer" .chance 100% .set_mode shocked .clear_riposte 1 .untag 1 .bark str_thorn_shocked .stress 5 .on_hit true .on_miss true .queue true
 
 //Transform -- Shocked to Offensive Effects
 
@@ -96,11 +98,11 @@ effect: .name "Listen Skill ToolTip 5" .target "performer" .chance 100% .buff_id
 
 //Blossom
 
-effect: .name "Blossom Prot 1" .target "performer" .chance 100% .buff_ids "hearken Prot 1" .on_hit true .on_miss true .apply_once true .has_description false
-effect: .name "Blossom Prot 2" .target "performer" .chance 100% .buff_ids "hearken Prot 2" .on_hit true .on_miss true .apply_once true .has_description false
-effect: .name "Blossom Prot 3" .target "performer" .chance 100% .buff_ids "hearken Prot 3" .on_hit true .on_miss true .apply_once true .has_description false
-effect: .name "Blossom Prot 4" .target "performer" .chance 100% .buff_ids "hearken Prot 4" .on_hit true .on_miss true .apply_once true .has_description false
-effect: .name "Blossom Prot 5" .target "performer" .chance 100% .buff_ids "hearken Prot 5" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 1" .target "performer" .chance 100% .buff_ids "Blossom Prot 1" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 2" .target "performer" .chance 100% .buff_ids "Blossom Prot 2" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 3" .target "performer" .chance 100% .buff_ids "Blossom Prot 3" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 4" .target "performer" .chance 100% .buff_ids "Blossom Prot 4" .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "Blossom Prot 5" .target "performer" .chance 100% .buff_ids "Blossom Prot 5" .on_hit true .on_miss true .apply_once true .has_description false
 
 effect: .name "Blossom Fake Prot 1" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 10% .on_hit false .on_miss true .apply_once true
 effect: .name "Blossom Fake Prot 2" .target "performer" .chance 100% .combat_stat_buff 1 .protection_rating_add 13% .on_hit false .on_miss true .apply_once true
@@ -135,9 +137,9 @@ effect: .name "hearken StressHeal 5" .target "performer" .chance 100% .healstres
 
 effect: .name "hearken Riposte Clear" .target "performer" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false
 
-effect: .name "hearken Riposte 1" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -25% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
-effect: .name "hearken Riposte 2" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -20% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
-effect: .name "hearken Riposte 3" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -15% .damage_low_multiply -200% .damage_high_multiply -200% .riposte_effect "hearken Mark" .on_hit true .on_miss true .queue true
+effect: .name "hearken Riposte 1" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 1" .buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .queue true
+effect: .name "hearken Riposte 2" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 2" .buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .queue true
+effect: .name "hearken Riposte 3" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 3" .buff_source_type bsrc_riposte .duration -1 .on_hit true .on_miss true .queue true
 
 effect: .name "hearken Riposte Crit" .target "performer" .chance 100% .riposte 1 .duration 3 .crit_chance_add -100% .on_hit true .on_miss true .queue true .has_description false
 
@@ -261,9 +263,10 @@ effect: .name "Dare Skill ToolTip" .target "performer_group_other" .chance 100% 
 //--------------------TRINKETS--------------------
 
 
+effect: .name "T_Maingauche_Riposte" .target "performer" .chance 100% .buff_ids "T_Maingauche_Riposte" .buff_source_type hero_skill .on_hit true .on_miss true .apply_once true .has_description false
 effect: .name "T_Miss_Bleed" .target "target" .dotBleed 4 .duration 3 .chance 140% .on_hit false .on_miss true .can_apply_on_death true 
 effect: .name "T_Clear_Riposte" .target "target" .chance 100% .clear_riposte 1 .on_hit true .on_miss false .apply_once true
-effect: .name "T_Signet_Riposte_StressHeal" .target "performer" .chance 100% .buff_ids "T_Signet_Riposte_StressHeal" .buff_source_type hero_skill .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "T_Signet_Riposte" .target "performer" .chance 100% .buff_ids "T_Signet_Riposte" .buff_source_type hero_skill .on_hit true .on_miss true .apply_once true .has_description false
 effect: .name "T_Riposte_StressHeal" .target "performer" .chance 100% .healstress 5 .on_hit true .on_miss false
 effect: .name "T_Block" .target performer .chance 50% .health_damage_blocks 1 .on_hit true .on_miss false .queue true
 
