@@ -1,0 +1,1 @@
+buff_stat_tooltip_upgrade_discount_TT_T_Glasses_DDHeal,cook_english,russian,
