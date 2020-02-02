@@ -651,11 +651,11 @@
 		 "duration" : 1,
          "source" : "bsrc_riposte",
          "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
+         "rule_type" : "is_guarding",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "defensive"
+            "string" : ""
          }
       },
 	  {

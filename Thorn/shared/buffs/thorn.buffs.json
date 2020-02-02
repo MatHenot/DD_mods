@@ -468,7 +468,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "remove_on_battle_complete" : true
       },
       {
          "id" : "Hearken Riposte DMGH",
@@ -483,7 +484,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "remove_on_battle_complete" : true
       },
       {
          "id" : "Hearken Riposte crit",
@@ -498,7 +500,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "remove_on_battle_complete" : true
       },
       {
          "id" : "Hearken Riposte ACC 1",
@@ -513,7 +516,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "remove_on_battle_complete" : true
       },
       {
          "id" : "Hearken Riposte ACC 2",
@@ -528,7 +532,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "remove_on_battle_complete" : true
       },
       {
          "id" : "Hearken Riposte ACC 3",
@@ -543,7 +548,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : ""
-         }
+         },
+		 "remove_on_battle_complete" : true
       },
 
 
