@@ -413,7 +413,7 @@
          "stat_sub_type" : "hearken Mark",
          "amount" : 1,
          "duration_type" : "combat_end",
-		 "duration" : 1,
+		 "duration" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "is_guarding",
          "is_false_rule" : false,
@@ -429,7 +429,7 @@
          "stat_sub_type" : "riposte_on_hit_chance",
          "amount" : 1,
          "duration_type" : "combat_end",
-		 "duration" : 1,
+		 "duration" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "is_guarding",
          "is_false_rule" : false,
@@ -445,7 +445,7 @@
          "stat_sub_type" : "riposte_on_miss_chance",
          "amount" : 1,
          "duration_type" : "combat_end",
-		 "duration" : 1,
+		 "duration" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "is_guarding",
          "is_false_rule" : false,
@@ -461,7 +461,7 @@
          "stat_sub_type" : "damage_low",
          "amount" : -2,
          "duration_type" : "combat_end",
-		 "duration" : 1,
+		 "duration" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "is_guarding",
          "is_false_rule" : false,
@@ -469,6 +469,7 @@
             "float" : 0,
             "string" : ""
          },
+		 "has_description" : false,
 		 "remove_on_battle_complete" : true
       },
       {
@@ -477,7 +478,7 @@
          "stat_sub_type" : "damage_high",
          "amount" : -2,
          "duration_type" : "combat_end",
-		 "duration" : 1,
+		 "duration" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "is_guarding",
          "is_false_rule" : false,
@@ -485,6 +486,7 @@
             "float" : 0,
             "string" : ""
          },
+		 "has_description" : false,
 		 "remove_on_battle_complete" : true
       },
       {
@@ -493,7 +495,7 @@
          "stat_sub_type" : "crit_chance",
          "amount" : -2,
          "duration_type" : "combat_end",
-		 "duration" : 1,
+		 "duration" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "is_guarding",
          "is_false_rule" : false,
@@ -501,6 +503,7 @@
             "float" : 0,
             "string" : ""
          },
+		 "has_description" : false,
 		 "remove_on_battle_complete" : true
       },
       {
@@ -509,7 +512,7 @@
          "stat_sub_type" : "attack_rating",
          "amount" : -0.25,
          "duration_type" : "combat_end",
-		 "duration" : 1,
+		 "duration" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "is_guarding",
          "is_false_rule" : false,
@@ -517,6 +520,7 @@
             "float" : 0,
             "string" : ""
          },
+		 "has_description" : false,
 		 "remove_on_battle_complete" : true
       },
       {
@@ -525,7 +529,7 @@
          "stat_sub_type" : "attack_rating",
          "amount" : -0.2,
          "duration_type" : "combat_end",
-		 "duration" : 1,
+		 "duration" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "is_guarding",
          "is_false_rule" : false,
@@ -533,6 +537,7 @@
             "float" : 0,
             "string" : ""
          },
+		 "has_description" : false,
 		 "remove_on_battle_complete" : true
       },
       {
@@ -541,7 +546,7 @@
          "stat_sub_type" : "attack_rating",
          "amount" : -0.15,
          "duration_type" : "combat_end",
-		 "duration" : 1,
+		 "duration" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "is_guarding",
          "is_false_rule" : false,
@@ -549,6 +554,7 @@
             "float" : 0,
             "string" : ""
          },
+		 "has_description" : false,
 		 "remove_on_battle_complete" : true
       },
 

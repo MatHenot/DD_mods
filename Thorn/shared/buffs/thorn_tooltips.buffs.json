@@ -674,6 +674,71 @@
             "string" : ""
          }
       },
+      {
+         "id" : "TT hearken Riposte DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TT hearken Riposte DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TT hearken Riposte ACC 1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TT hearken Riposte ACC 2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "TT hearken Riposte ACC 3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
 	  
 	  {
          "id" : "One Turn",
