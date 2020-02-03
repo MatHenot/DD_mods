@@ -110,8 +110,8 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Guarding{colour_end} and {colour_start|guard}Guarded{colour_end} Allies:
 	{colour_start|healhp}Heal{colour_end} %d HP]]></entry>
 	
-	<entry id="buff_stat_tooltip_upgrade_discount_hearken"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit
-	{colour_start|skill_unselectable}Lasts Until Guard Ends{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearken2"><![CDATA[{colour_start|skill_unselectable}Lasts Until Guard Ends{colour_end}]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
 

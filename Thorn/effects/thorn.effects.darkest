@@ -145,10 +145,11 @@ effect: .name "hearken Mark" .target "target" .chance 100% .tag 1 .duration 3 .a
 
 effect: .name "hearken Riposte ToolTip" .target "performer" .chance 100% .buff_ids "hearken Riposte ToolTip" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
 
-effect: .name "hearken Skill ToolTip 1" .target "performer" .chance 100% .buff_ids "TT Hearken Riposte DMGL" "TT Hearken Riposte DMGH" "TT Hearken Riposte ACC 1" "hearken Fake Riposte ToolTip" "Defensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
-effect: .name "hearken Skill ToolTip 2" .target "performer" .chance 100% .buff_ids "TT Hearken Riposte DMGL" "TT Hearken Riposte DMGH" "TT Hearken Riposte ACC 2" "hearken Fake Riposte ToolTip" "Defensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
-effect: .name "hearken Skill ToolTip 3" .target "performer" .chance 100% .buff_ids "TT Hearken Riposte DMGL" "TT Hearken Riposte DMGH" "TT Hearken Riposte ACC 3" "hearken Fake Riposte ToolTip" "Defensive Mode ToolTip" .on_hit true .on_miss true .skill_instant true
+effect: .name "hearken Skill ToolTip 1" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -25% .damage_low_multiply -200% .damage_high_multiply -200% .on_hit false .on_miss true
+effect: .name "hearken Skill ToolTip 2" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -20% .damage_low_multiply -200% .damage_high_multiply -200% .on_hit false .on_miss true
+effect: .name "hearken Skill ToolTip 3" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -15% .damage_low_multiply -200% .damage_high_multiply -200% .on_hit false .on_miss true
 
+effect: .name "hearken Skill ToolTip" .target "performer" .chance 100% .buff_ids "hearken Fake Riposte ToolTip 1" "hearken Fake Riposte ToolTip 2" "Defensive Mode ToolTip" .on_hit false .on_miss true .skill_instant true
 
 //--------------------OFFENSIVE--------------------
 
