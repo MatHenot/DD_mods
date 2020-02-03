@@ -138,18 +138,19 @@ effect: .name "hearken StressHeal 5" .target "performer" .chance 100% .healstres
 effect: .name "hearken Riposte Clear" .target "performer" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false
 
 effect: .name "hearken Riposte 1" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 1" "Hearken Riposte crit" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "hearken Riposte 1" .target "performer" .chance 100% .buff_ids "hearken Tray ToolTip" "hearken Tray ToolTip DMG" "hearken Tray ToolTip ACC 1" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
 effect: .name "hearken Riposte 2" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 2" "Hearken Riposte crit" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "hearken Riposte 2" .target "performer" .chance 100% .buff_ids "hearken Tray ToolTip" "hearken Tray ToolTip DMG" "hearken Tray ToolTip ACC 2" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
 effect: .name "hearken Riposte 3" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 3" "Hearken Riposte crit" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "hearken Riposte 3" .target "performer" .chance 100% .buff_ids "hearken Tray ToolTip" "hearken Tray ToolTip DMG" "hearken Tray ToolTip ACC 3" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
 
 effect: .name "hearken Mark" .target "target" .chance 100% .tag 1 .duration 3 .actor_dot ripdef_fx .on_hit true .on_miss false
 
-effect: .name "hearken Riposte ToolTip" .target "performer" .chance 100% .buff_ids "hearken Riposte ToolTip" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "hearken Skill ToolTip A1" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -25% .damage_low_multiply -200% .damage_high_multiply -200% .on_hit false .on_miss true
+effect: .name "hearken Skill ToolTip A2" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -20% .damage_low_multiply -200% .damage_high_multiply -200% .on_hit false .on_miss true
+effect: .name "hearken Skill ToolTip A3" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -15% .damage_low_multiply -200% .damage_high_multiply -200% .on_hit false .on_miss true
 
-effect: .name "hearken Skill ToolTip 1" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -25% .damage_low_multiply -200% .damage_high_multiply -200% .on_hit false .on_miss true
-effect: .name "hearken Skill ToolTip 2" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -20% .damage_low_multiply -200% .damage_high_multiply -200% .on_hit false .on_miss true
-effect: .name "hearken Skill ToolTip 3" .target "performer" .chance 100% .riposte 1 .duration 3 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .attack_rating_add -15% .damage_low_multiply -200% .damage_high_multiply -200% .on_hit false .on_miss true
-
-effect: .name "hearken Skill ToolTip" .target "performer" .chance 100% .buff_ids "hearken Fake Riposte ToolTip 1" "hearken Fake Riposte ToolTip 2" "Defensive Mode ToolTip" .on_hit false .on_miss true .skill_instant true
+effect: .name "hearken Skill ToolTip B" .target "performer" .chance 100% .buff_ids "hearken Skill ToolTip 1" "hearken Skill ToolTip 2" "Defensive Mode ToolTip" .on_hit false .on_miss true .skill_instant true
 
 //--------------------OFFENSIVE--------------------
 
@@ -199,11 +200,11 @@ effect: .name "Gash Bleed 3" .target "target" .duration 3 .chance 120% .buff_ids
 effect: .name "Gash Bleed 4" .target "target" .duration 3 .chance 130% .buff_ids "bleed_debuff_4" .on_hit true .on_miss false .can_apply_on_death true .has_description false
 effect: .name "Gash Bleed 5" .target "target" .duration 3 .chance 140% .buff_ids "bleed_debuff_5" .on_hit true .on_miss false .can_apply_on_death true .has_description false
 
-effect: .name "Gash Riposte ToolTip 1" .target "performer" .chance 100% .buff_ids "Gash Riposte ToolTip 1" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
-effect: .name "Gash Riposte ToolTip 2" .target "performer" .chance 100% .buff_ids "Gash Riposte ToolTip 2" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
-effect: .name "Gash Riposte ToolTip 3" .target "performer" .chance 100% .buff_ids "Gash Riposte ToolTip 3" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
-effect: .name "Gash Riposte ToolTip 4" .target "performer" .chance 100% .buff_ids "Gash Riposte ToolTip 4" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
-effect: .name "Gash Riposte ToolTip 5" .target "performer" .chance 100% .buff_ids "Gash Riposte ToolTip 5" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "Gash Tray ToolTip 1" .target "performer" .chance 100% .buff_ids "Gash Tray ToolTip 1" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "Gash Tray ToolTip 2" .target "performer" .chance 100% .buff_ids "Gash Tray ToolTip 2" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "Gash Tray ToolTip 3" .target "performer" .chance 100% .buff_ids "Gash Tray ToolTip 3" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "Gash Tray ToolTip 4" .target "performer" .chance 100% .buff_ids "Gash Tray ToolTip 4" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "Gash Tray ToolTip 5" .target "performer" .chance 100% .buff_ids "Gash Tray ToolTip 5" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
 
 effect: .name "Gash Riposte Bleed 1" .target "target" .dotBleed 2 .duration 3 .chance 100% .on_hit true .on_miss false .can_apply_on_death true 
 effect: .name "Gash Riposte Bleed 2" .target "target" .dotBleed 2 .duration 3 .chance 110% .on_hit true .on_miss false .can_apply_on_death true 

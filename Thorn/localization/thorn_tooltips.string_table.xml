@@ -112,6 +112,8 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: {colour_start|mark}Mark{colour_end} on hit]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken2"><![CDATA[{colour_start|skill_unselectable}Lasts Until Guard Ends{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearkendmg"><![CDATA[{colour_start|riposte}Riposte{colour_end}: -200%% DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_hearkenacc"><![CDATA[{colour_start|riposte}Riposte{colour_end}: -%d%% ACC]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_C_Ambush"><![CDATA[Greatly Reduce Ambush Chances]]></entry>
 
