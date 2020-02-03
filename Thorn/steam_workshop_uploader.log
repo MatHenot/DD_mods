@@ -8,8 +8,32 @@ Processing Map Files files...
 
 -------------------------------------------------------------------------------
 Running Localization...
-Parsing localization/thorn_dialogue.string_table.xml
-Parsing localization/thorn_tooltips.string_table.xml
+Parsing localization/thorn_brazilian_dialogue.string_table.xml
+Parsing localization/thorn_brazilian_tooltips.string_table.xml
+Parsing localization/thorn_czech_dialogue.string_table.xml
+Parsing localization/thorn_czech_tooltips.string_table.xml
+Parsing localization/thorn_english_dialogue.string_table.xml
+Parsing localization/thorn_english_tooltips.string_table.xml
+Parsing localization/thorn_french_dialogue.string_table.xml
+Parsing localization/thorn_french_tooltips.string_table.xml
+Parsing localization/thorn_german_dialogue.string_table.xml
+Parsing localization/thorn_german_tooltips.string_table.xml
+Parsing localization/thorn_italian_dialogue.string_table.xml
+Parsing localization/thorn_italian_tooltips.string_table.xml
+Parsing localization/thorn_japanese_dialogue.string_table.xml
+Parsing localization/thorn_japanese_tooltips.string_table.xml
+Parsing localization/thorn_koreana_dialogue.string_table.xml
+Parsing localization/thorn_koreana_tooltips.string_table.xml
+Parsing localization/thorn_koreanb_dialogue.string_table.xml
+Parsing localization/thorn_koreanb_tooltips.string_table.xml
+Parsing localization/thorn_polish_dialogue.string_table.xml
+Parsing localization/thorn_polish_tooltips.string_table.xml
+Parsing localization/thorn_russian_dialogue.string_table.xml
+Parsing localization/thorn_russian_tooltips.string_table.xml
+Parsing localization/thorn_schinese_dialogue.string_table.xml
+Parsing localization/thorn_schinese_tooltips.string_table.xml
+Parsing localization/thorn_spanish_dialogue.string_table.xml
+Parsing localization/thorn_spanish_tooltips.string_table.xml
 
 Building Languages
 Exporting .loc files
@@ -245,9 +269,32 @@ localization/1785514611_polish.loc
 localization/1785514611_russian.loc
 localization/1785514611_schinese.loc
 localization/1785514611_spanish.loc
-localization/1785514611_tchinese.loc
-localization/thorn_dialogue.string_table.xml
-localization/thorn_tooltips.string_table.xml
+localization/thorn_brazilian_dialogue.string_table.xml
+localization/thorn_brazilian_tooltips.string_table.xml
+localization/thorn_czech_dialogue.string_table.xml
+localization/thorn_czech_tooltips.string_table.xml
+localization/thorn_english_dialogue.string_table.xml
+localization/thorn_english_tooltips.string_table.xml
+localization/thorn_french_dialogue.string_table.xml
+localization/thorn_french_tooltips.string_table.xml
+localization/thorn_german_dialogue.string_table.xml
+localization/thorn_german_tooltips.string_table.xml
+localization/thorn_italian_dialogue.string_table.xml
+localization/thorn_italian_tooltips.string_table.xml
+localization/thorn_japanese_dialogue.string_table.xml
+localization/thorn_japanese_tooltips.string_table.xml
+localization/thorn_koreana_dialogue.string_table.xml
+localization/thorn_koreana_tooltips.string_table.xml
+localization/thorn_koreanb_dialogue.string_table.xml
+localization/thorn_koreanb_tooltips.string_table.xml
+localization/thorn_polish_dialogue.string_table.xml
+localization/thorn_polish_tooltips.string_table.xml
+localization/thorn_russian_dialogue.string_table.xml
+localization/thorn_russian_tooltips.string_table.xml
+localization/thorn_schinese_dialogue.string_table.xml
+localization/thorn_schinese_tooltips.string_table.xml
+localization/thorn_spanish_dialogue.string_table.xml
+localization/thorn_spanish_tooltips.string_table.xml
 overlays/poptext_damage_reflect.png
 overlays/poptext_health_damage_block.png
 overlays/poptext_health_damage_block_onset.png
@@ -261,6 +308,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting..................................................................................................................................................................Submitted.
+Submitting...........................................................................................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Thorn\project.xml
 
