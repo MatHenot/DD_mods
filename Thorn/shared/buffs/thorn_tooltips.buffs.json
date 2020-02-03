@@ -643,29 +643,107 @@
 	  },
 	 
 	  {
-         "id" : "hearken Riposte ToolTip",
+         "id" : "hearken Tray ToolTip",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "hearken",
-         "amount" : 1,
+         "stat_sub_type" : "hearken1",
+         "amount" : -1,
          "duration_type" : "combat_end",
-		 "duration" : 1,
+		 "duration" : -1,
          "source" : "bsrc_riposte",
          "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
+         "rule_type" : "is_guarding",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "defensive"
+            "string" : ""
          }
       },
 	  {
-         "id" : "hearken Fake Riposte ToolTip",
+         "id" : "hearken Tray ToolTip DMG",
          "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "hearken",
+         "stat_sub_type" : "hearkendmg",
+         "amount" : -1,
+         "duration_type" : "combat_end",
+		 "duration" : -1,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : true,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hearken Tray ToolTip ACC 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hearkenacc",
+         "amount" : -0.25,
+         "duration_type" : "combat_end",
+		 "duration" : -1,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : true,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hearken Tray ToolTip ACC 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hearkenacc",
+         "amount" : -0.2,
+         "duration_type" : "combat_end",
+		 "duration" : -1,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : true,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hearken Tray ToolTip ACC 3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hearkenacc",
+         "amount" : -0.15,
+         "duration_type" : "combat_end",
+		 "duration" : -1,
+         "source" : "bsrc_riposte",
+         "remove_if_not_active" : true,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hearken Skill ToolTip 1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hearken1",
          "amount" : 1,
          "duration_type" : "combat_end",
-		 "duration" : 1,
-         "source" : "bsrc_riposte",
+		 "duration" : -1,
+         "remove_if_not_active" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "hearken Skill ToolTip 2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "hearken2",
+         "amount" : 1,
+         "duration_type" : "combat_end",
+		 "duration" : -1,
          "remove_if_not_active" : true,
          "rule_type" : "always",
          "is_false_rule" : false,
@@ -754,7 +832,7 @@
  		 }
 	  },	  
 	  {
-         "id" : "Gash Riposte ToolTip 1",
+         "id" : "Gash Tray ToolTip 1",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash1",
          "amount" : 1,
@@ -769,7 +847,7 @@
          }
       },
 	  {
-         "id" : "Gash Riposte ToolTip 2",
+         "id" : "Gash Tray ToolTip 2",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash2",
          "amount" : 1,
@@ -784,7 +862,7 @@
          }
       },
 	  {
-         "id" : "Gash Riposte ToolTip 3",
+         "id" : "Gash Tray ToolTip 3",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash3",
          "amount" : 1,
@@ -799,7 +877,7 @@
          }
       },
 	  {
-         "id" : "Gash Riposte ToolTip 4",
+         "id" : "Gash Tray ToolTip 4",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash4",
          "amount" : 1,
@@ -814,7 +892,7 @@
          }
       },
 	  {
-         "id" : "Gash Riposte ToolTip 5",
+         "id" : "Gash Tray ToolTip 5",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "Gash5",
          "amount" : 1,
