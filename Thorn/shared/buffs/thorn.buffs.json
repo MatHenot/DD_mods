@@ -501,6 +501,7 @@
             "float" : 0,
             "string" : ""
          },
+		 "has_description" : false,
 		 "remove_on_battle_complete" : true
       },
       {
@@ -517,7 +518,6 @@
             "float" : 0,
             "string" : ""
          },
-		 "has_description" : false,
 		 "remove_on_battle_complete" : true
       },
       {

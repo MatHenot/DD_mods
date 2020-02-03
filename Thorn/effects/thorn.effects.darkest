@@ -137,9 +137,9 @@ effect: .name "hearken StressHeal 5" .target "performer" .chance 100% .healstres
 
 effect: .name "hearken Riposte Clear" .target "performer" .chance 100% .clear_riposte 1 .on_hit true .on_miss true .has_description false
 
-effect: .name "hearken Riposte 1" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 1" "Hearken Riposte crit" .buff_source_type bsrc_riposte .on_hit true .on_miss true
-effect: .name "hearken Riposte 2" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 2" "Hearken Riposte crit" .buff_source_type bsrc_riposte .on_hit true .on_miss true
-effect: .name "hearken Riposte 3" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 3" "Hearken Riposte crit" .buff_source_type bsrc_riposte .on_hit true .on_miss true
+effect: .name "hearken Riposte 1" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 1" "Hearken Riposte crit" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "hearken Riposte 2" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 2" "Hearken Riposte crit" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
+effect: .name "hearken Riposte 3" .target "performer" .chance 100% .buff_ids "Hearken Riposte" "Hearken Riposte onhit" "Hearken Riposte onmiss" "Hearken Riposte DMGL" "Hearken Riposte DMGH" "Hearken Riposte ACC 3" "Hearken Riposte crit" .buff_source_type bsrc_riposte .on_hit true .on_miss true .has_description false
 
 effect: .name "hearken Mark" .target "target" .chance 100% .tag 1 .duration 3 .actor_dot ripdef_fx .on_hit true .on_miss false
 
