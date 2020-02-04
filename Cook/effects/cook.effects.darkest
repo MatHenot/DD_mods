@@ -49,7 +49,7 @@ effect: .name "TT_MCourse_FinalBlight 5" .target "performer" .chance 100% .buff_
 
 effect: .name "Mcourse_FX_poiscloud" .target "target_enemy_group" .chance 100% .buff_ids "Mcourse_FX_poiscloud" .on_hit true .on_miss true .swap_source_and_target true
 
-effect: .name "MCourse_Final_Bark" .target "performer" .chance 100% .bark str_cook_maincourse .on_hit true .on_miss false
+effect: .name "MCourse_Final_Bark" .target "performer" .chance 8% .bark str_cook_maincourse .on_hit true .on_miss false
 
 effect: .name "MCourse_HealBuff" .target "performer" .chance 100% .buff_ids "MCourse_HealBuff" "MCourse_HealBuffFX" .on_hit true .on_miss true .queue true
 effect: .name "TT_MCourse_HealBuff" .target "performer" .chance 100% .buff_ids "TT_MCourse_HealBuff" .buff_source_type bsrc_notspecified .on_hit false .on_miss true .queue true
