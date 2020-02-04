@@ -151,7 +151,7 @@
 					"chance" : { "code" : "c", "amount": 1.0 },
 					"type": "buff",
 					"sub_type": "C_Trust_76",
-					"amount": 0.03
+					"amount": 0.05
 				},
 				{
 					"selection" : "party",
@@ -159,7 +159,7 @@
 					"chance" : { "code" : "d", "amount": 1.0 },
 					"type": "buff",
 					"sub_type": "C_Trust_51",
-					"amount": 0.03
+					"amount": 0.05
 				},	
 				{
 					"selection" : "party",
@@ -167,7 +167,7 @@
 					"chance" : { "code" : "e", "amount": 1.0 },
 					"type": "buff",
 					"sub_type": "C_Trust_26",
-					"amount": 0.03
+					"amount": 0.05
 				},	
 				{
 					"selection" : "party",
@@ -175,7 +175,7 @@
 					"chance" : { "code" : "f", "amount": 1.0 },
 					"type": "buff",
 					"sub_type": "C_Trust_1",
-					"amount": 0.03
+					"amount": 0.05
 				}				
 
 
