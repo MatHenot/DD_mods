@@ -18,8 +18,8 @@
          "keep_loot" : false,
          "buffs" : 
          [
-            "MAXHP10",
-			"SPD-2"
+            "MAXHP5",
+			"SPD-1"
          ],
          "can_modify_in_activity" : true,
          "can_be_replaced_by_new_quirk" : true
