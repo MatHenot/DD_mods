@@ -103,7 +103,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}Soigne{colour_end} 2-3 pts/tr sur 2 trs]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}Soigne{colour_end} 2-3 pts/tr sur 3 trs]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}Soigne{colour_end} 3-4 pts/tr sur 3 trs]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[%-d%% Toutes Résistances]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[%d%% Toutes Résistances]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[Compétence alliée : {colour_start|healhp}Soigne{colour_end} 0-2 PV]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[Compétence alliée : DGT : 1-2 PV]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Glasses_DDHeal"><![CDATA[{colour_start|healhp}Soins{colour_end} reçus des compétences %+d%%]]></entry>

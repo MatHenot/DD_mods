@@ -103,7 +103,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}治疗{colour_end} 2-3生命/回合 持续2回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}治疗{colour_end} 2-3生命/回合 持续3回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}治疗{colour_end} 3-4生命/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[%-d%%全部抗性]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[%d%%全部抗性]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[友军技能：{colour_start|healhp}治疗{colour_end}0-2生命]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[友军技能：伤害1-2生命]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Glasses_DDHeal"><![CDATA[%d%%受到的{colour_start|healhp}治疗{colour_end}量 来自技能]]></entry>

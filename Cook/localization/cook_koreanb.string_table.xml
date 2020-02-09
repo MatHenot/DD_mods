@@ -102,7 +102,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[턴당 {colour_start|healhp}회복{colour_end} 2-3, 2턴 지속]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[턴당 {colour_start|healhp}회복{colour_end} 2-3, 3턴 지속]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[턴당 {colour_start|healhp}회복{colour_end} 3-4, 3턴 지속]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[모든 저항 %-d%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[모든 저항 %d%%]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[아군 대상 기술: {colour_start|healhp}회복{colour_end} 0-2]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[아군 대상 기술: 피해 1-2]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Glasses_DDHeal"><![CDATA[받는 {colour_start|healhp}회복량{colour_end} %+d%%]]></entry>

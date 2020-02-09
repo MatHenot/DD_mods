@@ -104,7 +104,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}Лeчeниe{colour_end} 2-3 очк/рнд за 2 рнда]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}Лeчeниe{colour_end} 2-3 очк/рнд за 3 рнда]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}Лeчeниe{colour_end} 3-4 очк/рнд за 3 рнда]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%% Bce coпpoтивлeния]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[%d%% Bce coпpoтивлeния]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[Дружественное умение: {colour_start|healhp}Лечение{colour_end} 0-2 ХП]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[Дружественное умение: УРН 1-2 ХП]]></entry>	
 
