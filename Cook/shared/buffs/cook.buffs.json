@@ -120,7 +120,6 @@
          "amount" : 1,
 		 "duration" : 6,
          "remove_if_not_active" : false,
-         "remove_on_battle_complete" : true,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
