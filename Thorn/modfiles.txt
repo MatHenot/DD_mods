@@ -2,7 +2,7 @@ heroes/thorn/thorn_A/anim/thorn.sprite.afflicted.png 895528
 heroes/thorn/thorn_A/anim/thorn.sprite.attack_transform.png 931893
 heroes/thorn/thorn_A/anim/thorn.sprite.blossom.png 346527
 heroes/thorn/thorn_A/anim/thorn.sprite.camp.png 154431
-heroes/thorn/thorn_A/anim/thorn.sprite.combat.png 976028
+heroes/thorn/thorn_A/anim/thorn.sprite.combat.png 976585
 heroes/thorn/thorn_A/anim/thorn.sprite.dare.png 332878
 heroes/thorn/thorn_A/anim/thorn.sprite.defend.png 1267006
 heroes/thorn/thorn_A/anim/thorn.sprite.gash.png 327260
@@ -19,7 +19,7 @@ heroes/thorn/thorn_B/anim/thorn.sprite.afflicted.png 895528
 heroes/thorn/thorn_B/anim/thorn.sprite.attack_transform.png 923900
 heroes/thorn/thorn_B/anim/thorn.sprite.blossom.png 356943
 heroes/thorn/thorn_B/anim/thorn.sprite.camp.png 163135
-heroes/thorn/thorn_B/anim/thorn.sprite.combat.png 954498
+heroes/thorn/thorn_B/anim/thorn.sprite.combat.png 954840
 heroes/thorn/thorn_B/anim/thorn.sprite.dare.png 360845
 heroes/thorn/thorn_B/anim/thorn.sprite.defend.png 1231415
 heroes/thorn/thorn_B/anim/thorn.sprite.gash.png 327579
@@ -36,7 +36,7 @@ heroes/thorn/thorn_C/anim/thorn.sprite.afflicted.png 895528
 heroes/thorn/thorn_C/anim/thorn.sprite.attack_transform.png 868119
 heroes/thorn/thorn_C/anim/thorn.sprite.blossom.png 316461
 heroes/thorn/thorn_C/anim/thorn.sprite.camp.png 147292
-heroes/thorn/thorn_C/anim/thorn.sprite.combat.png 887513
+heroes/thorn/thorn_C/anim/thorn.sprite.combat.png 888364
 heroes/thorn/thorn_C/anim/thorn.sprite.dare.png 334862
 heroes/thorn/thorn_C/anim/thorn.sprite.defend.png 1133867
 heroes/thorn/thorn_C/anim/thorn.sprite.gash.png 287407
@@ -53,7 +53,7 @@ heroes/thorn/thorn_D/anim/thorn.sprite.afflicted.png 895528
 heroes/thorn/thorn_D/anim/thorn.sprite.attack_transform.png 967740
 heroes/thorn/thorn_D/anim/thorn.sprite.blossom.png 367731
 heroes/thorn/thorn_D/anim/thorn.sprite.camp.png 170148
-heroes/thorn/thorn_D/anim/thorn.sprite.combat.png 962988
+heroes/thorn/thorn_D/anim/thorn.sprite.combat.png 963333
 heroes/thorn/thorn_D/anim/thorn.sprite.dare.png 376282
 heroes/thorn/thorn_D/anim/thorn.sprite.defend.png 1291521
 heroes/thorn/thorn_D/anim/thorn.sprite.gash.png 340271
@@ -200,7 +200,7 @@ heroes/thorn/thorn_guild_header.png 266848
 raid/actor_dot/thorn.actor_dot.json 472
 raid/camping/thorn.camping_skills.json 7836
 scripts/layout/thorn.popup_text.layout.darkest 581
-shared/buffs/thorn.buffs.json 33892
+shared/buffs/thorn.buffs.json 33896
 shared/buffs/thorn_tooltips.buffs.json 39287
 shared/trait/thorn.trait_library.json 3718
 upgrades/heroes/thorn.upgrades.json 20955
@@ -256,6 +256,6 @@ trinkets/crimson_court.rarities.trinkets.json 171
 trinkets/thorn.entries.trinkets.json 4227
 trinkets/thorn.sets.trinkets.json 153
 trinkets/thorn_east_town.rarities.trinkets.json 162
-modfiles.txt 12170
+modfiles.txt 13554
 preview_icon.png 409070
 project.xml 581
