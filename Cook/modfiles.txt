@@ -42,7 +42,7 @@ heroes/cook/anim/cook.sprite.maincourse.skel 624
 heroes/cook/anim/cook.sprite.poisonnedbait.atlas 306
 heroes/cook/anim/cook.sprite.poisonnedbait.skel 441
 heroes/cook/anim/cook.sprite.secretingredient.atlas 425
-heroes/cook/anim/cook.sprite.secretingredient.skel 636
+heroes/cook/anim/cook.sprite.secretingredient.skel 648
 heroes/cook/anim/cook.sprite.walk.atlas 2344
 heroes/cook/anim/cook.sprite.walk.skel 56730
 heroes/cook/cook_A/cook_portrait_roster.png 23812
