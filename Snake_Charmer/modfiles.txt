@@ -162,7 +162,7 @@ heroes/snake_charmer/snake_charmer.ability.six.png 39194
 heroes/snake_charmer/snake_charmer.ability.three.png 97348
 heroes/snake_charmer/snake_charmer.ability.two.png 96273
 heroes/snake_charmer/snake_charmer.art.darkest 2191
-heroes/snake_charmer/snake_charmer.info.darkest 9656
+heroes/snake_charmer/snake_charmer.info.darkest 9611
 heroes/snake_charmer/snake_charmer_guild_header.png 260742
 raid/camping/snake_charmer.camping_skills.json 5722
 shared/buffs/snake_charmer.buffs.json 35356
