@@ -62,7 +62,8 @@
          "rule_data" : {
             "float" : 0,
             "string" : "cooking"
-         }
+         },
+		 "has_description" : false
       },
 	  {
          "id" : "Mcourse_FX_poiscloud",
@@ -71,7 +72,6 @@
          "amount" : -1,
 		 "duration" : 1,
          "remove_if_not_active" : false,
-         "remove_on_battle_complete" : true,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -88,7 +88,6 @@
          "amount" : -1,
 		 "duration" : 1,
          "remove_if_not_active" : false,
-         "remove_on_battle_complete" : true,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -198,7 +197,7 @@
          "stat_sub_type" : "TT_MCourse_HealStop",
          "amount" : 1,
 		 "duration" : 1,
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -840,7 +839,6 @@
          "stat_sub_type" : "",
          "amount" : 0.30,
          "remove_if_not_active" : false,
-         "remove_on_battle_complete" : true,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -905,7 +903,7 @@
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "TT_T_Glasses_DDHeal",
          "amount" : -1,
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1004,7 +1002,7 @@
          "amount" : 1,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1019,7 +1017,7 @@
          "amount" : 0.05,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1034,7 +1032,7 @@
          "amount" : 0.05,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1049,7 +1047,7 @@
          "amount" : 0.05,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1064,7 +1062,7 @@
          "amount" : -0.1,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1079,7 +1077,7 @@
          "amount" : 0.05,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1094,7 +1092,7 @@
          "amount" : -0.05,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1109,7 +1107,7 @@
          "amount" : 0.03,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1124,7 +1122,7 @@
          "amount" : 0.05,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1139,7 +1137,7 @@
          "amount" : 0.1,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1154,7 +1152,7 @@
          "amount" : 0.1,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1169,7 +1167,7 @@
          "amount" : 0.1,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1184,7 +1182,7 @@
          "amount" : 0.05,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1199,7 +1197,7 @@
          "amount" : 0.05,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1214,7 +1212,7 @@
          "amount" : 0.05,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
@@ -1229,7 +1227,7 @@
          "amount" : 0.05,
 		 "duration" : 1,
 		 "duration_type" : "combat_end",
-         "remove_if_not_active" : true,
+         "remove_if_not_active" : false,
          "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {

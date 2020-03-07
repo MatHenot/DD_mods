@@ -45,6 +45,22 @@
 
 		{"event_id": "event:/general/status/buff_fx_cook_poiscloud_onset",			"guid_override":"{76fa6a40-8f69-4b8b-b2c2-cc90b50b4ec0}"},
 		{"event_id": "event:/general/status/buff_fx_cook_poiscloud_idle",			"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
-		{"event_id": "event:/general/status/buff_fx_cook_poiscloud_release",		"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"}
+		{"event_id": "event:/general/status/buff_fx_cook_poiscloud_release",		"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		
+		{"event_id": "event:/general/items/cook_common_A",							"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/items/cook_common_B",							"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/items/cook_common_C",							"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/items/cook_crypts_A",							"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/items/cook_crypts_B",							"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/items/cook_cove_A",							"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/items/cook_cove_B",							"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/items/cook_warrens_A",							"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/items/cook_warrens_B",							"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/items/cook_weald_A",							"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/items/cook_weald_B",							"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/items/cook_courtyard_A",						"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/items/cook_courtyard_B",						"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/items/cook_farm_A",							"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"},
+		{"event_id": "event:/general/items/cook_farm_B",							"guid_override":"{871d9c0f-eafd-4b70-9e95-216b5163425e}"}
     ]
 }

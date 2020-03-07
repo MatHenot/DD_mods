@@ -68,6 +68,7 @@
 	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s если НЕ в режиме %s]]></entry>
 
 	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Bpaжecкaя грyппa:]]></entry>
+	<entry id="buff_bsrc_notspecified"><![CDATA[]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% количество {colour_start|blight}Отравления{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% количество {colour_start|bleed}Кровотечения{colour_end}]]></entry>	
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% количество {colour_start|healhp}Восстановления{colour_end}]]></entry>

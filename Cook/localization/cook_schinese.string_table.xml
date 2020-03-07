@@ -68,6 +68,7 @@
 	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s 如果不在%s模式]]></entry>
 
 	<entry id="effect_tooltip_target_enemy_group"><![CDATA[敌方队伍：]]></entry>
+	<entry id="buff_bsrc_notspecified"><![CDATA[]]></entry>
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%%{colour_start|blight}腐蚀{colour_end}技能效果]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%%{colour_start|bleed}流血{colour_end}技能效果]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[+%d%%{colour_start|healhp}恢复{colour_end}技能效果]]></entry>

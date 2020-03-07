@@ -68,6 +68,7 @@
 	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s if NOT in mode %s]]></entry>
 
 	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemy Party:]]></entry>
+    <entry id="buff_bsrc_notspecified"><![CDATA[]]></entry>
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>

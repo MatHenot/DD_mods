@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <language id="koreana">
+  
 	<entry id="hero_class_name_cook"><![CDATA[유랑요리사]]></entry>
 
 	<entry id="action_verbose_body_guild_cook"><![CDATA[유랑요리사는 전우들에게 꼭 필요한 건강한 식사와 편안함을 제공하기 위해 돌아다닙니다. 물론 무엇을 넣느냐에 따라 천상의 요리가 될 수도, 극악의 독극물이 될 수도 있는 법입니다. 식사를 준비하는 중이 아닐 때는 그녀의 치밀한 계획과 경험을 공유하곤 합니다. 사냥감이 짐승이든, 사람이든간에...]]></entry>
@@ -67,6 +68,7 @@
 	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s (%s이 아닐 때)]]></entry>
 	
 	<entry id="effect_tooltip_target_enemy_group"><![CDATA[적 파티:]]></entry>
+	<entry id="buff_bsrc_notspecified"><![CDATA[]]></entry>
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[{colour_start|blight}중독{colour_end} 피해량 +%d%%]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[{colour_start|bleed}출혈{colour_end} 피해량 +%d%%]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[{colour_start|healhp}복구{colour_end} 회복량 +%d%%]]></entry>
