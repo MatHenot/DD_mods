@@ -71,12 +71,12 @@
          "stat_sub_type" : "",
          "amount" : -1,
 		 "duration" : 1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "cooking"
          },
 		 "fx": "cook_poiscloud",
 		 "has_description": false
@@ -87,12 +87,12 @@
          "stat_sub_type" : "",
          "amount" : -1,
 		 "duration" : 1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : ""
+            "string" : "cooking"
          },
 		 "fx": "cook_loopend",
 		 "has_description": false
