@@ -70,12 +70,13 @@
          "stat_sub_type" : "",
          "amount" : -1,
 		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
+         "remove_if_not_active" : false,
+         "remove_on_battle_complete" : true,
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "cooking"
+            "string" : ""
          },
 		 "fx": "cook_poiscloud",
 		 "has_description": false
@@ -86,12 +87,13 @@
          "stat_sub_type" : "",
          "amount" : -1,
 		 "duration" : 1,
-         "remove_if_not_active" : true,
-         "rule_type" : "in_mode",
+         "remove_if_not_active" : false,
+         "remove_on_battle_complete" : true,
+         "rule_type" : "always",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
-            "string" : "cooking"
+            "string" : ""
          },
 		 "fx": "cook_loopend",
 		 "has_description": false
@@ -146,7 +148,7 @@
          "id" : "MCourse_BlightBuff A",
          "stat_type" : "hp_dot_poison_amount_percent",
          "stat_sub_type" : "",
-         "amount" : 0.30,
+         "amount" : 0.25,
 		 "duration" : 6,
          "remove_if_not_active" : false,
          "remove_on_battle_complete" : true,
@@ -351,7 +353,7 @@
          }
       },
 	  {
-         "id" : "Commis_HRec 1",
+         "id" : "Cook_HRec 1",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.1,
@@ -364,7 +366,7 @@
          }
       },
 	  {
-         "id" : "Commis_HRec 2",
+         "id" : "Cook_HRec 2",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.15,
@@ -377,7 +379,7 @@
          }
       },
 	  {
-         "id" : "Commis_HRec 3",
+         "id" : "Cook_HRec 3",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.2,
@@ -390,7 +392,7 @@
          }
       },
 	  {
-         "id" : "Commis_HRec 4",
+         "id" : "Cook_HRec 4",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.25,
@@ -403,7 +405,7 @@
          }
       },
 	  {
-         "id" : "Commis_HRec 5",
+         "id" : "Cook_HRec 5",
          "stat_type" : "hp_heal_received_percent",
          "stat_sub_type" : "",
          "amount" : 0.3,
@@ -903,7 +905,7 @@
          "stat_sub_type" : "TT_T_Glasses_DDHeal",
          "amount" : -1,
          "remove_if_not_active" : false,
-         "rule_type" : "always",
+         "rule_type" : "at_deaths_door",
          "is_false_rule" : false,
          "rule_data" : {
             "float" : 0,
