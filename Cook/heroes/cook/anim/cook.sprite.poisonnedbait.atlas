@@ -1,6 +1,6 @@
 
 cook.sprite.poisonnedbait.png
-size: 536,363
+size: 662,363
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
@@ -16,5 +16,12 @@ images/ombre
   xy: 469, 2
   size: 359, 65
   orig: 359, 65
+  offset: 0, 0
+  index: -1
+images/tetecook
+  rotate: false
+  xy: 536, 231
+  size: 124, 130
+  orig: 124, 130
   offset: 0, 0
   index: -1

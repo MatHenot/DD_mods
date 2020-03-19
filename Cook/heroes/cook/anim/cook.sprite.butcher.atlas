@@ -1,20 +1,27 @@
 
 cook.sprite.butcher.png
-size: 534,451
+size: 571,488
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 Calque 2 copie
-  rotate: true
-  xy: 2, 2
+  rotate: false
+  xy: 2, 23
   size: 447, 463
   orig: 447, 463
   offset: 0, 0
   index: -1
 ombre
   rotate: true
-  xy: 467, 90
+  xy: 451, 127
   size: 359, 65
   orig: 359, 65
+  offset: 0, 0
+  index: -1
+teteCook
+  rotate: true
+  xy: 451, 2
+  size: 123, 118
+  orig: 123, 118
   offset: 0, 0
   index: -1
