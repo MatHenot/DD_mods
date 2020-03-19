@@ -104,10 +104,10 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}Heilung{colour_end} 2-3 Pkt/Rd für 2 Rdn]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}Heilung{colour_end} 2-3 Pkt/Rd für 3 Rdn]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}Heilung{colour_end} 3-4 Pkt/Rd für 3 Rdn]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[%-d%% Alle Resistenzen]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%% Alle Resistenzen]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[Freundliche Fähigkeit: {colour_start|healhp}Heilung{colour_end} 0-2 HP]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[Freundliche Fähigkeit:  1-2 HP]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Glasses_DDHeal"><![CDATA[%d%% {colour_start|healhp}Heilung{colour_end} erhalten durch Fähigkeiten]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Glasses_DDHeal"><![CDATA[-%d%% {colour_start|healhp}Heilung{colour_end} erhalten durch Fähigkeiten]]></entry>
 
     <entry id="cook+str_bark_encourage"><![CDATA[Ich weis, dass du deine Last tragen kannst.]]></entry>
     <entry id="cook+str_bark_encourage"><![CDATA[Du bist ein Hartnäckiger. Du wirst sicherlich so alt wie ich.]]></entry>

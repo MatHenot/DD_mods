@@ -104,10 +104,10 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}Curación{colour_end} 2-3 PS/rd por 2 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}Curación{colour_end} 2-3 PS/rd por 3 rds]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}Curación{colour_end} 3-4 PS/rd por 3 rds]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[%d%% a todas las resistencias]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%% a todas las resistencias]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[Habilidad amistosa: {colour_start|healhp}curación{colour_end} 0-2 PS]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[Habilidad amistosa: DÑO 1-2 PS]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Glasses_DDHeal"><![CDATA[%d%% {colour_start|healhp}curación{colour_end} recibida de habilidades]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Glasses_DDHeal"><![CDATA[-%d%% {colour_start|healhp}curación{colour_end} recibida de habilidades]]></entry>
 
     <entry id="cook+str_bark_encourage"><![CDATA[Serás capaz de sobrellevar tus cargas.]]></entry>
     <entry id="cook+str_bark_encourage"><![CDATA[Eres una persona dura. Llegarás fácilmente a la vejez como yo.]]></entry>
