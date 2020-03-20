@@ -23,6 +23,7 @@
 	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Fläschchen einer besonderen Zutat]]></entry>
 	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Dimensionale Brille]]></entry>
 	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Babettes Kopf]]></entry>
+	<entry id="str_inventory_title_trinketcook_furin"><![CDATA[Furin Halskette]]></entry>
 
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[Hauptgericht]]></entry>
 	<entry id="combat_skill_name_cook_butcher"><![CDATA[Schlachters Schnitt]]></entry>
@@ -183,6 +184,8 @@
 	<entry id="str_inventory_title_supplycook_courtyard_B"><![CDATA[Komischer Essig]]></entry>
 	<entry id="str_inventory_title_supplycook_farm_A"><![CDATA[Kristall Karotten]]></entry>
 	<entry id="str_inventory_title_supplycook_farm_B"><![CDATA[Kosmisches Gelee]]></entry>
+	<entry id="str_inventory_title_supplycook_SI_A"><![CDATA[Seltsame Gurke]]></entry>
+	<entry id="str_inventory_title_supplycook_SI_B"><![CDATA[Yokai Essenz]]></entry>
 
 	<entry id="str_inventory_description_supplycook_common_A"><![CDATA[Scheint essbar, irgendwie.]]></entry>
 	<entry id="str_inventory_description_supplycook_common_B"><![CDATA[Scheint essbar, irgendwie.]]></entry>
@@ -199,6 +202,8 @@
 	<entry id="str_inventory_description_supplycook_courtyard_B"><![CDATA[Scheint essbar, irgendwie.]]></entry>
 	<entry id="str_inventory_description_supplycook_farm_A"><![CDATA[Scheint essbar, irgendwie.]]></entry>
 	<entry id="str_inventory_description_supplycook_farm_B"><![CDATA[Scheint essbar, irgendwie.]]></entry>
+	<entry id="str_inventory_description_supplycook_SI_A"><![CDATA[Scheint essbar, irgendwie.]]></entry>
+	<entry id="str_inventory_description_supplycook_SI_B"><![CDATA[Scheint essbar, irgendwie.]]></entry>
 
 	<entry id="str_cook_supply"><![CDATA[Muss ich das essen?]]></entry>
 	<entry id="str_cook_supply"><![CDATA[Ugh... ich kann das nicht.]]></entry>

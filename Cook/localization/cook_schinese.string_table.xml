@@ -23,6 +23,7 @@
 	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[一瓶独特的原料]]></entry>
 	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[维度眼镜]]></entry>
 	<entry id="str_inventory_title_trinketcook_head"><![CDATA[巴贝特的头颅]]></entry>
+	<entry id="str_inventory_title_trinketcook_furin"><![CDATA[风铃吊坠]]></entry>
 
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[主菜]]></entry>
 	<entry id="combat_skill_name_cook_butcher"><![CDATA[屠夫片肉]]></entry>
@@ -183,6 +184,8 @@
 	<entry id="str_inventory_title_supplycook_courtyard_B"><![CDATA[奇怪的醋]]></entry>
 	<entry id="str_inventory_title_supplycook_farm_A"><![CDATA[水晶胡萝卜]]></entry>
 	<entry id="str_inventory_title_supplycook_farm_B"><![CDATA[宇宙果冻]]></entry>
+	<entry id="str_inventory_title_supplycook_SI_A"><![CDATA[奇怪的黄瓜]]></entry>
+	<entry id="str_inventory_title_supplycook_SI_B"><![CDATA[幽灵精华]]></entry>
 
 	<entry id="str_inventory_description_supplycook_common_A"><![CDATA[看起来能吃，大概吧。]]></entry>
 	<entry id="str_inventory_description_supplycook_common_B"><![CDATA[看起来能吃，大概吧。]]></entry>
@@ -199,6 +202,9 @@
 	<entry id="str_inventory_description_supplycook_courtyard_B"><![CDATA[看起来能吃，大概吧。]]></entry>
 	<entry id="str_inventory_description_supplycook_farm_A"><![CDATA[看起来能吃，大概吧。]]></entry>
 	<entry id="str_inventory_description_supplycook_farm_B"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_SI_A"><![CDATA[看起来能吃，大概吧。]]></entry>
+	<entry id="str_inventory_description_supplycook_SI_B"><![CDATA[看起来能吃，大概吧。]]></entry>
+
 
 	<entry id="str_cook_supply"><![CDATA[我一定要吃那个吗？]]></entry>
 	<entry id="str_cook_supply"><![CDATA[呃……我能做到的。]]></entry>

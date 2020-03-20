@@ -23,6 +23,7 @@
 	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Флакон уникального ингридиента]]></entry>
 	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Пространственные очки]]></entry>
 	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Голова Бабетты]]></entry>
+	<entry id="str_inventory_title_trinketcook_furin"><![CDATA[Furin Pendant]]></entry>
 
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[Основное блюдо]]></entry>
 	<entry id="combat_skill_name_cook_butcher"><![CDATA[Нож мясника]]></entry>
@@ -183,6 +184,8 @@
 	<entry id="str_inventory_title_supplycook_courtyard_B"><![CDATA[Странный уксус]]></entry>
 	<entry id="str_inventory_title_supplycook_farm_A"><![CDATA[Кристальная морковь]]></entry>
 	<entry id="str_inventory_title_supplycook_farm_B"><![CDATA[Космическое желе]]></entry>
+	<entry id="str_inventory_title_supplycook_SI_A"><![CDATA[Странный Огурец]]></entry>
+	<entry id="str_inventory_title_supplycook_SI_B"><![CDATA[Суть Йокай]]></entry>
 
 	<entry id="str_inventory_description_supplycook_common_A"><![CDATA[Выглядит съедобным, вроде бы.]]></entry>
 	<entry id="str_inventory_description_supplycook_common_B"><![CDATA[Выглядит съедобным, вроде бы.]]></entry>
@@ -199,6 +202,8 @@
 	<entry id="str_inventory_description_supplycook_courtyard_B"><![CDATA[Выглядит съедобным, вроде бы.]]></entry>
 	<entry id="str_inventory_description_supplycook_farm_A"><![CDATA[Выглядит съедобным, вроде бы.]]></entry>
 	<entry id="str_inventory_description_supplycook_farm_B"><![CDATA[Выглядит съедобным, вроде бы.]]></entry>
+	<entry id="str_inventory_description_supplycook_SI_A"><![CDATA[Выглядит съедобным, вроде бы.]]></entry>
+	<entry id="str_inventory_description_supplycook_SI_B"><![CDATA[Выглядит съедобным, вроде бы.]]></entry>
 
 	<entry id="str_cook_supply"><![CDATA[Должна ли я это съесть?]]></entry>
 	<entry id="str_cook_supply"><![CDATA[Ухх... Я могу сделать это.]]></entry>

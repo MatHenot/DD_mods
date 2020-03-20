@@ -169,6 +169,9 @@ effect: .name "T_Pendant_DMG 50" .target "target" .chance 50% .health_damage 1 .
 
 effect: .name "T_Glasses_Stealth" .target "performer" .chance 70% .stealth 1 .duration 2 .on_hit true .on_miss false .queue true
 
+effect: .name "T_Furin_Prot" .target "performer" .chance 100% .buff_ids PROT10 .on_hit true .on_miss false .queue true
+effect: .name "T_Furin_DD" .target "performer" .chance 100% .buff_ids DEATHBLOWRESIST5 .on_hit true .on_miss false .queue true
+
 //Food supplies
 
 effect: .name "cook_common_A" .target "target" .chance 100% .bark str_cook_supply .buff_ids "S_cook_common_A" .on_hit true .on_miss false
@@ -186,3 +189,5 @@ effect: .name "cook_courtyard_A" .target "target" .chance 100% .bark str_cook_su
 effect: .name "cook_courtyard_B" .target "target" .chance 100% .bark str_cook_supply .buff_ids "S_cook_courtyard_B" .on_hit true .on_miss false
 effect: .name "cook_farm_A" .target "target" .chance 100% .bark str_cook_supply .buff_ids "S_cook_farm_AL" "S_cook_farm_AH" .on_hit true .on_miss false
 effect: .name "cook_farm_B" .target "target" .chance 100% .bark str_cook_supply .buff_ids "S_cook_farm_B" .on_hit true .on_miss false
+effect: .name "cook_SI_A" .target "target" .chance 100% .bark str_cook_supply .buff_ids "S_cook_SI_A" .on_hit true .on_miss false
+effect: .name "cook_SI_B" .target "target" .chance 100% .bark str_cook_supply .buff_ids "S_cook_SI_B" .on_hit true .on_miss false

@@ -23,6 +23,7 @@
 	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Fiole d'Ingrédient Unique]]></entry>
 	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Lunettes Dimensionnelles]]></entry>
 	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Tête de Babette]]></entry>
+	<entry id="str_inventory_title_trinketcook_furin"><![CDATA[Pendentif Furin]]></entry>
 
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[Plat Principal]]></entry>
 	<entry id="combat_skill_name_cook_butcher"><![CDATA[Tranche du Boucher]]></entry>
@@ -183,6 +184,8 @@
 	<entry id="str_inventory_title_supplycook_courtyard_B"><![CDATA[Vinaigre Suspect]]></entry>
 	<entry id="str_inventory_title_supplycook_farm_A"><![CDATA[Carottes Cristallines]]></entry>
 	<entry id="str_inventory_title_supplycook_farm_B"><![CDATA[Gelée Cosmique]]></entry>
+	<entry id="str_inventory_title_supplycook_SI_A"><![CDATA[Concombre Étrange]]></entry>
+	<entry id="str_inventory_title_supplycook_SI_B"><![CDATA[Essence de Yokai]]></entry>
 
 	<entry id="str_inventory_description_supplycook_common_A"><![CDATA[Semble à peu près comestible.]]></entry>
 	<entry id="str_inventory_description_supplycook_common_B"><![CDATA[Semble à peu près comestible.]]></entry>
@@ -199,6 +202,8 @@
 	<entry id="str_inventory_description_supplycook_courtyard_B"><![CDATA[Semble à peu près comestible.]]></entry>
 	<entry id="str_inventory_description_supplycook_farm_A"><![CDATA[Semble à peu près comestible.]]></entry>
 	<entry id="str_inventory_description_supplycook_farm_B"><![CDATA[Semble à peu près comestible.]]></entry>
+	<entry id="str_inventory_description_supplycook_SI_A"><![CDATA[Semble à peu près comestible.]]></entry>
+	<entry id="str_inventory_description_supplycook_SI_B"><![CDATA[Semble à peu près comestible.]]></entry>
 
 	<entry id="str_cook_supply"><![CDATA[Je dois réellement manger ça ?]]></entry>
 	<entry id="str_cook_supply"><![CDATA[Eurk... Je peux le faire.]]></entry>

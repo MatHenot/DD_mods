@@ -23,6 +23,7 @@
 	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Vial of a Unique Ingredient]]></entry>
 	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Dimensional Eyeglasses]]></entry>
 	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Babette's Head]]></entry>
+	<entry id="str_inventory_title_trinketcook_furin"><![CDATA[Furin Pendant]]></entry>
 
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[Main Course]]></entry>
 	<entry id="combat_skill_name_cook_butcher"><![CDATA[Butcher's Slice]]></entry>
@@ -69,8 +70,8 @@
 
 	<entry id="effect_tooltip_target_enemy_group"><![CDATA[Enemy Party:]]></entry>
 	<entry id="buff_bsrc_notspecified"><![CDATA[]]></entry>
-    <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
-	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>	
+	<entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%% {colour_start|blight}Blight{colour_end} Amount]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Duration]]></entry>
 	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[+%d%% {colour_start|healhp}Restoration{colour_end} Amount Received]]></entry>
@@ -183,6 +184,8 @@
 	<entry id="str_inventory_title_supplycook_courtyard_B"><![CDATA[Strange Vinegar]]></entry>
 	<entry id="str_inventory_title_supplycook_farm_A"><![CDATA[Crystal Carrots]]></entry>
 	<entry id="str_inventory_title_supplycook_farm_B"><![CDATA[Cosmic Jelly]]></entry>
+	<entry id="str_inventory_title_supplycook_SI_A"><![CDATA[Strange Cucumber]]></entry>
+	<entry id="str_inventory_title_supplycook_SI_B"><![CDATA[Yokai Essence]]></entry>
 
 	<entry id="str_inventory_description_supplycook_common_A"><![CDATA[Seems edible, sort of.]]></entry>
 	<entry id="str_inventory_description_supplycook_common_B"><![CDATA[Seems edible, sort of.]]></entry>
@@ -199,6 +202,8 @@
 	<entry id="str_inventory_description_supplycook_courtyard_B"><![CDATA[Seems edible, sort of.]]></entry>
 	<entry id="str_inventory_description_supplycook_farm_A"><![CDATA[Seems edible, sort of.]]></entry>
 	<entry id="str_inventory_description_supplycook_farm_B"><![CDATA[Seems edible, sort of.]]></entry>
+	<entry id="str_inventory_description_supplycook_SI_A"><![CDATA[Seems edible, sort of.]]></entry>
+	<entry id="str_inventory_description_supplycook_SI_B"><![CDATA[Seems edible, sort of.]]></entry>
 
 	<entry id="str_cook_supply"><![CDATA[Do I have to eat that?]]></entry>
 	<entry id="str_cook_supply"><![CDATA[Ugh... I can do this.]]></entry>

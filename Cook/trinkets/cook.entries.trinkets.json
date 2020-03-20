@@ -173,6 +173,31 @@
          "price" : 15000,
          "limit" : 1,
          "origin_dungeon" : ""
-	  }      
+	  },
+
+	  {
+		 "id" : "cook_furin",
+		 "buffs": 
+		 [
+			"DEF-5",
+			"SPD-5"
+		 ],
+		 "hero_class_requirements": 
+		 [
+			"cook"
+		 ],
+		 "rarity" : "sakura",
+		 "price" : 30000,
+		 "limit" : 1,
+		 "origin_dungeon" : "ship"
+		 "attack_skill_additional_effects":
+        [
+            "T_Furin_Prot"
+        ]
+		 "friendly_skill_additional_effects":
+		[
+            "T_Furin_DD"
+        ]
+	  }
    ]
 }

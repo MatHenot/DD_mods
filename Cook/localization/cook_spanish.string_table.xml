@@ -23,6 +23,7 @@
 	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Vial del Ingrediente Único]]></entry>
 	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Gafas dimensionales]]></entry>
 	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Cabeza de Babette]]></entry>
+	<entry id="str_inventory_title_trinketcook_furin"><![CDATA[Colgante Furin]]></entry>
 
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[Plato principal]]></entry>
 	<entry id="combat_skill_name_cook_butcher"><![CDATA[Corte de la carnicera]]></entry>
@@ -183,6 +184,8 @@
 	<entry id="str_inventory_title_supplycook_courtyard_B"><![CDATA[Vinagre extraño]]></entry>
 	<entry id="str_inventory_title_supplycook_farm_A"><![CDATA[Zanahorias cristalinas]]></entry>
 	<entry id="str_inventory_title_supplycook_farm_B"><![CDATA[Gelatina cósmica]]></entry>
+	<entry id="str_inventory_title_supplycook_SI_A"><![CDATA[Pepino extraño]]></entry>
+	<entry id="str_inventory_title_supplycook_SI_B"><![CDATA[Esencia de yokai]]></entry>
 
 	<entry id="str_inventory_description_supplycook_common_A"><![CDATA[Parece comestible, más o menos, quizás parcialmente.]]></entry>
 	<entry id="str_inventory_description_supplycook_common_B"><![CDATA[Parece comestible, más o menos, quizás parcialmente.]]></entry>
@@ -199,6 +202,8 @@
 	<entry id="str_inventory_description_supplycook_courtyard_B"><![CDATA[Parece comestible, más o menos, quizás parcialmente.]]></entry>
 	<entry id="str_inventory_description_supplycook_farm_A"><![CDATA[Parece comestible, más o menos, quizás en parte.]]></entry>
 	<entry id="str_inventory_description_supplycook_farm_B"><![CDATA[Parece comestible, más o menos, quizás en parte.]]></entry>
+	<entry id="str_inventory_description_supplycook_SI_A"><![CDATA[Parece comestible, más o menos, quizás en parte.]]></entry>
+	<entry id="str_inventory_description_supplycook_SI_B"><![CDATA[Parece comestible, más o menos, quizás en parte.]]></entry>
 
 	<entry id="str_cook_supply"><![CDATA[¿En serio me tengo que comer eso?]]></entry>
 	<entry id="str_cook_supply"><![CDATA[¡Puf!... creo que puedo intentar comérmelo.]]></entry>

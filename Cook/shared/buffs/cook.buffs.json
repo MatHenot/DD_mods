@@ -1235,6 +1235,36 @@
             "float" : 0,
             "string" : ""
          }
+      },
+	  {
+         "id" : "S_cook_SI_A",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+		 "duration" : 1,
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+	  {
+         "id" : "S_cook_SI_B",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+		 "duration" : 1,
+		 "duration_type" : "combat_end",
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       }
   ]
 }

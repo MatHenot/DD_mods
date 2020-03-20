@@ -23,6 +23,7 @@
 	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[비밀재료함]]></entry>
 	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[차원의 안경]]></entry>
 	<entry id="str_inventory_title_trinketcook_head"><![CDATA[바베트의 머리]]></entry>
+	<entry id="str_inventory_title_trinketcook_furin"><![CDATA[Furin Pendant]]></entry>
 
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[식사 시작]]></entry>
 	<entry id="combat_skill_name_cook_butcher"><![CDATA[육질 다지기]]></entry>
@@ -160,6 +161,8 @@
 	<entry id="str_inventory_title_supplycook_courtyard_B"><![CDATA[수상한 식초]]></entry>
 	<entry id="str_inventory_title_supplycook_farm_A"><![CDATA[수정 당근]]></entry>
 	<entry id="str_inventory_title_supplycook_farm_B"><![CDATA[우주 젤리]]></entry>
+	<entry id="str_inventory_title_supplycook_SI_A"><![CDATA[이상한 오이]]></entry>
+	<entry id="str_inventory_title_supplycook_SI_B"><![CDATA[世会 본질]]></entry>
 
 	<entry id="str_inventory_description_supplycook_common_A"><![CDATA[어쨌거나 먹을 수는 있을 것 같다.]]></entry>
 	<entry id="str_inventory_description_supplycook_common_B"><![CDATA[어쨌거나 먹을 수는 있을 것 같다.]]></entry>
@@ -176,6 +179,8 @@
 	<entry id="str_inventory_description_supplycook_courtyard_B"><![CDATA[어쨌거나 먹을 수는 있을 것 같다.]]></entry>
 	<entry id="str_inventory_description_supplycook_farm_A"><![CDATA[어쨌거나 먹을 수는 있을 것 같다.]]></entry>
 	<entry id="str_inventory_description_supplycook_farm_B"><![CDATA[어쨌거나 먹을 수는 있을 것 같다.]]></entry>
+	<entry id="str_inventory_description_supplycook_SI_A"><![CDATA[어쨌거나 먹을 수는 있을 것 같다.]]></entry>
+	<entry id="str_inventory_description_supplycook_SI_B"><![CDATA[어쨌거나 먹을 수는 있을 것 같다.]]></entry>
 
 	<entry id="str_cook_supply"><![CDATA[이걸 먹으라고?]]></entry>
 	<entry id="str_cook_supply"><![CDATA[할 수 있다... 할 수 있다...]]></entry>

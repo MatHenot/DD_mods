@@ -19,3 +19,6 @@ inventory_item: .type "supply" .id "cook_courtyard_B" .base_stack_limit 1 .purch
 
 inventory_item: .type "supply" .id "cook_farm_A" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_farm_A"
 inventory_item: .type "supply" .id "cook_farm_B" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_farm_B"
+
+inventory_item: .type "supply" .id "cook_SI_A" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_SI_A"
+inventory_item: .type "supply" .id "cook_SI_B" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_SI_B"
