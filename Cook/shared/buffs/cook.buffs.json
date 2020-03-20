@@ -1001,7 +1001,7 @@
          "rule_type" : "hpbelow",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.50,
+            "float" : 0.25,
             "string" : ""
          }
       },
@@ -1011,10 +1011,10 @@
          "stat_sub_type" : "",
          "amount" : 2,
          "remove_if_not_active" : false,
-         "rule_type" : "hpbelow",
+         "rule_type" : "at_deaths_door",
          "is_false_rule" : false,
          "rule_data" : {
-            "float" : 0.50,
+            "float" : 0,
             "string" : ""
          }
       },
