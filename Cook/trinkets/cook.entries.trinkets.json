@@ -189,7 +189,7 @@
 		 "rarity" : "sakura",
 		 "price" : 30000,
 		 "limit" : 1,
-		 "origin_dungeon" : "ship"
+		 "origin_dungeon" : "ship",
 		 "attack_skill_additional_effects":
         [
             "T_Furin_Prot"
