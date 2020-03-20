@@ -979,6 +979,45 @@
             "string" : ""
          }
       },
+      {
+         "id" : "T_Furin_Heal_50",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.50,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Furin_Heal_25",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.50,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Furin_Heal_0",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.50,
+            "string" : ""
+         }
+      },
 	  
 	  {
          "id" : "E_Gourmets",

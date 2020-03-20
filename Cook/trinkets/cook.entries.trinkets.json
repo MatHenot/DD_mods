@@ -115,7 +115,7 @@
 	  
 		"buffs" : 
          [
-			"TRINKET_HEALDONE_B1",
+			"TRINKET_HEALDONE_B2",
 			"TT_T_Pendant_DMG"
          ],
          "hero_class_requirements":
@@ -179,7 +179,9 @@
 		 "id" : "cook_furin",
 		 "buffs": 
 		 [
-			"DEF-5",
+			"T_Furin_Heal_50",
+			"T_Furin_Heal_25",
+			"T_Furin_Heal_0",
 			"SPD-5"
 		 ],
 		 "hero_class_requirements": 
@@ -190,10 +192,6 @@
 		 "price" : 30000,
 		 "limit" : 1,
 		 "origin_dungeon" : "ship",
-		 "attack_skill_additional_effects":
-        [
-            "T_Furin_Prot"
-        ],
 		 "friendly_skill_additional_effects":
 		[
             "T_Furin_DD"
