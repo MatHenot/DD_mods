@@ -39,8 +39,6 @@ effect: .name "MCourse_StartHeal 3" .target "performer_group_other" .chance 100%
 effect: .name "MCourse_FinalHeal 1" .target "performer_group" .chance 100% .heal 3 .on_hit true .on_miss true .can_crit_heal false
 effect: .name "MCourse_FinalHeal 2" .target "performer_group" .chance 100% .heal 4 .on_hit true .on_miss true .can_crit_heal false
 effect: .name "MCourse_FinalHeal 3" .target "performer_group" .chance 100% .heal 5 .on_hit true .on_miss true .can_crit_heal false
-effect: .name "MCourse_FinalHeal 4" .target "performer_group" .chance 100% .heal 6 .on_hit true .on_miss true .can_crit_heal false
-effect: .name "MCourse_FinalHeal 5" .target "performer_group" .chance 100% .heal 7 .on_hit true .on_miss true .can_crit_heal false
 
 effect: .name "MCourse_FinalBlight 1" .target "target_enemy_group" .chance 90%  .dotPoison 6  .duration 1 .on_hit true .on_miss true .individual_target_actor_rolls true .queue true .has_description false
 effect: .name "MCourse_FinalBlight 2" .target "target_enemy_group" .chance 100% .dotPoison 7  .duration 1 .on_hit true .on_miss true .individual_target_actor_rolls true .queue true .has_description false
@@ -105,11 +103,11 @@ effect: .name "TT_Condiment 4" .target "performer" .chance 100% .buff_ids "TT_Co
 
 //entremet
 
-effect: .name "Entremet 1" .target "target" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true .queue true
-effect: .name "Entremet 2" .target "target" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true .has_description false .queue true
-effect: .name "Entremet 3" .target "target" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true .queue true
-effect: .name "Entremet 4" .target "target" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true .has_description false .queue true
-effect: .name "Entremet 5" .target "target" .chance 100% .dotHpHeal 4 .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "Entremet_Rest 1" .target "target" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "Entremet_Rest 2" .target "target" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true .has_description false .queue true
+effect: .name "Entremet_Rest 3" .target "target" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true .queue true
+effect: .name "Entremet_Rest 4" .target "target" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true .has_description false .queue true
+effect: .name "Entremet_Rest 5" .target "target" .chance 100% .dotHpHeal 4 .duration 3 .on_hit true .on_miss true .queue true
 
 effect: .name "Entremet_Random 50" .target "target" .chance 50% .dotHpHeal 1 .duration 3 .on_hit true .on_miss true .has_description false
 
@@ -117,10 +115,10 @@ effect: .name "TT_Entremet 2" .target "performer" .chance 100% .buff_ids "TT_Coo
 effect: .name "TT_Entremet 4" .target "performer" .chance 100% .buff_ids "TT_Cook_StealHeal" "TT_Entremet 4" .on_hit false .on_miss true .skill_instant true
 
 effect: .name "Entremet_HP 1" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.10 .on_hit true .on_miss true .queue true
-effect: .name "Entremet_HP 2" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.12 .on_hit true .on_miss true .queue true
-effect: .name "Entremet_HP 3" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.15 .on_hit true .on_miss true .queue true
-effect: .name "Entremet_HP 4" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.17 .on_hit true .on_miss true .queue true
-effect: .name "Entremet_HP 5" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.20 .on_hit true .on_miss true .queue true
+effect: .name "Entremet_HP 2" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.11 .on_hit true .on_miss true .queue true
+effect: .name "Entremet_HP 3" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.12 .on_hit true .on_miss true .queue true
+effect: .name "Entremet_HP 4" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.13 .on_hit true .on_miss true .queue true
+effect: .name "Entremet_HP 5" .target "target" .chance 100% .combat_stat_buff 1 .max_hp_multiply 0.15 .on_hit true .on_miss true .queue true
 
 //choicepiece
 
