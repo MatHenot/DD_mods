@@ -1,4 +1,4 @@
-audio/secondary_banks/customsteps.bank 1108928
+audio/secondary_banks/customsteps.bank 4083776
 audio/customsteps.campaign.guid_overrides.json 167
 audio/customsteps.campaign.load_order.json 78
 modfiles.txt 200
