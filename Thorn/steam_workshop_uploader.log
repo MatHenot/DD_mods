@@ -226,7 +226,6 @@ panels/icons_equip/trinket/inv_trinket+thorn_potpourri.png
 panels/icons_equip/trinket/inv_trinket+thorn_rapier_guard.png
 panels/icons_equip/trinket/inv_trinket+thorn_rose_emblem.png
 panels/icons_equip/trinket/inv_trinket+thorn_signet_ring.png
-panels/icons_equip/trinket/rarity_sakura.png
 raid/camping/skill_icons/camp_skill_thorncamp1.png
 raid/camping/skill_icons/camp_skill_thorncamp2.png
 raid/camping/skill_icons/camp_skill_thorncamp3.png
@@ -303,11 +302,10 @@ trinkets/com.rarities.trinkets.json
 trinkets/crimson_court.rarities.trinkets.json
 trinkets/thorn.entries.trinkets.json
 trinkets/thorn.sets.trinkets.json
-trinkets/thorn_east_town.rarities.trinkets.json
 modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting.........................................................................................................................................................Submitted.
+Submitting......................................................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Thorn\project.xml
 

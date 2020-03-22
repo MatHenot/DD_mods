@@ -178,7 +178,6 @@ panels/icons_equip/trinket/inv_trinket+snake_charmer_reptilian_plates.png
 panels/icons_equip/trinket/inv_trinket+snake_charmer_shinobue.png
 panels/icons_equip/trinket/inv_trinket+snake_charmer_used_gloves.png
 panels/icons_equip/trinket/inv_trinket+snake_charmer_vision_pendant.png
-panels/icons_equip/trinket/rarity_sakura.png
 raid/camping/skill_icons/camp_skill_exotic_spices.png
 raid/camping/skill_icons/camp_skill_melody.png
 raid/camping/skill_icons/camp_skill_mithridatism.png
@@ -234,7 +233,6 @@ localization/snake_charmer_russian.string_table.xml
 localization/snake_charmer_schinese.string_table.xml
 localization/snake_charmer_spanish.string_table.xml
 localization/snake_charmer_tchinese.string_table.xml
-trinkets/SC_east_town.rarities.trinkets.json
 trinkets/com.rarities.trinkets.json
 trinkets/crimson_court.rarities.trinkets.json
 trinkets/snake_charmer.entries.trinkets.json
@@ -244,6 +242,6 @@ preview_icon.png
 project.xml
 snake_charmer.xml
 
-Submitting................................................................................................................................Submitted.
+Submitting..........................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Snake_Charmer\project.xml
 
