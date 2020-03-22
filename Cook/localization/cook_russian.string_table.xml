@@ -23,7 +23,7 @@
 	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Флакон уникального ингридиента]]></entry>
 	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Пространственные очки]]></entry>
 	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Голова Бабетты]]></entry>
-	<entry id="str_inventory_title_trinketcook_furin"><![CDATA[Furin Pendant]]></entry>
+	<entry id="str_inventory_title_trinketcook_furin"><![CDATA[Фурин]]></entry>
 
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[Основное блюдо]]></entry>
 	<entry id="combat_skill_name_cook_butcher"><![CDATA[Нож мясника]]></entry>

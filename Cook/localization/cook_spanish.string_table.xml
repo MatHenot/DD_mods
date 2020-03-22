@@ -23,7 +23,7 @@
 	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[Vial del Ingrediente Único]]></entry>
 	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[Gafas dimensionales]]></entry>
 	<entry id="str_inventory_title_trinketcook_head"><![CDATA[Cabeza de Babette]]></entry>
-	<entry id="str_inventory_title_trinketcook_furin"><![CDATA[Colgante Furin]]></entry>
+	<entry id="str_inventory_title_trinketcook_furin"><![CDATA[Furin]]></entry>
 
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[Plato principal]]></entry>
 	<entry id="combat_skill_name_cook_butcher"><![CDATA[Corte de la carnicera]]></entry>

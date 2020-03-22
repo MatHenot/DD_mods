@@ -23,7 +23,7 @@
 	<entry id="str_inventory_title_trinketcook_pendant"><![CDATA[비밀재료함]]></entry>
 	<entry id="str_inventory_title_trinketcook_glasses"><![CDATA[차원의 안경]]></entry>
 	<entry id="str_inventory_title_trinketcook_head"><![CDATA[바베트의 머리]]></entry>
-	<entry id="str_inventory_title_trinketcook_furin"><![CDATA[Furin Pendant]]></entry>
+	<entry id="str_inventory_title_trinketcook_furin"><![CDATA[바람 차임]]></entry>
 
     <entry id="combat_skill_name_cook_maincourse"><![CDATA[식사 시작]]></entry>
 	<entry id="combat_skill_name_cook_butcher"><![CDATA[육질 다지기]]></entry>
