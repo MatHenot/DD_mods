@@ -44,11 +44,11 @@ effect: .name "switch to Defensive" .target "performer" .chance 100% .set_mode d
 
 //Thrust
 
-effect: .name "Thrust Off 1" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 40% .damage_high_multiply 40% .skill_instant true .on_hit true .on_miss true .has_description false
-effect: .name "Thrust Off 2" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .skill_instant true .on_hit true .on_miss true .has_description false
-effect: .name "Thrust Off 3" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 60% .damage_high_multiply 60% .skill_instant true .on_hit true .on_miss true .has_description false
-effect: .name "Thrust Off 4" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 70% .damage_high_multiply 70% .skill_instant true .on_hit true .on_miss true .has_description false
-effect: .name "Thrust Off 5" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 80% .damage_high_multiply 80% .skill_instant true .on_hit true .on_miss true .has_description false
+effect: .name "Thrust Off 1" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .skill_instant true .on_hit true .on_miss true .has_description false
+effect: .name "Thrust Off 2" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 60% .damage_high_multiply 60% .skill_instant true .on_hit true .on_miss true .has_description false
+effect: .name "Thrust Off 3" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 70% .damage_high_multiply 70% .skill_instant true .on_hit true .on_miss true .has_description false
+effect: .name "Thrust Off 4" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 80% .damage_high_multiply 80% .skill_instant true .on_hit true .on_miss true .has_description false
+effect: .name "Thrust Off 5" .target "performer" .chance 100% .set_mode offensive .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 100% .damage_high_multiply 100% .skill_instant true .on_hit true .on_miss true .has_description false
 
 effect: .name "Thrust Def StunVsMark".target "performer" .chance 100% .keyStatus "tagged" .buff_type stun_chance .buff_amount 0.2 .on_hit true .on_miss false .has_description false
 

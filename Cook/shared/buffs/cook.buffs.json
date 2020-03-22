@@ -30,6 +30,7 @@
             "float" : 0,
             "string" : "cooking"
          },
+		 "fx": "cook_loop",
 		 "is_clear_debuff_valid": false
       },
 	  {

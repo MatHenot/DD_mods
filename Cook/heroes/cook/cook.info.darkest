@@ -20,11 +20,11 @@ combat_skill: .id "maincourse" .level 1 .launch 234 .target .valid_modes nocooki
 combat_skill: .id "maincourse" .level 2 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MCourse_FinalHeal 2" "TT_MCourse_FinalBlight 3" "MCourse_FinalBlight 3" "MCourse_HealStop" "MCourse_HealStopSelf" "TT_MCourse_HealStop"
 combat_skill: .id "maincourse" .level 3 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MCourse_FinalHeal 2" "TT_MCourse_FinalBlight 4" "MCourse_FinalBlight 4" "MCourse_HealStop" "MCourse_HealStopSelf" "TT_MCourse_HealStop"
 combat_skill: .id "maincourse" .level 4 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MCourse_FinalHeal 3" "TT_MCourse_FinalBlight 5" "MCourse_FinalBlight 5" "MCourse_HealStop" "MCourse_HealStopSelf" "TT_MCourse_HealStop"
-combat_skill: .id "maincourse" .level 0 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MCourse_Final_Bark" "Binge_Disease_Allies" "Mcourse_FX_poiscloud" "NormalStance" .refresh_after_each_wave true
-combat_skill: .id "maincourse" .level 1 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MCourse_Final_Bark" "Binge_Disease_Allies" "Mcourse_FX_poiscloud" "NormalStance" .refresh_after_each_wave true
-combat_skill: .id "maincourse" .level 2 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MCourse_Final_Bark" "Binge_Disease_Allies" "Mcourse_FX_poiscloud" "NormalStance" .refresh_after_each_wave true
-combat_skill: .id "maincourse" .level 3 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MCourse_Final_Bark" "Binge_Disease_Allies" "Mcourse_FX_poiscloud" "NormalStance" .refresh_after_each_wave true
-combat_skill: .id "maincourse" .level 4 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MCourse_Final_Bark" "Binge_Disease_Allies" "Mcourse_FX_poiscloud" "NormalStance" .refresh_after_each_wave true
+combat_skill: .id "maincourse" .level 0 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MCourse_Final_Bark" "Binge_Disease_Allies" "Mcourse_FX_poiscloud" "NormalStance" "Mcourse_FX_loopend" .refresh_after_each_wave true
+combat_skill: .id "maincourse" .level 1 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MCourse_Final_Bark" "Binge_Disease_Allies" "Mcourse_FX_poiscloud" "NormalStance" "Mcourse_FX_loopend" .refresh_after_each_wave true
+combat_skill: .id "maincourse" .level 2 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MCourse_Final_Bark" "Binge_Disease_Allies" "Mcourse_FX_poiscloud" "NormalStance" "Mcourse_FX_loopend" .refresh_after_each_wave true
+combat_skill: .id "maincourse" .level 3 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MCourse_Final_Bark" "Binge_Disease_Allies" "Mcourse_FX_poiscloud" "NormalStance" "Mcourse_FX_loopend" .refresh_after_each_wave true
+combat_skill: .id "maincourse" .level 4 .launch 234 .target .valid_modes nocooking cooking .cooking_effects "MCourse_Final_Bark" "Binge_Disease_Allies" "Mcourse_FX_poiscloud" "NormalStance" "Mcourse_FX_loopend" .refresh_after_each_wave true
 combat_skill: .id "butcher" .level 0 .type "melee" .atk 85%  .dmg 0% .crit 5% .launch 123 .target 123 .valid_modes nocooking cooking .effect "Butcher_Bleed 1" "Butcher_Beast" .nocooking_effects "Butcher_Crit 1" .cooking_effects "MCourse_HealBuff" "TT_MCourse_HealBuff"
 combat_skill: .id "butcher" .level 1 .type "melee" .atk 90%  .dmg 0% .crit 6% .launch 123 .target 123 .valid_modes nocooking cooking .effect "Butcher_Bleed 2" "Butcher_Beast" .nocooking_effects "Butcher_Crit 2" .cooking_effects "MCourse_HealBuff" "TT_MCourse_HealBuff" 
 combat_skill: .id "butcher" .level 2 .type "melee" .atk 95%  .dmg 0% .crit 7% .launch 123 .target 123 .valid_modes nocooking cooking .effect "Butcher_Bleed 3" "Butcher_Beast" .nocooking_effects "Butcher_Crit 3" .cooking_effects "MCourse_HealBuff" "TT_MCourse_HealBuff" 
@@ -66,6 +66,7 @@ id_index: .index 178
 mode: .id nocooking .is_raid_default true
 mode: .id cooking .battle_complete_combat_skill_id "maincourse"
 skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+death_reaction: .target_allies true .target_enemies false .effects "Mcourse_FX_loopend"
 extra_curio_loot: .code "COOK_curio" .count 1
 extra_battle_loot: .code "COOK_crypts" .count 1
 extra_battle_loot: .code "COOK_cove" .count 1

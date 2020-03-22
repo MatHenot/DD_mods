@@ -2,11 +2,11 @@ resistances: .stun 50% .poison 30% .bleed 30% .disease 30% .move 10% .debuff 50%
 
 crit: .effects "Thorn_on_crit"
 
-weapon: .name "thorn_weapon_0" .atk 0%  .dmg 6  9  .crit 2% .spd 6
-weapon: .name "thorn_weapon_1" .atk 5%  .dmg 7  11 .crit 3% .spd 6 .upgradeRequirementCode 0
-weapon: .name "thorn_weapon_2" .atk 10% .dmg 8  12 .crit 4% .spd 7 .upgradeRequirementCode 1
-weapon: .name "thorn_weapon_3" .atk 15% .dmg 9  14 .crit 5% .spd 7 .upgradeRequirementCode 2
-weapon: .name "thorn_weapon_4" .atk 20% .dmg 10 15 .crit 6% .spd 8 .upgradeRequirementCode 3
+weapon: .name "thorn_weapon_0" .atk 0%  .dmg 7  11 .crit 2% .spd 6
+weapon: .name "thorn_weapon_1" .atk 5%  .dmg 8  13 .crit 3% .spd 6 .upgradeRequirementCode 0
+weapon: .name "thorn_weapon_2" .atk 10% .dmg 9  14 .crit 4% .spd 7 .upgradeRequirementCode 1
+weapon: .name "thorn_weapon_3" .atk 15% .dmg 10 16 .crit 5% .spd 7 .upgradeRequirementCode 2
+weapon: .name "thorn_weapon_4" .atk 20% .dmg 11 17 .crit 6% .spd 8 .upgradeRequirementCode 3
 armour: .name "thorn_armour_0" .def 15% .prot 0% .hp 22 .spd 0
 armour: .name "thorn_armour_1" .def 20% .prot 0% .hp 27 .spd 0 .upgradeRequirementCode 0
 armour: .name "thorn_armour_2" .def 25% .prot 0% .hp 32 .spd 0 .upgradeRequirementCode 1
@@ -28,11 +28,11 @@ combat_skill: .id "wilt" .level 1 .type "ranged" .atk 85% .dmg -70% .crit 4% .la
 combat_skill: .id "wilt" .level 2 .type "ranged" .atk 85% .dmg -70% .crit 5% .launch 432 .target 1234 .ignore_stealth true .valid_modes offensive gash dare .effect "PRE vs Marked" "Wilt Speed 2" "Wilt Debuff 3" "Wilt Off" "Wilt Bleed 3" "Wilt Skill ToolTip 3"
 combat_skill: .id "wilt" .level 3 .type "ranged" .atk 85% .dmg -70% .crit 6% .launch 432 .target 1234 .ignore_stealth true .valid_modes offensive gash dare .effect "PRE vs Marked" "Wilt Speed 2" "Wilt Debuff 4" "Wilt Off" "Wilt Bleed 4" "Wilt Skill ToolTip 4"
 combat_skill: .id "wilt" .level 4 .type "ranged" .atk 85% .dmg -70% .crit 7% .launch 432 .target 1234 .ignore_stealth true .valid_modes offensive gash dare .effect "PRE vs Marked" "Wilt Speed 3" "Wilt Debuff 5" "Wilt Off" "Wilt Bleed 5" "Wilt Skill ToolTip 5"
-combat_skill: .id "gash" .level 0 .type "melee" .atk 70% .dmg -25% .crit 8%  .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 1" "Gash Tray ToolTip 1" "Gash Bleed 1" "Gash Skill ToolTip A1" "Gash Skill ToolTip B1"
-combat_skill: .id "gash" .level 1 .type "melee" .atk 70% .dmg -25% .crit 9%  .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 2" "Gash Tray ToolTip 2" "Gash Bleed 2" "Gash Skill ToolTip A2" "Gash Skill ToolTip B2"
-combat_skill: .id "gash" .level 2 .type "melee" .atk 70% .dmg -25% .crit 10% .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 3" "Gash Tray ToolTip 3" "Gash Bleed 3" "Gash Skill ToolTip A3" "Gash Skill ToolTip B3"
-combat_skill: .id "gash" .level 3 .type "melee" .atk 70% .dmg -25% .crit 11% .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 4" "Gash Tray ToolTip 4" "Gash Bleed 4" "Gash Skill ToolTip A4" "Gash Skill ToolTip B4"
-combat_skill: .id "gash" .level 4 .type "melee" .atk 70% .dmg -25% .crit 12% .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 5" "Gash Tray ToolTip 5" "Gash Bleed 5" "Gash Skill ToolTip A5" "Gash Skill ToolTip B5"
+combat_skill: .id "gash" .level 0 .type "melee" .atk 70% .dmg -30% .crit 8%  .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 1" "Gash Tray ToolTip 1" "Gash Bleed 1" "Gash Skill ToolTip A1" "Gash Skill ToolTip B1"
+combat_skill: .id "gash" .level 1 .type "melee" .atk 70% .dmg -30% .crit 9%  .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 2" "Gash Tray ToolTip 2" "Gash Bleed 2" "Gash Skill ToolTip A2" "Gash Skill ToolTip B2"
+combat_skill: .id "gash" .level 2 .type "melee" .atk 70% .dmg -30% .crit 10% .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 3" "Gash Tray ToolTip 3" "Gash Bleed 3" "Gash Skill ToolTip A3" "Gash Skill ToolTip B3"
+combat_skill: .id "gash" .level 3 .type "melee" .atk 70% .dmg -30% .crit 11% .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 4" "Gash Tray ToolTip 4" "Gash Bleed 4" "Gash Skill ToolTip A4" "Gash Skill ToolTip B4"
+combat_skill: .id "gash" .level 4 .type "melee" .atk 70% .dmg -30% .crit 12% .launch 21 .target 123 .ignore_stealth true .valid_modes offensive gash dare .effect "switch to Gash" "PRE vs Marked" "Gash Pierce" "Gash Riposte 5" "Gash Tray ToolTip 5" "Gash Bleed 5" "Gash Skill ToolTip A5" "Gash Skill ToolTip B5"
 combat_skill: .id "dare" .level 0 .type "" .launch 4321 .target .move 0 1 .is_crit_valid false .valid_modes offensive gash dare .effect "switch to Dare" "Dare Mark Clean" "Dare Self Mark" "Dare Riposte 1" "Dare Riposte ToolTip 1" "Dare Dodge 1" "Dare Dodge ToolTip 1" "Dare Skill ToolTip"
 combat_skill: .id "dare" .level 1 .type "" .launch 4321 .target .move 0 1 .is_crit_valid false .valid_modes offensive gash dare .effect "switch to Dare" "Dare Mark Clean" "Dare Self Mark" "Dare Riposte 2" "Dare Riposte ToolTip 2" "Dare Dodge 2" "Dare Dodge ToolTip 2" "Dare Skill ToolTip"
 combat_skill: .id "dare" .level 2 .type "" .launch 4321 .target .move 0 1 .is_crit_valid false .valid_modes offensive gash dare .effect "switch to Dare" "Dare Mark Clean" "Dare Self Mark" "Dare Riposte 3" "Dare Riposte ToolTip 3" "Dare Dodge 3" "Dare Dodge ToolTip 3" "Dare Skill ToolTip"

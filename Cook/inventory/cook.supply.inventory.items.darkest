@@ -1,24 +1,24 @@
-inventory_item: .type "supply" .id "cook_common_A" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_common_A"
-inventory_item: .type "supply" .id "cook_common_B" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_common_B"
-inventory_item: .type "supply" .id "cook_common_C" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_common_C"
+inventory_item: .type "supply" .id "cook_common_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_common_A"
+inventory_item: .type "supply" .id "cook_common_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_common_B"
+inventory_item: .type "supply" .id "cook_common_C" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_common_C"
 
-inventory_item: .type "supply" .id "cook_crypts_A" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_crypts_A"
-inventory_item: .type "supply" .id "cook_crypts_B" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_crypts_B"
+inventory_item: .type "supply" .id "cook_crypts_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_crypts_A"
+inventory_item: .type "supply" .id "cook_crypts_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_crypts_B"
 
-inventory_item: .type "supply" .id "cook_cove_A" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_cove_A"
-inventory_item: .type "supply" .id "cook_cove_B" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_cove_B"
+inventory_item: .type "supply" .id "cook_cove_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_cove_A"
+inventory_item: .type "supply" .id "cook_cove_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_cove_B"
 
-inventory_item: .type "supply" .id "cook_warrens_A" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_warrens_A"
-inventory_item: .type "supply" .id "cook_warrens_B" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_warrens_B"
+inventory_item: .type "supply" .id "cook_warrens_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_warrens_A"
+inventory_item: .type "supply" .id "cook_warrens_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_warrens_B"
 
-inventory_item: .type "supply" .id "cook_weald_A" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_weald_A"
-inventory_item: .type "supply" .id "cook_weald_B" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_weald_B"
+inventory_item: .type "supply" .id "cook_weald_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_weald_A"
+inventory_item: .type "supply" .id "cook_weald_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_weald_B"
 
-inventory_item: .type "supply" .id "cook_courtyard_A" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_courtyard_A"
-inventory_item: .type "supply" .id "cook_courtyard_B" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_courtyard_B"
+inventory_item: .type "supply" .id "cook_courtyard_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_courtyard_A"
+inventory_item: .type "supply" .id "cook_courtyard_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_courtyard_B"
 
-inventory_item: .type "supply" .id "cook_farm_A" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_farm_A"
-inventory_item: .type "supply" .id "cook_farm_B" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_farm_B"
+inventory_item: .type "supply" .id "cook_farm_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_farm_A"
+inventory_item: .type "supply" .id "cook_farm_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_farm_B"
 
-inventory_item: .type "supply" .id "cook_SI_A" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_SI_A"
-inventory_item: .type "supply" .id "cook_SI_B" .base_stack_limit 1 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_SI_B"
+inventory_item: .type "supply" .id "cook_SI_A" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_SI_A"
+inventory_item: .type "supply" .id "cook_SI_B" .base_stack_limit 3 .purchase_gold_value 0 .sell_gold_value 0 .sequential_use_effects "cook_SI_B"

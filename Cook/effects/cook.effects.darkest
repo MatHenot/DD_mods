@@ -21,7 +21,7 @@ effect: .name "Cook_MovePush" .target "performer" .push 1 .chance 5% .on_hit tru
 
 effect: .name "CookingStance" .target "performer" .chance 100% .set_mode cooking .on_hit true .on_miss true
 effect: .name "NormalStance" .target "performer" .chance 100% .set_mode nocooking .on_hit true .on_miss true
-effect: .name "Mcourse_FX_loopend" .target "performer" .chance 100% .buff_ids "Mcourse_FX_loopend" .buff_source_type bsrc_virtue .on_hit true .on_miss true
+effect: .name "Mcourse_FX_loopend" .target "performer" .chance 100% .buff_ids "Mcourse_FX_loopend" .buff_source_type bsrc_virtue .on_hit true .on_miss true .queue true
 
 effect: .name "MCourse_MoveBlock" .target "performer" .chance 100% .buff_ids "MCourse_MoveBlock" "MCourse_MoveResist" .buff_source_type bsrc_notspecified .on_hit true .on_miss true .queue true .has_description false
 effect: .name "TT_MCourse_MoveBlock" .target "performer" .chance 100% .buff_ids "TT_MCourse_MoveBlock" .on_hit true .on_miss true .queue true 
@@ -165,7 +165,7 @@ effect: .name "T_Pendant_HealReceiv" .target "target" .chance 100% .buff_ids "Co
 effect: .name "T_Pendant_DMG" .target "target" .chance 100% .health_damage 1 .on_hit true .on_miss false .has_description false
 effect: .name "T_Pendant_DMG 50" .target "target" .chance 50% .health_damage 1 .on_hit true .on_miss false .has_description false
 
-effect: .name "T_Glasses_Stealth" .target "performer" .chance 70% .stealth 1 .duration 2 .on_hit true .on_miss false .queue true
+effect: .name "T_Glasses_Stealth" .target "performer" .chance 50% .stealth 1 .duration 2 .on_hit true .on_miss false .queue true
 
 effect: .name "T_Furin_DD" .target "performer" .chance 100% .buff_ids DEATHBLOWRESIST5 .on_hit true .on_miss false .queue true
 
