@@ -1,0 +1,146 @@
+
+bluesman.sprite.combat.png
+size: 3236,2077
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1-cards copy
+  rotate: false
+  xy: 1184, 838
+  size: 185, 106
+  orig: 185, 106
+  offset: 0, 0
+  index: -1
+1-hat copy
+  rotate: false
+  xy: 2349, 642
+  size: 636, 391
+  orig: 636, 391
+  offset: 0, 0
+  index: -1
+10-torso
+  rotate: false
+  xy: 1184, 945
+  size: 804, 1131
+  orig: 804, 1131
+  offset: 0, 0
+  index: -1
+11- right arm
+  rotate: false
+  xy: 1337, 17
+  size: 450, 820
+  orig: 450, 820
+  offset: 0, 0
+  index: -1
+12- right hand_combat
+  rotate: true
+  xy: 1, 84
+  size: 680, 1017
+  orig: 680, 1017
+  offset: 0, 0
+  index: -1
+13- razor
+  rotate: false
+  xy: 1989, 1550
+  size: 342, 526
+  orig: 342, 526
+  offset: 0, 0
+  index: -1
+14- right leg
+  rotate: false
+  xy: 1788, 29
+  size: 560, 915
+  orig: 560, 915
+  offset: 0, 0
+  index: -1
+15- right foot
+  rotate: false
+  xy: 2986, 822
+  size: 249, 211
+  orig: 249, 211
+  offset: 0, 0
+  index: -1
+16-cane top
+  rotate: true
+  xy: 2349, 102
+  size: 539, 411
+  orig: 539, 411
+  offset: 0, 0
+  index: -1
+16-left leg
+  rotate: true
+  xy: 2349, 1561
+  size: 515, 885
+  orig: 515, 885
+  offset: 0, 0
+  index: -1
+17- flap_right copy
+  rotate: false
+  xy: 1019, 1
+  size: 317, 834
+  orig: 317, 834
+  offset: 0, 0
+  index: -1
+17-left foot
+  rotate: false
+  xy: 2761, 6
+  size: 404, 117
+  orig: 404, 117
+  offset: 0, 0
+  index: -1
+18- flap_ left copy
+  rotate: false
+  xy: 2189, 1011
+  size: 131, 538
+  orig: 131, 538
+  offset: 0, 0
+  index: -1
+18-cane bottom
+  rotate: false
+  xy: 594, 836
+  size: 589, 1240
+  orig: 589, 1240
+  offset: 0, 0
+  index: -1
+2- head
+  rotate: true
+  xy: 2761, 124
+  size: 517, 464
+  orig: 517, 464
+  offset: 0, 0
+  index: -1
+4- cigar copy
+  rotate: false
+  xy: 1370, 845
+  size: 149, 99
+  orig: 149, 99
+  offset: 0, 0
+  index: -1
+6- left arm
+  rotate: true
+  xy: 2349, 1034
+  size: 526, 875
+  orig: 526, 875
+  offset: 0, 0
+  index: -1
+9- tie copy
+  rotate: false
+  xy: 1989, 952
+  size: 199, 597
+  orig: 199, 597
+  offset: 0, 0
+  index: -1
+fx
+  rotate: false
+  xy: 1, 765
+  size: 592, 1311
+  orig: 592, 1311
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1, 13
+  size: 366, 70
+  orig: 366, 70
+  offset: 0, 0
+  index: -1

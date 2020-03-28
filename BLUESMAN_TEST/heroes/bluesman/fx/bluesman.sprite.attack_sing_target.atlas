@@ -1,0 +1,13 @@
+
+bluesman.sprite.attack_sing_target.png
+size: 231,357
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sing_symbol_vfx
+  rotate: false
+  xy: 2, 2
+  size: 227, 353
+  orig: 227, 353
+  offset: 0, 0
+  index: -1

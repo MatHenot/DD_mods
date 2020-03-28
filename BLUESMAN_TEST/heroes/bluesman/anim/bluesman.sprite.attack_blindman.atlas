@@ -1,0 +1,41 @@
+
+bluesman.sprite.attack_blindman.png
+size: 3791,3791
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blind_man_eye.png
+  rotate: false
+  xy: 2, 360
+  size: 77, 62
+  orig: 77, 62
+  offset: 0, 0
+  index: -1
+blind_man_eyes
+  rotate: false
+  xy: 2029, 1370
+  size: 276, 114
+  orig: 276, 114
+  offset: 0, 0
+  index: -1
+blindman_vfx
+  rotate: false
+  xy: 2, 496
+  size: 2025, 3293
+  orig: 2025, 3293
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 424
+  size: 366, 70
+  orig: 366, 70
+  offset: 0, 0
+  index: -1
+sprite_blindman
+  rotate: false
+  xy: 2029, 1486
+  size: 1760, 2303
+  orig: 1760, 2303
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+bluesman.sprite.attack_everybody_move_target.png
+size: 219,309
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+move_symbol_vfx
+  rotate: false
+  xy: 2, 2
+  size: 215, 305
+  orig: 215, 305
+  offset: 0, 0
+  index: -1

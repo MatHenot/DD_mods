@@ -1,0 +1,108 @@
+// Bluesman
+
+//Resistances
+resistances: .stun 40% .poison 30% .bleed 30% .disease 30% .move 10% .debuff 30% .death_blow 67% .trap 0%
+
+
+//Weapon & Armor
+weapon: .name "bluesman_weapon_0" .atk 0%  .dmg 2 4  .crit 5% .spd 7
+weapon: .name "bluesman_weapon_1" .atk 0%  .dmg 2 5  .crit 6% .spd 7    .upgradeRequirementCode 0
+weapon: .name "bluesman_weapon_2" .atk 0%  .dmg 3 6  .crit 7% .spd 8    .upgradeRequirementCode 1
+weapon: .name "bluesman_weapon_3" .atk 0%  .dmg 4 7  .crit 8% .spd 8    .upgradeRequirementCode 2
+weapon: .name "bluesman_weapon_4" .atk 0%  .dmg 5 9  .crit 9% .spd 10   .upgradeRequirementCode 3
+
+armour: .name "bluesman_armour_0" .def 7%  .prot 0   .hp 20   .spd 0
+armour: .name "bluesman_armour_1" .def 12% .prot 0   .hp 24   .spd 0     .upgradeRequirementCode 0
+armour: .name "bluesman_armour_2" .def 17% .prot 0   .hp 28   .spd 0     .upgradeRequirementCode 1
+armour: .name "bluesman_armour_3" .def 22% .prot 0   .hp 32   .spd 0     .upgradeRequirementCode 2
+armour: .name "bluesman_armour_4" .def 27% .prot 0   .hp 36   .spd 0     .upgradeRequirementCode 3
+
+//Close Shave
+combat_skill: .id "close_shave" .level 0 .type "melee" .atk 70%  .dmg -33% .crit 3%  .launch 21 .target ~12  .is_crit_valid True .effect "Shave_bleed_1" "Shave_debuff_1"
+combat_skill: .id "close_shave" .level 1 .type "melee" .atk 70%  .dmg -33% .crit 5%  .launch 21 .target ~12  .is_crit_valid True .effect "Shave_bleed_2" "Shave_debuff_2"
+combat_skill: .id "close_shave" .level 2 .type "melee" .atk 70%  .dmg -33% .crit 7%  .launch 21 .target ~12  .is_crit_valid True .effect "Shave_bleed_3" "Shave_debuff_3"
+combat_skill: .id "close_shave" .level 3 .type "melee" .atk 70%  .dmg -33% .crit 9%  .launch 21 .target ~12  .is_crit_valid True .effect "Shave_bleed_4" "Shave_debuff_4"
+combat_skill: .id "close_shave" .level 4 .type "melee" .atk 70%  .dmg -33% .crit 12% .launch 21 .target ~12  .is_crit_valid True .effect "Shave_bleed_5" "Shave_debuff_5"
+
+//Move Yo’ Feet
+combat_skill: .id "feet_move" .level 0 .type "ranged" .atk 100% .dmg -100% .launch 4321 .target ~1234 .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .effect "Feet_enemy_shuffle_1" "Feet_debuff_1" "Feet_self_stress_heal_1" "Feet_self_shuffle_1" "FakeBlight_BM" "Feet_CD"  
+combat_skill: .id "feet_move" .level 1 .type "ranged" .atk 105% .dmg -100% .launch 4321 .target ~1234 .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .effect "Feet_enemy_shuffle_2" "Feet_debuff_2" "Feet_self_stress_heal_2" "Feet_self_shuffle_2" "FakeBlight_BM" "Feet_CD"
+combat_skill: .id "feet_move" .level 2 .type "ranged" .atk 110% .dmg -100% .launch 4321 .target ~1234 .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .effect "Feet_enemy_shuffle_3" "Feet_debuff_3" "Feet_self_stress_heal_3" "Feet_self_shuffle_3" "FakeBlight_BM" "Feet_CD"
+combat_skill: .id "feet_move" .level 3 .type "ranged" .atk 115% .dmg -100% .launch 4321 .target ~1234 .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .effect "Feet_enemy_shuffle_4" "Feet_debuff_4" "Feet_self_stress_heal_4" "Feet_self_shuffle_4" "FakeBlight_BM" "Feet_CD"
+combat_skill: .id "feet_move" .level 4 .type "ranged" .atk 120% .dmg -100% .launch 4321 .target ~1234 .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .effect "Feet_enemy_shuffle_5" "Feet_debuff_5" "Feet_self_stress_heal_5" "Feet_self_shuffle_5" "FakeBlight_BM" "Feet_CD"
+
+//Singin’ the Blues 
+combat_skill: .id "blues_song" .level 0 .type .atk 0% .dmg 0% .launch 1234 .target @~1234 .is_crit_valid False .per_battle_limit 1 .refresh_after_each_wave True .effect "Blues_Song_Team_1" "Blues_Relief_1" .is_stall_invalidating true .refresh_after_each_wave true 
+combat_skill: .id "blues_song" .level 1 .type .atk 0% .dmg 0% .launch 1234 .target @~1234 .is_crit_valid False .per_battle_limit 1 .refresh_after_each_wave True .effect "Blues_Song_Team_2" "Blues_Relief_2" .is_stall_invalidating true .refresh_after_each_wave true
+combat_skill: .id "blues_song" .level 2 .type .atk 0% .dmg 0% .launch 1234 .target @~1234 .is_crit_valid False .per_battle_limit 1 .refresh_after_each_wave True .effect "Blues_Song_Team_3" "Blues_Relief_3" .is_stall_invalidating true .refresh_after_each_wave true
+combat_skill: .id "blues_song" .level 3 .type .atk 0% .dmg 0% .launch 1234 .target @~1234 .is_crit_valid False .per_battle_limit 1 .refresh_after_each_wave True .effect "Blues_Song_Team_4" "Blues_Relief_4" .is_stall_invalidating true .refresh_after_each_wave true
+combat_skill: .id "blues_song" .level 4 .type .atk 0% .dmg 0% .launch 1234 .target @~1234 .is_crit_valid False .per_battle_limit 1 .refresh_after_each_wave True .effect "Blues_Song_Team_5" "Blues_Relief_5" .is_stall_invalidating true .refresh_after_each_wave true
+
+//I See Said...
+combat_skill: .id "glasses" .level 0 .type .atk 80%  .dmg  0% .launch 4321 .target  .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .glasses_low_effects "Glasses_On" "Glasses_TT1" "Glasses_Buffs_1" "Glasses_TT_DMG_1" "Glasses_Off_Barks" .per_turn_limit 1 .is_stall_invalidating true .refresh_after_each_wave true .is_continue_turn true
+combat_skill: .id "glasses" .level 1 .type .atk 85%  .dmg  0% .launch 4321 .target  .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .glasses_low_effects "Glasses_On" "Glasses_TT1" "Glasses_Buffs_2" "Glasses_TT_DMG_2" "Glasses_Off_Barks" .per_turn_limit 1 .is_stall_invalidating true .refresh_after_each_wave true .is_continue_turn true
+combat_skill: .id "glasses" .level 2 .type .atk 90%  .dmg  0% .launch 4321 .target  .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .glasses_low_effects "Glasses_On" "Glasses_TT1" "Glasses_Buffs_3" "Glasses_TT_DMG_3" "Glasses_Off_Barks" .per_turn_limit 1 .is_stall_invalidating true .refresh_after_each_wave true .is_continue_turn true
+combat_skill: .id "glasses" .level 3 .type .atk 95%  .dmg  0% .launch 4321 .target  .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .glasses_low_effects "Glasses_On" "Glasses_TT1" "Glasses_Buffs_4" "Glasses_TT_DMG_4" "Glasses_Off_Barks" .per_turn_limit 1 .is_stall_invalidating true .refresh_after_each_wave true .is_continue_turn true
+combat_skill: .id "glasses" .level 4 .type .atk 100% .dmg  0% .launch 4321 .target  .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .glasses_low_effects "Glasses_On" "Glasses_TT1" "Glasses_Buffs_5" "Glasses_TT_DMG_5" "Glasses_Off_Barks" .per_turn_limit 1 .is_stall_invalidating true .refresh_after_each_wave true .is_continue_turn true
+
+combat_skill: .id "glasses" .level 0 .type .atk 80%  .dmg  0% .launch 4321 .target  .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .glasses_high_effects "Glasses_TT2" "Glasses_Off" "Glasses_On_Barks" .per_turn_limit 1 .is_stall_invalidating true .refresh_after_each_wave true .is_continue_turn true
+combat_skill: .id "glasses" .level 1 .type .atk 85%  .dmg  0% .launch 4321 .target  .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .glasses_high_effects "Glasses_TT2" "Glasses_Off" "Glasses_On_Barks" .per_turn_limit 1 .is_stall_invalidating true .refresh_after_each_wave true .is_continue_turn true
+combat_skill: .id "glasses" .level 2 .type .atk 90%  .dmg  0% .launch 4321 .target  .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .glasses_high_effects "Glasses_TT2" "Glasses_Off" "Glasses_On_Barks" .per_turn_limit 1 .is_stall_invalidating true .refresh_after_each_wave true .is_continue_turn true
+combat_skill: .id "glasses" .level 3 .type .atk 95%  .dmg  0% .launch 4321 .target  .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .glasses_high_effects "Glasses_TT2" "Glasses_Off" "Glasses_On_Barks" .per_turn_limit 1 .is_stall_invalidating true .refresh_after_each_wave true .is_continue_turn true
+combat_skill: .id "glasses" .level 4 .type .atk 100% .dmg  0% .launch 4321 .target  .is_crit_valid False .valid_modes glasses_low glasses_high .nil true .glasses_high_effects "Glasses_TT2" "Glasses_Off" "Glasses_On_Barks" .per_turn_limit 1 .is_stall_invalidating true .refresh_after_each_wave true .is_continue_turn true
+
+//The Crossroads
+combat_skill: .id "crossroads" .level 0 .type .atk 0% .dmg 0% .crit 0% .move 1 0 .launch 321 .target .is_crit_valid False .effect "Crossroads_team_1" "Crossroads_Self_1" .is_stall_invalidating true
+combat_skill: .id "crossroads" .level 1 .type .atk 0% .dmg 0% .crit 0% .move 1 0 .launch 321 .target .is_crit_valid False .effect "Crossroads_team_2" "Crossroads_Self_2" .is_stall_invalidating true
+combat_skill: .id "crossroads" .level 2 .type .atk 0% .dmg 0% .crit 0% .move 1 0 .launch 321 .target .is_crit_valid False .effect "Crossroads_team_3" "Crossroads_Self_3" .is_stall_invalidating true
+combat_skill: .id "crossroads" .level 3 .type .atk 0% .dmg 0% .crit 0% .move 1 0 .launch 321 .target .is_crit_valid False .effect "Crossroads_team_4" "Crossroads_Self_4" .is_stall_invalidating true
+combat_skill: .id "crossroads" .level 4 .type .atk 0% .dmg 0% .crit 0% .move 1 0 .launch 321 .target .is_crit_valid False .effect "Crossroads_team_5" "Crossroads_Self_5" .is_stall_invalidating true
+
+//StaggerLee Slash
+combat_skill: .id "hack_n_slash" .level 0 .type "melee" .atk 70%  .dmg -25% .crit 5% .move 0 1 .launch 234 .target 123 .is_crit_valid True .effect "Bluesman_Riposte" "Bluesman_Riposte_TT" "Bluesman_Tag_Killer_1"
+combat_skill: .id "hack_n_slash" .level 1 .type "melee" .atk 70%  .dmg -25% .crit 6% .move 0 1 .launch 234 .target 123 .is_crit_valid True .effect "Bluesman_Riposte" "Bluesman_Riposte_TT" "Bluesman_Tag_Killer_2"
+combat_skill: .id "hack_n_slash" .level 2 .type "melee" .atk 70%  .dmg -25% .crit 7% .move 0 1 .launch 234 .target 123 .is_crit_valid True .effect "Bluesman_Riposte" "Bluesman_Riposte_TT" "Bluesman_Tag_Killer_3"
+combat_skill: .id "hack_n_slash" .level 3 .type "melee" .atk 70%  .dmg -25% .crit 8% .move 0 1 .launch 234 .target 123 .is_crit_valid True .effect "Bluesman_Riposte" "Bluesman_Riposte_TT" "Bluesman_Tag_Killer_4"
+combat_skill: .id "hack_n_slash" .level 4 .type "melee" .atk 70%  .dmg -25% .crit 9% .move 0 1 .launch 234 .target 123 .is_crit_valid True .effect "Bluesman_Riposte" "Bluesman_Riposte_TT" "Bluesman_Tag_Killer_5"
+
+//From the Otherside
+combat_skill: .id "from_hell" .level 0 .type "ranged" .atk 70%  .dmg -10% .crit 0% .launch 43 .target ~34 .ignore_stealth true .is_crit_valid True .effect "Destealth" "Bluesman_Tag" "Bluesman_Demons_Debuff1"
+combat_skill: .id "from_hell" .level 1 .type "ranged" .atk 70%  .dmg -10% .crit 1% .launch 43 .target ~34 .ignore_stealth true .is_crit_valid True .effect "Destealth" "Bluesman_Tag" "Bluesman_Demons_Debuff2"
+combat_skill: .id "from_hell" .level 2 .type "ranged" .atk 70%  .dmg -10% .crit 2% .launch 43 .target ~34 .ignore_stealth true .is_crit_valid True .effect "Destealth" "Bluesman_Tag" "Bluesman_Demons_Debuff2"
+combat_skill: .id "from_hell" .level 3 .type "ranged" .atk 70%  .dmg -10% .crit 3% .launch 43 .target ~34 .ignore_stealth true .is_crit_valid True .effect "Destealth" "Bluesman_Tag" "Bluesman_Demons_Debuff3"
+combat_skill: .id "from_hell" .level 4 .type "ranged" .atk 70%  .dmg -10% .crit 4% .launch 43 .target ~34 .ignore_stealth true .is_crit_valid True .effect "Destealth" "Bluesman_Tag" "Bluesman_Demons_Debuff3"
+
+//Riposte
+riposte_skill: .id "riposte1" .level 0 .type "melee" .atk 70% .dmg -30% .crit 3% .launch 1234 .target 1234 .is_crit_valid True 
+
+//Move
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 2 .launch 4321 
+
+
+//Tags
+tag: .id "religious"
+tag: .id "light"
+tag: .id "performance_hall"
+
+
+//Crit & DeathDoors
+crit: .effects "on_crit_blues"
+deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff 
+
+
+//Id & Control
+controlled: .target_rank 1
+id_index: .index 666777
+
+
+//Modifiers
+skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 4
+
+
+//Modes
+mode: .id glasses_low  .is_raid_default true
+mode: .id glasses_high .battle_complete_combat_skill_id glasses .stress_damage_per_turn 10
+
+
+//Generation
+generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 3 .number_of_negative_quirks_min 2 .number_of_negative_quirks_max 3 .number_of_class_specific_camping_skills 4 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 4 .number_of_cards_in_deck 1 .card_chance 9999

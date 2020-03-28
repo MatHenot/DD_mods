@@ -1,0 +1,20 @@
+
+bluesman.sprite.investigate.png
+size: 2363,1759
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: true
+  xy: 2292, 1392
+  size: 366, 70
+  orig: 366, 70
+  offset: 0, 0
+  index: -1
+sprite_interact
+  rotate: true
+  xy: 1, 1
+  size: 1757, 2290
+  orig: 1757, 2290
+  offset: 0, 0
+  index: -1

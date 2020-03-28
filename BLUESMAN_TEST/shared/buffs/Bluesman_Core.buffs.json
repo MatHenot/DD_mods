@@ -1,0 +1,706 @@
+{
+   "buffs":
+   [
+      {
+       "id" : "CDs_Bluesman",
+       "stat_type" : "disable_combat_skill_attribute",
+       "stat_sub_type" : "poison",
+       "amount" : 1.0,
+       "duration" : 6,
+	   "remove_on_battle_complete" : true,
+       "remove_if_not_active" : false,
+       "rule_type" : "always",
+       "is_false_rule" : false,
+       "rule_data" : {
+          "float" : 0,
+          "string" : ""
+		 },
+		 "is_clear_debuff_valid": false,
+		 "has_description": false		 
+      },
+	{
+         "id" : "Sing_SPD_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },	
+	{
+         "id" : "Sing_SPD_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },	
+	{
+         "id" : "Sing_SPD_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Sing_CRT_1",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.03,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Sing_CRT_2",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },		   
+	{
+         "id" : "Sing_CRT_3",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },		   
+	{
+         "id" : "Sing_CRT_4",
+         "stat_type" : "crit_received_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Sing_STH_1",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Sing_STH_2",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },	
+	{
+         "id" : "Sing_STH_3",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Glasses_ACC_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.10,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      }, 
+	{
+         "id" : "Glasses_ACC_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.15,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      }, 	   
+	{
+         "id" : "Glasses_ACC_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.20,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      }, 
+	{
+         "id" : "Glasses_ACC_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.25,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      }, 
+	{
+         "id" : "Glasses_ACC_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.30,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      },    
+	{
+         "id" : "Glasses_Dodge_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.09,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      }, 
+	{
+         "id" : "Glasses_Dodge_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.1,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      }, 
+	{
+         "id" : "Glasses_Dodge_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.11,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      }, 
+	{
+         "id" : "Glasses_Dodge_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.12,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      }, 
+	{
+         "id" : "Glasses_Dodge_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.13,
+         "duration" : 1, 
+         "duration_type" : "combat_end", 
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      }, 
+	{
+         "id" : "Glasses_B_DMG_L_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 2,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      }, 
+	{
+         "id" : "Glasses_B_DMG_H_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 2,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      }, 
+	{
+         "id" : "Glasses_B_DMG_L_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 3,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      }, 
+	{
+         "id" : "Glasses_B_DMG_H_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 3,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      }, 
+	{
+         "id" : "Glasses_B_DMG_L_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 4,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      },  
+	{
+         "id" : "Glasses_B_DMG_H_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 4,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      },
+	{
+         "id" : "Glasses_B_DMG_L_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 5,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      },  
+	{
+         "id" : "Glasses_B_DMG_H_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 5,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      },
+	{
+         "id" : "Glasses_B_DMG_L_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_low",
+         "amount" : 6,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      },  
+	{
+         "id" : "Glasses_B_DMG_H_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "damage_high",
+         "amount" : 6,
+         "duration" : 1, 
+         "duration_type" : "combat_end",
+         "remove_if_not_active" : true,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "glasses_high"
+		 },
+		 "has_description": false		 
+      },  	  
+	{
+         "id" : "Cross_DMGL_1_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.09,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Cross_DMGL_1_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Cross_DMGL_1_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Cross_DMGL_1_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.18,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },	   
+	{
+         "id" : "Cross_DMGL_1_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.21,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Cross_DMGH_1_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.09,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Cross_DMGH_1_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.12,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Cross_DMGH_1_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Cross_DMGH_1_4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.18,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Cross_DMGH_1_5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.21,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Cross_CRT_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.04,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },	
+	{
+         "id" : "Cross_CRT_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },	   
+	{
+         "id" : "Cross_CRT_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },	   
+	{
+         "id" : "Cross_Dodge_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.05,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Cross_Dodge_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.06,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },
+	{
+         "id" : "Cross_Dodge_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },	   
+	{
+         "id" : "Cross_Dodge_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       },	   
+	{
+         "id" : "Cross_Dodge_5",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.09,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+       }	   
+   ]
+}	   

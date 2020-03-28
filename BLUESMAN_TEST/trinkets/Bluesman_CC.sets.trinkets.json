@@ -1,0 +1,12 @@
+{
+   "sets":
+   [
+      {
+         "id" : "cc_bluesman",
+         "buffs" : 
+         [
+            "Blues_Virtue"
+         ]
+      }
+   ]
+}

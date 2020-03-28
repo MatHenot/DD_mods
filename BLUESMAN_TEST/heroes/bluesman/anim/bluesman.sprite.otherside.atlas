@@ -1,0 +1,20 @@
+
+bluesman.sprite.otherside.png
+size: 3890,2430
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+otherside_vfx
+  rotate: true
+  xy: 1, 1
+  size: 2428, 2158
+  orig: 2428, 2158
+  offset: 0, 0
+  index: -1
+sprite_otherside
+  rotate: false
+  xy: 2160, 456
+  size: 1729, 1973
+  orig: 1729, 1973
+  offset: 0, 0
+  index: -1

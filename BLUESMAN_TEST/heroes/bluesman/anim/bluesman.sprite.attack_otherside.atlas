@@ -1,0 +1,20 @@
+
+bluesman.sprite.attack_otherside.png
+size: 1581,822
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+otherside_vfx
+  rotate: false
+  xy: 2, 2
+  size: 920, 818
+  orig: 920, 818
+  offset: 0, 0
+  index: -1
+sprite_otherside
+  rotate: false
+  xy: 924, 73
+  size: 655, 747
+  orig: 655, 747
+  offset: 0, 0
+  index: -1

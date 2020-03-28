@@ -1,0 +1,20 @@
+
+bluesman.sprite.attack_crossroads_target.png
+size: 412,227
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+crossroads_icon_fx
+  rotate: true
+  xy: 2, 2
+  size: 223, 388
+  orig: 223, 388
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 392, 135
+  size: 90, 18
+  orig: 92, 18
+  offset: 1, 0
+  index: -1

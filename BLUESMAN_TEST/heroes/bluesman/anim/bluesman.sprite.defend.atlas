@@ -1,0 +1,20 @@
+
+bluesman.sprite.defend.png
+size: 2356,1570
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+defense
+  rotate: true
+  xy: 1, 1
+  size: 1568, 2283
+  orig: 1568, 2283
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 2285, 1203
+  size: 366, 70
+  orig: 366, 70
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,136 @@
+{
+   "buffs":
+   [
+   {
+         "id" : "Feet_CD_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Feet_CD_TT_A",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+		 },
+		 "is_clear_debuff_valid": false
+      },
+   {
+         "id" : "GLASS_TT_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Glass_TT_A",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+   {
+         "id" : "GLASS_TT_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Glass_TT_B",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+   {
+         "id" : "GLASS_DMG_TT_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GLASS_DMG_TT_A",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+   {
+         "id" : "GLASS_DMG_TT_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GLASS_DMG_TT_B",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },		  
+   {
+         "id" : "GLASS_DMG_TT_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GLASS_DMG_TT_C",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+   {
+         "id" : "GLASS_DMG_TT_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GLASS_DMG_TT_D",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+   {
+         "id" : "GLASS_DMG_TT_5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "GLASS_DMG_TT_E",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+   {
+         "id" : "Bluesman_Riposte_TT_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Bluesman_Riposte_TT_A",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+   {
+         "id" : "pact_tt_blues",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "pact_tt_blues_A",
+         "amount" : 0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }	  
+  ]
+}	 	  

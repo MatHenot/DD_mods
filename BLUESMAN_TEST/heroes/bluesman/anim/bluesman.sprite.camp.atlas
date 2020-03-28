@@ -1,0 +1,20 @@
+
+bluesman.sprite.camp.png
+size: 1985,1507
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+camp_sprite
+  rotate: true
+  xy: 1, 1
+  size: 1505, 1912
+  orig: 1505, 1912
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1914, 1140
+  size: 366, 70
+  orig: 366, 70
+  offset: 0, 0
+  index: -1

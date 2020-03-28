@@ -1,0 +1,20 @@
+
+bluesman.sprite.attack_close_shave.png
+size: 2842,2308
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: true
+  xy: 2771, 1941
+  size: 366, 70
+  orig: 366, 70
+  offset: 0, 0
+  index: -1
+sprite_shave
+  rotate: false
+  xy: 1, 1
+  size: 2769, 2306
+  orig: 2769, 2306
+  offset: 0, 0
+  index: -1

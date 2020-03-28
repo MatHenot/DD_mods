@@ -1,0 +1,13 @@
+
+bluesman.sprite.close_shave_fx.png
+size: 385,241
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shave_vfx
+  rotate: false
+  xy: 2, 2
+  size: 381, 237
+  orig: 381, 237
+  offset: 0, 0
+  index: -1

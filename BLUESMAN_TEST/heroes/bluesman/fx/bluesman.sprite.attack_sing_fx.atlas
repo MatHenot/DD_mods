@@ -1,0 +1,13 @@
+
+bluesman.sprite.attack_sing_fx.png
+size: 627,213
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sing_notes_vfx
+  rotate: false
+  xy: 2, 2
+  size: 623, 209
+  orig: 623, 209
+  offset: 0, 0
+  index: -1
