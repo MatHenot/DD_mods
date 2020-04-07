@@ -211,6 +211,7 @@ panels/icons_equip/trinket/inv_trinket+cook_head.png
 panels/icons_equip/trinket/inv_trinket+cook_knives.png
 panels/icons_equip/trinket/inv_trinket+cook_pendant.png
 panels/icons_equip/trinket/inv_trinket+cook_spices.png
+panels/icons_equip/trinket/rarity_sakura.png
 raid/camping/skill_icons/camp_skill_abundance.png
 raid/camping/skill_icons/camp_skill_apetizer.png
 raid/camping/skill_icons/camp_skill_light_bearer.png
@@ -315,6 +316,7 @@ localization/cook_russian.string_table.xml
 localization/cook_schinese.string_table.xml
 localization/cook_spanish.string_table.xml
 loot/cook.loot.json
+trinkets/East_town.rarities.trinkets.json
 trinkets/com.rarities.trinkets.json
 trinkets/cook.entries.trinkets.json
 trinkets/cook.sets.trinkets.json
@@ -323,6 +325,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting...................................................................................................................................................................................................................................................................................Submitted.
+Submitting.............................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Cook\project.xml
 
