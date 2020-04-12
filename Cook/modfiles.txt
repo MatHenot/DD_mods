@@ -176,6 +176,7 @@ panels/icons_equip/trinket/inv_trinket+cook_head.png 46045
 panels/icons_equip/trinket/inv_trinket+cook_knives.png 47912
 panels/icons_equip/trinket/inv_trinket+cook_pendant.png 44725
 panels/icons_equip/trinket/inv_trinket+cook_spices.png 47666
+panels/icons_equip/trinket/rarity_sakura.png 7823
 raid/camping/skill_icons/camp_skill_abundance.png 66941
 raid/camping/skill_icons/camp_skill_apetizer.png 64275
 raid/camping/skill_icons/camp_skill_light_bearer.png 66627
@@ -280,10 +281,11 @@ localization/cook_russian.string_table.xml 24629
 localization/cook_schinese.string_table.xml 19852
 localization/cook_spanish.string_table.xml 21055
 loot/cook.loot.json 6127
+trinkets/East_town.rarities.trinkets.json 162
 trinkets/com.rarities.trinkets.json 428
 trinkets/cook.entries.trinkets.json 4096
 trinkets/cook.sets.trinkets.json 170
 trinkets/crimson_court.rarities.trinkets.json 171
-modfiles.txt 9410
+modfiles.txt 14524
 preview_icon.png 500867
 project.xml 610

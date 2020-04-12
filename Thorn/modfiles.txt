@@ -178,6 +178,7 @@ panels/icons_equip/trinket/inv_trinket+thorn_potpourri.png 38115
 panels/icons_equip/trinket/inv_trinket+thorn_rapier_guard.png 43658
 panels/icons_equip/trinket/inv_trinket+thorn_rose_emblem.png 43461
 panels/icons_equip/trinket/inv_trinket+thorn_signet_ring.png 19580
+panels/icons_equip/trinket/rarity_sakura.png 7823
 raid/camping/skill_icons/camp_skill_thorncamp1.png 66100
 raid/camping/skill_icons/camp_skill_thorncamp2.png 66070
 raid/camping/skill_icons/camp_skill_thorncamp3.png 66955
@@ -207,7 +208,7 @@ audio/thorn.heroes.guid_overrides.json 6808
 audio/thorn.heroes.load_order.json 80
 colours/thorn.colours.darkest 559
 effects/thorn.effects.darkest 32092
-localization/1785514611_brazilian.loc 17170
+localization/1785514611_brazilian.loc 17952
 localization/1785514611_czech.loc 17170
 localization/1785514611_english.loc 17180
 localization/1785514611_french.loc 18449
@@ -220,8 +221,8 @@ localization/1785514611_polish.loc 17180
 localization/1785514611_russian.loc 24055
 localization/1785514611_schinese.loc 17839
 localization/1785514611_spanish.loc 18898
-localization/thorn_brazilian_dialogue.string_table.xml 16708
-localization/thorn_brazilian_tooltips.string_table.xml 11490
+localization/thorn_brazilian_dialogue.string_table.xml 17201
+localization/thorn_brazilian_tooltips.string_table.xml 11923
 localization/thorn_czech_dialogue.string_table.xml 16704
 localization/thorn_czech_tooltips.string_table.xml 11486
 localization/thorn_english_dialogue.string_table.xml 16716
@@ -254,6 +255,8 @@ trinkets/com.rarities.trinkets.json 428
 trinkets/crimson_court.rarities.trinkets.json 171
 trinkets/thorn.entries.trinkets.json 4227
 trinkets/thorn.sets.trinkets.json 153
+trinkets/thorn_east_town.rarities.trinkets.json 162
 modfiles.txt 13554
 preview_icon.png 409070
 project.xml 581
+steam_workshop_uploader.log 8150
