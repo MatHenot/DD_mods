@@ -254,7 +254,7 @@ audio/cook.heroes.load_order.json 79
 effects/cook.effects.darkest 19852
 inventory/cook.inventory.extra_stack_limits.darkest 78
 inventory/cook.supply.inventory.items.darkest 2610
-localization/1978083682_brazilian.loc 13992
+localization/1978083682_brazilian.loc 15043
 localization/1978083682_czech.loc 13992
 localization/1978083682_english.loc 13992
 localization/1978083682_french.loc 15077
@@ -267,7 +267,7 @@ localization/1978083682_polish.loc 13992
 localization/1978083682_russian.loc 19354
 localization/1978083682_schinese.loc 14572
 localization/1978083682_spanish.loc 15776
-localization/cook_brazilian.string_table.xml 19267
+localization/cook_brazilian.string_table.xml 20318
 localization/cook_czech.string_table.xml 19263
 localization/cook_english.string_table.xml 19265
 localization/cook_french.string_table.xml 20352
@@ -286,6 +286,6 @@ trinkets/com.rarities.trinkets.json 428
 trinkets/cook.entries.trinkets.json 4096
 trinkets/cook.sets.trinkets.json 170
 trinkets/crimson_court.rarities.trinkets.json 171
-modfiles.txt 14524
+modfiles.txt 14621
 preview_icon.png 500867
 project.xml 610
