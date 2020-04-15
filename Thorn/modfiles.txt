@@ -208,7 +208,7 @@ audio/thorn.heroes.guid_overrides.json 6808
 audio/thorn.heroes.load_order.json 80
 colours/thorn.colours.darkest 559
 effects/thorn.effects.darkest 32092
-localization/1785514611_brazilian.loc 17952
+localization/1785514611_brazilian.loc 17955
 localization/1785514611_czech.loc 17170
 localization/1785514611_english.loc 17180
 localization/1785514611_french.loc 18449
@@ -221,8 +221,8 @@ localization/1785514611_polish.loc 17180
 localization/1785514611_russian.loc 24055
 localization/1785514611_schinese.loc 17839
 localization/1785514611_spanish.loc 18898
-localization/thorn_brazilian_dialogue.string_table.xml 17201
-localization/thorn_brazilian_tooltips.string_table.xml 11923
+localization/thorn_brazilian_dialogue.string_table.xml 17203
+localization/thorn_brazilian_tooltips.string_table.xml 11780
 localization/thorn_czech_dialogue.string_table.xml 16704
 localization/thorn_czech_tooltips.string_table.xml 11486
 localization/thorn_english_dialogue.string_table.xml 16716
@@ -256,7 +256,6 @@ trinkets/crimson_court.rarities.trinkets.json 171
 trinkets/thorn.entries.trinkets.json 4227
 trinkets/thorn.sets.trinkets.json 153
 trinkets/thorn_east_town.rarities.trinkets.json 162
-modfiles.txt 13554
+modfiles.txt 13587
 preview_icon.png 409070
 project.xml 581
-steam_workshop_uploader.log 8150
