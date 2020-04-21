@@ -56,7 +56,7 @@
     <entry id="cook_armour_0"><![CDATA[破旧的围裙]]></entry>
     <entry id="cook_armour_1"><![CDATA[肮脏的围棋]]></entry>
     <entry id="cook_armour_2"><![CDATA[厨房的围裙]]></entry>
-    <entry id="cook_armour_3"><![CDATA[厨师的围裙]]></entry>
+    <entry id="cook_armour_3"><![CDATA[大厨的围裙]]></entry>
     <entry id="cook_armour_4"><![CDATA[“五星级”]]></entry>
     <entry id="upgrade_tree_name_cook.armour"><![CDATA[围裙]]></entry>
 
@@ -101,10 +101,10 @@
 	{colour_start|blight}腐蚀{colour_end} {colour_start|skill_unselectable}（130%%基础概率）{colour_end}
 	10伤害/回合 持续1回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_Cont"><![CDATA[{colour_start|notable}继续回合{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_2"><![CDATA[{colour_start|healhp}治疗{colour_end} 1-2生命/回合 持续2回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}治疗{colour_end} 2-3生命/回合 持续2回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}治疗{colour_end} 2-3生命/回合 持续3回合]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}治疗{colour_end} 3-4生命/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_2"><![CDATA[{colour_start|healhp}治疗{colour_end}1-2生命/回合 持续2回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}治疗{colour_end}2-3生命/回合 持续2回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_2"><![CDATA[{colour_start|healhp}治疗{colour_end}2-3生命/回合 持续3回合]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Entremet_4"><![CDATA[{colour_start|healhp}治疗{colour_end}3-4生命/回合 持续3回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%%全部抗性]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[友军技能：{colour_start|healhp}治疗{colour_end}0-2生命]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[友军技能：伤害1-2生命]]></entry>
@@ -130,12 +130,12 @@
 	<entry id="cook+str_bark_apetizer"><![CDATA[可能有点咸？但仍然是美味的开胃菜。]]></entry>
 	<entry id="cook+str_bark_apetizer"><![CDATA[这可以让你摆脱掉上次战斗时留下的糟糕品味。]]></entry>
     <entry id="cook+str_bark_light_bearer"><![CDATA[我可以安装便携式的火盆。]]></entry>
-	<entry id="cook+str_bark_light_bearer"><![CDATA[如果我设法能别烧掉我的包的话，我们应该能看得更清楚。]]></entry>
+	<entry id="cook+str_bark_light_bearer"><![CDATA[如果我设法能别烧掉我的包的话，我们应该能看得更清楚点。]]></entry>
 	<entry id="cook+str_bark_light_bearer"><![CDATA[点燃火盆。我们的道路将被照亮。]]></entry>
 
 	<entry id="cook+str_critbyhero"><![CDATA[那甚至都不能吃吧？]]></entry>
     <entry id="cook+str_critbyhero"><![CDATA[我们应该尝一小块吗？]]></entry>
-    <entry id="cook+str_critbyhero"><![CDATA[你被招待了！]]></entry>
+    <entry id="cook+str_critbyhero"><![CDATA[你被款待了！]]></entry>
     <entry id="cook+str_critbyhero"><![CDATA[很有品位的一击。]]></entry>
     <entry id="cook+str_critbyhero"><![CDATA[对我的浓汤来说还不够好。]]></entry>
     <entry id="cook+str_critbyhero"><![CDATA[你只是块生肉而已。]]></entry>
@@ -156,7 +156,7 @@
     <entry id="str_cook_overfed"><![CDATA[哦……我饱了。]]></entry>
     <entry id="str_cook_overfed"><![CDATA[那真的是……太多了。]]></entry>
     <entry id="str_cook_overfed"><![CDATA[我已经吃饱了，但是我就是停不下来。]]></entry>
-    <entry id="str_cook_overfed"><![CDATA[为什么这么好吃。]]></entry>
+    <entry id="str_cook_overfed"><![CDATA[为什么能这么好吃。]]></entry>
 
 	<entry id="cook+str_monster_user_selected_targets_kill_pill"><![CDATA[我已经活了很久了……但我可不想像这样离世！]]></entry>
     <entry id="cook+str_bark_deathsdoor"><![CDATA[至少，我准备好去那头了……]]></entry>
@@ -165,15 +165,15 @@
 	<entry id="cook+str_afflicted_paranoid"><![CDATA[你永远别想得到我的秘方！]]></entry>
     <entry id="cook+str_afflicted_selfish"><![CDATA[我应该得到更好的份额。是我背着所有的东西呢！]]></entry>
     <entry id="cook+str_afflicted_depressed"><![CDATA[要问我怎么想的？我可没有预料到。]]></entry>
-    <entry id="cook+str_afflicted_irrational"><![CDATA[放点这个……加上那个……然后也许再放更多盐？!]]></entry>
+    <entry id="cook+str_afflicted_irrational"><![CDATA[放点这个……加上那个……然后也许再放更多盐？！]]></entry>
     <entry id="cook+str_afflicted_fearful"><![CDATA[我希望你享受你最后的一餐……]]></entry>
-    <entry id="cook+str_afflicted_masochistic"><![CDATA[让痛苦都来吧！我再也不会感受倒我的背痛了]]></entry>
+    <entry id="cook+str_afflicted_masochistic"><![CDATA[让痛苦都来吧！我就再也不会感受倒我的背痛了。]]></entry>
 
 	<entry id="str_inventory_title_supplycook_common_A"><![CDATA[蛀尸蠕虫]]></entry>
 	<entry id="str_inventory_title_supplycook_common_B"><![CDATA[恶臭胆汁]]></entry>
-	<entry id="str_inventory_title_supplycook_common_C"><![CDATA[腰子片]]></entry>
+	<entry id="str_inventory_title_supplycook_common_C"><![CDATA[片腰子]]></entry>
 	<entry id="str_inventory_title_supplycook_crypts_A"><![CDATA[肱骨香粉]]></entry>
-	<entry id="str_inventory_title_supplycook_crypts_B"><![CDATA[老化头发]]></entry>
+	<entry id="str_inventory_title_supplycook_crypts_B"><![CDATA[老化毛发]]></entry>
 	<entry id="str_inventory_title_supplycook_cove_A"><![CDATA[鱼眼]]></entry>
 	<entry id="str_inventory_title_supplycook_cove_B"><![CDATA[肝油]]></entry>
 	<entry id="str_inventory_title_supplycook_warrens_A"><![CDATA[无污肋排]]></entry>
@@ -211,13 +211,13 @@
 	<entry id="str_cook_supply"><![CDATA[看起来很奇怪，但是挺不错。]]></entry>
 	<entry id="str_cook_supply"><![CDATA[粘糊糊的……但还算满意。]]></entry>
 	<entry id="str_cook_supply"><![CDATA[哦……其实没那么难吃。]]></entry>
-	<entry id="str_cook_supply"><![CDATA[恶心。等待……我感觉好多了！]]></entry>
+	<entry id="str_cook_supply"><![CDATA[恶心。等等……我感觉好多了！]]></entry>
 	<entry id="str_cook_supply"><![CDATA[我不能否认它的恢复作用。]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[好吃！]]></entry>
-	<entry id="cook+str_cook_supply"><![CDATA[你不知道你都错过些了什么。]]></entry>
+	<entry id="cook+str_cook_supply"><![CDATA[你们不知道你们都错过些了什么。]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[都是好吃的菜！]]></entry>
-	<entry id="cook+str_cook_supply"><![CDATA[*吞咽*来一口！]]></entry>
-	<entry id="cook+str_cook_supply"><![CDATA[*吞咽*哦……你想来一些吗？]]></entry>
+	<entry id="cook+str_cook_supply"><![CDATA[*吞咽*你们也来一口！]]></entry>
+	<entry id="cook+str_cook_supply"><![CDATA[*吞咽*哦……你们想来一些吗？]]></entry>
 
   </language>
 
