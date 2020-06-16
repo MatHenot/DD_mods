@@ -89,10 +89,6 @@
          "dungeon" : "farm",
          "entries" :
          [
-            { "type" : "nothing", "chances" : 4, "data" : { }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_A", "amount" : 1 }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_B", "amount" : 1 }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_common_C", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_farm_A", "amount" : 1 }},
             { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "cook_farm_B", "amount" : 1 }}
          ]
@@ -100,7 +96,7 @@
       {
          "id" : "COOK_SI",
          "difficulty" : 0,
-         "dungeon" : "SI",
+         "dungeon" : "ship",
          "entries" :
          [
             { "type" : "nothing", "chances" : 4, "data" : { }},
