@@ -265,7 +265,7 @@ localization/1978083682_koreana.loc 13862
 localization/1978083682_koreanb.loc 13862
 localization/1978083682_polish.loc 13992
 localization/1978083682_russian.loc 19354
-localization/1978083682_schinese.loc 14572
+localization/1978083682_schinese.loc 14600
 localization/1978083682_spanish.loc 15776
 localization/cook_brazilian.string_table.xml 20318
 localization/cook_czech.string_table.xml 19263
@@ -278,7 +278,7 @@ localization/cook_koreana.string_table.xml 18098
 localization/cook_koreanb.string_table.xml 18098
 localization/cook_polish.string_table.xml 19264
 localization/cook_russian.string_table.xml 24629
-localization/cook_schinese.string_table.xml 19852
+localization/cook_schinese.string_table.xml 19880
 localization/cook_spanish.string_table.xml 21055
 loot/cook.loot.json 6127
 trinkets/East_town.rarities.trinkets.json 162
