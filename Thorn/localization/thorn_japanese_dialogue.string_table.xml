@@ -190,6 +190,10 @@
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[I smell... flowers...]]></entry>
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[I'm fading...]]></entry>
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[The last petal... fell.]]></entry>
+
+    <entry id="str_roster_list_lost_bark"><![CDATA[Where am I?]]></entry>
+    <entry id="str_roster_list_lost_bark"><![CDATA[Don't leave me alone!]]></entry>
+    <entry id="str_roster_list_lost_bark"><![CDATA[Those sounds... Are there vile monsters around?]]></entry>
    
   </language>
 

@@ -190,7 +190,11 @@
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[Je sens... les fleurs...]]></entry>
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[Je m'efface...]]></entry>
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[Le dernier pétale... est tombé.]]></entry>
-   
+
+    <entry id="str_roster_list_lost_bark"><![CDATA[Mais où suis-je ?]]></entry>
+    <entry id="str_roster_list_lost_bark"><![CDATA[Ne me laissez pas seule !]]></entry>
+    <entry id="str_roster_list_lost_bark"><![CDATA[Ces sons... Y-aurait-il des vils monstres aux alentours ?]]></entry>
+	
   </language>
 
 </root>

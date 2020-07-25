@@ -190,6 +190,10 @@
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[꽃 향기가... 나는구나...]]></entry>
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[흐려진다...]]></entry>
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[마지막 잎새가... 떨어지는구나.]]></entry>
+
+    <entry id="str_roster_list_lost_bark"><![CDATA[내가 어디 있지?]]></entry>
+    <entry id="str_roster_list_lost_bark"><![CDATA[나를 내버려 두지 마십시오!]]></entry>
+    <entry id="str_roster_list_lost_bark"><![CDATA[그 소리 ... 주변에 사악한 괴물이 있습니까?]]></entry>
    
   </language>
 

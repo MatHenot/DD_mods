@@ -190,6 +190,10 @@
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[我闻到了……花朵……]]></entry>
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[我在消亡……]]></entry>
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[最后的花瓣……凋落了。]]></entry>
+
+    <entry id="str_roster_list_lost_bark"><![CDATA[我在哪里？]]></entry>
+    <entry id="str_roster_list_lost_bark"><![CDATA[不要让我一个人呆着！]]></entry>
+    <entry id="str_roster_list_lost_bark"><![CDATA[那些声音...周围有邪恶的怪物吗？]]></entry>
    
   </language>
 

@@ -190,6 +190,10 @@
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[Я чувствую... цветы...]]></entry>
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[Я увядаю...]]></entry>
     <entry id="thorn+str_bark_deathsdoor"><![CDATA[Последний лепесток... опал.]]></entry>
+
+    <entry id="str_roster_list_lost_bark"><![CDATA[Где я?]]></entry>
+    <entry id="str_roster_list_lost_bark"><![CDATA[Не оставляй меня в покое!]]></entry>
+    <entry id="str_roster_list_lost_bark"><![CDATA[Эти звуки ... Есть ли вокруг мерзкие монстры?]]></entry>
    
   </language>
 
