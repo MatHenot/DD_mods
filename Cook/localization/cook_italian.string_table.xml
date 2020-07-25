@@ -79,7 +79,8 @@
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Portata Principale]]></entry>
 	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Affettata da Macellaio]]></entry>
     <entry id="str_quirk_name_binge"><![CDATA[Sazio]]></entry>
-	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Sazio]]></entry>	
+	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Sazio]]></entry>
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Efficienza della Torcia]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Ruba {colour_start|healhp}Rigene{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Disabilita Movimento]]></entry>
@@ -283,6 +284,13 @@
 	<entry id="cook+str_cook_supply"><![CDATA[*Gulp* Muori!]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[*Gulp* Oh... ne volevi un po'?]]></entry>
 
+    <entry id="cook+str_stress_heal_stalwart"><![CDATA[Sopravviverò, ancora una volta.]]></entry>
+    <entry id="cook+str_change_pos_fwd_depressed"><![CDATA[Siamo io o te. La mia vita finirà presto.]]></entry>
+    <entry id="cook+str_random_command_masochistic"><![CDATA[Sento dolore, quindi sono vivo!]]></entry>
+    <entry id="cook+str_random_command_abusive"><![CDATA[Cosa pensi di potermi insegnare?]]></entry>
+    <entry id="cook+str_random_command_selfish"><![CDATA[Nessuno può trattenere un vero chef!]]></entry>
+    <entry id="cook+str_random_command_irrational"><![CDATA[Ecco la sorpresa dello chef!]]></entry>
+	
   </language>
 
 </root>

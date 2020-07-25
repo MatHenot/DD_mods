@@ -79,7 +79,8 @@
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Main Course]]></entry>
 	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Butcher's Slice]]></entry>
     <entry id="str_quirk_name_binge"><![CDATA[Overfeeding]]></entry>
-	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Overfeeding]]></entry>	
+	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Overfeeding]]></entry>
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torchlight Efficiency]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Steal {colour_start|healhp}Restoration{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Disable Move]]></entry>
@@ -217,6 +218,13 @@
 	<entry id="cook+str_cook_supply"><![CDATA[Only the finest dishes!]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[*Gulp* Down you go!]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[*Gulp* Oh... you wanted some?]]></entry>
+
+    <entry id="cook+str_stress_heal_stalwart"><![CDATA[I'll survive, once again.]]></entry>
+    <entry id="cook+str_change_pos_fwd_depressed"><![CDATA[It's you or me. My life will end soon.]]></entry>
+    <entry id="cook+str_random_command_masochistic"><![CDATA[I feel pain so I'm alive!]]></entry>
+    <entry id="cook+str_random_command_abusive"><![CDATA[What do you think you can teach me?]]></entry>
+    <entry id="cook+str_random_command_selfish"><![CDATA[Nobody can hold back a true chef!]]></entry>
+    <entry id="cook+str_random_command_irrational"><![CDATA[Here comes the chef's surprise!]]></entry>
 
   </language>
 

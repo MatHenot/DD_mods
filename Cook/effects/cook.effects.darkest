@@ -162,8 +162,8 @@ effect: .name "T_Spices_Heal 33" .target "target" .chance 33% .heal 1 .on_hit tr
 effect: .name "T_Spices_Heal 66" .target "target" .chance 66% .heal 1 .on_hit true .on_miss false .has_description false .queue true
 
 effect: .name "T_Pendant_HealReceiv" .target "target" .chance 100% .buff_ids "Cook_HRec 2" .on_hit true .on_miss false .queue true
-effect: .name "T_Pendant_DMG" .target "target" .chance 100% .health_damage 1 .on_hit true .on_miss false .has_description false
-effect: .name "T_Pendant_DMG 50" .target "target" .chance 50% .health_damage 1 .on_hit true .on_miss false .has_description false
+effect: .name "T_Pendant_DMG" .target "target" .chance 100% .health_damage 1 .damage_type additionaleffect .damage_source_type trinket .on_hit true .on_miss false .has_description false
+effect: .name "T_Pendant_DMG 50" .target "target" .chance 50% .health_damage 1 .damage_type additionaleffect .damage_source_type trinket .on_hit true .on_miss false .has_description false
 
 effect: .name "T_Glasses_Stealth" .target "performer" .chance 50% .stealth 1 .duration 2 .on_hit true .on_miss false .queue true
 

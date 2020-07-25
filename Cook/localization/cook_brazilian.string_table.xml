@@ -79,7 +79,8 @@
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Curso principal]]></entry>
 	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Corte da Açougueira]]></entry>
     <entry id="str_quirk_name_binge"><![CDATA[Empanturrar]]></entry>
-	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Empanturrar]]></entry>	
+	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Empanturrar]]></entry>
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Eficiência da Tocha]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Roubar {colour_start|healhp}Restauração{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Desabilitar movimento]]></entry>
@@ -207,6 +208,13 @@
 	<entry id="cook+str_cook_supply"><![CDATA[Apenas os melhores pratos!]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[*Gulp* Ai vamos nós!]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[*Gulp* Oh... Você queria um pouco?]]></entry>
+
+    <entry id="cook+str_stress_heal_stalwart"><![CDATA[Eu vou sobreviver, mais uma vez.]]></entry>
+    <entry id="cook+str_change_pos_fwd_depressed"><![CDATA[É você ou eu. Minha vida terminará em breve.]]></entry>
+    <entry id="cook+str_random_command_masochistic"><![CDATA[Sinto dor, então estou vivo!]]></entry>
+    <entry id="cook+str_random_command_abusive"><![CDATA[O que você acha que pode me ensinar?]]></entry>
+    <entry id="cook+str_random_command_selfish"><![CDATA[Ninguém pode conter um verdadeiro chef!]]></entry>
+    <entry id="cook+str_random_command_irrational"><![CDATA[Aí vem a surpresa do Chef!]]></entry>
 
   </language>
 

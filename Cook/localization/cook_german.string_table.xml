@@ -79,7 +79,8 @@
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Hauptgericht]]></entry>
 	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Schlachters Schnitt]]></entry>
     <entry id="str_quirk_name_binge"><![CDATA[Überfütterung]]></entry>
-	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Überfütterung]]></entry>	
+	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Überfütterung]]></entry>
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Fackeleffizienz]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Steal {colour_start|healhp}Erneuerung{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Bewegungsunfähig]]></entry>
@@ -217,6 +218,13 @@
 	<entry id="cook+str_cook_supply"><![CDATA[Nur die feinsten Gerichte!]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[*schluck* Runter mit dir!]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[*schluck* Oh... du wolltest auch was?]]></entry>
+	
+    <entry id="cook+str_stress_heal_stalwart"><![CDATA[Ich werde noch einmal überleben.]]></entry>
+    <entry id="cook+str_change_pos_fwd_depressed"><![CDATA[Du oder ich. Mein Leben wird bald enden.]]></entry>
+    <entry id="cook+str_random_command_masochistic"><![CDATA[Ich fühle Schmerzen, also lebe ich!]]></entry>
+    <entry id="cook+str_random_command_abusive"><![CDATA[Was denkst du kannst du mir beibringen?]]></entry>
+    <entry id="cook+str_random_command_selfish"><![CDATA[Niemand kann einen wahren Koch zurückhalten!]]></entry>
+    <entry id="cook+str_random_command_irrational"><![CDATA[Hier kommt die Überraschung des Küchenchefs!]]></entry>
 
   </language>
 

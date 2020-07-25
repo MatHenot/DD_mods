@@ -79,7 +79,8 @@
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Plat Principal]]></entry>
 	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Tranche du Boucher]]></entry>
     <entry id="str_quirk_name_binge"><![CDATA[Suralimentation]]></entry>
-	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Suralimentation]]></entry>	
+	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Suralimentation]]></entry>
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% efficacité de la Torche]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Récupère {colour_start|healhp}restauration{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Bloque le déplacement]]></entry>
@@ -217,6 +218,13 @@
 	<entry id="cook+str_cook_supply"><![CDATA[Les mets les plus exquis !]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[*Gulp* Et ça descend !]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[*Gulp* Oh... vous en vouliez ?]]></entry>
+
+    <entry id="cook+str_stress_heal_stalwart"><![CDATA[Je survivrai, une fois encore.]]></entry>
+    <entry id="cook+str_change_pos_fwd_depressed"><![CDATA[C'est toi ou moi. Ma vie s'achève.]]></entry>
+    <entry id="cook+str_random_command_masochistic"><![CDATA[Je souffre donc je suis !]]></entry>
+    <entry id="cook+str_random_command_abusive"><![CDATA[Que crois-tu pouvoir encore m'apprendre ?]]></entry>
+    <entry id="cook+str_random_command_selfish"><![CDATA[Personne ne bride un véritable chef !]]></entry>
+    <entry id="cook+str_random_command_irrational"><![CDATA[Voici la surprise du chef !]]></entry>
 
   </language>
 

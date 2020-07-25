@@ -79,7 +79,8 @@
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Ocнoвнoe блюдo]]></entry>
 	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Нoж мяcникa]]></entry>
     <entry id="str_quirk_name_binge"><![CDATA[Перекармливание]]></entry>
-	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Перекармливание]]></entry>	
+	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Перекармливание]]></entry>
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Эффективности факела]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Укpacть {colour_start|healhp}вoccтaнoвлeниe{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Зaпpeт пepeдвижeния]]></entry>
@@ -218,6 +219,13 @@
 	<entry id="cook+str_cook_supply"><![CDATA[*Глоток* Проследуйте в желудок!]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[*Глоток* Ох... Ты хотел кусочек?]]></entry>
 
+    <entry id="cook+str_stress_heal_stalwart"><![CDATA[Я выживу, еще раз.]]></entry>
+    <entry id="cook+str_change_pos_fwd_depressed"><![CDATA[Это ты или я. Моя жизнь скоро закончится.]]></entry>
+    <entry id="cook+str_random_command_masochistic"><![CDATA[Я чувствую боль, поэтому я жив!]]></entry>
+    <entry id="cook+str_random_command_abusive"><![CDATA[Как вы думаете, вы можете научить меня?]]></entry>
+    <entry id="cook+str_random_command_selfish"><![CDATA[Никто не может сдержать настоящего шеф-повара!]]></entry>
+    <entry id="cook+str_random_command_irrational"><![CDATA[Вот и сюрприз от шеф-повара!]]></entry>
+	
   </language>
 
 </root>

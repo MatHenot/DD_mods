@@ -79,7 +79,8 @@
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[식사 시작]]></entry>
 	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[육질 다지기]]></entry>
     <entry id="str_quirk_name_binge"><![CDATA[과다배급]]></entry>
-	<entry id="buff_rule_data_tooltip_binge"><![CDATA[과다배급]]></entry>	
+	<entry id="buff_rule_data_tooltip_binge"><![CDATA[과다배급]]></entry>
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% 성화 연소율]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[{colour_start|healhp}복구{colour_end} 옮겨옴]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[이동불가]]></entry>
@@ -194,6 +195,13 @@
 	<entry id="cook+str_cook_supply"><![CDATA[엄선한 재료로 만들었구만!]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[*꿀꺽*]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[내가 다 먹어버렸구만!]]></entry>
-	
+
+    <entry id="cook+str_stress_heal_stalwart"><![CDATA[다시 살아남을거야.]]></entry>
+    <entry id="cook+str_change_pos_fwd_depressed"><![CDATA[그것은 당신 또는 나입니다. 내 인생은 곧 끝날 것이다.]]></entry>
+    <entry id="cook+str_random_command_masochistic"><![CDATA[아파서 살아 있어요!]]></entry>
+    <entry id="cook+str_random_command_abusive"><![CDATA[당신은 나에게 무엇을 가르 칠 수 있다고 생각합니까?]]></entry>
+    <entry id="cook+str_random_command_selfish"><![CDATA[아무도 진정한 요리사를 붙잡을 수 없습니다!]]></entry>
+    <entry id="cook+str_random_command_irrational"><![CDATA[여기 요리사의 놀라움이 온다!]]></entry>
+
   </language>
 </root>

@@ -79,7 +79,8 @@
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[Plato principal]]></entry>
 	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[Corte de la carnicera]]></entry>
     <entry id="str_quirk_name_binge"><![CDATA[Sobrealimentación]]></entry>
-	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Sobrealimentación]]></entry>	
+	<entry id="buff_rule_data_tooltip_binge"><![CDATA[Sobrealimentación]]></entry>
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Eficiencia de la antorcha]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[Sustrae {colour_start|healhp}restauración{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[Desactiva el movimiento]]></entry>
@@ -218,6 +219,13 @@
 	<entry id="cook+str_cook_supply"><![CDATA[*Traga saliva* ¡Ahí lo tenéis!]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[*Traga saliva* Oh... ¿queríais un poco?]]></entry>
 
+    <entry id="cook+str_stress_heal_stalwart"><![CDATA[Sobreviviré, una vez más.]]></entry>
+    <entry id="cook+str_change_pos_fwd_depressed"><![CDATA[Somos tu o yo. Mi vida terminará pronto.]]></entry>
+    <entry id="cook+str_random_command_masochistic"><![CDATA[¡Siento dolor así que estoy viva!]]></entry>
+    <entry id="cook+str_random_command_abusive"><![CDATA[¿Qué crees que puedes enseñarme?]]></entry>
+    <entry id="cook+str_random_command_selfish"><![CDATA[¡Nadie puede contener a una verdadera chef!]]></entry>
+    <entry id="cook+str_random_command_irrational"><![CDATA[¡Aquí viene la sorpresa del chef!]]></entry>
+	
   </language>
 
 </root>

@@ -79,7 +79,8 @@
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[主菜]]></entry>
 	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[屠夫片肉]]></entry>
     <entry id="str_quirk_name_binge"><![CDATA[暴饮暴食]]></entry>
-	<entry id="buff_rule_data_tooltip_binge"><![CDATA[暴饮暴食]]></entry>	
+	<entry id="buff_rule_data_tooltip_binge"><![CDATA[暴饮暴食]]></entry>
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% 火炬效率]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[窃取{colour_start|healhp}恢复{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[移动不可用]]></entry>
@@ -219,6 +220,13 @@
 	<entry id="cook+str_cook_supply"><![CDATA[*吞咽*你们也来一口！]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[*吞咽*哦……你们想来一些吗？]]></entry>
 
+    <entry id="cook+str_stress_heal_stalwart"><![CDATA[我会再次生存。]]></entry>
+    <entry id="cook+str_change_pos_fwd_depressed"><![CDATA[是你还是我。我的生命即将结束。]]></entry>
+    <entry id="cook+str_random_command_masochistic"><![CDATA[我感到疼痛，所以我还活着！]]></entry>
+    <entry id="cook+str_random_command_abusive"><![CDATA[您认为您可以教给我什么？]]></entry>
+    <entry id="cook+str_random_command_selfish"><![CDATA[没有人可以阻止真正的厨师！]]></entry>
+    <entry id="cook+str_random_command_irrational"><![CDATA[厨师的惊喜来了！]]></entry>
+	
   </language>
 
 </root>
