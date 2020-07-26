@@ -23,7 +23,16 @@ Parsing localization/cook_schinese.string_table.xml
 Parsing localization/cook_spanish.string_table.xml
 
 Building Languages
-Exporting .loc files
+
++++++++++++++++++++++++++++++++++++++++++
+Error italian - cook+str_attack_self_depressed
+----------
+Couldn't find colour sister_claimant in {colour_start|sister_claimant}Ti stai impegnando troppo per tenermi in vita. Lascia perdere...{colour_end}
+----------
+----------
+Couldn't find colour sister_claimant in {colour_start|sister_claimant}Finirà comunque tutto in rovina. Questo velocizzerà solo le cose...{colour_end}
+----------
+Exporting .loc2 files
 
 -------------------------------------------------------------------------------
 Searching for preview icon file D:/DD_mods/Cook/preview_icon.png...FOUND!
@@ -289,19 +298,19 @@ audio/cook.heroes.load_order.json
 effects/cook.effects.darkest
 inventory/cook.inventory.extra_stack_limits.darkest
 inventory/cook.supply.inventory.items.darkest
-localization/1978083682_brazilian.loc
-localization/1978083682_czech.loc
-localization/1978083682_english.loc
-localization/1978083682_french.loc
-localization/1978083682_german.loc
-localization/1978083682_italian.loc
-localization/1978083682_japanese.loc
-localization/1978083682_koreana.loc
-localization/1978083682_koreanb.loc
-localization/1978083682_polish.loc
-localization/1978083682_russian.loc
-localization/1978083682_schinese.loc
-localization/1978083682_spanish.loc
+localization/1978083682_brazilian.loc2
+localization/1978083682_czech.loc2
+localization/1978083682_english.loc2
+localization/1978083682_french.loc2
+localization/1978083682_german.loc2
+localization/1978083682_italian.loc2
+localization/1978083682_japanese.loc2
+localization/1978083682_koreana.loc2
+localization/1978083682_koreanb.loc2
+localization/1978083682_polish.loc2
+localization/1978083682_russian.loc2
+localization/1978083682_schinese.loc2
+localization/1978083682_spanish.loc2
 localization/cook_brazilian.string_table.xml
 localization/cook_czech.string_table.xml
 localization/cook_english.string_table.xml
@@ -325,6 +334,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting..................................................................................................................................................................................................................................Submitted.
+Submitting...........................................................................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Cook\project.xml
 
