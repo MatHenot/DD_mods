@@ -31,7 +31,7 @@ effect: .name "switch to Shocked" .target "performer" .chance 100% .set_mode sho
 
 effect: .name "switch to Offensive Shck" .target "target_enemy_group" .chance 100% .set_mode offensive .clear_riposte 1 .buff_ids "Offensive End ToolTip" .duration -1 .on_hit true .on_miss true .has_description false .swap_source_and_target true
 effect: .name "Offensive Riposte Shck" .target "target_enemy_group" .chance 100% .clear_riposte 1 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .damage_low_multiply -15% .damage_high_multiply -15% .duration -1 .on_hit true .on_miss true .has_description false .swap_source_and_target true
-effect: .name "Offensive Riposte Shck SFX" .target "performer" .chance 100% .duration 1 .buff_ids "ShckToOff SFX" .buff_source_type hero_skill .on_hit true .on_miss true .queue true .has_description false
+effect: .name "Offensive Riposte Shck SFX" .target "performer" .chance 100% .duration 1 .buff_ids "ShckToOff SFX" .buff_source_type bsrc_notspecified .on_hit true .on_miss true .queue true .has_description false
 
 //Transform -- Offensive to Defensive Effects
 
@@ -114,7 +114,7 @@ effect: .name "Blossom Self Heal 1" .target "performer" .chance 100% .heal 4 .on
 effect: .name "Blossom Self Heal 2" .target "performer" .chance 100% .heal 5 .on_hit true .on_miss false .apply_once true
 effect: .name "Blossom Self Heal 3" .target "performer" .chance 100% .heal 6 .on_hit true .on_miss false .apply_once true
 
-effect: .name "Blossom Heal Buff" .target "performer" .chance 100% .buff_ids "Blossom Heal Debuff" "Blossom Heal Buff Guarding" "Blossom Heal Buff Guarded" .buff_source_type hero_skill .on_hit true .on_miss false .apply_once true .has_description false
+effect: .name "Blossom Heal Buff" .target "performer" .chance 100% .buff_ids "Blossom Heal Debuff" "Blossom Heal Buff Guarding" "Blossom Heal Buff Guarded" .buff_source_type bsrc_notspecified .on_hit true .on_miss false .apply_once true .has_description false
 
 effect: .name "Blossom Heal Guard 1" .target "target" .chance 100% .heal 4 .on_hit true .on_miss false .queue true .has_description false
 effect: .name "Blossom Heal Guard 2" .target "target" .chance 100% .heal 5 .on_hit true .on_miss false .queue true .has_description false
@@ -218,11 +218,11 @@ effect: .name "Gash Skill ToolTip A3" .target "performer" .chance 100% .buff_ids
 effect: .name "Gash Skill ToolTip A4" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Gash Bleed Debuff ToolTip 4" .on_hit true .on_miss true .skill_instant true
 effect: .name "Gash Skill ToolTip A5" .target "performer" .chance 100% .buff_ids "Debuff Target ToolTip" "Gash Bleed Debuff ToolTip 5" .on_hit true .on_miss true .skill_instant true
 
-effect: .name "Gash Skill ToolTip B1" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 1" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
-effect: .name "Gash Skill ToolTip B2" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 2" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
-effect: .name "Gash Skill ToolTip B3" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 3" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
-effect: .name "Gash Skill ToolTip B4" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 4" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
-effect: .name "Gash Skill ToolTip B5" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 5" "One Turn" "Offensive Mode ToolTip" .buff_source_type hero_skill .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip B1" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 1" "One Turn" "Offensive Mode ToolTip" .buff_source_type bsrc_notspecified .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip B2" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 2" "One Turn" "Offensive Mode ToolTip" .buff_source_type bsrc_notspecified .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip B3" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 3" "One Turn" "Offensive Mode ToolTip" .buff_source_type bsrc_notspecified .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip B4" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 4" "One Turn" "Offensive Mode ToolTip" .buff_source_type bsrc_notspecified .on_hit true .on_miss false
+effect: .name "Gash Skill ToolTip B5" .target "performer" .chance 100% .buff_ids "Gash Fake Riposte ToolTip 5" "One Turn" "Offensive Mode ToolTip" .buff_source_type bsrc_notspecified .on_hit true .on_miss false
 
 
 //Dare
@@ -264,10 +264,10 @@ effect: .name "Dare Skill ToolTip" .target "performer_group_other" .chance 100% 
 //--------------------TRINKETS--------------------
 
 
-effect: .name "T_Maingauche_Riposte" .target "performer" .chance 100% .buff_ids "T_Maingauche_Riposte" .buff_source_type hero_skill .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "T_Maingauche_Riposte" .target "performer" .chance 100% .buff_ids "T_Maingauche_Riposte" .buff_source_type bsrc_notspecified .on_hit true .on_miss true .apply_once true .has_description false
 effect: .name "T_Miss_Bleed" .target "target" .dotBleed 4 .duration 3 .chance 140% .on_hit false .on_miss true .can_apply_on_death true 
 effect: .name "T_Clear_Riposte" .target "target" .chance 100% .clear_riposte 1 .on_hit true .on_miss false .apply_once true
-effect: .name "T_Signet_Riposte" .target "performer" .chance 100% .buff_ids "T_Signet_Riposte" .buff_source_type hero_skill .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "T_Signet_Riposte" .target "performer" .chance 100% .buff_ids "T_Signet_Riposte" .buff_source_type bsrc_notspecified .on_hit true .on_miss true .apply_once true .has_description false
 effect: .name "T_Riposte_StressHeal" .target "performer" .chance 100% .healstress 5 .on_hit true .on_miss false
 effect: .name "T_Block" .target performer .chance 50% .health_damage_blocks 1 .on_hit true .on_miss false .queue true
 
