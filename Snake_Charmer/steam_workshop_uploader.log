@@ -22,9 +22,10 @@ Parsing localization/snake_charmer_russian.string_table.xml
 Parsing localization/snake_charmer_schinese.string_table.xml
 Parsing localization/snake_charmer_spanish.string_table.xml
 Parsing localization/snake_charmer_tchinese.string_table.xml
+Parsing localization/snake_charmerquirks.string_table.xml
 
 Building Languages
-Exporting .loc files
+Exporting .loc2 files
 
 -------------------------------------------------------------------------------
 Searching for preview icon file D:/DD_mods/Snake_Charmer/preview_icon.png...FOUND!
@@ -178,6 +179,7 @@ panels/icons_equip/trinket/inv_trinket+snake_charmer_reptilian_plates.png
 panels/icons_equip/trinket/inv_trinket+snake_charmer_shinobue.png
 panels/icons_equip/trinket/inv_trinket+snake_charmer_used_gloves.png
 panels/icons_equip/trinket/inv_trinket+snake_charmer_vision_pendant.png
+panels/icons_equip/trinket/rarity_sakura.png
 raid/camping/skill_icons/camp_skill_exotic_spices.png
 raid/camping/skill_icons/camp_skill_melody.png
 raid/camping/skill_icons/camp_skill_mithridatism.png
@@ -201,24 +203,26 @@ heroes/snake_charmer/snake_charmer.info.darkest
 heroes/snake_charmer/snake_charmer_guild_header.png
 raid/camping/snake_charmer.camping_skills.json
 shared/buffs/snake_charmer.buffs.json
+shared/quirk/snake_charmer.quirk_library.json
 upgrades/heroes/snake_charmer.upgrades.json
 audio/snake_charmer.heroes.guid_overrides.json
 audio/snake_charmer.heroes.load_order.json
 effects/snake_charmer.effects.darkest
-localization/1456853110_brazilian.loc
-localization/1456853110_czech.loc
-localization/1456853110_english.loc
-localization/1456853110_french.loc
-localization/1456853110_german.loc
-localization/1456853110_italian.loc
-localization/1456853110_japanese.loc
-localization/1456853110_koreana.loc
-localization/1456853110_koreanb.loc
-localization/1456853110_polish.loc
-localization/1456853110_russian.loc
-localization/1456853110_schinese.loc
-localization/1456853110_spanish.loc
-localization/1456853110_tchinese.loc
+localization/1456853110_brazilian.loc2
+localization/1456853110_czech.loc2
+localization/1456853110_english.loc2
+localization/1456853110_french.loc2
+localization/1456853110_german.loc2
+localization/1456853110_italian.loc2
+localization/1456853110_japanese.loc2
+localization/1456853110_koreana.loc2
+localization/1456853110_koreanb.loc2
+localization/1456853110_polish.loc2
+localization/1456853110_russian.loc2
+localization/1456853110_schinese.loc2
+localization/1456853110_spanish.loc2
+localization/1456853110_tchinese.loc2
+localization/missing_files.txt
 localization/snake_charmer_brazilian.string_table.xml
 localization/snake_charmer_czech.string_table.xml
 localization/snake_charmer_english.string_table.xml
@@ -233,6 +237,8 @@ localization/snake_charmer_russian.string_table.xml
 localization/snake_charmer_schinese.string_table.xml
 localization/snake_charmer_spanish.string_table.xml
 localization/snake_charmer_tchinese.string_table.xml
+localization/snake_charmerquirks.string_table.xml
+trinkets/SC_east_town.rarities.trinkets.json
 trinkets/com.rarities.trinkets.json
 trinkets/crimson_court.rarities.trinkets.json
 trinkets/snake_charmer.entries.trinkets.json
@@ -242,6 +248,6 @@ preview_icon.png
 project.xml
 snake_charmer.xml
 
-Submitting..........................................................................................................................................................Submitted.
+Submitting..................................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Snake_Charmer\project.xml
 

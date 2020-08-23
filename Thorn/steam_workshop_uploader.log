@@ -34,6 +34,7 @@ Parsing localization/thorn_schinese_dialogue.string_table.xml
 Parsing localization/thorn_schinese_tooltips.string_table.xml
 Parsing localization/thorn_spanish_dialogue.string_table.xml
 Parsing localization/thorn_spanish_tooltips.string_table.xml
+Parsing localization/thornquirks.string_table.xml
 
 Building Languages
 Exporting .loc2 files
@@ -250,6 +251,7 @@ raid/camping/thorn.camping_skills.json
 scripts/layout/thorn.popup_text.layout.darkest
 shared/buffs/thorn.buffs.json
 shared/buffs/thorn_tooltips.buffs.json
+shared/quirk/thorn.quirk_library.json
 shared/trait/thorn.trait_library.json
 upgrades/heroes/thorn.upgrades.json
 audio/thorn.heroes.guid_overrides.json
@@ -295,6 +297,7 @@ localization/thorn_schinese_dialogue.string_table.xml
 localization/thorn_schinese_tooltips.string_table.xml
 localization/thorn_spanish_dialogue.string_table.xml
 localization/thorn_spanish_tooltips.string_table.xml
+localization/thornquirks.string_table.xml
 overlays/poptext_damage_reflect.png
 overlays/poptext_health_damage_block.png
 overlays/poptext_health_damage_block_onset.png
@@ -308,6 +311,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting............................................................................................................................................................................................Submitted.
+Submitting........................................................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Thorn\project.xml
 
