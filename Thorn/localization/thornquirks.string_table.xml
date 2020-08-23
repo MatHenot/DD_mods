@@ -1,82 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <language id="english">
-    <entry id="str_quirk_name_gourmet"><![CDATA[Gourmet]]></entry>
-	<entry id="str_quirk_description_gourmet"><![CDATA[Increases {colour_start|healhp}Restoration{colour_end} Amount Received from Cook's skills]]></entry>
-    <entry id="str_quirk_name_tasteless"><![CDATA[Tasteless]]></entry>
-	<entry id="str_quirk_description_tasteless"><![CDATA[Reduces {colour_start|healhp}Restoration{colour_end} Amount Received from Cook's skills]]></entry>
+    <entry id="str_quirk_name_floral"><![CDATA[Floral]]></entry>
+    <entry id="str_quirk_name_wilted"><![CDATA[Wilted]]></entry>
   </language>
   <language id="brazilian">
-    <entry id="str_quirk_name_gourmet"><![CDATA[Gourmet]]></entry>
-	<entry id="str_quirk_description_gourmet"><![CDATA[Aumenta a quantidade de {colour_start|healhp}Restauração{colour_end} das habilidades do Cozinheira]]></entry>
-    <entry id="str_quirk_name_tasteless"><![CDATA[Sem Gosto]]></entry>
-	<entry id="str_quirk_description_tasteless"><![CDATA[Reduz a quantidade de {colour_start|healhp}Restauração{colour_end} das habilidades do Cozinheira]]></entry>
+    <entry id="str_quirk_name_floral"><![CDATA[Floral]]></entry>
+    <entry id="str_quirk_name_wilted"><![CDATA[Murcha]]></entry>
   </language> 
   <language id="czech">
-    <entry id="str_quirk_name_gourmet"><![CDATA[Gourmet]]></entry>
-	<entry id="str_quirk_description_gourmet"><![CDATA[Increases {colour_start|healhp}Restoration{colour_end} Amount Received from Cook's skills]]></entry>
-    <entry id="str_quirk_name_tasteless"><![CDATA[Tasteless]]></entry>
-	<entry id="str_quirk_description_tasteless"><![CDATA[Reduces {colour_start|healhp}Restoration{colour_end} Amount Received from Cook's skills]]></entry>
+    <entry id="str_quirk_name_floral"><![CDATA[Floral]]></entry>
+    <entry id="str_quirk_name_wilted"><![CDATA[Wilted]]></entry>
   </language>
   <language id="french">
-    <entry id="str_quirk_name_gourmet"><![CDATA[Gourmet]]></entry>
-	<entry id="str_quirk_description_gourmet"><![CDATA[Augmente le montant de {colour_start|healhp}restauration{colour_end} reçu des capacités de la Cuisinière Itinérante]]></entry>
-    <entry id="str_quirk_name_tasteless"><![CDATA[Mauvais palais]]></entry>
-	<entry id="str_quirk_description_tasteless"><![CDATA[Réduit le montant de {colour_start|healhp}restauration{colour_end} reçu des capacités de la Cuisinière Itinérante]]></entry>
+    <entry id="str_quirk_name_floral"><![CDATA[Floral]]></entry>
+    <entry id="str_quirk_name_wilted"><![CDATA[Fané]]></entry>
   </language>
   <language id="german">
-    <entry id="str_quirk_name_gourmet"><![CDATA[Gourmet]]></entry>
-	<entry id="str_quirk_description_gourmet"><![CDATA[Increases {colour_start|healhp}Erneuerung{colour_end} Amount Received from Wandernde Köchin's skills]]></entry>
-    <entry id="str_quirk_name_tasteless"><![CDATA[Tasteless]]></entry>
-	<entry id="str_quirk_description_tasteless"><![CDATA[Reduces {colour_start|healhp}Erneuerung{colour_end} Amount Received from Wandernde Köchin's skills]]></entry>
+    <entry id="str_quirk_name_floral"><![CDATA[Floral]]></entry>
+    <entry id="str_quirk_name_wilted"><![CDATA[Wilted]]></entry>
   </language>
   <language id="italian">
-    <entry id="str_quirk_name_gourmet"><![CDATA[Buongustaio]]></entry>
-	<entry id="str_quirk_description_gourmet"><![CDATA[Aumenta la {colour_start|healhp}Rigene{colour_end} ricevuto dalle abilità del Cuoco Itinerante]]></entry>
-    <entry id="str_quirk_name_tasteless"><![CDATA[Insapore]]></entry>
-	<entry id="str_quirk_description_tasteless"><![CDATA[Riduce la {colour_start|healhp}Rigene{colour_end} ricevuto dalle abilità del Cuoco Itinerante]]></entry>
+    <entry id="str_quirk_name_floral"><![CDATA[Floreale]]></entry>
+    <entry id="str_quirk_name_wilted"><![CDATA[Appassito]]></entry>
   </language>
   <language id="japanese">
-    <entry id="str_quirk_name_gourmet"><![CDATA[Gourmet]]></entry>
-	<entry id="str_quirk_description_gourmet"><![CDATA[Increases {colour_start|healhp}Restoration{colour_end} Amount Received from Cook's skills]]></entry>
-    <entry id="str_quirk_name_tasteless"><![CDATA[Tasteless]]></entry>
-	<entry id="str_quirk_description_tasteless"><![CDATA[Reduces {colour_start|healhp}Restoration{colour_end} Amount Received from Cook's skills]]></entry>
+    <entry id="str_quirk_name_floral"><![CDATA[Floral]]></entry>
+    <entry id="str_quirk_name_wilted"><![CDATA[Wilted]]></entry>
   </language>
   <language id="koreana">
-    <entry id="str_quirk_name_gourmet"><![CDATA[Gourmet]]></entry>
-	<entry id="str_quirk_description_gourmet"><![CDATA[Increases {colour_start|healhp}복구{colour_end} Amount Received from 유랑요리사's skills]]></entry>
-    <entry id="str_quirk_name_tasteless"><![CDATA[Tasteless]]></entry>
-	<entry id="str_quirk_description_tasteless"><![CDATA[Reduces {colour_start|healhp}복구{colour_end} Amount Received from 유랑요리사's skills]]></entry>
+    <entry id="str_quirk_name_floral"><![CDATA[플로럴]]></entry>
+    <entry id="str_quirk_name_wilted"><![CDATA[시든]]></entry>
    </language>
   <language id="koreanb">
-    <entry id="str_quirk_name_gourmet"><![CDATA[Gourmet]]></entry>
-	<entry id="str_quirk_description_gourmet"><![CDATA[Increases {colour_start|healhp}복구{colour_end} Amount Received from 유랑요리사's skills]]></entry>
-    <entry id="str_quirk_name_tasteless"><![CDATA[Tasteless]]></entry>
-	<entry id="str_quirk_description_tasteless"><![CDATA[Reduces {colour_start|healhp}복구{colour_end} Amount Received from 유랑요리사's skills]]></entry>
+    <entry id="str_quirk_name_floral"><![CDATA[플로럴]]></entry>
+	<entry id="str_quirk_name_wilted"><![CDATA[시든]]></entry>
    </language>
   <language id="polish">
-    <entry id="str_quirk_name_gourmet"><![CDATA[Gourmet]]></entry>
-	<entry id="str_quirk_description_gourmet"><![CDATA[Increases {colour_start|healhp}Restoration{colour_end} Amount Received from Cook's skills]]></entry>
-    <entry id="str_quirk_name_tasteless"><![CDATA[Tasteless]]></entry>
-	<entry id="str_quirk_description_tasteless"><![CDATA[Reduces {colour_start|healhp}Restoration{colour_end} Amount Received from Cook's skills]]></entry>
+    <entry id="str_quirk_name_floral"><![CDATA[Floral]]></entry>
+    <entry id="str_quirk_name_wilted"><![CDATA[Wilted]]></entry>
   </language>
   <language id="russian">
-    <entry id="str_quirk_name_gourmet"><![CDATA[Gourmet]]></entry>
-	<entry id="str_quirk_description_gourmet"><![CDATA[Increases {colour_start|healhp}Восстановления{colour_end} Amount Received from Странствующий повар's skills]]></entry>
-    <entry id="str_quirk_name_tasteless"><![CDATA[Tasteless]]></entry>
-	<entry id="str_quirk_description_tasteless"><![CDATA[Reduces {colour_start|healhp}Восстановления{colour_end} Amount Received from Странствующий повар's skills]]></entry>
+    <entry id="str_quirk_name_floral"><![CDATA[Цветочный]]></entry>
+    <entry id="str_quirk_name_wilted"><![CDATA[Увядший]]></entry>
   </language>
   <language id="schinese">
-    <entry id="str_quirk_name_gourmet"><![CDATA[Gourmet]]></entry>
-	<entry id="str_quirk_description_gourmet"><![CDATA[Increases {colour_start|healhp}恢复{colour_end} Amount Received from 巡回厨师's skills]]></entry>
-    <entry id="str_quirk_name_tasteless"><![CDATA[Tasteless]]></entry>
-	<entry id="str_quirk_description_tasteless"><![CDATA[Reduces {colour_start|healhp}恢复{colour_end} Amount Received from 巡回厨师's skills]]></entry>
+    <entry id="str_quirk_name_floral"><![CDATA[花香]]></entry>
+    <entry id="str_quirk_name_wilted"><![CDATA[枯萎的]]></entry>
   </language>
   <language id="spanish">
-    <entry id="str_quirk_name_gourmet"><![CDATA[Gastrónomo]]></entry>
-	<entry id="str_quirk_description_gourmet"><![CDATA[Aumenta la {colour_start|healhp}Restoration{colour_end} recibida por las habilidades de la Cocinera itinerante]]></entry>
-    <entry id="str_quirk_name_tasteless"><![CDATA[Insípido]]></entry>
-	<entry id="str_quirk_description_tasteless"><![CDATA[Reduce la {colour_start|healhp}Restoration{colour_end} recibida por las habilidades de la Cocinera itinerante]]></entry>
+    <entry id="str_quirk_name_floral"><![CDATA[Floral]]></entry>
+    <entry id="str_quirk_name_wilted"><![CDATA[Marchito]]></entry>
   </language>
 </root>
 
