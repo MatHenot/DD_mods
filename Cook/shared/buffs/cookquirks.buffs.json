@@ -1,0 +1,83 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "Gourmet_HOT_Maincourse",
+         "stat_type" : "hp_heal_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.45,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "maincourse"
+         }
+      },
+      {
+         "id" : "Gourmet_HOT_Condiment",
+         "stat_type" : "hp_heal_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.45,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "condiment"
+         }
+      },
+      {
+         "id" : "Gourmet_HOT_Entremet",
+         "stat_type" : "hp_heal_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "entremet"
+         }
+      },
+      {
+         "id" : "Tasteless_HOT_Maincourse",
+         "stat_type" : "hp_heal_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.45,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "maincourse"
+         }
+      },
+      {
+         "id" : "Tasteless_HOT_Condiment",
+         "stat_type" : "hp_heal_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.45,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "condiment"
+         }
+      },
+      {
+         "id" : "Tasteless_HOT_Entremet",
+         "stat_type" : "hp_heal_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "entremet"
+         }
+      }
+   ]
+}
