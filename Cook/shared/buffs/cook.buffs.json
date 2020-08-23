@@ -1310,6 +1310,85 @@
             "float" : 0,
             "string" : ""
          }
+      },
+	  
+	  {
+         "id" : "Q_Gourmet_HOT_Maincourse",
+         "stat_type" : "hp_heal_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.45,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "maincourse"
+         }
+      },
+      {
+         "id" : "Q_Gourmet_HOT_Condiment",
+         "stat_type" : "hp_heal_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.45,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "condiment"
+         }
+      },
+      {
+         "id" : "Q_Gourmet_HOT_Entremet",
+         "stat_type" : "hp_heal_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "entremet"
+         }
+      },
+      {
+         "id" : "Q_Tasteless_HOT_Maincourse",
+         "stat_type" : "hp_heal_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.45,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "maincourse"
+         }
+      },
+      {
+         "id" : "Q_Tasteless_HOT_Condiment",
+         "stat_type" : "hp_heal_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.45,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "condiment"
+         }
+      },
+      {
+         "id" : "Q_Tasteless_HOT_Entremet",
+         "stat_type" : "hp_heal_dot_amount_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "entremet"
+         }
       }
   ]
 }

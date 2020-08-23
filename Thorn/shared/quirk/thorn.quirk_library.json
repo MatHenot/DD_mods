@@ -1,10 +1,10 @@
 {
    "quirks":
    [
-      {
-         "id" : "gourmet",
-         "show_explicit_buff_description" : false,
-         "show_flavor_description" : true,
+	  {
+         "id" : "floral",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
          "show_explicit_curio_tag_description" : false,
          "random_chance" : 1,
          "is_positive" : true,
@@ -12,24 +12,22 @@
          "classification" : "physical",
          "incompatible_quirks" : 
          [
-		 "tasteless"
+		 "wilted"
 		 ],
          "curio_tag" : "",
          "curio_tag_chance" : 0.0,
          "keep_loot" : false,
          "buffs" : 
          [
-		 "Gourmet_HOT_Maincourse",
-		 "Gourmet_HOT_Condiment",
-		 "Gourmet_HOT_Entremet"
+		 "Q_Floral_HealReceived"
          ],
          "can_modify_in_activity" : true,
          "can_be_replaced_by_new_quirk" : true
       },
       {
-         "id" : "tasteless",
-         "show_explicit_buff_description" : false,
-         "show_flavor_description" : true,
+         "id" : "wilted",
+         "show_explicit_buff_description" : true,
+         "show_flavor_description" : false,
          "show_explicit_curio_tag_description" : false,
          "random_chance" : 1,
          "is_positive" : false,
@@ -37,16 +35,14 @@
          "classification" : "physical",
          "incompatible_quirks" : 
          [
-		 "gourmet"
+		 "floral"
 		 ],
          "curio_tag" : "",
          "curio_tag_chance" : 0.0,
          "keep_loot" : false,
          "buffs" : 
          [
-		 "Tasteless_HOT_Maincourse",
-		 "Tasteless_HOT_Condiment",
-		 "Tasteless_HOT_Entremet"
+		 "Q_Wilted_HealReceived"
          ],
          "can_modify_in_activity" : true,
          "can_be_replaced_by_new_quirk" : true
