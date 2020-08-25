@@ -30,6 +30,7 @@
 	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Ofensiva]]></entry>
 	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Ofensiva]]></entry>
     <entry id="buff_rule_data_tooltip_defensive"><![CDATA[Defensiva]]></entry>
+    <entry id="buff_rule_data_tooltip_blossom"><![CDATA[Florescer]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[{colour_start|specificclass}Defensiva:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Offensive"><![CDATA[{colour_start|specificclass}Ofensiva:{colour_end}]]></entry>

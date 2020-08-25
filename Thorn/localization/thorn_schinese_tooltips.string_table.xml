@@ -30,6 +30,7 @@
 	<entry id="buff_rule_data_tooltip_dare"><![CDATA[进攻]]></entry>
 	<entry id="buff_rule_data_tooltip_gash"><![CDATA[进攻]]></entry>
     <entry id="buff_rule_data_tooltip_defensive"><![CDATA[防守]]></entry>
+	<entry id="buff_rule_data_tooltip_blossom"><![CDATA[绽放]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[{colour_start|specificclass}防守：{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Offensive"><![CDATA[{colour_start|specificclass}进攻：{colour_end}]]></entry>

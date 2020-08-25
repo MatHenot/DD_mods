@@ -30,6 +30,7 @@
 	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Наступление]]></entry>
 	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Наступление]]></entry>
     <entry id="buff_rule_data_tooltip_defensive"><![CDATA[Оборона]]></entry>
+	<entry id="buff_rule_data_tooltip_blossom"><![CDATA[Цветение]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[{colour_start|specificclass}Оборона:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Offensive"><![CDATA[{colour_start|specificclass}Наступление:{colour_end}]]></entry>

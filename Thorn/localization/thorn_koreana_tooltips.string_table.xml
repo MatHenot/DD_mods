@@ -30,6 +30,7 @@
 	<entry id="buff_rule_data_tooltip_dare"><![CDATA[공격자세]]></entry>
 	<entry id="buff_rule_data_tooltip_gash"><![CDATA[공격자세]]></entry>
     <entry id="buff_rule_data_tooltip_defensive"><![CDATA[방어자세]]></entry>
+	<entry id="buff_rule_data_tooltip_blossom"><![CDATA[만개]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Defensive"><![CDATA[{colour_start|specificclass}방어자세:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Offensive"><![CDATA[{colour_start|specificclass}공격자세:{colour_end}]]></entry>
