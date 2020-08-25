@@ -11,7 +11,7 @@ Running Localization...
 Parsing localization/rats.string_table.xml
 
 Building Languages
-Exporting .loc files
+Exporting .loc2 files
 
 -------------------------------------------------------------------------------
 Searching for preview icon file D:/DD_mods/Rats/preview_icon.png...FOUND!
@@ -265,19 +265,19 @@ colours/rats.colours.darkest
 curios/rats_curio_props.csv
 curios/rats_curio_type_library.csv
 effects/rats.effects.darkest
-localization/1656676055_brazilian.loc
-localization/1656676055_czech.loc
-localization/1656676055_english.loc
-localization/1656676055_french.loc
-localization/1656676055_german.loc
-localization/1656676055_italian.loc
-localization/1656676055_koreana.loc
-localization/1656676055_koreanb.loc
-localization/1656676055_polish.loc
-localization/1656676055_russian.loc
-localization/1656676055_schinese.loc
-localization/1656676055_spanish.loc
-localization/1656676055_tchinese.loc
+localization/1656676055_brazilian.loc2
+localization/1656676055_czech.loc2
+localization/1656676055_english.loc2
+localization/1656676055_french.loc2
+localization/1656676055_german.loc2
+localization/1656676055_italian.loc2
+localization/1656676055_koreana.loc2
+localization/1656676055_koreanb.loc2
+localization/1656676055_polish.loc2
+localization/1656676055_russian.loc2
+localization/1656676055_schinese.loc2
+localization/1656676055_spanish.loc2
+localization/1656676055_tchinese.loc2
 localization/rats.string_table.xml
 loot/rats.loot.json
 scripts/rats_raid_visuals.json
@@ -288,6 +288,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting...................................................................................................................................................Submitted.
+Submitting................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Rats\project.xml
 

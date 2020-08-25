@@ -1,0 +1,2 @@
+str_quirk_name_eastern_ear,snake_charmerquirks,tchinese,
+str_quirk_name_toxin_reactive,snake_charmerquirks,tchinese,

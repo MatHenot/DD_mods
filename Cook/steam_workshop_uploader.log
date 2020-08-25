@@ -21,6 +21,7 @@ Parsing localization/cook_polish.string_table.xml
 Parsing localization/cook_russian.string_table.xml
 Parsing localization/cook_schinese.string_table.xml
 Parsing localization/cook_spanish.string_table.xml
+Parsing localization/cookquirks.string_table.xml
 
 Building Languages
 
@@ -324,6 +325,7 @@ localization/cook_polish.string_table.xml
 localization/cook_russian.string_table.xml
 localization/cook_schinese.string_table.xml
 localization/cook_spanish.string_table.xml
+localization/cookquirks.string_table.xml
 loot/cook.loot.json
 trinkets/East_town.rarities.trinkets.json
 trinkets/com.rarities.trinkets.json
@@ -333,5 +335,7 @@ trinkets/crimson_court.rarities.trinkets.json
 modfiles.txt
 preview_icon.png
 project.xml
+
+Submitting..................................................................................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Cook\project.xml
 
