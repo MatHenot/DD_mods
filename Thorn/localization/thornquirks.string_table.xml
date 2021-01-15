@@ -37,8 +37,8 @@
 	<entry id="str_quirk_name_wilted"><![CDATA[시든]]></entry>
    </language>
   <language id="polish">
-    <entry id="str_quirk_name_floral"><![CDATA[Floral]]></entry>
-    <entry id="str_quirk_name_wilted"><![CDATA[Wilted]]></entry>
+    <entry id="str_quirk_name_floral"><![CDATA[Kwiatowy]]></entry>
+    <entry id="str_quirk_name_wilted"><![CDATA[Zwiędłe]]></entry>
   </language>
   <language id="russian">
     <entry id="str_quirk_name_floral"><![CDATA[Цветочный]]></entry>
