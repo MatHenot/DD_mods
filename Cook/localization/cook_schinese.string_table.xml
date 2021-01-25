@@ -72,35 +72,35 @@
 	<entry id="buff_bsrc_notspecified"><![CDATA[]]></entry>
     <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[+%d%%{colour_start|blight}腐蚀{colour_end}技能效果]]></entry>
 	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[+%d%%{colour_start|bleed}流血{colour_end}技能效果]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[+%d%%{colour_start|healhp}恢复{colour_end}技能效果]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%%{colour_start|healhp}恢复{colour_end}技能持续时间]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[+%d%%受到的{colour_start|healhp}恢复{colour_end}技能效果]]></entry>
-	<entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[+%d%%受到的{colour_start|healhp}恢复{colour_end}技能持续时间]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[+%d%%{colour_start|healhp}再生{colour_end}技能效果]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[+%d%%{colour_start|healhp}再生{colour_end}技能持续时间]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[+%d%%受到的{colour_start|healhp}再生{colour_end}技能效果]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_dot_duration_received_percent"><![CDATA[+%d%%受到的{colour_start|healhp}再生{colour_end}技能持续时间]]></entry>
 	<entry id="buff_rule_data_tooltip_maincourse"><![CDATA[主菜]]></entry>
 	<entry id="buff_rule_data_tooltip_butcher"><![CDATA[屠夫片肉]]></entry>
     <entry id="str_quirk_name_binge"><![CDATA[暴饮暴食]]></entry>
 	<entry id="buff_rule_data_tooltip_binge"><![CDATA[暴饮暴食]]></entry>
-	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% 火炬效率]]></entry>
+	<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%%火把燃烧效率]]></entry>
 
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[窃取{colour_start|healhp}恢复{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_Cook_StealHeal"><![CDATA[窃取{colour_start|healhp}再生{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_MoveBlock"><![CDATA[移动不可用]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealBuff"><![CDATA[{colour_start|skill_unselectable}仅在战斗结束前{colour_end}]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[结束{colour_start|healhp}恢复{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_HealStop"><![CDATA[结束{colour_start|healhp}再生{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_1"><![CDATA[敌方队伍：
 	{colour_start|blight}腐蚀{colour_end}{colour_start|skill_unselectable}（90%%基础概率）{colour_end}
-	6伤害/回合 持续1回合]]></entry>
+	6伤害/每回合 持续1回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_2"><![CDATA[敌方队伍：
 	{colour_start|blight}腐蚀{colour_end} {colour_start|skill_unselectable}（100%%基础概率）{colour_end}
-	7伤害/回合 持续1回合]]></entry>
+	7伤害/每回合 持续1回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_3"><![CDATA[敌方队伍：
 	{colour_start|blight}腐蚀{colour_end} {colour_start|skill_unselectable}（110%%基础概率）{colour_end}
-	8伤害/回合 持续1回合]]></entry>
+	8伤害/每回合 持续1回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_4"><![CDATA[敌方队伍：
 	{colour_start|blight}腐蚀{colour_end} {colour_start|skill_unselectable}（120%%基础概率）{colour_end}
-	9伤害/回合 持续1回合]]></entry>
+	9伤害/每回合 持续1回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_MCourse_FinalBlight_5"><![CDATA[敌方队伍：
 	{colour_start|blight}腐蚀{colour_end} {colour_start|skill_unselectable}（130%%基础概率）{colour_end}
-	10伤害/回合 持续1回合]]></entry>
+	10伤害/每回合 持续1回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_Cont"><![CDATA[{colour_start|notable}继续回合{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_2"><![CDATA[{colour_start|healhp}治疗{colour_end}1-2生命/回合 持续2回合]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_Condiment_4"><![CDATA[{colour_start|healhp}治疗{colour_end}2-3生命/回合 持续2回合]]></entry>
@@ -109,7 +109,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_CPiece_EffRes"><![CDATA[-%d%%全部抗性]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Spices_Heal"><![CDATA[友军技能：{colour_start|healhp}治疗{colour_end}0-2生命]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Pendant_DMG"><![CDATA[友军技能：伤害1-2生命]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Glasses_DDHeal"><![CDATA[-%d%%受到的{colour_start|healhp}治疗{colour_end}量 来自技能]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_TT_T_Glasses_DDHeal"><![CDATA[-%d%%受到的生命{colour_start|healhp}治疗{colour_end}量 来自技能]]></entry>
 
     <entry id="cook+str_bark_encourage"><![CDATA[我知道你能肩负你的重担的。]]></entry>
     <entry id="cook+str_bark_encourage"><![CDATA[你是个坚强的人。你很容易能活到和我一样老。]]></entry>
@@ -213,7 +213,7 @@
 	<entry id="str_cook_supply"><![CDATA[粘糊糊的……但还算满意。]]></entry>
 	<entry id="str_cook_supply"><![CDATA[哦……其实没那么难吃。]]></entry>
 	<entry id="str_cook_supply"><![CDATA[恶心。等等……我感觉好多了！]]></entry>
-	<entry id="str_cook_supply"><![CDATA[我不能否认它的恢复作用。]]></entry>
+	<entry id="str_cook_supply"><![CDATA[我不能否认它的再生作用。]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[好吃！]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[你们不知道你们都错过些了什么。]]></entry>
 	<entry id="cook+str_cook_supply"><![CDATA[都是好吃的菜！]]></entry>

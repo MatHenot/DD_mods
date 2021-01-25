@@ -67,10 +67,10 @@
 	<entry id="str_quirk_description_tasteless"><![CDATA[Reduces {colour_start|healhp}Восстановления{colour_end} Amount Received from Странствующий повар's skills]]></entry>
   </language>
   <language id="schinese">
-    <entry id="str_quirk_name_gourmet"><![CDATA[Gourmet]]></entry>
-	<entry id="str_quirk_description_gourmet"><![CDATA[Increases {colour_start|healhp}恢复{colour_end} Amount Received from 巡回厨师's skills]]></entry>
-    <entry id="str_quirk_name_tasteless"><![CDATA[Tasteless]]></entry>
-	<entry id="str_quirk_description_tasteless"><![CDATA[Reduces {colour_start|healhp}恢复{colour_end} Amount Received from 巡回厨师's skills]]></entry>
+    <entry id="str_quirk_name_gourmet"><![CDATA[美食家]]></entry>
+	<entry id="str_quirk_description_gourmet"><![CDATA[增加受到的{colour_start|healhp}再生{colour_end}技能量 来自巡回厨师的技能]]></entry>
+    <entry id="str_quirk_name_tasteless"><![CDATA[味觉障碍]]></entry>
+	<entry id="str_quirk_description_tasteless"><![CDATA[减少受到的{colour_start|healhp}再生{colour_end}技能量 来自巡回厨师的技能]]></entry>
   </language>
   <language id="spanish">
     <entry id="str_quirk_name_gourmet"><![CDATA[Gastrónomo]]></entry>
