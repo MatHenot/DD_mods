@@ -1,0 +1,14 @@
+{
+   "sets":
+   [
+       {
+         "id" : "soul_swallow_set",
+         "buffs" : 
+         [
+            "soul_swallow_set_acc_buff",
+			"soul_swallow_set_prot_buff"
+			 
+         ]
+      }
+   ]
+}

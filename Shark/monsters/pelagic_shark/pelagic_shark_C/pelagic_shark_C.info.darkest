@@ -1,0 +1,17 @@
+display: .size 2
+enemy_type: .id "beast"
+stats: .hp 235 .def 10% .prot 0.2 .spd 6 .stun_resist 100% .poison_resist 70% .bleed_resist 90% .debuff_resist 100% .move_resist 220%
+skill: .id "Shark_Bite" .type "melee" .atk -90% .dmg 15 15 .crit 100%  .launch 4321 .target ~1234 .effect "Shark_ACC_on_Bleed" "Shark_unimmobilize" .can_be_riposted false
+skill: .id "Shark_Anchor" .type "melee" .atk 100% .dmg 12 21 .crit 15%  .launch 4321 .target 1234 .effect "Stun 3"
+skill: .id "Shark_Net" .type "ranged" .atk 115% .dmg 0 0 .crit 0%  .launch 4321 .target 1234 .effect "Disorient 5" "immobilize" .is_crit_valid False
+skill: .id "Shark_Net2" .type "ranged" .atk 115% .dmg 0 0 .crit 0%  .launch 4321 .target 1234 .effect "Disorient 5" "immobilize" .is_crit_valid False .extra_targets_chance 1.0 .extra_targets_count 1 .is_knowledgeable False
+personality: .prefskill -1
+loot: .code "Shark_Trinkets" .count 1
+loot: .code "T" .count 2
+loot: .code "B" .count 2
+initiative: .number_of_turns_per_round 2
+monster_brain: .id pelagic_shark
+tag: .id "boss"
+death_class: .monster_class_id corpse_large_A .is_valid_on_crit False .type "corpse" 
+battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty True .can_surprise False .can_be_surprised False .always_surprise False .always_be_surprised False
+wave_spawning: .prefers_front True

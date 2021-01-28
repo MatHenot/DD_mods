@@ -4,38 +4,40 @@
             "id": "pelagic_shark",
             "skill_cooldowns": [
 				{
-					"combat_skill_id": "bite",
-                    "amount": 2
+					"combat_skill_id": "Shark_Anchor",
+                    "amount": 1
 				},
 				{
-					"combat_skill_id": "anchor",
-                    "amount": 2
+					"combat_skill_id": "Shark_Net",
+                    "amount": 1
 				},
 				{
-					"combat_skill_id": "net",
-                    "amount": 2
+					"combat_skill_id": "Shark_Net2",
+                    "amount": 1
 				}
 			],
             "skill_selection_desires": [
-                {
-                    "type": "specific_skill",
-                    "data": {
-                        "base_chance": 1,
-                        "combat_skill_id": "bite"
-                    }
-                },
 				{
                     "type": "specific_skill",
                     "data": {
                         "base_chance": 1,
-                        "combat_skill_id": "anchor"
+                        "combat_skill_id": "Shark_Anchor"
                     }
                 },
 				{
-                    "type": "specific_skill",
+                    "type": "ally_alive_skill",
                     "data": {
-                        "base_chance": 1,
-                        "combat_skill_id": "net"
+                        "base_chance": 1000000,
+                        "combat_skill_id": "Shark_Net",
+                        "ally_base_class_id": "unformed"
+                    }
+                },
+				{
+                    "type": "ally_dead_skill",
+                    "data": {
+                        "base_chance": 1000000,
+                        "combat_skill_id": "Shark_Net2",
+                        "ally_base_class_id": "unformed"
                     }
                 }
             ],
@@ -49,9 +51,34 @@
                         "is_enemy_target_desire": true,
                         "is_friendly_target_desire": true
                     }
+                },
+                {
+                    "type": "stunned_target",
+                    "data": {
+                        "base_chance": -1000.0,
+                        "specific_combat_skill_id": "Shark_Anchor",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
                 }
             ],
-            "bonus_initiative_desires": []
+            "bonus_initiative_desires": [
+                {
+                    "type": "guaranteed",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": false,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "is_cooldown_enabled": true,
+                        "round_min": 1,
+                        "combat_skill_id_override": "Shark_Bite",
+                        "ignore_if_stun": true
+                    }
+                }
+            ]
         }
 	]
 }

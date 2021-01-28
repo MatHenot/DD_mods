@@ -1,0 +1,5 @@
+commonfx: .deathfx death_medium
+skill: .id "Shark_Bite" .anim "bite" .fx "bite_fx" .targchestfx "blood_splatter" 
+skill: .id "Shark_Anchor" .anim "anchor" .fx "anchor_fx".targfx "" .area_pos_offset -100 0
+skill: .id "Shark_Net" .anim "net" .fx "net_fx" .targfx "" .area_pos_offset -150 0
+skill: .id "Shark_Net2" .anim "net" .fx "net_fx" .targfx "" .area_pos_offset -150 0

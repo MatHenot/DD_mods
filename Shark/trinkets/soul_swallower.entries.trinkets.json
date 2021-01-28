@@ -1,0 +1,44 @@
+{
+   "entries":
+   [
+		{
+			"id" : "abyssal_light",
+			"buffs" : 
+			[
+				"abyss_light_light_reduction",
+				"abyss_light_acc_reduction"
+			],
+			"hero_class_requirements":
+			[
+			],
+			"rarity" : "soul_swallow",
+			"set_id" : "soul_swallow_set",
+			"price" : 40000,
+			"limit" : 1,
+			"origin_dungeon" : "cove"
+		},
+		{
+			"id" : "shard_of_soul",
+			"buffs" : 
+			[
+				"soul_shard_dmg_v_man_l",
+				"soul_shard_dmg_v_man_h",
+				"soul_shard_dmg_v_beast_l",
+				"soul_shard_dmg_v_beast_h",
+				"soul_shard_dmg_v_unholy_l",
+				"soul_shard_dmg_v_unholy_h",
+				"soul_shard_dmg_v_eldritch_l",
+				"soul_shard_dmg_v_eldritch_h",
+				"soul_shard_stress_eldritch"
+			],
+			"hero_class_requirements":
+			[
+			],
+			"rarity" : "soul_swallow",
+			"set_id" : "soul_swallow_set",
+			"price" : 40000,
+			"limit" : 1,
+			"origin_dungeon" : "cove"
+		}
+   ]
+}

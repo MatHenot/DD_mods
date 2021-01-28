@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+  <!-- New Monster -->
+  <entry id="str_monstername_soul_swallower_C"><![CDATA[Abyssal Horror]]></entry>
+  <entry id="str_monstername_unformed_C"><![CDATA[Unformed]]></entry>
+  <!-- Monster Attacks -->
+  <entry id="str_monster_skill_swallow_howl"><![CDATA[Unearthly Knowledge]]></entry>
+  <entry id="str_monster_skill_swallow_clamp"><![CDATA[Maw of the Abyss]]></entry>
+  <entry id="str_monster_skill_swallow_invade"><![CDATA[Decay the Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_swallow1"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow2"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow3"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_summon1"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon2"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon3"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_unform_guard"><![CDATA[Prayer of Protection]]></entry>
+  <entry id="str_monster_skill_unform_heal"><![CDATA[Prayer of Life]]></entry>
+  <!-- Buffs -->
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_swallow_tooltip_1"><![CDATA[Return to Flesh Disabled]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_1"><![CDATA[1 Devoured Soul]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_2"><![CDATA[2 Devoured Souls]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_3"><![CDATA[3 Devoured Souls]]></entry>
+  <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+  <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+  <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
+  <!-- Trinkets -->
+  <entry id="str_inventory_title_trinketabyssal_light"><![CDATA[Phantasmal Lure]]></entry>
+  <entry id="str_inventory_title_trinketshard_of_soul"><![CDATA[Shard of Soul]]></entry>
+  <entry id="str_inventory_set_title_soul_swallow_set"><![CDATA["Even in this desolate clot of soul, life is still warming"]]></entry>
+   <entry id="trinket_rarity_soul_swallow"><![CDATA[Abyssal Trophy]]></entry>
+  <!-- Plot Quest and Town Events -->
+  <entry id="town_quest_name_plot_soul_swallow_attack"><![CDATA[Abyssal Establishment]]></entry>
+  <entry id="str_embarked_on_plot_soul_swallow_attack"><![CDATA[Departed this realm]]></entry>
+  <entry id="str_plot_soul_swallow_attack_tip"><![CDATA[You are not alone... Some cosmic prescence lurks around these halls...]]></entry>
+  <entry id="loading_screen_override_soul_swallow"><![CDATA[The connection is established...]]></entry>
+  <entry id="str_soul_swallow_tip"><![CDATA[You are not alone... Some cosmic prescence lurks around these halls...]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_failure"><![CDATA[{?hero_names}%s were devoured]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_success"><![CDATA[{?hero_names}%s halted the horror's advances, for now]]></entry>
+  <entry id="town_quest_description_plot_soul_swallow_attack"><![CDATA[A sinister apprehension envelopes the damp caverns. Tread carefully, for you never know lurks on the other side...]]></entry>
+  
+  <entry id="town_event_description_soul_swallow_attack"><![CDATA[Some sort of anomaly is occuring in the cove. Some connection to another realm is being established. Our party does not require additional encumberments, find the causal force and eliminate it. ]]></entry>
+  <entry id="town_event_title_soul_swallow_attack"><![CDATA[Abyssal Rift]]></entry>
+  
+  
+  </language>
+  <language id="french">
+    <!-- New Monster -->
+  <entry id="str_monstername_soul_swallower_C"><![CDATA[L'Horreur Abyssale]]></entry>
+  <entry id="str_monstername_unformed_C"><![CDATA[Informe]]></entry>
+  <!-- Monster Attacks -->
+  <entry id="str_monster_skill_swallow_howl"><![CDATA[Connaissances Inquiétantes]]></entry>
+  <entry id="str_monster_skill_swallow_clamp"><![CDATA[Mâchoire des Abysses]]></entry>
+  <entry id="str_monster_skill_swallow_invade"><![CDATA[Pourrir la Chair]]></entry>
+  <entry id="str_monster_skill_swallow_swallow1"><![CDATA[Dévorer la Force Vitale]]></entry>
+  <entry id="str_monster_skill_swallow_swallow2"><![CDATA[Dévorer la Force Vitale]]></entry>
+  <entry id="str_monster_skill_swallow_swallow3"><![CDATA[Dévorer la Force Vitale]]></entry>
+  <entry id="str_monster_skill_swallow_summon1"><![CDATA[Retour à la Chair]]></entry>
+  <entry id="str_monster_skill_swallow_summon2"><![CDATA[Retour à la Chair]]></entry>
+  <entry id="str_monster_skill_swallow_summon3"><![CDATA[Retour à la Chair]]></entry>
+  <entry id="str_monster_skill_unform_guard"><![CDATA[Priére de Protection]]></entry>
+  <entry id="str_monster_skill_unform_heal"><![CDATA[Priére de Vie]]></entry>
+  <!-- Buffs -->
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_swallow_tooltip_1"><![CDATA[Retour à la Chair Désactivée]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_1"><![CDATA[1 Âme Dévorée]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_2"><![CDATA[2 Âmes Dévorées]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_3"><![CDATA[3 Âmes Dévorées]]></entry>
+  <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s si un ennemi est %s]]></entry>
+  <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Vitesse de Combustion de la Torche]]></entry>
+  <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% Dégàt Reçu]]></entry>
+  <!-- Trinkets -->
+  <entry id="str_inventory_title_trinketabyssal_light"><![CDATA[Leurre Fantasmatique]]></entry>
+  <entry id="str_inventory_title_trinketshard_of_soul"><![CDATA[Éclat d'Âme]]></entry>
+  <entry id="str_inventory_set_title_soul_swallow_set"><![CDATA["Meme dans cette amas d'âmes désolés , la vie est toujours présente"]]></entry>
+   <entry id="trinket_rarity_soul_swallow"><![CDATA[Trophée Abyssal]]></entry>
+  <!-- Plot Quest and Town Events -->
+  <entry id="town_quest_name_plot_soul_swallow_attack"><![CDATA[Connexion Abyssal]]></entry>
+  <entry id="str_embarked_on_plot_soul_swallow_attack"><![CDATA[Ont quittés notre réalité...]]></entry>
+  <entry id="str_plot_soul_swallow_attack_tip"><![CDATA[Vous n'êtes pas seuls... Une présence cosmique rôdes dans ces piéces...]]></entry>
+  <entry id="loading_screen_override_soul_swallow"><![CDATA[La connexion a été établie...]]></entry>
+  <entry id="str_soul_swallow_tip"><![CDATA[Vous n'êtes pas seuls... Une présence cosmique rôdes dans ces piéces...]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_failure"><![CDATA[{?hero_names}%s ont été dévorés!]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_success"><![CDATA[{?hero_names}%s ont mis un terme à la progression de l'horreur, pour le moment]]></entry>
+  <entry id="town_quest_description_plot_soul_swallow_attack"><![CDATA[Une sinistre angoisse se fais resentir dans ces humides cavernes. Avancez prudemment, vous ne savez jamais ce qui ce trouve de l'autre coté...]]></entry>
+  
+  <entry id="town_event_description_soul_swallow_attack"><![CDATA[Une anomalie a été découverte dans la crique. Une sorte de connexion à une réalité est en train d'étre établie. Notre hameau n'a pas besoin de plus de nuisances , trouvez la cause de ceci et éliminez-la. ]]></entry>
+  <entry id="town_event_title_soul_swallow_attack"><![CDATA[Portail Abyssal]]></entry>
+  </language>
+  <language id="polish">
+  <!-- New Monster -->
+  <entry id="str_monstername_soul_swallower_C"><![CDATA[Abyssal Horror]]></entry>
+  <entry id="str_monstername_unformed_C"><![CDATA[Unformed]]></entry>
+  <!-- Monster Attacks -->
+  <entry id="str_monster_skill_swallow_howl"><![CDATA[Unearthly Knowledge]]></entry>
+  <entry id="str_monster_skill_swallow_clamp"><![CDATA[Maw of the Abyss]]></entry>
+  <entry id="str_monster_skill_swallow_invade"><![CDATA[Decay the Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_swallow1"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow2"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow3"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_summon1"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon2"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon3"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_unform_guard"><![CDATA[Prayer of Protection]]></entry>
+  <entry id="str_monster_skill_unform_heal"><![CDATA[Prayer of Life]]></entry>
+  <!-- Buffs -->
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_swallow_tooltip_1"><![CDATA[Return to Flesh Disabled]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_1"><![CDATA[1 Devoured Soul]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_2"><![CDATA[2 Devoured Souls]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_3"><![CDATA[3 Devoured Souls]]></entry>
+  <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+  <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+  <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
+  <!-- Trinkets -->
+  <entry id="str_inventory_title_trinketabyssal_light"><![CDATA[Phantasmal Lure]]></entry>
+  <entry id="str_inventory_title_trinketshard_of_soul"><![CDATA[Shard of Soul]]></entry>
+  <entry id="str_inventory_set_title_soul_swallow_set"><![CDATA["In this clot of another's soul, life is still warming"]]></entry>
+   <entry id="trinket_rarity_soul_swallow"><![CDATA[Abyssal Trophy]]></entry>
+  <!-- Plot Quest and Town Events -->
+  <entry id="town_quest_name_plot_soul_swallow_attack"><![CDATA[Abyssal Establishment]]></entry>
+  <entry id="str_embarked_on_plot_soul_swallow_attack"><![CDATA[Departed this realm]]></entry>
+  <entry id="str_plot_soul_swallow_attack_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="loading_screen_override_soul_swallow"><![CDATA[The connection is established...]]></entry>
+  <entry id="str_soul_swallow_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_failure"><![CDATA[{?hero_names}%s were devoured]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_success"><![CDATA[{?hero_names}%s halted the horror's advances, for now]]></entry>
+  <entry id="town_quest_description_plot_soul_swallow_attack"><![CDATA[A sinister apprehension envelopes the damp caverns. Tread carefully, for you never know lurks on the other side...]]></entry>
+  
+  <entry id="town_event_description_soul_swallow_attack"><![CDATA[Some sort of anomaly is occuring in the cove. Some connection to another realm is being established. Our party does not require additional encumberments, find the causal force and eliminate it. ]]></entry>
+  <entry id="town_event_title_soul_swallow_attack"><![CDATA[Abyssal Rift]]></entry>
+</language>
+<language id="german">
+  <!-- New Monster -->
+  <entry id="str_monstername_soul_swallower_C"><![CDATA[Abyssal Horror]]></entry>
+  <entry id="str_monstername_unformed_C"><![CDATA[Unformed]]></entry>
+  <!-- Monster Attacks -->
+  <entry id="str_monster_skill_swallow_howl"><![CDATA[Unearthly Knowledge]]></entry>
+  <entry id="str_monster_skill_swallow_clamp"><![CDATA[Maw of the Abyss]]></entry>
+  <entry id="str_monster_skill_swallow_invade"><![CDATA[Decay the Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_swallow1"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow2"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow3"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_summon1"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon2"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon3"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_unform_guard"><![CDATA[Prayer of Protection]]></entry>
+  <entry id="str_monster_skill_unform_heal"><![CDATA[Prayer of Life]]></entry>
+  <!-- Buffs -->
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_swallow_tooltip_1"><![CDATA[Return to Flesh Disabled]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_1"><![CDATA[1 Devoured Soul]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_2"><![CDATA[2 Devoured Souls]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_3"><![CDATA[3 Devoured Souls]]></entry>
+  <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+  <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+  <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
+  <!-- Trinkets -->
+  <entry id="str_inventory_title_trinketabyssal_light"><![CDATA[Phantasmal Lure]]></entry>
+  <entry id="str_inventory_title_trinketshard_of_soul"><![CDATA[Shard of Soul]]></entry>
+  <entry id="str_inventory_set_title_soul_swallow_set"><![CDATA["In this clot of another's soul, life is still warming"]]></entry>
+   <entry id="trinket_rarity_soul_swallow"><![CDATA[Abyssal Trophy]]></entry>
+  <!-- Plot Quest and Town Events -->
+  <entry id="town_quest_name_plot_soul_swallow_attack"><![CDATA[Abyssal Establishment]]></entry>
+  <entry id="str_embarked_on_plot_soul_swallow_attack"><![CDATA[Departed this realm]]></entry>
+  <entry id="str_plot_soul_swallow_attack_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="loading_screen_override_soul_swallow"><![CDATA[The connection is established...]]></entry>
+  <entry id="str_soul_swallow_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_failure"><![CDATA[{?hero_names}%s were devoured]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_success"><![CDATA[{?hero_names}%s halted the horror's advances, for now]]></entry>
+  <entry id="town_quest_description_plot_soul_swallow_attack"><![CDATA[A sinister apprehension envelopes the damp caverns. Tread carefully, for you never know lurks on the other side...]]></entry>
+  
+  <entry id="town_event_description_soul_swallow_attack"><![CDATA[Some sort of anomaly is occuring in the cove. Some connection to another realm is being established. Our party does not require additional encumberments, find the causal force and eliminate it. ]]></entry>
+  <entry id="town_event_title_soul_swallow_attack"><![CDATA[Abyssal Rift]]></entry>
+</language>
+<language id="spanish">
+  <entry id="str_monstername_soul_swallower_C"><![CDATA[Horror Abisal]]></entry>
+  <entry id="str_monstername_unformed_C"><![CDATA[Desformado]]></entry>
+  <entry id="str_monster_skill_swallow_howl"><![CDATA[Conocimiento Fuera de este mundo]]></entry>
+  <entry id="str_monster_skill_swallow_clamp"><![CDATA[Fauce del Abismo]]></entry>
+  <entry id="str_monster_skill_swallow_invade"><![CDATA[Pudrir la piel]]></entry>
+  <entry id="str_monster_skill_swallow_swallow1"><![CDATA[Consumir Fuerza Vital]]></entry>
+  <entry id="str_monster_skill_swallow_swallow2"><![CDATA[Consumir Fuerza Vital]]></entry>
+  <entry id="str_monster_skill_swallow_swallow3"><![CDATA[Consumir Fuerza Vital]]></entry>
+  <entry id="str_monster_skill_swallow_summon1"><![CDATA[Regrezar a Carne]]></entry>
+  <entry id="str_monster_skill_swallow_summon2"><![CDATA[Regrezar a Carne]]></entry>
+  <entry id="str_monster_skill_swallow_summon3"><![CDATA[Regrezar a Carne]]></entry>
+  <entry id="str_monster_skill_unform_guard"><![CDATA[Oracion de Proteccion]]></entry>
+  <entry id="str_monster_skill_unform_heal"><![CDATA[Oracion de Vida]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_swallow_tooltip_1"><![CDATA[Regrezo a Carne esta Desabilitado]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_1"><![CDATA[1 Alma Devorada]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_2"><![CDATA[2 Almas Devoradas]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_3"><![CDATA[3 Almas Devoradas]]></entry>
+  <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+  <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+  <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Recieved]]></entry>
+  <entry id="str_inventory_title_trinketabyssal_light"><![CDATA[Carnada Fantasmal]]></entry>
+  <entry id="str_inventory_title_trinketshard_of_soul"><![CDATA[Fragmento De Alma]]></entry>
+  <entry id="str_inventory_set_title_soul_swallow_set"><![CDATA["En este Coágulo de Alma, la vida Todavia se aprecia"]]></entry>
+   <entry id="trinket_rarity_soul_swallow"><![CDATA[Trofeo Abisal]]></entry>
+  <entry id="town_quest_name_plot_soul_swallow_attack"><![CDATA[Establecimiento Abisal]]></entry>
+  <entry id="str_embarked_on_plot_soul_swallow_attack"><![CDATA[Dejo este Reino]]></entry>
+  <entry id="str_plot_soul_swallow_attack_tip"><![CDATA[Cuidado con el DsT, Solo incluye lo que Puedas Curar]]></entry>
+  <entry id="loading_screen_override_soul_swallow"><![CDATA[La Conexion se ha establecido...]]></entry>
+  <entry id="str_soul_swallow_tip"><![CDATA[Cuidado con DsT, solo incuye lo que Puedas Curar]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_failure"><![CDATA[{?hero_names}%s Fue Devorado]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_success"><![CDATA[{?hero_names}%s Detuvo a El Horror, Por ahora]]></entry>
+  <entry id="town_quest_description_plot_soul_swallow_attack"><![CDATA[Una Aparicion Siniestra Cubre las viejas Cavernas. Marcha con cuidado, No sabemos que merodea por aqui...]]></entry>
+  <entry id="town_event_description_soul_swallow_attack"><![CDATA[Alguna Anomalia Ha surgido. Una Connecion a Otro Reino se establecio. Nuestro grupo no necesita mas distracciones, Encuentra la Causa y eliminala. ]]></entry>
+  <entry id="town_event_title_soul_swallow_attack"><![CDATA[Portal Abisal]]></entry>
+</language>
+<language id="brazilian">
+   <!-- New Monster -->
+  <entry id="str_monstername_soul_swallower_C"><![CDATA[Horror Abissal]]></entry>
+  <entry id="str_monstername_unformed_C"><![CDATA[Não Formado]]></entry>
+  <!-- Monster Attacks -->
+  <entry id="str_monster_skill_swallow_howl"><![CDATA[Conhecimento Sobrenatural]]></entry>
+  <entry id="str_monster_skill_swallow_clamp"><![CDATA[Boca do Abismo]]></entry>
+  <entry id="str_monster_skill_swallow_invade"><![CDATA[Decair a Carne]]></entry>
+  <entry id="str_monster_skill_swallow_swallow1"><![CDATA[Consumir Força Vital]]></entry>
+  <entry id="str_monster_skill_swallow_swallow2"><![CDATA[Consumir Força Vital]]></entry>
+  <entry id="str_monster_skill_swallow_swallow3"><![CDATA[Consumir Força Vital]]></entry>
+  <entry id="str_monster_skill_swallow_summon1"><![CDATA[Retorno à Carne]]></entry>
+  <entry id="str_monster_skill_swallow_summon2"><![CDATA[Retorno à Carne]]></entry>
+  <entry id="str_monster_skill_swallow_summon3"><![CDATA[Retorno à Carne]]></entry>
+  <entry id="str_monster_skill_unform_guard"><![CDATA[Oração de Proteção]]></entry>
+  <entry id="str_monster_skill_unform_heal"><![CDATA[Oração de Vida]]></entry>
+  <!-- Buffs -->
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_swallow_tooltip_1"><![CDATA[Retorno à Carne Desabilitado]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_1"><![CDATA[1 Alma Devorada]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_2"><![CDATA[2 Almas Devoradas]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_3"><![CDATA[3 Almas Devoradas]]></entry>
+  <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s se qualquer inimigo estiver %s]]></entry>
+  <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Taxa de Consumo da Tocha]]></entry>
+  <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DANO Recebido]]></entry>
+  <!-- Trinkets -->
+  <entry id="str_inventory_title_trinketabyssal_light"><![CDATA[Ísca Fantasmagórica]]></entry>
+  <entry id="str_inventory_title_trinketshard_of_soul"><![CDATA[Fragmento de Alma]]></entry>
+  <entry id="str_inventory_set_title_soul_swallow_set"><![CDATA["Neste coágulo da alma de outro, a vida continua calorosa"]]></entry>
+   <entry id="trinket_rarity_soul_swallow"><![CDATA[Troféu Abissal]]></entry>
+  <!-- Plot Quest and Town Events -->
+  <entry id="town_quest_name_plot_soul_swallow_attack"><![CDATA[Estabelecimento Abissal]]></entry>
+  <entry id="str_embarked_on_plot_soul_swallow_attack"><![CDATA[Partiu desse mundo]]></entry>
+  <entry id="str_plot_soul_swallow_attack_tip"><![CDATA[Tenha cuidado com DsTs, traga apenas o que puder curar]]></entry>
+  <entry id="loading_screen_override_soul_swallow"><![CDATA[A conexão está estabelecida...]]></entry>
+  <entry id="str_soul_swallow_tip"><![CDATA[Tenha cuidado com DsTs, traga apenas o que puder curar]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_failure"><![CDATA[{?hero_names}%s foram devorados]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_success"><![CDATA[{?hero_names}%s interromperam os avanços do horror, por enquanto]]></entry>
+  <entry id="town_quest_description_plot_soul_swallow_attack"><![CDATA[Uma apreenção sinistra envolve as cavernas úmidas. Siga cuidadosamente, pois nunca se sabe o que espreita do outro lado...]]></entry>
+  
+  <entry id="town_event_description_soul_swallow_attack"><![CDATA[Algum tipo de anomalia está ocorrendo na enseada. Alguma conexão para outro reino está sendo estabelecida. Nosso grupo não requer onerações adicionais, encontre a força causal e elimine-a. ]]></entry>
+  <entry id="town_event_title_soul_swallow_attack"><![CDATA[Fenda Abissal]]></entry>
+</language>
+<language id="russian">
+     <entry id="str_monstername_soul_swallower_C"><![CDATA[Ужас из Бездны]]></entry>
+  <entry id="str_monstername_unformed_C"><![CDATA[Несформировавшийся]]></entry>
+
+  <entry id="str_monster_skill_swallow_howl"><![CDATA[Знания Бездны]]></entry>
+  <entry id="str_monster_skill_swallow_clamp"><![CDATA[Пасть бездны]]></entry>
+  <entry id="str_monster_skill_swallow_invade"><![CDATA[Разложение Плоти]]></entry>
+  <entry id="str_monster_skill_swallow_swallow1"><![CDATA[Жизненная энергия души]]></entry>
+  <entry id="str_monster_skill_swallow_swallow2"><![CDATA[Жизненная энергия души]]></entry>
+  <entry id="str_monster_skill_swallow_swallow3"><![CDATA[Жизненная энергия души]]></entry>
+  <entry id="str_monster_skill_swallow_summon1"><![CDATA[Воссоздание души]]></entry>
+  <entry id="str_monster_skill_swallow_summon2"><![CDATA[Воссоздание души]]></entry>
+  <entry id="str_monster_skill_swallow_summon3"><![CDATA[Воссоздание души]]></entry>
+  <entry id="str_monster_skill_unform_guard"><![CDATA[Мольба о защите]]></entry>
+  <entry id="str_monster_skill_unform_heal"><![CDATA[Мольба о жизне]]></entry>
+
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_swallow_tooltip_1"><![CDATA[Воссоздание души отключено]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_1"><![CDATA[1 Душа Поглощена]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_2"><![CDATA[2 Душа Поглощена]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_3"><![CDATA[3 Душа Поглощена]]></entry>
+  <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s если этот противник %s]]></entry>
+  <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Сила Освещения Факела]]></entry>
+  <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% Урона получено]]></entry>
+
+  <entry id="str_inventory_title_trinketabyssal_light"><![CDATA[Призрачная Приманка]]></entry>
+  <entry id="str_inventory_title_trinketshard_of_soul"><![CDATA[Осколок душиl]]></entry>
+  <entry id="str_inventory_set_title_soul_swallow_set"><![CDATA["В этом сгустке души - еще теплится жизнь"]]></entry>
+   <entry id="trinket_rarity_soul_swallow"><![CDATA[Abyssal Trophy]]></entry>
+
+  <entry id="town_quest_name_plot_soul_swallow_attack"><![CDATA[Нестабильность реальности]]></entry>
+  <entry id="str_embarked_on_plot_soul_swallow_attack"><![CDATA[Отчуждение от реальности]]></entry>
+  <entry id="str_plot_soul_swallow_attack_tip"><![CDATA[Будьте осторжны с местами, приносите лишь то, что можете унести]]></entry>
+  <entry id="loading_screen_override_soul_swallow"><![CDATA[Связь нестабильна...]]></entry>
+  <entry id="str_soul_swallow_tip"><![CDATA[Будьте осторжны с местами, приносите лишь то, что можете унести]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_failure"><![CDATA[{?hero_names}%s был поглощен]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_success"><![CDATA[{?hero_names}%s остановил распространение ужаса, пока что]]></entry>
+  <entry id="town_quest_description_plot_soul_swallow_attack"><![CDATA[Мрачное присуствие охватывает сыре пещеры. Будьте осторожны, ибо вы даже не представляйте, что за свет находится на той стороне...]]></entry>
+  
+  <entry id="town_event_description_soul_swallow_attack"><![CDATA[Странная аномалия находится в бухте. Некая свзял с другой реальностью теряет стабильность. Вашей команды не нужны лишние преграды, найдите истинную причину и уничтожте её. ]]></entry>
+  <entry id="town_event_title_soul_swallow_attack"><![CDATA[Разлом в бездну]]></entry>
+</language>
+<language id="czech">
+  <!-- New Monster -->
+  <entry id="str_monstername_soul_swallower_C"><![CDATA[Abyssal Horror]]></entry>
+  <entry id="str_monstername_unformed_C"><![CDATA[Unformed]]></entry>
+  <!-- Monster Attacks -->
+  <entry id="str_monster_skill_swallow_howl"><![CDATA[Unearthly Knowledge]]></entry>
+  <entry id="str_monster_skill_swallow_clamp"><![CDATA[Maw of the Abyss]]></entry>
+  <entry id="str_monster_skill_swallow_invade"><![CDATA[Decay the Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_swallow1"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow2"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow3"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_summon1"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon2"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon3"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_unform_guard"><![CDATA[Prayer of Protection]]></entry>
+  <entry id="str_monster_skill_unform_heal"><![CDATA[Prayer of Life]]></entry>
+  <!-- Buffs -->
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_swallow_tooltip_1"><![CDATA[Return to Flesh Disabled]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_1"><![CDATA[1 Devoured Soul]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_2"><![CDATA[2 Devoured Souls]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_3"><![CDATA[3 Devoured Souls]]></entry>
+  <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+  <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+  <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
+  <!-- Trinkets -->
+  <entry id="str_inventory_title_trinketabyssal_light"><![CDATA[Phantasmal Lure]]></entry>
+  <entry id="str_inventory_title_trinketshard_of_soul"><![CDATA[Shard of Soul]]></entry>
+  <entry id="str_inventory_set_title_soul_swallow_set"><![CDATA["In this clot of another's soul, life is still warming"]]></entry>
+   <entry id="trinket_rarity_soul_swallow"><![CDATA[Abyssal Trophy]]></entry>
+  <!-- Plot Quest and Town Events -->
+  <entry id="town_quest_name_plot_soul_swallow_attack"><![CDATA[Abyssal Establishment]]></entry>
+  <entry id="str_embarked_on_plot_soul_swallow_attack"><![CDATA[Departed this realm]]></entry>
+  <entry id="str_plot_soul_swallow_attack_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="loading_screen_override_soul_swallow"><![CDATA[The connection is established...]]></entry>
+  <entry id="str_soul_swallow_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_failure"><![CDATA[{?hero_names}%s were devoured]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_success"><![CDATA[{?hero_names}%s halted the horror's advances, for now]]></entry>
+  <entry id="town_quest_description_plot_soul_swallow_attack"><![CDATA[A sinister apprehension envelopes the damp caverns. Tread carefully, for you never know lurks on the other side...]]></entry>
+  
+  <entry id="town_event_description_soul_swallow_attack"><![CDATA[Some sort of anomaly is occuring in the cove. Some connection to another realm is being established. Our party does not require additional encumberments, find the causal force and eliminate it. ]]></entry>
+  <entry id="town_event_title_soul_swallow_attack"><![CDATA[Abyssal Rift]]></entry>
+</language>
+<language id="italian">
+  <!-- New Monster -->
+  <entry id="str_monstername_soul_swallower_C"><![CDATA[Abyssal Horror]]></entry>
+  <entry id="str_monstername_unformed_C"><![CDATA[Unformed]]></entry>
+  <!-- Monster Attacks -->
+  <entry id="str_monster_skill_swallow_howl"><![CDATA[Unearthly Knowledge]]></entry>
+  <entry id="str_monster_skill_swallow_clamp"><![CDATA[Maw of the Abyss]]></entry>
+  <entry id="str_monster_skill_swallow_invade"><![CDATA[Decay the Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_swallow1"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow2"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow3"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_summon1"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon2"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon3"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_unform_guard"><![CDATA[Prayer of Protection]]></entry>
+  <entry id="str_monster_skill_unform_heal"><![CDATA[Prayer of Life]]></entry>
+  <!-- Buffs -->
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_swallow_tooltip_1"><![CDATA[Return to Flesh Disabled]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_1"><![CDATA[1 Devoured Soul]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_2"><![CDATA[2 Devoured Souls]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_3"><![CDATA[3 Devoured Souls]]></entry>
+  <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+  <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+  <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
+  <!-- Trinkets -->
+  <entry id="str_inventory_title_trinketabyssal_light"><![CDATA[Phantasmal Lure]]></entry>
+  <entry id="str_inventory_title_trinketshard_of_soul"><![CDATA[Shard of Soul]]></entry>
+  <entry id="str_inventory_set_title_soul_swallow_set"><![CDATA["In this clot of another's soul, life is still warming"]]></entry>
+   <entry id="trinket_rarity_soul_swallow"><![CDATA[Abyssal Trophy]]></entry>
+  <!-- Plot Quest and Town Events -->
+  <entry id="town_quest_name_plot_soul_swallow_attack"><![CDATA[Abyssal Establishment]]></entry>
+  <entry id="str_embarked_on_plot_soul_swallow_attack"><![CDATA[Departed this realm]]></entry>
+  <entry id="str_plot_soul_swallow_attack_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="loading_screen_override_soul_swallow"><![CDATA[The connection is established...]]></entry>
+  <entry id="str_soul_swallow_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_failure"><![CDATA[{?hero_names}%s were devoured]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_success"><![CDATA[{?hero_names}%s halted the horror's advances, for now]]></entry>
+  <entry id="town_quest_description_plot_soul_swallow_attack"><![CDATA[A sinister apprehension envelopes the damp caverns. Tread carefully, for you never know lurks on the other side...]]></entry>
+  
+  <entry id="town_event_description_soul_swallow_attack"><![CDATA[Some sort of anomaly is occuring in the cove. Some connection to another realm is being established. Our party does not require additional encumberments, find the causal force and eliminate it. ]]></entry>
+  <entry id="town_event_title_soul_swallow_attack"><![CDATA[Abyssal Rift]]></entry>
+</language>
+<language id="polish">
+  <!-- New Monster -->
+  <entry id="str_monstername_soul_swallower_C"><![CDATA[Abyssal Horror]]></entry>
+  <entry id="str_monstername_unformed_C"><![CDATA[Unformed]]></entry>
+  <!-- Monster Attacks -->
+  <entry id="str_monster_skill_swallow_howl"><![CDATA[Unearthly Knowledge]]></entry>
+  <entry id="str_monster_skill_swallow_clamp"><![CDATA[Maw of the Abyss]]></entry>
+  <entry id="str_monster_skill_swallow_invade"><![CDATA[Decay the Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_swallow1"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow2"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow3"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_summon1"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon2"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon3"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_unform_guard"><![CDATA[Prayer of Protection]]></entry>
+  <entry id="str_monster_skill_unform_heal"><![CDATA[Prayer of Life]]></entry>
+  <!-- Buffs -->
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_swallow_tooltip_1"><![CDATA[Return to Flesh Disabled]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_1"><![CDATA[1 Devoured Soul]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_2"><![CDATA[2 Devoured Souls]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_3"><![CDATA[3 Devoured Souls]]></entry>
+  <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+  <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+  <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
+  <!-- Trinkets -->
+  <entry id="str_inventory_title_trinketabyssal_light"><![CDATA[Phantasmal Lure]]></entry>
+  <entry id="str_inventory_title_trinketshard_of_soul"><![CDATA[Shard of Soul]]></entry>
+  <entry id="str_inventory_set_title_soul_swallow_set"><![CDATA["In this clot of another's soul, life is still warming"]]></entry>
+   <entry id="trinket_rarity_soul_swallow"><![CDATA[Abyssal Trophy]]></entry>
+  <!-- Plot Quest and Town Events -->
+  <entry id="town_quest_name_plot_soul_swallow_attack"><![CDATA[Abyssal Establishment]]></entry>
+  <entry id="str_embarked_on_plot_soul_swallow_attack"><![CDATA[Departed this realm]]></entry>
+  <entry id="str_plot_soul_swallow_attack_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="loading_screen_override_soul_swallow"><![CDATA[The connection is established...]]></entry>
+  <entry id="str_soul_swallow_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_failure"><![CDATA[{?hero_names}%s were devoured]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_success"><![CDATA[{?hero_names}%s halted the horror's advances, for now]]></entry>
+  <entry id="town_quest_description_plot_soul_swallow_attack"><![CDATA[A sinister apprehension envelopes the damp caverns. Tread carefully, for you never know lurks on the other side...]]></entry>
+  
+  <entry id="town_event_description_soul_swallow_attack"><![CDATA[Some sort of anomaly is occuring in the cove. Some connection to another realm is being established. Our party does not require additional encumberments, find the causal force and eliminate it. ]]></entry>
+  <entry id="town_event_title_soul_swallow_attack"><![CDATA[Abyssal Rift]]></entry>
+</language>
+<language id="koreana">
+   <!-- New Monster -->
+  <entry id="str_monstername_soul_swallower_C"><![CDATA[Abyssal Horror]]></entry>
+  <entry id="str_monstername_unformed_C"><![CDATA[Unformed]]></entry>
+  <!-- Monster Attacks -->
+  <entry id="str_monster_skill_swallow_howl"><![CDATA[Unearthly Knowledge]]></entry>
+  <entry id="str_monster_skill_swallow_clamp"><![CDATA[Maw of the Abyss]]></entry>
+  <entry id="str_monster_skill_swallow_invade"><![CDATA[Decay the Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_swallow1"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow2"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow3"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_summon1"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon2"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon3"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_unform_guard"><![CDATA[Prayer of Protection]]></entry>
+  <entry id="str_monster_skill_unform_heal"><![CDATA[Prayer of Life]]></entry>
+  <!-- Buffs -->
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_swallow_tooltip_1"><![CDATA[Return to Flesh Disabled]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_1"><![CDATA[1 Devoured Soul]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_2"><![CDATA[2 Devoured Souls]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_3"><![CDATA[3 Devoured Souls]]></entry>
+  <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+  <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+  <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
+  <!-- Trinkets -->
+  <entry id="str_inventory_title_trinketabyssal_light"><![CDATA[Phantasmal Lure]]></entry>
+  <entry id="str_inventory_title_trinketshard_of_soul"><![CDATA[Shard of Soul]]></entry>
+  <entry id="str_inventory_set_title_soul_swallow_set"><![CDATA["In this clot of another's soul, life is still warming"]]></entry>
+   <entry id="trinket_rarity_soul_swallow"><![CDATA[Abyssal Trophy]]></entry>
+  <!-- Plot Quest and Town Events -->
+  <entry id="town_quest_name_plot_soul_swallow_attack"><![CDATA[Abyssal Establishment]]></entry>
+  <entry id="str_embarked_on_plot_soul_swallow_attack"><![CDATA[Departed this realm]]></entry>
+  <entry id="str_plot_soul_swallow_attack_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="loading_screen_override_soul_swallow"><![CDATA[The connection is established...]]></entry>
+  <entry id="str_soul_swallow_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_failure"><![CDATA[{?hero_names}%s were devoured]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_success"><![CDATA[{?hero_names}%s halted the horror's advances, for now]]></entry>
+  <entry id="town_quest_description_plot_soul_swallow_attack"><![CDATA[A sinister apprehension envelopes the damp caverns. Tread carefully, for you never know lurks on the other side...]]></entry>
+  
+  <entry id="town_event_description_soul_swallow_attack"><![CDATA[Some sort of anomaly is occuring in the cove. Some connection to another realm is being established. Our party does not require additional encumberments, find the causal force and eliminate it. ]]></entry>
+  <entry id="town_event_title_soul_swallow_attack"><![CDATA[Abyssal Rift]]></entry>
+</language>
+<language id="koreanb">
+   <!-- New Monster -->
+  <entry id="str_monstername_soul_swallower_C"><![CDATA[Abyssal Horror]]></entry>
+  <entry id="str_monstername_unformed_C"><![CDATA[Unformed]]></entry>
+  <!-- Monster Attacks -->
+  <entry id="str_monster_skill_swallow_howl"><![CDATA[Unearthly Knowledge]]></entry>
+  <entry id="str_monster_skill_swallow_clamp"><![CDATA[Maw of the Abyss]]></entry>
+  <entry id="str_monster_skill_swallow_invade"><![CDATA[Decay the Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_swallow1"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow2"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow3"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_summon1"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon2"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon3"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_unform_guard"><![CDATA[Prayer of Protection]]></entry>
+  <entry id="str_monster_skill_unform_heal"><![CDATA[Prayer of Life]]></entry>
+  <!-- Buffs -->
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_swallow_tooltip_1"><![CDATA[Return to Flesh Disabled]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_1"><![CDATA[1 Devoured Soul]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_2"><![CDATA[2 Devoured Souls]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_3"><![CDATA[3 Devoured Souls]]></entry>
+  <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+  <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+  <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
+  <!-- Trinkets -->
+  <entry id="str_inventory_title_trinketabyssal_light"><![CDATA[Phantasmal Lure]]></entry>
+  <entry id="str_inventory_title_trinketshard_of_soul"><![CDATA[Shard of Soul]]></entry>
+  <entry id="str_inventory_set_title_soul_swallow_set"><![CDATA["In this clot of another's soul, life is still warming"]]></entry>
+   <entry id="trinket_rarity_soul_swallow"><![CDATA[Abyssal Trophy]]></entry>
+  <!-- Plot Quest and Town Events -->
+  <entry id="town_quest_name_plot_soul_swallow_attack"><![CDATA[Abyssal Establishment]]></entry>
+  <entry id="str_embarked_on_plot_soul_swallow_attack"><![CDATA[Departed this realm]]></entry>
+  <entry id="str_plot_soul_swallow_attack_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="loading_screen_override_soul_swallow"><![CDATA[The connection is established...]]></entry>
+  <entry id="str_soul_swallow_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_failure"><![CDATA[{?hero_names}%s were devoured]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_success"><![CDATA[{?hero_names}%s halted the horror's advances, for now]]></entry>
+  <entry id="town_quest_description_plot_soul_swallow_attack"><![CDATA[A sinister apprehension envelopes the damp caverns. Tread carefully, for you never know lurks on the other side...]]></entry>
+  
+  <entry id="town_event_description_soul_swallow_attack"><![CDATA[Some sort of anomaly is occuring in the cove. Some connection to another realm is being established. Our party does not require additional encumberments, find the causal force and eliminate it. ]]></entry>
+  <entry id="town_event_title_soul_swallow_attack"><![CDATA[Abyssal Rift]]></entry>
+</language>
+<language id="schinese">
+     <!-- New Monster -->
+  <entry id="str_monstername_soul_swallower_C"><![CDATA[深渊之怖]]></entry>
+  <entry id="str_monstername_unformed_C"><![CDATA[未成型者]]></entry>
+  <!-- Monster Attacks -->
+  <entry id="str_monster_skill_swallow_howl"><![CDATA[超然之识]]></entry>
+  <entry id="str_monster_skill_swallow_clamp"><![CDATA[无底深渊]]></entry>
+  <entry id="str_monster_skill_swallow_invade"><![CDATA[腐蚀血肉]]></entry>
+  <entry id="str_monster_skill_swallow_swallow1"><![CDATA[消耗生命力]]></entry>
+  <entry id="str_monster_skill_swallow_swallow2"><![CDATA[消耗生命力]]></entry>
+  <entry id="str_monster_skill_swallow_swallow3"><![CDATA[消耗生命力]]></entry>
+  <entry id="str_monster_skill_swallow_summon1"><![CDATA[归于血肉]]></entry>
+  <entry id="str_monster_skill_swallow_summon2"><![CDATA[归于血肉]]></entry>
+  <entry id="str_monster_skill_swallow_summon3"><![CDATA[归于血肉]]></entry>
+  <entry id="str_monster_skill_unform_guard"><![CDATA[护卫祷言]]></entry>
+  <entry id="str_monster_skill_unform_heal"><![CDATA[生命祷言]]></entry>
+  <!-- Buffs -->
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_swallow_tooltip_1"><![CDATA[归于血肉不可用]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_1"><![CDATA[1个被吞噬的灵魂]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_2"><![CDATA[2个被吞噬的灵魂]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_3"><![CDATA[3个被吞噬的灵魂]]></entry>
+  <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s如果任何敌人处于%s]]></entry>
+  <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%%火把燃烧速率]]></entry>
+  <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%%受到的伤害]]></entry>
+  <!-- Trinkets -->
+  <entry id="str_inventory_title_trinketabyssal_light"><![CDATA[幻影诱饵]]></entry>
+  <entry id="str_inventory_title_trinketshard_of_soul"><![CDATA[灵魂碎片]]></entry>
+  <entry id="str_inventory_set_title_soul_swallow_set"><![CDATA[“在这块他者的灵魂凝块中，生命能量仍旧温暖”]]></entry>
+   <entry id="trinket_rarity_soul_swallow"><![CDATA[深渊猎获]]></entry>
+  <!-- Plot Quest and Town Events -->
+  <entry id="town_quest_name_plot_soul_swallow_attack"><![CDATA[深渊出现]]></entry>
+  <entry id="str_embarked_on_plot_soul_swallow_attack"><![CDATA[驱散这片领域]]></entry>
+  <entry id="str_plot_soul_swallow_attack_tip"><![CDATA[当心持续伤害效果，尽量多些带能够治愈持续伤害效果的道具和技能]]></entry>
+  <entry id="loading_screen_override_soul_swallow"><![CDATA[连接已被建立……]]></entry>
+  <entry id="str_soul_swallow_tip"><![CDATA[当心持续伤害效果，尽量多些带能够治愈持续伤害效果的道具和技能]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_failure"><![CDATA[{?hero_names}%s被吞噬了]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_success"><![CDATA[{?hero_names}%s阻止了恐怖之物的进发，仅是暂时的]]></entry>
+  <entry id="town_quest_description_plot_soul_swallow_attack"><![CDATA[一种不想的恐惧笼罩着潮湿的洞穴。小心行事，因为你永远不知道路的另一边潜伏着什么……]]></entry>
+  
+  <entry id="town_event_description_soul_swallow_attack"><![CDATA[海湾中出现了一些异象。这里与另一领域的某些连接正在建立。我们的队伍无法承担起额外的后果，找到这一切的原因并消除它。]]></entry>
+  <entry id="town_event_title_soul_swallow_attack"><![CDATA[深渊裂隙]]></entry>
+  
+  
+  </language>
+<language id="japanese">
+   <!-- New Monster -->
+  <entry id="str_monstername_soul_swallower_C"><![CDATA[Abyssal Horror]]></entry>
+  <entry id="str_monstername_unformed_C"><![CDATA[Unformed]]></entry>
+  <!-- Monster Attacks -->
+  <entry id="str_monster_skill_swallow_howl"><![CDATA[Unearthly Knowledge]]></entry>
+  <entry id="str_monster_skill_swallow_clamp"><![CDATA[Maw of the Abyss]]></entry>
+  <entry id="str_monster_skill_swallow_invade"><![CDATA[Decay the Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_swallow1"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow2"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_swallow3"><![CDATA[Consume Life Force]]></entry>
+  <entry id="str_monster_skill_swallow_summon1"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon2"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_swallow_summon3"><![CDATA[Return to Flesh]]></entry>
+  <entry id="str_monster_skill_unform_guard"><![CDATA[Prayer of Protection]]></entry>
+  <entry id="str_monster_skill_unform_heal"><![CDATA[Prayer of Life]]></entry>
+  <!-- Buffs -->
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_swallow_tooltip_1"><![CDATA[Return to Flesh Disabled]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_1"><![CDATA[1 Devoured Soul]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_2"><![CDATA[2 Devoured Souls]]></entry>
+  <entry id="buff_stat_tooltip_upgrade_discount_soul_number_tooltip_3"><![CDATA[3 Devoured Souls]]></entry>
+  <entry id="buff_rule_tooltip_monster_type_count_min"><![CDATA[%s if any enemy is %s]]></entry>
+  <entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%+d%% Torch Burn Rate]]></entry>
+  <entry id="buff_stat_tooltip_damage_received_percent"><![CDATA[%+d%% DMG Received]]></entry>
+  <!-- Trinkets -->
+  <entry id="str_inventory_title_trinketabyssal_light"><![CDATA[Phantasmal Lure]]></entry>
+  <entry id="str_inventory_title_trinketshard_of_soul"><![CDATA[Shard of Soul]]></entry>
+  <entry id="str_inventory_set_title_soul_swallow_set"><![CDATA["In this clot of another's soul, life is still warming"]]></entry>
+   <entry id="trinket_rarity_soul_swallow"><![CDATA[Abyssal Trophy]]></entry>
+  <!-- Plot Quest and Town Events -->
+  <entry id="town_quest_name_plot_soul_swallow_attack"><![CDATA[Abyssal Establishment]]></entry>
+  <entry id="str_embarked_on_plot_soul_swallow_attack"><![CDATA[Departed this realm]]></entry>
+  <entry id="str_plot_soul_swallow_attack_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="loading_screen_override_soul_swallow"><![CDATA[The connection is established...]]></entry>
+  <entry id="str_soul_swallow_tip"><![CDATA[Be careful with DOTs, only bring which you can cure]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_failure"><![CDATA[{?hero_names}%s were devoured]]></entry>
+  <entry id="str_returned_from_plot_soul_swallow_attack_success"><![CDATA[{?hero_names}%s halted the horror's advances, for now]]></entry>
+  <entry id="town_quest_description_plot_soul_swallow_attack"><![CDATA[A sinister apprehension envelopes the damp caverns. Tread carefully, for you never know lurks on the other side...]]></entry>
+  
+  <entry id="town_event_description_soul_swallow_attack"><![CDATA[Some sort of anomaly is occuring in the cove. Some connection to another realm is being established. Our party does not require additional encumberments, find the causal force and eliminate it. ]]></entry>
+  <entry id="town_event_title_soul_swallow_attack"><![CDATA[Abyssal Rift]]></entry>
+</language>
+</root>
+

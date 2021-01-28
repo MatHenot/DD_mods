@@ -1,0 +1,16 @@
+{
+   "loot_tables" :
+   [
+       {
+         "id" : "SOUL_SWALLOWER_TRINKETS",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "trinket", "id" : "abyssal_light", "amount" : 1 }},
+			{ "type" : "item", "chances" : 1, "data" : { "type" : "trinket", "id" : "shard_of_soul", "amount" : 1 }}
+         ]
+      }
+   ]
+}

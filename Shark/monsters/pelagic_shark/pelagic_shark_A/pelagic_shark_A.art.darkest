@@ -1,4 +1,0 @@
-commonfx: .deathfx death_medium
-skill: .id "bite" .anim "bite" .fx "bite_fx" .targchestfx "blood_splatter" 
-skill: .id "anchor" .anim "anchor" .fx "anchor_fx".targfx "" .area_pos_offset -100 0
-skill: .id "net" .anim "net" .fx "net_fx" .targfx "" .area_pos_offset -150 0
