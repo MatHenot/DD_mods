@@ -1,1 +1,1 @@
-named: .name soul_swallower_mash .types soul_swallower_C
+room: .chance 80000 .types ursin_C pelagic_shark_C .can_be_ambush false .loading_screen shark

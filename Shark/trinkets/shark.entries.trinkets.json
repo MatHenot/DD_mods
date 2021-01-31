@@ -1,0 +1,98 @@
+{
+   "entries":
+   [
+      {
+         "id" : "rat_king_tails",
+         "buffs" : 
+         [
+			"DMGL20",
+			"DMGH20",
+			"T_rats_BeastDMGL",
+			"T_rats_BeastDMGH",
+			"SPD-1",
+			"T_Tails_ToolTip"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "set_id" : "shark_set",
+         "rarity" : "T_SHARK",
+         "visual_rarity" : "SHARK",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "kill_performer_additional_effects":
+         [
+             "T_AllyDMG",
+			 "T_AllyDMG2"
+         ]
+      },
+      {
+         "id" : "rat_king_heart",
+         "buffs" : 
+         [
+ 			"DEBUFFRESIST25",
+			"DEBUFFSKILL10",
+			"STRESSDMG-10",
+			"RESOLVECHECK-10"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "set_id" : "shark_set",
+         "rarity" : "T_SHARK",
+         "visual_rarity" : "SHARK",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "" 
+      },
+      {
+         "id" : "rat_king_claw",
+         "buffs" : 
+         [
+ 			"TRINKET_SPD_B2",
+			"ACC5",
+			"T_Claw_DEF",
+			"T_Claw_ToolTip"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "set_id" : "shark_set",
+         "rarity" : "T_SHARK",
+         "visual_rarity" : "SHARK",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "friendly_skill_additional_effects":
+         [
+             "T_AllyStun"
+         ]		 
+      },
+      {
+         "id" : "rat_king_heads",
+         "buffs" : 
+         [
+ 			"CRIT8",
+			"T_Heads_ToolTip"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "set_id" : "shark_set",
+         "rarity" : "T_SHARK",
+         "visual_rarity" : "SHARK",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+		 "attack_skill_additional_effects":
+         [
+             "T_CleanCorpse"
+         ],
+		 "kill_performer_additional_effects":
+         [
+			 "T_StressOnKill"
+         ]
+      }
+   ]
+}

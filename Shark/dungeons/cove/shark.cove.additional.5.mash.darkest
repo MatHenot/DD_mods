@@ -1,1 +1,0 @@
-room: .chance 0.08 .types soul_swallower_C .plot_quest_requirement plot_soul_swallow_attack .can_be_ambush false .loading_screen soul_swallower

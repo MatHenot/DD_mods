@@ -1,0 +1,13 @@
+{
+   "sets":
+   [
+      {
+         "id" : "shark_set",
+         "buffs" : 
+         [
+			"DISEASERESIST20",
+			"DEATHBLOWRESIST5"
+         ]
+      }
+   ]
+}
