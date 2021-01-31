@@ -1,0 +1,5 @@
+commonfx: .deathfx death_medium
+skill: .id "ursin_needle1" .anim "attack_sting" .fx "rend" .targfx "rend_target"
+skill: .id "ursin_needle2" .anim "attack_sting" .fx "rend" .targchestfx "rend_target"
+skill: .id "ursin_smoke" .anim "attack_rend" .fx "sting" .targchestfx "sting_target"
+riposte_skill: .id "riposte1" .anim "attack_sting" .fx "sting" .targchestfx "sting_target"

@@ -79,6 +79,56 @@
                     }
                 }
             ]
-        }
+        },
+		{
+			"id": "ursin",
+            "skill_cooldowns": [
+				{
+					"combat_skill_id": "ursin_needle1",
+                    "amount": 1
+				},
+				{
+					"combat_skill_id": "ursin_smoke",
+                    "amount": 1
+				}
+			],
+            "skill_selection_desires": [
+				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1,
+                        "combat_skill_id": "ursin_smoke"
+                    }
+                },
+				{
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1,
+                        "combat_skill_id": "ursin_needle1"
+                    }
+                },
+				{
+                    "type": "ally_dead_skill",
+                    "data": {
+                        "base_chance": 1000000,
+                        "combat_skill_id": "ursin_needle2",
+                        "ally_base_class_id": "pelagic_shark"
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+		}
 	]
 }

@@ -1,3 +1,3 @@
 effect: .name "Shark_ACC_on_Bleed"	.target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "bleeding"	.combat_stat_buff 1 .attack_rating_add 200	.on_hit true .on_miss false
 effect: .name "Shark_unimmobilize" .target "target" .chance 100% .unimmobilize 1 .on_hit true .on_miss true	.queue false
-
+effect: .name "Ursin Riposte" .target "performer" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration -1 .on_hit true .on_miss true .riposte_effect "Bleed 5"

@@ -1,7 +1,7 @@
 display: .size 2
 enemy_type: .id "beast"
 stats: .hp 235 .def 10% .prot 0.2 .spd 6 .stun_resist 100% .poison_resist 70% .bleed_resist 90% .debuff_resist 100% .move_resist 220%
-skill: .id "Shark_Bite" .type "melee" .atk -90% .dmg 15 15 .crit 100%  .launch 4321 .target ~1234 .effect "Shark_ACC_on_Bleed" "Shark_unimmobilize" .can_be_riposted false
+skill: .id "Shark_Bite" .type "melee" .atk -90% .dmg 17 17 .crit 100%  .launch 4321 .target ~1234 .effect "Shark_ACC_on_Bleed" "Shark_unimmobilize" .can_be_riposted false
 skill: .id "Shark_Anchor" .type "melee" .atk 100% .dmg 12 21 .crit 15%  .launch 4321 .target 1234 .effect "Stun 3"
 skill: .id "Shark_Net" .type "ranged" .atk 115% .dmg 0 0 .crit 0%  .launch 4321 .target 1234 .effect "Disorient 5" "immobilize" .is_crit_valid False
 skill: .id "Shark_Net2" .type "ranged" .atk 115% .dmg 0 0 .crit 0%  .launch 4321 .target 1234 .effect "Disorient 5" "immobilize" .is_crit_valid False .extra_targets_chance 1.0 .extra_targets_count 1 .is_knowledgeable False
