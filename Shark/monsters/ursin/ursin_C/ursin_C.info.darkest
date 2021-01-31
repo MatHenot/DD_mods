@@ -1,9 +1,10 @@
 display: .size 2
 enemy_type: .id "eldritch"
 stats: .hp 150 .def 5% .prot 70 .spd 20 .stun_resist 225% .poison_resist 70% .bleed_resist 120% .debuff_resist 90% .move_resist 225%
-skill: .id "ursin_needle1" .type "ranged" .atk 115% .dmg 7 9 .crit 14%  .effect "Bleed 5" "Jellyfish Disease" "Jellyfish Shock Debuff 5" .launch 4321 .target 1234
-skill: .id "ursin_needle2" .type "ranged" .atk 115% .dmg 7 9 .crit 14%  .effect "Bleed 5" "Jellyfish Disease" "Jellyfish Shock Debuff 5" .launch 4321 .target ~1234
+skill: .id "ursin_needle1" .type "ranged" .atk 113% .dmg 7 9 .crit 14%  .effect "Bleed 5" "Jellyfish Disease" "Jellyfish Shock Debuff 5" .launch 4321 .target 1234
+skill: .id "ursin_needle2" .type "ranged" .atk 113% .dmg 7 9 .crit 14%  .effect "Bleed 5" "Jellyfish Disease" "Jellyfish Shock Debuff 5" .launch 4321 .target ~1234
 skill: .id "ursin_smoke" .type "melee" .atk 0% .dmg 0 0 .crit 0%  .effect "Stealth 2" .launch 4321 .target @1234 .self_target_valid false
+riposte_skill: .id "riposte1"   .type "melee" .atk 113% .dmg 4  7 .crit 10% .launch 1234 .target 1234
 personality: .prefskill 1
 loot: .code "T_SHARK" .count 1
 loot: .code "SHARK" .count 8

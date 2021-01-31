@@ -29,7 +29,7 @@
                     "data": {
                         "base_chance": 1000000,
                         "combat_skill_id": "Shark_Net",
-                        "ally_base_class_id": "unformed"
+                        "ally_base_class_id": "ursin"
                     }
                 },
 				{
@@ -37,7 +37,7 @@
                     "data": {
                         "base_chance": 1000000,
                         "combat_skill_id": "Shark_Net2",
-                        "ally_base_class_id": "unformed"
+                        "ally_base_class_id": "ursin"
                     }
                 }
             ],
@@ -94,23 +94,25 @@
 			],
             "skill_selection_desires": [
 				{
-                    "type": "specific_skill",
+                    "type": "ally_alive_skill",
                     "data": {
                         "base_chance": 1,
-                        "combat_skill_id": "ursin_smoke"
+                        "combat_skill_id": "ursin_smoke",
+                        "ally_base_class_id": "pelagic_shark"
                     }
-                },
+                },				
 				{
-                    "type": "specific_skill",
+                    "type": "ally_alive_skill",
                     "data": {
                         "base_chance": 1,
-                        "combat_skill_id": "ursin_needle1"
+                        "combat_skill_id": "ursin_needle1",
+                        "ally_base_class_id": "pelagic_shark"
                     }
                 },
 				{
                     "type": "ally_dead_skill",
                     "data": {
-                        "base_chance": 1000000,
+                        "base_chance": 1,
                         "combat_skill_id": "ursin_needle2",
                         "ally_base_class_id": "pelagic_shark"
                     }
