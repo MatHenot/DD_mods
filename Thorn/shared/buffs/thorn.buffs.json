@@ -2,6 +2,19 @@
    "buffs":
    [
 	  {
+         "id" : "T_Blindness",
+         "stat_type" : "ignore_stealth",
+		 "stat_sub_type" : "",
+         "amount" : 1,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		 "has_description" : false
+      },
+	  {
          "id" : "exit_riposte",
          "stat_type" : "riposte",
          "stat_sub_type" : "switch to Shocked",

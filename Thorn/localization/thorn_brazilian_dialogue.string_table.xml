@@ -48,11 +48,20 @@
     <entry id="camping_skill_name_thorncamp3"><![CDATA[SINOS DE ALARME]]></entry>
     <entry id="camping_skill_name_thorncamp4"><![CDATA[ESCUTAR ATENTAMENTE]]></entry>
 	
-	<entry id="thorn_weapon_0"><![CDATA[Bastão de combate]]></entry>
-    <entry id="thorn_weapon_1"><![CDATA[Vara-Espada sem corte]]></entry>
-    <entry id="thorn_weapon_2"><![CDATA[Bengala-Espada afiada]]></entry>
-    <entry id="thorn_weapon_3"><![CDATA[Bengala-Espada refinada]]></entry>
-    <entry id="thorn_weapon_4"><![CDATA["A Guia"]]></entry>
+	<entry id="thorn_weapon_0"><![CDATA[Bastão de combate
+	{colour_start|neutral}Ignorar{colour_end} {colour_start|stealth}Estado Furtivo{colour_end}]]></entry>
+    <entry id="thorn_weapon_1"><![CDATA[Vara-Espada sem corte
+	{colour_start|neutral}Ignorar{colour_end} {colour_start|stealth}Estado Furtivo{colour_end}
+	{colour_start|neutral}PRE base: 5{colour_end}]]></entry>]]></entry>
+    <entry id="thorn_weapon_2"><![CDATA[Bengala-Espada afiada
+	{colour_start|neutral}Ignorar{colour_end} {colour_start|stealth}Estado Furtivo{colour_end}
+	{colour_start|neutral}PRE base: 10{colour_end}]]></entry>]]></entry>
+    <entry id="thorn_weapon_3"><![CDATA[Bengala-Espada refinada
+	{colour_start|neutral}Ignorar{colour_end} {colour_start|stealth}Estado Furtivo{colour_end}
+	{colour_start|neutral}PRE base: 15{colour_end}]]></entry>]]></entry>
+    <entry id="thorn_weapon_4"><![CDATA["A Guia"
+	{colour_start|neutral}Ignorar{colour_end} {colour_start|stealth}Estado Furtivo{colour_end}
+	{colour_start|neutral}PRE base: 20{colour_end}]]></entry>]]></entry>
     <entry id="upgrade_tree_name_thorn.weapon"><![CDATA[Bengala-Espada]]></entry>
 
     <entry id="thorn_armour_0"><![CDATA[Colete de couro]]></entry>

@@ -48,11 +48,20 @@
     <entry id="camping_skill_name_thorncamp3"><![CDATA[경보종]]></entry>
     <entry id="camping_skill_name_thorncamp4"><![CDATA[청력 집중]]></entry>
 	
-	<entry id="thorn_weapon_0"><![CDATA[전투 막대]]></entry>
-    <entry id="thorn_weapon_1"><![CDATA[무딘 봉검]]></entry>
-    <entry id="thorn_weapon_2"><![CDATA[날카로운 봉검]]></entry>
-    <entry id="thorn_weapon_3"><![CDATA[연마된 봉검]]></entry>
-    <entry id="thorn_weapon_4"><![CDATA["길잡이"]]></entry>
+	<entry id="thorn_weapon_0"><![CDATA[전투 막대
+	{colour_start|stealth}은신{colour_end} {colour_start|neutral}무시{colour_end}]]></entry>
+    <entry id="thorn_weapon_1"><![CDATA[무딘 봉검
+	{colour_start|stealth}은신{colour_end} {colour_start|neutral}무시
+	기본 명중률: 5{colour_end}]]></entry>]]></entry>
+    <entry id="thorn_weapon_2"><![CDATA[날카로운 봉검
+	{colour_start|stealth}은신{colour_end} {colour_start|neutral}무시
+	기본 명중률: 10{colour_end}]]></entry>]]></entry>
+    <entry id="thorn_weapon_3"><![CDATA[연마된 봉검
+	{colour_start|stealth}은신{colour_end} {colour_start|neutral}무시
+	기본 명중률: 15{colour_end}]]></entry>]]></entry>
+    <entry id="thorn_weapon_4"><![CDATA["길잡이"
+	{colour_start|stealth}은신{colour_end} {colour_start|neutral}무시
+	기본 명중률: 20{colour_end}]]></entry>]]></entry>
     <entry id="upgrade_tree_name_thorn.weapon"><![CDATA[봉검]]></entry>
 
     <entry id="thorn_armour_0"><![CDATA[가죽 조끼]]></entry>
