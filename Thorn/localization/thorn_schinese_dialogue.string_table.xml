@@ -49,19 +49,19 @@
     <entry id="camping_skill_name_thorncamp4"><![CDATA[集中听觉]]></entry>
 	
 	<entry id="thorn_weapon_0"><![CDATA[战斗杖
-	{colour_start|neutral}无视{colour_end}{colour_start|stealth}潜行{colour_end}]]></entry>
+{colour_start|neutral}无视{colour_end}{colour_start|stealth}潜行{colour_end}]]></entry>
     <entry id="thorn_weapon_1"><![CDATA[钝杖剑
-	{colour_start|neutral}无视{colour_end}{colour_start|stealth}潜行{colour_end}
-	{colour_start|neutral}基础精准：5{colour_end}]]></entry>
+{colour_start|neutral}无视{colour_end}{colour_start|stealth}潜行{colour_end}
+{colour_start|neutral}基础精准：5{colour_end}]]></entry>
     <entry id="thorn_weapon_2"><![CDATA[锋利杖剑
-	{colour_start|neutral}无视{colour_end}{colour_start|stealth}潜行{colour_end}
-	{colour_start|neutral}基础精准：10{colour_end}]]></entry>
+{colour_start|neutral}无视{colour_end}{colour_start|stealth}潜行{colour_end}
+{colour_start|neutral}基础精准：10{colour_end}]]></entry>
     <entry id="thorn_weapon_3"><![CDATA[精制杖剑
-	{colour_start|neutral}无视{colour_end}{colour_start|stealth}潜行{colour_end}
-	{colour_start|neutral}基础精准：15{colour_end}]]></entry>
+{colour_start|neutral}无视{colour_end}{colour_start|stealth}潜行{colour_end}
+{colour_start|neutral}基础精准：15{colour_end}]]></entry>
     <entry id="thorn_weapon_4"><![CDATA[“探路者”
-	{colour_start|neutral}无视{colour_end}{colour_start|stealth}潜行{colour_end}
-	{colour_start|neutral}基础精准：20{colour_end}]]></entry>
+{colour_start|neutral}无视{colour_end}{colour_start|stealth}潜行{colour_end}
+{colour_start|neutral}基础精准：20{colour_end}]]></entry>
     <entry id="upgrade_tree_name_thorn.weapon"><![CDATA[杖剑]]></entry>
 
     <entry id="thorn_armour_0"><![CDATA[皮革背心]]></entry>

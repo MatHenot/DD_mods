@@ -25,7 +25,7 @@
     <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_defensive"><![CDATA[
-	{colour_start|specificclass}모든 자세에서 가능{colour_end}]]></entry>
+{colour_start|specificclass}모든 자세에서 가능{colour_end}]]></entry>
 	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[공격자세]]></entry>
 	<entry id="buff_rule_data_tooltip_dare"><![CDATA[공격자세]]></entry>
 	<entry id="buff_rule_data_tooltip_gash"><![CDATA[공격자세]]></entry>
@@ -37,9 +37,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Shocked"><![CDATA[{colour_start|specificclass}자세이탈:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Blank"><![CDATA[]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
-	{colour_start|specificclass}공격자세일 때만 가능{colour_end}]]></entry>
+{colour_start|specificclass}공격자세일 때만 가능{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
-	{colour_start|specificclass}방어자세일 때만 가능{colour_end}
+{colour_start|specificclass}방어자세일 때만 가능{colour_end}
 	
 	]]></entry>
 	
@@ -47,21 +47,21 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[피격시 자세이탈]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefA"><![CDATA[자세 변경: 공격
-	{colour_start|riposte}반격{colour_end} 활성화
-	{colour_start|riposte}반격{colour_end}: 피해 %d%%]]></entry>
+{colour_start|riposte}반격{colour_end} 활성화
+{colour_start|riposte}반격{colour_end}: 피해 %d%%]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefB"><![CDATA[방어효과 해제]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[피격시{colour_start|specificclass}자세이탈{colour_end}:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[{colour_start|riposte}반격{colour_end} 해제
-	{colour_start|stress}스트레스{colour_end} +5]]></entry>	
+{colour_start|stress}스트레스{colour_end} +5]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceOff"><![CDATA[자세 변경: 방어
 	공격효과 해제
-	{colour_start|notable}추가 턴{colour_end}]]></entry>
+{colour_start|notable}추가 턴{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceShck"><![CDATA[자세 변경: 공격
-	{colour_start|riposte}반격{colour_end} 활성화
-	{colour_start|notable}추가 턴{colour_end}]]></entry>	
+{colour_start|riposte}반격{colour_end} 활성화
+{colour_start|notable}추가 턴{colour_end}]]></entry>	
 
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[피해 -50%%
-	{colour_start|stun}기절{colour_end} {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>
+{colour_start|stun}기절{colour_end} {colour_start|skill_unselectable}(기본 %d%%){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveB"><![CDATA[{colour_start|stun}기절{colour_end} 기술 확률 +%d%% ("{colour_start|mark}표식 찍힘{colour_end}" 상대)]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[피해 +%d%% ("{colour_start|mark}표식 찍힘{colour_end}" 상대)]]></entry>
 
@@ -109,7 +109,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|bleed}출혈{colour_end} {colour_start|skill_unselectable}(기본 140%%){colour_end} 턴당 3 피해, 3턴 지속]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}보호 중{colour_end}/{colour_start|guard}보호받는 중{colour_end}인 아군:
-	{colour_start|healhp}회복{colour_end} %d]]></entry>
+{colour_start|healhp}회복{colour_end} %d]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken1"><![CDATA[{colour_start|riposte}반격{colour_end}: {colour_start|mark}표식{colour_end} 찍기]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken2"><![CDATA[{colour_start|skill_unselectable}가드가 끝날 때까지 지속{colour_end}]]></entry>

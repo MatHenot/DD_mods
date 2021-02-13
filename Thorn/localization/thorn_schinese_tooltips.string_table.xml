@@ -25,7 +25,7 @@
     <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_defensive"><![CDATA[
-	{colour_start|specificclass}两种姿态时皆可使用{colour_end}]]></entry>
+{colour_start|specificclass}两种姿态时皆可使用{colour_end}]]></entry>
 	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[进攻]]></entry>
 	<entry id="buff_rule_data_tooltip_dare"><![CDATA[进攻]]></entry>
 	<entry id="buff_rule_data_tooltip_gash"><![CDATA[进攻]]></entry>
@@ -37,9 +37,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Shocked"><![CDATA[{colour_start|specificclass}动摇：{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Blank"><![CDATA[]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
-	{colour_start|specificclass}进攻姿态限定{colour_end}]]></entry>
+{colour_start|specificclass}进攻姿态限定{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
-	{colour_start|specificclass}防守姿态限定{colour_end}
+{colour_start|specificclass}防守姿态限定{colour_end}
 	
 	]]></entry>
 
@@ -47,21 +47,21 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHit"><![CDATA[被击中时动摇]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefA"><![CDATA[切换姿态至：进攻
-	{colour_start|riposte}反击{colour_end}
-	{colour_start|riposte}反击：{colour_end}%d%%伤害]]></entry>
+{colour_start|riposte}反击{colour_end}
+{colour_start|riposte}反击：{colour_end}%d%%伤害]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefB"><![CDATA[取消防守效果]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[被击中时{colour_start|specificclass}动摇{colour_end}：]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[取消{colour_start|riposte}反击{colour_end}
-	{colour_start|stress}压力{colour_end}+5]]></entry>	
+{colour_start|stress}压力{colour_end}+5]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceOff"><![CDATA[切换姿态至：防守
 	取消进攻效果
-	{colour_start|notable}继续回合{colour_end}]]></entry>
+{colour_start|notable}继续回合{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceShck"><![CDATA[切换姿态至: 进攻
 	重新激活 {colour_start|riposte}反击{colour_end}
-	{colour_start|notable}继续回合{colour_end}]]></entry>
+{colour_start|notable}继续回合{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[-50%%伤害
-	{colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
+{colour_start|stun}眩晕{colour_end} {colour_start|skill_unselectable}（%d%%基础概率）{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveB"><![CDATA[+%d%%{colour_start|stun}眩晕{colour_end}机率（对{colour_start|mark}标记{colour_end}）]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%%伤害（对{colour_start|mark}标记{colour_end}）]]></entry>
 
@@ -109,7 +109,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}反击：{colour_end}{colour_start|bleed}流血{colour_end}{colour_start|skill_unselectable}（140%%基础概率）{colour_end}3点/回合 持续3回合]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}守护{colour_end}和{colour_start|guard}被守护{colour_end}的队友：
-	{colour_start|healhp}治疗{colour_end}%d点生命]]></entry>
+{colour_start|healhp}治疗{colour_end}%d点生命]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken1"><![CDATA[{colour_start|riposte}反击：{colour_end}命中时：{colour_start|mark}标记{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken2"><![CDATA[{colour_start|skill_unselectable}持续到守卫结束{colour_end}]]></entry>

@@ -49,19 +49,19 @@
     <entry id="camping_skill_name_thorncamp4"><![CDATA[HEARING FOCUS]]></entry>
 	
 	<entry id="thorn_weapon_0"><![CDATA[Combat Stick
-	{colour_start|neutral}Bypass{colour_end} {colour_start|stealth}Stealth{colour_end}]]></entry>
+{colour_start|neutral}Bypass{colour_end} {colour_start|stealth}Stealth{colour_end}]]></entry>
     <entry id="thorn_weapon_1"><![CDATA[Blunt Swordstick
-	{colour_start|neutral}Bypass{colour_end} {colour_start|stealth}Stealth{colour_end}
-    {colour_start|neutral}ACC base: 5{colour_end}]]></entry>
+{colour_start|neutral}Bypass{colour_end} {colour_start|stealth}Stealth{colour_end}
+{colour_start|neutral}ACC base: 5{colour_end}]]></entry>
     <entry id="thorn_weapon_2"><![CDATA[Sharpened Cane Sword
-	{colour_start|neutral}Bypass{colour_end} {colour_start|stealth}Stealth{colour_end}
-    {colour_start|neutral}ACC base: 10{colour_end}]]></entry>
+{colour_start|neutral}Bypass{colour_end} {colour_start|stealth}Stealth{colour_end}
+{colour_start|neutral}ACC base: 10{colour_end}]]></entry>
     <entry id="thorn_weapon_3"><![CDATA[Refined Cane Sword
-	{colour_start|neutral}Bypass{colour_end} {colour_start|stealth}Stealth{colour_end}
-    {colour_start|neutral}ACC base: 15{colour_end}]]></entry>
+{colour_start|neutral}Bypass{colour_end} {colour_start|stealth}Stealth{colour_end}
+{colour_start|neutral}ACC base: 15{colour_end}]]></entry>
     <entry id="thorn_weapon_4"><![CDATA["Pathfinder"
-	{colour_start|neutral}Bypass{colour_end} {colour_start|stealth}Stealth{colour_end}
-    {colour_start|neutral}ACC base: 20{colour_end}]]></entry>
+{colour_start|neutral}Bypass{colour_end} {colour_start|stealth}Stealth{colour_end}
+{colour_start|neutral}ACC base: 20{colour_end}]]></entry>
     <entry id="upgrade_tree_name_thorn.weapon"><![CDATA[Cane Sword]]></entry>
 
     <entry id="thorn_armour_0"><![CDATA[Leather Vest]]></entry>

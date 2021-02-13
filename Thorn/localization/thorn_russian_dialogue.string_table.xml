@@ -49,19 +49,19 @@
     <entry id="camping_skill_name_thorncamp4"><![CDATA[СФОКУСИРОВАТЬ СЛУХ]]></entry>
 	
 	<entry id="thorn_weapon_0"><![CDATA[Боевая трость
-	{colour_start|neutral}Игнорировать{colour_end} {colour_start|stealth}незаметность{colour_end}]]></entry>
+{colour_start|neutral}Игнорировать{colour_end} {colour_start|stealth}незаметность{colour_end}]]></entry>
     <entry id="thorn_weapon_1"><![CDATA[Тупая трость-меч
-	{colour_start|neutral}Игнорировать{colour_end} {colour_start|stealth}незаметность{colour_end}
-	{colour_start|neutral}Баз. МТК: 5{colour_end}]]></entry>
+{colour_start|neutral}Игнорировать{colour_end} {colour_start|stealth}незаметность{colour_end}
+{colour_start|neutral}Баз. МТК: 5{colour_end}]]></entry>
     <entry id="thorn_weapon_2"><![CDATA[Заострённая трость-меч
-	{colour_start|neutral}Игнорировать{colour_end} {colour_start|stealth}незаметность{colour_end}
-	{colour_start|neutral}Баз. МТК: 10{colour_end}]]></entry>
+{colour_start|neutral}Игнорировать{colour_end} {colour_start|stealth}незаметность{colour_end}
+{colour_start|neutral}Баз. МТК: 10{colour_end}]]></entry>
     <entry id="thorn_weapon_3"><![CDATA[Закалённая трость-меч
-	{colour_start|neutral}Игнорировать{colour_end} {colour_start|stealth}незаметность{colour_end}
-	{colour_start|neutral}Баз. МТК: 15{colour_end}]]></entry>
+{colour_start|neutral}Игнорировать{colour_end} {colour_start|stealth}незаметность{colour_end}
+{colour_start|neutral}Баз. МТК: 15{colour_end}]]></entry>
     <entry id="thorn_weapon_4"><![CDATA["Следопыт"
-	{colour_start|neutral}Игнорировать{colour_end} {colour_start|stealth}незаметность{colour_end}
-	{colour_start|neutral}Баз. МТК: 20{colour_end}]]></entry>
+{colour_start|neutral}Игнорировать{colour_end} {colour_start|stealth}незаметность{colour_end}
+{colour_start|neutral}Баз. МТК: 20{colour_end}]]></entry>
     <entry id="upgrade_tree_name_thorn.weapon"><![CDATA[Трость-меч]]></entry>
 
     <entry id="thorn_armour_0"><![CDATA[Кожаный жилет]]></entry>

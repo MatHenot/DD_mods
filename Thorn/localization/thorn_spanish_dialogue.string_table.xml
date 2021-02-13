@@ -49,19 +49,19 @@
     <entry id="camping_skill_name_thorncamp4"><![CDATA[CONCENTRARSE EN ESCUCHAR]]></entry>
 	
 	<entry id="thorn_weapon_0"><![CDATA[Bastón de combate
-	{colour_start|neutral}Eludir{colour_end} {colour_start|stealth}sigilo{colour_end}]]></entry>
+{colour_start|neutral}Eludir{colour_end} {colour_start|stealth}sigilo{colour_end}]]></entry>
     <entry id="thorn_weapon_1"><![CDATA[Bastón con espada de prácticas
-	{colour_start|neutral}Eludir{colour_end} {colour_start|stealth}sigilo{colour_end}
-	{colour_start|neutral}PRE base: 5{colour_end}]]></entry>
+{colour_start|neutral}Eludir{colour_end} {colour_start|stealth}sigilo{colour_end}
+{colour_start|neutral}PRE base: 5{colour_end}]]></entry>
     <entry id="thorn_weapon_2"><![CDATA[Vara con espadín
-	{colour_start|neutral}Eludir{colour_end} {colour_start|stealth}sigilo{colour_end}
-	{colour_start|neutral}PRE base: 10{colour_end}]]></entry>
+{colour_start|neutral}Eludir{colour_end} {colour_start|stealth}sigilo{colour_end}
+{colour_start|neutral}PRE base: 10{colour_end}]]></entry>
     <entry id="thorn_weapon_3"><![CDATA[Vara con florete
-	{colour_start|neutral}Eludir{colour_end} {colour_start|stealth}sigilo{colour_end}
-	{colour_start|neutral}PRE base: 15{colour_end}]]></entry>
+{colour_start|neutral}Eludir{colour_end} {colour_start|stealth}sigilo{colour_end}
+{colour_start|neutral}PRE base: 15{colour_end}]]></entry>
     <entry id="thorn_weapon_4"><![CDATA["Intrépida"
-	{colour_start|neutral}Eludir{colour_end} {colour_start|stealth}sigilo{colour_end}
-	{colour_start|neutral}PRE base: 20{colour_end}]]></entry>
+{colour_start|neutral}Eludir{colour_end} {colour_start|stealth}sigilo{colour_end}
+{colour_start|neutral}PRE base: 20{colour_end}]]></entry>
     <entry id="upgrade_tree_name_thorn.weapon"><![CDATA[Vara con estoque]]></entry>
 
     <entry id="thorn_armour_0"><![CDATA[Jubón de cuero]]></entry>

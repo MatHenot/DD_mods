@@ -25,7 +25,7 @@
     <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_defensive"><![CDATA[
-	{colour_start|specificclass}Disponível em ambas posturas{colour_end}]]></entry>
+{colour_start|specificclass}Disponível em ambas posturas{colour_end}]]></entry>
 	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Ofensiva]]></entry>
 	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Ofensiva]]></entry>
 	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Ofensiva]]></entry>
@@ -37,9 +37,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Shocked"><![CDATA[{colour_start|specificclass}Desestabilizada:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Blank"><![CDATA[]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
-	{colour_start|specificclass}Apenas Postura Ofensiva{colour_end}]]></entry>
+{colour_start|specificclass}Apenas Postura Ofensiva{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
-	{colour_start|specificclass}Apenas Postura Defensiva{colour_end}
+{colour_start|specificclass}Apenas Postura Defensiva{colour_end}
 	
 	]]></entry>
 
@@ -48,20 +48,20 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefA"><![CDATA[Mudar para modo: Ofensiva
 	Ativa {colour_start|riposte}Revide{colour_end}
-	{colour_start|riposte}Revide{colour_end}: %d%% DANO]]></entry>
+{colour_start|riposte}Revide{colour_end}: %d%% DANO]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefB"><![CDATA[Cancela Efeitos Defensiva]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[{colour_start|specificclass}Desestabilizada{colour_end} Quando acertada:]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[Cancela {colour_start|riposte}Revide{colour_end}
-	{colour_start|stress}Estresse{colour_end} +5]]></entry>	
+{colour_start|stress}Estresse{colour_end} +5]]></entry>	
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceOff"><![CDATA[Mudar para modo: Defensiva
 	Cancela efeitos ofensiva
-	{colour_start|notable}Continua turno{colour_end}]]></entry>
+{colour_start|notable}Continua turno{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceShck"><![CDATA[Mudar para modo: Ofensiva
 	Reativa {colour_start|riposte}Revide{colour_end}
-	{colour_start|notable}Continua turno{colour_end}]]></entry>
+{colour_start|notable}Continua turno{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[-50%% DANO
-	{colour_start|stun}Atordoamento{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
+{colour_start|stun}Atordoamento{colour_end} {colour_start|skill_unselectable}(%d%% base){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveB"><![CDATA[+%d%% {colour_start|stun}Atordoamento{colour_end} Chance de habilidade vs {colour_start|mark}Marcado{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustOffensive"><![CDATA[+%d%% DANO vs {colour_start|mark}Marcado{colour_end}]]></entry>
 
@@ -109,7 +109,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|bleed}Sangramento{colour_end} {colour_start|skill_unselectable}(140%% base){colour_end} 4pts/rd por 3 rds]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Protegido{colour_end} and {colour_start|guard}Protegido{colour_end} Aliados:
-	{colour_start|healhp}Curar{colour_end} %d PV]]></entry>
+{colour_start|healhp}Curar{colour_end} %d PV]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken1"><![CDATA[{colour_start|riposte}Revide{colour_end}: {colour_start|mark}Marcar{colour_end} ao acertar]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken2"><![CDATA[{colour_start|skill_unselectable}Dura até acabar Proteção{colour_end}]]></entry>

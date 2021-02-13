@@ -25,7 +25,7 @@
     <entry id="str_skill_mode_info_dare"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_defensive"><![CDATA[
-	{colour_start|specificclass}В обеих стойках{colour_end}]]></entry>
+{colour_start|specificclass}В обеих стойках{colour_end}]]></entry>
 	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Наступление]]></entry>
 	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Наступление]]></entry>
 	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Наступление]]></entry>
@@ -37,9 +37,9 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Shocked"><![CDATA[{colour_start|specificclass}Шаткость:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_Blank"><![CDATA[]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_OffModeValid"><![CDATA[
-	{colour_start|specificclass}В наступлении{colour_end}]]></entry>
+{colour_start|specificclass}В наступлении{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_DefModeValid"><![CDATA[
-	{colour_start|specificclass}В обороне{colour_end}
+{colour_start|specificclass}В обороне{colour_end}
 	
 	]]></entry>
 
@@ -48,17 +48,17 @@
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefA"><![CDATA[В наступление
 	Вкл. {colour_start|riposte}парирование{colour_end}
-	{colour_start|riposte}Парирование{colour_end}: %d%% УРН]]></entry>
+{colour_start|riposte}Парирование{colour_end}: %d%% УРН]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceDefB"><![CDATA[Отмена эффектов обороны]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_EndByHitA"><![CDATA[Шаткость при уроне:]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_EndByHitB"><![CDATA[Отмена {colour_start|riposte}парирования{colour_end}
-	{colour_start|stress}стресс{colour_end} +5]]></entry> 
+{colour_start|stress}стресс{colour_end} +5]]></entry> 
 	<entry id="buff_stat_tooltip_upgrade_discount_StanceOff"><![CDATA[В оборону
 	Отмена эффектов наступления
-	{colour_start|notable}Сохраняет ход{colour_end}]]></entry>
+{colour_start|notable}Сохраняет ход{colour_end}]]></entry>
     <entry id="buff_stat_tooltip_upgrade_discount_StanceShck"><![CDATA[В наступление
 	Вкл. {colour_start|riposte}парирование{colour_end}
-	{colour_start|notable}Сохраняет ход{colour_end}]]></entry>
+{colour_start|notable}Сохраняет ход{colour_end}]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveA"><![CDATA[-50%% УРН / {colour_start|stun}Оглушение{colour_end} {colour_start|skill_unselectable}(%d%% база){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_ThrustDefensiveB"><![CDATA[+%d%% шанс {colour_start|stun}оглушения{colour_end} если враг {colour_start|mark}помечен{colour_end}]]></entry>
@@ -108,7 +108,7 @@
 	<entry id="buff_stat_tooltip_upgrade_discount_Gash5"><![CDATA[{colour_start|riposte}Ответ{colour_end}: {colour_start|bleed}кров.{colour_end} {colour_start|skill_unselectable}(140%%){colour_end} 4 ОЗ/рнд 3 рнд]]></entry>
 
 	<entry id="buff_stat_tooltip_upgrade_discount_Blossom"><![CDATA[{colour_start|guard}Охраняющие{colour_end} и герои под {colour_start|guard}охраной{colour_end}:
-	{colour_start|healhp}лечение{colour_end} %d ОЗ]]></entry>
+{colour_start|healhp}лечение{colour_end} %d ОЗ]]></entry>
 	
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken1"><![CDATA[{colour_start|riposte}Парирование{colour_end}: {colour_start|mark}метка{colour_end} при ударе]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_hearken2"><![CDATA[{colour_start|skill_unselectable}Длится до конца охраны{colour_end}]]></entry>

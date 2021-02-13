@@ -49,19 +49,19 @@
     <entry id="camping_skill_name_thorncamp4"><![CDATA[SKUPIENIE SŁUCHU]]></entry>
 	
 	<entry id="thorn_weapon_0"><![CDATA[Kij Bojowy
-	{colour_start|neutral}Pomiń{colour_end} {colour_start|stealth}ukrycie{colour_end}}]]></entry>
+{colour_start|neutral}Pomiń{colour_end} {colour_start|stealth}ukrycie{colour_end}}]]></entry>
     <entry id="thorn_weapon_1"><![CDATA[Tępe Ostrze
-	{colour_start|neutral}Pomiń{colour_end} {colour_start|stealth}ukrycie{colour_end}
-	{colour_start|neutral}CEL bazowa: 5{colour_end}]]></entry>
+{colour_start|neutral}Pomiń{colour_end} {colour_start|stealth}ukrycie{colour_end}
+{colour_start|neutral}CEL bazowa: 5{colour_end}]]></entry>
     <entry id="thorn_weapon_2"><![CDATA[Naostrzone Ostrze
-	{colour_start|neutral}Pomiń{colour_end} {colour_start|stealth}ukrycie{colour_end}
-	{colour_start|neutral}CEL bazowa: 10{colour_end}]]></entry>
+{colour_start|neutral}Pomiń{colour_end} {colour_start|stealth}ukrycie{colour_end}
+{colour_start|neutral}CEL bazowa: 10{colour_end}]]></entry>
     <entry id="thorn_weapon_3"><![CDATA[Wyrafinowane Ostrze
-	{colour_start|neutral}Pomiń{colour_end} {colour_start|stealth}ukrycie{colour_end}
-	{colour_start|neutral}CEL bazowa: 15{colour_end}]]></entry>
+{colour_start|neutral}Pomiń{colour_end} {colour_start|stealth}ukrycie{colour_end}
+{colour_start|neutral}CEL bazowa: 15{colour_end}]]></entry>
     <entry id="thorn_weapon_4"><![CDATA["Pionier"
-	{colour_start|neutral}Pomiń{colour_end} {colour_start|stealth}ukrycie{colour_end}
-	{colour_start|neutral}CEL bazowa: 20{colour_end}]]></entry>
+{colour_start|neutral}Pomiń{colour_end} {colour_start|stealth}ukrycie{colour_end}
+{colour_start|neutral}CEL bazowa: 20{colour_end}]]></entry>
     <entry id="upgrade_tree_name_thorn.weapon"><![CDATA[Ostrze]]></entry>
 
     <entry id="thorn_armour_0"><![CDATA[Kamizelka Skórzana]]></entry>
