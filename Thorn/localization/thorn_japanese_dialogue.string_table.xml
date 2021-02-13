@@ -30,7 +30,7 @@
 	<entry id="combat_skill_name_thorn_listen"><![CDATA[Single Out]]></entry>
     <entry id="combat_skill_name_thorn_blossom"><![CDATA[Blossom]]></entry>
     <entry id="combat_skill_name_thorn_hearken"><![CDATA[Hearken]]></entry>
-    <entry id="combat_skill_name_thorn_gash"><![CDATA[Gash]]></entry>
+    <entry id="combat_skill_name_thorn_gash"><![CDATA[Perforate]]></entry>
     <entry id="combat_skill_name_thorn_dare"><![CDATA[Dare]]></entry>
     <entry id="combat_skill_name_thorn_wilt"><![CDATA[Wilt]]></entry>
     <entry id="combat_skill_name_thorn_move"><![CDATA[Move]]></entry>
@@ -39,7 +39,7 @@
     <entry id="upgrade_tree_name_thorn.listen"><![CDATA[Single Out]]></entry>    
     <entry id="upgrade_tree_name_thorn.blossom"><![CDATA[Blossom]]></entry>
     <entry id="upgrade_tree_name_thorn.hearken"><![CDATA[Hearken]]></entry>
-    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Gash]]></entry>
+    <entry id="upgrade_tree_name_thorn.gash"><![CDATA[Perforate]]></entry>
     <entry id="upgrade_tree_name_thorn.dare"><![CDATA[Dare]]></entry>
 	<entry id="upgrade_tree_name_thorn.wilt"><![CDATA[Wilt]]></entry>
 
@@ -203,7 +203,7 @@
     <entry id="str_roster_list_lost_bark"><![CDATA[Where am I?]]></entry>
     <entry id="str_roster_list_lost_bark"><![CDATA[Don't leave me alone!]]></entry>
     <entry id="str_roster_list_lost_bark"><![CDATA[Those sounds... Are there vile monsters around?]]></entry>
-   
+
   </language>
 
 </root>

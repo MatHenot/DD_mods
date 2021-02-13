@@ -52,16 +52,16 @@
 	{colour_start|neutral}Ignora{colour_end} {colour_start|stealth}furtività{colour_end}]]></entry>
     <entry id="thorn_weapon_1"><![CDATA[Spadino Smussato
 	{colour_start|neutral}Ignora{colour_end} {colour_start|stealth}furtività{colour_end}
-	{colour_start|neutral}PREC base: 5{colour_end}]]></entry>]]></entry>
+	{colour_start|neutral}PREC base: 5{colour_end}]]></entry>
     <entry id="thorn_weapon_2"><![CDATA[Fioretto Affilato
 	{colour_start|neutral}Ignora{colour_end} {colour_start|stealth}furtività{colour_end}
-	{colour_start|neutral}PREC base: 10{colour_end}]]></entry>]]></entry>
+	{colour_start|neutral}PREC base: 10{colour_end}]]></entry>
     <entry id="thorn_weapon_3"><![CDATA[Fioretto Pregiato
 	{colour_start|neutral}Ignora{colour_end} {colour_start|stealth}furtività{colour_end}
-	{colour_start|neutral}PREC base: 15{colour_end}]]></entry>]]></entry>
+	{colour_start|neutral}PREC base: 15{colour_end}]]></entry>
     <entry id="thorn_weapon_4"><![CDATA["Pathfinder"
 	{colour_start|neutral}Ignora{colour_end} {colour_start|stealth}furtività{colour_end}
-	{colour_start|neutral}PREC base: 20{colour_end}]]></entry>]]></entry>
+	{colour_start|neutral}PREC base: 20{colour_end}]]></entry>
     <entry id="upgrade_tree_name_thorn.weapon"><![CDATA[Fioretto]]></entry>
 
     <entry id="thorn_armour_0"><![CDATA[Vesti di Cuoio]]></entry>

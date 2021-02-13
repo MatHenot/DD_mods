@@ -55,13 +55,13 @@
 	{colour_start|neutral}PRÉ de base : 5{colour_end}]]></entry>
     <entry id="thorn_weapon_2"><![CDATA[Canne-Épée Aiguisée
 	{colour_start|neutral}Ignore la{colour_end} {colour_start|stealth}furtivité{colour_end}
-	{colour_start|neutral}PRÉ de base : 10{colour_end}]]></entry>]]></entry>
+	{colour_start|neutral}PRÉ de base : 10{colour_end}]]></entry>
     <entry id="thorn_weapon_3"><![CDATA[Canne-Épée Raffinée
 	{colour_start|neutral}Ignore la{colour_end} {colour_start|stealth}furtivité{colour_end}
-	{colour_start|neutral}PRÉ de base : 15{colour_end}]]></entry>]]></entry>
+	{colour_start|neutral}PRÉ de base : 15{colour_end}]]></entry>
     <entry id="thorn_weapon_4"><![CDATA["Éclaireur"
 	{colour_start|neutral}Ignore la{colour_end} {colour_start|stealth}furtivité{colour_end}
-	{colour_start|neutral}PRÉ de base : 20{colour_end}]]></entry>]]></entry>
+	{colour_start|neutral}PRÉ de base : 20{colour_end}]]></entry>
     <entry id="upgrade_tree_name_thorn.weapon"><![CDATA[Canne-Épée]]></entry>
 
     <entry id="thorn_armour_0"><![CDATA[Veste de Cuir]]></entry>

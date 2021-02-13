@@ -1,1 +1,0 @@
-buff_rule_data_tooltip_dare,thorn_english_tooltips,polish,
