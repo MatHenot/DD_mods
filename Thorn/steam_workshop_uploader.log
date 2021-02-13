@@ -271,7 +271,6 @@ localization/1785514611_polish.loc2
 localization/1785514611_russian.loc2
 localization/1785514611_schinese.loc2
 localization/1785514611_spanish.loc2
-localization/missing_files.txt
 localization/thorn_brazilian_dialogue.string_table.xml
 localization/thorn_brazilian_tooltips.string_table.xml
 localization/thorn_czech_dialogue.string_table.xml
@@ -312,6 +311,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting..................................................................................................................................................................Submitted.
+Submitting..............................................................................................................................................Submitted.
 Saving project file D:\DD_mods\Thorn\project.xml
 
