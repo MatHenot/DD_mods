@@ -26,7 +26,7 @@
     <entry id="str_skill_mode_info_gash"><![CDATA[]]></entry>
     <entry id="str_skill_mode_info_defensive"><![CDATA[
 {colour_start|specificclass}Dostępne w obu stanach{colour_end}]]></entry>
-	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Ofensywa]></entry>
+	<entry id="buff_rule_data_tooltip_offensive"><![CDATA[Ofensywa]]></entry>
 	<entry id="buff_rule_data_tooltip_dare"><![CDATA[Ofensywa]]></entry>
 	<entry id="buff_rule_data_tooltip_gash"><![CDATA[Ofensywa]]></entry>
     <entry id="buff_rule_data_tooltip_defensive"><![CDATA[Obrona]]></entry>
