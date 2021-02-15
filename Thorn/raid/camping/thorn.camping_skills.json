@@ -307,7 +307,7 @@
 					"chance" : { "code" : "b", "amount": 1 }, 
 					"type" : "buff",
 					"sub_type" : "C_ambush_ToolTip",
-					"amount" :  0
+					"amount" :  -1
 				}
 			],
 			"hero_classes" : ["thorn"],
