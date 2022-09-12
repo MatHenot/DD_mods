@@ -75,7 +75,7 @@ mode: .id gash .battle_complete_combat_skill_id "stance"
 mode: .id dare .battle_complete_combat_skill_id "stance"
 mode: .id shocked .battle_complete_combat_skill_id "stance"
 overstressed_modifier: .override_trait_type_ids farseeing blindness .override_trait_type_chances 1 3
-quirk_modifier: .incompatible_class_ids natural_eye lazy_eye night_owl night_blindness corvids_eye corvids_blindness hysterical_blindness deadeye pink_eye nearsighted farsighted
+quirk_modifier: .incompatible_class_ids natural_eye lazy_eye night_owl night_blindness corvids_eye corvids_blindness hysterical_blindness deadeye pink_eye nearsighted farsighted sensitive_to_light Photomania eagle_eye nocturnal diurnal
 hp_reaction: .hp_ratio 0.987 .is_under true .effects "thorn hit received"
 hp_reaction: .hp_ratio 0.975 .is_under true .effects "thorn hit received"
 hp_reaction: .hp_ratio 0.962 .is_under true .effects "thorn hit received"
