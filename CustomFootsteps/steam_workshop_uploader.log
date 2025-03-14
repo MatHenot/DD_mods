@@ -1,13 +1,13 @@
 
 -------------------------------------------------------------------------------
-Parsing project file - D:\DD_mods\CustomFootsteps\project.xml
-Mod Data Directory = D:/DD_mods/CustomFootsteps/
+Parsing project file - D:\DD Mods\DD Code\CustomFootsteps\project.xml
+Mod Data Directory = D:/DD Mods/DD Code/CustomFootsteps/
 
 -------------------------------------------------------------------------------
 Processing Map Files files...
 
 -------------------------------------------------------------------------------
-Searching for preview icon file D:/DD_mods/CustomFootsteps/preview_icon.png...FOUND!
+Searching for preview icon file D:/DD Mods/DD Code/CustomFootsteps/preview_icon.png...FOUND!
 <UploadMode> - Set to direct_upload
 
 
@@ -21,6 +21,6 @@ modfiles.txt
 preview_icon.png
 project.xml
 
-Submitting.............................................................................................................Submitted.
-Saving project file D:\DD_mods\CustomFootsteps\project.xml
+Submitting......................................................................Submitted.
+Saving project file D:\DD Mods\DD Code\CustomFootsteps\project.xml
 
